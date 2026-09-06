@@ -763,5 +763,50 @@
     "poster": "assets/level-85.jpg",
     "recorded": "2026-09-06",
     "seconds": 48.0
+  },
+  {
+    "id": "level-86",
+    "number": 86,
+    "title": "Forest B \u2014 Not Quite",
+    "file": "/baba-is-you-media/media/86-forest-b-not-quite.mp4",
+    "poster": "assets/level-86.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 100.0
+  },
+  {
+    "id": "level-87",
+    "number": 87,
+    "title": "Forest C \u2014 Passing Through",
+    "file": "/baba-is-you-media/media/87-forest-c-passing-through.mp4",
+    "poster": "assets/level-87.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 216.0
+  },
+  {
+    "id": "level-88",
+    "number": 88,
+    "title": "Forest D \u2014 Salvage",
+    "file": "/baba-is-you-media/media/88-forest-d-salvage.mp4",
+    "poster": "assets/level-88.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 143.0
+  },
+  {
+    "id": "level-89",
+    "number": 89,
+    "title": "Forest E \u2014 Insulation",
+    "file": "/baba-is-you-media/media/89-forest-e-insulation.mp4",
+    "poster": "assets/level-89.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 103.0
+  },
+  {
+    "id": "level-90",
+    "number": 90,
+    "title": "Forest Extra 1 \u2014 Crumbling Floor",
+    "file": "/baba-is-you-media/media/90-forest-extra-01-crumbling-floor.mp4",
+    "poster": "assets/level-90.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 103.0
   }
 ]

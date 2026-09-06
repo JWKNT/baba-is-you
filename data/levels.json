@@ -43,5 +43,50 @@
     "poster": "assets/level-05.jpg",
     "seconds": 322.0,
     "recorded": "2026-09-05"
+  },
+  {
+    "id": "level-06",
+    "number": 6,
+    "title": "Off Limits",
+    "file": "media/06-off-limits.mp4",
+    "poster": "assets/level-06.jpg",
+    "seconds": 21,
+    "recorded": "2026-09-05"
+  },
+  {
+    "id": "level-07",
+    "number": 7,
+    "title": "Grass Yard",
+    "file": "media/07-grass-yard.mp4",
+    "poster": "assets/level-07.jpg",
+    "seconds": 125,
+    "recorded": "2026-09-05"
+  },
+  {
+    "id": "level-08",
+    "number": 8,
+    "title": "Lake 01 — Icy Waters",
+    "file": "media/08-lake-01-icy-waters.mp4",
+    "poster": "assets/level-08.jpg",
+    "seconds": 101,
+    "recorded": "2026-09-05"
+  },
+  {
+    "id": "level-09",
+    "number": 9,
+    "title": "Lake 02 — Turns",
+    "file": "media/09-lake-02-turns.mp4",
+    "poster": "assets/level-09.jpg",
+    "seconds": 122,
+    "recorded": "2026-09-05"
+  },
+  {
+    "id": "level-10",
+    "number": 10,
+    "title": "Lake 03 — Affection",
+    "file": "media/10-lake-03-affection.mp4",
+    "poster": "assets/level-10.jpg",
+    "seconds": 138,
+    "recorded": "2026-09-05"
   }
 ]

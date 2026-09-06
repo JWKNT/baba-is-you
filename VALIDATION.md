@@ -19,3 +19,9 @@ Unique icon update: generated Baba character PNG replaces the generic puzzles ma
 - At 390px, DOM measurements show no document overflow, a 362.8px video within the viewport, and 14px controls/16px level titles. Doubled root text (32px) has no overflow or clipped primary labels. The browser screenshot compositor sometimes scaled the narrow capture; geometry measurements, not that image's apparent scale, establish the sizing result.
 - With JavaScript disabled and a fresh reload, one native player and all five MP4 links remain, no autoplay is set, and the custom PiP button is hidden. Print emulation yields black text on white with the player hidden. Temporary script, text, media and viewport overrides were restored.
 - Homepage: 17 tests pass. All 13 destinations remain; Games now groups NDB Idle, Puzzles and clearly labelled Baba recordings, with Links in Reading. Search, no-result feedback, Escape, keyboard disclosure, narrow layout, 200% text and no-JS destination links were checked. Shared runtime assets were not changed.
+
+## Recording batch · opening 06–07 and Lake 01–03
+
+Added five 1700×950 H.264 clips at 30 fps, about 31 MB total. Title cards, game-only framing and win sequences were visually checked. A battery interruption required replaying Turns; no desktop, lock-screen or interrupted source recording is published. The game retained its save progress.
+
+All 17 Node tests pass. Chromium played all five new clips and checked 1440/390px layouts in light/dark, 200% text, keyboard focus and all ten no-JavaScript download links, with no script errors. No player or theme code changed. Rollback: revert this batch commit; original recordings remain unchanged.

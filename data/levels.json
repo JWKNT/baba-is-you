@@ -403,5 +403,50 @@
     "poster": "assets/level-45.jpg",
     "recorded": "2026-09-06",
     "seconds": 381.9666666666667
+  },
+  {
+    "id": "level-46",
+    "number": 46,
+    "title": "Ruins 06 \u2014 Love Is Out There",
+    "file": "media/46-ruins-06-love-is-out-there.mp4",
+    "poster": "assets/level-46.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 200.0
+  },
+  {
+    "id": "level-47",
+    "number": 47,
+    "title": "Ruins 07 \u2014 Perilous Gang",
+    "file": "media/47-ruins-07-perilous-gang.mp4",
+    "poster": "assets/level-47.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 201.0
+  },
+  {
+    "id": "level-48",
+    "number": 48,
+    "title": "Ruins 08 \u2014 Double Moat",
+    "file": "media/48-ruins-08-double-moat.mp4",
+    "poster": "assets/level-48.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 196.0
+  },
+  {
+    "id": "level-49",
+    "number": 49,
+    "title": "Ruins 09 \u2014 Walls of Gold",
+    "file": "media/49-ruins-09-walls-of-gold.mp4",
+    "poster": "assets/level-49.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 442.0
+  },
+  {
+    "id": "level-50",
+    "number": 50,
+    "title": "Ruins Extra 1 \u2014 Further Fields",
+    "file": "media/50-ruins-extra-01-further-fields.mp4",
+    "poster": "assets/level-50.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 209.0
   }
 ]

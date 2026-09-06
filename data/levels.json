@@ -358,5 +358,50 @@
     "poster": "assets/level-40.jpg",
     "seconds": 192.0,
     "recorded": "2026-09-06"
+  },
+  {
+    "id": "level-41",
+    "number": 41,
+    "title": "Ruins 01 \u2014 Fragility",
+    "file": "media/41-ruins-01-fragility.mp4",
+    "poster": "assets/level-41.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 251.96666666666664
+  },
+  {
+    "id": "level-42",
+    "number": 42,
+    "title": "Ruins 02 \u2014 Tunnel Vision",
+    "file": "media/42-ruins-02-tunnel-vision.mp4",
+    "poster": "assets/level-42.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 234.9666666666667
+  },
+  {
+    "id": "level-43",
+    "number": 43,
+    "title": "Ruins 03 \u2014 A Present for You",
+    "file": "media/43-ruins-03-a-present-for-you.mp4",
+    "poster": "assets/level-43.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 232.96666666666664
+  },
+  {
+    "id": "level-44",
+    "number": 44,
+    "title": "Ruins 04 \u2014 Unreachable Shores",
+    "file": "media/44-ruins-04-unreachable-shores.mp4",
+    "poster": "assets/level-44.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 192.96666666666664
+  },
+  {
+    "id": "level-45",
+    "number": 45,
+    "title": "Ruins 05 \u2014 But Where\u2019s the Key",
+    "file": "media/45-ruins-05-but-wheres-the-key.mp4",
+    "poster": "assets/level-45.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 381.9666666666667
   }
 ]

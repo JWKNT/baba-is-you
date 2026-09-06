@@ -134,3 +134,12 @@ Shortened 26 visually reviewed idle intervals of at least 20 seconds to five sec
 To accommodate the requested expansion, recordings 71 onward use the companion JWKNT/baba-is-you-media Pages repository. It publishes main/root without a CNAME; HTTPS is enforced. The catalogue stays at its existing address with the same native player, downloads and PiP. Build validation resolves the exact approved companion path to its sibling checkout and rejects arbitrary URLs and traversal. A focused path-policy test accompanies the change; all 24 Node tests pass.
 
 Chromium played and sought to the endings of the five companion clips and two existing clips with matching durations. Desktop/mobile light/dark, keyboard, 200% text and 75 no-JavaScript links pass without script errors or overflow. Media is published and checked for HTTPS MP4 responses, exact sizes and byte-range support before the catalogue links are released. Player, speed controls and shared-theme code are unchanged. Rollback: revert this catalogue batch commit to remove its links; companion media can remain available.
+
+
+## Deep Forest batch · 06–10 · 2026-09-06
+
+Canyon, Concrete Goals, Victory in the Open, Moving Floor and Lovely House are five observed wins. The map shows 10/9 and five blossoms; Moving Floor retains the Area Clear celebration. Recording is stopped and Slot 2 has a verified checkpoint backup. Source starts, middles and endings were reviewed for game-only framing, titles and wins. Originals remain outside Git.
+
+Shortened 19 visually reviewed idle intervals of at least 20 seconds to five seconds, removing 991 seconds. The final clips total 733 seconds and 37.3 MiB. All pass exact frame counts and durations, 1700×950, 30 fps, silent H.264/yuv420p, faststart and size limits. All 48 mapped source-frame checks pass, with minimum PSNR 44.3 dB at review resolution. The batch manifest records source hashes and cuts.
+
+All 24 Node tests pass. Chromium played and sought to the endings of the five new clips and two existing clips with matching durations. Desktop/mobile light/dark, keyboard, 200% text and 80 no-JavaScript links pass without errors or overflow. Videos publish through the existing companion repository before the catalogue links; HTTPS, exact sizes and byte ranges are checked. Player, speed controls and shared-theme code are unchanged. Rollback: revert this catalogue batch commit; companion media can remain available.

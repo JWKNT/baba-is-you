@@ -673,5 +673,50 @@
     "poster": "assets/level-75.jpg",
     "recorded": "2026-09-06",
     "seconds": 111.0
+  },
+  {
+    "id": "level-76",
+    "number": 76,
+    "title": "Forest 06 \u2014 Canyon",
+    "file": "/baba-is-you-media/media/76-forest-06-canyon.mp4",
+    "poster": "assets/level-76.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 169.0
+  },
+  {
+    "id": "level-77",
+    "number": 77,
+    "title": "Forest 07 \u2014 Concrete Goals",
+    "file": "/baba-is-you-media/media/77-forest-07-concrete-goals.mp4",
+    "poster": "assets/level-77.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 55.0
+  },
+  {
+    "id": "level-78",
+    "number": 78,
+    "title": "Forest 08 \u2014 Victory in the Open",
+    "file": "/baba-is-you-media/media/78-forest-08-victory-in-the-open.mp4",
+    "poster": "assets/level-78.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 243.0
+  },
+  {
+    "id": "level-79",
+    "number": 79,
+    "title": "Forest 09 \u2014 Moving Floor",
+    "file": "/baba-is-you-media/media/79-forest-09-moving-floor.mp4",
+    "poster": "assets/level-79.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 124.0
+  },
+  {
+    "id": "level-80",
+    "number": 80,
+    "title": "Forest 10 \u2014 Lovely House",
+    "file": "/baba-is-you-media/media/80-forest-10-lovely-house.mp4",
+    "poster": "assets/level-80.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 142.0
   }
 ]

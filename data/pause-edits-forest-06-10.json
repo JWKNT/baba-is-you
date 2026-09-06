@@ -1,0 +1,221 @@
+{
+  "date": "2026-09-06",
+  "threshold_seconds": 20,
+  "retained_seconds": 5,
+  "source_recording": "batch-21.mp4",
+  "source_sha256": "b91d5608ceaa60be25d59d68b004aec2498470099894bc1073dc8e01962bb8c2",
+  "clips": [
+    {
+      "id": "level-76",
+      "file": "/baba-is-you-media/media/76-forest-06-canyon.mp4",
+      "seconds": 631.0,
+      "new_seconds": 169.0,
+      "pauses": [
+        [
+          10,
+          68
+        ],
+        [
+          72,
+          166
+        ],
+        [
+          214,
+          246
+        ],
+        [
+          332,
+          630
+        ]
+      ],
+      "cuts": [
+        [
+          12.5,
+          65.5
+        ],
+        [
+          74.5,
+          163.5
+        ],
+        [
+          216.5,
+          243.5
+        ],
+        [
+          334.5,
+          627.5
+        ]
+      ],
+      "removed": 462.0,
+      "original_sha256": "9984d75f5073bc3fc77db001dd4105bf0cab230205356c3fd17f19cb792a73c1"
+    },
+    {
+      "id": "level-77",
+      "file": "/baba-is-you-media/media/77-forest-07-concrete-goals.mp4",
+      "seconds": 108.0,
+      "new_seconds": 55.0,
+      "pauses": [
+        [
+          10,
+          68
+        ]
+      ],
+      "cuts": [
+        [
+          12.5,
+          65.5
+        ]
+      ],
+      "removed": 53.0,
+      "original_sha256": "9660cde4fb2164d7b4e7354c2f06c429148a8922dc5a4aa057541dcede05c31f"
+    },
+    {
+      "id": "level-78",
+      "file": "/baba-is-you-media/media/78-forest-08-victory-in-the-open.mp4",
+      "seconds": 568.0,
+      "new_seconds": 243.0,
+      "pauses": [
+        [
+          10,
+          44
+        ],
+        [
+          46,
+          108
+        ],
+        [
+          118,
+          190
+        ],
+        [
+          194,
+          228
+        ],
+        [
+          280,
+          330
+        ],
+        [
+          354,
+          382
+        ],
+        [
+          390,
+          412
+        ],
+        [
+          430,
+          466
+        ],
+        [
+          508,
+          540
+        ]
+      ],
+      "cuts": [
+        [
+          12.5,
+          41.5
+        ],
+        [
+          48.5,
+          105.5
+        ],
+        [
+          120.5,
+          187.5
+        ],
+        [
+          196.5,
+          225.5
+        ],
+        [
+          282.5,
+          327.5
+        ],
+        [
+          356.5,
+          379.5
+        ],
+        [
+          392.5,
+          409.5
+        ],
+        [
+          432.5,
+          463.5
+        ],
+        [
+          510.5,
+          537.5
+        ]
+      ],
+      "removed": 325.0,
+      "original_sha256": "1ecf9198aaecdf58e21b654945a8eb68928773c75daafa5bab8ad92c57b6a576"
+    },
+    {
+      "id": "level-79",
+      "file": "/baba-is-you-media/media/79-forest-09-moving-floor.mp4",
+      "seconds": 238.0,
+      "new_seconds": 124.0,
+      "pauses": [
+        [
+          8,
+          52
+        ],
+        [
+          84,
+          118
+        ],
+        [
+          122,
+          154
+        ],
+        [
+          168,
+          192
+        ]
+      ],
+      "cuts": [
+        [
+          10.5,
+          49.5
+        ],
+        [
+          86.5,
+          115.5
+        ],
+        [
+          124.5,
+          151.5
+        ],
+        [
+          170.5,
+          189.5
+        ]
+      ],
+      "removed": 114.0,
+      "original_sha256": "9c0c5f195d61bd5f206d2fbacaaba613c41452071f2a8e2ecaca89e9c83d3181"
+    },
+    {
+      "id": "level-80",
+      "file": "/baba-is-you-media/media/80-forest-10-lovely-house.mp4",
+      "seconds": 179.0,
+      "new_seconds": 142.0,
+      "pauses": [
+        [
+          10,
+          52
+        ]
+      ],
+      "cuts": [
+        [
+          12.5,
+          49.5
+        ]
+      ],
+      "removed": 37.0,
+      "original_sha256": "71599d8d887cac1c9122c340c5ab7a84d8eceecf0b6b2b95274e6e1d40eff83b"
+    }
+  ]
+}

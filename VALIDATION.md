@@ -55,3 +55,9 @@ All 17 Node tests pass. Chromium played all five new videos and checked desktop/
 Five 1700×950 H.264 recordings cover Victory Spring, Assembly Team, Catch the Thief!, Tiny Pond and Research Facility. Starts, middle frames and winning endings were reviewed. The Catch the Thief! recording includes the island's Area Clear celebration. Research Facility was re-entered after a Steam overlay disappeared, so that overlay is excluded from its published clip. Attempts and undos remain visible.
 
 All 17 Node tests pass. Chromium played all five clips and checked desktop/mobile light/dark layouts, keyboard focus, 200% text and 32 no-JavaScript links without script errors or overflow. The save is backed up through Island 09. No player or theme code changed. Rollback: revert this batch commit.
+
+## Island batch · 10–11 and extras 01–03 · 2026-09-06
+
+Five game-only 1700×950 H.264 clips cover Wireless Connection, Prison, Boiling River, ...Bridges? and Tiny Isle. Starts, middles and endings were visually reviewed against the observed wins. The extra puzzles retain retries and undos. The saved game was backed up after Tiny Isle.
+
+All 17 Node tests pass. Chromium played each new video and verified desktop/mobile light/dark layouts, keyboard focus, 200% text and 37 no-JavaScript links without script errors or overflow. No player or shared-theme code changed. Rollback: revert this batch commit.

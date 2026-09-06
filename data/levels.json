@@ -286,5 +286,50 @@
     "poster": "assets/level-32.jpg",
     "seconds": 242,
     "recorded": "2026-09-06"
+  },
+  {
+    "id": "level-33",
+    "number": 33,
+    "title": "Island 10 \u2014 Wireless Connection",
+    "file": "media/33-island-10-wireless-connection.mp4",
+    "poster": "assets/level-33.jpg",
+    "seconds": 380,
+    "recorded": "2026-09-06"
+  },
+  {
+    "id": "level-34",
+    "number": 34,
+    "title": "Island 11 \u2014 Prison",
+    "file": "media/34-island-11-prison.mp4",
+    "poster": "assets/level-34.jpg",
+    "seconds": 226,
+    "recorded": "2026-09-06"
+  },
+  {
+    "id": "level-35",
+    "number": 35,
+    "title": "Island Extra 01 \u2014 Boiling River",
+    "file": "media/35-island-extra-01-boiling-river.mp4",
+    "poster": "assets/level-35.jpg",
+    "seconds": 403,
+    "recorded": "2026-09-06"
+  },
+  {
+    "id": "level-36",
+    "number": 36,
+    "title": "Island Extra 02 \u2014 ...Bridges?",
+    "file": "media/36-island-extra-02-bridges.mp4",
+    "poster": "assets/level-36.jpg",
+    "seconds": 345,
+    "recorded": "2026-09-06"
+  },
+  {
+    "id": "level-37",
+    "number": 37,
+    "title": "Island Extra 03 \u2014 Tiny Isle",
+    "file": "media/37-island-extra-03-tiny-isle.mp4",
+    "poster": "assets/level-37.jpg",
+    "seconds": 209,
+    "recorded": "2026-09-06"
   }
 ]

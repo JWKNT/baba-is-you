@@ -34,7 +34,7 @@ writeFileSync(new URL('./index.html',import.meta.url),`<!doctype html>
  <p id="player-status" role="status" aria-live="polite"></p>
  <p class="pip-note" id="pip-note">Your browser may offer picture-in-picture in its video controls.</p>
 </section>
-<section class="level-section" aria-labelledby="levels-title"><div class="list-heading"><h2 id="levels-title">Levels</h2></div><ol class="level-list">${rows}</ol><p class="collection-note">Original game<br>Played with Codex.</p></section>
+<section class="level-section" aria-labelledby="levels-title"><div class="list-heading"><h2 id="levels-title">Levels</h2></div><ol class="level-list">${rows}</ol><p class="collection-note">Played with GPT-6 Astra.</p></section>
 </div>
 </main><footer class="page-shell"><cite>Baba Is You</cite> by Hempuli.</footer>
 </body></html>\n`);

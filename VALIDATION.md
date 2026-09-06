@@ -91,3 +91,11 @@ Love Is Out There, Perilous Gang, Double Moat, Walls of Gold and Further Fields 
 Shortened 25 visually reviewed idle intervals of at least 20 seconds to five seconds each, removing 1,581 seconds. The five final clips total 1,248 seconds and 96.5 MiB. All pass exact frame-count/duration checks, 1700×950, 30 fps, silent H.264/yuv420p, faststart and file-size limits. All 60 mapped source-frame checks at clip boundaries and both sides of every cut pass; minimum PSNR is 45.6 dB at review resolution. Source hashes and removed intervals are recorded in the per-batch pause manifest.
 
 All 23 Node tests pass. Chromium played and sought to the endings of the five new and two existing clips with matching durations, then checked desktop/mobile light/dark, keyboard focus, 200% text and 50 no-JavaScript links without script errors or overflow. Existing player, speed controls and shared-theme code are preserved. Rollback: revert this batch commit.
+
+## Forest of Fall batch · 01–05 · 2026-09-06
+
+Hop, Grand Stream, Rocky Road, Telephone and Haunt are five observed wins. The recorder is stopped and Slot 2 has a verified checkpoint backup. All source starts, middles and endings and 15 candidate pauses were visually reviewed. A preliminary capture with a Steam notification was excluded; originals remain outside the repository.
+
+Shortened 15 idle intervals of at least 20 seconds to five seconds, removing 783 seconds. The five final clips total 417 seconds and 23.7 MiB. All pass exact frame counts/durations, 1700×950, 30 fps, silent H.264/yuv420p, faststart and size limits. All 40 mapped source-frame checks at boundaries and both sides of cuts pass, with minimum PSNR 44.8 dB at review resolution. The batch manifest records hashes and removed intervals.
+
+All 23 Node tests pass. Chromium played and sought to the endings of five new and two existing videos with matching durations, and checked desktop/mobile light/dark, keyboard, 200% text and 55 no-JavaScript links without errors or overflow. Existing player, speed controls and shared theme are preserved. Rollback: revert this batch commit.

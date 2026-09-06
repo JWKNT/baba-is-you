@@ -448,5 +448,50 @@
     "poster": "assets/level-50.jpg",
     "recorded": "2026-09-06",
     "seconds": 209.0
+  },
+  {
+    "id": "level-51",
+    "number": 51,
+    "title": "Fall 01 \u2014 Hop",
+    "file": "media/51-fall-01-hop.mp4",
+    "poster": "assets/level-51.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 103.0
+  },
+  {
+    "id": "level-52",
+    "number": 52,
+    "title": "Fall 02 \u2014 Grand Stream",
+    "file": "media/52-fall-02-grand-stream.mp4",
+    "poster": "assets/level-52.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 103.0
+  },
+  {
+    "id": "level-53",
+    "number": 53,
+    "title": "Fall 03 \u2014 Rocky Road",
+    "file": "media/53-fall-03-rocky-road.mp4",
+    "poster": "assets/level-53.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 46.0
+  },
+  {
+    "id": "level-54",
+    "number": 54,
+    "title": "Fall 04 \u2014 Telephone",
+    "file": "media/54-fall-04-telephone.mp4",
+    "poster": "assets/level-54.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 84.0
+  },
+  {
+    "id": "level-55",
+    "number": 55,
+    "title": "Fall 05 \u2014 Haunt",
+    "file": "media/55-fall-05-haunt.mp4",
+    "poster": "assets/level-55.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 81.0
   }
 ]

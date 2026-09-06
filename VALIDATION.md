@@ -143,3 +143,12 @@ Canyon, Concrete Goals, Victory in the Open, Moving Floor and Lovely House are f
 Shortened 19 visually reviewed idle intervals of at least 20 seconds to five seconds, removing 991 seconds. The final clips total 733 seconds and 37.3 MiB. All pass exact frame counts and durations, 1700×950, 30 fps, silent H.264/yuv420p, faststart and size limits. All 48 mapped source-frame checks pass, with minimum PSNR 44.3 dB at review resolution. The batch manifest records source hashes and cuts.
 
 All 24 Node tests pass. Chromium played and sought to the endings of the five new clips and two existing clips with matching durations. Desktop/mobile light/dark, keyboard, 200% text and 80 no-JavaScript links pass without errors or overflow. Videos publish through the existing companion repository before the catalogue links; HTTPS, exact sizes and byte ranges are checked. Player, speed controls and shared-theme code are unchanged. Rollback: revert this catalogue batch commit; companion media can remain available.
+
+
+## Deep Forest batch · 11–14 and A · 2026-09-06
+
+Supermarket, Lock the Door, Factory, Tiny Pasture and Nearly are five observed wins. The map shows 15/9. Recording is stopped and Slot 2 has a verified checkpoint backup. Source starts, middles and endings were reviewed for game-only framing, titles and wins. Originals remain outside Git.
+
+Shortened 24 visually reviewed idle intervals of at least 20 seconds to five seconds, removing 1,362 seconds. Nearly has no qualifying pause and remains intact. The five clips total 629 seconds and 35.6 MiB. All pass exact frame counts and durations, 1700×950, 30 fps, silent H.264/yuv420p, faststart and size limits. All 58 mapped source-frame checks pass, with minimum PSNR 45.0 dB at review resolution. The batch manifest records source hashes and cuts.
+
+All 24 Node tests pass. Chromium played and sought to the endings of the five new and two existing clips with matching durations. Desktop/mobile light/dark, keyboard, 200% text and 85 no-JavaScript links pass without errors or overflow. Videos publish through the companion repository before catalogue links; HTTPS, exact sizes and byte ranges are checked. Player, speed controls and shared-theme code are unchanged. Rollback: revert this catalogue batch commit; companion media can remain available.

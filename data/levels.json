@@ -718,5 +718,50 @@
     "poster": "assets/level-80.jpg",
     "recorded": "2026-09-06",
     "seconds": 142.0
+  },
+  {
+    "id": "level-81",
+    "number": 81,
+    "title": "Forest 11 \u2014 Supermarket",
+    "file": "/baba-is-you-media/media/81-forest-11-supermarket.mp4",
+    "poster": "assets/level-81.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 104.0
+  },
+  {
+    "id": "level-82",
+    "number": 82,
+    "title": "Forest 12 \u2014 Lock the Door",
+    "file": "/baba-is-you-media/media/82-forest-12-lock-the-door.mp4",
+    "poster": "assets/level-82.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 194.0
+  },
+  {
+    "id": "level-83",
+    "number": 83,
+    "title": "Forest 13 \u2014 Factory",
+    "file": "/baba-is-you-media/media/83-forest-13-factory.mp4",
+    "poster": "assets/level-83.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 147.0
+  },
+  {
+    "id": "level-84",
+    "number": 84,
+    "title": "Forest 14 \u2014 Tiny Pasture",
+    "file": "/baba-is-you-media/media/84-forest-14-tiny-pasture.mp4",
+    "poster": "assets/level-84.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 136.0
+  },
+  {
+    "id": "level-85",
+    "number": 85,
+    "title": "Forest A \u2014 Nearly",
+    "file": "/baba-is-you-media/media/85-forest-a-nearly.mp4",
+    "poster": "assets/level-85.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 48.0
   }
 ]

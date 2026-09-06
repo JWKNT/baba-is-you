@@ -493,5 +493,50 @@
     "poster": "assets/level-55.jpg",
     "recorded": "2026-09-06",
     "seconds": 81.0
+  },
+  {
+    "id": "level-56",
+    "number": 56,
+    "title": "Fall 06 \u2014 Crate Square",
+    "file": "media/56-fall-06-crate-square.mp4",
+    "poster": "assets/level-56.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 361.0
+  },
+  {
+    "id": "level-57",
+    "number": 57,
+    "title": "Fall 07 \u2014 Ghost Friend",
+    "file": "media/57-fall-07-ghost-friend.mp4",
+    "poster": "assets/level-57.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 249.0
+  },
+  {
+    "id": "level-58",
+    "number": 58,
+    "title": "Fall 08 \u2014 Ghost Guard",
+    "file": "media/58-fall-08-ghost-guard.mp4",
+    "poster": "assets/level-58.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 119.0
+  },
+  {
+    "id": "level-59",
+    "number": 59,
+    "title": "Fall 09 \u2014 Leaf Chamber",
+    "file": "media/59-fall-09-leaf-chamber.mp4",
+    "poster": "assets/level-59.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 302.0
+  },
+  {
+    "id": "level-60",
+    "number": 60,
+    "title": "Fall 10 \u2014 Not There",
+    "file": "media/60-fall-10-not-there.mp4",
+    "poster": "assets/level-60.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 53.0
   }
 ]

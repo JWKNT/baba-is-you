@@ -11,6 +11,12 @@ A static video catalogue at https://jehlp.net/baba-is-you/. One native player, l
 
 The build uses Node's standard library, with no install step. Preview from the parent directory with `python3 -m http.server 8765 --directory ..`, then open `/baba-is-you/`. Theme assets use the production shared theme. Plain MP4 links still work without JavaScript; JavaScript enhances selection and shareable `#level-NN` links. Browser-native PiP controls remain available where the scripted API is absent. Selection never autoplays.
 
+## Catalogue contract
+
+`lib/catalogue.mjs` validates level identity, real ISO dates, positive durations and local media/poster paths. The build derives the recording count and latest recording date from the data, never from the build clock. Number labels support more than two digits. Keep catalogue metadata tests independent of the current recording count.
+
+`assets/player.js` owns selection, history and PiP. Selecting the same clip preserves playback; unrelated fragments such as the skip target do not change clips. Returning to the empty fragment restores the first recording. PiP support is refreshed after media metadata loads, and failed requests leave normal playback available. The runtime tests cover these contracts; they do not replace real browser/media checks.
+
 ## Publishing and storage
 
 GitHub Pages publishes `main` at the repository root. Do not add a CNAME: the custom domain is inherited from the account site. The current collection is about 48 MB; all individual clips are below GitHub's file limit. As the library grows, monitor Pages/repository capacity and move larger media to object storage before approaching hosting limits; update the build's allowed media URL policy at that time. Keep original recordings elsewhere.

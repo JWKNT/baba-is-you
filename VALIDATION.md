@@ -10,3 +10,12 @@
 Public route: https://jehlp.net/baba-is-you/. Deployment and HTTP verification are recorded in the companion site-theme change record.
 
 Unique icon update: generated Baba character PNG replaces the generic puzzles mark. Chromium verified the 32px masthead in light and dark modes, with a loaded 128px transparent source. All 3 catalogue and 22 theme tests pass.
+
+## Follow-up catalogue and homepage audit
+
+- 17 catalogue tests pass: the original three, four data/metadata tests and ten player interaction tests. They cover selection without autoplay, deep links, unrelated fragments, repeated selection/history, modified native clicks, PiP availability/errors and media failure recovery.
+- Tightened the player/list layout and supporting copy; corrected the shared theme button class; made controls, level numbers and durations 14px while retaining 16px level titles. Count/date come from validated recording data. All five media files, posters and data records are unchanged.
+- Local browser: light/dark desktop review, actual level-02 playback advancing to completion, level selection and direct level-03 reload without autoplay, and skip-link activation retaining level 03. The embedded browser rejected a PiP request and the visible fallback message was correct; this follow-up does **not** claim a new successful native floating-window test. Safari remains untested.
+- At 390px, DOM measurements show no document overflow, a 362.8px video within the viewport, and 14px controls/16px level titles. Doubled root text (32px) has no overflow or clipped primary labels. The browser screenshot compositor sometimes scaled the narrow capture; geometry measurements, not that image's apparent scale, establish the sizing result.
+- With JavaScript disabled and a fresh reload, one native player and all five MP4 links remain, no autoplay is set, and the custom PiP button is hidden. Print emulation yields black text on white with the player hidden. Temporary script, text, media and viewport overrides were restored.
+- Homepage: 17 tests pass. All 13 destinations remain; Games now groups NDB Idle, Puzzles and clearly labelled Baba recordings, with Links in Reading. Search, no-result feedback, Escape, keyboard disclosure, narrow layout, 200% text and no-JS destination links were checked. Shared runtime assets were not changed.

@@ -178,5 +178,23 @@
     "poster": "assets/level-20.jpg",
     "seconds": 322,
     "recorded": "2026-09-06"
+  },
+  {
+    "id": "level-21",
+    "number": 21,
+    "title": "Lake Extra 01 \u2014 Submerged Ruins",
+    "file": "media/21-lake-extra-01-submerged-ruins.mp4",
+    "poster": "assets/level-21.jpg",
+    "seconds": 276,
+    "recorded": "2026-09-06"
+  },
+  {
+    "id": "level-22",
+    "number": 22,
+    "title": "Lake Extra 02 \u2014 Sunken Temple",
+    "file": "media/22-lake-extra-02-sunken-temple.mp4",
+    "poster": "assets/level-22.jpg",
+    "seconds": 390,
+    "recorded": "2026-09-06"
   }
 ]

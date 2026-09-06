@@ -1,6 +1,6 @@
 # Baba Is You · level recordings
 
-A static video catalogue at https://jehlp.net/baba-is-you/. One native player, level links, MP4 downloads, and feature-detected picture-in-picture. Shared styling comes from jehlp.net/site-theme/v2. The five initial clips cover numbered levels 1–5, recorded September 5, 2026 in Slot 2. They are silent, cropped recordings with attempts and win animations retained.
+A static video catalogue at https://jehlp.net/baba-is-you/. One native player, level links, MP4 downloads, and feature-detected picture-in-picture. Shared styling comes from jehlp.net/site-theme/v2. The collection covers opening levels 1–7 and all 15 levels of The Lake, including both extras, played in Slot 2. The silent, cropped recordings retain attempts and win animations; the final Lake clip includes the Area Complete celebration. Catalogue sequence numbers are unique across worlds, while titles carry the in-game world and level numbers.
 
 ## Add a level
 
@@ -19,6 +19,6 @@ The build uses Node's standard library, with no install step. Preview from the p
 
 ## Publishing and storage
 
-GitHub Pages publishes `main` at the repository root. Do not add a CNAME: the custom domain is inherited from the account site. The current collection is about 48 MB; all individual clips are below GitHub's file limit. As the library grows, monitor Pages/repository capacity and move larger media to object storage before approaching hosting limits; update the build's allowed media URL policy at that time. Keep original recordings elsewhere.
+GitHub Pages publishes `main` at the repository root. Do not add a CNAME: the custom domain is inherited from the account site. Media is stored alongside the catalogue; all individual clips are checked against GitHub's file limit. As the library grows, monitor Pages/repository capacity and move larger media to object storage before approaching hosting limits; update the build's allowed media URL policy at that time. Keep original recordings elsewhere.
 
 Game art and gameplay belong to Hempuli. This repository contains the recorded playthroughs and the catalogue, not the game. Public authorship: jehlp.net.

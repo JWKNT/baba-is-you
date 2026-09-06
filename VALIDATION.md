@@ -37,3 +37,9 @@ All 17 Node tests pass. Chromium played each new clip and checked desktop/mobile
 Five additional game-only 1700×950 H.264 recordings reach verified win animations. Two Doors and Burglary retain undo/retry portions; Jelly Throne uses the successful replay. All standard Lake levels are now saved as complete in the game.
 
 All 17 Node tests pass. Chromium played each new recording and checked 1440/390px light/dark layouts, keyboard, 200% text and 20 no-JavaScript links without script errors or overflow. Exported starts, middles and endings were visually checked. Player and theme code are unchanged. Rollback: revert this batch commit.
+
+## Final Lake batch · both extras · 2026-09-06
+
+Submerged Ruins and Sunken Temple complete the collection of all 15 Lake levels (13 standard, two extras). The final game map shows 15/8 and Area Complete; the saved game was backed up after completion. Recording was stopped before export, and the laptop recovered to a full charge.
+
+Both 1700×950 H.264 exports were checked at their starts, middles and winning endings; Sunken Temple retains the Area Complete celebration. All 17 Node tests pass. Chromium played both clips and verified desktop/mobile light/dark layouts, keyboard, 200% text and 22 no-JavaScript links without errors or overflow. The existing native player and PiP implementation remain unchanged. Rollback: revert this final batch commit.

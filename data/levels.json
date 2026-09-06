@@ -583,5 +583,50 @@
     "poster": "assets/level-65.jpg",
     "recorded": "2026-09-06",
     "seconds": 145.0
+  },
+  {
+    "id": "level-66",
+    "number": 66,
+    "title": "Fall D \u2014 Scenic Pond",
+    "file": "media/66-fall-d-scenic-pond.mp4",
+    "poster": "assets/level-66.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 132.0
+  },
+  {
+    "id": "level-67",
+    "number": 67,
+    "title": "Fall E \u2014 Skeletal Door",
+    "file": "media/67-fall-e-skeletal-door.mp4",
+    "poster": "assets/level-67.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 89.0
+  },
+  {
+    "id": "level-68",
+    "number": 68,
+    "title": "Fall Extra 1 \u2014 Jump",
+    "file": "media/68-fall-extra-01-jump.mp4",
+    "poster": "assets/level-68.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 121.0
+  },
+  {
+    "id": "level-69",
+    "number": 69,
+    "title": "Fall Extra 2 \u2014 Even Less There",
+    "file": "media/69-fall-extra-02-even-less-there.mp4",
+    "poster": "assets/level-69.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 108.0
+  },
+  {
+    "id": "level-70",
+    "number": 70,
+    "title": "Fall Extra 3 \u2014 Deep Pool",
+    "file": "media/70-fall-extra-03-deep-pool.mp4",
+    "poster": "assets/level-70.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 296.0
   }
 ]

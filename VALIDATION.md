@@ -116,3 +116,11 @@ Catch, Dead End, Literacy, Broken Playground and Fetching are five observed wins
 Shortened 19 visually reviewed idle intervals of at least 20 seconds to five seconds, removing 1,143 seconds. The five final clips total 640 seconds and 35.2 MiB. All pass exact frame counts/durations, 1700×950, 30 fps, silent H.264/yuv420p, faststart and size limits. All 48 mapped source-frame checks at boundaries and both sides of each cut pass; minimum PSNR is 46.1 dB at review resolution. The batch manifest records source hashes, pause cuts and the manual notification trim.
 
 All 23 Node tests pass. Chromium played and sought to the endings of five new and two existing videos with matching durations, then checked desktop/mobile light/dark, keyboard, 200% text and 65 no-JavaScript links without errors or overflow. Existing player, speed controls and shared theme are preserved. Rollback: revert this batch commit.
+
+## Final Forest of Fall batch · D–E and extras 01–03 · 2026-09-06
+
+Scenic Pond, Skeletal Door, Jump, Even Less There and Deep Pool complete all 20 Forest of Fall levels. All wins were observed; the map shows 20/7 and the final clip retains Area Complete. Recording is stopped and the completed Slot 2 save is backed up. Source starts, middles and endings were reviewed for title cards, completed levels and game-only framing. Originals remain outside the repository.
+
+Shortened 26 visually reviewed idle intervals of at least 20 seconds to five seconds, removing 1,246 seconds. The five final clips total 746 seconds and 48.4 MiB. All pass exact frame counts/durations, 1700×950, 30 fps, silent H.264/yuv420p, faststart and size limits. All 62 mapped source-frame checks at boundaries and both sides of each cut pass; minimum PSNR is 44.9 dB at review resolution. The batch manifest records source hashes and pause cuts.
+
+All 23 Node tests pass. Chromium played and sought to the endings of five new and two existing videos with matching durations, then checked desktop/mobile light/dark, keyboard, 200% text and 70 no-JavaScript links without errors or overflow. Existing player, speed controls and shared theme are preserved. Rollback: revert this batch commit.

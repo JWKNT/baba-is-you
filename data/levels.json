@@ -1,0 +1,47 @@
+[
+  {
+    "id": "level-01",
+    "number": 1,
+    "title": "Where Do I Go?",
+    "file": "media/01-where-do-i-go.mp4",
+    "poster": "assets/level-01.jpg",
+    "seconds": 60.5,
+    "recorded": "2026-09-05"
+  },
+  {
+    "id": "level-02",
+    "number": 2,
+    "title": "Now What Is This?",
+    "file": "media/02-now-what-is-this.mp4",
+    "poster": "assets/level-02.jpg",
+    "seconds": 86.0,
+    "recorded": "2026-09-05"
+  },
+  {
+    "id": "level-03",
+    "number": 3,
+    "title": "Out of Reach",
+    "file": "media/03-out-of-reach.mp4",
+    "poster": "assets/level-03.jpg",
+    "seconds": 74.0,
+    "recorded": "2026-09-05"
+  },
+  {
+    "id": "level-04",
+    "number": 4,
+    "title": "Still Out of Reach",
+    "file": "media/04-still-out-of-reach.mp4",
+    "poster": "assets/level-04.jpg",
+    "seconds": 114.0,
+    "recorded": "2026-09-05"
+  },
+  {
+    "id": "level-05",
+    "number": 5,
+    "title": "Volcano",
+    "file": "media/05-volcano.mp4",
+    "poster": "assets/level-05.jpg",
+    "seconds": 322.0,
+    "recorded": "2026-09-05"
+  }
+]

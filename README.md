@@ -1,0 +1,18 @@
+# Baba Is You · level recordings
+
+A static video catalogue at https://jehlp.net/baba-is-you/. One native player, level links, MP4 downloads, and feature-detected picture-in-picture. Shared styling comes from jehlp.net/site-theme/v2. The five initial clips cover numbered levels 1–5, recorded September 5, 2026 in Slot 2. They are silent, cropped recordings with attempts and win animations retained.
+
+## Add a level
+
+1. Put a **game-only cropped** H.264 MP4 (yuv420p, faststart) in `media/`. Never add an uncropped desktop recording.
+2. Export a representative JPEG frame into `assets/`.
+3. Add its unique `level-NN` id, number, title, local file/poster paths, duration in seconds and ISO recording date to `data/levels.json`.
+4. Run `node build.mjs` and `node --test tests/*.test.mjs`. Check playback and layout, then commit the data, media, poster and generated HTML.
+
+The build uses Node's standard library, with no install step. Preview from the parent directory with `python3 -m http.server 8765 --directory ..`, then open `/baba-is-you/`. Theme assets use the production shared theme. Plain MP4 links still work without JavaScript; JavaScript enhances selection and shareable `#level-NN` links. Browser-native PiP controls remain available where the scripted API is absent. Selection never autoplays.
+
+## Publishing and storage
+
+GitHub Pages publishes `main` at the repository root. Do not add a CNAME: the custom domain is inherited from the account site. The current collection is about 48 MB; all individual clips are below GitHub's file limit. As the library grows, monitor Pages/repository capacity and move larger media to object storage before approaching hosting limits; update the build's allowed media URL policy at that time. Keep original recordings elsewhere.
+
+Game art and gameplay belong to Hempuli. This repository contains the recorded playthroughs and the catalogue, not the game. Public authorship: jehlp.net.

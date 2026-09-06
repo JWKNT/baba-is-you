@@ -61,3 +61,9 @@ All 17 Node tests pass. Chromium played all five clips and checked desktop/mobil
 Five game-only 1700×950 H.264 clips cover Wireless Connection, Prison, Boiling River, ...Bridges? and Tiny Isle. Starts, middles and endings were visually reviewed against the observed wins. The extra puzzles retain retries and undos. The saved game was backed up after Tiny Isle.
 
 All 17 Node tests pass. Chromium played each new video and verified desktop/mobile light/dark layouts, keyboard focus, 200% text and 37 no-JavaScript links without script errors or overflow. No player or shared-theme code changed. Rollback: revert this batch commit.
+
+## Final Island batch · extras 04–06 · 2026-09-06
+
+Dim Signal, Dungeon and Evaporating River complete all 18 Solitary Island levels (00–11 and six extras). The game shows 18/8 and Area Complete; the final clip retains that celebration. Recording is stopped and the completed Slot 2 save has a verified backup. Dim Signal starts at the final restart, excluding earlier abandoned attempts while retaining the successful run's undos.
+
+All three game-only exports are 1700×950 H.264 at 30 fps, yuv420p, silent and faststart. Durations and starts, middles and winning endings were reviewed. Files are 41.1, 23.9 and 11.9 MiB, below the per-file limit. All 17 Node tests pass. Chromium played each new clip and checked 1440/390px light/dark layouts, keyboard focus, 200% text and 40 no-JavaScript links without errors or overflow. Player and shared-theme code are unchanged. Rollback: revert this final batch commit; original recordings remain outside the repository.

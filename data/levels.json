@@ -331,5 +331,32 @@
     "poster": "assets/level-37.jpg",
     "seconds": 209,
     "recorded": "2026-09-06"
+  },
+  {
+    "id": "level-38",
+    "number": 38,
+    "title": "Island Extra 04 \u2014 Dim Signal",
+    "file": "media/38-island-extra-04-dim-signal.mp4",
+    "poster": "assets/level-38.jpg",
+    "seconds": 714,
+    "recorded": "2026-09-06"
+  },
+  {
+    "id": "level-39",
+    "number": 39,
+    "title": "Island Extra 05 \u2014 Dungeon",
+    "file": "media/39-island-extra-05-dungeon.mp4",
+    "poster": "assets/level-39.jpg",
+    "seconds": 266,
+    "recorded": "2026-09-06"
+  },
+  {
+    "id": "level-40",
+    "number": 40,
+    "title": "Island Extra 06 \u2014 Evaporating River",
+    "file": "media/40-island-extra-06-evaporating-river.mp4",
+    "poster": "assets/level-40.jpg",
+    "seconds": 264,
+    "recorded": "2026-09-06"
   }
 ]

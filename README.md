@@ -1,6 +1,6 @@
 # Baba Is You · level recordings
 
-A static video catalogue at https://jehlp.net/baba-is-you/. One native player, level links, MP4 downloads, and feature-detected picture-in-picture. Shared styling comes from jehlp.net/site-theme/v2. The collection covers opening levels 1–7 and all 15 levels of The Lake, including both extras, plus Island 00–11 and extras 01–03, played in Slot 2. The silent, cropped recordings retain attempts and win animations; the final Lake clip includes the Area Complete celebration. Catalogue sequence numbers are unique across worlds, while titles carry the in-game world and level numbers.
+A static video catalogue at https://jehlp.net/baba-is-you/. One native player, level links, MP4 downloads, and feature-detected picture-in-picture. Shared styling comes from jehlp.net/site-theme/v2. The collection covers opening levels 1–7 and all 15 levels of The Lake, including both extras, plus all 18 Solitary Island levels (00–11 and six extras), played in Slot 2. The silent, cropped recordings retain attempts and win animations; the final Lake and Island clips include the Area Complete celebrations. Catalogue sequence numbers are unique across worlds, while titles carry the in-game world and level numbers.
 
 ## Add a level
 

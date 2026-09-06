@@ -133,5 +133,50 @@
     "poster": "assets/level-15.jpg",
     "seconds": 125,
     "recorded": "2026-09-06"
+  },
+  {
+    "id": "level-16",
+    "number": 16,
+    "title": "Lake 09 \u2014 Changeless",
+    "file": "media/16-lake-09-changeless.mp4",
+    "poster": "assets/level-16.jpg",
+    "seconds": 96,
+    "recorded": "2026-09-06"
+  },
+  {
+    "id": "level-17",
+    "number": 17,
+    "title": "Lake 10 \u2014 Two Doors",
+    "file": "media/17-lake-10-two-doors.mp4",
+    "poster": "assets/level-17.jpg",
+    "seconds": 378,
+    "recorded": "2026-09-06"
+  },
+  {
+    "id": "level-18",
+    "number": 18,
+    "title": "Lake 11 \u2014 Jelly Throne",
+    "file": "media/18-lake-11-jelly-throne.mp4",
+    "poster": "assets/level-18.jpg",
+    "seconds": 85,
+    "recorded": "2026-09-06"
+  },
+  {
+    "id": "level-19",
+    "number": 19,
+    "title": "Lake 12 \u2014 Crab Storage",
+    "file": "media/19-lake-12-crab-storage.mp4",
+    "poster": "assets/level-19.jpg",
+    "seconds": 242,
+    "recorded": "2026-09-06"
+  },
+  {
+    "id": "level-20",
+    "number": 20,
+    "title": "Lake 13 \u2014 Burglary",
+    "file": "media/20-lake-13-burglary.mp4",
+    "poster": "assets/level-20.jpg",
+    "seconds": 322,
+    "recorded": "2026-09-06"
   }
 ]

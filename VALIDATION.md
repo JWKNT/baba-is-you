@@ -31,3 +31,9 @@ All 17 Node tests pass. Chromium played all five new clips and checked 1440/390p
 Five new game-only H.264 clips are 1700×950 at 30 fps with faststart. Exported starts, middles and win sequences were visually reviewed; Locked In includes the Area Clear celebration. Long failed attempts before the successful runs were trimmed. No desktop or private application content is included.
 
 All 17 Node tests pass. Chromium played each new clip and checked desktop/mobile light and dark layouts, keyboard focus, 200% text and all 15 no-JavaScript recording links without script errors or horizontal overflow. No player or shared-theme code changed. Rollback: revert this batch commit.
+
+## Recording batch · Lake 09–13 · 2026-09-06
+
+Five additional game-only 1700×950 H.264 recordings reach verified win animations. Two Doors and Burglary retain undo/retry portions; Jelly Throne uses the successful replay. All standard Lake levels are now saved as complete in the game.
+
+All 17 Node tests pass. Chromium played each new recording and checked 1440/390px light/dark layouts, keyboard, 200% text and 20 no-JavaScript links without script errors or overflow. Exported starts, middles and endings were visually checked. Player and theme code are unchanged. Rollback: revert this batch commit.

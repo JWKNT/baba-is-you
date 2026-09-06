@@ -196,5 +196,50 @@
     "poster": "assets/level-22.jpg",
     "seconds": 390,
     "recorded": "2026-09-06"
+  },
+  {
+    "id": "level-23",
+    "number": 23,
+    "title": "Island 00 \u2014 Poem",
+    "file": "media/23-island-00-poem.mp4",
+    "poster": "assets/level-23.jpg",
+    "seconds": 147,
+    "recorded": "2026-09-06"
+  },
+  {
+    "id": "level-24",
+    "number": 24,
+    "title": "Island 01 \u2014 Float",
+    "file": "media/24-island-01-float.mp4",
+    "poster": "assets/level-24.jpg",
+    "seconds": 217,
+    "recorded": "2026-09-06"
+  },
+  {
+    "id": "level-25",
+    "number": 25,
+    "title": "Island 02 \u2014 Warm River",
+    "file": "media/25-island-02-warm-river.mp4",
+    "poster": "assets/level-25.jpg",
+    "seconds": 104,
+    "recorded": "2026-09-06"
+  },
+  {
+    "id": "level-26",
+    "number": 26,
+    "title": "Island 03 \u2014 Bridge Building",
+    "file": "media/26-island-03-bridge-building.mp4",
+    "poster": "assets/level-26.jpg",
+    "seconds": 185,
+    "recorded": "2026-09-06"
+  },
+  {
+    "id": "level-27",
+    "number": 27,
+    "title": "Island 04 \u2014 Bridge Building?",
+    "file": "media/27-island-04-bridge-building.mp4",
+    "poster": "assets/level-27.jpg",
+    "seconds": 58,
+    "recorded": "2026-09-06"
   }
 ]

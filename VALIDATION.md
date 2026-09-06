@@ -43,3 +43,9 @@ All 17 Node tests pass. Chromium played each new recording and checked 1440/390p
 Submerged Ruins and Sunken Temple complete the collection of all 15 Lake levels (13 standard, two extras). The final game map shows 15/8 and Area Complete; the saved game was backed up after completion. Recording was stopped before export, and the laptop recovered to a full charge.
 
 Both 1700×950 H.264 exports were checked at their starts, middles and winning endings; Sunken Temple retains the Area Complete celebration. All 17 Node tests pass. Chromium played both clips and verified desktop/mobile light/dark layouts, keyboard, 200% text and 22 no-JavaScript links without errors or overflow. The existing native player and PiP implementation remain unchanged. Rollback: revert this final batch commit.
+
+## Island batch · 00–04 · 2026-09-06
+
+Five game-only 1700×950 H.264 recordings cover Poem, Float, Warm River and both Bridge Building puzzles. Starts, middle frames and winning endings were visually reviewed. Attempts and restarts remain in the clips, and the save was backed up after Island 04.
+
+All 17 Node tests pass. Chromium played all five new videos and checked desktop/mobile light/dark layouts, keyboard focus, 200% text and 27 no-JavaScript links without errors or overflow. Player and shared-theme code are unchanged. Rollback: revert this batch commit.

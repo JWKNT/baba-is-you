@@ -25,3 +25,9 @@ Unique icon update: generated Baba character PNG replaces the generic puzzles ma
 Added five 1700×950 H.264 clips at 30 fps, about 31 MB total. Title cards, game-only framing and win sequences were visually checked. A battery interruption required replaying Turns; no desktop, lock-screen or interrupted source recording is published. The game retained its save progress.
 
 All 17 Node tests pass. Chromium played all five new clips and checked 1440/390px layouts in light/dark, 200% text, keyboard focus and all ten no-JavaScript download links, with no script errors. No player or theme code changed. Rollback: revert this batch commit; original recordings remain unchanged.
+
+## Recording batch · Lake 04–08 · 2026-09-06
+
+Five new game-only H.264 clips are 1700×950 at 30 fps with faststart. Exported starts, middles and win sequences were visually reviewed; Locked In includes the Area Clear celebration. Long failed attempts before the successful runs were trimmed. No desktop or private application content is included.
+
+All 17 Node tests pass. Chromium played each new clip and checked desktop/mobile light and dark layouts, keyboard focus, 200% text and all 15 no-JavaScript recording links without script errors or horizontal overflow. No player or shared-theme code changed. Rollback: revert this batch commit.

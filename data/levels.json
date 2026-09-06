@@ -65,7 +65,7 @@
   {
     "id": "level-08",
     "number": 8,
-    "title": "Lake 01 — Icy Waters",
+    "title": "Lake 01 \u2014 Icy Waters",
     "file": "media/08-lake-01-icy-waters.mp4",
     "poster": "assets/level-08.jpg",
     "seconds": 101,
@@ -74,7 +74,7 @@
   {
     "id": "level-09",
     "number": 9,
-    "title": "Lake 02 — Turns",
+    "title": "Lake 02 \u2014 Turns",
     "file": "media/09-lake-02-turns.mp4",
     "poster": "assets/level-09.jpg",
     "seconds": 122,
@@ -83,10 +83,55 @@
   {
     "id": "level-10",
     "number": 10,
-    "title": "Lake 03 — Affection",
+    "title": "Lake 03 \u2014 Affection",
     "file": "media/10-lake-03-affection.mp4",
     "poster": "assets/level-10.jpg",
     "seconds": 138,
     "recorded": "2026-09-05"
+  },
+  {
+    "id": "level-11",
+    "number": 11,
+    "title": "Lake 04 \u2014 Pillar Yard",
+    "file": "media/11-lake-04-pillar-yard.mp4",
+    "poster": "assets/level-11.jpg",
+    "seconds": 119,
+    "recorded": "2026-09-06"
+  },
+  {
+    "id": "level-12",
+    "number": 12,
+    "title": "Lake 05 \u2014 Brick Wall",
+    "file": "media/12-lake-05-brick-wall.mp4",
+    "poster": "assets/level-12.jpg",
+    "seconds": 26,
+    "recorded": "2026-09-06"
+  },
+  {
+    "id": "level-13",
+    "number": 13,
+    "title": "Lake 06 \u2014 Lock",
+    "file": "media/13-lake-06-lock.mp4",
+    "poster": "assets/level-13.jpg",
+    "seconds": 124,
+    "recorded": "2026-09-06"
+  },
+  {
+    "id": "level-14",
+    "number": 14,
+    "title": "Lake 07 \u2014 Novice Locksmith",
+    "file": "media/14-lake-07-novice-locksmith.mp4",
+    "poster": "assets/level-14.jpg",
+    "seconds": 79,
+    "recorded": "2026-09-06"
+  },
+  {
+    "id": "level-15",
+    "number": 15,
+    "title": "Lake 08 \u2014 Locked In",
+    "file": "media/15-lake-08-locked-in.mp4",
+    "poster": "assets/level-15.jpg",
+    "seconds": 125,
+    "recorded": "2026-09-06"
   }
 ]

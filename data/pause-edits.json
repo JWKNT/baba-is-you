@@ -1,0 +1,625 @@
+{
+  "sourceCommit": "9169881851e25fdd2da5592d98a39bfd36717fb1",
+  "edited": "2026-09-06",
+  "pauseThresholdSeconds": 20,
+  "retainedPauseSeconds": 5,
+  "reviewedRecordings": 40,
+  "shortenedRecordings": 32,
+  "pauseCount": 65,
+  "secondsRemoved": 2759.0,
+  "method": "Temporal board-state comparison with animation-phase matching and visual review. Retain 2.5 seconds at each end of each detected pause.",
+  "recordings": [
+    {
+      "id": "level-01",
+      "file": "media/01-where-do-i-go.mp4",
+      "sourceSha256": "e8999b9a9bc1d3ec1abd8f7b5681fb373932a25b37cdeb3ed6f22725bc5cdd82",
+      "originalSeconds": 60.5,
+      "editedSeconds": 43.5,
+      "removedIntervals": [
+        [
+          6.5,
+          23.5
+        ]
+      ]
+    },
+    {
+      "id": "level-02",
+      "file": "media/02-now-what-is-this.mp4",
+      "sourceSha256": "5961a4b8454b56decac60bc8dc2ba7d5e6a5c8575bcafb0c447029e8105594cb",
+      "originalSeconds": 86.0,
+      "editedSeconds": 65.0,
+      "removedIntervals": [
+        [
+          38.5,
+          59.5
+        ]
+      ]
+    },
+    {
+      "id": "level-03",
+      "file": "media/03-out-of-reach.mp4",
+      "sourceSha256": "d9cf1920574883d9ea0d71e11beb37c599bbc6bb0640c7faa7d9ee1a7666b6f1",
+      "originalSeconds": 74.0,
+      "editedSeconds": 47.0,
+      "removedIntervals": [
+        [
+          6.5,
+          33.5
+        ]
+      ]
+    },
+    {
+      "id": "level-04",
+      "file": "media/04-still-out-of-reach.mp4",
+      "sourceSha256": "25db35c7ad7f24776978fe2cb7c86cbb6d9bf211b7f24acaf8860aad9c2ee68a",
+      "originalSeconds": 114.0,
+      "editedSeconds": 41.0,
+      "removedIntervals": [
+        [
+          6.5,
+          79.5
+        ]
+      ]
+    },
+    {
+      "id": "level-05",
+      "file": "media/05-volcano.mp4",
+      "sourceSha256": "fae1fc1bf6a6d70f307390705914d2190b064beeb8e7fa1af6dda52d0e27e56f",
+      "originalSeconds": 322.0,
+      "editedSeconds": 131.0,
+      "removedIntervals": [
+        [
+          6.5,
+          89.5
+        ],
+        [
+          104.5,
+          193.5
+        ],
+        [
+          212.5,
+          231.5
+        ]
+      ]
+    },
+    {
+      "id": "level-06",
+      "file": "media/06-off-limits.mp4",
+      "sourceSha256": "035f125693dfff5f4adacebc8d7187a0044f459e9cbc1eda3ea5d49a262b40d6",
+      "originalSeconds": 21,
+      "editedSeconds": 21,
+      "removedIntervals": []
+    },
+    {
+      "id": "level-07",
+      "file": "media/07-grass-yard.mp4",
+      "sourceSha256": "5ee9f180d63c923778641a8739b03795edc09581ae4cf72b4da9ad1b301be411",
+      "originalSeconds": 125,
+      "editedSeconds": 125,
+      "removedIntervals": []
+    },
+    {
+      "id": "level-08",
+      "file": "media/08-lake-01-icy-waters.mp4",
+      "sourceSha256": "c16f2aad399afafaf983a69423224e3fa247dfee2bae3549e504b87377b5f40a",
+      "originalSeconds": 101,
+      "editedSeconds": 78.0,
+      "removedIntervals": [
+        [
+          34.5,
+          57.5
+        ]
+      ]
+    },
+    {
+      "id": "level-09",
+      "file": "media/09-lake-02-turns.mp4",
+      "sourceSha256": "3d6403b06d65b85fdecbf6ca4bf0eafc768437c86f52e7b5c679b87c9deac473",
+      "originalSeconds": 122,
+      "editedSeconds": 122,
+      "removedIntervals": []
+    },
+    {
+      "id": "level-10",
+      "file": "media/10-lake-03-affection.mp4",
+      "sourceSha256": "cd47de8d47370278b7a41fe4ee87e4dfc444d8ad85929376a95bee54298fe8f1",
+      "originalSeconds": 138,
+      "editedSeconds": 113.0,
+      "removedIntervals": [
+        [
+          6.5,
+          31.5
+        ]
+      ]
+    },
+    {
+      "id": "level-11",
+      "file": "media/11-lake-04-pillar-yard.mp4",
+      "sourceSha256": "66267164aba6757951c01439a86bae82f28329b4f37793df9c0efcbb66cd968d",
+      "originalSeconds": 119,
+      "editedSeconds": 119,
+      "removedIntervals": []
+    },
+    {
+      "id": "level-12",
+      "file": "media/12-lake-05-brick-wall.mp4",
+      "sourceSha256": "e75e9135e3af5dbb62e5a0a56b472b576034ef2efecd9e614943e3f592b9e024",
+      "originalSeconds": 26,
+      "editedSeconds": 26,
+      "removedIntervals": []
+    },
+    {
+      "id": "level-13",
+      "file": "media/13-lake-06-lock.mp4",
+      "sourceSha256": "5edad21667acd3b70780b18d6d2715a1f55056ecf8eebc233fd7dfd7a638a137",
+      "originalSeconds": 124,
+      "editedSeconds": 105.0,
+      "removedIntervals": [
+        [
+          6.5,
+          25.5
+        ]
+      ]
+    },
+    {
+      "id": "level-14",
+      "file": "media/14-lake-07-novice-locksmith.mp4",
+      "sourceSha256": "0d66ebe97b80caa809786df21735886a9ee2dff7ac74bc9cf42ef74ee61e256c",
+      "originalSeconds": 79,
+      "editedSeconds": 79,
+      "removedIntervals": []
+    },
+    {
+      "id": "level-15",
+      "file": "media/15-lake-08-locked-in.mp4",
+      "sourceSha256": "44be6f085127b86a893a8dc15b82658c6bcfa794536dc867030f72f3164cbf0d",
+      "originalSeconds": 125,
+      "editedSeconds": 98.0,
+      "removedIntervals": [
+        [
+          6.5,
+          33.5
+        ]
+      ]
+    },
+    {
+      "id": "level-16",
+      "file": "media/16-lake-09-changeless.mp4",
+      "sourceSha256": "494abb89211c2e537ed1cc56854160cbd0d2720764f4c7fa4bf6c5896963106f",
+      "originalSeconds": 96,
+      "editedSeconds": 49.0,
+      "removedIntervals": [
+        [
+          6.5,
+          53.5
+        ]
+      ]
+    },
+    {
+      "id": "level-17",
+      "file": "media/17-lake-10-two-doors.mp4",
+      "sourceSha256": "e31e082466320002a726439a42e23c78c14d4a2e15b77e8e53c47dca84029230",
+      "originalSeconds": 378,
+      "editedSeconds": 172.0,
+      "removedIntervals": [
+        [
+          6.5,
+          29.5
+        ],
+        [
+          46.5,
+          145.5
+        ],
+        [
+          186.5,
+          247.5
+        ],
+        [
+          330.5,
+          353.5
+        ]
+      ]
+    },
+    {
+      "id": "level-18",
+      "file": "media/18-lake-11-jelly-throne.mp4",
+      "sourceSha256": "e2ce73f9d44de1ee3a456d6a90f5fdc355a0cb7ce4eb44ab84fefa24333a7a66",
+      "originalSeconds": 85,
+      "editedSeconds": 85,
+      "removedIntervals": []
+    },
+    {
+      "id": "level-19",
+      "file": "media/19-lake-12-crab-storage.mp4",
+      "sourceSha256": "3a01756f6626f917320e11eb74c40460fbdba02e968e365f0274e1e2afe1d356",
+      "originalSeconds": 242,
+      "editedSeconds": 124.0,
+      "removedIntervals": [
+        [
+          6.5,
+          47.5
+        ],
+        [
+          96.5,
+          173.5
+        ]
+      ]
+    },
+    {
+      "id": "level-20",
+      "file": "media/20-lake-13-burglary.mp4",
+      "sourceSha256": "bf2474cfef282e8d079696183492a342f89898a6743d7715bddbc7a53dff621a",
+      "originalSeconds": 322,
+      "editedSeconds": 199.0,
+      "removedIntervals": [
+        [
+          4.5,
+          61.5
+        ],
+        [
+          96.5,
+          145.5
+        ],
+        [
+          222.5,
+          239.5
+        ]
+      ]
+    },
+    {
+      "id": "level-21",
+      "file": "media/21-lake-extra-01-submerged-ruins.mp4",
+      "sourceSha256": "44c557b1152e4b859cc862424751bff05394e1ced778f255bf9fb5685b086644",
+      "originalSeconds": 276,
+      "editedSeconds": 211.0,
+      "removedIntervals": [
+        [
+          158.5,
+          223.5
+        ]
+      ]
+    },
+    {
+      "id": "level-22",
+      "file": "media/22-lake-extra-02-sunken-temple.mp4",
+      "sourceSha256": "c3fffb196b43e880c22210cb959f553f1872d5ced213dbe5cf5e47e1ab3a18b3",
+      "originalSeconds": 390,
+      "editedSeconds": 278.0,
+      "removedIntervals": [
+        [
+          6.5,
+          101.5
+        ],
+        [
+          312.5,
+          329.5
+        ]
+      ]
+    },
+    {
+      "id": "level-23",
+      "file": "media/23-island-00-poem.mp4",
+      "sourceSha256": "717b0126e6048ba7afecab48dc29a43c62821115027b8b771c3f63f218b61cd5",
+      "originalSeconds": 147,
+      "editedSeconds": 124.0,
+      "removedIntervals": [
+        [
+          42.5,
+          65.5
+        ]
+      ]
+    },
+    {
+      "id": "level-24",
+      "file": "media/24-island-01-float.mp4",
+      "sourceSha256": "028736a885f8a73e311319264be76f2d2e045f4db6de4ac5985c1c0b08a625b6",
+      "originalSeconds": 217,
+      "editedSeconds": 156.0,
+      "removedIntervals": [
+        [
+          68.5,
+          129.5
+        ]
+      ]
+    },
+    {
+      "id": "level-25",
+      "file": "media/25-island-02-warm-river.mp4",
+      "sourceSha256": "189db8362136a6bd319bb6ed903633ad57d1996c21fd39b3b3779d58d32467c7",
+      "originalSeconds": 104,
+      "editedSeconds": 104,
+      "removedIntervals": []
+    },
+    {
+      "id": "level-26",
+      "file": "media/26-island-03-bridge-building.mp4",
+      "sourceSha256": "8ad614146b7e56c3ec5a5407746b5569b97fad504640e67f2f695c3492555c6c",
+      "originalSeconds": 185,
+      "editedSeconds": 123.0,
+      "removedIntervals": [
+        [
+          6.5,
+          41.5
+        ],
+        [
+          64.5,
+          91.5
+        ]
+      ]
+    },
+    {
+      "id": "level-27",
+      "file": "media/27-island-04-bridge-building.mp4",
+      "sourceSha256": "7deb9e06e568cfce4b3bb3c3cb1ec2efe30cf91238bd35b5d4fe41912fbc1aa9",
+      "originalSeconds": 58,
+      "editedSeconds": 43.0,
+      "removedIntervals": [
+        [
+          6.5,
+          21.5
+        ]
+      ]
+    },
+    {
+      "id": "level-28",
+      "file": "media/28-island-05-victory-spring.mp4",
+      "sourceSha256": "842b4b2bbcf6656c5c45bd2659e5254c19525122a47da5ab2fa3b96a32a71042",
+      "originalSeconds": 232,
+      "editedSeconds": 207.0,
+      "removedIntervals": [
+        [
+          102.5,
+          127.5
+        ]
+      ]
+    },
+    {
+      "id": "level-29",
+      "file": "media/29-island-06-assembly-team.mp4",
+      "sourceSha256": "edad249adc47b2571606f958bab3a47e75485307631e08ead563f54585b173f2",
+      "originalSeconds": 254,
+      "editedSeconds": 156.0,
+      "removedIntervals": [
+        [
+          8.5,
+          69.5
+        ],
+        [
+          90.5,
+          127.5
+        ]
+      ]
+    },
+    {
+      "id": "level-30",
+      "file": "media/30-island-07-catch-the-thief.mp4",
+      "sourceSha256": "e751e90292d10207b6cad8ae4fb92893eff22c15413033b368af035d21cc9493",
+      "originalSeconds": 316,
+      "editedSeconds": 192.0,
+      "removedIntervals": [
+        [
+          8.5,
+          35.5
+        ],
+        [
+          94.5,
+          121.5
+        ],
+        [
+          140.5,
+          157.5
+        ],
+        [
+          188.5,
+          241.5
+        ]
+      ]
+    },
+    {
+      "id": "level-31",
+      "file": "media/31-island-08-tiny-pond.mp4",
+      "sourceSha256": "38d997268ddf2b7e42a6f9a21599561a5d6ba937a88feaf6ad0ab21c6c8efb35",
+      "originalSeconds": 360,
+      "editedSeconds": 171.0,
+      "removedIntervals": [
+        [
+          8.5,
+          73.5
+        ],
+        [
+          160.5,
+          267.5
+        ],
+        [
+          330.5,
+          347.5
+        ]
+      ]
+    },
+    {
+      "id": "level-32",
+      "file": "media/32-island-09-research-facility.mp4",
+      "sourceSha256": "df2fc3abbf6d879ed959053eae44fb4ada14a0c292d71f0883b64d658e70a898",
+      "originalSeconds": 242,
+      "editedSeconds": 122.0,
+      "removedIntervals": [
+        [
+          18.5,
+          67.5
+        ],
+        [
+          90.5,
+          119.5
+        ],
+        [
+          168.5,
+          187.5
+        ],
+        [
+          204.5,
+          227.5
+        ]
+      ]
+    },
+    {
+      "id": "level-33",
+      "file": "media/33-island-10-wireless-connection.mp4",
+      "sourceSha256": "0d36c1ef2fa7bb8eed15f0bcf490248810e5fa0a9d574224d53c081da6d4b79d",
+      "originalSeconds": 380,
+      "editedSeconds": 220.0,
+      "removedIntervals": [
+        [
+          8.5,
+          63.5
+        ],
+        [
+          86.5,
+          123.5
+        ],
+        [
+          162.5,
+          193.5
+        ],
+        [
+          266.5,
+          303.5
+        ]
+      ]
+    },
+    {
+      "id": "level-34",
+      "file": "media/34-island-11-prison.mp4",
+      "sourceSha256": "bb395bd67e00977f79b5690d83fdff2f91f3ae572f2feed6ac4928864c194919",
+      "originalSeconds": 226,
+      "editedSeconds": 148.0,
+      "removedIntervals": [
+        [
+          8.5,
+          71.5
+        ],
+        [
+          162.5,
+          177.5
+        ]
+      ]
+    },
+    {
+      "id": "level-35",
+      "file": "media/35-island-extra-01-boiling-river.mp4",
+      "sourceSha256": "e623c419316aa4646b44daf5cbbe61b092843980288e65e3cfeddf6948920c94",
+      "originalSeconds": 403,
+      "editedSeconds": 299.0,
+      "removedIntervals": [
+        [
+          70.5,
+          115.5
+        ],
+        [
+          276.5,
+          335.5
+        ]
+      ]
+    },
+    {
+      "id": "level-36",
+      "file": "media/36-island-extra-02-bridges.mp4",
+      "sourceSha256": "f382e269cbbeb54190b008759d856e5a12c47d3af600f1d7129b0f955a41f092",
+      "originalSeconds": 345,
+      "editedSeconds": 161.0,
+      "removedIntervals": [
+        [
+          8.5,
+          91.5
+        ],
+        [
+          142.5,
+          243.5
+        ]
+      ]
+    },
+    {
+      "id": "level-37",
+      "file": "media/37-island-extra-03-tiny-isle.mp4",
+      "sourceSha256": "f154f99d64fd8ad73c11b6a8032428f8dbeb9d9f0bad7923ea364fbafe19ec29",
+      "originalSeconds": 209,
+      "editedSeconds": 151.0,
+      "removedIntervals": [
+        [
+          8.5,
+          43.5
+        ],
+        [
+          126.5,
+          149.5
+        ]
+      ]
+    },
+    {
+      "id": "level-38",
+      "file": "media/38-island-extra-04-dim-signal.mp4",
+      "sourceSha256": "790e01c864b20da2e914bc0d6a5e0b94182caa947ae4ee283bf2f68dda17b958",
+      "originalSeconds": 714,
+      "editedSeconds": 511.0,
+      "removedIntervals": [
+        [
+          44.5,
+          75.5
+        ],
+        [
+          336.5,
+          353.5
+        ],
+        [
+          394.5,
+          409.5
+        ],
+        [
+          492.5,
+          613.5
+        ],
+        [
+          652.5,
+          671.5
+        ]
+      ]
+    },
+    {
+      "id": "level-39",
+      "file": "media/39-island-extra-05-dungeon.mp4",
+      "sourceSha256": "29b0ffefe83408acb5a30dd33d96c1064fb14a4dcfbbdb6c1d250ba14ff8137c",
+      "originalSeconds": 266,
+      "editedSeconds": 177.0,
+      "removedIntervals": [
+        [
+          8.5,
+          27.5
+        ],
+        [
+          82.5,
+          137.5
+        ],
+        [
+          154.5,
+          169.5
+        ]
+      ]
+    },
+    {
+      "id": "level-40",
+      "file": "media/40-island-extra-06-evaporating-river.mp4",
+      "sourceSha256": "db6f89af14ee48b96cc05dd95fef4d053c9c5189bebdcdd69c5fec3c694262a1",
+      "originalSeconds": 264,
+      "editedSeconds": 192.0,
+      "removedIntervals": [
+        [
+          8.5,
+          65.5
+        ],
+        [
+          148.5,
+          163.5
+        ]
+      ]
+    }
+  ]
+}

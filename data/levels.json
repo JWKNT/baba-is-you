@@ -628,5 +628,50 @@
     "poster": "assets/level-70.jpg",
     "recorded": "2026-09-06",
     "seconds": 296.0
+  },
+  {
+    "id": "level-71",
+    "number": 71,
+    "title": "Forest 01 \u2014 Renovating",
+    "file": "/baba-is-you-media/media/71-forest-01-renovating.mp4",
+    "poster": "assets/level-71.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 115.0
+  },
+  {
+    "id": "level-72",
+    "number": 72,
+    "title": "Forest 02 \u2014 Toolshed",
+    "file": "/baba-is-you-media/media/72-forest-02-toolshed.mp4",
+    "poster": "assets/level-72.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 103.0
+  },
+  {
+    "id": "level-73",
+    "number": 73,
+    "title": "Forest 03 \u2014 Keep Out!",
+    "file": "/baba-is-you-media/media/73-forest-03-keep-out.mp4",
+    "poster": "assets/level-73.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 124.0
+  },
+  {
+    "id": "level-74",
+    "number": 74,
+    "title": "Forest 04 \u2014 Baba Doesn't Respond",
+    "file": "/baba-is-you-media/media/74-forest-04-baba-doesnt-respond.mp4",
+    "poster": "assets/level-74.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 290.0
+  },
+  {
+    "id": "level-75",
+    "number": 75,
+    "title": "Forest 05 \u2014 Patrol",
+    "file": "/baba-is-you-media/media/75-forest-05-patrol.mp4",
+    "poster": "assets/level-75.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 111.0
   }
 ]

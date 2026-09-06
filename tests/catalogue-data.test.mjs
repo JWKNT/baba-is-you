@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { validateLevels, catalogueMeta, levelNumber, duration, escape } from '../lib/catalogue.mjs';
+import { validateLevels, catalogueMeta, levelNumber, duration, escape, localAssetURL } from '../lib/catalogue.mjs';
 
 const levels = JSON.parse(readFileSync(new URL('../data/levels.json', import.meta.url)));
 const copy = () => structuredClone(levels);
@@ -46,4 +46,16 @@ test('future three-digit levels and text escaping remain supported', () => {
   assert.equal(levelNumber(100), '100');
   assert.equal(duration(3601), '60:01');
   assert.equal(escape('<&"\''), '&lt;&amp;&quot;&#39;');
+});
+
+test('companion media stays restricted to the approved store and resolves beside the catalogue', () => {
+  const fixture = [{ ...levels[0], file: '/baba-is-you-media/media/71-example.mp4' }];
+  assert.doesNotThrow(() => validateLevels(fixture));
+  const root = new URL('file:///sites/baba-is-you/');
+  assert.equal(localAssetURL(fixture[0].file, root).href, 'file:///sites/baba-is-you-media/media/71-example.mp4');
+  assert.equal(localAssetURL('media/01-example.mp4', root).href, 'file:///sites/baba-is-you/media/01-example.mp4');
+  for (const file of ['/other/media/a.mp4', '/baba-is-you-media/media/../a.mp4', '//evil.example/a.mp4', '/baba-is-you-media/media/a.mp4?x', '/baba-is-you-media/media/%2e%2e.mp4']) {
+    assert.throws(() => validateLevels([{ ...levels[0], file }]), /Missing or unsafe/);
+    assert.throws(() => localAssetURL(file, root), /Unsafe/);
+  }
 });

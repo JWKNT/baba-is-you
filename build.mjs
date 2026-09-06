@@ -1,7 +1,7 @@
 import {readFileSync,writeFileSync,existsSync} from 'node:fs';
-import {escape, duration, levelNumber, validateLevels, catalogueMeta} from './lib/catalogue.mjs';
+import {escape, duration, levelNumber, validateLevels, catalogueMeta, localAssetURL} from './lib/catalogue.mjs';
 const levels=JSON.parse(readFileSync(new URL('./data/levels.json',import.meta.url)));
-validateLevels(levels, path => existsSync(new URL(path, import.meta.url)));
+validateLevels(levels, path => existsSync(localAssetURL(path, new URL('./', import.meta.url))));
 const meta=catalogueMeta(levels);
 const first=levels[0];
 const speeds=[1, 1.25, 1.5, 2, 3, 4].map(rate=>`<button type="button" data-playback-rate="${rate}" aria-pressed="${rate === 1}">${rate.toFixed(2)}×</button>`).join('');

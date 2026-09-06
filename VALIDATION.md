@@ -170,3 +170,12 @@ Skull House completes all 21 Deep Forest levels, followed by Empty, Lonely Flag,
 Shortened 23 visually reviewed pauses of at least 20 seconds to five seconds, removing 1,183 seconds. Two automated candidates were corrected to retain small word movements and an undo; input logs were checked against the final cuts. The five clips total 576 seconds and 28.1 MiB. All pass exact frame counts/durations, 1700×950, 30 fps, silent H.264/yuv420p, faststart and file-size limits. All 56 mapped source-frame checks pass, with minimum PSNR 44.5 dB. The batch manifest records source hashes and cuts.
 
 All 24 Node tests pass. Chromium played and sought to the endings of five new and two existing clips with matching durations. Desktop/mobile light/dark, keyboard, 200% text and 95 no-JavaScript links pass without errors or overflow. Videos publish through the companion repository before catalogue links; HTTPS, exact sizes and byte ranges are checked. Player, speed controls and shared-theme code are unchanged. Rollback: revert this catalogue batch commit; companion media can remain available.
+
+
+## Rocket Trip batch · 05–09 · 2026-09-06
+
+Horror Story, Aiming High, Trio, Bottleneck and Platformer are five observed wins. Rocket Trip shows 9/8 and six blossoms; Bottleneck retains the Area Clear celebration. Recording is stopped and Slot 2 has a verified checkpoint backup. Source starts, middles and endings were reviewed for game-only framing, titles and wins. Attempts and undos remain in order; originals stay outside Git.
+
+Shortened 21 visually reviewed pauses of at least 20 seconds to five seconds, removing 1,127 seconds. Input logs show no overlap between the final cuts and recorded key sequences. The five clips total 632 seconds and 29.3 MiB. All pass exact frame counts/durations, 1700×950, 30 fps, silent H.264/yuv420p, faststart and file-size limits. All 52 mapped source-frame checks pass, with minimum PSNR 46.3 dB. The batch manifest records source hashes and cuts.
+
+All 24 Node tests pass. Chromium played and sought to the endings of five new and two existing clips with matching durations. Desktop/mobile light/dark, keyboard, 200% text and 100 no-JavaScript links pass without errors or overflow. Videos publish through the companion repository before catalogue links; HTTPS, exact sizes and byte ranges are checked. Player, speed controls and shared-theme code are unchanged. Rollback: revert this catalogue batch commit; companion media can remain available.

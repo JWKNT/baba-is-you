@@ -853,5 +853,50 @@
     "poster": "assets/level-95.jpg",
     "recorded": "2026-09-06",
     "seconds": 106.0
+  },
+  {
+    "id": "level-96",
+    "number": 96,
+    "title": "Space 05 \u2014 Horror Story",
+    "file": "/baba-is-you-media/media/96-space-05-horror-story.mp4",
+    "poster": "assets/level-96.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 63.0
+  },
+  {
+    "id": "level-97",
+    "number": 97,
+    "title": "Space 06 \u2014 Aiming High",
+    "file": "/baba-is-you-media/media/97-space-06-aiming-high.mp4",
+    "poster": "assets/level-97.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 174.0
+  },
+  {
+    "id": "level-98",
+    "number": 98,
+    "title": "Space 07 \u2014 Trio",
+    "file": "/baba-is-you-media/media/98-space-07-trio.mp4",
+    "poster": "assets/level-98.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 141.0
+  },
+  {
+    "id": "level-99",
+    "number": 99,
+    "title": "Space 08 \u2014 Bottleneck",
+    "file": "/baba-is-you-media/media/99-space-08-bottleneck.mp4",
+    "poster": "assets/level-99.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 101.0
+  },
+  {
+    "id": "level-100",
+    "number": 100,
+    "title": "Space 09 \u2014 Platformer",
+    "file": "/baba-is-you-media/media/100-space-09-platformer.mp4",
+    "poster": "assets/level-100.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 153.0
   }
 ]

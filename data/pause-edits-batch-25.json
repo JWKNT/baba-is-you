@@ -1,0 +1,237 @@
+{
+  "date": "2026-09-06",
+  "threshold_seconds": 20,
+  "retained_seconds": 5,
+  "source_recording": "batch-25.mp4",
+  "source_sha256": "96916c86f104ac8d29246f93d86b57adb4031d3bff717adcb5de736aa389abbe",
+  "clips": [
+    {
+      "id": "level-96",
+      "file": "/baba-is-you-media/media/96-space-05-horror-story.mp4",
+      "seconds": 263.0,
+      "new_seconds": 63.0,
+      "pauses": [
+        [
+          10,
+          156
+        ],
+        [
+          160,
+          224
+        ]
+      ],
+      "cuts": [
+        [
+          12.5,
+          153.5
+        ],
+        [
+          162.5,
+          221.5
+        ]
+      ],
+      "removed": 200.0,
+      "original_sha256": "b533c1e866e4ee80c0966b9b624a9400adf245a1d39437a42b824f5d862dd7d0"
+    },
+    {
+      "id": "level-97",
+      "file": "/baba-is-you-media/media/97-space-06-aiming-high.mp4",
+      "seconds": 451.0,
+      "new_seconds": 174.0,
+      "pauses": [
+        [
+          10,
+          62
+        ],
+        [
+          78,
+          110
+        ],
+        [
+          148,
+          182
+        ],
+        [
+          204,
+          364
+        ],
+        [
+          384,
+          408
+        ]
+      ],
+      "cuts": [
+        [
+          12.5,
+          59.5
+        ],
+        [
+          80.5,
+          107.5
+        ],
+        [
+          150.5,
+          179.5
+        ],
+        [
+          206.5,
+          361.5
+        ],
+        [
+          386.5,
+          405.5
+        ]
+      ],
+      "removed": 277.0,
+      "original_sha256": "dc8bad2c46303bc9d891f332bb84cff5679471187b3afb43227ad3822de6cd3a"
+    },
+    {
+      "id": "level-98",
+      "file": "/baba-is-you-media/media/98-space-07-trio.mp4",
+      "seconds": 331.0,
+      "new_seconds": 141.0,
+      "pauses": [
+        [
+          10,
+          50
+        ],
+        [
+          70,
+          154
+        ],
+        [
+          206,
+          228
+        ],
+        [
+          238,
+          302
+        ]
+      ],
+      "cuts": [
+        [
+          12.5,
+          47.5
+        ],
+        [
+          72.5,
+          151.5
+        ],
+        [
+          208.5,
+          225.5
+        ],
+        [
+          240.5,
+          299.5
+        ]
+      ],
+      "removed": 190.0,
+      "original_sha256": "39e2e66f16addedaf7a5cb9ebb6ae21795a5ee0757d001d1757421944b0b8462"
+    },
+    {
+      "id": "level-99",
+      "file": "/baba-is-you-media/media/99-space-08-bottleneck.mp4",
+      "seconds": 233.0,
+      "new_seconds": 101.0,
+      "pauses": [
+        [
+          10,
+          96
+        ],
+        [
+          144,
+          164
+        ],
+        [
+          166,
+          192
+        ],
+        [
+          212,
+          232
+        ]
+      ],
+      "cuts": [
+        [
+          12.5,
+          93.5
+        ],
+        [
+          146.5,
+          161.5
+        ],
+        [
+          168.5,
+          189.5
+        ],
+        [
+          214.5,
+          229.5
+        ]
+      ],
+      "removed": 132.0,
+      "original_sha256": "b069d0d0f15802c4068ce9f4c9b596d62147aef7fef918610c7d11e79fcdd4b5"
+    },
+    {
+      "id": "level-100",
+      "file": "/baba-is-you-media/media/100-space-09-platformer.mp4",
+      "seconds": 481.0,
+      "new_seconds": 153.0,
+      "pauses": [
+        [
+          10,
+          174
+        ],
+        [
+          206,
+          258
+        ],
+        [
+          272,
+          292
+        ],
+        [
+          298,
+          356
+        ],
+        [
+          384,
+          404
+        ],
+        [
+          416,
+          460
+        ]
+      ],
+      "cuts": [
+        [
+          12.5,
+          171.5
+        ],
+        [
+          208.5,
+          255.5
+        ],
+        [
+          274.5,
+          289.5
+        ],
+        [
+          300.5,
+          353.5
+        ],
+        [
+          386.5,
+          401.5
+        ],
+        [
+          418.5,
+          457.5
+        ]
+      ],
+      "removed": 328.0,
+      "original_sha256": "859f2c9080fbe26dcf122a11e289074cde8b57411b48a0e6769e9b1049e22649"
+    }
+  ]
+}

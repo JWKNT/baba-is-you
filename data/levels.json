@@ -808,5 +808,50 @@
     "poster": "assets/level-90.jpg",
     "recorded": "2026-09-06",
     "seconds": 103.0
+  },
+  {
+    "id": "level-91",
+    "number": 91,
+    "title": "Forest Extra 2 \u2014 Skull House",
+    "file": "/baba-is-you-media/media/91-forest-extra-02-skull-house.mp4",
+    "poster": "assets/level-91.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 191.0
+  },
+  {
+    "id": "level-92",
+    "number": 92,
+    "title": "Space 01 \u2014 Empty",
+    "file": "/baba-is-you-media/media/92-space-01-empty.mp4",
+    "poster": "assets/level-92.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 66.0
+  },
+  {
+    "id": "level-93",
+    "number": 93,
+    "title": "Space 02 \u2014 Lonely Flag",
+    "file": "/baba-is-you-media/media/93-space-02-lonely-flag.mp4",
+    "poster": "assets/level-93.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 107.0
+  },
+  {
+    "id": "level-94",
+    "number": 94,
+    "title": "Space 03 \u2014 Babas Are You",
+    "file": "/baba-is-you-media/media/94-space-03-babas-are-you.mp4",
+    "poster": "assets/level-94.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 106.0
+  },
+  {
+    "id": "level-95",
+    "number": 95,
+    "title": "Space 04 \u2014 Please Hold My Key",
+    "file": "/baba-is-you-media/media/95-space-04-please-hold-my-key.mp4",
+    "poster": "assets/level-95.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 106.0
   }
 ]

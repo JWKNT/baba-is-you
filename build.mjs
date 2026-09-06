@@ -26,7 +26,7 @@ writeFileSync(new URL('./index.html',import.meta.url),`<!doctype html>
 <link rel="stylesheet" href="assets/styles.css"><script src="assets/player.js" defer></script>
 </head><body data-site-tone="ochre">
 <a href="#player" class="skip-link">Skip to video</a>
-<header class="site-header site-header--identity"><div class="site-brand"><img class="site-mark" src="https://jehlp.net/site-theme/v2/marks/puzzles.png" width="32" height="32" alt=""><h1 class="site-title">Baba Is You</h1></div><nav aria-label="Page links"><a href="https://github.com/JWKNT/baba-is-you">Source</a><button type="button" data-theme-toggle aria-label="Use dark theme">◐</button></nav></header>
+<header class="site-header site-header--identity"><div class="site-brand"><img class="site-mark" src="https://jehlp.net/site-theme/v2/marks/baba-is-you.png" width="32" height="32" alt=""><h1 class="site-title">Baba Is You</h1></div><nav aria-label="Page links"><a href="https://github.com/JWKNT/baba-is-you">Source</a><button type="button" data-theme-toggle aria-label="Use dark theme">◐</button></nav></header>
 <main class="page-shell">
 <p class="intro">Level recordings <span aria-hidden="true">/</span> ${levels.length} completed <span aria-hidden="true">/</span> <time datetime="2026-09-05">5 September 2026</time></p>
 <div class="catalogue">

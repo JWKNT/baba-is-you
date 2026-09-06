@@ -8,3 +8,5 @@
 - Shared-theme suite: 22 tests pass; no shared CSS/JS changed. Homepage suite: 15 tests pass after adding the thirteenth authored destination.
 
 Public route: https://jehlp.net/baba-is-you/. Deployment and HTTP verification are recorded in the companion site-theme change record.
+
+Unique icon update: generated Baba character PNG replaces the generic puzzles mark. Chromium verified the 32px masthead in light and dark modes, with a loaded 128px transparent source. All 3 catalogue and 22 theme tests pass.

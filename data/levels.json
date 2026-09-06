@@ -538,5 +538,50 @@
     "poster": "assets/level-60.jpg",
     "recorded": "2026-09-06",
     "seconds": 53.0
+  },
+  {
+    "id": "level-61",
+    "number": 61,
+    "title": "Fall 11 \u2014 Catch",
+    "file": "media/61-fall-11-catch.mp4",
+    "poster": "assets/level-61.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 112.0
+  },
+  {
+    "id": "level-62",
+    "number": 62,
+    "title": "Fall 12 \u2014 Dead End",
+    "file": "media/62-fall-12-dead-end.mp4",
+    "poster": "assets/level-62.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 81.0
+  },
+  {
+    "id": "level-63",
+    "number": 63,
+    "title": "Fall A \u2014 Literacy",
+    "file": "media/63-fall-a-literacy.mp4",
+    "poster": "assets/level-63.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 56.0
+  },
+  {
+    "id": "level-64",
+    "number": 64,
+    "title": "Fall B \u2014 Broken Playground",
+    "file": "media/64-fall-b-broken-playground.mp4",
+    "poster": "assets/level-64.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 246.0
+  },
+  {
+    "id": "level-65",
+    "number": 65,
+    "title": "Fall C \u2014 Fetching",
+    "file": "media/65-fall-c-fetching.mp4",
+    "poster": "assets/level-65.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 145.0
   }
 ]

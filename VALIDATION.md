@@ -107,3 +107,12 @@ Crate Square, Ghost Friend, Ghost Guard, Leaf Chamber and Not There are five obs
 Shortened 40 visually reviewed idle intervals of at least 20 seconds to five seconds, removing 1,428 seconds. The five final clips total 1,084 seconds and 72.1 MiB. All pass exact frame-count/duration checks, 1700×950, 30 fps, silent H.264/yuv420p, faststart and file-size limits. All 90 mapped source-frame checks at boundaries and both sides of every cut pass; minimum PSNR is 44.7 dB at review resolution. The batch manifest records source hashes and cut intervals.
 
 All 23 Node tests pass. Chromium played and sought to the endings of five new and two existing videos with matching durations, then checked desktop/mobile light/dark, keyboard, 200% text and 60 no-JavaScript links without errors or overflow. Existing player, speed controls and shared theme are preserved. Rollback: revert this batch commit.
+
+
+## Forest of Fall batch · 11–12 and A–C · 2026-09-06
+
+Catch, Dead End, Literacy, Broken Playground and Fetching are five observed wins. The map shows 15/7. Recording is stopped and Slot 2 has a checkpoint backup. All source starts, middle frames and endings were reviewed for title cards, completed levels and game-only framing. Catch excludes a 20-second tail containing a Steam notification after the win, retaining a clean completed-level map. Inter-level Steam settings footage is excluded entirely. Originals remain outside the repository.
+
+Shortened 19 visually reviewed idle intervals of at least 20 seconds to five seconds, removing 1,143 seconds. The five final clips total 640 seconds and 35.2 MiB. All pass exact frame counts/durations, 1700×950, 30 fps, silent H.264/yuv420p, faststart and size limits. All 48 mapped source-frame checks at boundaries and both sides of each cut pass; minimum PSNR is 46.1 dB at review resolution. The batch manifest records source hashes, pause cuts and the manual notification trim.
+
+All 23 Node tests pass. Chromium played and sought to the endings of five new and two existing videos with matching durations, then checked desktop/mobile light/dark, keyboard, 200% text and 65 no-JavaScript links without errors or overflow. Existing player, speed controls and shared theme are preserved. Rollback: revert this batch commit.

@@ -1,0 +1,227 @@
+{
+  "date": "2026-09-06",
+  "threshold_seconds": 20,
+  "retained_seconds": 5,
+  "source_recording": "batch-18.mp4",
+  "source_sha256": "5f6f286ca16964413811e12de5f4bda90ef67cdec6999fa610348d7b95b4d674",
+  "manual_source_trims": {
+    "level-61": {
+      "removed_tail_seconds": 20,
+      "reason": "Steam notification after completed-level map; retained clean map ending"
+    }
+  },
+  "clips": [
+    {
+      "id": "level-61",
+      "file": "media/61-fall-11-catch.mp4",
+      "seconds": 430.0,
+      "new_seconds": 112.0,
+      "pauses": [
+        [
+          8,
+          82
+        ],
+        [
+          84,
+          222
+        ],
+        [
+          236,
+          262
+        ],
+        [
+          268,
+          292
+        ],
+        [
+          320,
+          382
+        ],
+        [
+          406,
+          430
+        ]
+      ],
+      "cuts": [
+        [
+          10.5,
+          79.5
+        ],
+        [
+          86.5,
+          219.5
+        ],
+        [
+          238.5,
+          259.5
+        ],
+        [
+          270.5,
+          289.5
+        ],
+        [
+          322.5,
+          379.5
+        ],
+        [
+          408.5,
+          427.5
+        ]
+      ],
+      "removed": 318.0,
+      "original_sha256": "fac1b8c6327b42bf90d4ca8d981c9ddb67a4769b54f678b3a8e60a1a613bf384"
+    },
+    {
+      "id": "level-62",
+      "file": "media/62-fall-12-dead-end.mp4",
+      "seconds": 218.0,
+      "new_seconds": 81.0,
+      "pauses": [
+        [
+          8,
+          150
+        ]
+      ],
+      "cuts": [
+        [
+          10.5,
+          147.5
+        ]
+      ],
+      "removed": 137.0,
+      "original_sha256": "22cacbeaf64ccf00b2005dd1519083af7101e757f2b56cb876373f8e3ac54afd"
+    },
+    {
+      "id": "level-63",
+      "file": "media/63-fall-a-literacy.mp4",
+      "seconds": 459.0,
+      "new_seconds": 56.0,
+      "pauses": [
+        [
+          8,
+          416
+        ]
+      ],
+      "cuts": [
+        [
+          10.5,
+          413.5
+        ]
+      ],
+      "removed": 403.0,
+      "original_sha256": "6250dd416b48b88435867fb7a6dbccf5838a5ad26233133fc6a46aea3d8a7763"
+    },
+    {
+      "id": "level-64",
+      "file": "media/64-fall-b-broken-playground.mp4",
+      "seconds": 390.0,
+      "new_seconds": 246.0,
+      "pauses": [
+        [
+          10,
+          38
+        ],
+        [
+          50,
+          74
+        ],
+        [
+          78,
+          98
+        ],
+        [
+          110,
+          136
+        ],
+        [
+          244,
+          274
+        ],
+        [
+          310,
+          356
+        ]
+      ],
+      "cuts": [
+        [
+          12.5,
+          35.5
+        ],
+        [
+          52.5,
+          71.5
+        ],
+        [
+          80.5,
+          95.5
+        ],
+        [
+          112.5,
+          133.5
+        ],
+        [
+          246.5,
+          271.5
+        ],
+        [
+          312.5,
+          353.5
+        ]
+      ],
+      "removed": 144.0,
+      "original_sha256": "1baceebe5a581c2d9e1c53a4b60e3f3c6d1d9055fdc2ab27f421832b0566f693"
+    },
+    {
+      "id": "level-65",
+      "file": "media/65-fall-c-fetching.mp4",
+      "seconds": 286.0,
+      "new_seconds": 145.0,
+      "pauses": [
+        [
+          8,
+          42
+        ],
+        [
+          90,
+          122
+        ],
+        [
+          154,
+          180
+        ],
+        [
+          188,
+          242
+        ],
+        [
+          250,
+          270
+        ]
+      ],
+      "cuts": [
+        [
+          10.5,
+          39.5
+        ],
+        [
+          92.5,
+          119.5
+        ],
+        [
+          156.5,
+          177.5
+        ],
+        [
+          190.5,
+          239.5
+        ],
+        [
+          252.5,
+          267.5
+        ]
+      ],
+      "removed": 141.0,
+      "original_sha256": "08e001355331680f9ebdad7e5e95b61e7d257ae5b625283ee511f664a7227610"
+    }
+  ]
+}

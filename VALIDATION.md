@@ -49,3 +49,9 @@ Both 1700×950 H.264 exports were checked at their starts, middles and winning e
 Five game-only 1700×950 H.264 recordings cover Poem, Float, Warm River and both Bridge Building puzzles. Starts, middle frames and winning endings were visually reviewed. Attempts and restarts remain in the clips, and the save was backed up after Island 04.
 
 All 17 Node tests pass. Chromium played all five new videos and checked desktop/mobile light/dark layouts, keyboard focus, 200% text and 27 no-JavaScript links without errors or overflow. Player and shared-theme code are unchanged. Rollback: revert this batch commit.
+
+## Island batch · 05–09 · 2026-09-06
+
+Five 1700×950 H.264 recordings cover Victory Spring, Assembly Team, Catch the Thief!, Tiny Pond and Research Facility. Starts, middle frames and winning endings were reviewed. The Catch the Thief! recording includes the island's Area Clear celebration. Research Facility was re-entered after a Steam overlay disappeared, so that overlay is excluded from its published clip. Attempts and undos remain visible.
+
+All 17 Node tests pass. Chromium played all five clips and checked desktop/mobile light/dark layouts, keyboard focus, 200% text and 32 no-JavaScript links without script errors or overflow. The save is backed up through Island 09. No player or theme code changed. Rollback: revert this batch commit.

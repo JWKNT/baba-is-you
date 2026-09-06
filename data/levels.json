@@ -241,5 +241,50 @@
     "poster": "assets/level-27.jpg",
     "seconds": 58,
     "recorded": "2026-09-06"
+  },
+  {
+    "id": "level-28",
+    "number": 28,
+    "title": "Island 05 \u2014 Victory Spring",
+    "file": "media/28-island-05-victory-spring.mp4",
+    "poster": "assets/level-28.jpg",
+    "seconds": 232,
+    "recorded": "2026-09-06"
+  },
+  {
+    "id": "level-29",
+    "number": 29,
+    "title": "Island 06 \u2014 Assembly Team",
+    "file": "media/29-island-06-assembly-team.mp4",
+    "poster": "assets/level-29.jpg",
+    "seconds": 254,
+    "recorded": "2026-09-06"
+  },
+  {
+    "id": "level-30",
+    "number": 30,
+    "title": "Island 07 \u2014 Catch the Thief!",
+    "file": "media/30-island-07-catch-the-thief.mp4",
+    "poster": "assets/level-30.jpg",
+    "seconds": 316,
+    "recorded": "2026-09-06"
+  },
+  {
+    "id": "level-31",
+    "number": 31,
+    "title": "Island 08 \u2014 Tiny Pond",
+    "file": "media/31-island-08-tiny-pond.mp4",
+    "poster": "assets/level-31.jpg",
+    "seconds": 360,
+    "recorded": "2026-09-06"
+  },
+  {
+    "id": "level-32",
+    "number": 32,
+    "title": "Island 09 \u2014 Research Facility",
+    "file": "media/32-island-09-research-facility.mp4",
+    "poster": "assets/level-32.jpg",
+    "seconds": 242,
+    "recorded": "2026-09-06"
   }
 ]

@@ -55,7 +55,7 @@ function setup({hash = '', standard = false, safari = false, safariSupported = f
   const nodes = {
     '#video': video, '#pip': pip, '#pip-note': pipNote, '#player-status': status,
     '#playing-title': element(), '#playing-number': element(),
-    '#playing-duration': element(), '#current-download': element(),
+    '#playing-duration': element(),
     '#player': element({focus() { calls.focus++; }, scrollIntoView() { calls.scroll++; }})
   };
   const document = {
@@ -108,7 +108,7 @@ function setup({hash = '', standard = false, safari = false, safariSupported = f
   };
 }
 
-test('selection updates the player, metadata and download without playing', () => {
+test('selection updates the player and metadata without playing or a download control', () => {
   const page = setup({explicitNumber: '7'});
   assert.equal(page.click(1).defaultPrevented, true);
   assert.equal(page.video.src, 'media/level-02.mp4');
@@ -116,7 +116,6 @@ test('selection updates the player, metadata and download without playing', () =
   assert.equal(page.nodes['#playing-title'].textContent, 'Recording 2');
   assert.equal(page.nodes['#playing-number'].textContent, 'Level 07');
   assert.equal(page.nodes['#playing-duration'].textContent, '2:00');
-  assert.equal(page.nodes['#current-download'].href, page.rows[1].link.href);
   assert.equal(page.rows[0].link.getAttribute('aria-current'), null);
   assert.equal(page.rows[1].link.getAttribute('aria-current'), 'true');
   assert.equal(page.status.textContent, 'Selected level 07: Recording 2.');
@@ -233,14 +232,14 @@ test('PiP failures leave playback available and announce the failure', async () 
   }
 });
 
-test('video failures retain the download and selecting another clip clears the error', () => {
+test('video failures offer available recovery and selecting another clip clears the error', () => {
   const page = setup({standard: true});
   page.ready();
   page.video.error = {code: 4};
   page.video.dispatch('error');
   assert.match(page.status.textContent, /This clip could not be loaded/);
   assert.equal(page.pip.disabled, true);
-  assert.equal(page.nodes['#current-download'].href, page.rows[0].link.href);
+  assert.doesNotMatch(page.status.textContent, /download/i);
   page.click(1);
   page.ready();
   assert.match(page.status.textContent, /^Selected level 02:/);

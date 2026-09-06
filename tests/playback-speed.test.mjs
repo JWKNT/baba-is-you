@@ -38,6 +38,8 @@ test('six native speed buttons are hidden until enhanced; removed header and not
   assert.match(html, /role="group" aria-label="Playback speed" data-playback-speed="video" hidden/);
   for (const rate of rates) assert.ok(html.includes(`data-playback-rate="${rate}" aria-pressed="${rate === 1}">${rate.toFixed(2)}×</button>`));
   assert.doesNotMatch(html, /recording-note|Silent recordings\./);
+  assert.doesNotMatch(html, /current-download|class="download"|\sdownload(?:\s|>)|Slot 2|Download clip|Download the MP4/);
+  assert.match(html, /controlslist="nodownload"/);
   assert.doesNotMatch(html.match(/<header\b[\s\S]*?<\/header>/)[0], /github\.com|>Source</);
 });
 

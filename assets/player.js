@@ -49,7 +49,6 @@
     document.querySelector('#playing-title').textContent = row.dataset.title;
     document.querySelector('#playing-number').textContent = `Level ${number}`;
     document.querySelector('#playing-duration').textContent = row.querySelector('.duration').textContent;
-    document.querySelector('#current-download').href = link.href;
 
     for (const item of rows) {
       const watch = item.querySelector('[data-watch]');
@@ -90,7 +89,7 @@
   ]) video.addEventListener(name, syncPip);
 
   video.addEventListener('error', () => {
-    status.textContent = 'This clip could not be loaded. Try its download link or reload the page.';
+    status.textContent = 'This clip could not be loaded. Reload the page or choose another level.';
     syncPip();
   });
 

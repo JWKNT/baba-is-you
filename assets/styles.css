@@ -16,8 +16,6 @@ video { display: block; width: 100%; height: auto; aspect-ratio: 1700 / 950; bac
 #playing-duration { margin-left: auto; font: var(--text-ui)/1.5 var(--mono); color: var(--muted); }
 #player-status:empty { display: none; }
 #player-status { font: var(--text-ui)/1.5 var(--sans); color: var(--muted-strong); }
-.list-heading { display:flex; align-items:baseline; min-height:3rem; padding-bottom:.75rem; }
-.list-heading h2 { font-weight:500; font-size:1.2rem; margin:0; }
 .level-list { list-style:none; padding:0; margin:0; }
 .level-list li { border-bottom:1px solid var(--line); }
 .level-link { display:grid; grid-template-columns:minmax(2ch,max-content) minmax(0,1fr) auto; align-items:baseline; gap:.75rem; padding:.9rem .25rem .9rem 0; color:var(--ink); text-decoration:none; }

@@ -32,7 +32,7 @@ writeFileSync(new URL('./index.html',import.meta.url),`<!doctype html>
  <p class="speed-status" data-playback-speed-status="video" role="status" aria-live="polite"></p>
  <p id="player-status" role="status" aria-live="polite"></p>
 </section>
-<section class="level-section" aria-labelledby="levels-title"><div class="list-heading"><h2 id="levels-title">Worlds</h2></div>
+<section class="level-section" aria-label="Recordings by world">
 ${ruleDivider}
 <div id="worlds">${worlds}</div><p class="collection-note">Played with GPT-6 Astra.</p></section>
 </div>

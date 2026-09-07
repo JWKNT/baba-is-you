@@ -1033,5 +1033,50 @@
     "poster": "assets/level-115.jpg",
     "recorded": "2026-09-06",
     "seconds": 179.0
+  },
+  {
+    "id": "level-116",
+    "number": 116,
+    "title": "Garden 10 \u2014 Adventurers",
+    "file": "/baba-is-you-media/media/116-garden-10-adventurers.mp4",
+    "poster": "assets/level-116.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 126.0
+  },
+  {
+    "id": "level-117",
+    "number": 117,
+    "title": "Garden Extra 1 \u2014 Secret Garden",
+    "file": "/baba-is-you-media/media/117-garden-extra-01-secret-garden.mp4",
+    "poster": "assets/level-117.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 309.0
+  },
+  {
+    "id": "level-118",
+    "number": 118,
+    "title": "Garden Extra 2 \u2014 Out at Sea",
+    "file": "/baba-is-you-media/media/118-garden-extra-02-out-at-sea.mp4",
+    "poster": "assets/level-118.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 267.0
+  },
+  {
+    "id": "level-119",
+    "number": 119,
+    "title": "Chasm A \u2014 Rocky Prison",
+    "file": "/baba-is-you-media/media/119-chasm-a-rocky-prison.mp4",
+    "poster": "assets/level-119.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 110.0
+  },
+  {
+    "id": "level-120",
+    "number": 120,
+    "title": "Chasm B \u2014 Siege",
+    "file": "/baba-is-you-media/media/120-chasm-b-siege.mp4",
+    "poster": "assets/level-120.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 108.0
   }
 ]

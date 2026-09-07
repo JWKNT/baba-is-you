@@ -64,4 +64,12 @@
 - All1,136 logged inputs covered by kept edit intervals. All five victory frames inspected; game-only crops, one video stream, no audio. Files6.5–28.8MB. Love Is Out There retains20seconds after the last input for Area Clear.
 - Build, all30 tests, deterministic rebuild, and whitespace checks passed. Native Love Is Out There playback reached11.09seconds with readyState4 and no media error. Selection to But Where’s the Key updated its video/title/notes. Browser error log empty.
 - Desktop light notes and390px dark layout inspected, including200% text (32px root; scrollWidth390). JavaScript-disabled page exposes45 native note disclosures and direct links; newest disclosure opens and keyboard Return toggles it. Restored JavaScript, normal text, default viewport, light theme.
-- Previous40-level release75c19c8 verified through successful Actions34104665537, public45-independent prior40 count, and HTTP206 for Fragility.
+- Previous40-level release75c19c8 verified through successful Actions34104665537, public40 count, and HTTP206 for Fragility.
+
+## Batch 10 — 46–50 (2026-09-07)
+- Remaining visible Temple Ruins levels and Deep Forest01 added with complete Approach, Mechanics, Attempts notes.
+- All 1,364 logged inputs covered by kept intervals, including both Perilous Gang restarts and all34 Double Moat undos. All five victory frames and game-only crops inspected. Exports have one video stream, no audio; files9.1–32.9MB.
+- Build, all30 tests, deterministic rebuild, and whitespace checks passed. Native Renovating playback readyState4, advanced35.79seconds, no media error. Selection to Further Fields changed video/title/notes. Browser error log empty.
+- Desktop light and390px dark notes inspected. At200% text, root size32px and document width390px (no horizontal overflow). JavaScript-disabled page exposes50 native note disclosures and direct links. Renovating disclosure opens and responds to keyboard Return. Restored scripts, normal font, default viewport and light theme.
+- New local planners use manually transcribed game boards, never game internals. Shared-player paths and one-object routes were verified against live play in Double Moat, Walls of Gold and Further Fields.
+- Prior45-level release9c94770 verified through successful Actions34110314636, public45-count HTML with new notes, and HTTP206 for Love Is Out There.

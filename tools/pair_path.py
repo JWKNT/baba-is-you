@@ -6,6 +6,7 @@ All target cells must be occupied. Players may merge, unless distinct=true.
 import json,sys,collections
 s=json.load(open(sys.argv[1])); w,h=s['size']; blocked={tuple(p) for p in s['blocked']}; targets={tuple(p) for p in s['targets']}
 words={tuple(p) for p in s.get('words',[])}
+hazards={tuple(p) for p in s.get('hazards',[])}
 start=tuple(sorted(set(map(tuple,s['players'])))); q=collections.deque([start]); seen={start:None}; prev={}
 for_state=None
 while q:
@@ -21,7 +22,7 @@ while q:
     if 0<=end[0]<w and 0<=end[1]<h and end not in blocked:pushes=True;break
     nxt.append((x,y))
    else:nxt.append((x,y) if not(0<=p[0]<w and 0<=p[1]<h) or p in blocked else p)
-  if pushes:continue
+  if pushes or any(p in hazards for p in nxt):continue
   ns=tuple(sorted(set(nxt)))
   if s.get('distinct',True) and len(ns)!=len(st):continue
   if ns not in seen:seen[ns]=st;prev[ns]=key;q.append(ns)

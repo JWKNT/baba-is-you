@@ -763,5 +763,90 @@
       "mechanics": "HAS can produce two objects with AND, including another copy of its owner. A weak box can therefore leave both a key and a replacement box. Sharing nouns between perpendicular rules makes the compact top-row layout possible, and the pushable property can be transferred to the generated keys.",
       "attempts": "Several word-routing errors required 41 undos, including an IS stranded at the bottom, a PUSH collision, and pushing the box toward the wrong wall. The final approach displaced IS from LOVE IS WIN; I recovered it without restarting. Every failed move and correction remains, followed by the third-flower area-clear animation."
     }
+  },
+  {
+    "id": "level-46",
+    "number": 46,
+    "title": "Perilous Gang",
+    "file": "media/046-perilous-gang.mp4",
+    "poster": "assets/level-46.jpg",
+    "seconds": 115.933333,
+    "recorded": "2026-09-07",
+    "world": "Temple Ruins",
+    "code": "07",
+    "name": "Perilous Gang",
+    "notes": {
+      "approach": "Line up two ghosts with IS and PUSH on adjacent rows. Activate GHOST IS MOVE and stop it when the payloads form SKULL IS PUSH beneath the remote SKULL noun. Push through the barrier, break SKULL IS DEFEAT, and remove PUSH from the skulls. Retrieve WIN and make GHOST IS WIN, then touch a carrier.",
+      "mechanics": "Two synchronized movers can deliver a vertical rule across a lethal barrier while the player stays behind. A dangerous object becomes safely pushable when it also has PUSH. Removing a mover rule can allow one final step, which must be included in delivery timing.",
+      "attempts": "Two restarts retain the initial direction experiment and a word-routing error. A later attempt moved PUSH too early, leaving the second ghost behind; I restored PUSH, aligned the carrier, and recovered without another restart. A brief reactivation of MOVE during the final WIN placement advanced the ghosts one extra tile, so the final approach needed one more step."
+    }
+  },
+  {
+    "id": "level-47",
+    "number": 47,
+    "title": "Double Moat",
+    "file": "media/047-double-moat.mp4",
+    "poster": "assets/level-47.jpg",
+    "seconds": 184.733333,
+    "recorded": "2026-09-07",
+    "world": "Temple Ruins",
+    "code": "08",
+    "name": "Double Moat",
+    "notes": {
+      "approach": "Stage Keke facing the door. KEKE IS MOVE carries it across the first moat, and KEKE HAS BABA leaves a second controlled Baba when the door consumes Keke. Keep that Baba safe while reversing the contents to BABA HAS KEKE. Send it into the second moat, let the resulting moving Keke reach dry land, then replace BABA with KEKE in the control sentence and reach the flag.",
+      "mechanics": "DEFEAT affects controlled characters; an autonomous mover can cross it. HAS transfers an object across destruction by a door or hazard. With two YOU objects, wall positions and horizontal separation determine which word-routing moves are safe. Remove HAS from the control-noun swap path to avoid a gap in control.",
+      "attempts": "The first launch pushed the BABA word apart, so I moved the whole rule assembly below the travel lane. Another rollback widened the spacing between the two Babas. All 34 undos and failed moves remain. A small planner, built only from the observed board, checked the final shared-movement routes against walls, words, and lethal water; no restart."
+    }
+  },
+  {
+    "id": "level-48",
+    "number": 48,
+    "title": "Walls of Gold",
+    "file": "media/048-walls-of-gold.mp4",
+    "poster": "assets/level-48.jpg",
+    "seconds": 137.566667,
+    "recorded": "2026-09-07",
+    "world": "Temple Ruins",
+    "code": "09",
+    "name": "Walls of Gold",
+    "notes": {
+      "approach": "Push the lower sentence right to make WALL IS ROCK and escape. Place one rock above the ice enclosure, then prepare perpendicular ROCK IS WALL and ROCK IS BABA rules that activate together. The rocks become overlapping walls and controlled Babas. Two upper Babas move the spare IS into WALL IS WIN while another Baba stays inside a corner wall.",
+      "mechanics": "Two simultaneous noun transformations create both named objects on each original tile. A controlled character already overlapping a STOP object can remain there when adjacent walls block its movement. Keeping the final sequence to right and down preserves the overlap needed for WIN.",
+      "attempts": "No undo or restart. I opened a second passage in the rock ring to retrieve WIN, then staged every word before transforming. The final sequence was two rights, down, two rights. A local single-object routing tool avoided moving unrelated words and kept the transformation trigger cell forbidden until the setup was ready."
+    }
+  },
+  {
+    "id": "level-49",
+    "number": 49,
+    "title": "Further Fields",
+    "file": "media/049-further-fields.mp4",
+    "poster": "assets/level-49.jpg",
+    "seconds": 130.0,
+    "recorded": "2026-09-07",
+    "world": "Temple Ruins",
+    "code": "Extra 1",
+    "name": "Further Fields",
+    "notes": {
+      "approach": "Stage three right-facing Babas to carry three rows. The upper row keeps KEKE IS PUSH active; the middle carries BABA IS MOVE itself; the lower pushes Keke and YOU. Move YOU out of alignment before crossing, then wait while Keke is transported without being controlled. The far-side obstacles stop the rows at different positions and restore KEKE IS YOU. Walk down to the flag.",
+      "mechanics": "An autonomous mover can carry the complete sentence that grants MOVE. A pushable character can cross DEFEAT while YOU is temporarily inactive, and autonomous moves continue during waits. Different fixed stopping positions can align a control sentence after a crossing.",
+      "attempts": "No undo or restart. One Baba initially reached the left edge facing outward; a brief MOVE pulse let it bounce back before I restored PUSH and staged it. All repositioning and the ten waits during the uncontrolled crossing remain. The final alignment restored control at the predicted safe position."
+    }
+  },
+  {
+    "id": "level-50",
+    "number": 50,
+    "title": "Renovating",
+    "file": "media/050-renovating.mp4",
+    "poster": "assets/level-50.jpg",
+    "seconds": 64.2,
+    "recorded": "2026-09-07",
+    "world": "Deep Forest",
+    "code": "01",
+    "name": "Renovating",
+    "notes": {
+      "approach": "Replace SHIFT with PUSH and extract one belt from the bridge. Push it under the dangerous gate, then restore SHIFT to move the wall off that tile. Alternate PUSH and SHIFT to advance the same belt twice more, moving the blocking wall far enough aside to leave a passage. Disable SHIFT before crossing and walk around the relocated wall to the flag.",
+      "mechanics": "SHIFT moves objects standing on a conveyor even when those objects are not pushable. DEFEAT affects the controlled character, so a pushable belt can safely overlap the dangerous wall. Turn off the conveyor before walking over it if its direction would carry YOU into a hazard.",
+      "attempts": "No undo or restart. The bridge belts were pushed into the upper pocket so one could be extracted from above. Three wall shifts opened the route, and the final crossing used the inactive belt. All positioning, property swaps, and waits remain."
+    }
   }
 ]

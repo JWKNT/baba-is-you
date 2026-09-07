@@ -106,3 +106,10 @@ Previous 59-level release 2ed15252ee7f1fe8ffa99ae2a152819882acdfe9 was verified 
 - Added complete Approach / Mechanics / Attempts notes. Thirty tests pass, including deterministic rebuild; git diff --check passes.
 - Browser QA: native keyboard playback advanced without a media error; Ghost Guard → Jump selection restored the correct video and notes. Desktop light and 390px dark layouts checked; 200% text had no horizontal overflow (390px document width). With scripts disabled, all 65 native note disclosures and the direct Jump MP4 link remained available. Browser error log empty. Temporary viewport, font-size and script overrides restored.
 - Prior release 0feb6fa verified deployed by successful Actions run 34148317414 and public catalogue content.
+
+## Batch 15 — recording 66 (2026-09-07)
+
+- Leaf Chamber joins all three source sessions, retaining every one of 1,338 inputs, 17 undos and two restarts. Silent 596.1-second edit, 69,062,994 bytes; manifest coverage passed and the final congratulations frame was visually verified.
+- Complete Approach / Mechanics / Attempts notes added. All30 tests pass, including deterministic rebuild, and git diff --check passes.
+- Browser QA: Jump → Leaf Chamber updated the video and notes; native keyboard playback advanced beyond6seconds without media errors. Desktop light, 390px dark, and 200% text checked, with no horizontal overflow. With JavaScript disabled, all66 native note disclosures and the Leaf Chamber direct MP4 remained available. Error log empty; viewport, text and script overrides restored.
+- Prior Jump release61a99fe verified via successful Actions34157931779 and public65count, media path and notes.

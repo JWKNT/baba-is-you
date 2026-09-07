@@ -508,5 +508,90 @@
       "mechanics": "A word blocked by a wall can stop one controlled object while another keeps moving. This creates the offset needed to sacrifice only one robot. The rule can be assembled on the noun\u2019s side of the river rather than carrying the noun across.",
       "attempts": "The planned offset and word return worked without an undo or restart. The deliberate blocked movements used to align the robots are retained."
     }
+  },
+  {
+    "id": "level-31",
+    "number": 31,
+    "title": "Catch the Thief!",
+    "file": "media/031-catch-the-thief.mp4",
+    "poster": "assets/level-31.jpg",
+    "seconds": 159.033333,
+    "recorded": "2026-09-07",
+    "world": "Solitary Island",
+    "code": "07",
+    "name": "Catch the Thief!",
+    "notes": {
+      "approach": "Move Baba\u2019s control sentence below the thief\u2019s route. Stop the robot inside the left pocket and make ROBOT IS YOU share YOU with BABA IS YOU. Use both characters to bring WIN out, then keep the robot controlled while assembling BABA IS WIN. The robot touches Baba to finish.",
+      "mechanics": "A MOVE object can push a control word away. Sharing YOU allows two characters to cooperate, and the winning object can be different from the controlled object. The isolated pipe pieces block several tempting routes around WIN.",
+      "attempts": "The recording keeps the stolen control word, a fatal skull step, three restarts, and the undo sequences used to recover rule routing and an overshot WIN push. Inert waits did not create distinct undo states, which also caused a rollback farther than expected. The Area Clear animation is retained."
+    }
+  },
+  {
+    "id": "level-32",
+    "number": 32,
+    "title": "Tiny Pond",
+    "file": "media/032-tiny-pond.mp4",
+    "poster": "assets/level-32.jpg",
+    "seconds": 118.266667,
+    "recorded": "2026-09-07",
+    "world": "Solitary Island",
+    "code": "08",
+    "name": "Tiny Pond",
+    "notes": {
+      "approach": "Control the flag temporarily and use the same IS for KEY IS BABA, creating a second Baba. Restore BABA IS YOU AND OPEN, sacrifice one Baba to open the inner water tile, and retrieve WIN with the survivor. Slide the control sentence upward, remove OPEN, and insert WIN.",
+      "mechanics": "A perpendicular transformation can create another copy of the original player while a different noun remains controlled. OPEN and SHUT destroy both participants, so an extra controlled object is needed. The pond\u2019s narrow entrance makes the standing square behind WIN crucial.",
+      "attempts": "The first route trapped WIN in the corner. A direct OPEN test destroyed Baba, followed by a restart. One undo repaired a control-word push during the flag phase. All experiments, blocked moves, and the successful two-Baba route remain."
+    }
+  },
+  {
+    "id": "level-33",
+    "number": 33,
+    "title": "Research Facility",
+    "file": "media/033-research-facility.mp4",
+    "poster": "assets/level-33.jpg",
+    "seconds": 53.533333,
+    "recorded": "2026-09-07",
+    "world": "Solitary Island",
+    "code": "09",
+    "name": "Research Facility",
+    "notes": {
+      "approach": "Stage the bolt facing away from the dangerous corridor, then activate MOVE. Push DEFEAT into the skull rule before the bolt reaches the hot skull. The bolt\u2019s pushing chain removes SKULL from that rule, opening the lower route. Retrieve WIN, make BOLT IS WIN, and touch the bolt.",
+      "mechanics": "A wall reversal buys time for a remotely moving object. The bolt is MELT, so HOT must be removed before it reaches a skull. A non-YOU mover can then pass DEFEAT and push a rule that Baba cannot safely reach.",
+      "attempts": "The first bolt route displaced PUSH and required rebuilding its rule. Later, an attempted WIN insertion shifted the whole sentence; I rerouted WIN above the property slot. All moves remain, with no undo or restart."
+    }
+  },
+  {
+    "id": "level-34",
+    "number": 34,
+    "title": "Wireless Connection",
+    "file": "media/034-wireless-connection.mp4",
+    "poster": "assets/level-34.jpg",
+    "seconds": 150.4,
+    "recorded": "2026-09-07",
+    "world": "Solitary Island",
+    "code": "10",
+    "name": "Wireless Connection",
+    "notes": {
+      "approach": "Send the cog across the bog and stop it beyond the upper rule slot. The robot delivers AND against that stopper and returns. Reuse the cog-rule words in a three-word train; the far wall stops the train with IS between ROCK and WIN. Touch the local flag once FLAG AND ROCK IS WIN is complete.",
+      "mechanics": "A remotely positioned STOP object can set the destination of a pushed word. A fixed wall can do the same for a longer word train. FLAG IS FLAG blocks transformations but does not prevent FLAG from gaining WIN through an AND sentence.",
+      "attempts": "Several routes displaced spare words and required rearranging the local rules. The cog was stopped at its intended position, and both deliveries succeeded. No undo or restart was used; every extra move remains."
+    }
+  },
+  {
+    "id": "level-35",
+    "number": 35,
+    "title": "Prison",
+    "file": "media/035-prison.mp4",
+    "poster": "assets/level-35.jpg",
+    "seconds": 104.333333,
+    "recorded": "2026-09-07",
+    "world": "Solitary Island",
+    "code": "11",
+    "name": "Prison",
+    "notes": {
+      "approach": "Make Keke pushable and park it above the wall-rule column. Remove PUSH, slide the column upward so WALL overlaps Keke, and transfer control to Keke. From inside that word, push IS and STOP down to break the rule. Reuse IS and the outside WIN word to make BABA IS WIN, then touch Baba.",
+      "mechanics": "An object without PUSH can share a cell with a text word. Giving that object YOU lets it move from inside a sentence, pushing a word that was otherwise inaccessible. Once WALL IS STOP breaks, the prison boundary can be crossed.",
+      "attempts": "Direct wall-rule pushes and pushing Keke against the wall failed. A control-word routing mistake led to one restart. The successful overlap setup and all earlier attempts are retained; no undo was used."
+    }
   }
 ]

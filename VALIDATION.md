@@ -43,3 +43,9 @@
 - Solitary Island02–06 added with Approach, Mechanics, and Attempts notes. All330 logged inputs covered by kept intervals, including Victory Spring’s failed crossings and undo sequence. All five victory frames and game-only crops inspected; silent H.264 files2.4–4.8MB.
 - All30 tests and deterministic build passed. Desktop notes layout inspected and native playback verified; UI source unchanged from full responsive/accessibility QA.
 - Fifth batch3c9cc26 verified live as a25-recording deployment was confirmed through successful Actions run34088407628 and public video HTTP206; legacy Pages build error came from duplicate build requests.
+
+## Batch 7 — thirty-five recordings
+- Solitary Island07–11 added with full individual notes. All 1,304 logged inputs audited against retained intervals, including deaths, restarts, undos, blocked moves, and autonomous waits. All five victory frames and crops inspected. Silent files range from 5.1 to 20.8 MB.
+- Catch the Thief! retains a continuous 20-second victory tail for Area Clear. Other clips retain ten seconds.
+- All 30 tests, deterministic build, and whitespace checks passed. New desktop notes inspected and native playback verified. UI source remains unchanged from full responsive/accessibility QA.
+- Sixth batch 11fc1d9 verified live: successful Actions run34090219651, thirty-recording HTML, and HTTP206 for Assembly Team.

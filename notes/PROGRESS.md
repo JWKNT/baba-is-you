@@ -10,7 +10,7 @@
 - This workspace stores fresh tools, raw recordings, and reasoning notes. Raw recordings stay out of Git.
 
 ## Current checkpoint
-- 25 levels completed: base00–07, Lake01–13 + Extras1–2, Solitary Island00–01. Fresh Slot3. On Float map node403328; no active recorder. Fifth batch25 clips audited and ready to publish. Lake15/8 complete; main early side route gated by3 flowers (have1). Fourth batch26193cd verified Pages built, twenty live recordings/notes and HTTP206 for newest clip. Third batch 098904e verified built/live: fifteen recordings, notes, HTTP 206, browser playback readyState 4 at 42.6 seconds.
+- 30 levels completed: base00–07, Lake01–13 + Extras1–2, Solitary Island00–06. Fresh Slot3. On Island06 map451208; no active recorder. Batch6 being verified/published. Fifth batch3c9cc26 live:25 clips/notes, HTTP206 newest clip. Lake15/8 complete; main early side route gated by3 flowers (have1). Fourth batch26193cd verified Pages built, twenty live recordings/notes and HTTP206 for newest clip. Third batch 098904e verified built/live: fifteen recordings, notes, HTTP 206, browser playback readyState 4 at 42.6 seconds.
 - First batch (base 00–04) was published at main commit 9bc1db3. Second batch and notes panel live at main commit 5b86a3f; public ten-level page and notes verified. Companion cleanup d9922ae verified built; old videos removed.
 - Ten silent edits/posters ready; every level has Approach, Mechanics, and Attempts notes. Notes panel follows selection/history, uses native disclosures without JS. 30 tests passed; responsive/light/dark/no-JS/playback checks completed.
 - Capture tools/record: window-only 1708x1016. Export 1680x960 crop at (14,56), no audio, H.264/yuv420p/30fps/faststart. Keep every input and ten seconds after win; only idle gaps removed.
@@ -108,3 +108,17 @@ Read this file and tools before interacting. Observe game fresh using CUA. Updat
 
 25. Solitary Island01 — Float. Tested up movement: floating Baba still blocked by wall. Shifted BABA IS YOU left once to free space below noun. Moved ROCK noun out of lower rule, around right wall, above BABA, then pushed down to transfer control. Grounded rocks moved right four and won at flag. Source025; no undo/restart.
 - FLOAT does not bypass STOP walls. Grounded controlled rocks successfully interact with grounded WIN flag.
+
+26. Solitary Island02 — Warm River. Move AND FLOAT from BABA IS YOU to WATER IS HOT. Grounded Baba crosses floating HOT water and FLOAT DEFEAT skulls, touches grounded flag. Source026, no undo/restart.
+- Confirmed HOT/MELT and DEFEAT interactions are separated by FLOAT height.
+- Pages legacy builds/latest reported errored for3c9cc26, but Actions run34088407628 fully built/deployed same head and public25-level page/newest video verified. Prefer gh run list/view and live verification; avoid redundant explicit Pages build POST if push already started a run.
+
+27. Solitary Island03 — Bridge Building. Sink lower rock into463280. Upper rock boxed by hedges above/left: initial route above failed. Shift IS down/left to form vertical ROCK IS YOU sharing BABA IS YOU; five downs and four rights move upper rock into487280 while Baba blocked safely below. Baba crosses. Source027, no undo/restart.
+
+28. Solitary Island04 — Bridge Building?. Rocks FLOAT, text grounded. Initial route pushed rock down into PUSH and broke rule. Retrieved PUSH from391352, pushed up to391280 then right into463280. Retrieved IS367328, pushed up2 thenright5 into487280. Baba crossed. Source028, no undo/restart.
+
+29. Solitary Island05 — Victory Spring. Two failed water crossings; center WIN hides water. Removing FLOAT prematurely sinks WIN, undone11moves. Top row is board boundary, cannot get above rules. Successful: sink cogs at376292/472292, push entire TEXT IS FLOAT right6 across spring, WIN568292 dry. Route WIN to376196. Push FLOAT520292 down; TEXT424292 sinks and clears center. IS472292 left4 to280292, up3 to280148, right2 to376148 creates BABA IS WIN. Source029135inputs,13undos,no restart.
+- Whole sentence can remain active while pushed as a train, reaching a floating word across water. Never assume a word’s background means dry land beneath it.
+
+30. Solitary Island06 — Assembly Team. RR DD LLL puts BABA atleftwall, staggerrobots. U7 R U alignsrobotsadjacenttoprow, BABAcorner271184. RR sacrificesleadingrobot367184; survivor343184. Crosshole, pushIS/YOUstackup4, bringISleft5 to295184 thenYOUup1/left4 to319184. BABA IS YOU controlsrightroomBaba; U5wins. Source030, no undo/restart.
+- A blocking word at wall can offset synchronized objects. A noun stranded at an edge is still useful if other words can be brought to it.

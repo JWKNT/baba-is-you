@@ -38,3 +38,8 @@
 - Lake completed15/8 including both extras. Main-map early side path needs3 flowers; moved to Solitary Island after checking it.
 - All30 tests, deterministic rebuild, and whitespace checks passed. Mobile390px extra labels and desktop detailed notes inspected; longest new clip played through native player.
 - Fourth batch26193cd verified live: twenty clips, matching notes, HTTP206, browser readyState4/playback27.4s.
+
+## Batch 6 — thirty recordings
+- Solitary Island02–06 added with Approach, Mechanics, and Attempts notes. All330 logged inputs covered by kept intervals, including Victory Spring’s failed crossings and undo sequence. All five victory frames and game-only crops inspected; silent H.264 files2.4–4.8MB.
+- All30 tests and deterministic build passed. Desktop notes layout inspected and native playback verified; UI source unchanged from full responsive/accessibility QA.
+- Fifth batch3c9cc26 verified live as a25-recording deployment was confirmed through successful Actions run34088407628 and public video HTTP206; legacy Pages build error came from duplicate build requests.

@@ -1,0 +1,23 @@
+{
+  "source": "028.mov",
+  "sha256": "2157cc94dbe2170fdae931f0b38ea7a99fa73b0c0d09e251c5ff4fbecb07af20",
+  "sourceSeconds": 102.275,
+  "keptIntervals": [
+    [
+      0,
+      2.0499629974365234
+    ],
+    [
+      39.66236901283264,
+      45.44514799118042
+    ],
+    [
+      63.75762319564819,
+      94.75465202331543
+    ]
+  ],
+  "outputSeconds": 38.866667,
+  "inputCount": 47,
+  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
+  "crop": "1680:960:14:56"
+}

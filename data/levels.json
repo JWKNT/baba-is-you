@@ -423,5 +423,90 @@
       "mechanics": "FLOAT does not let Baba pass STOP walls. Transferring control to grounded rocks puts the controlled objects at the same height as the winning flag.",
       "attempts": "I first tested upward movement against the wall, then used the control transfer. No undo or restart was needed; all moves remain."
     }
+  },
+  {
+    "id": "level-26",
+    "number": 26,
+    "title": "Warm River",
+    "file": "media/026-warm-river.mp4",
+    "poster": "assets/level-26.jpg",
+    "seconds": 29.133333,
+    "recorded": "2026-09-07",
+    "world": "Solitary Island",
+    "code": "02",
+    "name": "Warm River",
+    "notes": {
+      "approach": "Remove AND FLOAT from Baba and place it after WATER IS HOT. Walk grounded Baba beneath the floating hot water and floating skulls to the grounded flag.",
+      "mechanics": "HOT/MELT and DEFEAT interactions require matching height. Changing the hazard\u2019s height can be more useful than changing Baba\u2019s height, especially when the goal remains grounded.",
+      "attempts": "The rule transfer worked without an undo or restart. Every movement is retained, with inactive planning time removed."
+    }
+  },
+  {
+    "id": "level-27",
+    "number": 27,
+    "title": "Bridge Building",
+    "file": "media/027-bridge-building.mp4",
+    "poster": "assets/level-27.jpg",
+    "seconds": 45.366667,
+    "recorded": "2026-09-07",
+    "world": "Solitary Island",
+    "code": "03",
+    "name": "Bridge Building",
+    "notes": {
+      "approach": "Push the lower rock into the first water tile. Build ROCK IS YOU vertically using the YOU already in BABA IS YOU, walk the trapped upper rock out, and sink it into the second tile. Baba then crosses to the flag.",
+      "mechanics": "A controlled object can leave a corner that makes it impossible to push. Two YOU rules allow Baba to stay safe while the rock moves into the water; walls block their movement independently. Floating text cannot sink grounded water.",
+      "attempts": "I initially tried to get above the upper rock, but a hedge blocked the needed square. The control rule solved that obstruction. All blocked moves remain; no undo or restart was used."
+    }
+  },
+  {
+    "id": "level-28",
+    "number": 28,
+    "title": "Bridge Building?",
+    "file": "media/028-bridge-building-question.mp4",
+    "poster": "assets/level-28.jpg",
+    "seconds": 38.866667,
+    "recorded": "2026-09-07",
+    "world": "Solitary Island",
+    "code": "04",
+    "name": "Bridge Building?",
+    "notes": {
+      "approach": "Break ROCK IS PUSH, then push the spare PUSH and IS words into adjacent water tiles. Cross the resulting gap to the flag.",
+      "mechanics": "ROCK IS FLOAT keeps the rocks above the water, so they cannot sink it. Text has no FLOAT rule in this version and can be sacrificed instead. BABA IS YOU remains intact throughout.",
+      "attempts": "My initial route pushed a rock down and displaced PUSH. I recovered the word from its new position and completed the crossing. No undo or restart was needed; the extra movements remain in the recording."
+    }
+  },
+  {
+    "id": "level-29",
+    "number": 29,
+    "title": "Victory Spring",
+    "file": "media/029-victory-spring.mp4",
+    "poster": "assets/level-29.jpg",
+    "seconds": 78.166667,
+    "recorded": "2026-09-07",
+    "world": "Solitary Island",
+    "code": "05",
+    "name": "Victory Spring",
+    "notes": {
+      "approach": "Use the cogs to clear the side water tiles. Push TEXT IS FLOAT as one intact sentence across the spring; its front word pushes WIN out onto dry ground. Move WIN below BABA, break the floating sentence, and reuse its IS to form BABA IS WIN.",
+      "mechanics": "Moving a whole sentence can preserve its rule while its words act as a long pushing chain. The central water tile was hidden beneath WIN. Removing TEXT IS FLOAT too early sinks both that word and its water tile.",
+      "attempts": "Two crossings failed, and an early attempt to reuse FLOAT destroyed WIN. Both deaths and the full undo sequence are retained. I also tested the top boundary before finding the intact-sentence approach; no restart was used."
+    }
+  },
+  {
+    "id": "level-30",
+    "number": 30,
+    "title": "Assembly Team",
+    "file": "media/030-assembly-team.mp4",
+    "poster": "assets/level-30.jpg",
+    "seconds": 34.366667,
+    "recorded": "2026-09-07",
+    "world": "Solitary Island",
+    "code": "06",
+    "name": "Assembly Team",
+    "notes": {
+      "approach": "Push BABA against the left wall to stagger the robots, then move it up to the top-left corner. Align the robots side by side and sacrifice the leading one to open the top water tile. Bring IS and YOU back across that opening to complete BABA IS YOU; Baba reaches the flag.",
+      "mechanics": "A word blocked by a wall can stop one controlled object while another keeps moving. This creates the offset needed to sacrifice only one robot. The rule can be assembled on the noun\u2019s side of the river rather than carrying the noun across.",
+      "attempts": "The planned offset and word return worked without an undo or restart. The deliberate blocked movements used to align the robots are retained."
+    }
   }
 ]

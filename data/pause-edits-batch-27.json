@@ -1,0 +1,173 @@
+{
+  "date": "2026-09-06",
+  "threshold_seconds": 20,
+  "retained_seconds": 5,
+  "source_recording": "batch-27.mp4",
+  "source_sha256": "0e8aef20be7b8e6bb56ef240bbe85c6391f9aa85c0501f8d56f375bca5a7e984",
+  "clips": [
+    {
+      "id": "level-106",
+      "file": "/baba-is-you-media/media/106-space-extra-02-heavy-cloud.mp4",
+      "seconds": 634.0,
+      "new_seconds": 149.0,
+      "pauses": [
+        [
+          10,
+          128
+        ],
+        [
+          130,
+          372
+        ],
+        [
+          398,
+          452
+        ],
+        [
+          496,
+          562
+        ],
+        [
+          604,
+          634
+        ]
+      ],
+      "cuts": [
+        [
+          12.5,
+          125.5
+        ],
+        [
+          132.5,
+          369.5
+        ],
+        [
+          400.5,
+          449.5
+        ],
+        [
+          498.5,
+          559.5
+        ],
+        [
+          606.5,
+          631.5
+        ]
+      ],
+      "removed": 485.0,
+      "original_sha256": "797cdf93ea53d5c77fc81b7a819f3e0047a265daa86947f094d4b1dc3f4a2ad5"
+    },
+    {
+      "id": "level-107",
+      "file": "/baba-is-you-media/media/107-garden-01-condition.mp4",
+      "seconds": 494.0,
+      "new_seconds": 99.0,
+      "pauses": [
+        [
+          8,
+          320
+        ],
+        [
+          342,
+          396
+        ],
+        [
+          400,
+          444
+        ]
+      ],
+      "cuts": [
+        [
+          10.5,
+          317.5
+        ],
+        [
+          344.5,
+          393.5
+        ],
+        [
+          402.5,
+          441.5
+        ]
+      ],
+      "removed": 395.0,
+      "original_sha256": "4813ed450a7a765b0c030f3ba0ec307d31783a0dd67e48b1fd938f02381868c7"
+    },
+    {
+      "id": "level-108",
+      "file": "/baba-is-you-media/media/108-garden-02-thicket.mp4",
+      "seconds": 170.0,
+      "new_seconds": 106.0,
+      "pauses": [
+        [
+          10,
+          52
+        ],
+        [
+          60,
+          92
+        ]
+      ],
+      "cuts": [
+        [
+          12.5,
+          49.5
+        ],
+        [
+          62.5,
+          89.5
+        ]
+      ],
+      "removed": 64.0,
+      "original_sha256": "4738a185798d3bced0dd29b544ddd34aed397ce2445748bb040df06a81c1a8e3"
+    },
+    {
+      "id": "level-109",
+      "file": "/baba-is-you-media/media/109-garden-03-sorting-facility.mp4",
+      "seconds": 155.0,
+      "new_seconds": 106.0,
+      "pauses": [
+        [
+          10,
+          64
+        ]
+      ],
+      "cuts": [
+        [
+          12.5,
+          61.5
+        ]
+      ],
+      "removed": 49.0,
+      "original_sha256": "65e3620879a47c421228001b695f17f4c2563d035de349566c5eeec9623a197a"
+    },
+    {
+      "id": "level-110",
+      "file": "/baba-is-you-media/media/110-garden-04-relaxing-spot.mp4",
+      "seconds": 168.0,
+      "new_seconds": 104.0,
+      "pauses": [
+        [
+          8,
+          46
+        ],
+        [
+          82,
+          118
+        ]
+      ],
+      "cuts": [
+        [
+          10.5,
+          43.5
+        ],
+        [
+          84.5,
+          115.5
+        ]
+      ],
+      "removed": 64.0,
+      "original_sha256": "2be8041adf299e19514c3233d157c4bb24eaf3dbcb418b13fffa71b912ea0f01"
+    }
+  ]
+}

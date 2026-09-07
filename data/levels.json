@@ -943,5 +943,50 @@
     "poster": "assets/level-105.jpg",
     "recorded": "2026-09-06",
     "seconds": 165.0
+  },
+  {
+    "id": "level-106",
+    "number": 106,
+    "title": "Space Extra 2 \u2014 Heavy Cloud",
+    "file": "/baba-is-you-media/media/106-space-extra-02-heavy-cloud.mp4",
+    "poster": "assets/level-106.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 149.0
+  },
+  {
+    "id": "level-107",
+    "number": 107,
+    "title": "Garden 01 \u2014 Condition",
+    "file": "/baba-is-you-media/media/107-garden-01-condition.mp4",
+    "poster": "assets/level-107.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 99.0
+  },
+  {
+    "id": "level-108",
+    "number": 108,
+    "title": "Garden 02 \u2014 Thicket",
+    "file": "/baba-is-you-media/media/108-garden-02-thicket.mp4",
+    "poster": "assets/level-108.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 106.0
+  },
+  {
+    "id": "level-109",
+    "number": 109,
+    "title": "Garden 03 \u2014 Sorting Facility",
+    "file": "/baba-is-you-media/media/109-garden-03-sorting-facility.mp4",
+    "poster": "assets/level-109.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 106.0
+  },
+  {
+    "id": "level-110",
+    "number": 110,
+    "title": "Garden 04 \u2014 Relaxing Spot",
+    "file": "/baba-is-you-media/media/110-garden-04-relaxing-spot.mp4",
+    "poster": "assets/level-110.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 104.0
   }
 ]

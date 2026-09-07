@@ -19,3 +19,9 @@
 ## Batch 2 — ten recordings
 - Base 05–07 and Lake 01–02 added. Every logged input falls within a kept source interval; all five victory frames inspected. Failed attempts and undo sequences retained.
 - All ten recordings have complete level-specific notes. Latest dataset rebuilt deterministically; 30 tests and diff whitespace checks passed. Desktop player/notes layout inspected for Lake 02.
+
+## Batch 3 — fifteen recordings
+- Lake 03–07 added with Approach, Mechanics, and Attempts notes. All 356 gameplay inputs within the five edited clip ranges are covered, including Lock’s 17 undos.
+- Five game-only silent H.264 files validated, each under 9 MB. Victory/crop frames inspected; Affection ends at source 122.8 seconds after its victory and map return, before accidental reentry.
+- All 30 tests, deterministic build, and whitespace checks passed. Desktop dark and 390px light layout inspected; native playback advances with readyState 4. Existing full keyboard/no-JS/200%/history QA remains applicable to unchanged UI code.
+- Added a strict input-tool argument count to reject unquoted split sequences before any game input.

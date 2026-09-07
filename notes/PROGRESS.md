@@ -10,8 +10,8 @@
 - This workspace stores fresh tools, raw recordings, and reasoning notes. Raw recordings stay out of Git.
 
 ## Current checkpoint
-- 10 levels completed: base 00–07 and Lake 01–02, fresh Slot 3. Game on Lake map at completed Lake 02. No active recorder.
-- First batch (base 00–04) live at main commit 9bc1db3. Second batch and notes panel ready for publication now. Companion cleanup d9922ae verified built; old videos removed.
+- 15 levels completed: base 00–07 and Lake 01–07, fresh Slot 3. Lake map at completed 07; no active recorder. Third batch publication in progress.
+- First batch (base 00–04) was published at main commit 9bc1db3. Second batch and notes panel live at main commit 5b86a3f; public ten-level page and notes verified. Companion cleanup d9922ae verified built; old videos removed.
 - Ten silent edits/posters ready; every level has Approach, Mechanics, and Attempts notes. Notes panel follows selection/history, uses native disclosures without JS. 30 tests passed; responsive/light/dark/no-JS/playback checks completed.
 - Capture tools/record: window-only 1708x1016. Export 1680x960 crop at (14,56), no audio, H.264/yuv420p/30fps/faststart. Keep every input and ten seconds after win; only idle gaps removed.
 - Input tools/input: timed macOS events explicitly authorized after CUA input failed. U D L R E(return) S(space) Z(undo) N(restart) B(escape). 120ms hold, 180ms gap. Quote spaced sequences and supply recordings/NNN.jsonl.
@@ -59,3 +59,16 @@ Read this file and tools before interacting. Observe game fresh using CUA. Updat
 - AND combines both properties and nouns. The same AND can be reused after its first job is finished.
 - Failed first attempt: exit route was one cell short and hit the wall, so a long batch shifted unrelated words. Restarted and checked intermediate states. Entire attempt and restart retained.
 - When routing a noun into a narrow rule column, store it somewhere it can still be pushed out; plan the return path before inserting the conjunction.
+
+11. Lake 03 — Affection. Replace PUSH with MOVE in LOVE IS PUSH, using MOVE from KEKE IS MOVE. Heart travels vertically through algae; wait below enclosure for it to touch Baba. Source 011 end 122.8 excludes accidental reentry after completion; victory and gameplay inputs preserved.
+
+12. Lake 04 — Pillar Yard. Align two pillars on flag row; push front pillar through star ring while Baba stays outside. Move PILLAR noun around left side of cage, then replace BABA in BABA IS YOU. Right moves inside pillar to flag. Source 012.
+- Deliver a non-YOU object through DEFEAT first, then give it control. This avoids needing to remove the hazard itself.
+
+13. Lake 05 — Brick Wall. Form BABA IS WIN vertically using the BABA in horizontal BABA IS YOU. Spare IS from FLAG rule moved up then left; WIN moved left then up. Source 013.
+- YOU and WIN on the same object win immediately. Consider this before elaborate attempts to enter an enclosure. Dark outlined square floor tiles are decorative, unlike pipe-outline WALL.
+
+14. Lake 06 — Lock. Use two keys to open first two doors. Bring ROCK word outside, form ROCK IS KEY IS OPEN horizontally, using spare IS from KEY IS PUSH. Rock converts permanently to third key. Restore spare IS to KEY IS PUSH, push new key into final door, reach flag. Source 014. Bad routing pushed PUSH to bottom edge; 17 undos restored checkpoint, all retained.
+- OPEN and SHUT destroy each other on contact. Noun transformations persist after the transformation rule is broken; properties such as PUSH require an active rule.
+
+15. Lake 07 — Novice Locksmith. Share IS between KEY IS OPEN and KEY IS PUSH. Open first door, then reuse horizontal KEY noun to replace SHUT in DOOR IS SHUT. Final door becomes pushable key; push aside to flag. Source 015. Input command briefly split at unquoted spaces; recovered seven events from misnamed DLUUUU file. Added input argument-count guard so this cannot silently recur.

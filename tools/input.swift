@@ -1,6 +1,10 @@
 import Foundation
 import AppKit
 import CoreGraphics
+guard (2...3).contains(CommandLine.arguments.count) else {
+    fputs("Usage: input \"UDLR...\" [events.jsonl]; quote sequences containing spaces.\n", stderr)
+    exit(2)
+}
 let application = NSApplication.shared
 let keys: [Character: CGKeyCode] = ["U":126,"D":125,"L":123,"R":124,"E":36,"S":49,"Z":6,"X":7,"B":53,"N":15]
 let sequence = CommandLine.arguments[1]

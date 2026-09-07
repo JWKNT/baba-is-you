@@ -593,5 +593,90 @@
       "mechanics": "An object without PUSH can share a cell with a text word. Giving that object YOU lets it move from inside a sentence, pushing a word that was otherwise inaccessible. Once WALL IS STOP breaks, the prison boundary can be crossed.",
       "attempts": "Direct wall-rule pushes and pushing Keke against the wall failed. A control-word routing mistake led to one restart. The successful overlap setup and all earlier attempts are retained; no undo was used."
     }
+  },
+  {
+    "id": "level-36",
+    "number": 36,
+    "title": "Dungeon",
+    "file": "media/036-dungeon.mp4",
+    "poster": "assets/level-36.jpg",
+    "seconds": 71.133333,
+    "recorded": "2026-09-07",
+    "world": "Solitary Island",
+    "code": "Extra 5",
+    "name": "Dungeon",
+    "notes": {
+      "approach": "Use KEKE IS BABA to create a second Baba. The stepped wall lets one Baba wait above WALL IS STOP while the other pushes the column upward over it. Move down from inside WALL to break the sentence. Retrieve IS and WIN and form BABA IS WIN.",
+      "mechanics": "Multiple YOU objects can be positioned independently when different walls block them. One can hold still while another pushes text onto it, giving access from inside a rule without needing PUSH.",
+      "attempts": "The first alignment pushed the wall column downward and merged the Babas. Nine undos restored the setup, and a left sidestep kept the lower Baba clear of the column. All movement and the corrected solution are retained; no restart was used."
+    }
+  },
+  {
+    "id": "level-37",
+    "number": 37,
+    "title": "Dim Signal",
+    "file": "media/037-dim-signal.mp4",
+    "poster": "assets/level-37.jpg",
+    "seconds": 262.866667,
+    "recorded": "2026-09-07",
+    "world": "Solitary Island",
+    "code": "Extra 4",
+    "name": "Dim Signal",
+    "notes": {
+      "approach": "Send a stopping cog across the bog to park the first AND. Send two spare words as spacers, then deliver the second AND against them. Finally, let the robot push the complete ROBOT IS MOVE sentence, plus a final spacer, into the last row. The moving sentence stays active until its IS completes FLAG AND ROCK AND ICE IS WIN.",
+      "mechanics": "A mover can push the very sentence that grants it MOVE. An intact sentence keeps working as it slides. Remote stoppers and word spacers determine where each delivery ends. FLAG IS FLAG still allows FLAG IS WIN.",
+      "attempts": "Several routing errors required rearranging the words again. I pushed the robot against the top edge and used 14 undos to recover, then stepped into the bog and undid that death. No restart; every input, failed route, wait, and undo remains in the video."
+    }
+  },
+  {
+    "id": "level-38",
+    "number": 38,
+    "title": "\u2026Bridges?",
+    "file": "media/038-bridges.mp4",
+    "poster": "assets/level-38.jpg",
+    "seconds": 57.2,
+    "recorded": "2026-09-07",
+    "world": "Solitary Island",
+    "code": "Extra 2",
+    "name": "\u2026Bridges?",
+    "notes": {
+      "approach": "Control both floating rocks and line them up one tile apart. Cross below the flag rule, then push its IS and WIN back across the river. Bring those words to the original ROCK noun so horizontal ROCK IS WIN crosses vertical ROCK IS YOU.",
+      "mechanics": "Floating text can be carried across SINK water. A noun can anchor two perpendicular sentences, letting the same rocks be YOU and WIN without needing an AND.",
+      "attempts": "My first plan tried to turn the rocks into grounded Babas, but the hedge boxed in the required rule. I restarted once. During the successful attempt, WIN was pushed too far down and recovered from below. All inputs and both attempts are preserved."
+    }
+  },
+  {
+    "id": "level-39",
+    "number": 39,
+    "title": "Boiling River",
+    "file": "media/039-boiling-river.mp4",
+    "poster": "assets/level-39.jpg",
+    "seconds": 57.966667,
+    "recorded": "2026-09-07",
+    "world": "Solitary Island",
+    "code": "Extra 1",
+    "name": "Boiling River",
+    "notes": {
+      "approach": "Add AND YOU to the existing BABA IS MELT sentence at the bottom. That frees the IS from the original control rule. Use it with the fixed WATER noun and the spare FLOAT word to make WATER IS FLOAT, then cross to the flag as grounded Baba.",
+      "mechanics": "One YOU can finish two rules, allowing the original rule to be dismantled safely. WATER IS WATER prevents transformations but still permits FLOAT. Floating HOT water and DEFEAT skulls do not interact with grounded Baba.",
+      "attempts": "An early route pushed the control column to the top edge and then displaced YOU. Fourteen undos restored the setup. The completed route retains those errors and the recovery; no restart was used."
+    }
+  },
+  {
+    "id": "level-40",
+    "number": 40,
+    "title": "Fragility",
+    "file": "media/040-fragility.mp4",
+    "poster": "assets/level-40.jpg",
+    "seconds": 72.6,
+    "recorded": "2026-09-07",
+    "world": "Temple Ruins",
+    "code": "01",
+    "name": "Fragility",
+    "notes": {
+      "approach": "Remove WEAK from Baba. Make SKULL IS WEAK and push a rock through two skulls to open a passage. Reuse the same IS and WEAK beneath the lower ROCK noun, keeping ROCK IS PUSH active. Push the exit rock against a wall so it breaks, then reach the flag.",
+      "mechanics": "A weak object breaks on overlap; a weak pushable object also breaks when its push is blocked. One noun can anchor perpendicular property rules when the original property cannot be replaced.",
+      "attempts": "Walking straight into the hedge destroyed weak Baba, recovered with one undo. Later, replacing PUSH was blocked by the wall above it, so I built the second rule instead. All failed pushes, routing corrections, and the successful exit are retained; no restart."
+    }
   }
 ]

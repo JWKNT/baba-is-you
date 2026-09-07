@@ -49,3 +49,12 @@
 - Catch the Thief! retains a continuous 20-second victory tail for Area Clear. Other clips retain ten seconds.
 - All 30 tests, deterministic build, and whitespace checks passed. New desktop notes inspected and native playback verified. UI source remains unchanged from full responsive/accessibility QA.
 - Sixth batch 11fc1d9 verified live: successful Actions run34090219651, thirty-recording HTML, and HTTP206 for Assembly Team.
+
+## Batch 8 — 36–40 (2026-09-07)
+- Dungeon, Dim Signal, …Bridges?, Boiling River, and Fragility; complete Approach, Mechanics, Attempts notes beside each video. Temple Ruins added through catalogue data.
+- `python3 tools/verify_batch.py 36 40`: all 1,235 recorded inputs covered, one video stream and no audio per export, 4.2–25.9 MB files. Victory contact sheet inspected for every clip.
+- `node build.mjs`, all 30 node tests, and `git diff --check` passed.
+- Real native Fragility playback readyState4, time advanced to27.05s, no media error; browser error log empty.
+- Desktop light and390px dark layouts inspected. Notes remain legible at200% root text size with document width390px (no horizontal overflow).
+- JavaScript-disabled page retained40 native note disclosures and direct recording links. Fragility disclosure opened and keyboard Return collapsed it. Restored scripts, normal text size, default viewport and light theme afterward.
+- Parked Tiny Isle and Evaporating River attempts are not listed as complete. Their raw parts remain in the workspace for eventual joined recordings. New local tools preserve multipart attempts and route observed multiple-YOU grids without consulting game internals.

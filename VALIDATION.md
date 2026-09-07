@@ -79,3 +79,12 @@
 Added Toolshed, Patrol, Canyon, Victory in the Open, and Hop with Approach / Mechanics / Attempts notes. All 1,374 logged inputs remain in the edited clips, including failures, waits, restarts, and undos. Each export contains one video stream and no audio; all are below 100 MiB. Victory contact sheet inspected for all five. Durations: 118.333, 135.533, 182.067, 134.833, and 82.267 seconds.
 
 Build, 30 tests, deterministic rebuild test, and whitespace checks pass. Native Hop playback reached 10.660 seconds with readyState 4, no playback error, and no autoplay. Selecting Canyon updated video, title, and all notes. Desktop light and 390px dark with 200% root text were visually inspected; scrollWidth stayed 390px and notes remained readable. With JavaScript disabled, all 55 native note disclosures and direct recording links remained available; Hop opened by click and closed with Return. Restored JavaScript, default viewport, normal font size, and light theme. Browser error log empty.
+
+
+## Batch 12 — recordings 56–59 (2026-09-07)
+
+Rocky Road, Telephone, Haunt, and Not There include individual Approach / Mechanics / Attempts notes. This four-level checkpoint was published after the requested overnight minimum, with unresolved attempts preserved separately for later completion.
+
+All 405 logged inputs are covered by the retained intervals; all four victory frames and game-only crops were inspected. Each export has one video stream and no audio, with files 7.9–12.1 MB. Build, all 30 tests, deterministic rebuild, and whitespace checks passed.
+
+Native Not There playback advanced to 21.58 seconds with readyState 4 and no media error. Selecting Telephone updated the player, title, and all notes. Desktop light and 390px dark layouts were inspected; 200% text remained legible without horizontal overflow (32px root, scrollWidth 390). With scripts disabled, all 59 native note disclosures were present; Not There opened by click and closed with Return. Scripts, default viewport, and normal font size were restored.

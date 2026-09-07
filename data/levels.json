@@ -933,5 +933,73 @@
       "mechanics": "TELE transports other objects overlapping a teleporter, including hazardous water. Turning TELE off after the transfer preserves the new arrangement. A transported word can block the destination and be pushed aside when Baba arrives, so check the landing position.",
       "attempts": "One restart and two undos, 114 inputs. The first route stranded PUSH near the river. Later, accidentally stepping back onto a heart returned Baba to the wrong side and caused a death. An incomplete rule restoration caused another failed crossing; the successful attempt visibly moved the water away before entering the gap. All attempts remain."
     }
+  },
+  {
+    "id": "level-56",
+    "number": 56,
+    "title": "Rocky Road",
+    "file": "media/056-rocky-road.mp4",
+    "poster": "assets/level-56.jpg",
+    "seconds": 57.466667,
+    "recorded": "2026-09-07",
+    "world": "Forest of Fall",
+    "code": "03",
+    "name": "Rocky Road",
+    "notes": {
+      "approach": "Push the left heart under the PUSH slot, displacing the word and turning that property off. Send PUSH through the hearts and teleport Baba to the far side. The word now alternates between hearts, so wait between pushes to guide the hot heart through the water. Push the word off the heart to stop the cycle, teleport back to the opened entrance, and walk to the flag.",
+      "mechanics": "TELE exchanges overlapping words every input. Aligning a teleporter with a rule slot makes a property turn on and off on alternate turns. Waiting lets the next push occur while PUSH is active. HOT removes the water before Baba follows the heart into its former tile.",
+      "attempts": "One restart, no undo, 48 inputs. The initial attempt pushed a heart into the rock barrier; the exchanged rocks left a lethal tile behind and Baba died. The successful attempt used the alternating rule and cleared two water tiles so PUSH could be removed sideways without blocking the flag corridor. All moves and waits remain."
+    }
+  },
+  {
+    "id": "level-57",
+    "number": 57,
+    "title": "Telephone",
+    "file": "media/057-telephone.mp4",
+    "poster": "assets/level-57.jpg",
+    "seconds": 65.666667,
+    "recorded": "2026-09-07",
+    "world": "Forest of Fall",
+    "code": "04",
+    "name": "Telephone",
+    "notes": {
+      "approach": "Use the ice teleporters to move the lower Baba into the key chamber, then replace ICE IS TELE with BABA IS TELE. Align the two controlled Babas so the lower one carries the key onto the upper one. Step away to leave it there, restore KEY IS PUSH, and push it through the door to the flag.",
+      "mechanics": "TELE moves other objects overlapping its subject. Giving it to YOU turns a controlled character into a movable teleporter. Both Babas obey every direction, so walls and backed-up words provide the unequal movement needed to align them.",
+      "attempts": "One undo, no restart, 104 inputs. An early word placement accidentally formed BABA IS ICE and removed control. After undoing, moving ICE out of the shared column allowed the intended rule. Routes came from a small planner using only a manually transcribed view of the board; every actual move remains."
+    }
+  },
+  {
+    "id": "level-58",
+    "number": 58,
+    "title": "Haunt",
+    "file": "media/058-haunt.mp4",
+    "poster": "assets/level-58.jpg",
+    "seconds": 87.9,
+    "recorded": "2026-09-07",
+    "world": "Forest of Fall",
+    "code": "05",
+    "name": "Haunt",
+    "notes": {
+      "approach": "Slide LEAF IS DEFEAT left to expose an empty cell beside the sentence. Make the ghosts pushable and place one in that cell. Restore TELE, then slide the sentence over the ghost to send its IS to the lower ghost. Restore PUSH at the right moment and deliver the spare IS between LOVE and WIN. Walk through the now harmless leaves to the heart.",
+      "mechanics": "A non-pushable teleporter can sit beneath text. Moving the sentence over it extracts a word that cannot be reached from above. Overlapping words exchange on every input, so include the route back to the property switch when choosing when to stop TELE.",
+      "attempts": "Two undos, no restart, 148 inputs. An early route displaced the ghost noun and the control sentence; the undos recovered them. The recording also retains an accidental entry into Telephone and the return to the map before Haunt. All word swaps, waits, and positioning moves remain."
+    }
+  },
+  {
+    "id": "level-59",
+    "number": 59,
+    "title": "Not There",
+    "file": "media/059-not-there.mp4",
+    "poster": "assets/level-59.jpg",
+    "seconds": 54.9,
+    "recorded": "2026-09-07",
+    "world": "Forest of Fall",
+    "code": "10",
+    "name": "Not There",
+    "notes": {
+      "approach": "Share the IS in BABA IS YOU with a vertical FENCE IS NOT STOP sentence. Walk through the opened boundary and retrieve the outside IS and WIN. Place them beneath BABA to add BABA IS WIN while keeping control.",
+      "mechanics": "A negated property overrides its positive version: FENCE IS NOT STOP disables the fixed FENCE IS STOP rule. A noun can anchor two perpendicular sentences, preserving YOU while adding the winning property.",
+      "attempts": "No restart or undo, 105 inputs. One short positioning detour approached the fence noun from the wrong column before correcting it. All movements and the rule inspection remain."
+    }
   }
 ]

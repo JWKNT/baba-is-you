@@ -678,5 +678,90 @@
       "mechanics": "A weak object breaks on overlap; a weak pushable object also breaks when its push is blocked. One noun can anchor perpendicular property rules when the original property cannot be replaced.",
       "attempts": "Walking straight into the hedge destroyed weak Baba, recovered with one undo. Later, replacing PUSH was blocked by the wall above it, so I built the second rule instead. All failed pushes, routing corrections, and the successful exit are retained; no restart."
     }
+  },
+  {
+    "id": "level-41",
+    "number": 41,
+    "title": "Tunnel Vision",
+    "file": "media/041-tunnel-vision.mp4",
+    "poster": "assets/level-41.jpg",
+    "seconds": 46.633333,
+    "recorded": "2026-09-07",
+    "world": "Temple Ruins",
+    "code": "02",
+    "name": "Tunnel Vision",
+    "notes": {
+      "approach": "Let moving Baba sink and leave a rock through BABA HAS ROCK. Reuse HAS and ROCK beneath the fixed ROCK noun to make ROCK HAS ROCK. Push the rock through the water: every sink opens a tile and creates a replacement rock, letting Keke follow to the flag.",
+      "mechanics": "HAS creates the named object when its owner is destroyed. ROCK HAS ROCK makes a renewable pushable object, while each SINK water tile is consumed only once.",
+      "attempts": "The setup and crossing worked without an undo or restart. The recording retains all waits while Baba moved, the complete word-routing sequence, and every push across the water."
+    }
+  },
+  {
+    "id": "level-42",
+    "number": 42,
+    "title": "A Present for You",
+    "file": "media/042-a-present-for-you.mp4",
+    "poster": "assets/level-42.jpg",
+    "seconds": 84.4,
+    "recorded": "2026-09-07",
+    "world": "Temple Ruins",
+    "code": "03",
+    "name": "A Present for You",
+    "notes": {
+      "approach": "Transfer control to the box, cross the hot water, and break LOVE IS MELT outside. Restore heart control and BOX IS PUSH. Position the box in hot water before adding a perpendicular BOX IS MELT sentence; BOX HAS FLAG then releases the flag for the heart to reach.",
+      "mechanics": "A controlled box can cross HOT water while it lacks MELT. Removing the heart\u2019s MELT makes the same crossing safe for it. HAS turns destruction into a way to create the goal, and a shared noun can keep PUSH active while adding MELT.",
+      "attempts": "The controlled box pushed spare words during its excursion, so I retrieved and rearranged them. The PUSH column was shifted temporarily to make room for the final box push, then restored. Every movement and correction is retained; no undo or restart."
+    }
+  },
+  {
+    "id": "level-43",
+    "number": 43,
+    "title": "Unreachable Shores",
+    "file": "media/043-unreachable-shores.mp4",
+    "poster": "assets/level-43.jpg",
+    "seconds": 84.7,
+    "recorded": "2026-09-07",
+    "world": "Temple Ruins",
+    "code": "04",
+    "name": "Unreachable Shores",
+    "notes": {
+      "approach": "Turn the box into a second Keke. Sacrifice one Keke to open the word chamber, then use its BOX word to prepare KEKE IS BOX. A single push forms that transformation and BOX IS YOU together. Reuse HAS and the second BOX for BOX HAS BOX, then cross the river as a continuously replaced box.",
+      "mechanics": "Transformation can create another controllable character without triggering HAS. Identical IS words can replace one another without breaking control. A noun replacement can simultaneously form a new control rule and a transformation.",
+      "attempts": "The staged transformations, chamber entry, and self-replacing crossing worked without an undo or restart. The sacrificed Keke, every rule movement, and all water crossings remain in the recording."
+    }
+  },
+  {
+    "id": "level-44",
+    "number": 44,
+    "title": "But Where\u2019s the Key",
+    "file": "media/044-but-wheres-the-key.mp4",
+    "poster": "assets/level-44.jpg",
+    "seconds": 120.366667,
+    "recorded": "2026-09-07",
+    "world": "Temple Ruins",
+    "code": "05",
+    "name": "But Where\u2019s the Key",
+    "notes": {
+      "approach": "Build a chain of controlled replacements: Baba breaks on rubble and leaves a box; the weak box leaves a key. Before opening the door, arrange KEY HAS BOX and keep BOX IS YOU active so the destroyed key leaves a playable box inside the room.",
+      "mechanics": "HAS takes effect when an object is destroyed. A noun pushed out of one sentence can complete another in the same move, changing control and WEAK together. The rubble ring has an empty center, so the handoff must happen on an actual rubble tile.",
+      "attempts": "The first box-to-key handoff failed because the box stood in the empty center of the rubble ring. One undo restored it; moving the setup down one tile made the replacement work. All word routing, the failed handoff, and the final extra step to the flag are retained."
+    }
+  },
+  {
+    "id": "level-45",
+    "number": 45,
+    "title": "Love Is Out There",
+    "file": "media/045-love-is-out-there.mp4",
+    "poster": "assets/level-45.jpg",
+    "seconds": 150.0,
+    "recorded": "2026-09-07",
+    "world": "Temple Ruins",
+    "code": "06",
+    "name": "Love Is Out There",
+    "notes": {
+      "approach": "Build BOX HAS KEY AND BOX across the top row. Share its first BOX with IS PUSH and its last BOX with IS WEAK. Break the box against the first door, then move IS and PUSH underneath KEY. Push the generated keys through both doors; the replacement box supplies another key when Baba overlaps it. Restore LOVE IS WIN and touch the heart.",
+      "mechanics": "HAS can produce two objects with AND, including another copy of its owner. A weak box can therefore leave both a key and a replacement box. Sharing nouns between perpendicular rules makes the compact top-row layout possible, and the pushable property can be transferred to the generated keys.",
+      "attempts": "Several word-routing errors required 41 undos, including an IS stranded at the bottom, a PUSH collision, and pushing the box toward the wrong wall. The final approach displaced IS from LOVE IS WIN; I recovered it without restarting. Every failed move and correction remains, followed by the third-flower area-clear animation."
+    }
   }
 ]

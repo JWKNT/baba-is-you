@@ -58,3 +58,10 @@
 - Desktop light and390px dark layouts inspected. Notes remain legible at200% root text size with document width390px (no horizontal overflow).
 - JavaScript-disabled page retained40 native note disclosures and direct recording links. Fragility disclosure opened and keyboard Return collapsed it. Restored scripts, normal text size, default viewport and light theme afterward.
 - Parked Tiny Isle and Evaporating River attempts are not listed as complete. Their raw parts remain in the workspace for eventual joined recordings. New local tools preserve multipart attempts and route observed multiple-YOU grids without consulting game internals.
+
+## Batch 9 — 41–45 (2026-09-07)
+- Temple Ruins02–06 published with individual Approach, Mechanics, Attempts notes; third flower earned.
+- All1,136 logged inputs covered by kept edit intervals. All five victory frames inspected; game-only crops, one video stream, no audio. Files6.5–28.8MB. Love Is Out There retains20seconds after the last input for Area Clear.
+- Build, all30 tests, deterministic rebuild, and whitespace checks passed. Native Love Is Out There playback reached11.09seconds with readyState4 and no media error. Selection to But Where’s the Key updated its video/title/notes. Browser error log empty.
+- Desktop light notes and390px dark layout inspected, including200% text (32px root; scrollWidth390). JavaScript-disabled page exposes45 native note disclosures and direct links; newest disclosure opens and keyboard Return toggles it. Restored JavaScript, normal text, default viewport, light theme.
+- Previous40-level release75c19c8 verified through successful Actions34104665537, public45-independent prior40 count, and HTTP206 for Fragility.

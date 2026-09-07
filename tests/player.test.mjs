@@ -82,7 +82,8 @@ function setup({hash = '', standard = false, safari = false, safariSupported = f
     if (safariQuery) video.webkitSupportsPresentationMode = mode =>
       mode === 'picture-in-picture' && safariSupported;
   }
-  const window = element();
+  calls.revealed = [];
+  const window = element({BabaWorldBrowser: {reveal(row) { calls.revealed.push(row.dataset.level); }}});
   const location = {hash};
   const history = {pushState(_state, _title, nextHash) {
     calls.history.push(nextHash);
@@ -132,6 +133,14 @@ test('initial deep links select a recording and legacy rows retain their number'
   assert.equal(page.calls.play, 0);
   assert.equal(page.calls.history.length, 0);
   assert.equal(setup({hash: '#unknown'}).video.src, 'media/level-01.mp4');
+});
+
+test('initial links, repeat selection and history reveal the corresponding world', () => {
+  const page = setup({hash:'#level-02'});
+  assert.deepEqual(page.calls.revealed, ['level-02']);
+  page.click(1);
+  page.navigate('', 'popstate');
+  assert.deepEqual(page.calls.revealed, ['level-02','level-02','level-01']);
 });
 
 test('skip and unrelated fragments retain the clip and playback position', () => {

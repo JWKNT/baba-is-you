@@ -29,6 +29,23 @@ video { display: block; width: 100%; height: auto; aspect-ratio: 1700 / 950; bac
 .level-number, .duration { font:var(--text-ui)/1.6 var(--mono); color:var(--muted); }
 .level-name { font-size:1rem; line-height:1.4; }
 .collection-note { color:var(--muted-strong); font:var(--text-meta)/1.7 var(--sans); margin:1rem 0; }
+.level-section { min-width: 0; }
+.world-search { margin: .85rem 0; gap: .5rem; flex-wrap: nowrap; }
+.world-search .ui-field { flex-basis: 0; }
+.world-search button { font: var(--text-ui)/1.4 var(--sans); }
+.search-status { color: var(--muted-strong); font: var(--text-ui)/1.5 var(--sans); }
+.search-status:empty { display: none; }
+.world-group { margin: 0; padding: 0; border: 0; border-bottom: 1px solid var(--line-strong); }
+.world-group > summary { display: flex; align-items: baseline; gap: .7rem; padding: 1rem 0; cursor: pointer; list-style: none; font: 1.1rem/1.4 var(--serif); }
+.world-group > summary::-webkit-details-marker { display: none; }
+.world-group > summary::after { content: ''; width: .4rem; height: .4rem; border-right: 1px solid currentColor; border-bottom: 1px solid currentColor; transform: rotate(45deg); flex: 0 0 .4rem; align-self: center; margin: 0 .3rem .2rem; }
+.world-group[open] > summary::after { transform: rotate(225deg); margin-bottom: -.2rem; }
+.world-count { margin-left: auto; color: var(--muted); font: var(--text-ui)/1.4 var(--mono); }
+.world-group.has-current > summary .world-name { color: var(--blue-dark); }
+.world-group .level-list { padding: 0 0 .5rem .7rem; }
+.world-group .level-list li:last-child { border-bottom: 0; }
+.world-group .level-number { white-space: nowrap; }
+@media print { .world-search,.search-status { display:none; } .world-group { break-inside:auto; } .world-group > summary { break-after:avoid; } }
 footer { border-top:1px solid var(--line); margin-top:2.5rem; padding-block:1rem 2rem; color:var(--muted); font:var(--text-meta)/1.6 var(--sans); }
 @media(max-width: 850px) { .catalogue { grid-template-columns:minmax(0,1fr); gap:1.7rem; } .intro { margin-bottom:1.2rem; } .player-heading h2 { font-size:1.4rem; } }
 @media print { video,.player-tools,.playback-speed,.speed-status,.pip-note,[data-theme-toggle] { display:none; } .catalogue { display:block; } .level-section { margin-top:1rem; } }

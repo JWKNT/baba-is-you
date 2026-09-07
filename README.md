@@ -17,6 +17,22 @@ The page has no dedicated download controls or save-slot label. `controlslist="n
 
 ## Catalogue contract
 
+`lib/worlds.mjs` groups recordings in first-seen world order, translating existing
+short title prefixes into full world names. Within each native `details` group,
+rows show the in-world number and short name; original IDs, full player titles,
+URLs and recording order remain unchanged. New records may explicitly supply
+nonempty `world`, `code` and `name` strings when their title has no standard prefix.
+Unrecognized prefixes become their own groups; unprefixed records after the seven
+opening levels remain visibly Ungrouped until assigned, never silently discarded.
+
+`assets/world-browser.js` adds cross-world search and exposes `reveal(row)` to the
+player. Search opens matching worlds, reports empty results and restores prior
+disclosures on Clear/Escape. Selection/history opens the current world and clears
+a filter only if it hides that recording. Browsing and filtering never change
+playback. Native disclosures and direct media links work without JavaScript;
+search stays hidden until enhanced. Print temporarily expands the full catalogue.
+Keep this controller local until another real consumer needs the same behavior.
+
 `assets/playback-speed.js` enhances a native video with six 1.00×–4.00× speed presets. The chosen speed survives clip changes for the current page session and follows changes made through native controls. It does not play, pause, seek, or store preferences. The group stays hidden without JavaScript; its segmented appearance comes from the existing shared component CSS.
 
 `lib/catalogue.mjs` validates level identity, real ISO dates, positive durations and approved media/poster paths. The build derives the recording count and latest recording date from the data, never from the build clock. Number labels support more than two digits. Keep catalogue metadata tests independent of the current recording count.

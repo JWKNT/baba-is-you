@@ -1,13 +1,12 @@
 import {readFileSync,writeFileSync,existsSync} from 'node:fs';
 import {escape, duration, levelNumber, validateLevels, catalogueMeta, localAssetURL} from './lib/catalogue.mjs';
+import {renderWorlds} from './lib/worlds.mjs';
 const levels=JSON.parse(readFileSync(new URL('./data/levels.json',import.meta.url)));
 validateLevels(levels, path => existsSync(localAssetURL(path, new URL('./', import.meta.url))));
 const meta=catalogueMeta(levels);
 const first=levels[0];
 const speeds=[1, 1.25, 1.5, 2, 3, 4].map(rate=>`<button type="button" data-playback-rate="${rate}" aria-pressed="${rate === 1}">${rate.toFixed(2)}×</button>`).join('');
-const rows=levels.map(l=>`<li id="${l.id}" data-level="${l.id}" data-number="${l.number}" data-title="${escape(l.title)}" data-poster="${l.poster}" data-seconds="${l.seconds}">
- <a class="level-link" href="${l.file}" data-watch><span class="level-number">${levelNumber(l.number)}</span><span class="level-name">${escape(l.title)}</span><span class="duration">${duration(l.seconds)}</span></a>
-</li>`).join('\n');
+const worlds=renderWorlds(levels);
 writeFileSync(new URL('./index.html',import.meta.url),`<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Baba Is You — level recordings · jehlp.net</title>
@@ -18,7 +17,7 @@ writeFileSync(new URL('./index.html',import.meta.url),`<!doctype html>
 <script src="https://jehlp.net/site-theme/v2/theme.js"></script>
 <link rel="stylesheet" href="https://jehlp.net/site-theme/v2/base.css">
 <link rel="stylesheet" href="https://jehlp.net/site-theme/v2/components.css">
-<link rel="stylesheet" href="assets/styles.css?v=20260906-watch"><script src="assets/playback-speed.js?v=20260906-speed" defer></script><script src="assets/player.js?v=20260906-watch" defer></script>
+<link rel="stylesheet" href="assets/styles.css?v=20260906-worlds"><script src="assets/playback-speed.js?v=20260906-speed" defer></script><script src="assets/world-browser.js?v=20260906-worlds" defer></script><script src="assets/player.js?v=20260906-worlds" defer></script>
 </head><body data-site-tone="ochre">
 <a href="#player" class="skip-link">Skip to video</a>
 <header class="site-header site-header--identity"><div class="site-brand"><img class="site-mark" src="https://jehlp.net/site-theme/v2/marks/baba-is-you.png" width="32" height="32" alt=""><h1 class="site-title">Baba Is You</h1></div><nav aria-label="Page links"><button class="theme-toggle" type="button" data-theme-toggle aria-label="Use dark theme" aria-pressed="false">◐</button></nav></header>
@@ -34,7 +33,10 @@ writeFileSync(new URL('./index.html',import.meta.url),`<!doctype html>
  <p id="player-status" role="status" aria-live="polite"></p>
  <p class="pip-note" id="pip-note">Your browser may offer picture-in-picture in its video controls.</p>
 </section>
-<section class="level-section" aria-labelledby="levels-title"><div class="list-heading"><h2 id="levels-title">Levels</h2></div><ol class="level-list">${rows}</ol><p class="collection-note">Played with GPT-6 Astra.</p></section>
+<section class="level-section" aria-labelledby="levels-title"><div class="list-heading"><h2 id="levels-title">Worlds</h2></div>
+<form class="world-search ui-toolbar" role="search" hidden><label class="ui-field ui-field--search" for="level-search"><span class="sr-only">Find a level or world</span><input id="level-search" type="search" placeholder="Find a level or world" autocomplete="off"></label><button type="reset">Clear</button></form>
+<p class="search-status" role="status" aria-live="polite" id="search-status"></p>
+<div id="worlds">${worlds}</div><p class="collection-note">Played with GPT-6 Astra.</p></section>
 </div>
 </main><footer class="page-shell"><cite>Baba Is You</cite> by Hempuli.</footer>
 </body></html>\n`);

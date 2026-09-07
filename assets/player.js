@@ -37,6 +37,7 @@
   }
 
   function select(row, announce = false) {
+    if (row) window.BabaWorldBrowser?.reveal(row);
     if (!row || row === selected) return;
     selected = row;
     video.pause();

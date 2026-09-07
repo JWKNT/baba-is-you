@@ -88,3 +88,14 @@ Rocky Road, Telephone, Haunt, and Not There include individual Approach / Mechan
 All 405 logged inputs are covered by the retained intervals; all four victory frames and game-only crops were inspected. Each export has one video stream and no audio, with files 7.9–12.1 MB. Build, all 30 tests, deterministic rebuild, and whitespace checks passed.
 
 Native Not There playback advanced to 21.58 seconds with readyState 4 and no media error. Selecting Telephone updated the player, title, and all notes. Desktop light and 390px dark layouts were inspected; 200% text remained legible without horizontal overflow (32px root, scrollWidth 390). With scripts disabled, all 59 native note disclosures were present; Not There opened by click and closed with Return. Scripts, default viewport, and normal font size were restored.
+
+
+## Batch 13 — recordings 60–64 (2026-09-07)
+
+Even Less There, Crate Square, Supermarket, Ghost Friend, and Ghost Guard include individual Approach / Mechanics / Attempts notes. Crate Square and Ghost Guard join all prior recorded attempts.
+
+All 1,178 inputs are covered by retained edit intervals, including failed moves, restarts, waits, and undos. All five victory frames and game-only crops were inspected. Exports contain one video stream and no audio; files are 10.6–19.3 MB. Build, all 30 tests, deterministic rebuild, and whitespace checks passed.
+
+Native Ghost Guard playback advanced to 9.883 seconds with readyState 4 and no error. Selecting Ghost Friend changed the player, title, and all notes. Desktop light and 390px dark layouts were inspected; at 200% text the root font was 32px and scrollWidth remained 390px. With scripts disabled, all 64 native note disclosures were available; Ghost Guard opened by click and closed with Return. Scripts, default viewport, normal text size, and light theme were restored. Browser error log empty.
+
+Previous 59-level release 2ed15252ee7f1fe8ffa99ae2a152819882acdfe9 was verified live through successful Actions run 34133435979, public catalogue/notes, and a partial-content media response.

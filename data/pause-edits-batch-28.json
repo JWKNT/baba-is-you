@@ -1,0 +1,261 @@
+{
+  "date": "2026-09-06",
+  "threshold_seconds": 20,
+  "retained_seconds": 5,
+  "source_recording": "batch-28.mp4",
+  "source_sha256": "5184d6000f23836e5fe45d00ab793d888d322db8f3adfe2af7b136905a63db73",
+  "clips": [
+    {
+      "id": "level-111",
+      "file": "/baba-is-you-media/media/111-garden-05-maritime-adventures.mp4",
+      "seconds": 764.0,
+      "new_seconds": 370.0,
+      "pauses": [
+        [
+          8,
+          56
+        ],
+        [
+          60,
+          106
+        ],
+        [
+          140,
+          264
+        ],
+        [
+          282,
+          328
+        ],
+        [
+          404,
+          436
+        ],
+        [
+          454,
+          546
+        ],
+        [
+          664,
+          686
+        ],
+        [
+          704,
+          728
+        ]
+      ],
+      "cuts": [
+        [
+          10.5,
+          53.5
+        ],
+        [
+          62.5,
+          103.5
+        ],
+        [
+          142.5,
+          261.5
+        ],
+        [
+          284.5,
+          325.5
+        ],
+        [
+          406.5,
+          433.5
+        ],
+        [
+          456.5,
+          543.5
+        ],
+        [
+          666.5,
+          683.5
+        ],
+        [
+          706.5,
+          725.5
+        ]
+      ],
+      "removed": 394.0,
+      "original_sha256": "c7f04bea4c31184302ca87f1e51b57f5d7d68a4b424104d9242d1c811971442d"
+    },
+    {
+      "id": "level-112",
+      "file": "/baba-is-you-media/media/112-garden-06-ruined-orchard.mp4",
+      "seconds": 361.0,
+      "new_seconds": 168.0,
+      "pauses": [
+        [
+          10,
+          102
+        ],
+        [
+          130,
+          172
+        ],
+        [
+          202,
+          234
+        ],
+        [
+          258,
+          278
+        ],
+        [
+          306,
+          338
+        ]
+      ],
+      "cuts": [
+        [
+          12.5,
+          99.5
+        ],
+        [
+          132.5,
+          169.5
+        ],
+        [
+          204.5,
+          231.5
+        ],
+        [
+          260.5,
+          275.5
+        ],
+        [
+          308.5,
+          335.5
+        ]
+      ],
+      "removed": 193.0,
+      "original_sha256": "5c33ee5ec60d036fdaae7ec46d93238c702374c5876d7be7d47254ce5a79f38d"
+    },
+    {
+      "id": "level-113",
+      "file": "/baba-is-you-media/media/113-garden-07-blockade.mp4",
+      "seconds": 308.0,
+      "new_seconds": 140.0,
+      "pauses": [
+        [
+          10,
+          96
+        ],
+        [
+          108,
+          200
+        ]
+      ],
+      "cuts": [
+        [
+          12.5,
+          93.5
+        ],
+        [
+          110.5,
+          197.5
+        ]
+      ],
+      "removed": 168.0,
+      "original_sha256": "00fdecfcc41ee341cc1c3940e5718b45f46d0609e0338a3c0016d3a54fdcb05e"
+    },
+    {
+      "id": "level-114",
+      "file": "/baba-is-you-media/media/114-garden-08-jaywalkers-united.mp4",
+      "seconds": 166.0,
+      "new_seconds": 82.0,
+      "pauses": [
+        [
+          10,
+          60
+        ],
+        [
+          78,
+          122
+        ]
+      ],
+      "cuts": [
+        [
+          12.5,
+          57.5
+        ],
+        [
+          80.5,
+          119.5
+        ]
+      ],
+      "removed": 84.0,
+      "original_sha256": "9784ba2749521dc0eeadb93a2f1522a0b45ea57104d62c237e58cf27f0147697"
+    },
+    {
+      "id": "level-115",
+      "file": "/baba-is-you-media/media/115-garden-09-overgrowth.mp4",
+      "seconds": 490.0,
+      "new_seconds": 179.0,
+      "pauses": [
+        [
+          8,
+          86
+        ],
+        [
+          102,
+          124
+        ],
+        [
+          142,
+          208
+        ],
+        [
+          268,
+          344
+        ],
+        [
+          346,
+          410
+        ],
+        [
+          414,
+          434
+        ],
+        [
+          470,
+          490
+        ]
+      ],
+      "cuts": [
+        [
+          10.5,
+          83.5
+        ],
+        [
+          104.5,
+          121.5
+        ],
+        [
+          144.5,
+          205.5
+        ],
+        [
+          270.5,
+          341.5
+        ],
+        [
+          348.5,
+          407.5
+        ],
+        [
+          416.5,
+          431.5
+        ],
+        [
+          472.5,
+          487.5
+        ]
+      ],
+      "removed": 311.0,
+      "original_sha256": "25bee53be3c7caaf98837c8cd71a039f0c50df35b4085ce42705a31f9313fb91"
+    }
+  ]
+}

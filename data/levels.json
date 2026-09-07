@@ -988,5 +988,50 @@
     "poster": "assets/level-110.jpg",
     "recorded": "2026-09-06",
     "seconds": 104.0
+  },
+  {
+    "id": "level-111",
+    "number": 111,
+    "title": "Garden 05 \u2014 Maritime Adventures",
+    "file": "/baba-is-you-media/media/111-garden-05-maritime-adventures.mp4",
+    "poster": "assets/level-111.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 370.0
+  },
+  {
+    "id": "level-112",
+    "number": 112,
+    "title": "Garden 06 \u2014 Ruined Orchard",
+    "file": "/baba-is-you-media/media/112-garden-06-ruined-orchard.mp4",
+    "poster": "assets/level-112.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 168.0
+  },
+  {
+    "id": "level-113",
+    "number": 113,
+    "title": "Garden 07 \u2014 Blockade",
+    "file": "/baba-is-you-media/media/113-garden-07-blockade.mp4",
+    "poster": "assets/level-113.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 140.0
+  },
+  {
+    "id": "level-114",
+    "number": 114,
+    "title": "Garden 08 \u2014 Jaywalkers United",
+    "file": "/baba-is-you-media/media/114-garden-08-jaywalkers-united.mp4",
+    "poster": "assets/level-114.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 82.0
+  },
+  {
+    "id": "level-115",
+    "number": 115,
+    "title": "Garden 09 \u2014 Overgrowth",
+    "file": "/baba-is-you-media/media/115-garden-09-overgrowth.mp4",
+    "poster": "assets/level-115.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 179.0
   }
 ]

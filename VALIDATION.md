@@ -179,3 +179,12 @@ Horror Story, Aiming High, Trio, Bottleneck and Platformer are five observed win
 Shortened 21 visually reviewed pauses of at least 20 seconds to five seconds, removing 1,127 seconds. Input logs show no overlap between the final cuts and recorded key sequences. The five clips total 632 seconds and 29.3 MiB. All pass exact frame counts/durations, 1700×950, 30 fps, silent H.264/yuv420p, faststart and file-size limits. All 52 mapped source-frame checks pass, with minimum PSNR 46.3 dB. The batch manifest records source hashes and cuts.
 
 All 24 Node tests pass. Chromium played and sought to the endings of five new and two existing clips with matching durations. Desktop/mobile light/dark, keyboard, 200% text and 100 no-JavaScript links pass without errors or overflow. Videos publish through the companion repository before catalogue links; HTTPS, exact sizes and byte ranges are checked. Player, speed controls and shared-theme code are unchanged. Rollback: revert this catalogue batch commit; companion media can remain available.
+
+
+## Rocket Trip batch · 10–13 and Extra 1 · 2026-09-06
+
+The Pit, Heavy Words, Guardians, Sky Hold and Existential Crisis are five observed wins. Rocket Trip shows 14/8 and six blossoms. Recording is stopped and Slot 2 has a verified checkpoint backup. All five source contact sheets were reviewed for game-only framing, title cards and completed-map endings. Attempts and undos remain in order; originals stay outside Git.
+
+Shortened 31 visually reviewed pauses of at least 20 seconds to five seconds, removing 2,269 seconds. A Heavy Words candidate was split around a short STAR/IS/PUSH rearrangement; the corrected cuts preserve those inputs. The final input audit reports no overlap with logged key sequences. The five clips total 1,041 seconds and 48.7 MiB. All pass exact frame counts/durations, 1700×950, 30 fps, silent H.264/yuv420p, faststart and file-size limits. All 72 mapped source-frame checks pass, with minimum PSNR 47.5 dB. The batch manifest records source hashes and cuts.
+
+All 24 Node tests pass. Chromium played and sought to the endings of five new and two existing clips with matching durations. Desktop/mobile light/dark, keyboard, 200% text and 105 no-JavaScript links pass without errors or overflow; the layout screenshots were reviewed. Videos publish through the companion repository before catalogue links; HTTPS, exact sizes and byte ranges are checked. Player, speed controls and shared-theme code are unchanged. Rollback: revert this catalogue batch commit; companion media can remain available.

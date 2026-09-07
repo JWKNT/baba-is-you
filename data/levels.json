@@ -898,5 +898,50 @@
     "poster": "assets/level-100.jpg",
     "recorded": "2026-09-06",
     "seconds": 153.0
+  },
+  {
+    "id": "level-101",
+    "number": 101,
+    "title": "Space 10 \u2014 The Pit",
+    "file": "/baba-is-you-media/media/101-space-10-the-pit.mp4",
+    "poster": "assets/level-101.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 157.0
+  },
+  {
+    "id": "level-102",
+    "number": 102,
+    "title": "Space 11 \u2014 Heavy Words",
+    "file": "/baba-is-you-media/media/102-space-11-heavy-words.mp4",
+    "poster": "assets/level-102.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 147.0
+  },
+  {
+    "id": "level-103",
+    "number": 103,
+    "title": "Space 12 \u2014 Guardians",
+    "file": "/baba-is-you-media/media/103-space-12-guardians.mp4",
+    "poster": "assets/level-103.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 455.0
+  },
+  {
+    "id": "level-104",
+    "number": 104,
+    "title": "Space 13 \u2014 Sky Hold",
+    "file": "/baba-is-you-media/media/104-space-13-sky-hold.mp4",
+    "poster": "assets/level-104.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 117.0
+  },
+  {
+    "id": "level-105",
+    "number": 105,
+    "title": "Space Extra 1 \u2014 Existential Crisis",
+    "file": "/baba-is-you-media/media/105-space-extra-01-existential-crisis.mp4",
+    "poster": "assets/level-105.jpg",
+    "recorded": "2026-09-06",
+    "seconds": 165.0
   }
 ]

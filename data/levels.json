@@ -338,5 +338,90 @@
       "mechanics": "A noun\u2019s identity rule blocks competing transformations. BABA IS BABA protects control when moving CRAB temporarily creates BABA IS CRAB. The flag substitutes for Baba as the object consumed by OPEN and SHUT.",
       "attempts": "The full sequence worked without an undo or restart. I checked the identity rule before pushing CRAB through the transformation and defeat rows."
     }
+  },
+  {
+    "id": "level-21",
+    "number": 21,
+    "title": "Burglary",
+    "file": "media/021-burglary.mp4",
+    "poster": "assets/level-21.jpg",
+    "seconds": 91.7,
+    "recorded": "2026-09-07",
+    "world": "The Lake",
+    "code": "13",
+    "name": "Burglary",
+    "notes": {
+      "approach": "Give walls SHUT and the pushable star OPEN. Use the star to remove a wall tile, leave the room, and break KEY IS DEFEAT. Bring IS and WIN inside to make KEY IS WIN, then touch the key.",
+      "mechanics": "OPEN and SHUT work on walls as well as doors. An object can make an opening while Baba stays safe, and reaching outside rules can change a previously lethal object into the goal.",
+      "attempts": "The first setup trapped the star beneath the wall rule, so I restarted. I also corrected the IS and OPEN alignment after the KEY word blocked a push. The failed setup, restart, corrections, and successful route are all retained."
+    }
+  },
+  {
+    "id": "level-22",
+    "number": 22,
+    "title": "Submerged Ruins",
+    "file": "media/022-submerged-ruins.mp4",
+    "poster": "assets/level-22.jpg",
+    "seconds": 55.066667,
+    "recorded": "2026-09-07",
+    "world": "The Lake",
+    "code": "Extra 1",
+    "name": "Submerged Ruins",
+    "notes": {
+      "approach": "Turn the rock into a second Baba. Move one Baba into the flag chamber while the crabs are harmless, then use the other to shift the upper nouns and activate FLAG IS WIN.",
+      "mechanics": "ROCK IS BABA creates another controlled object. Walls can hold one Baba still while the other moves, letting an object pass a future hazard before its DEFEAT rule becomes active.",
+      "attempts": "The first rule shift made the flag WIN but blocked access with DEFEAT crabs. I undid that push, built the second-Baba setup, and completed the staged solution. The initial attempt and undo remain."
+    }
+  },
+  {
+    "id": "level-23",
+    "number": 23,
+    "title": "Sunken Temple",
+    "file": "media/023-sunken-temple.mp4",
+    "poster": "assets/level-23.jpg",
+    "seconds": 114.033333,
+    "recorded": "2026-09-07",
+    "world": "The Lake",
+    "code": "Extra 2",
+    "name": "Sunken Temple",
+    "notes": {
+      "approach": "Temporarily control the rock to extract it. Restore Baba, share an IS between BABA IS YOU and ROCK IS PUSH, and use the freed IS as a second crate. Push the rock through the crab, then transfer control to the rock inside the goal chamber.",
+      "mechanics": "Text can serve as a pushable object in a chain. Sharing rule words can free a crate without losing an essential property. Temporary control lets a trapped object move itself into a useful position.",
+      "attempts": "The first push made the flag WIN but the crab DEFEAT. I developed the extraction and crate route from that position, temporarily parking PUSH to clear the text route. All 243 inputs remain, with no restart or undo; long planning pauses are removed."
+    }
+  },
+  {
+    "id": "level-24",
+    "number": 24,
+    "title": "Poem",
+    "file": "media/024-poem.mp4",
+    "poster": "assets/level-24.jpg",
+    "seconds": 44.8,
+    "recorded": "2026-09-07",
+    "world": "Solitary Island",
+    "code": "00",
+    "name": "Poem",
+    "notes": {
+      "approach": "Shift the IS stack down while preserving the lower rules. Move VIOLET aside and temporarily lift ROSE out. Insert a spare IS between ROSE and FLAG, then restore ROSE to create winning flags outside the wall.",
+      "mechanics": "Identical IS words can replace one another without breaking an active sentence. A shared noun can participate in both a transformation and a winning rule, creating reachable goals elsewhere.",
+      "attempts": "The spare IS initially went one square too far. I undid five moves and corrected its placement. Every move and undo is retained; the long planning pause is removed."
+    }
+  },
+  {
+    "id": "level-25",
+    "number": 25,
+    "title": "Float",
+    "file": "media/025-float.mp4",
+    "poster": "assets/level-25.jpg",
+    "seconds": 41.266667,
+    "recorded": "2026-09-07",
+    "world": "Solitary Island",
+    "code": "01",
+    "name": "Float",
+    "notes": {
+      "approach": "Shift BABA IS YOU left to make room below its noun. Route ROCK around the enclosure and replace BABA, then move the grounded rocks right to the flag.",
+      "mechanics": "FLOAT does not let Baba pass STOP walls. Transferring control to grounded rocks puts the controlled objects at the same height as the winning flag.",
+      "attempts": "I first tested upward movement against the wall, then used the control transfer. No undo or restart was needed; all moves remain."
+    }
   }
 ]

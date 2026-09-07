@@ -32,3 +32,9 @@
 - Reusable tools/verify_batch.py checks input counts, interval coverage, stream types, file sizes, and generates a victory contact sheet.
 - All 30 tests, deterministic rebuild, and whitespace checks passed. Desktop player and new notes inspected; native playback checked. UI source remains unchanged from the full accessibility/responsive QA.
 - Third batch 098904e verified live with notes, streaming HTTP206, and browser playback readyState4.
+
+## Batch 5 — twenty-five recordings
+- Lake13 and both Lake extras, plus Solitary Island00–01, added with full per-level notes. All689 inputs verified against edit intervals; all five victory frames inspected. Silent files range2.7–10.3MB.
+- Lake completed15/8 including both extras. Main-map early side path needs3 flowers; moved to Solitary Island after checking it.
+- All30 tests, deterministic rebuild, and whitespace checks passed. Mobile390px extra labels and desktop detailed notes inspected; longest new clip played through native player.
+- Fourth batch26193cd verified live: twenty clips, matching notes, HTTP206, browser readyState4/playback27.4s.

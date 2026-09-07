@@ -10,7 +10,7 @@
 - This workspace stores fresh tools, raw recordings, and reasoning notes. Raw recordings stay out of Git.
 
 ## Current checkpoint
-- 20 levels completed: base 00–07 and Lake 01–12, fresh Slot 3. On Lake map at completed12; no active recorder. Fourth batch reviewed and ready to publish. Third batch 098904e verified built/live: fifteen recordings, notes, HTTP 206, browser playback readyState 4 at 42.6 seconds.
+- 25 levels completed: base00–07, Lake01–13 + Extras1–2, Solitary Island00–01. Fresh Slot3. On Float map node403328; no active recorder. Fifth batch25 clips audited and ready to publish. Lake15/8 complete; main early side route gated by3 flowers (have1). Fourth batch26193cd verified Pages built, twenty live recordings/notes and HTTP206 for newest clip. Third batch 098904e verified built/live: fifteen recordings, notes, HTTP 206, browser playback readyState 4 at 42.6 seconds.
 - First batch (base 00–04) was published at main commit 9bc1db3. Second batch and notes panel live at main commit 5b86a3f; public ten-level page and notes verified. Companion cleanup d9922ae verified built; old videos removed.
 - Ten silent edits/posters ready; every level has Approach, Mechanics, and Attempts notes. Notes panel follows selection/history, uses native disclosures without JS. 30 tests passed; responsive/light/dark/no-JS/playback checks completed.
 - Capture tools/record: window-only 1708x1016. Export 1680x960 crop at (14,56), no audio, H.264/yuv420p/30fps/faststart. Keep every input and ten seconds after win; only idle gaps removed.
@@ -89,3 +89,22 @@ Read this file and tools before interacting. Observe game fresh using CUA. Updat
 20. Lake 12 — Crab Storage. Give flag OPEN using a vertical rule sharing FLAG IS PUSH, push it into shut door, retrieve CRAB. Build BABA IS BABA vertically under fixed upper BABA; this identity prevents BABA IS CRAB as CRAB passes upper gate. Push CRAB past DEFEAT into WIN, then touch crab. Source020, no undo/restart.
 - Self-identity can protect a controlled noun from an unavoidable temporary transformation.
 - Steam friend notifications occasionally appear in game overlay. Disable their popups between levels if possible; avoid modifying game-state settings.
+
+21. Lake13 — Burglary. Move star out of the WALL rule column, build WALL IS SHUT and STAR IS OPEN sharing immutable STAR IS PUSH. Push star up through wall at463208, escape. Break outside KEY IS DEFEAT, bring outside IS and WIN inside to make KEY IS WIN vertically, touch key. First attempt trapped star under WALL noun and required restart; later adjusted IS/OPEN alignment after KEY word blocked a left push. Source021 preserves all failed moves and restart.
+- Need explore Lake side blue node and any remaining extras; map currently13/8 at completed13, no other numbered nodes visible.
+
+- Lake side blue node at307280 is Extra1 Submerged Ruins, not a world link. Entered before recording because node type was unknown; started022 before any puzzle input, then pause title confirmed code. Keep all blue extras in scope.
+
+22. Lake Extra1 — Submerged Ruins. First shifted top nouns, making FLAG IS WIN but CRAB IS DEFEAT blocked access; undid one move. Formed ROCK IS BABA vertically using fixed BABA in BABA IS YOU, creating second Baba from rock. Used walls to hold upper Baba while lower Baba crossed harmless crabs into goal chamber. Upper Baba then shifted CRAB/FLAG, lower Baba reached newly winning flag. Source022 retains initial attempt/undo and all movements.
+- Stage a controlled object beyond a hazard before activating the hazardous rule. Independent blocking can separate simultaneously controlled objects into useful positions.
+
+23. Lake Extra2 — Sunken Temple. Shifted upper rules, making flag WIN and single crab DEFEAT. Temporarily made ROCK IS YOU to extract trapped rock; restored BABA IS YOU. Shared IS between horizontal BABA IS YOU and vertical ROCK IS PUSH, freeing spare IS as crate. Parked PUSH temporarily to route spare IS; restored PUSH, staged rock235388 and IS187388, pushed chain right twice: rock331388 beyond crab, IS283388 on crab, Baba235388 safe. Replaced BABA with ROCK in control rule; controlled rock moved right to flag. Source023. No restart/undo; extensive planning gaps removed, every action retained.
+- A spare text word can be the second pushable object in a hazard-crossing chain. Sharing an IS can free that word even when every initial sentence appears necessary.
+- Temporary control can extract a physically trapped pushable object; restore original control after moving it into a usable position.
+- PUSH was parked at187340 to keep route244 clear, then restored before moving the IS crate behind rock. Restore rules before a crate blocks the needed standing square.
+
+24. Solitary Island00 — Poem. Shift IS column down twice, keeping FLAG IS WIN and BABA IS YOU intact. Push VIOLET left, move ROSE out temporarily. Route spare IS into295256, restore ROSE295232 to form vertical ROSE IS FLAG using FLAG295280. Touch an outside rose-turned-flag. Five undos corrected an IS route one cell too far. Source024.
+- Identical IS words can replace one another in a pushed stack without breaking lower rules. Move a temporarily blocking noun out, insert the connective, then restore the noun.
+
+25. Solitary Island01 — Float. Tested up movement: floating Baba still blocked by wall. Shifted BABA IS YOU left once to free space below noun. Moved ROCK noun out of lower rule, around right wall, above BABA, then pushed down to transfer control. Grounded rocks moved right four and won at flag. Source025; no undo/restart.
+- FLOAT does not bypass STOP walls. Grounded controlled rocks successfully interact with grounded WIN flag.

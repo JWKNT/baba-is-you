@@ -99,3 +99,10 @@ All 1,178 inputs are covered by retained edit intervals, including failed moves,
 Native Ghost Guard playback advanced to 9.883 seconds with readyState 4 and no error. Selecting Ghost Friend changed the player, title, and all notes. Desktop light and 390px dark layouts were inspected; at 200% text the root font was 32px and scrollWidth remained 390px. With scripts disabled, all 64 native note disclosures were available; Ghost Guard opened by click and closed with Return. Scripts, default viewport, normal text size, and light theme were restored. Browser error log empty.
 
 Previous 59-level release 2ed15252ee7f1fe8ffa99ae2a152819882acdfe9 was verified live through successful Actions run 34133435979, public catalogue/notes, and a partial-content media response.
+
+## Batch 14 — recording 65 (2026-09-07)
+
+- Jump: all 385 logged inputs retained, including two restarts and 33 undos; silent 178.733333-second H.264 edit. Pause manifest coverage passed, and the final victory frame was visually checked.
+- Added complete Approach / Mechanics / Attempts notes. Thirty tests pass, including deterministic rebuild; git diff --check passes.
+- Browser QA: native keyboard playback advanced without a media error; Ghost Guard → Jump selection restored the correct video and notes. Desktop light and 390px dark layouts checked; 200% text had no horizontal overflow (390px document width). With scripts disabled, all 65 native note disclosures and the direct Jump MP4 link remained available. Browser error log empty. Temporary viewport, font-size and script overrides restored.
+- Prior release 0feb6fa verified deployed by successful Actions run 34148317414 and public catalogue content.

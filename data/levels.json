@@ -250,7 +250,7 @@
     "name": "Novice Locksmith",
     "notes": {
       "approach": "Share one IS between horizontal KEY IS OPEN and vertical KEY IS PUSH, then open the first door. Reuse the horizontal KEY noun to replace SHUT in DOOR IS SHUT. Push the resulting key aside and reach the flag.",
-      "mechanics": "Crossing rules can share their IS. A spare noun becomes useful again once its first rule has served its purpose, and changing a door into a key removes the door\u2019s STOP property.",
+      "mechanics": "Crossing rules can share their IS. A spare noun becomes useful again once its first rule has served its purpose, and changing a door into a key removes the door’s STOP property.",
       "attempts": "The crossing-rule assembly and door transformation worked without an undo or restart. Every movement is preserved; only long inactive planning gaps are removed."
     }
   },
@@ -301,7 +301,7 @@
     "name": "Two Doors",
     "notes": {
       "approach": "Add IS SHUT beside the fixed KEY noun. The key is already OPEN, so it disappears and clears the passage to FLAG IS WIN. Replace KEKE with DOOR in the control rule, then move the door onto the flag.",
-      "mechanics": "One object that is both OPEN and SHUT destroys itself. A blocked passage can be cleared by changing the obstructing object\u2019s properties, and control can transfer by replacing a rule noun in one push.",
+      "mechanics": "One object that is both OPEN and SHUT destroys itself. A blocked passage can be cleared by changing the obstructing object’s properties, and control can transfer by replacing a rule noun in one push.",
       "attempts": "The planned sequence worked without an undo or restart. IS had to be placed before SHUT because the hedges restrict access to their final positions."
     }
   },
@@ -335,7 +335,7 @@
     "name": "Crab Storage",
     "notes": {
       "approach": "Give the pushable flag OPEN and use it to open the side room. Build BABA IS BABA, then push CRAB through the upper passage until CRAB IS WIN forms. Walk to the crab.",
-      "mechanics": "A noun\u2019s identity rule blocks competing transformations. BABA IS BABA protects control when moving CRAB temporarily creates BABA IS CRAB. The flag substitutes for Baba as the object consumed by OPEN and SHUT.",
+      "mechanics": "A noun’s identity rule blocks competing transformations. BABA IS BABA protects control when moving CRAB temporarily creates BABA IS CRAB. The flag substitutes for Baba as the object consumed by OPEN and SHUT.",
       "attempts": "The full sequence worked without an undo or restart. I checked the identity rule before pushing CRAB through the transformation and defeat rows."
     }
   },
@@ -437,7 +437,7 @@
     "name": "Warm River",
     "notes": {
       "approach": "Remove AND FLOAT from Baba and place it after WATER IS HOT. Walk grounded Baba beneath the floating hot water and floating skulls to the grounded flag.",
-      "mechanics": "HOT/MELT and DEFEAT interactions require matching height. Changing the hazard\u2019s height can be more useful than changing Baba\u2019s height, especially when the goal remains grounded.",
+      "mechanics": "HOT/MELT and DEFEAT interactions require matching height. Changing the hazard’s height can be more useful than changing Baba’s height, especially when the goal remains grounded.",
       "attempts": "The rule transfer worked without an undo or restart. Every movement is retained, with inactive planning time removed."
     }
   },
@@ -505,7 +505,7 @@
     "name": "Assembly Team",
     "notes": {
       "approach": "Push BABA against the left wall to stagger the robots, then move it up to the top-left corner. Align the robots side by side and sacrifice the leading one to open the top water tile. Bring IS and YOU back across that opening to complete BABA IS YOU; Baba reaches the flag.",
-      "mechanics": "A word blocked by a wall can stop one controlled object while another keeps moving. This creates the offset needed to sacrifice only one robot. The rule can be assembled on the noun\u2019s side of the river rather than carrying the noun across.",
+      "mechanics": "A word blocked by a wall can stop one controlled object while another keeps moving. This creates the offset needed to sacrifice only one robot. The rule can be assembled on the noun’s side of the river rather than carrying the noun across.",
       "attempts": "The planned offset and word return worked without an undo or restart. The deliberate blocked movements used to align the robots are retained."
     }
   },
@@ -521,7 +521,7 @@
     "code": "07",
     "name": "Catch the Thief!",
     "notes": {
-      "approach": "Move Baba\u2019s control sentence below the thief\u2019s route. Stop the robot inside the left pocket and make ROBOT IS YOU share YOU with BABA IS YOU. Use both characters to bring WIN out, then keep the robot controlled while assembling BABA IS WIN. The robot touches Baba to finish.",
+      "approach": "Move Baba’s control sentence below the thief’s route. Stop the robot inside the left pocket and make ROBOT IS YOU share YOU with BABA IS YOU. Use both characters to bring WIN out, then keep the robot controlled while assembling BABA IS WIN. The robot touches Baba to finish.",
       "mechanics": "A MOVE object can push a control word away. Sharing YOU allows two characters to cooperate, and the winning object can be different from the controlled object. The isolated pipe pieces block several tempting routes around WIN.",
       "attempts": "The recording keeps the stolen control word, a fatal skull step, three restarts, and the undo sequences used to recover rule routing and an overshot WIN push. Inert waits did not create distinct undo states, which also caused a rollback farther than expected. The Area Clear animation is retained."
     }
@@ -539,7 +539,7 @@
     "name": "Tiny Pond",
     "notes": {
       "approach": "Control the flag temporarily and use the same IS for KEY IS BABA, creating a second Baba. Restore BABA IS YOU AND OPEN, sacrifice one Baba to open the inner water tile, and retrieve WIN with the survivor. Slide the control sentence upward, remove OPEN, and insert WIN.",
-      "mechanics": "A perpendicular transformation can create another copy of the original player while a different noun remains controlled. OPEN and SHUT destroy both participants, so an extra controlled object is needed. The pond\u2019s narrow entrance makes the standing square behind WIN crucial.",
+      "mechanics": "A perpendicular transformation can create another copy of the original player while a different noun remains controlled. OPEN and SHUT destroy both participants, so an extra controlled object is needed. The pond’s narrow entrance makes the standing square behind WIN crucial.",
       "attempts": "The first route trapped WIN in the corner. A direct OPEN test destroyed Baba, followed by a restart. One undo repaired a control-word push during the flag phase. All experiments, blocked moves, and the successful two-Baba route remain."
     }
   },
@@ -555,7 +555,7 @@
     "code": "09",
     "name": "Research Facility",
     "notes": {
-      "approach": "Stage the bolt facing away from the dangerous corridor, then activate MOVE. Push DEFEAT into the skull rule before the bolt reaches the hot skull. The bolt\u2019s pushing chain removes SKULL from that rule, opening the lower route. Retrieve WIN, make BOLT IS WIN, and touch the bolt.",
+      "approach": "Stage the bolt facing away from the dangerous corridor, then activate MOVE. Push DEFEAT into the skull rule before the bolt reaches the hot skull. The bolt’s pushing chain removes SKULL from that rule, opening the lower route. Retrieve WIN, make BOLT IS WIN, and touch the bolt.",
       "mechanics": "A wall reversal buys time for a remotely moving object. The bolt is MELT, so HOT must be removed before it reaches a skull. A non-YOU mover can then pass DEFEAT and push a rule that Baba cannot safely reach.",
       "attempts": "The first bolt route displaced PUSH and required rebuilding its rule. Later, an attempted WIN insertion shifted the whole sentence; I rerouted WIN above the property slot. All moves remain, with no undo or restart."
     }
@@ -631,14 +631,14 @@
   {
     "id": "level-38",
     "number": 38,
-    "title": "\u2026Bridges?",
+    "title": "…Bridges?",
     "file": "media/038-bridges.mp4",
     "poster": "assets/level-38.jpg",
     "seconds": 57.2,
     "recorded": "2026-09-07",
     "world": "Solitary Island",
     "code": "Extra 2",
-    "name": "\u2026Bridges?",
+    "name": "…Bridges?",
     "notes": {
       "approach": "Control both floating rocks and line them up one tile apart. Cross below the flag rule, then push its IS and WIN back across the river. Bring those words to the original ROCK noun so horizontal ROCK IS WIN crosses vertical ROCK IS YOU.",
       "mechanics": "Floating text can be carried across SINK water. A noun can anchor two perpendicular sentences, letting the same rocks be YOU and WIN without needing an AND.",
@@ -709,7 +709,7 @@
     "name": "A Present for You",
     "notes": {
       "approach": "Transfer control to the box, cross the hot water, and break LOVE IS MELT outside. Restore heart control and BOX IS PUSH. Position the box in hot water before adding a perpendicular BOX IS MELT sentence; BOX HAS FLAG then releases the flag for the heart to reach.",
-      "mechanics": "A controlled box can cross HOT water while it lacks MELT. Removing the heart\u2019s MELT makes the same crossing safe for it. HAS turns destruction into a way to create the goal, and a shared noun can keep PUSH active while adding MELT.",
+      "mechanics": "A controlled box can cross HOT water while it lacks MELT. Removing the heart’s MELT makes the same crossing safe for it. HAS turns destruction into a way to create the goal, and a shared noun can keep PUSH active while adding MELT.",
       "attempts": "The controlled box pushed spare words during its excursion, so I retrieved and rearranged them. The PUSH column was shifted temporarily to make room for the final box push, then restored. Every movement and correction is retained; no undo or restart."
     }
   },
@@ -733,14 +733,14 @@
   {
     "id": "level-44",
     "number": 44,
-    "title": "But Where\u2019s the Key",
+    "title": "But Where’s the Key",
     "file": "media/044-but-wheres-the-key.mp4",
     "poster": "assets/level-44.jpg",
     "seconds": 120.366667,
     "recorded": "2026-09-07",
     "world": "Temple Ruins",
     "code": "05",
-    "name": "But Where\u2019s the Key",
+    "name": "But Where’s the Key",
     "notes": {
       "approach": "Build a chain of controlled replacements: Baba breaks on rubble and leaves a box; the weak box leaves a key. Before opening the door, arrange KEY HAS BOX and keep BOX IS YOU active so the destroyed key leaves a playable box inside the room.",
       "mechanics": "HAS takes effect when an object is destroyed. A noun pushed out of one sentence can complete another in the same move, changing control and WEAK together. The rubble ring has an empty center, so the handoff must happen on an actual rubble tile.",
@@ -895,8 +895,8 @@
     "code": "06",
     "name": "Canyon",
     "notes": {
-      "approach": "Borrow the belt rule\u2019s IS and SHIFT to give Baba SHIFT. Walk onto the inactive belt to move it to the canyon exit, then push the hot ghost onto it. Rebuild BELT IS UP to orient the relocated belt and replace UP with SHIFT to lift the ghost into the open room. Push the ghost through the melting flowers and follow it to the flag.",
-      "mechanics": "A controlled character with SHIFT can move a non-pushable object by walking onto it. Moving the belt also changes its facing, so set its direction after positioning. UP fixes direction; it does not cause movement, and that facing persists after UP is removed. Floating text does not get carried by grounded Baba\u2019s SHIFT.",
+      "approach": "Borrow the belt rule’s IS and SHIFT to give Baba SHIFT. Walk onto the inactive belt to move it to the canyon exit, then push the hot ghost onto it. Rebuild BELT IS UP to orient the relocated belt and replace UP with SHIFT to lift the ghost into the open room. Push the ghost through the melting flowers and follow it to the flag.",
+      "mechanics": "A controlled character with SHIFT can move a non-pushable object by walking onto it. Moving the belt also changes its facing, so set its direction after positioning. UP fixes direction; it does not cause movement, and that facing persists after UP is removed. Floating text does not get carried by grounded Baba’s SHIFT.",
       "attempts": "One restart, no undo, 404 inputs. Early attempts tried inaccessible routes and tested floating text against a hedge. Later routing mistakes pushed UP against the right wall; moving the belt sentence beside that stranded word recovered the setup. Every route, failed move, reset, and direction test remains."
     }
   },
@@ -1085,6 +1085,23 @@
       "approach": "Use the rock to clear the foliage, then make LEAF both PUSH and TELE. Arrange PUSH on the left leaf so restoring the rule teleports Baba to the right with PUSH active. Push the right leaf under the key, then alternate pushes and waits to carry the key through the teleporter pair. Deliver it above the ghost and push the ghost into the key.",
       "mechanics": "A pushable teleporter moves away when approached, so enter it in the same input that activates PUSH. Floating text stays on its leaf while grounded objects teleport. Move the leaf only while the key is on the other side; a wait resets that timing. OPEN removes the SHUT ghost, whose HAS rule releases the winning flag.",
       "attempts": "Both recorded sessions are joined, preserving all 320 inputs and 54 undos. Earlier rock placement and a trapped PUSH rule were recovered with undo. The first session confirmed that floating text could not be teleported. The successful route uses the detour around the isolated hedge in the upper-right room."
+    }
+  },
+  {
+    "id": "level-65",
+    "number": 65,
+    "title": "Jump",
+    "file": "media/065-jump.mp4",
+    "poster": "assets/level-65.jpg",
+    "seconds": 178.733333,
+    "recorded": "2026-09-07",
+    "world": "Forest of Fall",
+    "code": "Extra 1",
+    "name": "Jump",
+    "notes": {
+      "approach": "Use LOVE IS TELE to move a river tile onto the other heart. Switch back to PUSH and move the heart out of the dry opening, then bring both hearts and the movable rules to the left bank. Place one heart on the water above the flag. Use the PUSH word as a buffer to move the other heart off its water, teleport the flag’s blocking water away, and break TELE before it returns.",
+      "mechanics": "Teleporters carry water and text as well as Baba. Breaking TELE freezes the transported water in its current place. A chain of words can keep a rule active while being pushed across the river. A word in front of Baba can push a heart off a dangerous water tile while Baba stays one cell back on dry ground.",
+      "attempts": "All 385 inputs, two restarts, and 33 undos remain. Earlier attempts tested swapping PUSH and TELE through the hearts and timed transport of PUSH alongside the water. The successful attempt made a permanent river opening first, then used a buffered push and a one-input teleport to open the flag’s approach."
     }
   }
 ]

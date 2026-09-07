@@ -24,9 +24,8 @@ function element(properties = {}) {
   };
 }
 
-function setup({hash = '', standard = false, safari = false, safariSupported = false,
-  safariQuery = true, rejectPip = false, explicitNumber = '2'} = {}) {
-  const calls = {pause: 0, play: 0, load: 0, focus: 0, scroll: 0, history: [], requestPip: 0, exitPip: 0};
+function setup({hash = '', explicitNumber = '2'} = {}) {
+  const calls = {pause: 0, play: 0, load: 0, focus: 0, scroll: 0, history: []};
   const rows = [1, 2].map(number => {
     const id = `level-0${number}`;
     const link = element({href: `https://example.test/media/${id}.mp4`});
@@ -49,39 +48,16 @@ function setup({hash = '', standard = false, safari = false, safariSupported = f
     play() { calls.play++; },
     load() { calls.load++; this.readyState = 0; this.error = null; this.currentTime = 0; }
   });
-  const pip = element({hidden: true, disabled: true});
-  const pipNote = element();
   const status = element();
   const nodes = {
-    '#video': video, '#pip': pip, '#pip-note': pipNote, '#player-status': status,
+    '#video': video, '#player-status': status,
     '#playing-title': element(), '#playing-number': element(),
     '#playing-duration': element(),
     '#player': element({focus() { calls.focus++; }, scrollIntoView() { calls.scroll++; }})
   };
   const document = {
-    pictureInPictureEnabled: standard, pictureInPictureElement: null,
     querySelector: selector => nodes[selector], querySelectorAll: () => rows
   };
-  if (standard) {
-    video.requestPictureInPicture = async () => {
-      calls.requestPip++;
-      if (rejectPip) throw new Error('Denied by browser');
-      document.pictureInPictureElement = video;
-    };
-    document.exitPictureInPicture = async () => {
-      calls.exitPip++;
-      document.pictureInPictureElement = null;
-    };
-  }
-  if (safari) {
-    video.webkitPresentationMode = 'inline';
-    video.webkitSetPresentationMode = mode => {
-      if (rejectPip) throw new Error('Denied by browser');
-      video.webkitPresentationMode = mode;
-    };
-    if (safariQuery) video.webkitSupportsPresentationMode = mode =>
-      mode === 'picture-in-picture' && safariSupported;
-  }
   calls.revealed = [];
   const window = element({BabaWorldBrowser: {reveal(row) { calls.revealed.push(row.dataset.level); }}});
   const location = {hash};
@@ -92,7 +68,7 @@ function setup({hash = '', standard = false, safari = false, safariSupported = f
   runInNewContext(source, {document, window, location, history});
 
   return {
-    rows, video, pip, pipNote, status, nodes, document, calls,
+    rows, video, status, nodes, document, calls,
     click(index, modifiers = {}) {
       const event = {button: 0, defaultPrevented: false,
         preventDefault() { this.defaultPrevented = true; }, ...modifiers};
@@ -103,9 +79,7 @@ function setup({hash = '', standard = false, safari = false, safariSupported = f
       location.hash = nextHash;
       window.dispatch(event);
     },
-    setSafariSupport(value) { safariSupported = value; },
     ready(state = 2, event = 'loadeddata') { video.readyState = state; video.dispatch(event); },
-    async clickPip() { await Promise.all(pip.dispatch('click')); }
   };
 }
 
@@ -181,77 +155,15 @@ test('modified and non-primary clicks retain direct link behavior', () => {
   }
 });
 
-test('unsupported PiP retains the native-controls note', () => {
-  for (const options of [{}, {safari: true}, {safari: true, safariQuery: false}]) {
-    const page = setup(options);
-    page.ready();
-    assert.equal(page.pip.hidden, true);
-    assert.equal(page.pip.disabled, true);
-    assert.equal(page.pipNote.hidden, false);
-  }
-});
-
-test('Safari PiP availability refreshes after metadata and tracks its presentation mode', async () => {
-  const page = setup({safari: true});
-  page.setSafariSupport(true);
-  page.ready(1, 'loadedmetadata');
-  assert.equal(page.pip.hidden, false);
-  assert.equal(page.pipNote.hidden, true);
-  assert.equal(page.pip.disabled, true);
-  page.ready();
-  assert.equal(page.pip.disabled, false);
-  await page.clickPip();
-  assert.equal(page.video.webkitPresentationMode, 'picture-in-picture');
-  assert.equal(page.pip.textContent, 'Exit picture-in-picture');
-  assert.equal(page.pip.getAttribute('aria-pressed'), 'true');
-  await page.clickPip();
-  assert.equal(page.video.webkitPresentationMode, 'inline');
-  page.setSafariSupport(false);
-  page.video.dispatch('loadedmetadata');
-  assert.equal(page.pip.hidden, true);
-  assert.equal(page.pipNote.hidden, false);
-});
-
-test('standard PiP enters and exits without starting playback', async () => {
-  const page = setup({standard: true});
-  assert.equal(page.pip.hidden, false);
-  assert.equal(page.pip.disabled, true);
-  page.ready();
-  await page.clickPip();
-  assert.equal(page.calls.requestPip, 1);
-  assert.equal(page.pip.getAttribute('aria-pressed'), 'true');
-  page.video.readyState = 0;
-  page.video.dispatch('emptied');
-  assert.equal(page.pip.disabled, false, 'an active PiP window can still be closed');
-  await page.clickPip();
-  assert.equal(page.calls.exitPip, 1);
-  assert.equal(page.pip.getAttribute('aria-pressed'), 'false');
-  assert.equal(page.calls.play, 0);
-});
-
-test('PiP failures leave playback available and announce the failure', async () => {
-  for (const options of [{standard: true}, {safari: true, safariSupported: true}]) {
-    const page = setup({...options, rejectPip: true});
-    page.ready();
-    await page.clickPip();
-    assert.match(page.status.textContent, /Picture-in-picture is unavailable/);
-    assert.equal(page.pip.getAttribute('aria-pressed'), 'false');
-    assert.equal(page.video.src, 'media/level-01.mp4');
-    assert.equal(page.calls.play, 0);
-  }
-});
-
 test('video failures offer available recovery and selecting another clip clears the error', () => {
-  const page = setup({standard: true});
+  const page = setup();
   page.ready();
   page.video.error = {code: 4};
   page.video.dispatch('error');
   assert.match(page.status.textContent, /This clip could not be loaded/);
-  assert.equal(page.pip.disabled, true);
   assert.doesNotMatch(page.status.textContent, /download/i);
   page.click(1);
   page.ready();
   assert.match(page.status.textContent, /^Selected level 02:/);
-  assert.equal(page.pip.disabled, false);
   assert.equal(page.calls.play, 0);
 });

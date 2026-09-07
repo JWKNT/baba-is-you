@@ -39,54 +39,30 @@ test('500 recordings use the same renderer, with escaped labels and no fixed gro
 });
 
 function setup() {
-  const emitter = (properties = {}) => ({listeners:{}, addEventListener(name, fn) {this.listeners[name]=fn;}, ...properties});
-  const groups = ['Opening', 'Lake', 'Forest'].map((name, i) => {
-    const rows = [1,2].map(n => ({hidden:false,dataset:{search:`${name} ${n} ${n === 1 ? 'Café' : 'Bridge'}`}}));
-    return {open:i === 0,hidden:false,rows,querySelectorAll:()=>rows,classList:{toggle(){}}};
-  });
-  const input = emitter({value:'', focus(){this.focused=true;}});
-  const form = emitter({hidden:true});
-  const status = {textContent:''};
-  const window = emitter();
-  runInNewContext(readFileSync(new URL('../assets/world-browser.js', import.meta.url),'utf8'), {window, document:{querySelector:s=>({'.world-search':form,'#level-search':input,'#search-status':status}[s]), querySelectorAll:()=>groups}});
-  return {groups,input,form,status,window, search(query){input.value=query;input.listeners.input();}};
+  const groups = [0,1,2].map(i => ({open:i===0, rows:[{},{}], querySelectorAll(){return this.rows;}, classList:{toggle(){}}}));
+  const window = {listeners:{},addEventListener(name,fn){this.listeners[name]=fn;}};
+  runInNewContext(readFileSync(new URL('../assets/world-browser.js', import.meta.url),'utf8'), {window,document:{querySelectorAll:()=>groups}});
+  return {groups,window};
 }
 
-test('search spans closed worlds, matches multiple normalized terms and restores open state', () => {
-  const p = setup();
-  assert.equal(p.form.hidden,false);
-  p.groups[1].open=true;
-  p.search('forest cafe');
-  assert.deepEqual(p.groups.map(g=>g.hidden),[true,true,false]);
+test('selection reveals its world without depending on a search form', () => {
+  const p=setup();p.window.BabaWorldBrowser.reveal(p.groups[2].rows[0]);
   assert.equal(p.groups[2].open,true);
-  assert.equal(p.groups[2].rows[1].hidden,true);
-  assert.equal(p.status.textContent,'1 matching recording.');
-  p.search('not-a-level');
-  assert.match(p.status.textContent,/No matching/);
-  p.input.listeners.keydown({key:'Escape',preventDefault(){}});
-  assert.deepEqual(p.groups.map(g=>g.open),[true,true,false]);
-  assert.ok(p.groups.every(g=>!g.hidden && g.rows.every(r=>!r.hidden)));
-  assert.equal(p.status.textContent,'');
+  assert.equal(p.groups[0].open,true);
 });
 
-test('selection reveals its world, clears a conflicting filter, and reset retains focus', () => {
+test('print temporarily reveals all worlds and restores disclosure state', () => {
   const p=setup();
-  p.search('Lake');
-  p.window.BabaWorldBrowser.reveal(p.groups[2].rows[0]);
-  assert.equal(p.input.value,'');
-  assert.equal(p.groups[2].open,true);
-  assert.equal(p.groups[2].hidden,false);
-  p.search('Lake');
-  p.form.listeners.reset({preventDefault(){}});
-  assert.equal(p.input.focused,true);
-  assert.equal(p.input.value,'');
+  p.window.listeners.beforeprint();p.window.listeners.beforeprint();
+  assert.ok(p.groups.every(g=>g.open));
+  p.window.listeners.afterprint();
+  assert.deepEqual(p.groups.map(g=>g.open),[true,false,false]);
 });
 
-test('print temporarily reveals all groups and restores search and disclosure state', () => {
-  const p=setup();p.search('Lake 1');
-  const before=JSON.stringify(p.groups.map(g=>[g.open,g.hidden,g.rows.map(r=>r.hidden)]));
-  p.window.listeners.beforeprint();
-  assert.ok(p.groups.every(g=>g.open&&!g.hidden&&g.rows.every(r=>!r.hidden)));
-  p.window.listeners.afterprint();
-  assert.equal(JSON.stringify(p.groups.map(g=>[g.open,g.hidden,g.rows.map(r=>r.hidden)])),before);
+test('page replaces search and dedicated PiP with one decorative rule-tile divider', () => {
+  const html=readFileSync(new URL('../index.html',import.meta.url),'utf8');
+  assert.doesNotMatch(html,/type="search"|id="pip"|pip-note|search-status|data-search/);
+  assert.equal((html.match(/class="rule-divider"/g)||[]).length,1);
+  assert.match(html,/class="rule-divider" aria-hidden="true"/);
+  assert.doesNotMatch(html,/disablepictureinpicture/i);
 });

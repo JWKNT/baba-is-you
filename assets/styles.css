@@ -8,16 +8,15 @@
 .level-label { color: var(--muted); font: var(--text-ui)/1.4 var(--sans); white-space: nowrap; }
 .player-heading h2 { margin: 0; font-weight: 500; font-size: 1.55rem; overflow-wrap: anywhere; }
 video { display: block; width: 100%; height: auto; aspect-ratio: 1700 / 950; background: #131419; }
-.playback-speed { margin-top: .8rem; row-gap: .4rem; }
+.playback-tools { display:flex; flex-wrap:wrap; align-items:center; gap:.5rem 1rem; margin-top:.8rem; }
+.playback-speed { row-gap: .4rem; }
 .playback-speed > button { font-variant-numeric: tabular-nums; }
 .speed-status:empty { display: none; }
 .speed-status { margin: .5rem 0 0; color: var(--muted-strong); font: var(--text-ui)/1.5 var(--sans); }
-.player-tools { display: flex; flex-wrap: wrap; align-items: center; gap: .65rem 1rem; margin-top: .8rem; font: var(--text-ui)/1.5 var(--sans); }
 #playing-duration { margin-left: auto; font: var(--text-ui)/1.5 var(--mono); color: var(--muted); }
 #player-status:empty { display: none; }
 #player-status { font: var(--text-ui)/1.5 var(--sans); color: var(--muted-strong); }
-.pip-note { margin: .75rem 0 0; font: var(--text-ui)/1.6 var(--sans); color: var(--muted); }
-.list-heading { display:flex; align-items:baseline; min-height:3rem; padding-bottom:.75rem; border-bottom:1px solid var(--line-strong); }
+.list-heading { display:flex; align-items:baseline; min-height:3rem; padding-bottom:.75rem; }
 .list-heading h2 { font-weight:500; font-size:1.2rem; margin:0; }
 .level-list { list-style:none; padding:0; margin:0; }
 .level-list li { border-bottom:1px solid var(--line); }
@@ -30,11 +29,6 @@ video { display: block; width: 100%; height: auto; aspect-ratio: 1700 / 950; bac
 .level-name { font-size:1rem; line-height:1.4; }
 .collection-note { color:var(--muted-strong); font:var(--text-meta)/1.7 var(--sans); margin:1rem 0; }
 .level-section { min-width: 0; }
-.world-search { margin: .85rem 0; gap: .5rem; flex-wrap: nowrap; }
-.world-search .ui-field { flex-basis: 0; }
-.world-search button { font: var(--text-ui)/1.4 var(--sans); }
-.search-status { color: var(--muted-strong); font: var(--text-ui)/1.5 var(--sans); }
-.search-status:empty { display: none; }
 .world-group { margin: 0; padding: 0; border: 0; border-bottom: 1px solid var(--line-strong); }
 .world-group > summary { display: flex; align-items: baseline; gap: .7rem; padding: 1rem 0; cursor: pointer; list-style: none; font: 1.1rem/1.4 var(--serif); }
 .world-group > summary::-webkit-details-marker { display: none; }
@@ -45,9 +39,15 @@ video { display: block; width: 100%; height: auto; aspect-ratio: 1700 / 950; bac
 .world-group .level-list { padding: 0 0 .5rem .7rem; }
 .world-group .level-list li:last-child { border-bottom: 0; }
 .world-group .level-number { white-space: nowrap; }
-@media print { .world-search,.search-status { display:none; } .world-group { break-inside:auto; } .world-group > summary { break-after:avoid; } }
+@media print { .world-group { break-inside:auto; } .world-group > summary { break-after:avoid; } }
 footer { border-top:1px solid var(--line); margin-top:2.5rem; padding-block:1rem 2rem; color:var(--muted); font:var(--text-meta)/1.6 var(--sans); }
 @media(max-width: 850px) { .catalogue { grid-template-columns:minmax(0,1fr); gap:1.7rem; } .intro { margin-bottom:1.2rem; } .player-heading h2 { font-size:1.4rem; } }
-@media print { video,.player-tools,.playback-speed,.speed-status,.pip-note,[data-theme-toggle] { display:none; } .catalogue { display:block; } .level-section { margin-top:1rem; } }
+@media print { video,.playback-tools,.speed-status,[data-theme-toggle] { display:none; } .catalogue { display:block; } .level-section { margin-top:1rem; } }
 
 @media(max-width:500px) { .level-link { grid-template-columns:minmax(2ch,max-content) minmax(0,1fr); gap:.1rem .6rem; } .level-link .duration { grid-column:2; } }
+
+.rule-divider { display:grid; grid-template-columns:minmax(0,1fr) auto minmax(0,1fr); align-items:center; gap:1rem; margin:0 0 .4rem; color:var(--muted); }
+.rule-divider::before,.rule-divider::after { content:""; height:1px; background:var(--line-strong); }
+.rule-divider svg { display:block; width:4.5rem; height:1.5rem; background:transparent; }
+.rule-divider-center { stroke:var(--site-accent, #987449); }
+@media print { .rule-divider { display:none; } }

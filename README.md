@@ -1,6 +1,6 @@
 # Baba Is You · level recordings
 
-A static video catalogue at https://jehlp.net/baba-is-you/. One native player, level selection, playback speeds, and feature-detected picture-in-picture. Shared styling comes from jehlp.net/site-theme/v2. The collection covers opening levels 1–7, all 15 Lake levels (including both extras), all 18 Solitary Island levels (00–11 and six extras), all 10 Temple Ruins levels (01–09 and one extra), all 20 Forest of Fall levels (01–12, A–E and three extras), all 21 Deep Forest levels (01–14, A–E and both extras), all 15 Rocket Trip levels (01–13 and both extras), and Flower Garden 01–04, played in Slot 2. The silent, cropped recordings shorten pauses of at least 20 seconds to about five seconds while retaining attempts and win animations; the final Lake, Island, Ruins, Fall, Deep Forest and Rocket Trip clips include the Area Complete celebrations. Catalogue sequence numbers are unique across worlds, while titles carry the in-game world and level numbers.
+A static video catalogue at https://jehlp.net/baba-is-you/. One native player, world navigation and playback speeds. Shared styling comes from jehlp.net/site-theme/v2. The collection covers opening levels 1–7, all 15 Lake levels (including both extras), all 18 Solitary Island levels (00–11 and six extras), all 10 Temple Ruins levels (01–09 and one extra), all 20 Forest of Fall levels (01–12, A–E and three extras), all 21 Deep Forest levels (01–14, A–E and both extras), all 15 Rocket Trip levels (01–13 and both extras), and Flower Garden 01–04, played in Slot 2. The silent, cropped recordings shorten pauses of at least 20 seconds to about five seconds while retaining attempts and win animations; the final Lake, Island, Ruins, Fall, Deep Forest and Rocket Trip clips include the Area Complete celebrations. Catalogue sequence numbers are unique across worlds, while titles carry the in-game world and level numbers.
 
 Pause edits are documented in `data/pause-edits.json` and the per-batch `data/pause-edits-*.json` records, including source hashes, removed intervals and before/after durations. Original recordings are preserved outside this repository.
 
@@ -11,7 +11,7 @@ Pause edits are documented in `data/pause-edits.json` and the per-batch `data/pa
 3. Add its unique `level-NN` id, number, title, approved file/poster paths, duration in seconds and ISO recording date to `data/levels.json`.
 4. Run `node build.mjs` and `node --test tests/*.test.mjs`. Check playback and layout, then commit the data, media, poster and generated HTML.
 
-The build uses Node's standard library, with no install step. Preview from the parent directory with `python3 -m http.server 8765 --directory ..`, then open `/baba-is-you/`. Theme assets use the production shared theme. Level links open the video directly without JavaScript; JavaScript enhances selection and shareable `#level-NN` links. Browser-native PiP controls remain available where the scripted API is absent. Selection never autoplays.
+The build uses Node's standard library, with no install step. Preview from the parent directory with `python3 -m http.server 8765 --directory ..`, then open `/baba-is-you/`. Theme assets use the production shared theme. Level links open the video directly without JavaScript; JavaScript enhances selection and shareable `#level-NN` links. Picture-in-picture is left to browser-native controls where available. Selection never autoplays.
 
 The page has no dedicated download controls or save-slot label. `controlslist="nodownload"` asks supporting browsers to omit their download menu item; public video files remain accessible. Keep the direct level links as the native playback fallback.
 
@@ -25,19 +25,20 @@ nonempty `world`, `code` and `name` strings when their title has no standard pre
 Unrecognized prefixes become their own groups; unprefixed records after the seven
 opening levels remain visibly Ungrouped until assigned, never silently discarded.
 
-`assets/world-browser.js` adds cross-world search and exposes `reveal(row)` to the
-player. Search opens matching worlds, reports empty results and restores prior
-disclosures on Clear/Escape. Selection/history opens the current world and clears
-a filter only if it hides that recording. Browsing and filtering never change
-playback. Native disclosures and direct media links work without JavaScript;
-search stays hidden until enhanced. Print temporarily expands the full catalogue.
+`assets/world-browser.js` exposes `reveal(row)` to open the current world on
+selection/history changes. Native disclosures and direct media links work without
+JavaScript. Print temporarily expands the full catalogue. There is no search UI.
 Keep this controller local until another real consumer needs the same behavior.
+
+`lib/ornament.mjs` supplies one decorative three-tile SVG divider above the world
+list. It uses transparent geometry and theme colors, separate from the PNG
+masthead identity. Do not stack a second header rule against it.
 
 `assets/playback-speed.js` enhances a native video with six 1.00×–4.00× speed presets. The chosen speed survives clip changes for the current page session and follows changes made through native controls. It does not play, pause, seek, or store preferences. The group stays hidden without JavaScript; its segmented appearance comes from the existing shared component CSS.
 
 `lib/catalogue.mjs` validates level identity, real ISO dates, positive durations and approved media/poster paths. The build derives the recording count and latest recording date from the data, never from the build clock. Number labels support more than two digits. Keep catalogue metadata tests independent of the current recording count.
 
-`assets/player.js` owns selection, history and PiP. Selecting the same clip preserves playback; unrelated fragments such as the skip target do not change clips. Returning to the empty fragment restores the first recording. PiP support is refreshed after media metadata loads, and failed requests leave normal playback available. The runtime tests cover these contracts; they do not replace real browser/media checks.
+`assets/player.js` owns selection and history. Selecting the same clip preserves playback; unrelated fragments such as the skip target do not change clips. Returning to the empty fragment restores the first recording. There is no custom PiP button or controller; native video functionality is not disabled. The runtime tests cover these contracts; they do not replace real browser/media checks.
 
 ## Publishing and storage
 

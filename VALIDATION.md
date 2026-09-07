@@ -73,3 +73,9 @@
 - Desktop light and390px dark notes inspected. At200% text, root size32px and document width390px (no horizontal overflow). JavaScript-disabled page exposes50 native note disclosures and direct links. Renovating disclosure opens and responds to keyboard Return. Restored scripts, normal font, default viewport and light theme.
 - New local planners use manually transcribed game boards, never game internals. Shared-player paths and one-object routes were verified against live play in Double Moat, Walls of Gold and Further Fields.
 - Prior45-level release9c94770 verified through successful Actions34110314636, public45-count HTML with new notes, and HTTP206 for Love Is Out There.
+
+## Batch 11 — recordings 51–55 (2026-09-07)
+
+Added Toolshed, Patrol, Canyon, Victory in the Open, and Hop with Approach / Mechanics / Attempts notes. All 1,374 logged inputs remain in the edited clips, including failures, waits, restarts, and undos. Each export contains one video stream and no audio; all are below 100 MiB. Victory contact sheet inspected for all five. Durations: 118.333, 135.533, 182.067, 134.833, and 82.267 seconds.
+
+Build, 30 tests, deterministic rebuild test, and whitespace checks pass. Native Hop playback reached 10.660 seconds with readyState 4, no playback error, and no autoplay. Selecting Canyon updated video, title, and all notes. Desktop light and 390px dark with 200% root text were visually inspected; scrollWidth stayed 390px and notes remained readable. With JavaScript disabled, all 55 native note disclosures and direct recording links remained available; Hop opened by click and closed with Return. Restored JavaScript, default viewport, normal font size, and light theme. Browser error log empty.

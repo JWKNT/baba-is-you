@@ -848,5 +848,90 @@
       "mechanics": "SHIFT moves objects standing on a conveyor even when those objects are not pushable. DEFEAT affects the controlled character, so a pushable belt can safely overlap the dangerous wall. Turn off the conveyor before walking over it if its direction would carry YOU into a hazard.",
       "attempts": "No undo or restart. The bridge belts were pushed into the upper pocket so one could be extracted from above. Three wall shifts opened the route, and the final crossing used the inactive belt. All positioning, property swaps, and waits remain."
     }
+  },
+  {
+    "id": "level-51",
+    "number": 51,
+    "title": "Toolshed",
+    "file": "media/051-toolshed.mp4",
+    "poster": "assets/level-51.jpg",
+    "seconds": 118.333333,
+    "recorded": "2026-09-07",
+    "world": "Deep Forest",
+    "code": "02",
+    "name": "Toolshed",
+    "notes": {
+      "approach": "Bring SHUT and IS inside to make the walls shut. Give the key both PUSH and OPEN, then spend it on the floor beneath the trapped PUSH word. Use that word to make WALL IS PUSH, open the enclosure around WIN, and bring WIN back to a sentence sharing BABA with the control rule.",
+      "mechanics": "SHUT by itself does not block movement. A key can remove one shut wall and expose an otherwise trapped rule word. Once walls are pushable, whole columns can be shifted to open passages, but those walls can also push text and accidentally break a rule.",
+      "attempts": "One undo, no restart. Placing IS beside BABA initially pushed a wall into the control noun and removed YOU; the following ineffective inputs remain. Undo restored control, then moving the wall column cleared the sentence. All 271 inputs, including the failed route and recovery, are preserved."
+    }
+  },
+  {
+    "id": "level-52",
+    "number": 52,
+    "title": "Patrol",
+    "file": "media/052-patrol.mp4",
+    "poster": "assets/level-52.jpg",
+    "seconds": 135.533333,
+    "recorded": "2026-09-07",
+    "world": "Deep Forest",
+    "code": "05",
+    "name": "Patrol",
+    "notes": {
+      "approach": "Transform both doors into trees and push the entrance tree into the skull corridor. Build TREE HAS TREE and TREE IS SINK, with PUSH removed, so each collision consumes a skull and leaves a replacement tree. Once the patrol is gone, remove SINK and walk through the harmless trees to the flag.",
+      "mechanics": "A pushable object can block a collision that SINK needs: removing PUSH lets the moving skulls overlap the trap. HAS recreates the tree after each destruction, turning one object into a renewable trap. Noun transformations persist after their sentence is dismantled.",
+      "attempts": "21 undos, no restart, 303 inputs. The first trap consumed only one skull; undo restored it while the self-replacement rule was prepared. Several word-routing mistakes and the waits for both trials remain. The observed-board routing tool helped recover the words near the entrance wall."
+    }
+  },
+  {
+    "id": "level-53",
+    "number": 53,
+    "title": "Canyon",
+    "file": "media/053-canyon.mp4",
+    "poster": "assets/level-53.jpg",
+    "seconds": 182.066667,
+    "recorded": "2026-09-07",
+    "world": "Deep Forest",
+    "code": "06",
+    "name": "Canyon",
+    "notes": {
+      "approach": "Borrow the belt rule\u2019s IS and SHIFT to give Baba SHIFT. Walk onto the inactive belt to move it to the canyon exit, then push the hot ghost onto it. Rebuild BELT IS UP to orient the relocated belt and replace UP with SHIFT to lift the ghost into the open room. Push the ghost through the melting flowers and follow it to the flag.",
+      "mechanics": "A controlled character with SHIFT can move a non-pushable object by walking onto it. Moving the belt also changes its facing, so set its direction after positioning. UP fixes direction; it does not cause movement, and that facing persists after UP is removed. Floating text does not get carried by grounded Baba\u2019s SHIFT.",
+      "attempts": "One restart, no undo, 404 inputs. Early attempts tried inaccessible routes and tested floating text against a hedge. Later routing mistakes pushed UP against the right wall; moving the belt sentence beside that stranded word recovered the setup. Every route, failed move, reset, and direction test remains."
+    }
+  },
+  {
+    "id": "level-54",
+    "number": 54,
+    "title": "Victory in the Open",
+    "file": "media/054-victory-in-the-open.mp4",
+    "poster": "assets/level-54.jpg",
+    "seconds": 134.833333,
+    "recorded": "2026-09-07",
+    "world": "Deep Forest",
+    "code": "08",
+    "name": "Victory in the Open",
+    "notes": {
+      "approach": "Use short MOVE runs and temporary RIGHT or UP rules to steer Keke around the right chamber. Wall bounces turn those directions into leftward and downward travel. Push WIN down into the lower passage, circle Keke behind it, and send the word left through the flowers. Build KEKE IS WIN and touch the returned courier.",
+      "mechanics": "Direction properties set facing, which persists after the rule is removed. Remove the forced direction before relying on a wall bounce. MOVE starts on the following input and breaking it permits one final step, so the stopping move belongs in the count. An uncontrolled courier crosses DEFEAT safely.",
+      "attempts": "One restart and one undo, 282 inputs. An early routing error pushed the wrong words and led Baba into a flower. The rebuilt setup used verified stopping points beside WIN and at each turn. All steering, waits, the failed setup, and the final delivery remain."
+    }
+  },
+  {
+    "id": "level-55",
+    "number": 55,
+    "title": "Hop",
+    "file": "media/055-hop.mp4",
+    "poster": "assets/level-55.jpg",
+    "seconds": 82.266667,
+    "recorded": "2026-09-07",
+    "world": "Forest of Fall",
+    "code": "01",
+    "name": "Hop",
+    "notes": {
+      "approach": "Teleport the PUSH word across the river and replace TELE with it. Push the right heart onto the water tile above the flag. Rebuild LOVE IS TELE for one activation, moving that water tile onto the distant heart, then break the rule. Walk through the newly dry gap to the flag.",
+      "mechanics": "TELE transports other objects overlapping a teleporter, including hazardous water. Turning TELE off after the transfer preserves the new arrangement. A transported word can block the destination and be pushed aside when Baba arrives, so check the landing position.",
+      "attempts": "One restart and two undos, 114 inputs. The first route stranded PUSH near the river. Later, accidentally stepping back onto a heart returned Baba to the wrong side and caused a death. An incomplete rule restoration caused another failed crossing; the successful attempt visibly moved the water away before entering the gap. All attempts remain."
+    }
   }
 ]

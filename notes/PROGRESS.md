@@ -10,7 +10,7 @@
 - This workspace stores fresh tools, raw recordings, and reasoning notes. Raw recordings stay out of Git.
 
 ## Current checkpoint
-- 15 levels completed: base 00–07 and Lake 01–07, fresh Slot 3. Lake map at completed 07; no active recorder. Third batch publication in progress.
+- 20 levels completed: base 00–07 and Lake 01–12, fresh Slot 3. On Lake map at completed12; no active recorder. Fourth batch reviewed and ready to publish. Third batch 098904e verified built/live: fifteen recordings, notes, HTTP 206, browser playback readyState 4 at 42.6 seconds.
 - First batch (base 00–04) was published at main commit 9bc1db3. Second batch and notes panel live at main commit 5b86a3f; public ten-level page and notes verified. Companion cleanup d9922ae verified built; old videos removed.
 - Ten silent edits/posters ready; every level has Approach, Mechanics, and Attempts notes. Notes panel follows selection/history, uses native disclosures without JS. 30 tests passed; responsive/light/dark/no-JS/playback checks completed.
 - Capture tools/record: window-only 1708x1016. Export 1680x960 crop at (14,56), no audio, H.264/yuv420p/30fps/faststart. Keep every input and ten seconds after win; only idle gaps removed.
@@ -72,3 +72,20 @@ Read this file and tools before interacting. Observe game fresh using CUA. Updat
 - OPEN and SHUT destroy each other on contact. Noun transformations persist after the transformation rule is broken; properties such as PUSH require an active rule.
 
 15. Lake 07 — Novice Locksmith. Share IS between KEY IS OPEN and KEY IS PUSH. Open first door, then reuse horizontal KEY noun to replace SHUT in DOOR IS SHUT. Final door becomes pushable key; push aside to flag. Source 015. Input command briefly split at unquoted spaces; recovered seven events from misnamed DLUUUU file. Added input argument-count guard so this cannot silently recur.
+
+16. Lake 08 — Locked In. Replace WALL IS STOP with WALL IS JELLY while detaching JELLY IS STOP. Cross harmless jelly boundary. Use outside spare IS and WIN to form BABA IS WIN vertically, keeping horizontal BABA IS YOU. Source 016, tail20 retains Area Clear animation. Lake quota8/8 and first flower earned; more levels remain.
+- Added --tail to editor and continuous post-input tail preservation for longer milestone animations. Default remains10 seconds, area-clear used20.
+
+17. Lake 09 — Changeless. Shift ROCK IS ROCK left twice, push first ROCK up outside overhanging wall to break identity rule. Rearrange bottom FLAG IS ROCK into ROCK IS FLAG; touch restored flag. Source 017. Identity prevention inferred from rule/title; did not test conflicting transform before removing it. No undo/restart.
+
+18. Lake 10 — Two Doors. Make KEY IS SHUT horizontally using fixed KEY noun that is already OPEN and PUSH. Key destroys itself, clearing the narrow passage to assemble FLAG IS WIN. Replace KEKE with DOOR in vertical KEKE IS YOU; move controlled door right three onto flag. Source 018. No undo/restart.
+- Confirmed: one object simultaneously OPEN and SHUT destroys itself. It does not require a second object.
+- Route words around KEKE IS YOU using top row112, avoiding accidentally breaking control. IS must enter the horizontal KEY rule before SHUT because of surrounding hedges.
+
+19. Lake 11 — Jelly Throne. Initial JELLY IS YOU shortcut blocked by isolated wall; pushed flag once and found wall beyond prevents exiting. FLAG IS JELLY visibly crossed out by FLAG IS FLAG, confirming identity blocks noun transformations. Built JELLY IS BABA vertically ending at fixed BABA word, creating second controlled Baba below wall. Used exterior Baba to replace lower JELLY IS WIN noun with FLAG from FLAG IS STOP, thereby removing STOP and making flag win. Walked exterior Baba to flag. Source019 retains blocked pushes, failed transformation, pause-menu inspection, and misrouted FLAG recovery; no restart.
+- When YOU cannot be reached by a new sentence, use the existing controlled noun as the result of a transformation: X IS BABA creates a new controllable object elsewhere.
+- With two YOU objects, an input can move one while the other is blocked; inspect both after long routes.
+
+20. Lake 12 — Crab Storage. Give flag OPEN using a vertical rule sharing FLAG IS PUSH, push it into shut door, retrieve CRAB. Build BABA IS BABA vertically under fixed upper BABA; this identity prevents BABA IS CRAB as CRAB passes upper gate. Push CRAB past DEFEAT into WIN, then touch crab. Source020, no undo/restart.
+- Self-identity can protect a controlled noun from an unavoidable temporary transformation.
+- Steam friend notifications occasionally appear in game overlay. Disable their popups between levels if possible; avoid modifying game-state settings.

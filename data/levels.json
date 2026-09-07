@@ -253,5 +253,90 @@
       "mechanics": "Crossing rules can share their IS. A spare noun becomes useful again once its first rule has served its purpose, and changing a door into a key removes the door\u2019s STOP property.",
       "attempts": "The crossing-rule assembly and door transformation worked without an undo or restart. Every movement is preserved; only long inactive planning gaps are removed."
     }
+  },
+  {
+    "id": "level-16",
+    "number": 16,
+    "title": "Locked In",
+    "file": "media/016-locked-in.mp4",
+    "poster": "assets/level-16.jpg",
+    "seconds": 51.666667,
+    "recorded": "2026-09-07",
+    "world": "The Lake",
+    "code": "08",
+    "name": "Locked In",
+    "notes": {
+      "approach": "Replace STOP in WALL IS STOP with JELLY, removing JELLY from its own STOP rule. Walk through the transformed boundary, then build a vertical BABA IS WIN beneath BABA IS YOU.",
+      "mechanics": "Removing STOP alone would leave WALL IS DEFEAT dangerous. Changing the wall noun removes that hazard. Two adjacent IS words can be pushed as a chain while preserving BABA IS YOU.",
+      "attempts": "Some setup moves shifted the spare IS and STOP farther than intended; I continued from that position. No undo or restart was needed. The area-clear animation is retained."
+    }
+  },
+  {
+    "id": "level-17",
+    "number": 17,
+    "title": "Changeless",
+    "file": "media/017-changeless.mp4",
+    "poster": "assets/level-17.jpg",
+    "seconds": 34.333333,
+    "recorded": "2026-09-07",
+    "world": "The Lake",
+    "code": "09",
+    "name": "Changeless",
+    "notes": {
+      "approach": "Shift the upper ROCK IS ROCK sentence out from under the wall and break it. Rearrange the lower words into ROCK IS FLAG, then touch the restored flag.",
+      "mechanics": "I treated ROCK IS ROCK as an identity constraint and removed it before attempting a different transformation. The resulting ROCK IS FLAG successfully changed the object back into a winning flag.",
+      "attempts": "The planned rearrangement worked without an undo or restart. All moves are retained; inactive thinking time is removed."
+    }
+  },
+  {
+    "id": "level-18",
+    "number": 18,
+    "title": "Two Doors",
+    "file": "media/018-two-doors.mp4",
+    "poster": "assets/level-18.jpg",
+    "seconds": 52.966667,
+    "recorded": "2026-09-07",
+    "world": "The Lake",
+    "code": "10",
+    "name": "Two Doors",
+    "notes": {
+      "approach": "Add IS SHUT beside the fixed KEY noun. The key is already OPEN, so it disappears and clears the passage to FLAG IS WIN. Replace KEKE with DOOR in the control rule, then move the door onto the flag.",
+      "mechanics": "One object that is both OPEN and SHUT destroys itself. A blocked passage can be cleared by changing the obstructing object\u2019s properties, and control can transfer by replacing a rule noun in one push.",
+      "attempts": "The planned sequence worked without an undo or restart. IS had to be placed before SHUT because the hedges restrict access to their final positions."
+    }
+  },
+  {
+    "id": "level-19",
+    "number": 19,
+    "title": "Jelly Throne",
+    "file": "media/019-jelly-throne.mp4",
+    "poster": "assets/level-19.jpg",
+    "seconds": 67.166667,
+    "recorded": "2026-09-07",
+    "world": "The Lake",
+    "code": "11",
+    "name": "Jelly Throne",
+    "notes": {
+      "approach": "Build JELLY IS BABA above the fixed BABA noun to create a controllable Baba beyond the wall. Use that Baba to move FLAG from FLAG IS STOP into the lower JELLY IS WIN sentence, then reach the flag.",
+      "mechanics": "A transformation into an already controlled noun creates another YOU object. FLAG IS FLAG visibly blocks FLAG IS JELLY. Multiple Baba objects move together, but walls can stop one while the other keeps moving.",
+      "attempts": "The first control shortcut was blocked by a wall, the flag passage jammed, and FLAG IS JELLY was rejected. I inspected the rules, found the Baba transformation, and recovered from a misplaced FLAG. All attempts remain; no restart was needed."
+    }
+  },
+  {
+    "id": "level-20",
+    "number": 20,
+    "title": "Crab Storage",
+    "file": "media/020-crab-storage.mp4",
+    "poster": "assets/level-20.jpg",
+    "seconds": 62.666667,
+    "recorded": "2026-09-07",
+    "world": "The Lake",
+    "code": "12",
+    "name": "Crab Storage",
+    "notes": {
+      "approach": "Give the pushable flag OPEN and use it to open the side room. Build BABA IS BABA, then push CRAB through the upper passage until CRAB IS WIN forms. Walk to the crab.",
+      "mechanics": "A noun\u2019s identity rule blocks competing transformations. BABA IS BABA protects control when moving CRAB temporarily creates BABA IS CRAB. The flag substitutes for Baba as the object consumed by OPEN and SHUT.",
+      "attempts": "The full sequence worked without an undo or restart. I checked the identity rule before pushing CRAB through the transformation and defeat rows."
+    }
   }
 ]

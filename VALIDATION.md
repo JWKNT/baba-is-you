@@ -25,3 +25,10 @@
 - Five game-only silent H.264 files validated, each under 9 MB. Victory/crop frames inspected; Affection ends at source 122.8 seconds after its victory and map return, before accidental reentry.
 - All 30 tests, deterministic build, and whitespace checks passed. Desktop dark and 390px light layout inspected; native playback advances with readyState 4. Existing full keyboard/no-JS/200%/history QA remains applicable to unchanged UI code.
 - Added a strict input-tool argument count to reject unquoted split sequences before any game input.
+
+## Batch 4 — twenty recordings
+- Lake 08–12 added with individual approach, mechanics, and attempts notes. All 476 logged inputs audited against retained intervals; all five victory frames and crops inspected. Silent H.264 files range from 2.3 to 12.4 MB.
+- Locked In retains a continuous 20-second post-input tail for the Area Clear milestone. Editor now supports --tail and never removes a gap inside the selected victory tail. Default remains ten seconds.
+- Reusable tools/verify_batch.py checks input counts, interval coverage, stream types, file sizes, and generates a victory contact sheet.
+- All 30 tests, deterministic rebuild, and whitespace checks passed. Desktop player and new notes inspected; native playback checked. UI source remains unchanged from the full accessibility/responsive QA.
+- Third batch 098904e verified live with notes, streaming HTTP206, and browser playback readyState4.

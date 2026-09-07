@@ -12,6 +12,7 @@ p.add_argument('--crop', default='1680:960:14:56')
 p.add_argument('--gap', type=float, default=8)
 p.add_argument('--begin', type=float, default=0, help='source-relative start of level')
 p.add_argument('--end', type=float, help='source-relative end after victory animation')
+p.add_argument('--tail', type=float, default=10, help='seconds retained after final input, including victory animations')
 a=p.parse_args()
 def probe(f):
  return json.loads(subprocess.check_output(['ffprobe','-v','error','-show_format','-show_streams','-of','json',str(f)]))
@@ -20,12 +21,12 @@ duration=float(probe(a.source)['format']['duration'])
 end=min(a.end or duration,duration)
 events=[json.loads(l) for l in a.events.read_text().splitlines() if l.strip()]
 events=[e for e in events if e['end']-start>=a.begin and e['start']-start<=end]
-if not a.end and events: end=min(end,max(e['end'] for e in events)-start+10)
+if not a.end and events: end=min(end,max(e['end'] for e in events)-start+a.tail)
 spans=[[a.begin,min(a.begin+2,end)]]
 for event in events:
  lo=max(a.begin,event['start']-start-0.75); hi=min(end,event['end']-start+1.5)
  if lo<hi: spans.append([lo,hi])
-spans.append([max(a.begin,end-4),end])
+spans.append([max(a.begin,min(end,max(e['end'] for e in events)-start) if events else end-4),end])
 spans.sort(); merged=[]
 for lo,hi in spans:
  if merged and lo-merged[-1][1]<a.gap: merged[-1][1]=max(hi,merged[-1][1])

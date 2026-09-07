@@ -1,8 +1,9 @@
 # Baba Is You · level recordings
 
-A static video catalogue at https://jehlp.net/baba-is-you/. One native player, world navigation and playback speeds. Shared styling comes from jehlp.net/site-theme/v2. The collection covers opening levels 1–7, all 15 Lake levels (including both extras), all 18 Solitary Island levels (00–11 and six extras), all 10 Temple Ruins levels (01–09 and one extra), all 20 Forest of Fall levels (01–12, A–E and three extras), all 21 Deep Forest levels (01–14, A–E and both extras), all 15 Rocket Trip levels (01–13 and both extras), all 12 Flower Garden levels (01–10 and both extras), and Chasm A–B, played in Slot 2. The silent, cropped recordings shorten pauses of at least 20 seconds to about five seconds while retaining attempts and win animations; the final Lake, Island, Ruins, Fall and Deep Forest clips include the Area Complete celebrations. Catalogue sequence numbers are unique across worlds, while titles carry the in-game world and level numbers.
+A static video catalogue at https://jehlp.net/baba-is-you/. One native player, world navigation and playback speeds. Shared styling comes from jehlp.net/site-theme/v2. A fresh base-game playthrough began on September 6, 2026. It includes hidden and extra levels within the base campaign, excluding the separate New Adventures and Museum packs. The previous catalogue has been cleared at the owner's request.
 
-Pause edits are documented in `data/pause-edits.json` and the per-batch `data/pause-edits-*.json` records, including source hashes, removed intervals and before/after durations. Original recordings are preserved outside this repository.
+Recordings are silent and cropped to the game. All moves, mistakes, undos, restarts, and victory animations are retained; only long idle thinking pauses are cut. New recordings are published in batches of five completions. Pause manifests document original hashes and retained source intervals. Original recordings remain outside Git.
+
 
 ## Add a level
 

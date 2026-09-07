@@ -7,7 +7,7 @@
 .player-heading { display: flex; flex-wrap: wrap; align-items: baseline; gap: .25rem .75rem; min-height: 3rem; padding-bottom: .75rem; }
 .level-label { color: var(--muted); font: var(--text-ui)/1.4 var(--sans); white-space: nowrap; }
 .player-heading h2 { margin: 0; font-weight: 500; font-size: 1.55rem; overflow-wrap: anywhere; }
-video { display: block; width: 100%; height: auto; aspect-ratio: 1700 / 950; background: #131419; }
+video { display: block; width: 100%; height: auto; aspect-ratio: 1680 / 960; background: #131419; }
 .playback-tools { display:flex; flex-wrap:wrap; align-items:center; gap:.5rem 1rem; margin-top:.8rem; }
 .playback-speed { row-gap: .4rem; }
 .playback-speed > button { font-variant-numeric: tabular-nums; }
@@ -49,3 +49,14 @@ footer { border-top:1px solid var(--line); margin-top:2.5rem; padding-block:1rem
 .rule-divider svg { display:block; width:4.5rem; height:1.5rem; background:transparent; }
 .rule-divider-center { stroke:var(--site-accent, #987449); }
 @media print { .rule-divider { display:none; } }
+
+.recording-context { min-width: 0; }
+.level-notes { margin: 0 0 1.8rem; }
+.level-notes h2 { margin: 0 0 1.1rem; font: 500 1.3rem/1.4 var(--serif); }
+.level-notes h3 { margin: 1rem 0 .25rem; color: var(--muted-strong); font: 600 var(--text-ui)/1.5 var(--sans); }
+.level-notes p { margin: 0; font: 1rem/1.6 var(--serif); overflow-wrap: anywhere; }
+.level-notes details { border: 0; padding: 0; }
+.level-notes summary { padding: .6rem 0; cursor: pointer; font: 1rem/1.5 var(--serif); }
+.level-notes[data-enhanced] summary { display: none; }
+.level-notes [hidden] { display: none; }
+@media print { .level-notes { break-inside: avoid; } }

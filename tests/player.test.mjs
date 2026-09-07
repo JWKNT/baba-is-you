@@ -49,8 +49,10 @@ function setup({hash = '', explicitNumber = '2'} = {}) {
     load() { calls.load++; this.readyState = 0; this.error = null; this.currentTime = 0; }
   });
   const status = element();
+  const panels = rows.map(row => element({dataset: {notesId: row.dataset.level}, open: false}));
+  const notes = element({dataset: {}, querySelectorAll: () => panels});
   const nodes = {
-    '#video': video, '#player-status': status,
+    '#video': video, '#player-status': status, '#level-notes': notes,
     '#playing-title': element(), '#playing-number': element(),
     '#playing-duration': element(),
     '#player': element({focus() { calls.focus++; }, scrollIntoView() { calls.scroll++; }})
@@ -68,7 +70,7 @@ function setup({hash = '', explicitNumber = '2'} = {}) {
   runInNewContext(source, {document, window, location, history});
 
   return {
-    rows, video, status, nodes, document, calls,
+    rows, video, status, nodes, document, calls, panels,
     click(index, modifiers = {}) {
       const event = {button: 0, defaultPrevented: false,
         preventDefault() { this.defaultPrevented = true; }, ...modifiers};
@@ -166,4 +168,20 @@ test('video failures offer available recovery and selecting another clip clears 
   page.ready();
   assert.match(page.status.textContent, /^Selected level 02:/);
   assert.equal(page.calls.play, 0);
+});
+
+
+test('notes follow selection and history without disturbing repeat playback', () => {
+  const page = setup({hash: '#level-02'});
+  assert.equal(page.panels[0].hidden, true);
+  assert.equal(page.panels[1].hidden, false);
+  assert.equal(page.panels[1].open, true);
+  page.video.currentTime = 9;
+  page.click(1);
+  assert.equal(page.video.currentTime, 9);
+  page.navigate('', 'popstate');
+  assert.equal(page.panels[0].hidden, false);
+  assert.equal(page.panels[1].hidden, true);
+  page.navigate('#player');
+  assert.equal(page.panels[0].hidden, false);
 });

@@ -5,12 +5,19 @@
   const status = document.querySelector('#player-status');
   const player = document.querySelector('#player');
   const rows = [...document.querySelectorAll('[data-level]')];
+  const notes = document.querySelector('#level-notes');
+  const panels = notes ? [...notes.querySelectorAll('[data-notes-id]')] : [];
   let selected = null;
 
   function select(row, announce = false) {
     if (row) window.BabaWorldBrowser?.reveal(row);
     if (!row || row === selected) return;
     selected = row;
+    if (notes) notes.dataset.enhanced = 'true';
+    for (const panel of panels) {
+      panel.hidden = panel.dataset.notesId !== row.dataset.level;
+      panel.open = !panel.hidden;
+    }
     video.pause();
 
     const link = row.querySelector('[data-watch]');

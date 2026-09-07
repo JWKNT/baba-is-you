@@ -8,3 +8,14 @@
 - Deterministic build and 27 Node tests passed; git diff --check passed.
 - Browser: native playback, clip selection/deep-link update, light/dark themes, 390px width, 200% text without horizontal overflow, keyboard skip-link focus, no-JavaScript direct MP4 links.
 - No shared theme or player code changes. Existing main/root route and canonical URL preserved.
+
+## Notes panel
+- Required per-level Approach, Mechanics, and Attempts are generated from catalogue data; incomplete notes fail the build.
+- Notes follow selection and Back/Forward without restarting a repeated selection. Native disclosures expose all notes without JavaScript.
+- 30 tests passed, including missing-note/escaping checks and selection/history synchronization.
+- Browser inspected desktop and 390px notes, 200% text with no horizontal overflow, and actual no-JavaScript disclosure expansion. QA overrides restored.
+- Initial five recordings verified live at 9bc1db3; video byte ranges returned HTTP 206 and obsolete main clip returned 404. Companion cleanup d9922ae also built successfully.
+
+## Batch 2 — ten recordings
+- Base 05–07 and Lake 01–02 added. Every logged input falls within a kept source interval; all five victory frames inspected. Failed attempts and undo sequences retained.
+- All ten recordings have complete level-specific notes. Latest dataset rebuilt deterministically; 30 tests and diff whitespace checks passed. Desktop player/notes layout inspected for Lake 02.

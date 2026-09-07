@@ -9,7 +9,12 @@
     "recorded": "2026-09-06",
     "world": "The Map",
     "code": "00",
-    "name": "Baba Is You"
+    "name": "Baba Is You",
+    "notes": {
+      "approach": "Push the middle rock along the corridor and keep moving right until Baba reaches the flag.",
+      "mechanics": "BABA IS YOU chooses the controllable object. ROCK IS PUSH makes rocks movable, and touching the flag wins because FLAG IS WIN.",
+      "attempts": "One successful attempt. This introductory level is included in the fresh run."
+    }
   },
   {
     "id": "level-02",
@@ -21,7 +26,12 @@
     "recorded": "2026-09-06",
     "world": "The Map",
     "code": "01",
-    "name": "Where Do I Go?"
+    "name": "Where Do I Go?",
+    "notes": {
+      "approach": "Push IS out of WALL IS STOP to leave the lower room. Reassemble FLAG IS WIN upstairs, then reach the flag.",
+      "mechanics": "Rules change as soon as their words move. Without STOP, walls can be crossed. Keep the finished rule clear of the route to the goal.",
+      "attempts": "One successful attempt. I moved the entire lower wall rule out of the way while routing the words."
+    }
   },
   {
     "id": "level-03",
@@ -33,7 +43,12 @@
     "recorded": "2026-09-06",
     "world": "The Map",
     "code": "02",
-    "name": "Now What Is This?"
+    "name": "Now What Is This?",
+    "notes": {
+      "approach": "Control the wall, push STOP out of FLAG IS STOP, and bring WIN down to replace it. Touch one of the now-winning flags.",
+      "mechanics": "YOU can apply to a wall as easily as to Baba. The same flag objects can change from obstacles into goals.",
+      "attempts": "One successful attempt. An input command was split during tool use; I checked the board and continued from that position."
+    }
   },
   {
     "id": "level-04",
@@ -45,7 +60,12 @@
     "recorded": "2026-09-06",
     "world": "The Map",
     "code": "03",
-    "name": "Out of Reach"
+    "name": "Out of Reach",
+    "notes": {
+      "approach": "Sacrifice one rock to clear a water tile at the exit. Replace PUSH with WIN in the rock rule, then return to touch the remaining rock.",
+      "mechanics": "SINK consumes both the water tile and an overlapping object. The visible flag need not be the final goal: another noun can become WIN.",
+      "attempts": "The first attempt pushed WIN against the bottom wall. I restarted and approached it from below using the open right-hand column. The failed attempt and restart remain in the recording."
+    }
   },
   {
     "id": "level-05",
@@ -57,6 +77,96 @@
     "recorded": "2026-09-06",
     "world": "The Map",
     "code": "04",
-    "name": "Still Out of Reach"
+    "name": "Still Out of Reach",
+    "notes": {
+      "approach": "Arrange three rocks in a row and push them into the skull enclosure. The leading rock displaces SKULL in SKULL IS DEFEAT while Baba remains outside. Then walk to the flag.",
+      "mechanics": "A chain of pushable objects extends the reach of a push. DEFEAT harms the controlled character, so ordinary rocks can cross the skull boundary.",
+      "attempts": "One successful attempt. I first checked the upper edge while looking for access to the fixed rules, then assembled the rock chain."
+    }
+  },
+  {
+    "id": "level-06",
+    "number": 6,
+    "title": "Volcano",
+    "file": "media/006-volcano.mp4",
+    "poster": "assets/level-06.jpg",
+    "seconds": 40.433333,
+    "recorded": "2026-09-06",
+    "world": "The Map",
+    "code": "05",
+    "name": "Volcano",
+    "notes": {
+      "approach": "Shift BABA IS YOU left as a complete sentence to exit the chamber. Reuse IS and PUSH to form LAVA IS PUSH, then push a path through the river to the flag.",
+      "mechanics": "A hot hazard can also be pushable. With PUSH active, the lava moves away before Baba overlaps it, allowing MELT to remain in place.",
+      "attempts": "One successful attempt. The chamber exit and immovable rule blocks took substantial inspection; those idle thinking gaps are shortened."
+    }
+  },
+  {
+    "id": "level-07",
+    "number": 7,
+    "title": "Off Limits",
+    "file": "media/007-off-limits.mp4",
+    "poster": "assets/level-07.jpg",
+    "seconds": 22.066667,
+    "recorded": "2026-09-06",
+    "world": "The Map",
+    "code": "06",
+    "name": "Off Limits",
+    "notes": {
+      "approach": "Break WALL IS STOP, then push WALL into the BABA IS YOU sentence as BABA moves aside. Move the controlled walls right three and down two to bring one into the flag.",
+      "mechanics": "A new noun can replace an old noun in a single push, transferring control immediately. When many objects are YOU, keep distant copies from disturbing the controlling sentence.",
+      "attempts": "One successful attempt. I paused after the control transfer to choose a wall movement that would leave WALL IS YOU intact."
+    }
+  },
+  {
+    "id": "level-08",
+    "number": 8,
+    "title": "Grass Yard",
+    "file": "media/008-grass-yard.mp4",
+    "poster": "assets/level-08.jpg",
+    "seconds": 94.066667,
+    "recorded": "2026-09-06",
+    "world": "The Map",
+    "code": "07",
+    "name": "Grass Yard",
+    "notes": {
+      "approach": "Place FLAG above the IS in BABA IS YOU and WIN below it. Route the words around the visible enclosure; its walls have no STOP property.",
+      "mechanics": "One IS can serve two crossing rules. For a push route, check the square behind the word as carefully as the destination, especially near STOP grass.",
+      "attempts": "I misread dark grass tiles and tried two dead-end WIN routes. The recording retains the failed moves and all undo sequences. A closer grid inspection exposed the open column needed for the successful lower route."
+    }
+  },
+  {
+    "id": "level-09",
+    "number": 9,
+    "title": "Icy Waters",
+    "file": "media/009-icy-waters.mp4",
+    "poster": "assets/level-09.jpg",
+    "seconds": 32.5,
+    "recorded": "2026-09-06",
+    "world": "The Lake",
+    "code": "01",
+    "name": "Icy Waters",
+    "notes": {
+      "approach": "Push SINK out of BABA IS YOU AND SINK. Move that spare word into the bottom jellyfish; both disappear, leaving an opening to the flag.",
+      "mechanics": "Text is an object and can be sacrificed to SINK. The blue patterned ground has no STOP rule here; the fixed blocking rule applies to WALL.",
+      "attempts": "An initial whole-sentence push was blocked by a wall. I then reached the exposed SINK word from above and detached it directly before making the opening."
+    }
+  },
+  {
+    "id": "level-10",
+    "number": 10,
+    "title": "Turns",
+    "file": "media/010-turns.mp4",
+    "poster": "assets/level-10.jpg",
+    "seconds": 77.366667,
+    "recorded": "2026-09-06",
+    "world": "The Lake",
+    "code": "02",
+    "name": "Turns",
+    "notes": {
+      "approach": "Give the star both SINK and PUSH, then push it into the skull. Reuse AND to extend BABA IS YOU into CRAB AND BABA IS YOU, and walk the outside crab to the flag.",
+      "mechanics": "AND can join properties or nouns. Once the star has removed the skull, its conjunction is free for the control rule. Store movable words with a usable route back out.",
+      "attempts": "The first exit route hit a wall and later inputs moved the wrong words. I restarted, checked intermediate positions, and completed the two-stage plan. The full failed attempt and restart remain visible."
+    }
   }
 ]

@@ -9,7 +9,7 @@ Recordings are silent and cropped to the game. All moves, mistakes, undos, resta
 
 1. Put a **game-only cropped** H.264 MP4 (yuv420p, faststart) in `../baba-is-you-media/media/` for entries 71 onward, using `/baba-is-you-media/media/…` in the catalogue. Earlier clips remain in `media/`. Never add an uncropped desktop recording.
 2. Export a representative JPEG frame into `assets/`.
-3. Add its unique `level-NN` id, number, title, approved file/poster paths, duration in seconds and ISO recording date to `data/levels.json`.
+3. Add its unique `level-NN` id, number, title, approved file/poster paths, duration in seconds and ISO recording date to `data/levels.json`. Include `notes.approach`, `notes.mechanics`, and `notes.attempts`; the build rejects missing notes.
 4. Run `node build.mjs` and `node --test tests/*.test.mjs`. Check playback and layout, then commit the data, media, poster and generated HTML.
 
 The build uses Node's standard library, with no install step. Preview from the parent directory with `python3 -m http.server 8765 --directory ..`, then open `/baba-is-you/`. Theme assets use the production shared theme. Level links open the video directly without JavaScript; JavaScript enhances selection and shareable `#level-NN` links. Picture-in-picture is left to browser-native controls where available. Selection never autoplays.
@@ -46,3 +46,7 @@ masthead identity. Do not stack a second header rule against it.
 GitHub Pages publishes `main` at the repository root. Do not add a CNAME: the custom domain is inherited from the account site. Entries 1–70 keep their media alongside the catalogue. Entries 71 onward use the companion `JWKNT/baba-is-you-media` repository, published from `main` at the root under `https://jehlp.net/baba-is-you-media/`. Publish and verify companion videos before publishing their catalogue links. Both repositories must remain below the Pages size limit; individual clips are checked against the file limit. Keep both checkouts beside one another for build verification, and keep originals elsewhere. Only this exact companion media path is allowed; arbitrary remote URLs and traversal paths are rejected.
 
 Game art and gameplay belong to Hempuli. This repository contains the recorded playthroughs and the catalogue, not the game. Public authorship: jehlp.net.
+
+## Level notes
+
+Each recording has Approach, Mechanics, and Attempts alongside the video on desktop and below it on narrow screens. Notes follow selection and browser history. With JavaScript disabled, native disclosures expose every level’s notes. Keep notes grounded in the actual fresh attempt, including mistakes and undos.

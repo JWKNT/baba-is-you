@@ -1477,5 +1477,90 @@
       "mechanics": "ME IS PUSH supports the falling Keke. Giving both Me and Keke MOVE keeps them aligned as they cross the barrier. Removing only PUSH lets Keke fall while continuing to move. His position and facing determine whether he reaches the word blocking the final route.",
       "attempts": "Both visits are retained. Earlier tests failed to lift Keke without PUSH, trapped DEFEAT after shifting the guard, and sent the courier into a side pocket. Converting Keke to Me still left a cloud blocking the return. The first visit includes 38 undos and one restart; the successful second visit has neither. All inputs and waits remain."
     }
+  },
+  {
+    "id": "level-88",
+    "number": 88,
+    "title": "Aiming High",
+    "file": "/baba-is-you-media/media/088-aiming-high.mp4",
+    "poster": "assets/level-88.jpg",
+    "seconds": 212.3,
+    "recorded": "2026-09-08",
+    "world": "Rocket Trip",
+    "code": "06",
+    "name": "Aiming High",
+    "notes": {
+      "approach": "Give both Babas STOP while keeping the clouds solid. Catch the moon below the cloud edge, lift it to the ceiling to align the two Babas, then push and support it left together. Release it onto the star and make DUST IS WIN.",
+      "mechanics": "A STOP Baba supports the falling PUSH moon and can lift it from below. A second Baba must push horizontally while the support moves underneath. The ceiling aligns the pair; MOON IS OPEN destroys the SHUT star, and STAR HAS DUST leaves the winning object.",
+      "attempts": "All 314 inputs from three visits are retained, including two undos and no restarts. Earlier attempts tested dropping the moon and lifting it on a STOP Baba; moving that supporter sideways alone let the moon fall in its original column. The final visit kept CLOUD IS STOP intact and solved the transfer with a coordinated pair, without undo."
+    }
+  },
+  {
+    "id": "level-89",
+    "number": 89,
+    "title": "Rocky Prison",
+    "file": "/baba-is-you-media/media/089-rocky-prison.mp4",
+    "poster": "assets/level-89.jpg",
+    "seconds": 96.8,
+    "recorded": "2026-09-08",
+    "world": "Chasm",
+    "code": "A",
+    "name": "Rocky Prison",
+    "notes": {
+      "approach": "Disable SINK, make ALL IS YOU, and turn every object into water to free WIN from its wall enclosure. Move the water crowd to stage IS below ALL, bring WIN across one row lower, then lift it into ALL IS WIN.",
+      "mechanics": "ALL IS WATER transforms the skull and walls while leaving the words available to push. The controlled water can overlap and gather against boundaries; changing its shape allows one word to move while another stays put. ALL is shared by the YOU and WIN rules.",
+      "attempts": "Both recording parts retain all 159 inputs, with two undos and no restarts. One undo corrected an early overpush; another reversed an accidental ALL IS SKULL rule that removed control. The finish kept IS in place by moving WIN below it before the final upward push."
+    }
+  },
+  {
+    "id": "level-90",
+    "number": 90,
+    "title": "Siege",
+    "file": "/baba-is-you-media/media/090-siege.mp4",
+    "poster": "assets/level-90.jpg",
+    "seconds": 152.233333,
+    "recorded": "2026-09-08",
+    "world": "Chasm",
+    "code": "B",
+    "name": "Siege",
+    "notes": {
+      "approach": "Grow a limited supply of PUSH rocks to remove water and open a crossing. Move MORE and a spare IS beneath BABA IS YOU to form BABA IS MORE, then keep moving right as the growing Babas advance across the opposing belt to the flag.",
+      "mechanics": "Growing rocks clears SINK water, but removing PUSH leaves the rocks hazardous because ROCK IS DEFEAT remains active. MORE creates additional Babas; repeated rightward movement lets their frontier advance against the leftward SHIFT belt without BABA IS PUSH.",
+      "attempts": "All 312 inputs from one attempt are retained, with 36 undos and no restart. An upper detour jammed BABA IS YOU against the wall and required 35 undos. A later wrong turn into water killed Baba and was undone once. Two short rightward checks confirmed growth across the belt before the final advance."
+    }
+  },
+  {
+    "id": "level-91",
+    "number": 91,
+    "title": "Elusive Condition",
+    "file": "/baba-is-you-media/media/091-elusive-condition.mp4",
+    "poster": "assets/level-91.jpg",
+    "seconds": 160.866667,
+    "recorded": "2026-09-08",
+    "world": "Chasm",
+    "code": "C",
+    "name": "Elusive Condition",
+    "notes": {
+      "approach": "Use HAND IS ALL to lay a STAR trail across the upper row, then form ALL IS HAND. Maneuver the resulting crowd to bring HAND and IS above the fixed corner WIN, forming HAND IS WIN.",
+      "mechanics": "The full row of STOP hands blocks IS while DEFEAT moves, avoiding HAND IS DEFEAT. Crowd boundaries let words move different distances under shared controls. EMPTY IS WIN activates but does not win for the controlled hands; HAND IS WIN does.",
+      "attempts": "All 176 inputs across three chronological recording parts are retained, including the first conversion failure, the successful revisit, nine undos and no restarts. The lethal HAND IS DEFEAT test was undone; the later EMPTY IS WIN experiment and its seven-move reversal remain visible."
+    }
+  },
+  {
+    "id": "level-92",
+    "number": 92,
+    "title": "Treasury",
+    "file": "/baba-is-you-media/media/092-treasury.mp4",
+    "poster": "assets/level-92.jpg",
+    "seconds": 57.4,
+    "recorded": "2026-09-08",
+    "world": "Chasm",
+    "code": "D",
+    "name": "Treasury",
+    "notes": {
+      "approach": "Place the PUSH rock where it will block a key copy, then briefly activate KEY IS MORE. Switch to KEY IS PUSH, make the rock passable, and steer the outer key around the corner to open the door and reach the flag.",
+      "mechanics": "The rock leaves a deliberate gap in the growing keys so Baba can stand beside the key that must turn left. Breaking ROCK IS PUSH makes that tile accessible. An OPEN key removes the SHUT door when pushed into it.",
+      "attempts": "All 99 inputs from one recording are retained, including five undos of the first growth probe and four explicit waits during the successful growth. There were no restarts or deaths."
+    }
   }
 ]

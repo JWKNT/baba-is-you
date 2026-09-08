@@ -1375,5 +1375,56 @@
       "mechanics": "EMPTY can be the subject as well as the result of a transformation. EMPTY IS BABA creates Baba in unoccupied cells, and the new Babas obey BABA IS YOU. Their simultaneous movement can push rule words, so the direction chosen after activation matters.",
       "attempts": "One visit, two undos and no restart. The first right move after creating the Babas broke the control rule; the following down input could not move them. Two undos returned to before activation. Reactivated the rule, then moved down and left to win. All failed inputs and the undo sequence remain."
     }
+  },
+  {
+    "id": "level-82",
+    "number": 82,
+    "title": "Babas Are You",
+    "file": "/baba-is-you-media/media/082-babas-are-you.mp4",
+    "poster": "assets/level-82.jpg",
+    "seconds": 62.266667,
+    "recorded": "2026-09-08",
+    "world": "Rocket Trip",
+    "code": "03",
+    "name": "Babas Are You",
+    "notes": {
+      "approach": "Used ROCK IS EMPTY to remove the rock above the wall, letting EMPTY IS BABA create Babas there. Stopped the growing group, sent the upper Babas around the wall, and brought WIN back to complete ICE IS WIN. Moved a Baba onto the ice to finish.",
+      "mechanics": "ROCK IS NOT BABA prevents a direct rock-to-Baba transformation. Removing the rock makes room for EMPTY IS BABA to create a Baba instead. Empty starting spaces keep producing Babas as earlier ones move away. BABA IS STOP makes the Babas block one another, so the positions of several Babas matter when moving words.",
+      "attempts": "Completed in one visit without undo or restart. The growing group required changes to the EMPTY rule and several positioning corrections. The Babas pushed ICE and IS down against the wall, and pushed WIN left before lifting it into the rule. All inputs and incidental word shifts remain."
+    }
+  },
+  {
+    "id": "level-83",
+    "number": 83,
+    "title": "Horror Story",
+    "file": "/baba-is-you-media/media/083-horror-story.mp4",
+    "poster": "assets/level-83.jpg",
+    "seconds": 50.666667,
+    "recorded": "2026-09-08",
+    "world": "Rocket Trip",
+    "code": "05",
+    "name": "Horror Story",
+    "notes": {
+      "approach": "Switched to EMPTY IS YOU and used empty spaces to move the rocket out of the entrance and reposition the control words. Held IS and YOU against the clouds while moving BABA back above them. With BABA IS YOU restored, walked through the open entrance to the flag.",
+      "mechanics": "EMPTY IS YOU can push objects and words from empty spaces, while an occupied source cell prevents that push. EMPTY control could not touch the winning flag directly. The clouds stopped selected words so the BABA control rule could be restored.",
+      "attempts": "Completed in one visit without undo or restart. Tested EMPTY control and its blocked pushes, then moved the rule above the cloud and used a down/up sequence to align BABA for the final switch. All actual inputs and positioning moves remain."
+    }
+  },
+  {
+    "id": "level-84",
+    "number": 84,
+    "title": "Please Hold My Key",
+    "file": "/baba-is-you-media/media/084-please-hold-my-key.mp4",
+    "poster": "assets/level-84.jpg",
+    "seconds": 103.266667,
+    "recorded": "2026-09-08",
+    "world": "Rocket Trip",
+    "code": "04",
+    "name": "Please Hold My Key",
+    "notes": {
+      "approach": "Used two loose words to bridge the key from its cloud pillar onto BABA IS YOU. Reused those words to complete KEY IS OPEN, then slid the intact control sentence beneath the key. Pushed the key across the moving text platform into the door and walked to the flag.",
+      "mechanics": "PUSH text supports the falling key; Baba without STOP does not. Moving all three words of BABA IS YOU together preserves control. Alternating a full-row push with a key push advances the key while keeping text directly below it.",
+      "attempts": "Completed in one visit with two undos and no restart. The support test let the key fall past Baba to the floor; two undos restored the staged words. Five verified bridge cycles then carried the key to the door. The failed fall, both undos and all positioning moves remain."
+    }
   }
 ]

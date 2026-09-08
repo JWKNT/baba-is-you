@@ -1426,5 +1426,22 @@
       "mechanics": "PUSH text supports the falling key; Baba without STOP does not. Moving all three words of BABA IS YOU together preserves control. Alternating a full-row push with a key push advances the key while keeping text directly below it.",
       "attempts": "Completed in one visit with two undos and no restart. The support test let the key fall past Baba to the floor; two undos restored the staged words. Five verified bridge cycles then carried the key to the door. The failed fall, both undos and all positioning moves remain."
     }
+  },
+  {
+    "id": "level-85",
+    "number": 85,
+    "title": "Guardians",
+    "file": "/baba-is-you-media/media/085-guardians.mp4",
+    "poster": "assets/level-85.jpg",
+    "seconds": 417.066667,
+    "recorded": "2026-09-08",
+    "world": "Rocket Trip",
+    "code": "12",
+    "name": "Guardians",
+    "notes": {
+      "approach": "Pulled three ice tiles into a small platform. Used TEXT IS PULL with EMPTY IS PULL to bring WIN down the chute, then escaped onto the third ice tile and dismantled the pull rules. Reused IS and WIN for ICE IS WIN and touched an ice tile.",
+      "mechanics": "EMPTY IS PULL lets a pull travel through empty cells, but also blocks walking onto empty ground. Ice provides occupied footholds for repeated pulling and the exit. TEXT IS FLOAT prevents grounded Baba from winning by touching TEXT IS WIN; ICE IS WIN supplies a grounded goal.",
+      "attempts": "Completed in one visit with 273 undos and no restart. Long rollbacks recovered an early ice-platform setup and a misread empty column. TEXT IS WIN looked promising but did not produce a victory, so the final rule used ICE instead. All failed movements, positioning corrections and undos remain."
+    }
   }
 ]

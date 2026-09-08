@@ -1205,5 +1205,90 @@
       "mechanics": "DEFEAT affects YOU objects, so an uncontrolled, pushable Baba can cross the skulls. A controlled carrier word can be sacrificed after pushing Baba clear. Walls stop some words while others keep moving, allowing a shared IS to switch rules and restore control.",
       "attempts": "One recorded visit. The first alignment pushed Baba too far upward; four undos restored it and a wider route avoided contact with YOU. All positioning moves, failed inputs, undos and the successful crossing are retained; only idle thinking gaps are removed."
     }
+  },
+  {
+    "id": "level-72",
+    "number": 72,
+    "title": "Broken Playground",
+    "file": "/baba-is-you-media/media/072-broken-playground.mp4",
+    "poster": "assets/level-72.jpg",
+    "seconds": 316.7,
+    "recorded": "2026-09-07",
+    "world": "Forest of Fall",
+    "code": "B",
+    "name": "Broken Playground",
+    "notes": {
+      "approach": "Aligned IS WIN in the upper room, created two boxes, and transported one through the water. Used wall stops to place it precisely before IS WIN while the other box restored Keke control. BOX IS TEXT created the winning rule. Then TEXT IS YOU and a wall-clamped KEKE IS BOX created a physical winning box; a final wall-assisted switch to BOX IS YOU completed the level.",
+      "mechanics": "Floating text does not teleport, so a physical box carries its future noun into the room. Transformations persist after their rule is broken. Walls can stop different parts of a controlled text arrangement, allowing a shared IS to create a box and then switch control to it. An object that is both YOU and WIN wins immediately.",
+      "attempts": "All five visits are retained. Earlier attempts tested text teleportation, created an upper word in the wrong position, and confirmed FLOAT does not bypass STOP walls. The final visit fixed the delivery position, tested a direct Keke-to-box transformation that lost control, and solved the return to BOX control with a staged text arrangement. Positioning mistakes, failed inputs and undos remain. During visit two the game closed and capture ended before 19 subsequent logged inputs (about six seconds). Those original input logs are retained, but no video exists for that interval; no replacement footage was fabricated."
+    }
+  },
+  {
+    "id": "level-73",
+    "number": 73,
+    "title": "Evaporating River",
+    "file": "/baba-is-you-media/media/073-evaporating-river.mp4",
+    "poster": "assets/level-73.jpg",
+    "seconds": 239.5,
+    "recorded": "2026-09-07",
+    "world": "Solitary Island",
+    "code": "Extra 6",
+    "name": "Evaporating River",
+    "notes": {
+      "approach": "Completed WATER IS SINK with the WATER word on the river. The word and that water tile disappeared, leaving a crossing while preserving IS and SINK. Reused them for COG IS SINK, brought the cog through the gap, and sank the leftmost skull. Baba could then push FLAG directly into FLAG IS WIN and return to the flag.",
+      "mechanics": "A rule can remove one of its own words when that word overlaps a newly active SINK object. The water gap remains after the rule breaks. A SINK cog removes a skull through overlap, but does not pass a STOP wall. Removing the skull nearest FLAG avoids the need for a long push buffer.",
+      "attempts": "All four visits are retained. Earlier attempts explored river crossings and word buffers, and tested a SINK cog against a blocked word. The final visit also tested a STOP wall, then solved the resource shortage by sacrificing WATER itself. A routing error and its undos are preserved, along with all other inputs and waits."
+    }
+  },
+  {
+    "id": "level-74",
+    "number": 74,
+    "title": "Dead End",
+    "file": "/baba-is-you-media/media/074-dead-end.mp4",
+    "poster": "assets/level-74.jpg",
+    "seconds": 185.966667,
+    "recorded": "2026-09-07",
+    "world": "Forest of Fall",
+    "code": "12",
+    "name": "Dead End",
+    "notes": {
+      "approach": "Placed the loose NOT before the fixed NOT PUSH to form BOX IS NOT NOT PUSH. With the boxes now pushable, the flag sank one into the outer water layer, aligned the second with that gap, and used it to remove the inner layer. The flag then walked to Me.",
+      "mechanics": "Two NOT modifiers cancel: the game interprets BOX IS NOT NOT PUSH as BOX IS PUSH. A pushed box and one SINK water tile disappear together, so two boxes can open a single path through two water layers while the flag remains controlled.",
+      "attempts": "All five visits are retained. Earlier attempts explored control through NOT FLAG IS YOU, sacrificed boxes into adjacent water tiles, and tested NOT BOX IS NOT PUSH without gaining box pushability. The final visit tested double negation on the property instead, confirmed BOX IS PUSH in the rules menu, and solved the crossing. Earlier mistakes and undos remain."
+    }
+  },
+  {
+    "id": "level-75",
+    "number": 75,
+    "title": "Scenic Pond",
+    "file": "/baba-is-you-media/media/075-scenic-pond.mp4",
+    "poster": "assets/level-75.jpg",
+    "seconds": 285.633333,
+    "recorded": "2026-09-08",
+    "world": "Forest of Fall",
+    "code": "D",
+    "name": "Scenic Pond",
+    "notes": {
+      "approach": "Used TEXT HAS BABA to turn a KEKE word sacrificed in the upper pond into a second Baba. Reversed the rule to BABA HAS TEXT, then sacrificed one Baba in the lower water. Its BABA word completed BABA IS FLOAT. The survivor crossed the upper pond and skull to form FLAG IS WIN, then moved FLOAT aside before touching the flag.",
+      "mechanics": "HAS can turn a destroyed word into a controlled object, then turn that object back into its noun. Sharing BABA between the HAS and YOU rules preserves control while changing the death result. FLOAT avoids ground-level SINK, but also prevents contact with a ground-level winning flag; push the lower rule down and move FLOAT sideways to return to the ground.",
+      "attempts": "All three visits are retained. Earlier visits tested TEXT IS YOU, created Keke from a sunk IS, and explored word duplication without a usable control transfer. The final visit first tried the lower-IS sacrifice, undid it, and used the upper word instead. A route-model error caused a lost Baba and was undone; a missing fence segment was corrected after live inspection. All mistakes, failed inputs and undos remain."
+    }
+  },
+  {
+    "id": "level-76",
+    "number": 76,
+    "title": "Deep Pool",
+    "file": "/baba-is-you-media/media/076-deep-pool.mp4",
+    "poster": "assets/level-76.jpg",
+    "seconds": 279.4,
+    "recorded": "2026-09-08",
+    "world": "Forest of Fall",
+    "code": "Extra 3",
+    "name": "Deep Pool",
+    "notes": {
+      "approach": "Created a second Baba by sinking KEKE under TEXT HAS BABA. Separated the two Babas at the fence corner, then pushed TEXT onto one trapped against the fence as BABA HAS TEXT became active. Its BABA word overlapped TEXT. Moved that stack above HAS BABA to form BABA HAS BABA while preserving BABA IS YOU. The survivor crossed the water and skull, assembled FLAG IS WIN, and returned to the flag.",
+      "mechanics": "A word can defeat Baba while simultaneously completing the rule that determines its contents. Overlapping BABA and TEXT can share a sentence position. Using the stack as the subject creates BABA HAS BABA and TEXT HAS BABA without BABA HAS TEXT, so defeated Baba reappears without leaving obstructing words. A fence corner separates simultaneous YOU objects.",
+      "attempts": "Both visits are retained. The first created two Babas but did not produce a usable self-containment rule. The final visit proved the word-crush interaction against the left wall, restarted because the stacked words were trapped there, and rebuilt beside the inner fence. Several positioning attempts preceded the successful separation and rule reversal. All recorded inputs, mistakes, waits and restarts remain."
+    }
   }
 ]

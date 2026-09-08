@@ -1120,5 +1120,90 @@
       "mechanics": "A moving object can pull a PULL object behind it. The lower hedge reverses a downward mover, allowing it to travel up through foliage while Baba stays outside. The key must be positioned before the fungus blocks the aiming square. OPEN removes the SHUT fungus, and FUNGUS HAS FLAG leaves the winning flag behind.",
       "attempts": "All three recorded attempts are joined: 1,338 inputs, 17 undos, and two restarts remain. The first setup moved the fungus before preparing the key. Later mistakes included stepping into leaves, pushing spare words while crossing their rows, and overshooting rule positions. The successful attempt prepared the key first, then used a timed noun swap and a final sideways pull."
     }
+  },
+  {
+    "id": "level-67",
+    "number": 67,
+    "title": "Grand Stream",
+    "file": "media/067-grand-stream.mp4",
+    "poster": "assets/level-67.jpg",
+    "seconds": 181.7,
+    "recorded": "2026-09-07",
+    "world": "Forest of Fall",
+    "code": "02",
+    "name": "Grand Stream",
+    "notes": {
+      "approach": "Temporarily made Keke pullable and dragged it sideways. Restored the key\u2019s PULL rule and Keke\u2019s MOVE rule, letting Keke reverse against the key and tow it across the river. Stopped Keke on the left bank, then pulled the key around the wall and into the box to release the flag.",
+      "mechanics": "Pulling changes a mover\u2019s facing. Autonomous MOVE can tow a PULL object through water that defeats the player. OPEN and SHUT destroy the key and box; HAS releases the flag. SHUT alone did not prevent Baba from standing on the box.",
+      "attempts": "Three retained visits include unsuccessful word-extraction and lower-river routes, waits, undos and a restart. The final visit tested Keke\u2019s movement axis, then switched between PULL and MOVE to complete the ferry. All original attempts are joined; only idle thinking gaps are removed."
+    }
+  },
+  {
+    "id": "level-68",
+    "number": 68,
+    "title": "Catch",
+    "file": "media/068-catch.mp4",
+    "poster": "assets/level-68.jpg",
+    "seconds": 251.133333,
+    "recorded": "2026-09-07",
+    "world": "Forest of Fall",
+    "code": "11",
+    "name": "Catch",
+    "notes": {
+      "approach": "Switched between ROCK IS PUSH and NOT ROCK IS PUSH to clear selected pond tiles with the two rocks and push the remaining water aside. Brought NOT down the dry passage, then prefixed the lower clause before shifting it right to open the flag corridor.",
+      "mechanics": "NOT ROCK IS PUSH makes water and plants pushable while HEDGE IS NOT PUSH preserves the walls. Pushable water can be moved onto an inert rock to remove both. NOT BABA IS NOT YOU leaves Baba controlled while the obstructing sentence is moved.",
+      "attempts": "Three retained visits include insufficient rock routes, water and plant experiments, restarts, failed inputs and undos. The successful visit used displaced water to open a route for the second rock, then cleared the NOT delivery path. Every input is retained; only idle thinking gaps are removed."
+    }
+  },
+  {
+    "id": "level-69",
+    "number": 69,
+    "title": "Literacy",
+    "file": "media/069-literacy.mp4",
+    "poster": "assets/level-69.jpg",
+    "seconds": 133.2,
+    "recorded": "2026-09-07",
+    "world": "Forest of Fall",
+    "code": "A",
+    "name": "Literacy",
+    "notes": {
+      "approach": "Brought the rock and TEXT into the lower chamber. Put TEXT below the final WALL in WALL IS WALL and used the rock as a buffer for one last upward push. WALL IS TEXT replaced the identity rule, turning the walls into words and opening a path to the flag.",
+      "mechanics": "Uncontrolled text and a pushable rock can enter a DEFEAT wall safely. The rock keeps Me off the wall during the final push. Replacing the identity rule allows WALL IS TEXT to transform the walls; FLAG IS WIN remains intact.",
+      "attempts": "All three visits are retained. Earlier TEXT IS YOU movement destroyed the winning rule, and a separate buffer experiment pushed the rock outside without freeing Me. The final visit rearranged the buffer to replace the identity rule, with a failed wall step and its undo preserved."
+    }
+  },
+  {
+    "id": "level-70",
+    "number": 70,
+    "title": "Fetching",
+    "file": "media/070-fetching.mp4",
+    "poster": "assets/level-70.jpg",
+    "seconds": 188.666667,
+    "recorded": "2026-09-08",
+    "world": "Forest of Fall",
+    "code": "C",
+    "name": "Fetching",
+    "notes": {
+      "approach": "Made KEKE IS BABA first, creating a second controlled Baba in the sealed chamber. Reused the words to make TEXT IS HOT and melt the ghost with a two-word buffer. Then TEXT IS WEAK let Baba destroy the skull rule and clear the passage. One Baba completed FLAG IS WIN; the other reached the flag.",
+      "mechanics": "A transformation persists after its rule is broken. Two YOU objects move together but can be positioned differently using walls. Hot text melts a MELT ghost; a buffer keeps the player off DEFEAT. Weak text can be destroyed against a wall, allowing the skull hazard rule to be removed safely.",
+      "attempts": "Both visits are retained. The first melted the ghost but stranded the KEKE word, then tested an irreversible WEAK-first setup. The successful return transformed Keke before sacrificing its noun. A route planner based on the observed board helped keep both Babas alive; every route was checked in the game, and a buffer-positioning undo is preserved."
+    }
+  },
+  {
+    "id": "level-71",
+    "number": 71,
+    "title": "Skeletal Door",
+    "file": "/baba-is-you-media/media/071-skeletal-door.mp4",
+    "poster": "assets/level-71.jpg",
+    "seconds": 50.933333,
+    "recorded": "2026-09-08",
+    "world": "Forest of Fall",
+    "code": "E",
+    "name": "Skeletal Door",
+    "notes": {
+      "approach": "Changed control to TEXT IS YOU, then used the right wall to align BABA IS PUSH through the same IS. Repositioned the cross-shaped rule and pushed Baba through the top skull. The PUSH word was destroyed, while the control rule stayed above the barrier. Shifted the remaining words against the left wall to restore BABA IS YOU, then walked to the flag.",
+      "mechanics": "DEFEAT affects YOU objects, so an uncontrolled, pushable Baba can cross the skulls. A controlled carrier word can be sacrificed after pushing Baba clear. Walls stop some words while others keep moving, allowing a shared IS to switch rules and restore control.",
+      "attempts": "One recorded visit. The first alignment pushed Baba too far upward; four undos restored it and a wider route avoided contact with YOU. All positioning moves, failed inputs, undos and the successful crossing are retained; only idle thinking gaps are removed."
+    }
   }
 ]

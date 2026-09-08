@@ -1460,5 +1460,22 @@
       "mechanics": "OPEN and SHUT can interact with EMPTY, allowing EMPTY HAS KEY to produce an object. Simply occupying an empty cell did not release a key. The box was consumed in the collision. Fixed DOOR IS DOOR blocked the attempted DOOR IS EMPTY transformation.",
       "attempts": "Completed in one visit without undo or restart. Tried ordinary occupation under EMPTY HAS KEY and a crossed-out DOOR IS EMPTY rule before setting up the OPEN/SHUT interaction. Miscounted routes and word misalignments were corrected in place. All actual inputs remain."
     }
+  },
+  {
+    "id": "level-87",
+    "number": 87,
+    "title": "Trio",
+    "file": "/baba-is-you-media/media/087-trio.mp4",
+    "poster": "assets/level-87.jpg",
+    "seconds": 271.6,
+    "recorded": "2026-09-08",
+    "world": "Rocket Trip",
+    "code": "07",
+    "name": "Trio",
+    "notes": {
+      "approach": "Raised Keke onto a moving Me platform and sent both across the skull barrier. After they bounced left together, removed Me's PUSH so Keke fell into the inner chamber facing left. Keke pushed DEFEAT aside, opening Baba's route to the flag.",
+      "mechanics": "ME IS PUSH supports the falling Keke. Giving both Me and Keke MOVE keeps them aligned as they cross the barrier. Removing only PUSH lets Keke fall while continuing to move. His position and facing determine whether he reaches the word blocking the final route.",
+      "attempts": "Both visits are retained. Earlier tests failed to lift Keke without PUSH, trapped DEFEAT after shifting the guard, and sent the courier into a side pocket. Converting Keke to Me still left a cloud blocking the return. The first visit includes 38 undos and one restart; the successful second visit has neither. All inputs and waits remain."
+    }
   }
 ]

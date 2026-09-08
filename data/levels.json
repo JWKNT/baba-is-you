@@ -1443,5 +1443,22 @@
       "mechanics": "EMPTY IS PULL lets a pull travel through empty cells, but also blocks walking onto empty ground. Ice provides occupied footholds for repeated pulling and the exit. TEXT IS FLOAT prevents grounded Baba from winning by touching TEXT IS WIN; ICE IS WIN supplies a grounded goal.",
       "attempts": "Completed in one visit with 273 undos and no restart. Long rollbacks recovered an early ice-platform setup and a misread empty column. TEXT IS WIN looked promising but did not produce a victory, so the final rule used ICE instead. All failed movements, positioning corrections and undos remain."
     }
+  },
+  {
+    "id": "level-86",
+    "number": 86,
+    "title": "Sky Hold",
+    "file": "/baba-is-you-media/media/086-sky-hold.mp4",
+    "poster": "assets/level-86.jpg",
+    "seconds": 122.366667,
+    "recorded": "2026-09-08",
+    "world": "Rocket Trip",
+    "code": "13",
+    "name": "Sky Hold",
+    "notes": {
+      "approach": "Made the box SHUT and empty cells OPEN, with EMPTY HAS KEY. Pushed the box into an empty cell to create a key. Restored DOOR IS SHUT, pushed the key through the door and walked to the flag.",
+      "mechanics": "OPEN and SHUT can interact with EMPTY, allowing EMPTY HAS KEY to produce an object. Simply occupying an empty cell did not release a key. The box was consumed in the collision. Fixed DOOR IS DOOR blocked the attempted DOOR IS EMPTY transformation.",
+      "attempts": "Completed in one visit without undo or restart. Tried ordinary occupation under EMPTY HAS KEY and a crossed-out DOOR IS EMPTY rule before setting up the OPEN/SHUT interaction. Miscounted routes and word misalignments were corrected in place. All actual inputs remain."
+    }
   }
 ]

@@ -1290,5 +1290,90 @@
       "mechanics": "A word can defeat Baba while simultaneously completing the rule that determines its contents. Overlapping BABA and TEXT can share a sentence position. Using the stack as the subject creates BABA HAS BABA and TEXT HAS BABA without BABA HAS TEXT, so defeated Baba reappears without leaving obstructing words. A fence corner separates simultaneous YOU objects.",
       "attempts": "Both visits are retained. The first created two Babas but did not produce a usable self-containment rule. The final visit proved the word-crush interaction against the left wall, restarted because the stacked words were trapped there, and rebuilt beside the inner fence. Several positioning attempts preceded the successful separation and rule reversal. All recorded inputs, mistakes, waits and restarts remain."
     }
+  },
+  {
+    "id": "level-77",
+    "number": 77,
+    "title": "Factory",
+    "file": "/baba-is-you-media/media/077-factory.mp4",
+    "poster": "assets/level-77.jpg",
+    "seconds": 539.633333,
+    "recorded": "2026-09-07",
+    "world": "Deep Forest",
+    "code": "13",
+    "name": "Factory",
+    "notes": {
+      "approach": "Moved the controlled boxes together, then restored BOX HAS KEY. Pushed loose text into the weak boxes to create controlled keys on the far side of the bugs. Used those keys to extend BUG IS DEFEAT with AND WEAK, opened a gap in the bug line, and crossed the five doors to reach the flag.",
+      "mechanics": "WEAK boxes release their HAS contents when text overlaps them. The new keys obey KEY IS YOU. With BUG IS DEFEAT AND WEAK, a key destroys a bug and survives the contact. Overlapping keys can open successive SHUT doors, consuming one key for each door.",
+      "attempts": "All eleven visits are retained, including the inspection-only fourth part. Earlier attempts tested wall collisions during HAS changes, bent noun lists, transformations and KEY HAS BOX without crossing the barrier. Text collisions later produced keys on the right, but the return route remained blocked. The final visit reused that setup and added WEAK to the bug rule. All mistakes, failed inputs, waits, restarts and undos remain."
+    }
+  },
+  {
+    "id": "level-78",
+    "number": 78,
+    "title": "Tiny Pasture",
+    "file": "/baba-is-you-media/media/078-tiny-pasture.mp4",
+    "poster": "assets/level-78.jpg",
+    "seconds": 109.966667,
+    "recorded": "2026-09-08",
+    "world": "Deep Forest",
+    "code": "14",
+    "name": "Tiny Pasture",
+    "notes": {
+      "approach": "Made the flags pushable and moved the upper flag into the stone corridor. Restored teleportation, then sent an upward-facing Keke through the upper flag. KEKE IS SHIFT moved the lower flag upward. Pushed WIN onto the upper teleporter, retrieved it below, and completed FLAG IS WIN before touching a flag.",
+      "mechanics": "The gray stones have no STOP rule and can be crossed. Switching PUSH between Keke and the flags allows their positions to be set. TELE carries objects and words between flags; SHIFT lets Keke move an overlapping flag in its facing direction. Raising the lower teleporter leaves room to recover the arriving WIN word.",
+      "attempts": "Completed in one visit without undo or restart. Several blocked moves and miscounted routes were corrected in place, and waits tested teleport timing. The successful setup moved both flags before sending WIN through. All failed inputs, positioning moves and waits remain."
+    }
+  },
+  {
+    "id": "level-79",
+    "number": 79,
+    "title": "Skull House",
+    "file": "/baba-is-you-media/media/079-skull-house.mp4",
+    "poster": "assets/level-79.jpg",
+    "seconds": 114.866667,
+    "recorded": "2026-09-08",
+    "world": "Deep Forest",
+    "code": "Extra 2",
+    "name": "Skull House",
+    "notes": {
+      "approach": "Gave the same rock both BABA and KEY transformations, creating an extra Baba and a key. Made the key pushable and used it to open the door. Sent both Babas through, sacrificed one to remove a water tile, then guided the survivor through the gap to the flag.",
+      "mechanics": "Simultaneous ROCK IS BABA and ROCK IS KEY rules produce both objects from one rock. A pushable OPEN key opens the SHUT door and is consumed. WATER IS SINK consumes one Baba and one water tile, leaving a gap for the other Baba.",
+      "attempts": "The first branch turned the only rock into a key and opened the door, then recognized that one Baba could not cross the surrounding water. Seventeen undos restored the setup before the dual transformation. During later word routing, a temporary KEY IS YOU rule moved the key down one tile; its route was adjusted. All inputs, positioning mistakes and undos remain; there was no restart."
+    }
+  },
+  {
+    "id": "level-80",
+    "number": 80,
+    "title": "Empty",
+    "file": "/baba-is-you-media/media/080-empty.mp4",
+    "poster": "assets/level-80.jpg",
+    "seconds": 68.033333,
+    "recorded": "2026-09-08",
+    "world": "Rocket Trip",
+    "code": "01",
+    "name": "Empty",
+    "notes": {
+      "approach": "Placed the loose IS and EMPTY below the fixed BELT word to form BELT IS EMPTY. The conveyors disappeared, leaving a clear route to the flag.",
+      "mechanics": "Using EMPTY as the transformation target removes the belts. The new vertical rule shares BELT with the fixed BELT IS SHIFT sentence; no belts remain to push Baba away from the flag.",
+      "attempts": "Solved on the first visit without undo, restart or death. The recording also retains a brief code inspection of the completed Skull House level and the navigation into Rocket Trip. All actual inputs remain."
+    }
+  },
+  {
+    "id": "level-81",
+    "number": 81,
+    "title": "Lonely Flag",
+    "file": "/baba-is-you-media/media/081-lonely-flag.mp4",
+    "poster": "assets/level-81.jpg",
+    "seconds": 61.133333,
+    "recorded": "2026-09-08",
+    "world": "Rocket Trip",
+    "code": "02",
+    "name": "Lonely Flag",
+    "notes": {
+      "approach": "Used DOOR IS EMPTY to remove the doors, then reused IS and EMPTY beside the existing BABA IS YOU rule to form EMPTY IS BABA. This created Babas throughout the empty spaces, including inside the flag room. Moved down and left to reach the flag.",
+      "mechanics": "EMPTY can be the subject as well as the result of a transformation. EMPTY IS BABA creates Baba in unoccupied cells, and the new Babas obey BABA IS YOU. Their simultaneous movement can push rule words, so the direction chosen after activation matters.",
+      "attempts": "One visit, two undos and no restart. The first right move after creating the Babas broke the control rule; the following down input could not move them. Two undos returned to before activation. Reactivated the rule, then moved down and left to win. All failed inputs and the undo sequence remain."
+    }
   }
 ]

@@ -1562,5 +1562,90 @@
       "mechanics": "The rock leaves a deliberate gap in the growing keys so Baba can stand beside the key that must turn left. Breaking ROCK IS PUSH makes that tile accessible. An OPEN key removes the SHUT door when pushed into it.",
       "attempts": "All 99 inputs from one recording are retained, including five undos of the first growth probe and four explicit waits during the successful growth. There were no restarts or deaths."
     }
+  },
+  {
+    "id": "level-93",
+    "number": 93,
+    "title": "Lava Flood",
+    "file": "/baba-is-you-media/media/093-lava-flood.mp4",
+    "poster": "assets/level-93.jpg",
+    "seconds": 43.4,
+    "recorded": "2026-09-08",
+    "world": "Chasm",
+    "code": "F",
+    "name": "Lava Flood",
+    "notes": {
+      "approach": "Push the top IS onto the flag to protect its tile from growing lava. Cross the flood to break FLAG IS MELT, then return, restore FLAG IS WIN and touch the surviving flag.",
+      "mechanics": "Baba is HOT, so touching the MELT flag destroys it. A text tile blocks MORE from creating lava on the flag beneath it. Once MELT is disabled, the flag survives while Baba restores its winning rule.",
+      "attempts": "All 60 inputs from one recording are retained, including the direct approach that melted the flag and five undos restoring it. The shielded-flag route then won without a restart."
+    }
+  },
+  {
+    "id": "level-94",
+    "number": 94,
+    "title": "Metacognition",
+    "file": "/baba-is-you-media/media/094-metacognition.mp4",
+    "poster": "assets/level-94.jpg",
+    "seconds": 110.4,
+    "recorded": "2026-09-08",
+    "world": "Chasm",
+    "code": "Extra 1",
+    "name": "Metacognition",
+    "notes": {
+      "approach": "Borrow IS from BABA IS WORD to form KEY IS BABA, creating two extra controlled Babas. Restore BABA IS WORD, use one Baba as the noun in BABA IS OPEN to remove the door, and send a survivor to the flag.",
+      "mechanics": "WORD lets a physical Baba participate in a rule. A Baba positioned above IS and OPEN becomes OPEN and can remove the SHUT door, but is consumed with it. Extra Babas preserve control after that sacrifice.",
+      "attempts": "Both chronological recordings retain all 202 inputs and 12 undos, with no restarts. The failed IS extraction and the test that opened the door but consumed the only Baba remain visible before the successful conversion and sacrifice."
+    }
+  },
+  {
+    "id": "level-95",
+    "number": 95,
+    "title": "Broken",
+    "file": "/baba-is-you-media/media/095-broken.mp4",
+    "poster": "assets/level-95.jpg",
+    "seconds": 67.4,
+    "recorded": "2026-09-08",
+    "world": "Chasm",
+    "code": "Extra 3",
+    "name": "Broken",
+    "notes": {
+      "approach": "Place the inner rock over IS, then use the outer rock as the noun in ROCK IS TELE. Teleport the blocking text out of its rule, disable ROCK IS PUSH, and bring WIN into position to form ROCK IS WIN.",
+      "mechanics": "WORD lets a physical rock replace ICE in the teleport rule. Teleporting the IS beneath the other rock breaks TEXT IS NOT PUSH, making words movable again. Covering TEXT instead accidentally makes ROCK IS NOT PUSH.",
+      "attempts": "All 110 inputs from one recording are retained, including two undos correcting the first rock placement. A blocked final approach was corrected by coming from below. No deaths or restarts occurred."
+    }
+  },
+  {
+    "id": "level-96",
+    "number": 96,
+    "title": "Multitool",
+    "file": "/baba-is-you-media/media/096-multitool.mp4",
+    "poster": "assets/level-96.jpg",
+    "seconds": 151.3,
+    "recorded": "2026-09-08",
+    "world": "Chasm",
+    "code": "Extra 2",
+    "name": "Multitool",
+    "notes": {
+      "approach": "Disable the hot rock, then use it as a WORD to form ROCK IS PUSH and KEKE IS ROCK. Leave one rock holding HOT and PUSH rules while pushing the other into the box, melting it to release the winning flag.",
+      "mechanics": "A rock can make one push out of its own PUSH rule; move IS and PUSH afterward to restore the rule at its new position. Converting Keke supplies a second rock, so one can serve as the shared noun while the other melts the box.",
+      "attempts": "All 343 inputs from one recording are retained, including the branch that trapped PUSH against the right boundary and all 56 undos used to recover. The corrected route won without a death or restart."
+    }
+  },
+  {
+    "id": "level-97",
+    "number": 97,
+    "title": "Tour",
+    "file": "/baba-is-you-media/media/097-tour.mp4",
+    "poster": "assets/level-97.jpg",
+    "seconds": 167.333333,
+    "recorded": "2026-09-08",
+    "world": "Volcanic Cavern",
+    "code": "01",
+    "name": "Tour",
+    "notes": {
+      "approach": "Keep both Baba and Keke controlled, then build a transformation cycle. Alternate forms to carry FLAG and IS across the hazards and complete FLAG IS WIN.",
+      "mechanics": "BABA IS KEKE and KEKE IS BABA change the character every turn. Baba can cross the conditional fire; Keke can cross hot lava. Waits adjust the form before each crossing.",
+      "attempts": "298 inputs, one restart and ten undos. The first rule layout blocked the exit; a later FLAG push trapped the word against the bottom wall. Both mistakes and their recovery are retained. No deaths."
+    }
   }
 ]

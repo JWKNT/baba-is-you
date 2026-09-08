@@ -24,7 +24,7 @@ video { display: block; width: 100%; height: auto; aspect-ratio: 1680 / 960; bac
 .level-link[aria-current="true"] .level-number { color:var(--blue); font-weight:700; }
 .level-link[aria-current="true"] .level-name { text-decoration:underline; text-decoration-thickness:1px; text-underline-offset:.22em; }
 .level-number, .duration { font:var(--text-ui)/1.6 var(--mono); color:var(--muted); }
-.level-name { font-size:1rem; line-height:1.4; }
+.level-name { font-size:1rem; line-height:1.4; overflow-wrap:anywhere; }
 .collection-note { color:var(--muted-strong); font:var(--text-meta)/1.7 var(--sans); margin:1rem 0; }
 .level-section { min-width: 0; }
 .world-group { margin: 0; padding: 0; border: 0; border-bottom: 1px solid var(--line-strong); }

@@ -48,13 +48,15 @@ test('future three-digit levels and text escaping remain supported', () => {
   assert.equal(escape('<&"\''), '&lt;&amp;&quot;&#39;');
 });
 
-test('companion media stays restricted to the approved store and resolves beside the catalogue', () => {
-  const fixture = [{ ...levels[0], file: '/baba-is-you-media/media/71-example.mp4' }];
-  assert.doesNotThrow(() => validateLevels(fixture));
+test('companion media stays restricted to the two approved stores and resolves beside the catalogue', () => {
   const root = new URL('file:///sites/baba-is-you/');
-  assert.equal(localAssetURL(fixture[0].file, root).href, 'file:///sites/baba-is-you-media/media/71-example.mp4');
+  for (const [store, number] of [['baba-is-you-media', 71], ['baba-is-you-media', 118], ['baba-is-you-media-2', 119]]) {
+    const file = `/${store}/media/${number}-example.mp4`;
+    assert.doesNotThrow(() => validateLevels([{ ...levels[0], file }]));
+    assert.equal(localAssetURL(file, root).href, `file:///sites${file}`);
+  }
   assert.equal(localAssetURL('media/01-example.mp4', root).href, 'file:///sites/baba-is-you/media/01-example.mp4');
-  for (const file of ['/other/media/a.mp4', '/baba-is-you-media/media/../a.mp4', '//evil.example/a.mp4', '/baba-is-you-media/media/a.mp4?x', '/baba-is-you-media/media/%2e%2e.mp4']) {
+  for (const file of ['/other/media/a.mp4', '/baba-is-you-media/media/../a.mp4', '//evil.example/a.mp4', '/baba-is-you-media/media/a.mp4?x', '/baba-is-you-media/media/%2e%2e.mp4', '/baba-is-you-media-2/media/../a.mp4', '/baba-is-you-media-2/media/%2e%2e.mp4', '/baba-is-you-media-2/media/a.mp4?x', '/baba-is-you-media-3/media/a.mp4', '/baba-is-you-media-20/media/a.mp4']) {
     assert.throws(() => validateLevels([{ ...levels[0], file }]), /Missing or unsafe/);
     assert.throws(() => localAssetURL(file, root), /Unsafe/);
   }

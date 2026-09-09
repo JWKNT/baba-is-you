@@ -1987,5 +1987,73 @@
       "mechanics": "MOVE and SHIFT combine to steer the couriers through the skulls. The lower hand needs a downward-facing landing belt to stay on its own route. One hand activates ICE IS DEFEAT; the other completes ICE AND FLAG IS WIN. Baba reaches the flag before the ice becomes dangerous.",
       "attempts": "All three visits remain, including trapped couriers, incorrect belt directions and 201 undo inputs. Belts in the flag passage carried ice onto the flag and caused one Baba death, followed by one restart. The final layout leaves that passage free of belts and wins after nine walking inputs and thirteen waits."
     }
+  },
+  {
+    "id": "level-118",
+    "number": 118,
+    "title": "Alley",
+    "file": "/baba-is-you-media/media/118-alley.mp4",
+    "poster": "assets/level-118.jpg",
+    "seconds": 393.166667,
+    "recorded": "2026-09-08",
+    "world": "Chasm",
+    "code": "Extra 4",
+    "name": "Alley",
+    "notes": {
+      "approach": "Use a physical rock as the noun in ROCK IS PUSH. Sink one rock into the lower water, then sacrifice the rock noun to another water tile to turn ROCK IS PUSH off. Rebuild WATER IS PUSH, raise the remaining water, and cross the inert rock to reach the moon.",
+      "mechanics": "A literal ROCK tile first enables ROCK IS WORD; an ordinary rock cannot bootstrap that rule. Physical word-rocks remain grounded despite TEXT IS FLOAT, so WATER IS SINK can consume the noun and disable its rule. A water tile with PUSH must have room to move before a rock can enter it.",
+      "attempts": "All five visits remain, including the failed body-first WORD setup, trapped WATER IS PUSH layouts, blocked sink attempts, routing corrections and eight undos. The fourth visit verified the rock-noun sacrifice; the fifth resumed that exact paused state and finished without undo, restart or death. The full Chasm Area Clear animation is retained."
+    }
+  },
+  {
+    "id": "level-119",
+    "number": 119,
+    "title": "Looking for a Heart",
+    "file": "/baba-is-you-media-2/media/119-looking-for-a-heart.mp4",
+    "poster": "assets/level-119.jpg",
+    "seconds": 570.433333,
+    "recorded": "2026-09-08",
+    "world": "Chasm",
+    "code": "E",
+    "name": "Looking for a Heart",
+    "notes": {
+      "approach": "Build ROCK IS ALL vertically so ALL can be pushed aside after generating hearts and extra Babas. Use two Babas to recover the shared IS, then give LOVE both PUSH and OPEN. Guide two hearts through the lower passage to open the two doors and reach the flag.",
+      "mechanics": "ROCK IS ALL keeps generating the available object types, including walls that trap words and prevent stacked flags from winning. Moving hearts can leave their spawned wall. Breaking the vertical transformation rule frees a route to recover IS; crossing LOVE IS OPEN with LOVE IS PUSH lets hearts open doors under direct control.",
+      "attempts": "All four visits remain, including trapped horizontal transformation rules, the failed spawn-on-IS recovery, MOVE/OPEN timing experiments and the moving-rock trail. Eighteen undos, three restarts and sixteen waits are retained. The final branch recovered IS with two Babas and opened both doors, with routing and push-alignment mistakes preserved."
+    }
+  },
+  {
+    "id": "level-120",
+    "number": 120,
+    "title": "Entropy",
+    "file": "/baba-is-you-media-2/media/120-entropy.mp4",
+    "poster": "assets/level-120.jpg",
+    "seconds": 250.066667,
+    "recorded": "2026-09-09",
+    "world": "Chasm",
+    "code": "G",
+    "name": "Entropy",
+    "notes": {
+      "approach": "Give the controlled rocks HAS ROCK and OPEN to break through the SHUT walls. Separate two rocks, remove OPEN, then change the payload to BABA and use WEAK to break only one rock. Remove WEAK and bring the surviving rock onto the spawned Baba.",
+      "mechanics": "ALL IS SHUT makes an OPEN rock destroy itself; HAS ROCK replaces it, allowing the controlled rocks to keep moving and open passages. A blocked WEAK rock releases Baba through HAS. BABA ON ROCK IS WIN rewards the final overlap, so the survivor must lose WEAK before contact.",
+      "attempts": "One continuous visit retains 84 undos and no restart: 13 early mechanic checks and a 71-input rollback after the first wall opening trapped the rule words. Repeated OPEN contacts merged the rocks. Blocking one rock with WEAK while the other moved separated the pair, enabling the planned sacrifice and final overlap."
+    }
+  },
+  {
+    "id": "level-121",
+    "number": 121,
+    "title": "Fragile Existence",
+    "file": "/baba-is-you-media-2/media/121-fragile-existence.mp4",
+    "poster": "assets/level-121.jpg",
+    "seconds": 374.2,
+    "recorded": "2026-09-08",
+    "world": "The Map",
+    "code": "09",
+    "name": "Fragile Existence",
+    "notes": {
+      "approach": "Melt the door with a HOT key, build WALL IS MELT, and use Baba and the key together to carry HOT into LEVEL IS HOT. With all walls gone, retrieve WIN and make KEY IS WIN while the key remains controlled.",
+      "mechanics": "LEVEL IS HOT melts every MELT wall without requiring the key to enter a STOP wall. Shared YOU keeps Baba controlled while the key rule is temporarily broken, letting the two bodies cooperate to extract HOT. A controlled key wins as soon as KEY IS WIN forms.",
+      "attempts": "All three visits remain, including the inspection-only middle visit, two whole-level deaths from LEVEL IS WEAK, 62 undos and no restarts. A HOT key could not enter the STOP/MELT walls in the earlier attempt. The final visit used LEVEL IS HOT and won without undo or death, preserving all routing corrections."
+    }
   }
 ]

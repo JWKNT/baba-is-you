@@ -1732,5 +1732,90 @@
       "mechanics": "The belt shifts the rock off its floating word, temporarily removing PUSH so the word can catch up. Grounded rock sinks with water while floating text survives; the word also keeps Baba away from the water under FLAG.",
       "attempts": "Three branches, two restarts and no undos. The first rock-only route cleared the entrance but Baba died pushing FLAG. Constant ROCK IS PUSH separated the second stack and jammed the belt. The conditional third route earned Area Clear and the seventh flower."
     }
+  },
+  {
+    "id": "level-103",
+    "number": 103,
+    "title": "Slideshow",
+    "file": "/baba-is-you-media/media/103-slideshow.mp4",
+    "poster": "assets/level-103.jpg",
+    "seconds": 40.5,
+    "recorded": "2026-09-08",
+    "world": "The Map",
+    "code": "08",
+    "name": "Slideshow",
+    "notes": {
+      "approach": "Go around the open left end of the upper wall, cross above it, then descend around its right end and approach the flag. Keep track of positions relative to the board as it scrolls away.",
+      "mechanics": "LEVEL IS MOVE shifts the entire board downward each turn. The wall and dangerous rock positions stay fixed relative to Baba\u2019s route, even after they leave the window; the dark offscreen interval is part of the solve.",
+      "attempts": "One attempt, with no deaths, undos or restarts. Garden exit and overworld navigation are retained, followed by the scrolling route and victory that opens overworld levels 09 and 10."
+    }
+  },
+  {
+    "id": "level-104",
+    "number": 104,
+    "title": "Platformer",
+    "file": "/baba-is-you-media/media/104-platformer.mp4",
+    "poster": "assets/level-104.jpg",
+    "seconds": 263.766667,
+    "recorded": "2026-09-08",
+    "world": "Rocket Trip",
+    "code": "09",
+    "name": "Platformer",
+    "notes": {
+      "approach": "Carry Keke across the upper room on AND and a pushable rocket, using OPEN as a buffer to push from behind. Switch back to UFO IS PUSH so the staged UFO catches Keke near the door.",
+      "mechanics": "Alternate pushes of Keke and the two supports to keep FALL from dropping Keke. After the UFO catch, recover AND and OPEN to form KEKE IS FALL AND PUSH AND OPEN, then send Keke into the shut door and walk Baba to the flag.",
+      "attempts": "Both visits are retained, including the failed lower route, the UFO deactivation test, 11 undos and two restarts. The lower support train reached a wall, so the successful route carried Keke above it."
+    }
+  },
+  {
+    "id": "level-105",
+    "number": 105,
+    "title": "Bottleneck",
+    "file": "/baba-is-you-media/media/105-bottleneck.mp4",
+    "poster": "assets/level-105.jpg",
+    "seconds": 226.033333,
+    "recorded": "2026-09-08",
+    "world": "Rocket Trip",
+    "code": "08",
+    "name": "Bottleneck",
+    "notes": {
+      "approach": "Stage the rocket beside the upward belt and two inert stars near the skull gate. Form EMPTY AND ROCKET IS PUSH to launch the rocket remotely, then cross the gate before its journey activates SKULL IS DEFEAT.",
+      "mechanics": "Push through empty cells toward occupied endpoints. The stars let Baba return and push the PUSH word out of the rule; the rocket keeps riding SHIFT after losing PUSH. Seven moves after launch put Baba past the skull as FLAG IS WIN becomes active.",
+      "attempts": "Both visits retain all 443 inputs, including three restarts and 14 waits. Early launches activated the skull too soon; disabling rocket PUSH did not stop the belt. The attempted extra-IS extraction was blocked by a cloud, and a stranded noun required a restart."
+    }
+  },
+  {
+    "id": "level-106",
+    "number": 106,
+    "title": "Existential Crisis",
+    "file": "/baba-is-you-media/media/106-existential-crisis.mp4",
+    "poster": "assets/level-106.jpg",
+    "seconds": 224.166667,
+    "recorded": "2026-09-08",
+    "world": "Rocket Trip",
+    "code": "Extra 1",
+    "name": "Existential Crisis",
+    "notes": {
+      "approach": "Use EMPTY IS YOU to send the pushable rocket through the upper moon corridor and complete FLAG IS WIN. Keep Baba outside that trap, then ferry the pushable body through the lower entrance and moon barrier.",
+      "mechanics": "EMPTY can push only from an unoccupied source cell. Clouds and moons hold the body while the rules move; an inert star finally holds the noun pair while IS and YOU advance, restoring BABA IS YOU on the safe side of the moons.",
+      "attempts": "Both visits and all 62 undos are retained. The first visit trapped Baba in the upper shaft and exposed blocked push sources and stranded bottom-row words. The final visit corrected a displaced control column without undo and completed the rocket courier and star clamp without a restart."
+    }
+  },
+  {
+    "id": "level-107",
+    "number": 107,
+    "title": "The Pit",
+    "file": "/baba-is-you-media/media/107-the-pit.mp4",
+    "poster": "assets/level-107.jpg",
+    "seconds": 205.4,
+    "recorded": "2026-09-09",
+    "world": "Rocket Trip",
+    "code": "10",
+    "name": "The Pit",
+    "notes": {
+      "approach": "Give the star FALL to send it below both skull rows, then switch it to PUSH. Give the moon FALL and use the controlled star as a platform to carry it up to the door.",
+      "mechanics": "The falling moon lands safely on the star. At the doorway, a cloud blocks the moon while the star enters the SINK door and removes it; the moon survives the fall and crosses to the flag.",
+      "attempts": "Both visits are retained: an unfinished moon-first descent and a star-first setup restarted after PUSH became stranded. The successful setup rescues PUSH before moving the rules. One restart, no undos; the final star sacrifice is intentional."
+    }
   }
 ]

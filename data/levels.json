@@ -2055,5 +2055,22 @@
       "mechanics": "LEVEL IS HOT melts every MELT wall without requiring the key to enter a STOP wall. Shared YOU keeps Baba controlled while the key rule is temporarily broken, letting the two bodies cooperate to extract HOT. A controlled key wins as soon as KEY IS WIN forms.",
       "attempts": "All three visits remain, including the inspection-only middle visit, two whole-level deaths from LEVEL IS WEAK, 62 undos and no restarts. A HOT key could not enter the STOP/MELT walls in the earlier attempt. The final visit used LEVEL IS HOT and won without undo or death, preserving all routing corrections."
     }
+  },
+  {
+    "id": "level-122",
+    "number": 122,
+    "title": "Visiting Baba",
+    "file": "/baba-is-you-media-2/media/122-visiting-baba.mp4",
+    "poster": "assets/level-122.jpg",
+    "seconds": 163.766667,
+    "recorded": "2026-09-08",
+    "world": "Chasm",
+    "code": "Extra 6",
+    "name": "Visiting Baba",
+    "notes": {
+      "approach": "Teleport a fungus into the upper room and overlap it with the floating ROCK text. Push the shared noun stack beside the teleporter to make both ROCK IS PUSH and FUNGUS IS PUSH, then teleport Me out. Carry those rules through the one-way entrance and sink one rock and two fungi into the three water rows to reach Baba.",
+      "mechanics": "FUNGUS IS WORD lets the physical fungus and the floating ROCK text share the noun position in one vertical rule. Pushing both off the star preserves both PUSH rules while Me teleports away. These replacement rules remain active when entering the right room breaks its original FUNGUS IS PUSH rule.",
+      "attempts": "Two chronological visits are retained. The first tried exporting an IS past the skull with a rock and stopped without a finish. The second tested the shared noun stack, verified both PUSH rules after closing the door, and opened all three water gaps. Includes five undos, waits and blocked moves; no restart."
+    }
   }
 ]

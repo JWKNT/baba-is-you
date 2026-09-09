@@ -1817,5 +1817,90 @@
       "mechanics": "The falling moon lands safely on the star. At the doorway, a cloud blocks the moon while the star enters the SINK door and removes it; the moon survives the fall and crosses to the flag.",
       "attempts": "Both visits are retained: an unfinished moon-first descent and a star-first setup restarted after PUSH became stranded. The successful setup rescues PUSH before moving the rules. One restart, no undos; the final star sacrifice is intentional."
     }
+  },
+  {
+    "id": "level-108",
+    "number": 108,
+    "title": "Mouse Hole",
+    "file": "/baba-is-you-media/media/108-mouse-hole.mp4",
+    "poster": "assets/level-108.jpg",
+    "seconds": 274.9,
+    "recorded": "2026-09-08",
+    "world": "Volcanic Cavern",
+    "code": "04",
+    "name": "Mouse Hole",
+    "notes": {
+      "approach": "Make the physical bat PUSH and send it into the corner key, keeping the BAT word free. Restore ROCK IS PUSH from inside the shaft, extract the rock, and line it up behind the BAT word and key.",
+      "mechanics": "Pushing the word into the SWAP key sends the key back onto the following rock. ROCK ON KEY IS FLAG creates the winning flag. Using the physical bat for the corner swap preserves the extra word needed for this final push.",
+      "attempts": "All three visits remain, including the trapped corner swap, text-stacking probe, failed direct rock\u2013key swap and corrected word overpushes. Nine undos; no restarts or deaths."
+    }
+  },
+  {
+    "id": "level-109",
+    "number": 109,
+    "title": "The Heist",
+    "file": "/baba-is-you-media/media/109-the-heist.mp4",
+    "poster": "assets/level-109.jpg",
+    "seconds": 271.433333,
+    "recorded": "2026-09-09",
+    "world": "Volcanic Cavern",
+    "code": "08",
+    "name": "The Heist",
+    "notes": {
+      "approach": "Turn spare text on fire into a flag and teleport it downstairs. Turn that flag back into text to build FLAG IS OPEN, then consume the upper TEXT rule word to make a second physical flag. Push it through the teleporter and into the lava blocking the heart.",
+      "mechanics": "ON FIRE matches floating text over grounded fire. Converting text into a physical flag lets it use ICE IS TELE; converting it back supplies a FLAG word downstairs. The final FLAG IS PUSH and FLAG IS OPEN let the second flag remove the SHUT lava.",
+      "attempts": "The recording retains the mistaken scenery-as-flags assumption, the failed floating-word teleport test, routing corrections, 40 undos, two waits and one confirmed restart. No DEFEAT death was observed."
+    }
+  },
+  {
+    "id": "level-110",
+    "number": 110,
+    "title": "Maritime Adventures",
+    "file": "/baba-is-you-media/media/110-maritime-adventures.mp4",
+    "poster": "assets/level-110.jpg",
+    "seconds": 439.666667,
+    "recorded": "2026-09-08",
+    "world": "Flower Garden",
+    "code": "05",
+    "name": "Maritime Adventures",
+    "notes": {
+      "approach": "Placed four wall checkpoints and gave the hand MOVE continuously, with YOU only while ON WALL. Moved Baba to safety, then steered the hand through the switch and door to release the flag.",
+      "mechanics": "Leaving a wall removes YOU before the hand reaches DEFEAT lava, so MOVE carries it safely between checkpoints. YOU and MOVE give two steps when steering. The OPEN hand destroys the SHUT door; DOOR HAS FLAG leaves the winning flag for Baba.",
+      "attempts": "Both visits remain, including the initial shared-control experiment, navigation and word-routing mistakes, one restart, 101 undos and 36 waits. Some mistaken water-edge assumptions caused unnecessary rollbacks. No deaths observed."
+    }
+  },
+  {
+    "id": "level-111",
+    "number": 111,
+    "title": "Blockade",
+    "file": "/baba-is-you-media/media/111-blockade.mp4",
+    "poster": "assets/level-111.jpg",
+    "seconds": 264.8,
+    "recorded": "2026-09-08",
+    "world": "Flower Garden",
+    "code": "07",
+    "name": "Blockade",
+    "notes": {
+      "approach": "Used the pillar and rock to clear two adjacent water tiles for pushing positions. Relocated ROCK IS PUSH to turn the second object, then delivered floating PILLAR and ON words above WATER IS SINK.",
+      "mechanics": "PILLAR ON WATER IS SINK replaces the bare water rule. With both physical objects already consumed, the remaining water is harmless. Floating text survives the water, and activating PUSH while the Moon overlaps the rock lets it step below for the upward push.",
+      "attempts": "All three visits remain: the failed conditional rock extraction, the route that cleared only one water tile, and the final corner mistake with 19 undos. No restarts or deaths observed."
+    }
+  },
+  {
+    "id": "level-112",
+    "number": 112,
+    "title": "Coronation",
+    "file": "/baba-is-you-media/media/112-coronation.mp4",
+    "poster": "assets/level-112.jpg",
+    "seconds": 110.966667,
+    "recorded": "2026-09-09",
+    "world": "Volcanic Cavern",
+    "code": "Extra 1",
+    "name": "Coronation",
+    "notes": {
+      "approach": "Combine TEXT IS SWAP with ROCK IS PUSH, then stack the rock on the SWAP word and place WIN above it. Push upward to swap WIN beneath Keke and complete TEXT IS WIN in the same move.",
+      "mechanics": "Pushing winning text normally moves it away before contact. The final swap changes the rule while Keke overlaps WIN, producing the winning contact.",
+      "attempts": "Two visits retain the unsuccessful TEXT IS WIN and ROCK IS SWAP tests, the overlap experiments, and eight undos correcting a word-routing error. No restarts or deaths."
+    }
   }
 ]

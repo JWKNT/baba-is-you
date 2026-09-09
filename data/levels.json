@@ -1970,5 +1970,22 @@
       "mechanics": "Baba makes dangerous grass and the Kekes make dangerous tiles. The grass trail holds back the lower Kekes while the upper group preserves the relocated rule. The flag becomes Me under the rock, activating ROCK ON ME IS WIN; removing PUSH permits contact.",
       "attempts": "All four visits remain, including failed trail routes and earlier rock deliveries after the transformation rule had broken. Five Baba deaths and all 34 undo inputs are retained, with no restart. Three stationary waits in the final visit created lethal grass; undoing them and walking instead supplied the needed delay."
     }
+  },
+  {
+    "id": "level-117",
+    "number": 117,
+    "title": "Adventurers",
+    "file": "/baba-is-you-media/media/117-adventurers.mp4",
+    "poster": "assets/level-117.jpg",
+    "seconds": 571.033333,
+    "recorded": "2026-09-09",
+    "world": "Flower Garden",
+    "code": "10",
+    "name": "Adventurers",
+    "notes": {
+      "approach": "Use BABA MAKE BELT to lay separate routes for the two hands, then activate BELT IS SHIFT. Belts deliver HAND into HAND IS MOVE while Baba stays on the flag side. Cross the still-inert ice, stand on the flag, and wait for the hands to deliver DEFEAT and WIN.",
+      "mechanics": "MOVE and SHIFT combine to steer the couriers through the skulls. The lower hand needs a downward-facing landing belt to stay on its own route. One hand activates ICE IS DEFEAT; the other completes ICE AND FLAG IS WIN. Baba reaches the flag before the ice becomes dangerous.",
+      "attempts": "All three visits remain, including trapped couriers, incorrect belt directions and 201 undo inputs. Belts in the flag passage carried ice onto the flag and caused one Baba death, followed by one restart. The final layout leaves that passage free of belts and wins after nine walking inputs and thirteen waits."
+    }
   }
 ]

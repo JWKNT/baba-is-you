@@ -1647,5 +1647,90 @@
       "mechanics": "BABA IS KEKE and KEKE IS BABA change the character every turn. Baba can cross the conditional fire; Keke can cross hot lava. Waits adjust the form before each crossing.",
       "attempts": "298 inputs, one restart and ten undos. The first rule layout blocked the exit; a later FLAG push trapped the word against the bottom wall. Both mistakes and their recovery are retained. No deaths."
     }
+  },
+  {
+    "id": "level-98",
+    "number": 98,
+    "title": "Peril at Every Turn",
+    "file": "/baba-is-you-media/media/098-peril-at-every-turn.mp4",
+    "poster": "assets/level-98.jpg",
+    "seconds": 200.133333,
+    "recorded": "2026-09-08",
+    "world": "Volcanic Cavern",
+    "code": "02",
+    "name": "Peril at Every Turn",
+    "notes": {
+      "approach": "Use PUSH as a buffer to free the KEKE word from its skull cage while keeping both Babas alive. Bring KEKE into the room and use the two Babas to push IS and YOU down together, transferring control to Keke.",
+      "mechanics": "FLAG ON KEKE IS WIN requires Keke at the flag. Walls hold one Baba in place while the other moves, allowing the pair to line up for the simultaneous rule change.",
+      "attempts": "381 inputs, seven undos and one restart. The first branch includes two Baba deaths, one undone and one deliberate sacrifice, followed by an unsuccessful attempt to push Keke to the flag. The successful branch keeps both Babas for the control transfer."
+    }
+  },
+  {
+    "id": "level-99",
+    "number": 99,
+    "title": "Condition",
+    "file": "/baba-is-you-media/media/099-condition.mp4",
+    "poster": "assets/level-99.jpg",
+    "seconds": 78.633333,
+    "recorded": "2026-09-08",
+    "world": "Flower Garden",
+    "code": "01",
+    "name": "Condition",
+    "notes": {
+      "approach": "Move the intact control rule out of the grass-ring entrance. Rearrange the condition into GRASS ON KEKE IS KEY, then use a key created beneath Keke to open the door and reach the flag.",
+      "mechanics": "Changing the order of the nouns makes grass under Keke transform into a key. Keke remains controlled, while the new key is PUSH and OPEN and can unlock the SHUT door.",
+      "attempts": "122 inputs, including travel from Volcanic Cavern to Flower Garden. The first grass crossing killed Keke and was undone once. The remaining attempt rearranged the conditional rule and won without restarting."
+    }
+  },
+  {
+    "id": "level-100",
+    "number": 100,
+    "title": "Thicket",
+    "file": "/baba-is-you-media/media/100-thicket.mp4",
+    "poster": "assets/level-100.jpg",
+    "seconds": 57.033333,
+    "recorded": "2026-09-08",
+    "world": "Flower Garden",
+    "code": "02",
+    "name": "Thicket",
+    "notes": {
+      "approach": "Control the flag and form FLAG MAKE MOON with MOON IS OPEN. Clear a path through the shut grass, replace DEFEAT with WIN for Baba, then retrace the cleared route to touch Baba.",
+      "mechanics": "The flag creates OPEN moons beneath itself, removing SHUT grass without consuming the flag. Moving WIN also makes the remaining grass DEFEAT, so the return trip follows the path already cleared.",
+      "attempts": "105 inputs, with no deaths, undos or restarts. The attempt rearranged the MAKE rule, cleared the route, changed the win condition and returned safely."
+    }
+  },
+  {
+    "id": "level-101",
+    "number": 101,
+    "title": "Sorting Facility",
+    "file": "/baba-is-you-media/media/101-sorting-facility.mp4",
+    "poster": "assets/level-101.jpg",
+    "seconds": 103.333333,
+    "recorded": "2026-09-08",
+    "world": "Flower Garden",
+    "code": "03",
+    "name": "Sorting Facility",
+    "notes": {
+      "approach": "Form BELT ON ROCK IS SHIFT while keeping ROCK IS PUSH. Send the rock along the conveyor, push it onto water to make a key, then bring the key back along the lower lane to unlock the door.",
+      "mechanics": "The conditional rule activates a belt only when a rock occupies it. ROCK ON WATER IS KEY converts the cargo; the resulting key can return across the belts without being shifted.",
+      "attempts": "205 inputs and nine undos, with no deaths or restarts. An early route pushed PUSH into a corner; later misrouting required a different approach from below. All failed moves and recovery are retained."
+    }
+  },
+  {
+    "id": "level-102",
+    "number": 102,
+    "title": "Relaxing Spot",
+    "file": "/baba-is-you-media/media/102-relaxing-spot.mp4",
+    "poster": "assets/level-102.jpg",
+    "seconds": 137.5,
+    "recorded": "2026-09-08",
+    "world": "Flower Garden",
+    "code": "04",
+    "name": "Relaxing Spot",
+    "notes": {
+      "approach": "Form ROCK ON TEXT IS PUSH and carry the KEKE word on the rock across the belt. Sink the rock in the entrance water, then use the surviving word to push FLAG into IS WIN from a safe tile.",
+      "mechanics": "The belt shifts the rock off its floating word, temporarily removing PUSH so the word can catch up. Grounded rock sinks with water while floating text survives; the word also keeps Baba away from the water under FLAG.",
+      "attempts": "Three branches, two restarts and no undos. The first rock-only route cleared the entrance but Baba died pushing FLAG. Constant ROCK IS PUSH separated the second stack and jammed the belt. The conditional third route earned Area Clear and the seventh flower."
+    }
   }
 ]

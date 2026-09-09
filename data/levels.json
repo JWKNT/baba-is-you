@@ -1902,5 +1902,56 @@
       "mechanics": "Pushing winning text normally moves it away before contact. The final swap changes the rule while Keke overlaps WIN, producing the winning contact.",
       "attempts": "Two visits retain the unsuccessful TEXT IS WIN and ROCK IS SWAP tests, the overlap experiments, and eight undos correcting a word-routing error. No restarts or deaths."
     }
+  },
+  {
+    "id": "level-113",
+    "number": 113,
+    "title": "Broken Expectations",
+    "file": "/baba-is-you-media/media/113-broken-expectations.mp4",
+    "poster": "assets/level-113.jpg",
+    "seconds": 196.333333,
+    "recorded": "2026-09-09",
+    "world": "Volcanic Cavern",
+    "code": "14",
+    "name": "Broken Expectations",
+    "notes": {
+      "approach": "Open the upper passage before changing the text rules. Use Baba\u2019s SHIFT to overlap TEXT and IS, carry the stack into the lower recess, and form DOOR IS OPEN alongside TEXT IS SHUT. Activate FLAG IS WIN above, then push NOT into the door to reach the flag.",
+      "mechanics": "TEXT IS NOT PUSH lets SHIFT move one word onto another. Breaking that rule makes the overlapping words pushable together, so one cell can serve both crossing rules. A SHUT word opens the OPEN door.",
+      "attempts": "Three visits retain the blocked extractions, stacking experiments, 25 undos and one restart after building the lower rules before opening the upper route. No deaths."
+    }
+  },
+  {
+    "id": "level-114",
+    "number": 114,
+    "title": "Baba Doesn\u2019t Respond",
+    "file": "/baba-is-you-media/media/114-baba-doesnt-respond.mp4",
+    "poster": "assets/level-114.jpg",
+    "seconds": 369.7,
+    "recorded": "2026-09-07",
+    "world": "Deep Forest",
+    "code": "04",
+    "name": "Baba Doesn\u2019t Respond",
+    "notes": {
+      "approach": "Temporarily make BELT IS PUSH and arrange two belts to turn Baba down, then right into SHUT. Start Baba moving along the long lower row, cross the reed with Keke, and wait beyond it for Baba to open the door.",
+      "mechanics": "BABA IS MOVE supplies the delay; BELT IS SHIFT redirects Baba into the trigger. Moving SHUT makes the door both OPEN and SHUT, removing it, while also activating REED IS DEFEAT. Keke must cross the reed before that change.",
+      "attempts": "All ten visits remain, including inspection-only entries, failed short-shuttle timing, a reed death, and unsuccessful Baba-to-belt placements. The recording preserves 53 undo inputs and two restarts. The final visit uses no undo or restart."
+    }
+  },
+  {
+    "id": "level-115",
+    "number": 115,
+    "title": "Lovely House",
+    "file": "/baba-is-you-media/media/115-lovely-house.mp4",
+    "poster": "assets/level-115.jpg",
+    "seconds": 156.466667,
+    "recorded": "2026-09-09",
+    "world": "Deep Forest",
+    "code": "10",
+    "name": "Lovely House",
+    "notes": {
+      "approach": "Transform the rock into both a key and a second Baba with ROCK IS KEY AND BABA. Restore KEY IS PUSH, open the door, and guide the two Babas so one sinks a water tile and the other crosses the gap to the flag.",
+      "mechanics": "The composite transformation creates two objects from one rock. The key opens the SHUT door; the extra Baba supplies the separate sacrifice needed for WATER IS SINK. A heart holds one Baba while the other enters the water.",
+      "attempts": "An initial word-routing error used 16 undos. A key-only approach opened the door but left no spare Baba for the water, so 91 more undos returned to the staged rock. All 107 undo inputs remain; there was no restart. The final water sacrifice is intentional."
+    }
   }
 ]

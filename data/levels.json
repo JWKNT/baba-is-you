@@ -2157,5 +2157,90 @@
       "mechanics": "The shared GROUP applies YOU and HOT to both objects. Fixed identity rules prevent BOX IS ME from transforming the box. Moving MELT also shifts DEFEAT into STATUE IS DEFEAT, so the box crosses the statues before that change; ICE HAS FLAG supplies the target when the ice melts.",
       "attempts": "First visit. Blocked leftward pushes exposed the cliff beside the alcove. A BOX IS HOT placement used the noun slot needed by GROUP; eighteen undos restored that branch. A separate downward push against IS/HOT was also blocked. The dual-control route and final rule swap were inspected. All 218 inputs are retained, including eighteen undos, with no restart or death."
     }
+  },
+  {
+    "id": "level-128",
+    "number": 128,
+    "title": "Trick Door",
+    "file": "/baba-is-you-media-2/media/128-trick-door.mp4",
+    "poster": "assets/level-128.jpg",
+    "recorded": "2026-09-09",
+    "world": "Volcanic Cavern",
+    "code": "11",
+    "name": "Trick Door",
+    "notes": {
+      "approach": "Keep KEY IS PUSH while changing the ghost rule to GHOST NOT FACING WALL IS PUSH. Carry the ghost through the closing passage, form FLAG IS WIN, and push the ghost up to face the isolated wall. Bring the OPEN key onto the now non-PUSH ghost, then touch the flag it leaves behind.",
+      "mechanics": "The facing condition makes the ghost movable during transport and removes PUSH when it faces the wall, allowing the key to overlap it. KEY OPEN and GHOST SHUT consume both objects; GHOST HAS FLAG supplies the winning target. The tile transformation closes the doorway, but Baba can step off the newly formed wall.",
+      "attempts": "First visit. A direct tile-transformation trap test was undone once. Five more undos recovered the first crossing with an unconditional PUSH ghost, which would be trapped in the narrow throat. Blocked text-lifting attempts and the corrected shared-rule construction are retained. All 282 inputs remain, including six undos, with no restart or death."
+    },
+    "seconds": 152.733333
+  },
+  {
+    "id": "level-129",
+    "number": 129,
+    "title": "Shuffle",
+    "file": "/baba-is-you-media-2/media/129-shuffle.mp4",
+    "poster": "assets/level-129.jpg",
+    "recorded": "2026-09-09",
+    "world": "Mountaintop",
+    "code": "01",
+    "name": "Shuffle",
+    "notes": {
+      "approach": "Raise SKULL IS DEFEAT, shift the control row right, and route LONELY around the wall to the top of the skull rule. With BABA IS YOU and LONELY SKULL IS DEFEAT active, enter the bottom skull, cross the enclosure and touch the winning flag.",
+      "mechanics": "Moving LONELY from Baba to the skulls leaves Baba directly controlled. In the tested crossing, sharing a tile with Baba makes the skull non-lonely in time to avoid DEFEAT. The condition concerns shared occupancy, not the absence of adjacent neighbors.",
+      "attempts": "First visit, with no undo, restart or death. The recording includes the chronological overworld navigation and first inspection of Mountaintop. Lowering LONELY twice opened the route needed to lift it into the new rule. After checking the active rules, one separate upward input tested entry onto the skull; Baba survived, and the next moves reached the flag. All 128 logged inputs are retained."
+    },
+    "seconds": 88.566667
+  },
+  {
+    "id": "level-130",
+    "number": 130,
+    "title": "Love at First Sight",
+    "file": "/baba-is-you-media-2/media/130-love-at-first-sight.mp4",
+    "poster": "assets/level-130.jpg",
+    "recorded": "2026-09-09",
+    "world": "Mountaintop",
+    "code": "02",
+    "name": "Love at First Sight",
+    "notes": {
+      "approach": "Keep one bird on the border as a crossing point and move the other outside. Disable PUSH to export the floating rule words, rebuild BIRD IS PUSH, and send the outside bird around the lower corner to sink one outer ice tile. Reorder the words, push BIRD across the remaining ice to replace FLAG in the winning rule, then return to the surviving border bird.",
+      "mechanics": "LONELY LOVE IS YOU loses control on the occupied border, while LOVE ON BIRD IS YOU supplies control when Love shares the bird's tile. TEXT IS FLOAT lets the words cross the remaining ice. Reusing the fixed IS WIN changes the winning object to the surviving bird, whose tile also restores control on contact.",
+      "attempts": "First visit, with one undo and no restart. The first border crossing lost control; six further LEFT inputs had no effect before the undo restored the setup. The successful route used the lower corner to move one bird to the ice and retained the other as the winning bridge. Both rule inspections and all 200 logged inputs remain in the recording."
+    },
+    "seconds": 101.2
+  },
+  {
+    "id": "level-131",
+    "number": 131,
+    "title": "What Is Baba?",
+    "file": "/baba-is-you-media-2/media/131-what-is-baba.mp4",
+    "poster": "assets/level-131.jpg",
+    "recorded": "2026-09-09",
+    "world": "Mountaintop",
+    "code": "04",
+    "name": "What Is Baba?",
+    "notes": {
+      "approach": "Move the lonely BABA word between MOVE and UP to direct the physical Baba. Send Baba to the outer board edge and back to deliver IS, then arrange BABA IS YOU across occupied tiles so its words stay in place. Use the controlled Baba to retrieve the remaining IS and WIN and complete BABA IS WIN through the anchored control rule.",
+      "mechanics": "LONELY TEXT IS YOU controls text on otherwise empty tiles; markers, cliffs and bodies can hold words still by sharing their tiles. The drawn cliff does not stop Baba without a STOP rule: the automatic route bounces at the actual board edge. Anchoring BABA IS YOU enables physical pushes while a freed lonely word also responds to directional input.",
+      "attempts": "First visit, with four undos and no restart. Early marker and cliff placements lost control, and an automatic extra step required correcting the MOVE timing. A later UP input left IS on its cliff tile, so Baba had to get underneath and push it into place. All 119 logged inputs, waits, rule inspections and the final input during the victory transition are retained."
+    },
+    "seconds": 109.633333
+  },
+  {
+    "id": "level-132",
+    "number": 132,
+    "title": "Seeking Acceptance",
+    "file": "/baba-is-you-media-2/media/132-seeking-acceptance.mp4",
+    "poster": "assets/level-132.jpg",
+    "recorded": "2026-09-09",
+    "world": "Mountaintop",
+    "code": "07",
+    "name": "Seeking Acceptance",
+    "notes": {
+      "approach": "Use the moving bird to break the initial TILE transformation, then build LONELY BABA IS FLAG and FLAG ON TILE IS BABA, activating the output last from a safe tile. Time the bird behind each step off the tile strip: it pushes the resulting flag through the rubble and onto a tile that restores Baba. Cross the lower lane, redirect the bird through the upper lane, and walk up to the sun.",
+      "mechanics": "A lonely Baba becomes an uncontrolled PUSH flag on bare ground. The autonomous bird keeps moving and can push that flag through RUBBLE IS DEFEAT safely. FLAG ON TILE IS BABA restores direct control at the destination. The shared rule construction and delayed final FLAG placement keep Baba safe while the two transformations are assembled.",
+      "attempts": "First visit, with one undo and no restart or DEFEAT loss. The undo corrected lifting BABA before recovering the upper FLAG. A short conversion test verified loss and restoration of control before the two rubble crossings. Those uncontrolled FLAG phases were successful planned steps. All 293 logged inputs, including 93 waits, rule inspections and the staging correction, are retained."
+    },
+    "seconds": 191.033333
   }
 ]

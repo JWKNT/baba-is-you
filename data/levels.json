@@ -2480,5 +2480,22 @@
       "mechanics": "The inspected room contained Baba and a flag. Contact with the flag completed the level; the settled map showed 146 completed levels and nine flowers.",
       "attempts": "Capture gap: only entry and the initial pause are on video, presented at 2\u00d7 speed. The remaining eight logged inputs (resume and seven RIGHT moves) have no footage. A labelled appendix shows four original screenshots, including victory; no movement is reconstructed or replayed. No undo, restart, wait or death. Capture-gap details: data/pause-edits-146.json."
     }
+  },
+  {
+    "id": "level-147",
+    "number": 147,
+    "title": "Hostile Environment",
+    "world": "The Map",
+    "code": "10",
+    "name": "Hostile Environment",
+    "file": "/baba-is-you-media-2/media/147-hostile-environment.mp4",
+    "poster": "assets/level-147.jpg",
+    "seconds": 711.066667,
+    "recorded": "2026-09-10",
+    "notes": {
+      "approach": "Gave one Keke MOVE and WEAK, with KEKE HAS BABA active. Its first passage through the DEFEAT words destroys Baba. An inert flag placed on the return path then destroys Keke and recreates Baba; the new body completes FLAG IS WIN and reaches the flag.",
+      "mechanics": "A blocked MOVE bounces Keke without destroying it: the first six-wait test failed. In the successful test, Keke overlaps the inert flag on wait 12, WEAK destroys Keke, and HAS creates a controlled Baba after LEVEL IS DEFEAT has cleared.",
+      "attempts": "Nine chronological visits in 86 capture clips, including failed control, stacking, conversion and courier experiments: 2,145 logged inputs, 232 undos, four restarts and 27 waits. Presented at 2\u00d7 speed. Capture gap: setup14 inputs 7\u201310 (LEFT, LEFT, LEFT, DOWN) have no footage; an explicit card and the original result screenshot appear at that point. The remaining 2,141 inputs have video coverage. No clean replay. Details: data/pause-edits-147.json."
+    }
   }
 ]

@@ -113,3 +113,13 @@ Previous 59-level release 2ed15252ee7f1fe8ffa99ae2a152819882acdfe9 was verified 
 - Complete Approach / Mechanics / Attempts notes added. All30 tests pass, including deterministic rebuild, and git diff --check passes.
 - Browser QA: Jump → Leaf Chamber updated the video and notes; native keyboard playback advanced beyond6seconds without media errors. Desktop light, 390px dark, and 200% text checked, with no horizontal overflow. With JavaScript disabled, all66 native note disclosures and the Leaf Chamber direct MP4 remained available. Error log empty; viewport, text and script overrides restored.
 - Prior Jump release61a99fe verified via successful Actions34157931779 and public65count, media path and notes.
+
+## Raw footage totals and Hostile Environment — September 10, 2026
+
+147 levels plus 3 secret hunts now show captured duration before editing/speed changes. Total: 53 h 38 min 36 s (193115.548326 seconds), across 371 unique original captures. Shared sources are counted once; joined derivatives and missing video are excluded. Level147 contributes 6615.039999 seconds across 86 originals.
+
+Strict archived-media validation accepts absent published MP4s only with matching identity/path/duration and unchanged manifest hash from a verified inventory. New media must exist locally; posters remain required. All41 tests, deterministic build and diff checks passed.
+
+147: silent H.264 1680x960 yuv420p, 711.066667 seconds, 46154400 bytes; full decode passed. All2141 captured inputs map exactly once across214 gameplay segments. Four uncaptured setup14 inputs have a10second inline disclosure/original-result insert at556.000004s. Root inspected gap, original result, victory and147/9map at original resolution; an independent review matched four source/output geometry samples. Per-segment timing preserves30fps rounding.
+
+Root native local playback advanced beyond7seconds without errors; seek563 showed the original result disclosure. Desktop dark/light and keyboard focus were inspected.390px with200% root text had no horizontal overflow and readable notes. WithJavaScript disabled all150native note disclosures and raw sections remained present. Browser viewport/text/script overrides were restored. Player/history scripts and shared theme were unchanged; existing behavior tests passed.

@@ -1,13 +1,19 @@
-import {readFileSync,writeFileSync,existsSync} from 'node:fs';
-import {escape, duration, levelNumber, validateLevels, validateSecretHunts, catalogueMeta, localAssetURL} from './lib/catalogue.mjs';
+import {readFileSync,writeFileSync} from 'node:fs';
+import {escape, duration, levelNumber, validateLevels, validateSecretHunts, catalogueMeta} from './lib/catalogue.mjs';
 import {renderNotes} from './lib/notes.mjs';
 import {renderWorlds} from './lib/worlds.mjs';
 import {renderSecretHunts} from './lib/secret-hunts.mjs';
 import {ruleDivider} from './lib/ornament.mjs';
+import {mediaAvailability} from './lib/archived-media.mjs';
+import {rawFootageRecords,renderRawTotals} from './lib/raw-footage.mjs';
 const levels=JSON.parse(readFileSync(new URL('./data/levels.json',import.meta.url)));
 const secretHunts=JSON.parse(readFileSync(new URL('./data/secret-hunts.json',import.meta.url)));
-validateLevels(levels, path => existsSync(localAssetURL(path, new URL('./', import.meta.url))));
-validateSecretHunts(secretHunts, path => existsSync(localAssetURL(path, new URL('./', import.meta.url))));
+const root=new URL('./',import.meta.url);
+const archive=JSON.parse(readFileSync(new URL('data/archived-media.json',root)));
+const availability=mediaAvailability([...levels,...secretHunts],archive,root);
+validateLevels(levels, availability.exists);
+validateSecretHunts(secretHunts, availability.exists);
+const raw=rawFootageRecords(JSON.parse(readFileSync(new URL('data/raw-footage.json',root))));
 const meta=catalogueMeta(levels, secretHunts);
 const first=levels[0];
 const speeds=[1, 1.25, 1.5, 2, 3, 4].map(rate=>`<button type="button" data-playback-rate="${rate}" aria-pressed="${rate === 1}">${rate.toFixed(2)}×</button>`).join('');
@@ -28,6 +34,7 @@ writeFileSync(new URL('./index.html',import.meta.url),`<!doctype html>
 <header class="site-header site-header--identity"><div class="site-brand"><img class="site-mark" src="https://jehlp.net/site-theme/v2/marks/baba-is-you.png" width="32" height="32" alt=""><h1 class="site-title">Baba Is You</h1></div><nav aria-label="Page links"><button class="theme-toggle" type="button" data-theme-toggle aria-label="Use dark theme" aria-pressed="false">◐</button></nav></header>
 <main class="page-shell">
 <div class="intro"><p>${meta.count} level ${meta.count === 1 ? 'recording' : 'recordings'}${meta.secretHuntCount ? ` · ${meta.secretHuntCount} secret ${meta.secretHuntCount === 1 ? 'hunt' : 'hunts'}` : ''}</p><p>Latest <time datetime="${meta.latest}">${meta.latestLabel}</time></p></div>
+${renderRawTotals(levels,secretHunts,raw)}
 <div class="catalogue">
 <section class="player-section" aria-labelledby="playing-title" id="player" tabindex="-1">
  <div class="player-heading"><span id="playing-number" class="level-label">Level ${levelNumber(first.number)}</span><h2 id="playing-title">${escape(first.title)}</h2></div>
@@ -38,7 +45,7 @@ writeFileSync(new URL('./index.html',import.meta.url),`<!doctype html>
  <p id="player-status" role="status" aria-live="polite"></p>
 </section>
 <div class="recording-context">
-${renderNotes(levels, secretHunts)}
+${renderNotes(levels, secretHunts,raw)}
 <section class="level-section" aria-label="Recordings by world and secret hunting">
 ${ruleDivider}
 <div id="worlds">${worlds}${secretHunts.length ? `\n${renderSecretHunts(secretHunts)}` : ''}</div><p class="collection-note">Played with GPT-6 Astra.</p></section>

@@ -12,6 +12,36 @@ Recordings are silent, cropped to the game, and encoded at twice normal gameplay
 3. Add its unique `level-NN` id, number, title, approved file/poster paths, duration in seconds and ISO recording date to `data/levels.json`. Include `notes.approach`, `notes.mechanics`, and `notes.attempts`; the build rejects missing notes.
 4. Run `node build.mjs` and `node --test tests/*.test.mjs`. Check playback and layout, then commit the data, media, poster and generated HTML.
 
+### Raw footage data
+
+`data/raw-footage.json` supplies the Raw footage section beside each recording's
+notes and the separate level/secret-hunt totals. Add a record for each new entry:
+`id`, `capturedSeconds`, `originalCaptureCount`, `knownMissingInputs`, and
+`allocations` containing each original capture's SHA256 and `[start,end]`
+`sourceSecondsWindow`. These are original captured seconds, including menus and
+idle thinking, before edits or playback-speed changes. Use the full original
+capture duration for an exclusively assigned source. Shared sources need disjoint
+windows: level146 and Secret001 partition the same source at580.5 seconds. Joined
+copies, still-image appendices and missing video add no raw footage. The build
+rejects overlapping allocations or inconsistent sums; the data test requires an
+entry for every published recording. Missing data displays “unavailable”, never an
+invented duration. Source statistics and original evidence remain in the playthrough
+handoff; the public data retains the exact allocations needed to extend the totals.
+
+### Archived published media
+
+Already verified MP4s may be absent from these sparse local checkouts.
+`data/archived-media.json` records their exact ID/path/duration, byte count, SHA256,
+verified repository commit and local pause-manifest hash. The build accepts an
+absent MP4 only if the current recording and manifest match that specific verified
+entry. New media still must exist locally, and posters always must exist locally.
+Do not add an archive entry for an unpublished file or use it to bypass new-media
+QA. Refresh an entry only after exact media/publication verification. Published
+URLs and remote Git history remain intact; local native playback may require
+restoring the needed sparse MP4 or opening its verified public URL. Size tests use
+the physical file where present and the verified byte count only for matching
+archived entries.
+
 The build uses Node's standard library, with no install step. Preview from the parent directory with `python3 -m http.server 8765 --directory ..`, then open `/baba-is-you/`. Theme assets use the production shared theme. Level links open the video directly without JavaScript; JavaScript enhances selection and shareable `#level-NN` links. Picture-in-picture is left to browser-native controls where available. Selection never autoplays.
 
 The page has no dedicated download controls or save-slot label. `controlslist="nodownload"` asks supporting browsers to omit their download menu item; public video files remain accessible. Keep the direct level links as the native playback fallback.

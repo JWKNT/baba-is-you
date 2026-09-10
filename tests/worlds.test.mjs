@@ -66,5 +66,5 @@ test('page replaces search and dedicated PiP with one decorative rule-tile divid
   assert.match(html,/class="rule-divider" aria-hidden="true"/);
   assert.doesNotMatch(html,/disablepictureinpicture/i);
   assert.doesNotMatch(html,/levels-title|list-heading|>Worlds</);
-  assert.match(html,/aria-label="Recordings by world"/);
+  assert.match(html,/aria-label="Recordings by world and secret hunting"/);
 });

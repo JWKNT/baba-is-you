@@ -16,6 +16,43 @@ The build uses Node's standard library, with no install step. Preview from the p
 
 The page has no dedicated download controls or save-slot label. `controlslist="nodownload"` asks supporting browsers to omit their download menu item; public video files remain accessible. Keep the direct level links as the native playback fallback.
 
+## Add a secret hunt
+
+Secret hunting records map experiments and discoveries separately from completed
+level recordings. Add these records to `data/secret-hunts.json`, which may be an
+empty array. Use the same cropped, silent media and Approach, Mechanics and
+Attempts notes workflow as levels, with independent identities:
+
+```json
+{
+  "id": "secret-hunt-001",
+  "number": 1,
+  "title": "Map transformation",
+  "file": "/baba-is-you-media-2/media/secret-hunt-001-map-transformation.mp4",
+  "poster": "assets/secret-hunt-001.jpg",
+  "seconds": 90,
+  "recorded": "2026-09-10",
+  "notes": {
+    "approach": "Describe the recorded exploration.",
+    "mechanics": "Describe only observed interactions.",
+    "attempts": "Account for every chronological attempt and recording limit."
+  }
+}
+```
+
+The example duration and notes are illustrative. Use verified media values and
+actual observations when adding a record. Keep the pause manifest under
+`data/pause-edits-secret-hunt-001.json`. Number hunts independently, padding IDs
+to at least three digits. Do not add them to `levels.json` or use level IDs.
+
+Build and test as usual. Secret hunts appear in one native **Secret hunting**
+disclosure and use the existing player, notes, playback controls and history,
+including `#secret-hunt-001` links. Native MP4 links and all notes remain available
+without JavaScript. The introduction reports level recordings and secret hunts
+separately; hunts never increase the level count. Latest follows the newest
+recording date across both collections. Keep browser QA and media-first release
+checks for both kinds of recording.
+
 ## Catalogue contract
 
 `lib/worlds.mjs` groups recordings in first-seen world order, translating existing
@@ -37,7 +74,11 @@ masthead identity. Do not stack a second header rule against it.
 
 `assets/playback-speed.js` enhances a native video with six 1.00×–4.00× speed presets. The chosen speed survives clip changes for the current page session and follows changes made through native controls. It does not play, pause, seek, or store preferences. The group stays hidden without JavaScript; its segmented appearance comes from the existing shared component CSS.
 
-`lib/catalogue.mjs` validates level identity, real ISO dates, positive durations and approved media/poster paths. The build derives the recording count and latest recording date from the data, never from the build clock. Number labels support more than two digits. Keep catalogue metadata tests independent of the current recording count.
+`lib/catalogue.mjs` validates level and secret-hunt identities, real ISO dates,
+positive durations and approved media/poster paths. `lib/secret-hunts.mjs` uses
+the same group renderer as worlds. The build derives separate collection counts
+and the latest recording date from the data, never from the build clock. Number
+labels support additional digits. Keep metadata tests independent of current counts.
 
 `assets/player.js` owns selection and history. Selecting the same clip preserves playback; unrelated fragments such as the skip target do not change clips. Returning to the empty fragment restores the first recording. There is no custom PiP button or controller; native video functionality is not disabled. The runtime tests cover these contracts; they do not replace real browser/media checks.
 
@@ -49,6 +90,6 @@ Publish and verify companion videos before publishing their catalogue links. Eve
 
 Game art and gameplay belong to Hempuli. This repository contains the recorded playthroughs and the catalogue, not the game. Public authorship: jehlp.net.
 
-## Level notes
+## Recording notes
 
 Each recording has Approach, Mechanics, and Attempts alongside the video on desktop and below it on narrow screens. Notes follow selection and browser history. With JavaScript disabled, native disclosures expose every level’s notes. Keep notes grounded in the actual fresh attempt, including mistakes and undos.

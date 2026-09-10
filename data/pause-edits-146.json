@@ -1,0 +1,148 @@
+{
+  "source": "146.mov",
+  "sha256": "3b6dc9ee6227def9cdf09587c266ca83d91f42154d97019e778255e8e4a58111",
+  "sourceSeconds": 589.356667,
+  "keptIntervals": [
+    [
+      580.5,
+      589.356667
+    ]
+  ],
+  "playbackSpeed": 2.0,
+  "sourceRetainedSeconds": 8.856667000000016,
+  "expectedOutputSeconds": 32.42833350000001,
+  "outputSeconds": 32.4,
+  "inputCount": 2,
+  "policy": "Preserve the captured entry and pause at 2× speed. Resume and seven RIGHT inputs have no video. Append a labelled disclosure card and four original still screenshots only; no replay, interpolated frames or invented movement. Screenshot durations are output seconds, independent of recorded playback speed.",
+  "crop": "1680:960:14:56",
+  "sourceWindow": [
+    580.5,
+    589.356667
+  ],
+  "sourceEventRange": [
+    121,
+    130
+  ],
+  "sourceTotalInputCount": 130,
+  "recordedInputCount": 2,
+  "loggedInputCount": 10,
+  "uncapturedInputs": [
+    {
+      "eventNumber": 123,
+      "start": 1789053201.108557,
+      "end": 1789053201.251595,
+      "key": "E",
+      "sourceRelativeStart": 624.8536319732666,
+      "sourceRelativeEnd": 624.9966700077057
+    },
+    {
+      "eventNumber": 124,
+      "start": 1789053201.4372292,
+      "key": "R",
+      "end": 1789053201.558926,
+      "sourceRelativeStart": 625.1823041439056,
+      "sourceRelativeEnd": 625.3040010929108
+    },
+    {
+      "eventNumber": 125,
+      "start": 1789053231.29608,
+      "key": "R",
+      "end": 1789053231.438427,
+      "sourceRelativeStart": 655.0411550998688,
+      "sourceRelativeEnd": 655.183501958847
+    },
+    {
+      "eventNumber": 126,
+      "start": 1789053231.6231341,
+      "end": 1789053231.745693,
+      "key": "R",
+      "sourceRelativeStart": 655.3682091236115,
+      "sourceRelativeEnd": 655.49076795578
+    },
+    {
+      "eventNumber": 127,
+      "start": 1789053231.928371,
+      "end": 1789053232.050127,
+      "key": "R",
+      "sourceRelativeStart": 655.6734459400177,
+      "sourceRelativeEnd": 655.7952020168304
+    },
+    {
+      "eventNumber": 128,
+      "start": 1789053232.23061,
+      "end": 1789053232.354607,
+      "key": "R",
+      "sourceRelativeStart": 655.9756848812103,
+      "sourceRelativeEnd": 656.0996820926666
+    },
+    {
+      "eventNumber": 129,
+      "end": 1789053232.659028,
+      "start": 1789053232.535059,
+      "key": "R",
+      "sourceRelativeStart": 656.2801339626312,
+      "sourceRelativeEnd": 656.4041030406952
+    },
+    {
+      "eventNumber": 130,
+      "key": "R",
+      "start": 1789053241.126611,
+      "end": 1789053241.2717118,
+      "sourceRelativeStart": 664.8716859817505,
+      "sourceRelativeEnd": 665.016786813736
+    }
+  ],
+  "recordedOutputSeconds": 4.4,
+  "appendix": {
+    "kind": "capture-gap-screenshot-evidence",
+    "outputSeconds": 28,
+    "segments": [
+      {
+        "kind": "disclosure-card",
+        "outputSeconds": 8,
+        "file": "appendix-00-disclosure.mp4",
+        "text": "Capture gap — screenshot evidence\nVideo ends at the initial pause.\nThe next 8 logged inputs have no footage: resume + 7 RIGHT.\nOriginal screenshots follow. No replay or intermediate frames."
+      },
+      {
+        "kind": "original-screenshot",
+        "outputSeconds": 5,
+        "file": "appendix-01-screenshot.mp4",
+        "sourceImage": "notes/ultra-meta-question-right-test.png",
+        "sourceImageSha256": "3aba774ed7a6f2edfde5eb0e3d998e6b1fd94fe25fb99f07d2bff86ff6edfdbb",
+        "caption": "SCREENSHOT 1/4 · After RIGHT 1 — logged input 124\nMovement video unavailable; original screenshot evidence.",
+        "imagePresentation": "Game-only crop 1680:960:14:56, scaled to 1512×864 and padded to 1680×960 with a separate caption area; original unchanged."
+      },
+      {
+        "kind": "original-screenshot",
+        "outputSeconds": 5,
+        "file": "appendix-02-screenshot.mp4",
+        "sourceImage": "notes/ultra-meta-question-flag-approach.png",
+        "sourceImageSha256": "c48bfe9f163961edf91fd59feae03c898690b407e8ba6ce2c388fc0fdbf2964e",
+        "caption": "SCREENSHOT 2/4 · After RIGHT 6 — logged inputs 125–129\nMovement video unavailable; original screenshot evidence.",
+        "imagePresentation": "Game-only crop 1680:960:14:56, scaled to 1512×864 and padded to 1680×960 with a separate caption area; original unchanged."
+      },
+      {
+        "kind": "original-screenshot",
+        "outputSeconds": 5,
+        "file": "appendix-03-screenshot.mp4",
+        "sourceImage": "notes/ultra-meta-question-flag-contact.png",
+        "sourceImageSha256": "595e3345f5d841fa3ee0d8e0aeb431f0b133811677b3fa99cbd5f70a913c9488",
+        "caption": "SCREENSHOT 3/4 · RIGHT 7 reaches the flag — logged input 130\nVictory is observed in this original screenshot; video is unavailable.",
+        "imagePresentation": "Game-only crop 1680:960:14:56, scaled to 1512×864 and padded to 1680×960 with a separate caption area; original unchanged."
+      },
+      {
+        "kind": "original-screenshot",
+        "outputSeconds": 5,
+        "file": "appendix-04-screenshot.mp4",
+        "sourceImage": "notes/ultra-meta-question-settled.png",
+        "sourceImageSha256": "0b867ad2245eaebf4ab66477e52e16f63e73a6c9b515fa37cf9fcef91a80f602",
+        "caption": "SCREENSHOT 4/4 · Settled result — 146 completed, 9 flowers\nOriginal screenshot evidence; no missing movement is reconstructed.",
+        "imagePresentation": "Game-only crop 1680:960:14:56, scaled to 1512×864 and padded to 1680×960 with a separate caption area; original unchanged."
+      }
+    ],
+    "victorySeekSeconds": 24.9
+  },
+  "outputSha256": "8c90b81f39126da12795d3016c638d4f0ffda5557bbdd1e8e353dc4c00a78b5e",
+  "outputFile": "/baba-is-you-media-2/media/146-question-mark.mp4",
+  "representativePosterSeconds": 19.9
+}

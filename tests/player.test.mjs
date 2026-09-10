@@ -24,7 +24,7 @@ function element(properties = {}) {
   };
 }
 
-function setup({hash = '', explicitNumber = '2'} = {}) {
+function setup({hash = '', explicitNumber = '2', secretHunt = false} = {}) {
   const calls = {pause: 0, play: 0, load: 0, focus: 0, scroll: 0, history: []};
   const rows = [1, 2].map(number => {
     const id = `level-0${number}`;
@@ -42,6 +42,19 @@ function setup({hash = '', explicitNumber = '2'} = {}) {
       }
     };
   });
+  if (secretHunt) {
+    const link = element();
+    link.setAttribute('href', '/baba-is-you-media-2/media/secret-hunt-001.mp4');
+    rows.push({
+      dataset: {level: 'secret-hunt-001', number: '1', label: 'Secret hunt 001', title: 'Map transformation', poster: 'assets/secret-hunt-001.jpg'},
+      link,
+      querySelector(selector) {
+        if (selector === '[data-watch]') return link;
+        if (selector === '.duration') return {textContent: '3:10'};
+        throw new Error(`Unexpected row selector: ${selector}`);
+      },
+    });
+  }
   const video = element({
     readyState: 0, error: null, currentTime: 0,
     pause() { calls.pause++; },
@@ -184,4 +197,37 @@ test('notes follow selection and history without disturbing repeat playback', ()
   assert.equal(page.panels[1].hidden, true);
   page.navigate('#player');
   assert.equal(page.panels[0].hidden, false);
+});
+
+test('secret hunts share selection and notes while retaining their own labels and history IDs', () => {
+  const page = setup({secretHunt: true, hash: '#secret-hunt-001'});
+  assert.equal(page.video.src, '/baba-is-you-media-2/media/secret-hunt-001.mp4');
+  assert.equal(page.nodes['#playing-number'].textContent, 'Secret hunt 001');
+  assert.equal(page.panels[2].hidden, false);
+  assert.equal(page.panels[0].hidden, true);
+  page.video.currentTime = 17;
+  const loads = page.calls.load;
+  page.click(2);
+  assert.equal(page.status.textContent, '');
+  // Repeat selection keeps the existing announcement policy and does not reload.
+  assert.equal(page.video.currentTime, 17);
+  assert.equal(page.calls.load, loads);
+  assert.equal(page.calls.history.length, 0);
+  page.navigate('#player');
+  page.navigate('#unrelated');
+  assert.equal(page.video.currentTime, 17);
+  page.navigate('', 'popstate');
+  assert.equal(page.video.src, 'media/level-01.mp4');
+  assert.equal(page.nodes['#playing-number'].textContent, 'Level 01');
+  page.click(2);
+  assert.equal(page.status.textContent, 'Selected secret hunt 001: Map transformation.');
+  assert.deepEqual(page.calls.history, ['#secret-hunt-001']);
+  page.click(2);
+  assert.deepEqual(page.calls.history, ['#secret-hunt-001']);
+  page.navigate('#level-02', 'popstate');
+  page.navigate('#secret-hunt-001', 'popstate');
+  assert.equal(page.panels[2].hidden, false);
+  assert.equal(page.panels[1].hidden, true);
+  assert.equal(page.calls.play, 0);
+  assert.equal(page.click(2, {metaKey:true}).defaultPrevented, false);
 });

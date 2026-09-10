@@ -2412,5 +2412,73 @@
       "mechanics": "SWAP exchanged Baba and the word instead of pushing it. Displacing the property disabled the same rule that enabled the exchange.",
       "attempts": "One chronological attempt with all 18 inputs retained, including the rule inspection and map entry. No undo, restart, wait, or death. The initial visual misreading of SWAP as FLOAT was corrected in the pause before puzzle movement."
     }
+  },
+  {
+    "id": "level-143",
+    "number": 143,
+    "title": "Not Quite",
+    "file": "/baba-is-you-media-2/media/143-not-quite.mp4",
+    "poster": "assets/level-143.jpg",
+    "seconds": 70.733333,
+    "recorded": "2026-09-10",
+    "world": "Deep Forest",
+    "code": "B",
+    "name": "Not Quite",
+    "notes": {
+      "approach": "Moved WIN aside, then used repeated swaps to lift the flag into its old rule position. Pushed WIN back into the flag, restoring FLAG IS WIN while the flag swapped onto Baba.",
+      "mechanics": "A SWAP object can exchange with a pushed word. The final exchange placed the flag on Baba on the same turn that its WIN rule was restored. BABA IS YOU remained intact.",
+      "attempts": "One chronological attempt with all 35 inputs retained, including the initial rule inspection and each checked flag lift. No undo, restart, wait, or death."
+    }
+  },
+  {
+    "id": "level-144",
+    "number": 144,
+    "title": "Passing Through",
+    "file": "/baba-is-you-media-2/media/144-passing-through.mp4",
+    "poster": "assets/level-144.jpg",
+    "seconds": 247.566667,
+    "recorded": "2026-09-10",
+    "world": "Deep Forest",
+    "code": "C",
+    "name": "Passing Through",
+    "notes": {
+      "approach": "Turn the skull right with PUSH, then convert it to Keke for a moving SWAP pass through the grass. Convert Keke back to a skull for the return so the grass stays displaced. Repeat the rightward Keke pass to move the grass farther left, cross through the two cleared cells and reach the winning rock.",
+      "mechanics": "Keke’s fixed SWAP prevents the initial PUSH test from turning it. SKULL PUSH supplies directional control, and converting the skull to Keke preserves that direction. The non-SWAP skull return preserves the first grass displacement; the second SWAP pass opens a usable crossing. Inputs that break MOVE still advance the actor in the inspected cases.",
+      "attempts": "One continuous visit retains all 282 inputs, including 25 waits and three undos. The undos recover an unintended SKULL IS MOVE activation during word staging; later word-routing mistakes are repaired forward. Both grass passes and the full victory remain, with no restart, death or clean replay."
+    }
+  },
+  {
+    "id": "level-145",
+    "number": 145,
+    "title": "Salvage",
+    "file": "/baba-is-you-media-2/media/145-salvage.mp4",
+    "poster": "assets/level-145.jpg",
+    "seconds": 510.133333,
+    "recorded": "2026-09-10",
+    "world": "Deep Forest",
+    "code": "D",
+    "name": "Salvage",
+    "notes": {
+      "approach": "Push a six-word TEXT PULL train through the skull boundary, then reverse direction to retrieve the outside SWAP word. Add SWAP to the rule and pull twice to move a boundary skull outward. Disconnect SWAP, escape through the gap and use spare words as pushing buffers to recover FLAG and WIN safely. Build FLAG IS WIN outside the ring and reach the flag.",
+      "mechanics": "TEXT PULL moves the whole word train, including the outside SWAP. With TEXT PULL AND SWAP active, each inspected pull moves the boundary skull one cell outward. Fixed TEXT IS NOT WIN vetoes the temporary positive WIN clause. Extra words let Baba push a needed word beyond a deadly skull while stopping safely before it.",
+      "attempts": "One continuous visit retains all 343 inputs, construction, pull tests and forward repairs. The predicted multi-cell skull relay instead moves the skull one cell per tested input. An unintended FLAG displacement is repaired forward, and the recording retains the extra word retrieval. No undo, restart, wait, death or clean replay is used."
+    }
+  },
+  {
+    "id": "level-146",
+    "number": 146,
+    "title": "?",
+    "file": "/baba-is-you-media-2/media/146-question-mark.mp4",
+    "poster": "assets/level-146.jpg",
+    "seconds": 32.4,
+    "recorded": "2026-09-10",
+    "world": "The Map",
+    "code": "?",
+    "name": "?",
+    "notes": {
+      "approach": "Reached the isolated ? level after transforming Fragile Existence into a map Baba. Seven RIGHT inputs moved Baba to the flag; the final original screenshot shows the win.",
+      "mechanics": "The inspected room contained Baba and a flag. Contact with the flag completed the level; the settled map showed 146 completed levels and nine flowers.",
+      "attempts": "Capture gap: only entry and the initial pause are on video, presented at 2× speed. The remaining eight logged inputs (resume and seven RIGHT moves) have no footage. A labelled appendix shows four original screenshots, including victory; no movement is reconstructed or replayed. No undo, restart, wait or death. Capture-gap details: data/pause-edits-146.json."
+    }
   }
 ]

@@ -11,7 +11,7 @@ test('catalogue metadata follows recording dates rather than the build date', ()
     { ...levels[0], recorded: '2027-02-03' },
     { ...levels[0], number: 2, id: 'level-02', recorded: '2026-09-05' },
   ];
-  assert.deepEqual(catalogueMeta(fixture), { count: 2, latest: '2027-02-03', latestLabel: 'Feb 3, 2027' });
+  assert.deepEqual(catalogueMeta(fixture), { count: 2, secretHuntCount: 0, latest: '2027-02-03', latestLabel: 'Feb 3, 2027' });
 });
 
 test('identity, title, duration and date errors fail before rendering', () => {

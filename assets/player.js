@@ -22,11 +22,12 @@
 
     const link = row.querySelector('[data-watch]');
     const number = String(row.dataset.number ?? row.dataset.level.slice(6)).padStart(2, '0');
+    const label = row.dataset.label || `Level ${number}`;
     video.poster = row.dataset.poster;
     video.src = link.getAttribute('href');
     video.load();
     document.querySelector('#playing-title').textContent = row.dataset.title;
-    document.querySelector('#playing-number').textContent = `Level ${number}`;
+    document.querySelector('#playing-number').textContent = label;
     document.querySelector('#playing-duration').textContent = row.querySelector('.duration').textContent;
 
     for (const item of rows) {
@@ -35,7 +36,7 @@
       else watch.removeAttribute('aria-current');
     }
 
-    status.textContent = announce ? `Selected level ${number}: ${row.dataset.title}.` : '';
+    status.textContent = announce ? `Selected ${label.charAt(0).toLowerCase() + label.slice(1)}: ${row.dataset.title}.` : '';
     document.title = `${row.dataset.title} — Baba Is You · jehlp.net`;
   }
 
@@ -62,7 +63,7 @@
   fromHash();
 
   video.addEventListener('error', () => {
-    status.textContent = 'This clip could not be loaded. Reload the page or choose another level.';
+    status.textContent = 'This clip could not be loaded. Reload the page or choose another recording.';
   });
 
 })();

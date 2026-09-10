@@ -1,0 +1,155 @@
+{
+  "source": "149.mov",
+  "sha256": "c726a3eec98c409f6f25f5c6e94f31f2a0676471a912c0b4331cf739c4a8940e",
+  "sourceSeconds": 178.71,
+  "keptIntervals": [
+    [
+      0,
+      2.958533763885498
+    ],
+    [
+      17.833390712738037,
+      20.224462032318115
+    ],
+    [
+      37.40977668762207,
+      39.80281066894531
+    ],
+    [
+      44.24496865272522,
+      54.26838707923889
+    ],
+    [
+      81.10729813575745,
+      89.05489659309387
+    ],
+    [
+      93.5061981678009,
+      105.0319197177887
+    ],
+    [
+      123.93747591972351,
+      130.29307007789612
+    ],
+    [
+      134.81761693954468,
+      140.54581117630005
+    ],
+    [
+      152.24535111563108,
+      178.71
+    ]
+  ],
+  "playbackSpeed": 2,
+  "sourceRetainedSeconds": 75.78781477792361,
+  "expectedOutputSeconds": 37.89390738896181,
+  "outputSeconds": 37.9,
+  "inputCount": 49,
+  "policy": "Preserve every chronological captured input, blocked move, attempt and observed victory. Remove only idle gaps between padded action spans0.75seconds before and1.5seconds after; retain the winning-input-to-final-pause capture suffix in full. Encode2x, silent, no replay/gap replacements or invented motion.",
+  "crop": "1680:960:14:56",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 23
+  },
+  "category": "completed-level",
+  "sequence": 149,
+  "countsAsCompletedLevel": true,
+  "recordedInputCount": 49,
+  "loggedInputCount": 49,
+  "uncapturedInputs": [],
+  "outputSha256": "8fd32b61189c8081d0cbd2d1e0ee7a42b8d978c5603251f4191ea2f683d837d4",
+  "sourceParts": [
+    {
+      "source": "glitch-part1.mov",
+      "sha256": "344646760839e8d53ebbd09cdbfc1e4956351b2d1834ac775d2b36842cf451dd",
+      "sourceSeconds": 44.463333,
+      "joinedStart": 0,
+      "inputCount": 4,
+      "recordedInputCount": 4
+    },
+    {
+      "source": "glitch-part2.mov",
+      "sha256": "9f841645706f84b0d6dfc64ac238128e89f1b1026b17ca10e12ba78a33beba65",
+      "sourceSeconds": 49.263333,
+      "joinedStart": 44.463333,
+      "inputCount": 19,
+      "recordedInputCount": 19
+    },
+    {
+      "source": "glitch-part3.mov",
+      "sha256": "70a9424f1b15f5752d14ae841322ab88271e1663e8beee47ca4a0de185ea3510",
+      "sourceSeconds": 41.238333,
+      "joinedStart": 93.726666,
+      "inputCount": 19,
+      "recordedInputCount": 19
+    },
+    {
+      "source": "glitch-part4.mov",
+      "sha256": "4778f8da450cc41a1605fc8ec075ab281eb8129f615c3980682e152c928f9280",
+      "sourceSeconds": 43.77,
+      "joinedStart": 134.96499899999998,
+      "inputCount": 7,
+      "recordedInputCount": 7
+    }
+  ],
+  "sourceAssignment": "Completion149 Glitch exclusively uses four original glitch-part1..4 families, including navigation/entry. No source belongs to another recording. All originals and sidecars retained.",
+  "scope": "Shifted BABA IS YOU intact to free a staging column, formed vertical LOVE IS FLAG, then contacted the converted flag under FLAG IS WIN. Returned to??? map and paused at149/nine flowers.",
+  "rawCapturedSeconds": 178.734999,
+  "rawOriginalBytes": 12729036,
+  "originalCaptureCount": 4,
+  "sourceInventoryFiles": [
+    "source-inventory.json"
+  ],
+  "criticalSeeks": [
+    {
+      "state": "initial-board",
+      "part": 2,
+      "partSourceSeconds": 0.2,
+      "sourceSeconds": 44.663333,
+      "outputSeconds": 4.0805017060318,
+      "frame": "export-initial-board-full.png"
+    },
+    {
+      "state": "love-is-flag",
+      "part": 3,
+      "partSourceSeconds": 35.76640410423279,
+      "sourceSeconds": 129.4930701042328,
+      "outputSeconds": 21.397485841568,
+      "frame": "export-love-is-flag-full.png"
+    },
+    {
+      "state": "flag-adjacent",
+      "part": 4,
+      "partSourceSeconds": 4.780811977386475,
+      "sourceSeconds": 139.74581097738644,
+      "outputSeconds": 24.26158284732054,
+      "frame": "export-flag-adjacent-full.png"
+    },
+    {
+      "state": "winning-contact",
+      "part": 4,
+      "partSourceSeconds": 18.27534613609314,
+      "sourceSeconds": 153.2403451360931,
+      "outputSeconds": 25.15907995700836,
+      "frame": "export-winning-contact-full.png"
+    },
+    {
+      "state": "returned-map",
+      "part": 4,
+      "partSourceSeconds": 26.17534613609314,
+      "sourceSeconds": 161.14034513609312,
+      "outputSeconds": 29.109079957008362,
+      "frame": "export-returned-map-full.png"
+    },
+    {
+      "state": "final-pause-149",
+      "part": 4,
+      "partSourceSeconds": 43.636666999999996,
+      "sourceSeconds": 178.60166599999997,
+      "outputSeconds": 37.839740388961786,
+      "frame": "export-final-pause-149-full.png"
+    }
+  ],
+  "representativePosterSeconds": 21.397485841568
+}

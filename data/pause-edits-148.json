@@ -1,0 +1,119 @@
+{
+  "source": "148.mov",
+  "sha256": "db1966a50a4b7718cd41147fbfbe8536d24a14643044b29ec711d70895e6bc3e",
+  "sourceSeconds": 89.453333,
+  "keptIntervals": [
+    [
+      0,
+      2.171374797821045
+    ],
+    [
+      17.765629768371582,
+      20.160940170288086
+    ],
+    [
+      34.07230281829834,
+      37.235650062561035
+    ],
+    [
+      58.639044761657715,
+      89.453333
+    ]
+  ],
+  "playbackSpeed": 2,
+  "sourceRetainedSeconds": 38.54432068234253,
+  "expectedOutputSeconds": 19.272160341171265,
+  "outputSeconds": 19.3,
+  "inputCount": 6,
+  "policy": "Preserve every chronological captured input, blocked move, attempt and observed victory. Remove only idle gaps between padded action spans0.75seconds before and1.5seconds after; retain the winning-input-to-final-pause capture suffix in full. Encode2x, silent, no replay/gap replacements or invented motion.",
+  "crop": "1680:960:14:56",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 23
+  },
+  "category": "completed-level",
+  "sequence": 148,
+  "countsAsCompletedLevel": true,
+  "recordedInputCount": 6,
+  "loggedInputCount": 6,
+  "uncapturedInputs": [],
+  "outputSha256": "b545d5f7e38d7222ed7dd85ca002e5121736362863ef8d1c5e75432bb643d133",
+  "sourceParts": [
+    {
+      "source": "secret-hunt-006-part25.mov",
+      "sha256": "cabea2278d9337f93eaa77d01a0fae358f8f6f68a28bfad4fd599ae246e00dc6",
+      "sourceSeconds": 17.985,
+      "joinedStart": 0,
+      "inputCount": 1,
+      "recordedInputCount": 1
+    },
+    {
+      "source": "secret-hunt-006-part26.mov",
+      "sha256": "57320ed4868e51d948bf18193d1b053d56c1ff01ba33c2993b920782f970f150",
+      "sourceSeconds": 71.473333,
+      "joinedStart": 17.985,
+      "inputCount": 5,
+      "recordedInputCount": 5
+    }
+  ],
+  "sourceAssignment": "Completion148 Map exclusively uses original secret-hunt-006-part25 and part26, with filenames retained. Hunt006 contains only parts1\u201324; no source shared or double-counted. All originals retained.",
+  "scope": "Blocked RIGHT followed by recorded DOWN RIGHT RIGHT UP contacting the transformed overworld flag. Automatic transition to??? map, then pause confirms148/nine flowers.",
+  "rawCapturedSeconds": 89.458333,
+  "rawOriginalBytes": 27828473,
+  "originalCaptureCount": 2,
+  "sourceInventoryFiles": [
+    "source-inventory.json"
+  ],
+  "criticalSeeks": [
+    {
+      "state": "initial-map",
+      "part": 25,
+      "partSourceSeconds": 0.2,
+      "sourceSeconds": 0.2,
+      "outputSeconds": 0.1,
+      "frame": "export-initial-map-full.png"
+    },
+    {
+      "state": "blocked-right",
+      "part": 25,
+      "partSourceSeconds": 1.3713747978210449,
+      "sourceSeconds": 1.3713747978210449,
+      "outputSeconds": 0.6856873989105224,
+      "frame": "export-blocked-right-full.png"
+    },
+    {
+      "state": "before-winning-up",
+      "part": 26,
+      "partSourceSeconds": 41.10404510498047,
+      "sourceSeconds": 59.08904510498047,
+      "outputSeconds": 4.0900163936615,
+      "frame": "export-before-winning-up-full.png"
+    },
+    {
+      "state": "flag-contact",
+      "part": 26,
+      "partSourceSeconds": 41.64888510704041,
+      "sourceSeconds": 59.633885107040406,
+      "outputSeconds": 4.362436394691468,
+      "frame": "export-flag-contact-full.png"
+    },
+    {
+      "state": "new-map",
+      "part": 26,
+      "partSourceSeconds": 49.548885107040405,
+      "sourceSeconds": 67.5338851070404,
+      "outputSeconds": 8.312436394691467,
+      "frame": "export-new-map-full.png"
+    },
+    {
+      "state": "final-pause-148",
+      "part": 26,
+      "partSourceSeconds": 71.34,
+      "sourceSeconds": 89.325,
+      "outputSeconds": 19.207993841171266,
+      "frame": "export-final-pause-148-full.png"
+    }
+  ],
+  "representativePosterSeconds": 4.0900163936615
+}

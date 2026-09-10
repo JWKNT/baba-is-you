@@ -1,0 +1,557 @@
+{
+  "source": "150.mov",
+  "sha256": "f46ff6c14ecc3d95dd98162be4c6ece2b8043f45714e7850f52cbc053289fd2e",
+  "sourceSeconds": 934.745,
+  "keptIntervals": [
+    [
+      0,
+      2.941922664642334
+    ],
+    [
+      20.19467282295227,
+      34.83404803276062
+    ],
+    [
+      68.023854970932,
+      70.42025303840637
+    ],
+    [
+      74.74365711212158,
+      77.13838815689087
+    ],
+    [
+      81.59393668174744,
+      87.19280791282654
+    ],
+    [
+      100.58226656913757,
+      102.9747359752655
+    ],
+    [
+      125.08413577079773,
+      135.8938090801239
+    ],
+    [
+      153.91580939292908,
+      156.30594420433044
+    ],
+    [
+      160.56461024284363,
+      171.823333
+    ],
+    [
+      183.6141722202301,
+      187.55114102363586
+    ],
+    [
+      202.59052300453186,
+      204.98516583442688
+    ],
+    [
+      209.4956877231598,
+      218.7321798801422
+    ],
+    [
+      238.01654982566833,
+      244.2237527370453
+    ],
+    [
+      248.7397768497467,
+      257.9679386615753
+    ],
+    [
+      269.8733971118927,
+      279.5147397518158
+    ],
+    [
+      294.50029015541077,
+      296.89181876182556
+    ],
+    [
+      301.3107941150665,
+      310.5537531375885
+    ],
+    [
+      323.04658818244934,
+      332.2906939983368
+    ],
+    [
+      350.2318642139435,
+      354.31094241142273
+    ],
+    [
+      358.83261704444885,
+      368.0826427936554
+    ],
+    [
+      382.0496714115143,
+      391.3509666919708
+    ],
+    [
+      407.0726387500763,
+      415.6019546985626
+    ],
+    [
+      420.14106583595276,
+      429.37503838539124
+    ],
+    [
+      441.5681183338165,
+      450.8624379634857
+    ],
+    [
+      469.2205994129181,
+      473.1459438800812
+    ],
+    [
+      477.6280257701874,
+      486.8910882472992
+    ],
+    [
+      498.78680205345154,
+      508.2447679042816
+    ],
+    [
+      523.632892370224,
+      529.0810983181
+    ],
+    [
+      533.6095955371857,
+      542.8336751461029
+    ],
+    [
+      557.5732700824738,
+      566.8257048130035
+    ],
+    [
+      571.371354341507,
+      580.6447727680206
+    ],
+    [
+      598.3808510303497,
+      602.3141567707062
+    ],
+    [
+      606.8021748065948,
+      609.1938569545746
+    ],
+    [
+      627.4145128726959,
+      629.816456079483
+    ],
+    [
+      634.3095419406891,
+      637.5340559482574
+    ],
+    [
+      642.0451037883759,
+      645.9497830867767
+    ],
+    [
+      659.8812396526337,
+      662.2787902355194
+    ],
+    [
+      675.9396245479584,
+      683.7122619152069
+    ],
+    [
+      704.566015958786,
+      709.2482011318207
+    ],
+    [
+      713.7999670505524,
+      716.1909511089325
+    ],
+    [
+      729.1121580600739,
+      731.5104248523712
+    ],
+    [
+      749.2589280605316,
+      757.0105373859406
+    ],
+    [
+      761.5362482070923,
+      769.2618541717529
+    ],
+    [
+      794.0359811782837,
+      801.8004078865051
+    ],
+    [
+      806.3084423542023,
+      813.2679870128632
+    ],
+    [
+      833.1969082355499,
+      839.4063322544098
+    ],
+    [
+      843.9218859672546,
+      846.3101029396057
+    ],
+    [
+      867.7049241065979,
+      875.404040813446
+    ],
+    [
+      887.6719088554382,
+      892.3654284477234
+    ],
+    [
+      906.379255771637,
+      934.745
+    ]
+  ],
+  "playbackSpeed": 2,
+  "sourceRetainedSeconds": 336.9331785142975,
+  "expectedOutputSeconds": 168.46658925714874,
+  "outputSeconds": 168.433333,
+  "inputCount": 278,
+  "policy": "Preserve all 278 chronological captured inputs, failed moves, attempts, entry/return transitions and observed victory. Remove only idle gaps between padded action spans (0.75 seconds before and 1.5 seconds after). Retain the final winning-input-to-pause suffix in full. Encode at 2\u00d7, silent, with no replay/gap replacements or invented motion.",
+  "crop": "1680:960:14:56",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 23
+  },
+  "category": "completed-level",
+  "sequence": 150,
+  "countsAsCompletedLevel": true,
+  "recordedInputCount": 278,
+  "loggedInputCount": 278,
+  "uncapturedInputs": [],
+  "outputSha256": "18325adb20dee7f48c850a88d02095dfacb6bcb4c89e994c7ad803c3b924f352",
+  "sourceParts": [
+    {
+      "source": "error-part1.mov",
+      "sha256": "3a82d331ed8b22ce24aa471fce7d26b6992e58d591d18c381ac4f0b2ec13d706",
+      "sourceSeconds": 27.366667,
+      "joinedStart": 0,
+      "inputCount": 3,
+      "recordedInputCount": 3
+    },
+    {
+      "source": "error-part2.mov",
+      "sha256": "3b42ea5d417c38782c82bfe50a4b5b84dac704551e8f4b792665c62917e752f2",
+      "sourceSeconds": 47.606667,
+      "joinedStart": 27.366667,
+      "inputCount": 9,
+      "recordedInputCount": 9
+    },
+    {
+      "source": "error-part3.mov",
+      "sha256": "a911e16a00a2befb2e89465ac8c1f57c635ff7a6766e3cd0025ce55e5815507c",
+      "sourceSeconds": 6.773333,
+      "joinedStart": 74.973334,
+      "inputCount": 1,
+      "recordedInputCount": 1
+    },
+    {
+      "source": "error-part4.mov",
+      "sha256": "6c96b1f12799f9b84dcd1bfba12cbc5e78323ee124d4a4af21b77676b10cf397",
+      "sourceSeconds": 51.953333,
+      "joinedStart": 81.74666699999999,
+      "inputCount": 9,
+      "recordedInputCount": 9
+    },
+    {
+      "source": "new-area-navigation-part1.mov",
+      "sha256": "daf5e7801d2a06e72409bcc82079dbb137524d45631ae7434a6dee73e28d7e1c",
+      "sourceSeconds": 28.123333,
+      "joinedStart": 133.7,
+      "inputCount": 3,
+      "recordedInputCount": 3
+    },
+    {
+      "source": "error-part5.mov",
+      "sha256": "7f2da827bb86323d802e9f5d89a7a7d4f3c5dbd35721e4788a8890b2cd767657",
+      "sourceSeconds": 47.89,
+      "joinedStart": 161.823333,
+      "inputCount": 9,
+      "recordedInputCount": 9
+    },
+    {
+      "source": "error-part6.mov",
+      "sha256": "14dd3b3c7a27c13a1a5511569847d138bb2332ff8c5c73278119251c296eaa8a",
+      "sourceSeconds": 39.235,
+      "joinedStart": 209.71333299999998,
+      "inputCount": 16,
+      "recordedInputCount": 16
+    },
+    {
+      "source": "error-part7.mov",
+      "sha256": "84c1724b7b833e70c702905a7de62cd9bbdb33b88f777b4f426f503d807f7a32",
+      "sourceSeconds": 52.586667,
+      "joinedStart": 248.948333,
+      "inputCount": 21,
+      "recordedInputCount": 21
+    },
+    {
+      "source": "error-part8.mov",
+      "sha256": "c47e58b44ef4fc57585e8f272b1ebf5c1d5da5251eb2c43e68cf6ad5ec9ddbac",
+      "sourceSeconds": 57.53,
+      "joinedStart": 301.53499999999997,
+      "inputCount": 23,
+      "recordedInputCount": 23
+    },
+    {
+      "source": "error-part9.mov",
+      "sha256": "65bfab6dd279146caae8d4811121d7c3596723f708883a56aee8a3a368391e49",
+      "sourceSeconds": 61.305,
+      "joinedStart": 359.06499999999994,
+      "inputCount": 29,
+      "recordedInputCount": 29
+    },
+    {
+      "source": "error-part10.mov",
+      "sha256": "5e2ce4334d19b64afc17c31a04f80753e17139ac26dc8f3e7974ca11c033f1e6",
+      "sourceSeconds": 57.488333,
+      "joinedStart": 420.36999999999995,
+      "inputCount": 23,
+      "recordedInputCount": 23
+    },
+    {
+      "source": "error-part11.mov",
+      "sha256": "2aa779b02d86baa44aa6012ac48325c20563de261e89bc9f2e844f020a162268",
+      "sourceSeconds": 55.976667,
+      "joinedStart": 477.85833299999996,
+      "inputCount": 25,
+      "recordedInputCount": 25
+    },
+    {
+      "source": "error-part12.mov",
+      "sha256": "dc066273e0dd825a301d18b8f8ff69008b4f3c83c44d8bfe4f8da2feec903daa",
+      "sourceSeconds": 37.745,
+      "joinedStart": 533.8349999999999,
+      "inputCount": 20,
+      "recordedInputCount": 20
+    },
+    {
+      "source": "error-part13.mov",
+      "sha256": "f7edbb3b35d18a236f5cb2ed587a3abdef2b258d878dcfe9cbe28f26905dee76",
+      "sourceSeconds": 35.428333,
+      "joinedStart": 571.5799999999999,
+      "inputCount": 13,
+      "recordedInputCount": 13
+    },
+    {
+      "source": "error-part14.mov",
+      "sha256": "0d2cb60f697ff48062bdbe9574ff32c02b70a3b4cc2e27bd1c1e126ebe0115ea",
+      "sourceSeconds": 27.535,
+      "joinedStart": 607.0083329999999,
+      "inputCount": 2,
+      "recordedInputCount": 2
+    },
+    {
+      "source": "error-part15.mov",
+      "sha256": "3bacd95b94895ea9129c495c7e8411ce582b99fe1c414167e20b7450358cfdac",
+      "sourceSeconds": 7.723333,
+      "joinedStart": 634.5433329999998,
+      "inputCount": 2,
+      "recordedInputCount": 2
+    },
+    {
+      "source": "error-part16.mov",
+      "sha256": "0f471da86e525e636c17c7ab1c0a12b6800abd4277eaa3d1f47ff2dd91c9cf39",
+      "sourceSeconds": 71.756667,
+      "joinedStart": 642.2666659999999,
+      "inputCount": 16,
+      "recordedInputCount": 16
+    },
+    {
+      "source": "error-part17.mov",
+      "sha256": "19113511ad20de2e60e95a0dd0860c99e9589749a84ed62c142c77c69d12e346",
+      "sourceSeconds": 47.735,
+      "joinedStart": 714.0233329999999,
+      "inputCount": 10,
+      "recordedInputCount": 10
+    },
+    {
+      "source": "error-part18.mov",
+      "sha256": "f0a7668c29af6faece8a348f8b6670300bc9a34a25efe7c2ed02e3f8e813f4b3",
+      "sourceSeconds": 44.786667,
+      "joinedStart": 761.7583329999999,
+      "inputCount": 16,
+      "recordedInputCount": 16
+    },
+    {
+      "source": "error-part19.mov",
+      "sha256": "d3940c0949e22defa5fe4e6cc8c7d126200d16690b83acb5f59fb8e7194dfa95",
+      "sourceSeconds": 37.585,
+      "joinedStart": 806.5449999999998,
+      "inputCount": 13,
+      "recordedInputCount": 13
+    },
+    {
+      "source": "error-part20.mov",
+      "sha256": "fb53ec077ddf92f8bb31b510869a91dcf00fbfba30faba02235c85194fe453d5",
+      "sourceSeconds": 90.618333,
+      "joinedStart": 844.1299999999999,
+      "inputCount": 15,
+      "recordedInputCount": 15
+    }
+  ],
+  "sourceAssignment": "Completion150 Error exclusively uses error-part1..20 plus new-area-navigation-part1 between parts4 and5. All21 original families and sidecars remain retained with their original names. The navigation intermission is not a secret hunt and is not assigned elsewhere.",
+  "scope": "After two blocked lower-wall probes and blocked map routes, discovered pushable heading letters, spelled LOVE IS YOU, and transferred control to the heart. Reused the BABA control words to form BABA IS FLAG; the heart reached the converted flag. Returned to the ??? map and paused at150 completed/nine flowers.",
+  "rawCapturedSeconds": 934.748333,
+  "rawOriginalBytes": 43217085,
+  "originalCaptureCount": 21,
+  "sourceInventoryFiles": [
+    "source-inventory.json"
+  ],
+  "criticalSeeks": [
+    {
+      "state": "initial-board",
+      "part": 2,
+      "partSourceSeconds": 0.2,
+      "sourceSeconds": 27.566667,
+      "outputSeconds": 5.156958420845031,
+      "frame": "export-initial-board-full.png"
+    },
+    {
+      "state": "lower-wall-block",
+      "part": 2,
+      "partSourceSeconds": 41.90358600616455,
+      "sourceSeconds": 69.27025300616455,
+      "outputSeconds": 9.413847954841614,
+      "frame": "export-lower-wall-block-full.png"
+    },
+    {
+      "state": "flag-backing-block",
+      "part": 4,
+      "partSourceSeconds": 20.078068828582765,
+      "sourceSeconds": 101.82473582858276,
+      "outputSeconds": 14.606883738609312,
+      "frame": "export-flag-backing-block-full.png"
+    },
+    {
+      "state": "map-blocked-intermission",
+      "part": "navigation1",
+      "partSourceSeconds": 21.45594415664673,
+      "sourceSeconds": 155.1559441566467,
+      "outputSeconds": 21.206787848472587,
+      "frame": "export-map-blocked-intermission-full.png"
+    },
+    {
+      "state": "first-letter-push",
+      "part": 5,
+      "partSourceSeconds": 42.011832809448244,
+      "sourceSeconds": 203.83516580944823,
+      "outputSeconds": 30.0019550550537,
+      "frame": "export-first-letter-push-full.png"
+    },
+    {
+      "state": "love-is-you",
+      "part": 14,
+      "partSourceSeconds": 1.0355239868164063,
+      "sourceSeconds": 608.0438569868163,
+      "outputSeconds": 113.52660494213862,
+      "frame": "export-love-is-you-full.png"
+    },
+    {
+      "state": "love-rule-list",
+      "part": 14,
+      "partSourceSeconds": 22.008123111724853,
+      "sourceSeconds": 629.0164561117248,
+      "outputSeconds": 114.90257654553218,
+      "frame": "export-love-rule-list-full.png"
+    },
+    {
+      "state": "heart-control",
+      "part": 15,
+      "partSourceSeconds": 1.8407231330871583,
+      "sourceSeconds": 636.384056133087,
+      "outputSeconds": 116.33983362561028,
+      "frame": "export-heart-control-full.png"
+    },
+    {
+      "state": "first-breaking-U",
+      "part": 16,
+      "partSourceSeconds": 18.862124061584474,
+      "sourceSeconds": 661.1287900615844,
+      "outputSeconds": 119.49094838687128,
+      "frame": "export-first-breaking-U-full.png"
+    },
+    {
+      "state": "D5-control-restored",
+      "part": 17,
+      "partSourceSeconds": 1.0176180362701417,
+      "sourceSeconds": 715.04095103627,
+      "outputSeconds": 126.91385173683923,
+      "frame": "export-D5-control-restored-full.png"
+    },
+    {
+      "state": "D6-body-displaced",
+      "part": 17,
+      "partSourceSeconds": 16.337092018127443,
+      "sourceSeconds": 730.3604250181273,
+      "outputSeconds": 128.1129852521972,
+      "frame": "export-D6-body-displaced-full.png"
+    },
+    {
+      "state": "baba-is-flag",
+      "part": 20,
+      "partSourceSeconds": 1.0301030635833741,
+      "sourceSeconds": 845.1601030635833,
+      "outputSeconds": 147.51239905538935,
+      "frame": "export-baba-is-flag-full.png"
+    },
+    {
+      "state": "flag-adjacent",
+      "part": 20,
+      "partSourceSeconds": 62.749255895614624,
+      "sourceSeconds": 906.8792558956145,
+      "outputSeconds": 154.533717204956,
+      "frame": "export-flag-adjacent-full.png"
+    },
+    {
+      "state": "winning-contact",
+      "part": 20,
+      "partSourceSeconds": 63.24429903030396,
+      "sourceSeconds": 907.3742990303039,
+      "outputSeconds": 154.78123877230067,
+      "frame": "export-winning-contact-full.png"
+    },
+    {
+      "state": "returned-map",
+      "part": 20,
+      "partSourceSeconds": 71.14429903030396,
+      "sourceSeconds": 915.2742990303038,
+      "outputSeconds": 158.73123877230066,
+      "frame": "export-returned-map-full.png"
+    },
+    {
+      "state": "final-pause-150",
+      "part": 20,
+      "partSourceSeconds": 90.485,
+      "sourceSeconds": 934.6149999999999,
+      "outputSeconds": 168.39999966666667,
+      "frame": "export-final-pause-150-full.png"
+    }
+  ],
+  "representativePosterSeconds": 147.51239905538935,
+  "extraPreservedWindows": [
+    {
+      "part": 5,
+      "begin": 0,
+      "end": 10,
+      "reason": "Original part5 still has a wipe at7.5seconds; source9.5seconds is settled. Retain through10seconds, preserving ignored entry LUU and full actual transition."
+    }
+  ],
+  "extraPreservedSourceTails": [
+    {
+      "part": 1,
+      "event": 3
+    },
+    {
+      "part": 4,
+      "event": 9
+    },
+    {
+      "part": 20,
+      "event": 14
+    }
+  ]
+}

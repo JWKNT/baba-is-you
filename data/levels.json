@@ -2497,5 +2497,56 @@
       "mechanics": "A blocked MOVE bounces Keke without destroying it: the first six-wait test failed. In the successful test, Keke overlaps the inert flag on wait 12, WEAK destroys Keke, and HAS creates a controlled Baba after LEVEL IS DEFEAT has cleared.",
       "attempts": "Nine chronological visits in 86 capture clips, including failed control, stacking, conversion and courier experiments: 2,145 logged inputs, 232 undos, four restarts and 27 waits. Presented at 2\u00d7 speed. Capture gap: setup14 inputs 7\u201310 (LEFT, LEFT, LEFT, DOWN) have no footage; an explicit card and the original result screenshot appear at that point. The remaining 2,141 inputs have video coverage. No clean replay. Details: data/pause-edits-147.json."
     }
+  },
+  {
+    "id": "level-148",
+    "number": 148,
+    "title": "Map",
+    "world": "The Map",
+    "code": "Map",
+    "name": "Map",
+    "file": "/baba-is-you-media-2/media/148-map.mp4",
+    "poster": "assets/level-148.jpg",
+    "seconds": 19.3,
+    "recorded": "2026-09-10",
+    "notes": {
+      "approach": "After Hunt 006 turned Hostile Environment into an overworld flag, moved the map Baba around the blocked approach and onto that flag.",
+      "mechanics": "BABA IS YOU and FLAG IS WIN were active on the overworld. DOWN, RIGHT, RIGHT, UP brought Baba onto the transformed flag, triggering a transition to the ??? map. The settled pause showed 148 completed levels and nine flowers.",
+      "attempts": "All six inputs from two original captures are retained at 2\u00d7 speed: one blocked RIGHT, the four-move approach and the final pause. No undo, restart, explicit wait or death. Hunt 006\u2019s earlier transformation footage is allocated separately; no source is counted twice or used to repair level 147\u2019s historical gap."
+    }
+  },
+  {
+    "id": "level-149",
+    "number": 149,
+    "title": "Glitch",
+    "world": "???",
+    "code": "01",
+    "name": "Glitch",
+    "file": "/baba-is-you-media-2/media/149-glitch.mp4",
+    "poster": "assets/level-149.jpg",
+    "seconds": 37.9,
+    "recorded": "2026-09-10",
+    "notes": {
+      "approach": "Moved BABA IS YOU sideways as an intact rule to free a column for LOVE, IS and the trapped FLAG word. Then reached the flag created from the heart.",
+      "mechanics": "Shifting the entire control rule preserved Baba\u2019s movement while freeing the square above the spare IS. Pushing IS down and LOVE sideways formed vertical LOVE IS FLAG using the FLAG word from FLAG IS WIN. The heart became a flag, and the unchanged win rule made contact win.",
+      "attempts": "All 49 inputs across four chronological captures are retained at 2\u00d7 speed, including entry/navigation and the final pause. No undo, restart, explicit wait, failed move or death was observed. The returned ??? map pause confirms 149 completed levels and nine flowers."
+    }
+  },
+  {
+    "id": "level-150",
+    "number": 150,
+    "title": "Error",
+    "world": "???",
+    "code": "02",
+    "name": "Error",
+    "file": "/baba-is-you-media-2/media/150-error.mp4",
+    "poster": "assets/level-150.jpg",
+    "seconds": 168.433333,
+    "recorded": "2026-09-10",
+    "notes": {
+      "approach": "Reconsidered the heading after two blocked lower-wall probes. Its separate letters supplied LOVE, which let the heart take control while Baba became the winning flag.",
+      "mechanics": "Moved the intact BABA IS YOU row aside and arranged L, O, V and E vertically above IS YOU. The rule list and a shared movement test confirmed LOVE IS YOU. The heart then reused the BABA and IS words to make BABA IS FLAG with the trapped FLAG word. FLAG IS WIN remained active, so the controlled heart could reach the converted Baba.",
+      "attempts": "All 278 inputs across 21 chronological originals are retained at 2\u00d7 speed, including both failed lower-wall probes, blocked D/L map routes, reentry-time ignored LUU, the successful letter constructor, control timing checks, victory and final pause. No undo, restart, explicit wait or death was observed. The settled ??? map pause confirms 150 completed levels and nine flowers."
+    }
   }
 ]

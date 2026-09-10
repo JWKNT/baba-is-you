@@ -2242,5 +2242,90 @@
       "attempts": "First visit, with one undo and no restart or DEFEAT loss. The undo corrected lifting BABA before recovering the upper FLAG. A short conversion test verified loss and restoration of control before the two rubble crossings. Those uncontrolled FLAG phases were successful planned steps. All 293 logged inputs, including 93 waits, rule inspections and the staging correction, are retained."
     },
     "seconds": 191.033333
+  },
+  {
+    "id": "level-133",
+    "number": 133,
+    "title": "Connector",
+    "file": "/baba-is-you-media-2/media/133-connector.mp4",
+    "poster": "assets/level-133.jpg",
+    "recorded": "2026-09-09",
+    "world": "Mountaintop",
+    "code": "05",
+    "name": "Connector",
+    "notes": {
+      "approach": "Use the movable IS to control Baba in short steps while repositioning the words on their tiles. Build a shared BABA IS YOU and SUN IS SHUT cross against three wall backstops. Keep the cross intact as Baba opens the blocking sun, then move the lonely IS through the opened passage and push TEXT into the winning rule.",
+      "mechanics": "LONELY TEXT IS YOU controls the center IS, while the other rule words stay on their tiles. Walls hold that IS on UP, DOWN and RIGHT, preserving both control and SHUT during Baba's approach. OPEN Baba and the SHUT sun disappear together; the controlled IS remains available to finish TEXT IS WIN.",
+      "attempts": "Both visits are retained chronologically. The first visit used two undos to correct pushing SUN toward the outer boundary, then tested a simultaneous control-to-SHUT switch that left the sun intact. The second visit used the shared cross and completed the intentional OPEN sacrifice without an undo or restart. All 427 logged inputs, rule repairs, inspections and the failed timing test remain in the recording."
+    },
+    "seconds": 291.333333
+  },
+  {
+    "id": "level-134",
+    "number": 134,
+    "title": "Trapped",
+    "file": "/baba-is-you-media-2/media/134-trapped.mp4",
+    "poster": "assets/level-134.jpg",
+    "recorded": "2026-09-09",
+    "world": "Volcanic Cavern",
+    "code": "12",
+    "name": "Trapped",
+    "seconds": 149.7,
+    "notes": {
+      "approach": "Use BABA IS SHIFT to place an upward-facing box directly below a single wall, then switch to BOX IS SHIFT. Enter from below to land on the wall facing clear floor, lift FLAG into FLAG IS WIN, and follow the wall crossings and right passage to the flag.",
+      "mechanics": "WALL has no STOP rule, but BABA FACING WALL IS EMPTY makes the direction after each move critical. The shifted arrival and direct crossings survive because Baba faces clear floor beyond a one-cell wall. CLIFF IS STOP still blocks the separate cliff boundaries.",
+      "attempts": "Both visits are retained. The first found that BABA IS SHIFT moved the entered box instead of teleporting Baba; a later BOX IS SHIFT entry lost Baba and required one undo. The second changed the box position so the shifted arrival faced clear floor, then finished without an undo, restart or death. All 169 inputs remain."
+    }
+  },
+  {
+    "id": "level-135",
+    "number": 135,
+    "title": "Tunnel",
+    "file": "/baba-is-you-media-2/media/135-tunnel.mp4",
+    "poster": "assets/level-135.jpg",
+    "recorded": "2026-09-10",
+    "world": "Volcanic Cavern",
+    "code": "13",
+    "name": "Tunnel",
+    "seconds": 273.766667,
+    "notes": {
+      "approach": "Form SKULL NOT FACING SKULL IS PUSH and bring two skulls face to face over the fire. Walk across the resulting bridge, use the two right-hand skulls to sink the lava blocking the upper passage, raise IS into FLAG IS WIN, and return to the flag.",
+      "mechanics": "The belt delivers Baba behind the courier skull. NOT FACING makes that skull pushable until it faces the other skull; facing each other disables PUSH for both bridge pieces. FIRE NOT ON SKULL IS DEFEAT leaves their covered fire tiles safe to cross, while LAVA IS SINK consumes the two spare skulls.",
+      "attempts": "One continuous visit retains all 371 inputs, including nine waits, one death and 25 undos. The initial SKULL FACING NOT SKULL IS PUSH arrangement did not make the courier pushable, and Baba later died on uncovered fire. The rollback and swap to NOT FACING are retained; the corrected route finished without another death, undo or restart."
+    }
+  },
+  {
+    "id": "level-136",
+    "number": 136,
+    "title": "Join the Crew",
+    "file": "/baba-is-you-media-2/media/136-join-the-crew.mp4",
+    "poster": "assets/level-136.jpg",
+    "recorded": "2026-09-09",
+    "world": "Volcanic Cavern",
+    "code": "09",
+    "name": "Join the Crew",
+    "seconds": 194.166667,
+    "notes": {
+      "approach": "Alternate BABA and ROCK membership to move the rule down toward GROUP IS YOU while retaining control. Move the rock pushers clear of the final word column, restore Baba, and add BAT IS GROUP. With the bats gone, walk to the flag.",
+      "mechanics": "An inactive rock keeps STOP, so the control handoff must leave it outside the next word push. The alternating membership cycle lets Baba and the two rocks move different parts of the rule. Giving the DEFEAT bats GROUP membership also makes them YOU: all four disappear immediately while Baba stays controlled.",
+      "attempts": "Both visits and all 211 inputs are retained. The first direct BABA IS YOU handoff left an inactive STOP rock blocking the final GROUP push. The second used the alternating handoff and cleared the pushers before adding BAT. No undo, restart or player death occurred; removing the bats was the intentional final mechanic."
+    }
+  },
+  {
+    "id": "level-137",
+    "number": 137,
+    "title": "Heavy Words",
+    "file": "/baba-is-you-media-2/media/137-heavy-words.mp4",
+    "poster": "assets/level-137.jpg",
+    "recorded": "2026-09-08",
+    "world": "Rocket Trip",
+    "code": "11",
+    "name": "Heavy Words",
+    "seconds": 807.4,
+    "notes": {
+      "approach": "Use MOON IS WIN on the left floor to support DUST and WEAK at export height. Deliver WEAK, store STAR out of the shaft, then deliver the right-hand IS and DUST to form DUST IS WEAK below. Push the intact rule across the belt, destroy the upper dust and reach the winning moon from above.",
+      "mechanics": "Falling FLOAT text rests on other text, while the rocket cannot support it. The winning moon rule doubles as a platform, preserving both cargo words. Floating WEAK stays on the ground belt; shifting the completed DUST IS WEAK row lets the rocket cross while keeping dust contact safe. The lower dust need not be removed.",
+      "attempts": "All seven visits and 1,140 inputs remain, including 48 undos and three restarts. Earlier visits retain the fatal DUST IS WIN contact, an accidental belt crossing and death, failed support tests, and delivery-order experiments. The final visit completes the left support arrangement and lower rule without an undo, restart or death."
+    }
   }
 ]

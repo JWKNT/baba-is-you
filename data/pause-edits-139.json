@@ -328,9 +328,9 @@
       6002.720453977585
     ]
   ],
-  "outputSeconds": 802.2,
+  "outputSeconds": 401.1,
   "inputCount": 1002,
-  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
+  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio. Retained published footage re-encoded at 2x speed; original source intervals, recorded inputs and known capture gaps remain unchanged.",
   "crop": "1680:960:14:56",
   "localizedRepairs": [
     {
@@ -341,8 +341,8 @@
         475.7
       ],
       "editedSeconds": [
-        132.7,
-        139.13333333333333
+        66.35,
+        69.56666666666666
       ],
       "outputRectangle": [
         1124,
@@ -353,14 +353,76 @@
       "cleanFrameSourceSeconds": 469.1,
       "cleanPatchSha256": "c7fca53ef1c589029849647777b600cb40fc0f92dd72955401de82658df0204a",
       "preservedInputsInRepairWindow": 20,
-      "rawAndUnmaskedExportPreserved": true,
-      "evidence": "handoff/qa-139/toast-static-patch-audit.json"
+      "evidence": "handoff/qa-139/toast-static-patch-audit.json",
+      "rawAndUnmaskedExportPreservedAtRepairTime": true,
+      "currentRetentionNote": "Redundant published raw and the obsolete unmasked export were later removed after verification. Historical repair evidence and the repaired video remain."
     }
   ],
   "encoding": {
     "codec": "libx264",
     "preset": "fast",
-    "crf": 24,
-    "reason": "CRF20 draft exceeded 100 MiB; identical retained intervals and frame rate."
+    "crf": 26,
+    "pixelFormat": "yuv420p",
+    "faststart": true,
+    "transcodedFrom": "/baba-is-you-media-2/media/139-keep-out.mp4",
+    "transcodedFromSha256": "a1dc58ee8e78e50b292157ebb79bc67362624277c940523cee73b077e5aad2c1",
+    "outputSha256": "304c3781487d707e6839b0628f92cc8ee302fb1f7bcbd49f8e73c70bde55ca0d",
+    "outputBytes": 54120539,
+    "frameCount": 12033,
+    "framesPerSecond": 30,
+    "cropApplied": false,
+    "reason": "User-requested 2x re-encode of the already-cropped published MP4; no additional cuts."
+  },
+  "playbackSpeed": 2.0,
+  "sourceRetainedSeconds": 802.200802564621,
+  "expectedOutputSeconds": 401.1004012823105,
+  "outputSha256": "304c3781487d707e6839b0628f92cc8ee302fb1f7bcbd49f8e73c70bde55ca0d",
+  "outputFile": "/baba-is-you-media-2/media/139-keep-out.mp4",
+  "speedMigration": {
+    "version": 1,
+    "inputPlaybackSpeed": 1,
+    "targetPlaybackSpeed": 2,
+    "relativeSpeedFactor": 2,
+    "sourceManifestSha256": "f3c455cee6b3b3652a3efdeef0fcd630c01d3aea3c81394915dbbf5dab7e54ef",
+    "sourceMedia": {
+      "file": "/baba-is-you-media-2/media/139-keep-out.mp4",
+      "sha256": "a1dc58ee8e78e50b292157ebb79bc67362624277c940523cee73b077e5aad2c1",
+      "bytes": 96751350,
+      "seconds": 802.2
+    },
+    "previousEncoding": {
+      "codec": "libx264",
+      "preset": "fast",
+      "crf": 24,
+      "reason": "CRF20 draft exceeded 100 MiB; identical retained intervals and frame rate."
+    },
+    "previousLocalizedRepairs": [
+      {
+        "kind": "Adjacent clean-frame restoration of static game area covering a Steam notification",
+        "sourcePart": "keep-out-part3.mov",
+        "sourceSafeSeconds": [
+          469.3,
+          475.7
+        ],
+        "editedSeconds": [
+          132.7,
+          139.13333333333333
+        ],
+        "outputRectangle": [
+          1124,
+          816,
+          556,
+          144
+        ],
+        "cleanFrameSourceSeconds": 469.1,
+        "cleanPatchSha256": "c7fca53ef1c589029849647777b600cb40fc0f92dd72955401de82658df0204a",
+        "preservedInputsInRepairWindow": 20,
+        "rawAndUnmaskedExportPreserved": true,
+        "evidence": "handoff/qa-139/toast-static-patch-audit.json"
+      }
+    ],
+    "originalPolicy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
+    "historicalEvidence": "handoff/media-2x-migration/frozen-metadata.json and inventory.json",
+    "captureGapNote": "Known missing footage is unchanged; recorded-input coverage does not certify uncaptured inputs."
   }
 }

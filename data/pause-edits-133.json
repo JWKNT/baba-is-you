@@ -140,8 +140,46 @@
       2420.031183719635
     ]
   ],
-  "outputSeconds": 291.333333,
+  "outputSeconds": 145.666667,
   "inputCount": 427,
-  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
-  "crop": "1680:960:14:56"
+  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio. Retained published footage re-encoded at 2x speed; original source intervals, recorded inputs and known capture gaps remain unchanged.",
+  "crop": "1680:960:14:56",
+  "playbackSpeed": 2.0,
+  "sourceRetainedSeconds": 291.31844997406006,
+  "expectedOutputSeconds": 145.65922498703003,
+  "outputSha256": "6e13656fc07462316de5b3ba86d52a80d0c1272dd1bcc13e22c6a3bf6011d7ba",
+  "outputFile": "/baba-is-you-media-2/media/133-connector.mp4",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 26,
+    "pixelFormat": "yuv420p",
+    "faststart": true,
+    "transcodedFrom": "/baba-is-you-media-2/media/133-connector.mp4",
+    "transcodedFromSha256": "4c4a3cc88528b2dd357d4add509512b1184a37ad052aac8d30eafa8658d11c29",
+    "outputSha256": "6e13656fc07462316de5b3ba86d52a80d0c1272dd1bcc13e22c6a3bf6011d7ba",
+    "outputBytes": 15151920,
+    "frameCount": 4370,
+    "framesPerSecond": 30,
+    "cropApplied": false,
+    "reason": "User-requested 2x re-encode of the already-cropped published MP4; no additional cuts."
+  },
+  "speedMigration": {
+    "version": 1,
+    "inputPlaybackSpeed": 1,
+    "targetPlaybackSpeed": 2,
+    "relativeSpeedFactor": 2,
+    "sourceManifestSha256": "9a7f3b349c3a158f83101e0d5c2c0cbb98f4b30bb8a1328c2ab4fb290239c57a",
+    "sourceMedia": {
+      "file": "/baba-is-you-media-2/media/133-connector.mp4",
+      "sha256": "4c4a3cc88528b2dd357d4add509512b1184a37ad052aac8d30eafa8658d11c29",
+      "bytes": 40250024,
+      "seconds": 291.333333
+    },
+    "previousEncoding": null,
+    "previousLocalizedRepairs": [],
+    "originalPolicy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
+    "historicalEvidence": "handoff/media-2x-migration/frozen-metadata.json and inventory.json",
+    "captureGapNote": "Known missing footage is unchanged; recorded-input coverage does not certify uncaptured inputs."
+  }
 }

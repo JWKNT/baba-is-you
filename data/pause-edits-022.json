@@ -32,8 +32,46 @@
       392.4041750431061
     ]
   ],
-  "outputSeconds": 55.066667,
+  "outputSeconds": 27.533333,
   "inputCount": 105,
-  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
-  "crop": "1680:960:14:56"
+  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio. Retained published footage re-encoded at 2x speed; original source intervals, recorded inputs and known capture gaps remain unchanged.",
+  "crop": "1680:960:14:56",
+  "playbackSpeed": 2.0,
+  "sourceRetainedSeconds": 55.09186768531799,
+  "expectedOutputSeconds": 27.545933842658997,
+  "outputSha256": "17bbf98d5769e7f97c7207baf9df7c1159776652516b2927253eea6f0368a58c",
+  "outputFile": "media/022-submerged-ruins.mp4",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 26,
+    "pixelFormat": "yuv420p",
+    "faststart": true,
+    "transcodedFrom": "media/022-submerged-ruins.mp4",
+    "transcodedFromSha256": "5ebd6d8201022a5de8f81e57e74aa7377c75618eaccad4dea0cac5acfc04eebc",
+    "outputSha256": "17bbf98d5769e7f97c7207baf9df7c1159776652516b2927253eea6f0368a58c",
+    "outputBytes": 1524719,
+    "frameCount": 826,
+    "framesPerSecond": 30,
+    "cropApplied": false,
+    "reason": "User-requested 2x re-encode of the already-cropped published MP4; no additional cuts."
+  },
+  "speedMigration": {
+    "version": 1,
+    "inputPlaybackSpeed": 1,
+    "targetPlaybackSpeed": 2,
+    "relativeSpeedFactor": 2,
+    "sourceManifestSha256": "8ad2547865f8e7a0214956ead71d79f8862e4fe8bcc44bcfbda5fd6c7fa12a12",
+    "sourceMedia": {
+      "file": "media/022-submerged-ruins.mp4",
+      "sha256": "5ebd6d8201022a5de8f81e57e74aa7377c75618eaccad4dea0cac5acfc04eebc",
+      "bytes": 3043860,
+      "seconds": 55.066667
+    },
+    "previousEncoding": null,
+    "previousLocalizedRepairs": [],
+    "originalPolicy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
+    "historicalEvidence": "handoff/media-2x-migration/frozen-metadata.json and inventory.json",
+    "captureGapNote": "Known missing footage is unchanged; recorded-input coverage does not certify uncaptured inputs."
+  }
 }

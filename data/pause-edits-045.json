@@ -60,8 +60,46 @@
       656.9975700378418
     ]
   ],
-  "outputSeconds": 150.0,
+  "outputSeconds": 75.0,
   "inputCount": 320,
-  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
-  "crop": "1680:960:14:56"
+  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio. Retained published footage re-encoded at 2x speed; original source intervals, recorded inputs and known capture gaps remain unchanged.",
+  "crop": "1680:960:14:56",
+  "playbackSpeed": 2.0,
+  "sourceRetainedSeconds": 149.96014976501465,
+  "expectedOutputSeconds": 74.98007488250732,
+  "outputSha256": "393cc40326f801739cfb0885b4a507b960c665417a846165b9164eae7c1bacae",
+  "outputFile": "media/045-love-is-out-there.mp4",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 26,
+    "pixelFormat": "yuv420p",
+    "faststart": true,
+    "transcodedFrom": "media/045-love-is-out-there.mp4",
+    "transcodedFromSha256": "e815b10d6fd7ff205c160591c0d33ef05320f9ad701949f025cf5b9beda7aa82",
+    "outputSha256": "393cc40326f801739cfb0885b4a507b960c665417a846165b9164eae7c1bacae",
+    "outputBytes": 12638979,
+    "frameCount": 2250,
+    "framesPerSecond": 30,
+    "cropApplied": false,
+    "reason": "User-requested 2x re-encode of the already-cropped published MP4; no additional cuts."
+  },
+  "speedMigration": {
+    "version": 1,
+    "inputPlaybackSpeed": 1,
+    "targetPlaybackSpeed": 2,
+    "relativeSpeedFactor": 2,
+    "sourceManifestSha256": "ec0c6b23d9ef05b8d75e042b25e7d3e86629bd7c36b671e1e3e7556169835b08",
+    "sourceMedia": {
+      "file": "media/045-love-is-out-there.mp4",
+      "sha256": "e815b10d6fd7ff205c160591c0d33ef05320f9ad701949f025cf5b9beda7aa82",
+      "bytes": 28808074,
+      "seconds": 150.0
+    },
+    "previousEncoding": null,
+    "previousLocalizedRepairs": [],
+    "originalPolicy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
+    "historicalEvidence": "handoff/media-2x-migration/frozen-metadata.json and inventory.json",
+    "captureGapNote": "Known missing footage is unchanged; recorded-input coverage does not certify uncaptured inputs."
+  }
 }

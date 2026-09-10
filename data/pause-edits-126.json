@@ -72,9 +72,47 @@
       511.9923748970032
     ]
   ],
-  "outputSeconds": 110.0,
+  "outputSeconds": 55.0,
   "inputCount": 183,
-  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. Retain 20 seconds after the final input for victory, Area Clear and the ninth flower. No audio.",
+  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. Retain 20 seconds after the final input for victory, Area Clear and the ninth flower. No audio. Retained published footage re-encoded at 2x speed; original source intervals, recorded inputs and known capture gaps remain unchanged.",
   "crop": "1680:960:14:56",
-  "tailSeconds": 20
+  "tailSeconds": 20,
+  "playbackSpeed": 2.0,
+  "sourceRetainedSeconds": 109.9520115852356,
+  "expectedOutputSeconds": 54.9760057926178,
+  "outputSha256": "dff1d6a3bf87ebd2e8c05a6a48c3c9784b566fa1a6e79d0febeee771f0b83b08",
+  "outputFile": "/baba-is-you-media-2/media/126-vital-ingredients.mp4",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 26,
+    "pixelFormat": "yuv420p",
+    "faststart": true,
+    "transcodedFrom": "/baba-is-you-media-2/media/126-vital-ingredients.mp4",
+    "transcodedFromSha256": "5cb1890b187e6b2da63490f6defdd54b239ce308b745ca61455dac44c4686614",
+    "outputSha256": "dff1d6a3bf87ebd2e8c05a6a48c3c9784b566fa1a6e79d0febeee771f0b83b08",
+    "outputBytes": 6069220,
+    "frameCount": 1650,
+    "framesPerSecond": 30,
+    "cropApplied": false,
+    "reason": "User-requested 2x re-encode of the already-cropped published MP4; no additional cuts."
+  },
+  "speedMigration": {
+    "version": 1,
+    "inputPlaybackSpeed": 1,
+    "targetPlaybackSpeed": 2,
+    "relativeSpeedFactor": 2,
+    "sourceManifestSha256": "06cb480142626dc0a2d459492f5c6469acc6f3337f5d46dd781555b08dcfb394",
+    "sourceMedia": {
+      "file": "/baba-is-you-media-2/media/126-vital-ingredients.mp4",
+      "sha256": "5cb1890b187e6b2da63490f6defdd54b239ce308b745ca61455dac44c4686614",
+      "bytes": 15286730,
+      "seconds": 110.0
+    },
+    "previousEncoding": null,
+    "previousLocalizedRepairs": [],
+    "originalPolicy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. Retain 20 seconds after the final input for victory, Area Clear and the ninth flower. No audio.",
+    "historicalEvidence": "handoff/media-2x-migration/frozen-metadata.json and inventory.json",
+    "captureGapNote": "Known missing footage is unchanged; recorded-input coverage does not certify uncaptured inputs."
+  }
 }

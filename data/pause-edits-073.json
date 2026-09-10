@@ -128,16 +128,16 @@
       2660.997568130493
     ]
   ],
-  "outputSeconds": 239.5,
+  "outputSeconds": 119.766667,
   "inputCount": 540,
-  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
+  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio. Retained published footage re-encoded at 2x speed; original source intervals, recorded inputs and known capture gaps remain unchanged.",
   "crop": "1680:960:14:56",
   "localizedRepairs": [
     {
       "reason": "Steam notification over fixed lower-right rule and border; no moving gameplay object in region",
       "editedSeconds": [
-        125.266667,
-        128.333333
+        62.6333335,
+        64.1666665
       ],
       "rectangle": [
         1128,
@@ -145,9 +145,65 @@
         552,
         140
       ],
-      "cleanFrameEditedSeconds": 124.5,
-      "originalPreserved": "recordings/073-unmasked.mp4",
-      "method": "Overlay clean region only; retain all frames and inputs"
+      "cleanFrameEditedSeconds": 62.25,
+      "method": "Overlay clean region only; retain all frames and inputs",
+      "historicalOriginalPath": "recordings/073-unmasked.mp4",
+      "currentRetentionNote": "The redundant unmasked export was removed after published-replacement verification during authorized cleanup. Repair evidence and the repaired video remain."
     }
-  ]
+  ],
+  "playbackSpeed": 2.0,
+  "sourceRetainedSeconds": 239.5208387374878,
+  "expectedOutputSeconds": 119.7604193687439,
+  "outputSha256": "041f1fbc50c7041c760cdf4195e84809a1961d6bd5fc0892d205fd111d28d6da",
+  "outputFile": "/baba-is-you-media/media/073-evaporating-river.mp4",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 26,
+    "pixelFormat": "yuv420p",
+    "faststart": true,
+    "transcodedFrom": "/baba-is-you-media/media/073-evaporating-river.mp4",
+    "transcodedFromSha256": "8d83f449daac06d4375bb8bd00d3ddde1dd59bd03f08b9e908a52ad20c495d1f",
+    "outputSha256": "041f1fbc50c7041c760cdf4195e84809a1961d6bd5fc0892d205fd111d28d6da",
+    "outputBytes": 5932195,
+    "frameCount": 3593,
+    "framesPerSecond": 30,
+    "cropApplied": false,
+    "reason": "User-requested 2x re-encode of the already-cropped published MP4; no additional cuts."
+  },
+  "speedMigration": {
+    "version": 1,
+    "inputPlaybackSpeed": 1,
+    "targetPlaybackSpeed": 2,
+    "relativeSpeedFactor": 2,
+    "sourceManifestSha256": "f3b34414f110577c494acdcb4d3a1a94936679885b010e13ccba18603c4ad4be",
+    "sourceMedia": {
+      "file": "/baba-is-you-media/media/073-evaporating-river.mp4",
+      "sha256": "8d83f449daac06d4375bb8bd00d3ddde1dd59bd03f08b9e908a52ad20c495d1f",
+      "bytes": 13435172,
+      "seconds": 239.5
+    },
+    "previousEncoding": null,
+    "previousLocalizedRepairs": [
+      {
+        "reason": "Steam notification over fixed lower-right rule and border; no moving gameplay object in region",
+        "editedSeconds": [
+          125.266667,
+          128.333333
+        ],
+        "rectangle": [
+          1128,
+          820,
+          552,
+          140
+        ],
+        "cleanFrameEditedSeconds": 124.5,
+        "originalPreserved": "recordings/073-unmasked.mp4",
+        "method": "Overlay clean region only; retain all frames and inputs"
+      }
+    ],
+    "originalPolicy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
+    "historicalEvidence": "handoff/media-2x-migration/frozen-metadata.json and inventory.json",
+    "captureGapNote": "Known missing footage is unchanged; recorded-input coverage does not certify uncaptured inputs."
+  }
 }

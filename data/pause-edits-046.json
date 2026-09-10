@@ -56,8 +56,46 @@
       724.1836168766022
     ]
   ],
-  "outputSeconds": 115.933333,
+  "outputSeconds": 57.966667,
   "inputCount": 262,
-  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
-  "crop": "1680:960:14:56"
+  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio. Retained published footage re-encoded at 2x speed; original source intervals, recorded inputs and known capture gaps remain unchanged.",
+  "crop": "1680:960:14:56",
+  "playbackSpeed": 2.0,
+  "sourceRetainedSeconds": 115.87762928009033,
+  "expectedOutputSeconds": 57.938814640045166,
+  "outputSha256": "c00b92d1df495b84959524555d7cbb4c0c67529ced55e4c81eea74c9e6fce58b",
+  "outputFile": "media/046-perilous-gang.mp4",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 26,
+    "pixelFormat": "yuv420p",
+    "faststart": true,
+    "transcodedFrom": "media/046-perilous-gang.mp4",
+    "transcodedFromSha256": "96ce3297f3f6a4e49473749aa9aebe8cdf66925e11a89916a73b51e9ad3cba21",
+    "outputSha256": "c00b92d1df495b84959524555d7cbb4c0c67529ced55e4c81eea74c9e6fce58b",
+    "outputBytes": 4616853,
+    "frameCount": 1739,
+    "framesPerSecond": 30,
+    "cropApplied": false,
+    "reason": "User-requested 2x re-encode of the already-cropped published MP4; no additional cuts."
+  },
+  "speedMigration": {
+    "version": 1,
+    "inputPlaybackSpeed": 1,
+    "targetPlaybackSpeed": 2,
+    "relativeSpeedFactor": 2,
+    "sourceManifestSha256": "359df6341a42a9f2e4c885404a2593c62c4bab1ea9082c360f012025c068c24b",
+    "sourceMedia": {
+      "file": "media/046-perilous-gang.mp4",
+      "sha256": "96ce3297f3f6a4e49473749aa9aebe8cdf66925e11a89916a73b51e9ad3cba21",
+      "bytes": 11185715,
+      "seconds": 115.933333
+    },
+    "previousEncoding": null,
+    "previousLocalizedRepairs": [],
+    "originalPolicy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
+    "historicalEvidence": "handoff/media-2x-migration/frozen-metadata.json and inventory.json",
+    "captureGapNote": "Known missing footage is unchanged; recorded-input coverage does not certify uncaptured inputs."
+  }
 }

@@ -36,8 +36,46 @@
       508.0161039829254
     ]
   ],
-  "outputSeconds": 64.2,
+  "outputSeconds": 32.1,
   "inputCount": 128,
-  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
-  "crop": "1680:960:14:56"
+  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio. Retained published footage re-encoded at 2x speed; original source intervals, recorded inputs and known capture gaps remain unchanged.",
+  "crop": "1680:960:14:56",
+  "playbackSpeed": 2.0,
+  "sourceRetainedSeconds": 64.1975212097168,
+  "expectedOutputSeconds": 32.0987606048584,
+  "outputSha256": "0c106b4c21dbb4ff627ccb88cc5bfa02e68d0ce03c6580d62dabac193a27f921",
+  "outputFile": "media/050-renovating.mp4",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 26,
+    "pixelFormat": "yuv420p",
+    "faststart": true,
+    "transcodedFrom": "media/050-renovating.mp4",
+    "transcodedFromSha256": "2dd0e13956900ad3c16caa5f19d4ec33cf98570af2ce3df0606961d1c5164633",
+    "outputSha256": "0c106b4c21dbb4ff627ccb88cc5bfa02e68d0ce03c6580d62dabac193a27f921",
+    "outputBytes": 3977237,
+    "frameCount": 963,
+    "framesPerSecond": 30,
+    "cropApplied": false,
+    "reason": "User-requested 2x re-encode of the already-cropped published MP4; no additional cuts."
+  },
+  "speedMigration": {
+    "version": 1,
+    "inputPlaybackSpeed": 1,
+    "targetPlaybackSpeed": 2,
+    "relativeSpeedFactor": 2,
+    "sourceManifestSha256": "6aa7163b2fdb9179f4c98c313b4bc2558cc22dd04d2216355fd261ca48923b74",
+    "sourceMedia": {
+      "file": "media/050-renovating.mp4",
+      "sha256": "2dd0e13956900ad3c16caa5f19d4ec33cf98570af2ce3df0606961d1c5164633",
+      "bytes": 9084606,
+      "seconds": 64.2
+    },
+    "previousEncoding": null,
+    "previousLocalizedRepairs": [],
+    "originalPolicy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
+    "historicalEvidence": "handoff/media-2x-migration/frozen-metadata.json and inventory.json",
+    "captureGapNote": "Known missing footage is unchanged; recorded-input coverage does not certify uncaptured inputs."
+  }
 }

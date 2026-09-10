@@ -16,8 +16,46 @@
       94.75465202331543
     ]
   ],
-  "outputSeconds": 38.866667,
+  "outputSeconds": 19.433333,
   "inputCount": 47,
-  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
-  "crop": "1680:960:14:56"
+  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio. Retained published footage re-encoded at 2x speed; original source intervals, recorded inputs and known capture gaps remain unchanged.",
+  "crop": "1680:960:14:56",
+  "playbackSpeed": 2.0,
+  "sourceRetainedSeconds": 38.82977080345154,
+  "expectedOutputSeconds": 19.41488540172577,
+  "outputSha256": "4acfd802eff4e66cef8207ac10b2bd499df7d0e1cab1262a536d575ac88ed2ad",
+  "outputFile": "media/028-bridge-building-question.mp4",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 26,
+    "pixelFormat": "yuv420p",
+    "faststart": true,
+    "transcodedFrom": "media/028-bridge-building-question.mp4",
+    "transcodedFromSha256": "848a2e22c05cef455aa89e0f0e1386faea97a0d2053ea07e24776bdf6c5f9915",
+    "outputSha256": "4acfd802eff4e66cef8207ac10b2bd499df7d0e1cab1262a536d575ac88ed2ad",
+    "outputBytes": 1599943,
+    "frameCount": 583,
+    "framesPerSecond": 30,
+    "cropApplied": false,
+    "reason": "User-requested 2x re-encode of the already-cropped published MP4; no additional cuts."
+  },
+  "speedMigration": {
+    "version": 1,
+    "inputPlaybackSpeed": 1,
+    "targetPlaybackSpeed": 2,
+    "relativeSpeedFactor": 2,
+    "sourceManifestSha256": "6848ce334b592249479d6119f08a425807aa644df71320984c698ccff9ea26ea",
+    "sourceMedia": {
+      "file": "media/028-bridge-building-question.mp4",
+      "sha256": "848a2e22c05cef455aa89e0f0e1386faea97a0d2053ea07e24776bdf6c5f9915",
+      "bytes": 3869940,
+      "seconds": 38.866667
+    },
+    "previousEncoding": null,
+    "previousLocalizedRepairs": [],
+    "originalPolicy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
+    "historicalEvidence": "handoff/media-2x-migration/frozen-metadata.json and inventory.json",
+    "captureGapNote": "Known missing footage is unchanged; recorded-input coverage does not certify uncaptured inputs."
+  }
 }

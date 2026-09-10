@@ -156,8 +156,46 @@
       1568.1749019622803
     ]
   ],
-  "outputSeconds": 271.433333,
+  "outputSeconds": 135.733333,
   "inputCount": 598,
-  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
-  "crop": "1680:960:14:56"
+  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio. Retained published footage re-encoded at 2x speed; original source intervals, recorded inputs and known capture gaps remain unchanged.",
+  "crop": "1680:960:14:56",
+  "playbackSpeed": 2.0,
+  "sourceRetainedSeconds": 271.49579763412476,
+  "expectedOutputSeconds": 135.74789881706238,
+  "outputSha256": "4194bb2eb6afe9323a7c669b512f39d299b0ffe4eafe5506b700a88064d26046",
+  "outputFile": "/baba-is-you-media/media/109-the-heist.mp4",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 26,
+    "pixelFormat": "yuv420p",
+    "faststart": true,
+    "transcodedFrom": "/baba-is-you-media/media/109-the-heist.mp4",
+    "transcodedFromSha256": "57ea7ecdcbc9c89ebb1782952fec0fc52af8e83188a1d14edb9b74f142e7e11a",
+    "outputSha256": "4194bb2eb6afe9323a7c669b512f39d299b0ffe4eafe5506b700a88064d26046",
+    "outputBytes": 15659241,
+    "frameCount": 4072,
+    "framesPerSecond": 30,
+    "cropApplied": false,
+    "reason": "User-requested 2x re-encode of the already-cropped published MP4; no additional cuts."
+  },
+  "speedMigration": {
+    "version": 1,
+    "inputPlaybackSpeed": 1,
+    "targetPlaybackSpeed": 2,
+    "relativeSpeedFactor": 2,
+    "sourceManifestSha256": "2c416cff3afee8b2eb79d73cc29b41618470bde8da0194e2c4e17e7045e7e383",
+    "sourceMedia": {
+      "file": "/baba-is-you-media/media/109-the-heist.mp4",
+      "sha256": "57ea7ecdcbc9c89ebb1782952fec0fc52af8e83188a1d14edb9b74f142e7e11a",
+      "bytes": 38767062,
+      "seconds": 271.433333
+    },
+    "previousEncoding": null,
+    "previousLocalizedRepairs": [],
+    "originalPolicy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
+    "historicalEvidence": "handoff/media-2x-migration/frozen-metadata.json and inventory.json",
+    "captureGapNote": "Known missing footage is unchanged; recorded-input coverage does not certify uncaptured inputs."
+  }
 }

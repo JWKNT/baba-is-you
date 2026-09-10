@@ -2,7 +2,7 @@
 
 A static video catalogue at https://jehlp.net/baba-is-you/. One native player, world navigation and playback speeds. Shared styling comes from jehlp.net/site-theme/v2. A fresh base-game playthrough began on September 6, 2026. It includes hidden and extra levels within the base campaign, excluding the separate New Adventures and Museum packs. The previous catalogue has been cleared at the owner's request.
 
-Recordings are silent and cropped to the game. All moves, mistakes, undos, restarts, and victory animations are retained; only long idle thinking pauses are cut. New recordings are published in batches of five completions. Pause manifests document original hashes and retained source intervals. Original recordings remain outside Git.
+Recordings are silent, cropped to the game, and encoded at twice normal gameplay speed. The player's speed buttons apply an additional multiplier. All captured moves, mistakes, undos, restarts, and victory animations are retained; only long idle thinking pauses are cut. Known capture gaps remain explicitly disclosed. New recordings are published in batches of five completions. Pause manifests document original hashes, retained source intervals and encoded timing. Attempt logs and source evidence remain outside Git; redundant published raw footage may be pruned after replacement verification.
 
 
 ## Add a level

@@ -64,8 +64,46 @@
       830.2414526939392
     ]
   ],
-  "outputSeconds": 101.2,
+  "outputSeconds": 50.6,
   "inputCount": 200,
-  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
-  "crop": "1680:960:14:56"
+  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio. Retained published footage re-encoded at 2x speed; original source intervals, recorded inputs and known capture gaps remain unchanged.",
+  "crop": "1680:960:14:56",
+  "playbackSpeed": 2.0,
+  "sourceRetainedSeconds": 101.1896402835846,
+  "expectedOutputSeconds": 50.5948201417923,
+  "outputSha256": "b5c68b8bba57894e1ac3da7606b9d6a9237ae89c0a0c753b0b770961f3cd5588",
+  "outputFile": "/baba-is-you-media-2/media/130-love-at-first-sight.mp4",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 26,
+    "pixelFormat": "yuv420p",
+    "faststart": true,
+    "transcodedFrom": "/baba-is-you-media-2/media/130-love-at-first-sight.mp4",
+    "transcodedFromSha256": "8d0bc0a32f8b70c5e1cf9f37db34a7a7e4447a5bf06b7dad33d65d28f57f4a6f",
+    "outputSha256": "b5c68b8bba57894e1ac3da7606b9d6a9237ae89c0a0c753b0b770961f3cd5588",
+    "outputBytes": 5086461,
+    "frameCount": 1518,
+    "framesPerSecond": 30,
+    "cropApplied": false,
+    "reason": "User-requested 2x re-encode of the already-cropped published MP4; no additional cuts."
+  },
+  "speedMigration": {
+    "version": 1,
+    "inputPlaybackSpeed": 1,
+    "targetPlaybackSpeed": 2,
+    "relativeSpeedFactor": 2,
+    "sourceManifestSha256": "a6efbe40a36135b943cc2a00fb9fe3b4e8a247848548702942d53fea2f4269c7",
+    "sourceMedia": {
+      "file": "/baba-is-you-media-2/media/130-love-at-first-sight.mp4",
+      "sha256": "8d0bc0a32f8b70c5e1cf9f37db34a7a7e4447a5bf06b7dad33d65d28f57f4a6f",
+      "bytes": 14168675,
+      "seconds": 101.2
+    },
+    "previousEncoding": null,
+    "previousLocalizedRepairs": [],
+    "originalPolicy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
+    "historicalEvidence": "handoff/media-2x-migration/frozen-metadata.json and inventory.json",
+    "captureGapNote": "Known missing footage is unchanged; recorded-input coverage does not certify uncaptured inputs."
+  }
 }

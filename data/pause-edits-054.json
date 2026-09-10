@@ -72,8 +72,46 @@
       655.1488969326019
     ]
   ],
-  "outputSeconds": 134.833333,
+  "outputSeconds": 67.433333,
   "inputCount": 282,
-  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
-  "crop": "1680:960:14:56"
+  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio. Retained published footage re-encoded at 2x speed; original source intervals, recorded inputs and known capture gaps remain unchanged.",
+  "crop": "1680:960:14:56",
+  "playbackSpeed": 2.0,
+  "sourceRetainedSeconds": 134.82147669792175,
+  "expectedOutputSeconds": 67.41073834896088,
+  "outputSha256": "aa7417b6092692aa0c6232c58193fa13f31dbd2a34c1b76392ba516eb7b37b1e",
+  "outputFile": "media/054-victory-in-the-open.mp4",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 26,
+    "pixelFormat": "yuv420p",
+    "faststart": true,
+    "transcodedFrom": "media/054-victory-in-the-open.mp4",
+    "transcodedFromSha256": "75ffc5d28b43d6ddd57f7031ae69a28ffeeaf78618013a529adc9dd3c5758a02",
+    "outputSha256": "aa7417b6092692aa0c6232c58193fa13f31dbd2a34c1b76392ba516eb7b37b1e",
+    "outputBytes": 4591947,
+    "frameCount": 2023,
+    "framesPerSecond": 30,
+    "cropApplied": false,
+    "reason": "User-requested 2x re-encode of the already-cropped published MP4; no additional cuts."
+  },
+  "speedMigration": {
+    "version": 1,
+    "inputPlaybackSpeed": 1,
+    "targetPlaybackSpeed": 2,
+    "relativeSpeedFactor": 2,
+    "sourceManifestSha256": "fe0dcff1dd2353b12fe2e53922e4ce88128c07acb437b8805bd4d94f4bb1ccc2",
+    "sourceMedia": {
+      "file": "media/054-victory-in-the-open.mp4",
+      "sha256": "75ffc5d28b43d6ddd57f7031ae69a28ffeeaf78618013a529adc9dd3c5758a02",
+      "bytes": 10805582,
+      "seconds": 134.833333
+    },
+    "previousEncoding": null,
+    "previousLocalizedRepairs": [],
+    "originalPolicy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
+    "historicalEvidence": "handoff/media-2x-migration/frozen-metadata.json and inventory.json",
+    "captureGapNote": "Known missing footage is unchanged; recorded-input coverage does not certify uncaptured inputs."
+  }
 }

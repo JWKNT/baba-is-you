@@ -32,8 +32,46 @@
       620.4442591667175
     ]
   ],
-  "outputSeconds": 50.933333,
+  "outputSeconds": 25.466667,
   "inputCount": 91,
-  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
-  "crop": "1680:960:14:56"
+  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio. Retained published footage re-encoded at 2x speed; original source intervals, recorded inputs and known capture gaps remain unchanged.",
+  "crop": "1680:960:14:56",
+  "playbackSpeed": 2.0,
+  "sourceRetainedSeconds": 50.90954041481018,
+  "expectedOutputSeconds": 25.45477020740509,
+  "outputSha256": "27e39a698aabaefd3f01fd61a78716b69068edcc8f92c31380b5a0fc2169430b",
+  "outputFile": "/baba-is-you-media/media/071-skeletal-door.mp4",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 26,
+    "pixelFormat": "yuv420p",
+    "faststart": true,
+    "transcodedFrom": "/baba-is-you-media/media/071-skeletal-door.mp4",
+    "transcodedFromSha256": "f9865c9afd7de284908d39e233ca820058ceff2f9dfad04cdb7e3183dcd5f438",
+    "outputSha256": "27e39a698aabaefd3f01fd61a78716b69068edcc8f92c31380b5a0fc2169430b",
+    "outputBytes": 3340158,
+    "frameCount": 764,
+    "framesPerSecond": 30,
+    "cropApplied": false,
+    "reason": "User-requested 2x re-encode of the already-cropped published MP4; no additional cuts."
+  },
+  "speedMigration": {
+    "version": 1,
+    "inputPlaybackSpeed": 1,
+    "targetPlaybackSpeed": 2,
+    "relativeSpeedFactor": 2,
+    "sourceManifestSha256": "f9e16ade034f42b8c0bbdf9601123cd9cd2e1347baf9d4bde4af1b3c4551a0f6",
+    "sourceMedia": {
+      "file": "/baba-is-you-media/media/071-skeletal-door.mp4",
+      "sha256": "f9865c9afd7de284908d39e233ca820058ceff2f9dfad04cdb7e3183dcd5f438",
+      "bytes": 8364706,
+      "seconds": 50.933333
+    },
+    "previousEncoding": null,
+    "previousLocalizedRepairs": [],
+    "originalPolicy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
+    "historicalEvidence": "handoff/media-2x-migration/frozen-metadata.json and inventory.json",
+    "captureGapNote": "Known missing footage is unchanged; recorded-input coverage does not certify uncaptured inputs."
+  }
 }

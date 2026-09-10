@@ -52,8 +52,46 @@
       1063.289230108261
     ]
   ],
-  "outputSeconds": 137.566667,
+  "outputSeconds": 68.8,
   "inputCount": 339,
-  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
-  "crop": "1680:960:14:56"
+  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio. Retained published footage re-encoded at 2x speed; original source intervals, recorded inputs and known capture gaps remain unchanged.",
+  "crop": "1680:960:14:56",
+  "playbackSpeed": 2.0,
+  "sourceRetainedSeconds": 137.56374311447144,
+  "expectedOutputSeconds": 68.78187155723572,
+  "outputSha256": "5eff5dd5f4c9420334e69674f7a46e55f50a5a8ad2c33116575a12acf9bce8a0",
+  "outputFile": "media/048-walls-of-gold.mp4",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 26,
+    "pixelFormat": "yuv420p",
+    "faststart": true,
+    "transcodedFrom": "media/048-walls-of-gold.mp4",
+    "transcodedFromSha256": "5face6030f1955d43c0bd2968c89046cfa9906341d4cecd95bf20495d38ed754",
+    "outputSha256": "5eff5dd5f4c9420334e69674f7a46e55f50a5a8ad2c33116575a12acf9bce8a0",
+    "outputBytes": 8248797,
+    "frameCount": 2064,
+    "framesPerSecond": 30,
+    "cropApplied": false,
+    "reason": "User-requested 2x re-encode of the already-cropped published MP4; no additional cuts."
+  },
+  "speedMigration": {
+    "version": 1,
+    "inputPlaybackSpeed": 1,
+    "targetPlaybackSpeed": 2,
+    "relativeSpeedFactor": 2,
+    "sourceManifestSha256": "15096ae60e5e1d8903354154ffaa42e08c539752bc899458f2e61e8849000f79",
+    "sourceMedia": {
+      "file": "media/048-walls-of-gold.mp4",
+      "sha256": "5face6030f1955d43c0bd2968c89046cfa9906341d4cecd95bf20495d38ed754",
+      "bytes": 20591781,
+      "seconds": 137.566667
+    },
+    "previousEncoding": null,
+    "previousLocalizedRepairs": [],
+    "originalPolicy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
+    "historicalEvidence": "handoff/media-2x-migration/frozen-metadata.json and inventory.json",
+    "captureGapNote": "Known missing footage is unchanged; recorded-input coverage does not certify uncaptured inputs."
+  }
 }

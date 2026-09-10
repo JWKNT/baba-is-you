@@ -80,8 +80,46 @@
       853.7811198234558
     ]
   ],
-  "outputSeconds": 159.033333,
+  "outputSeconds": 79.533333,
   "inputCount": 327,
-  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
-  "crop": "1680:960:14:56"
+  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio. Retained published footage re-encoded at 2x speed; original source intervals, recorded inputs and known capture gaps remain unchanged.",
+  "crop": "1680:960:14:56",
+  "playbackSpeed": 2.0,
+  "sourceRetainedSeconds": 159.05431365966797,
+  "expectedOutputSeconds": 79.52715682983398,
+  "outputSha256": "6440c2b56efcd6fd1094bcc911d91465d384bb97aab2659b9bcd1b74bc04164a",
+  "outputFile": "media/031-catch-the-thief.mp4",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 26,
+    "pixelFormat": "yuv420p",
+    "faststart": true,
+    "transcodedFrom": "media/031-catch-the-thief.mp4",
+    "transcodedFromSha256": "52fb5244412d4bd625b929c72a2efe43e06325fb8d72d2753e4aad83ccab2240",
+    "outputSha256": "6440c2b56efcd6fd1094bcc911d91465d384bb97aab2659b9bcd1b74bc04164a",
+    "outputBytes": 7897657,
+    "frameCount": 2386,
+    "framesPerSecond": 30,
+    "cropApplied": false,
+    "reason": "User-requested 2x re-encode of the already-cropped published MP4; no additional cuts."
+  },
+  "speedMigration": {
+    "version": 1,
+    "inputPlaybackSpeed": 1,
+    "targetPlaybackSpeed": 2,
+    "relativeSpeedFactor": 2,
+    "sourceManifestSha256": "a5332ea6772c0394a1420d318c6ae6a9a1252d4ea764dd0447d2a54edbdb54e6",
+    "sourceMedia": {
+      "file": "media/031-catch-the-thief.mp4",
+      "sha256": "52fb5244412d4bd625b929c72a2efe43e06325fb8d72d2753e4aad83ccab2240",
+      "bytes": 20775866,
+      "seconds": 159.033333
+    },
+    "previousEncoding": null,
+    "previousLocalizedRepairs": [],
+    "originalPolicy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
+    "historicalEvidence": "handoff/media-2x-migration/frozen-metadata.json and inventory.json",
+    "captureGapNote": "Known missing footage is unchanged; recorded-input coverage does not certify uncaptured inputs."
+  }
 }

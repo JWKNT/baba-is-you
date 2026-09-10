@@ -44,8 +44,46 @@
       354.6258170604706
     ]
   ],
-  "outputSeconds": 50.666667,
+  "outputSeconds": 25.333333,
   "inputCount": 37,
-  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
-  "crop": "1680:960:14:56"
+  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio. Retained published footage re-encoded at 2x speed; original source intervals, recorded inputs and known capture gaps remain unchanged.",
+  "crop": "1680:960:14:56",
+  "playbackSpeed": 2.0,
+  "sourceRetainedSeconds": 50.66313123703003,
+  "expectedOutputSeconds": 25.331565618515015,
+  "outputSha256": "82f5c971272cc3c22476a47e94545e627ded2d0489729f49c222140bbdc610c2",
+  "outputFile": "/baba-is-you-media/media/083-horror-story.mp4",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 26,
+    "pixelFormat": "yuv420p",
+    "faststart": true,
+    "transcodedFrom": "/baba-is-you-media/media/083-horror-story.mp4",
+    "transcodedFromSha256": "698229e32bb764f9d3e956142e50c953b415af77b8f27c0524c902888bef9767",
+    "outputSha256": "82f5c971272cc3c22476a47e94545e627ded2d0489729f49c222140bbdc610c2",
+    "outputBytes": 1345385,
+    "frameCount": 760,
+    "framesPerSecond": 30,
+    "cropApplied": false,
+    "reason": "User-requested 2x re-encode of the already-cropped published MP4; no additional cuts."
+  },
+  "speedMigration": {
+    "version": 1,
+    "inputPlaybackSpeed": 1,
+    "targetPlaybackSpeed": 2,
+    "relativeSpeedFactor": 2,
+    "sourceManifestSha256": "9d67bf6e2493c2e5e46b397c67ea219b6960ddfb1c9deccefbce7acc0721dd24",
+    "sourceMedia": {
+      "file": "/baba-is-you-media/media/083-horror-story.mp4",
+      "sha256": "698229e32bb764f9d3e956142e50c953b415af77b8f27c0524c902888bef9767",
+      "bytes": 3111293,
+      "seconds": 50.666667
+    },
+    "previousEncoding": null,
+    "previousLocalizedRepairs": [],
+    "originalPolicy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
+    "historicalEvidence": "handoff/media-2x-migration/frozen-metadata.json and inventory.json",
+    "captureGapNote": "Known missing footage is unchanged; recorded-input coverage does not certify uncaptured inputs."
+  }
 }

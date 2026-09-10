@@ -525,21 +525,58 @@
     ]
   ],
   "inputCount": 1921,
-  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
+  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio. Retained published footage re-encoded at 2x speed; original source intervals, recorded inputs and known capture gaps remain unchanged.",
   "crop": "1680:960:14:56",
-  "outputSeconds": 1009.066667,
+  "outputSeconds": 504.533333,
   "encoding": {
     "codec": "libx264",
-    "preset": "slow",
-    "crf": 25,
+    "preset": "fast",
+    "crf": 26,
     "pixelFormat": "yuv420p",
     "faststart": true,
-    "reason": "Keep all eight chronological attempts below the100MiB file limit without removing any retained frames or changing timing.",
-    "transcodedFrom": "124-pillarwork-crf20.mp4",
-    "transcodedFromSha256": "6cf92ab86e37732a628caa38024e0f48109c4fecdb063a26360eb7f6faf80bb4",
-    "outputSha256": "ed37ad8ecd8d051aece99b53ddc6c0eb4717c04a1d5dd3a3a465b61d5ec2e9a8",
-    "frameCount": 30272,
+    "transcodedFrom": "/baba-is-you-media-2/media/124-pillarwork.mp4",
+    "transcodedFromSha256": "ed37ad8ecd8d051aece99b53ddc6c0eb4717c04a1d5dd3a3a465b61d5ec2e9a8",
+    "outputSha256": "9d1f2fac7198fd2ab6464bf5d88c32de3c96eca7f8a0a1b52329a6ad51964676",
+    "outputBytes": 52475053,
+    "frameCount": 15136,
     "framesPerSecond": 30,
-    "outputBytes": 76270858
+    "cropApplied": false,
+    "reason": "User-requested 2x re-encode of the already-cropped published MP4; no additional cuts."
+  },
+  "playbackSpeed": 2.0,
+  "sourceRetainedSeconds": 1008.8340082168579,
+  "expectedOutputSeconds": 504.41700410842896,
+  "outputSha256": "9d1f2fac7198fd2ab6464bf5d88c32de3c96eca7f8a0a1b52329a6ad51964676",
+  "outputFile": "/baba-is-you-media-2/media/124-pillarwork.mp4",
+  "speedMigration": {
+    "version": 1,
+    "inputPlaybackSpeed": 1,
+    "targetPlaybackSpeed": 2,
+    "relativeSpeedFactor": 2,
+    "sourceManifestSha256": "c0db1265b68f2d41b5b92524b35f62e757f03454a7d219159c4c904860c10701",
+    "sourceMedia": {
+      "file": "/baba-is-you-media-2/media/124-pillarwork.mp4",
+      "sha256": "ed37ad8ecd8d051aece99b53ddc6c0eb4717c04a1d5dd3a3a465b61d5ec2e9a8",
+      "bytes": 76270858,
+      "seconds": 1009.066667
+    },
+    "previousEncoding": {
+      "codec": "libx264",
+      "preset": "slow",
+      "crf": 25,
+      "pixelFormat": "yuv420p",
+      "faststart": true,
+      "reason": "Keep all eight chronological attempts below the100MiB file limit without removing any retained frames or changing timing.",
+      "transcodedFrom": "124-pillarwork-crf20.mp4",
+      "transcodedFromSha256": "6cf92ab86e37732a628caa38024e0f48109c4fecdb063a26360eb7f6faf80bb4",
+      "outputSha256": "ed37ad8ecd8d051aece99b53ddc6c0eb4717c04a1d5dd3a3a465b61d5ec2e9a8",
+      "frameCount": 30272,
+      "framesPerSecond": 30,
+      "outputBytes": 76270858
+    },
+    "previousLocalizedRepairs": [],
+    "originalPolicy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
+    "historicalEvidence": "handoff/media-2x-migration/frozen-metadata.json and inventory.json",
+    "captureGapNote": "Known missing footage is unchanged; recorded-input coverage does not certify uncaptured inputs."
   }
 }

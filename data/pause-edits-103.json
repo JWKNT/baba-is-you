@@ -36,8 +36,46 @@
       160.31738471984863
     ]
   ],
-  "outputSeconds": 40.5,
+  "outputSeconds": 20.266667,
   "inputCount": 40,
-  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
-  "crop": "1680:960:14:56"
+  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio. Retained published footage re-encoded at 2x speed; original source intervals, recorded inputs and known capture gaps remain unchanged.",
+  "crop": "1680:960:14:56",
+  "playbackSpeed": 2.0,
+  "sourceRetainedSeconds": 40.511800050735474,
+  "expectedOutputSeconds": 20.255900025367737,
+  "outputSha256": "b209dd8644fc8f1b89aa2ffcb755d4c0b495246d9c16b44e91344bd2246d4688",
+  "outputFile": "/baba-is-you-media/media/103-slideshow.mp4",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 26,
+    "pixelFormat": "yuv420p",
+    "faststart": true,
+    "transcodedFrom": "/baba-is-you-media/media/103-slideshow.mp4",
+    "transcodedFromSha256": "2d0bc83e59b8b0b5d36b5c547d6b2f0aa2c0dda4d3a13db8843b7fb31384fbbd",
+    "outputSha256": "b209dd8644fc8f1b89aa2ffcb755d4c0b495246d9c16b44e91344bd2246d4688",
+    "outputBytes": 2277540,
+    "frameCount": 608,
+    "framesPerSecond": 30,
+    "cropApplied": false,
+    "reason": "User-requested 2x re-encode of the already-cropped published MP4; no additional cuts."
+  },
+  "speedMigration": {
+    "version": 1,
+    "inputPlaybackSpeed": 1,
+    "targetPlaybackSpeed": 2,
+    "relativeSpeedFactor": 2,
+    "sourceManifestSha256": "e1a04d89ce05018a88a7f0a5548f39a7ea5eba30c88c79b3c48f3bdceaf7b03f",
+    "sourceMedia": {
+      "file": "/baba-is-you-media/media/103-slideshow.mp4",
+      "sha256": "2d0bc83e59b8b0b5d36b5c547d6b2f0aa2c0dda4d3a13db8843b7fb31384fbbd",
+      "bytes": 5554267,
+      "seconds": 40.5
+    },
+    "previousEncoding": null,
+    "previousLocalizedRepairs": [],
+    "originalPolicy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
+    "historicalEvidence": "handoff/media-2x-migration/frozen-metadata.json and inventory.json",
+    "captureGapNote": "Known missing footage is unchanged; recorded-input coverage does not certify uncaptured inputs."
+  }
 }

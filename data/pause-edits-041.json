@@ -20,8 +20,46 @@
       336.3324851989746
     ]
   ],
-  "outputSeconds": 46.633333,
+  "outputSeconds": 23.333333,
   "inputCount": 98,
-  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
-  "crop": "1680:960:14:56"
+  "policy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio. Retained published footage re-encoded at 2x speed; original source intervals, recorded inputs and known capture gaps remain unchanged.",
+  "crop": "1680:960:14:56",
+  "playbackSpeed": 2.0,
+  "sourceRetainedSeconds": 46.62799429893494,
+  "expectedOutputSeconds": 23.31399714946747,
+  "outputSha256": "362daaaf06f12a3329e2c3137cd46f3092dd881c6e084dec5fcf3043c46814af",
+  "outputFile": "media/041-tunnel-vision.mp4",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 26,
+    "pixelFormat": "yuv420p",
+    "faststart": true,
+    "transcodedFrom": "media/041-tunnel-vision.mp4",
+    "transcodedFromSha256": "d8c2a516b7536c2d947de3d05c9dbeded6f178928606fb430276684c8719350e",
+    "outputSha256": "362daaaf06f12a3329e2c3137cd46f3092dd881c6e084dec5fcf3043c46814af",
+    "outputBytes": 2826124,
+    "frameCount": 700,
+    "framesPerSecond": 30,
+    "cropApplied": false,
+    "reason": "User-requested 2x re-encode of the already-cropped published MP4; no additional cuts."
+  },
+  "speedMigration": {
+    "version": 1,
+    "inputPlaybackSpeed": 1,
+    "targetPlaybackSpeed": 2,
+    "relativeSpeedFactor": 2,
+    "sourceManifestSha256": "88024956bc289f838970c578c2a9ec24018af8f2b7bd0c65b7f1d8682460e606",
+    "sourceMedia": {
+      "file": "media/041-tunnel-vision.mp4",
+      "sha256": "d8c2a516b7536c2d947de3d05c9dbeded6f178928606fb430276684c8719350e",
+      "bytes": 6455080,
+      "seconds": 46.633333
+    },
+    "previousEncoding": null,
+    "previousLocalizedRepairs": [],
+    "originalPolicy": "Keep every input and retry. Remove only idle gaps >=8 seconds between padded action spans. No audio.",
+    "historicalEvidence": "handoff/media-2x-migration/frozen-metadata.json and inventory.json",
+    "captureGapNote": "Known missing footage is unchanged; recorded-input coverage does not certify uncaptured inputs."
+  }
 }

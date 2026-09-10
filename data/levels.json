@@ -2327,5 +2327,90 @@
       "mechanics": "Falling FLOAT text rests on other text, while the rocket cannot support it. The winning moon rule doubles as a platform, preserving both cargo words. Floating WEAK stays on the ground belt; shifting the completed DUST IS WEAK row lets the rocket cross while keeping dust contact safe. The lower dust need not be removed.",
       "attempts": "All seven visits and 1,140 inputs remain, including 48 undos and three restarts. Earlier visits retain the fatal DUST IS WIN contact, an accidental belt crossing and death, failed support tests, and delivery-order experiments. The final visit completes the left support arrangement and lower rule without an undo, restart or death."
     }
+  },
+  {
+    "id": "level-138",
+    "number": 138,
+    "title": "A Way Out?",
+    "file": "/baba-is-you-media-2/media/138-a-way-out.mp4",
+    "poster": "assets/level-138.jpg",
+    "seconds": 1072.933333,
+    "recorded": "2026-09-07",
+    "world": "The Map",
+    "code": "Finale",
+    "name": "A Way Out?",
+    "notes": {
+      "approach": "Temporarily form BELT IS PUSH below the original rule to stage two belt turns, then recover the borrowed IS for the right alcove. Use Keke to deliver the freight, time Baba’s arrival on the receiver’s left, and push ROCK into ROCK IS PUSH. Exit through the ice passages, push the lower rocks to form FLAG IS WIN, and reach the flag.",
+      "mechanics": "The same IS serves belt preparation and the final rock rule. BELT IS SHIFT redirects the moving Keke and its text cargo; launch timing lets Baba receive ROCK before it becomes trapped. Crossing each of the three ice exits leaves a wall, so the freight and return path must be staged first.",
+      "attempts": "All ten visits and 2,005 logged inputs remain, including 114 undos, 193 waits and no restarts. Earlier rule-allocation and courier experiments are retained. The final visit’s first launch caught Baba at the upward turn; 27 undos restored the prelaunch checkpoint. The corrected launch, receiver, rule construction and victory follow in the same chronological recording, with no clean replay substituted."
+    }
+  },
+  {
+    "id": "level-139",
+    "number": 139,
+    "title": "Keep Out!",
+    "file": "/baba-is-you-media-2/media/139-keep-out.mp4",
+    "poster": "assets/level-139.jpg",
+    "seconds": 802.2,
+    "recorded": "2026-09-07",
+    "world": "Deep Forest",
+    "code": "03",
+    "name": "Keep Out!",
+    "notes": {
+      "approach": "Give the belt PULL and carry the inert tree in Keke’s cell through the corridor to the right shaft. Reuse the same IS to restore TREE IS PULL, approach from above through the left shaft, and pull the hot tree onto the fungus. Clear the tree from the released flag and return to it.",
+      "mechanics": "A pulled SHIFT belt repeatedly carries the inert tree into Keke’s cell, allowing turns that ordinary tree pulling could not make. Prestaging TREE lets the same IS switch from BELT PULL to TREE PULL after delivery. The hot tree melts the fungus, whose HAS rule releases the winning flag.",
+      "attempts": "All eleven visits and 1,002 inputs are retained, including 24 undos, six waits and three restarts. Earlier corridor-turn, rule-switch and transport experiments remain in order. The final visit completes the carrier route, restores TREE PULL and reaches the flag without an undo, restart, wait or death."
+    }
+  },
+  {
+    "id": "level-140",
+    "number": 140,
+    "title": "Concrete Goals",
+    "file": "/baba-is-you-media-2/media/140-concrete-goals.mp4",
+    "poster": "assets/level-140.jpg",
+    "seconds": 118.366667,
+    "recorded": "2026-09-10",
+    "world": "Deep Forest",
+    "code": "07",
+    "name": "Concrete Goals",
+    "notes": {
+      "approach": "Disabled BELT PUSH, rode the conveyor into the chamber, and broke WALL STOP. Added IS and PUSH below the fixed FLAG noun while preserving FLAG IS WIN, then pushed the flag backward onto the belt so SHIFT returned it onto Baba.",
+      "mechanics": "The same FLAG word supports horizontal WIN and vertical PUSH rules. Direct movement into the STOP flag was blocked, but the belt could shift that winning flag onto Baba.",
+      "attempts": "One chronological attempt with all 100 inputs retained, including the blocked upward flag contact and both rule inspections. No undo, restart, wait, or death."
+    }
+  },
+  {
+    "id": "level-141",
+    "number": 141,
+    "title": "Lock the Door",
+    "file": "/baba-is-you-media-2/media/141-lock-the-door.mp4",
+    "poster": "assets/level-141.jpg",
+    "seconds": 267.533333,
+    "recorded": "2026-09-10",
+    "world": "Deep Forest",
+    "code": "12",
+    "name": "Lock the Door",
+    "notes": {
+      "approach": "Temporarily give Baba SHIFT using the fixed BABA noun, then carry the overlapping bug and belt out of the shaft. Stage the pair facing right along the lower row and give both SHIFT. Enter through the fungus before the pair pushes the goal words into FUNGUS IS DEFEAT and LOVE IS WIN, then touch the heart.",
+      "mechanics": "The overlapping bug and belt shift each other forward on successive turns. Their delayed arrival pushes the floating goal words while Baba crosses the still-safe entrance. Activating the goal rules after entry makes the heart winning without needing to move the fungus.",
+      "attempts": "One continuous visit retains all 395 inputs, including four undos, two waits, the early goal switch and carrier direction tests. The final setup uses BABA SHIFT to extract the pair and autonomous SHIFT transport to change the goal rules. No restart or death occurred."
+    }
+  },
+  {
+    "id": "level-142",
+    "number": 142,
+    "title": "Nearly",
+    "file": "/baba-is-you-media-2/media/142-nearly.mp4",
+    "poster": "assets/level-142.jpg",
+    "seconds": 29.133333,
+    "recorded": "2026-09-10",
+    "world": "Deep Forest",
+    "code": "A",
+    "name": "Nearly",
+    "notes": {
+      "approach": "Moved above the lower SWAP word and stepped down to exchange Baba with it, breaking BABA IS SWAP. Then walked to the flag while BABA IS YOU and FLAG IS WIN remained active.",
+      "mechanics": "SWAP exchanged Baba and the word instead of pushing it. Displacing the property disabled the same rule that enabled the exchange.",
+      "attempts": "One chronological attempt with all 18 inputs retained, including the rule inspection and map entry. No undo, restart, wait, or death. The initial visual misreading of SWAP as FLOAT was corrected in the pause before puzzle movement."
+    }
   }
 ]

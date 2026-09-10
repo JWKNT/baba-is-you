@@ -2072,5 +2072,90 @@
       "mechanics": "FUNGUS IS WORD lets the physical fungus and the floating ROCK text share the noun position in one vertical rule. Pushing both off the star preserves both PUSH rules while Me teleports away. These replacement rules remain active when entering the right room breaks its original FUNGUS IS PUSH rule.",
       "attempts": "Two chronological visits are retained. The first tried exporting an IS past the skull with a rock and stopped without a finish. The second tested the shared noun stack, verified both PUSH rules after closing the door, and opened all three water gaps. Includes five undos, waits and blocked moves; no restart."
     }
+  },
+  {
+    "id": "level-123",
+    "number": 123,
+    "title": "Keke and the Star",
+    "file": "/baba-is-you-media-2/media/123-keke-and-the-star.mp4",
+    "poster": "assets/level-123.jpg",
+    "seconds": 437.533333,
+    "recorded": "2026-09-08",
+    "world": "Chasm",
+    "code": "Extra 5",
+    "name": "Keke and the Star",
+    "notes": {
+      "approach": "Keep LAVA IS WORD supported by literal text, then use a physical lava as the noun in BABA IS LAVA to create a second controlled lava. Shift the literal WORD column down so one lava can carry IS YOU across the skull corridor while the other holds LAVA IS FLOAT. Deliver YOU to Keke and walk Keke left onto the star.",
+      "mechanics": "A WORD lava can supply a noun in a transformation or control rule while literal text independently maintains WORD. The second lava stays against the blocked IS FLOAT pair as the mobile YOU sentence moves right. FLOAT permits the skull crossing; replacing SLEEP with YOU gives control to Keke.",
+      "attempts": "All four visits are retained, including an inspection visit, an early control-loss undo and the failed attempt to keep WORD supported by a physical lava alone. One restart led to the independent WORD setup; the final carrier, FLOAT hold and Keke transfer were checked in short steps."
+    }
+  },
+  {
+    "id": "level-124",
+    "number": 124,
+    "title": "Pillarwork",
+    "file": "/baba-is-you-media-2/media/124-pillarwork.mp4",
+    "poster": "assets/level-124.jpg",
+    "seconds": 1009.066667,
+    "recorded": "2026-09-08",
+    "world": "Volcanic Cavern",
+    "code": "03",
+    "name": "Pillarwork",
+    "notes": {
+      "approach": "Stage an upper bridge and a winning flag above a wall before enabling FALL. Time the descent past both fires, change the skulls into grass, and use a PULL flag to lift Baba back up. Cross the upper bridge and push PULL and the spare IS downward twice, completing FLAG IS WIN. Step left onto the flag supported by the wall.",
+      "mechanics": "A falling Baba can pull its supporting flag upward and stand on ordinary text. Pushing PULL downward breaks FLAG IS PULL but leaves the PULL word beneath Baba as support. Approaching the goal from above lets that word buffer the final IS placement, while the wall keeps Baba from falling past the winning flag.",
+      "attempts": "All eight visits remain, including fire deaths, the flag-to-Baba branch, lower bridges, blocked PULL contact, the fall past a winning flag, and the upward escape that broke WIN. Includes 61 undos and no restarts. The final upper approach completed without an undo or death; every attempt and inspection is preserved."
+    }
+  },
+  {
+    "id": "level-125",
+    "number": 125,
+    "title": "Torn Apart",
+    "file": "/baba-is-you-media-2/media/125-torn-apart.mp4",
+    "poster": "assets/level-125.jpg",
+    "seconds": 88.933333,
+    "recorded": "2026-09-09",
+    "world": "Volcanic Cavern",
+    "code": "05",
+    "name": "Torn Apart",
+    "notes": {
+      "approach": "Shift BABA IS GROUP and lower GROUP IS YOU until YOU completes direct BABA IS YOU. Reuse the freed words to make ROCK IS GROUP and GROUP IS PUSH, then sink one rock into each of the two upper lava tiles and reach the flag.",
+      "mechanics": "GROUP membership passes PUSH to the rocks through the two rules. Replacing indirect control with direct Baba control frees the words needed for that arrangement. Each rock is consumed while removing one SINK lava tile.",
+      "attempts": "First visit. An initial push broke BABA IS GROUP and immediately removed YOU; one undo restored control. The later rearrangement and both lava crossings were inspected before continuing. One undo, no restart; all 106 logged inputs are retained."
+    }
+  },
+  {
+    "id": "level-126",
+    "number": 126,
+    "title": "Vital Ingredients",
+    "file": "/baba-is-you-media-2/media/126-vital-ingredients.mp4",
+    "poster": "assets/level-126.jpg",
+    "seconds": 110.0,
+    "recorded": "2026-09-09",
+    "world": "Volcanic Cavern",
+    "code": "06",
+    "name": "Vital Ingredients",
+    "notes": {
+      "approach": "Build a cross using two IS and two GROUP words so both skull and bat inherit PUSH and OPEN. Temporarily move OPEN and BAT to free the boxed-in skull, restore the rules before bringing the bat through the upward belt, and use one object on each door to reach the flag.",
+      "mechanics": "SKULL IS GROUP and BAT IS GROUP share GROUP IS PUSH and GROUP IS OPEN through the crossing layout. The skull and bat each open a SHUT door after passing the one-way belt. Their fixed identity rules remain intact.",
+      "attempts": "First visit. An early routing mistake shifted the SKULL IS OPEN row; eight undos restored it. Later construction, temporary rule breaks, restorations and door openings were inspected. All 183 inputs remain; eight undos and no restart. Victory cleared Volcanic Cavern at 9/9 and awarded the ninth flower."
+    }
+  },
+  {
+    "id": "level-127",
+    "number": 127,
+    "title": "Automaton",
+    "file": "/baba-is-you-media-2/media/127-automaton.mp4",
+    "poster": "assets/level-127.jpg",
+    "seconds": 138.133333,
+    "recorded": "2026-09-09",
+    "world": "Volcanic Cavern",
+    "code": "10",
+    "name": "Automaton",
+    "notes": {
+      "approach": "Assign BOX and ME to GROUP while GROUP IS YOU and GROUP IS HOT are active. Guide the box past the statues before Me changes ICE IS DEFEAT to ICE IS MELT, then move the hot box onto the ice to release and touch the winning flag.",
+      "mechanics": "The shared GROUP applies YOU and HOT to both objects. Fixed identity rules prevent BOX IS ME from transforming the box. Moving MELT also shifts DEFEAT into STATUE IS DEFEAT, so the box crosses the statues before that change; ICE HAS FLAG supplies the target when the ice melts.",
+      "attempts": "First visit. Blocked leftward pushes exposed the cliff beside the alcove. A BOX IS HOT placement used the noun slot needed by GROUP; eighteen undos restored that branch. A separate downward push against IS/HOT was also blocked. The dual-control route and final rule swap were inspected. All 218 inputs are retained, including eighteen undos, with no restart or death."
+    }
   }
 ]

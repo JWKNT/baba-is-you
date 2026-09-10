@@ -1,7 +1,7 @@
 {
   "version": 1,
   "definition": "Captured source time before editing or speed changes, including menus and pauses. Missing video and joined duplicates are excluded; shared recordings use disjoint source-time windows.",
-  "statisticsSha256": "148317e44d6f5e1770b63b7d9890c39c19e87ddaca48c1c39df063dca53b9192",
+  "statisticsSha256": "9fd96ab004656cd8d1891da9e2971d05d2a8dfc842dafa8e620a0a939b24dc39",
   "records": [
     {
       "id": "level-01",
@@ -3803,6 +3803,287 @@
           "sourceSecondsWindow": [
             0,
             2.17
+          ]
+        }
+      ]
+    },
+    {
+      "id": "secret-hunt-004",
+      "capturedSeconds": 574.343331,
+      "originalCaptureCount": 39,
+      "knownMissingInputs": 0,
+      "allocations": [
+        {
+          "sourceSha256": "5cf84a39fa90e43e0c430540867ba13953c2d186d3c30042b0175d07ff897928",
+          "sourceSecondsWindow": [
+            0,
+            6.941667
+          ]
+        },
+        {
+          "sourceSha256": "525da97109dcbf8246df7539dc0feef9ab42af6303ca0bdbcd92b00bd6ca028d",
+          "sourceSecondsWindow": [
+            0,
+            19.358333
+          ]
+        },
+        {
+          "sourceSha256": "0962e2a9ccf3043c7f389692c9299137b6daf0935d85c5fb93dda2893e422fee",
+          "sourceSecondsWindow": [
+            0,
+            19.181667
+          ]
+        },
+        {
+          "sourceSha256": "0ab78c22f75bf49ddbe0dd365ce6d9aa3a35938fb002bc22cd96a8c8606c1baa",
+          "sourceSecondsWindow": [
+            0,
+            7.728333
+          ]
+        },
+        {
+          "sourceSha256": "0b7788c217de10969df87017a5345dc3bc86ffe3b6b7f00e5b8cd2c31c8de7d9",
+          "sourceSecondsWindow": [
+            0,
+            19.158333
+          ]
+        },
+        {
+          "sourceSha256": "27cac0bbaca840da381aeb18df120a3d1192bec8ba7f9ee02c3ae99752ee977b",
+          "sourceSecondsWindow": [
+            0,
+            20.236667
+          ]
+        },
+        {
+          "sourceSha256": "4d7c845b9ec70501de2ca7dcc09bd99f7e96c47c562932bcc6fbb2e7e43c08d3",
+          "sourceSecondsWindow": [
+            0,
+            9.878333
+          ]
+        },
+        {
+          "sourceSha256": "4026f42a57ba4af5fcd2767e6aacbdfaec6e7bb76104e8b826506253f5dc1bea",
+          "sourceSecondsWindow": [
+            0,
+            7.693333
+          ]
+        },
+        {
+          "sourceSha256": "289dab9a342126f1ca5d5f7cc148a6bc18839e02c629886a4fb4fd3ec2e3a333",
+          "sourceSecondsWindow": [
+            0,
+            17.538333
+          ]
+        },
+        {
+          "sourceSha256": "da62de76757d8b92af20be8225a2fe9d27514bd7c119ebf293b5e835cdf5976e",
+          "sourceSecondsWindow": [
+            0,
+            19.448333
+          ]
+        },
+        {
+          "sourceSha256": "88225271bfbaa639e2fc0ac2ed9927c5b4cd51aa1a474c899919276fdfe22e5b",
+          "sourceSecondsWindow": [
+            0,
+            14.631667
+          ]
+        },
+        {
+          "sourceSha256": "395c368e869946bae4801a6d105e77761cd174337b0897b3f1e268e0bc506866",
+          "sourceSecondsWindow": [
+            0,
+            14.59
+          ]
+        },
+        {
+          "sourceSha256": "01c467300346348fc3d7e2248b2516aa66b33126ec23600f2431bdc156a47458",
+          "sourceSecondsWindow": [
+            0,
+            14.876667
+          ]
+        },
+        {
+          "sourceSha256": "49356f92f6e1d58f96b163427dd37cb0a0795e589cbb9a4c83d60c36fab01bf4",
+          "sourceSecondsWindow": [
+            0,
+            12.933333
+          ]
+        },
+        {
+          "sourceSha256": "96ff5bf8cce933711808660bfc467d8092ca776d72a82166646975f4a94f7d96",
+          "sourceSecondsWindow": [
+            0,
+            15.613333
+          ]
+        },
+        {
+          "sourceSha256": "72eeec7bc2988a02ad362577732425117ce53e8c93ce41e028472c84fc806ae6",
+          "sourceSecondsWindow": [
+            0,
+            14.515
+          ]
+        },
+        {
+          "sourceSha256": "ec15ee0135dbf5908f61931ff14e1db1bd171bd202d3007e3d3e7244ee064713",
+          "sourceSecondsWindow": [
+            0,
+            16.135
+          ]
+        },
+        {
+          "sourceSha256": "c9ae971b748d3264f782132776537506e2de5a2403c3324ba0bf2b42d4a93a84",
+          "sourceSecondsWindow": [
+            0,
+            16.818333
+          ]
+        },
+        {
+          "sourceSha256": "d17b9e0c7a3442737b433d70423c5d1ec3dcad22b3978f768d5375e5101c2956",
+          "sourceSecondsWindow": [
+            0,
+            20.076667
+          ]
+        },
+        {
+          "sourceSha256": "5b4ba42a6e261bcede4637a08136c44e117b71284257814d55245d6acef73ab3",
+          "sourceSecondsWindow": [
+            0,
+            19.2
+          ]
+        },
+        {
+          "sourceSha256": "898bfd17aa56ad79d99322b861a9ab8f656568a9295b036c7804259beb29f936",
+          "sourceSecondsWindow": [
+            0,
+            19.841667
+          ]
+        },
+        {
+          "sourceSha256": "c724be3898ce453b70448fb4f60b243be7a9ed8ec80d377a9562a75c282a9020",
+          "sourceSecondsWindow": [
+            0,
+            11.485
+          ]
+        },
+        {
+          "sourceSha256": "9369f1b79e360250ef3e087f5a2a143633c8d425d29615bda1f4ea38238ca19f",
+          "sourceSecondsWindow": [
+            0,
+            19.973333
+          ]
+        },
+        {
+          "sourceSha256": "6ed347896d5ce437c2abe37a74128b39ee730f2852808b97291d7f2995b4963d",
+          "sourceSecondsWindow": [
+            0,
+            17.023333
+          ]
+        },
+        {
+          "sourceSha256": "0dcf47ba8a529682bbd8699fbbfd2b62ee90046ecbda1380e08bbefa2194c437",
+          "sourceSecondsWindow": [
+            0,
+            18.936667
+          ]
+        },
+        {
+          "sourceSha256": "662ee99f6f795601d3afa78d3110e469bec415073b52e414a10514f4396cd32c",
+          "sourceSecondsWindow": [
+            0,
+            19.82
+          ]
+        },
+        {
+          "sourceSha256": "4c9b1664e6cf64c48453869ca3f81499f809ee8c6eba9071a73c4770289f52df",
+          "sourceSecondsWindow": [
+            0,
+            18.495
+          ]
+        },
+        {
+          "sourceSha256": "61b99be9f406dd2bd031f69091d758090853f6046927b4a00e5f84056c5cdb65",
+          "sourceSecondsWindow": [
+            0,
+            16.301667
+          ]
+        },
+        {
+          "sourceSha256": "c32acbc16cb440102545e563bdac62bf7089427421244585050dab1c86c27034",
+          "sourceSecondsWindow": [
+            0,
+            8.363333
+          ]
+        },
+        {
+          "sourceSha256": "4886b03b4ecad8dc237d597e2cbe142b7886e7ed67e717143312f0e8f80cb842",
+          "sourceSecondsWindow": [
+            0,
+            12.956667
+          ]
+        },
+        {
+          "sourceSha256": "56436d2c9aead88dae28b2943ad25d6fe3ea953669f74b0b4019a255608cc3d0",
+          "sourceSecondsWindow": [
+            0,
+            12.34
+          ]
+        },
+        {
+          "sourceSha256": "7b94784512156195efc07519601d587df53feca0cbb0b3d2b1479eb2daa9671f",
+          "sourceSecondsWindow": [
+            0,
+            7.695
+          ]
+        },
+        {
+          "sourceSha256": "0912e514d5050b4efaf2d4eedae0325eb9c53a39d95f8232702a6b4b112e33eb",
+          "sourceSecondsWindow": [
+            0,
+            12.285
+          ]
+        },
+        {
+          "sourceSha256": "4599e84f4efc123d970175b995f6866c30783810701a17a055985136b772961f",
+          "sourceSecondsWindow": [
+            0,
+            18.401667
+          ]
+        },
+        {
+          "sourceSha256": "a3d998a52ab1532a35a1593a455515371ac5369bcddc8670ad66fcc666e36ac5",
+          "sourceSecondsWindow": [
+            0,
+            13.823333
+          ]
+        },
+        {
+          "sourceSha256": "bcfdc210bf4854bf8222ff77e19519d9f17be86462c2e286c2cf6a47e056f9e9",
+          "sourceSecondsWindow": [
+            0,
+            7.893333
+          ]
+        },
+        {
+          "sourceSha256": "55e73c432903379e604014c235fe04b2dc14847a2a3140efaf8e6318b639ee71",
+          "sourceSecondsWindow": [
+            0,
+            17.543333
+          ]
+        },
+        {
+          "sourceSha256": "ea272602aebfccaa7a560a7bc121357c90bc1034e5006d3c6fdbde863f306525",
+          "sourceSecondsWindow": [
+            0,
+            6.908333
+          ]
+        },
+        {
+          "sourceSha256": "8cd3eeab3c8e6ac009adba491c0e0132da5e6d21d1fff8e9001d92adb1792c82",
+          "sourceSecondsWindow": [
+            0,
+            7.703333
           ]
         }
       ]

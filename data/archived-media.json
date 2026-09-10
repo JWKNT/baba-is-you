@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "verifiedAt": "2026-09-10T18:59:44.399074+00:00",
-  "verification": "Original149 verified in2x migration;147 verified separately after media2 Pages34517470008 success, HTTP206 prefix and full size. Local archival is allowed after catalogue/native verification.",
+  "verifiedAt": "2026-09-10T20:11:20.731615+00:00",
+  "verification": "Original149 verified in2x migration;147 verified separately after media2 Pages34517470008 success, HTTP206 prefix and full size. Local archival is allowed after catalogue/native verification. Hunt004 media verified separately after media2 Pages34524597889 success at127bf7671a6d15cfa570bbbe7fd0e84a21af2751, HTTP206 matching prefix and17,055,420-byte full size.",
   "records": [
     {
       "id": "level-01",
@@ -1652,6 +1652,17 @@
       "manifestSha256": "7f62cb5c6302fdff1b6830f5368c154ecd5448d438d6217b3e4fba3d3757d284",
       "repository": "JWKNT/baba-is-you-media-2",
       "verifiedCommit": "644b95295e988260eef74465c29f6489e5996956"
+    },
+    {
+      "id": "secret-hunt-004",
+      "file": "/baba-is-you-media-2/media/secret-hunt-004-baba-is-level.mp4",
+      "bytes": 17055420,
+      "sha256": "0527875080110df8bd4d5d4db45abeec9e2dd4df2f382f28dc24649579fe3e37",
+      "seconds": 213.333333,
+      "manifest": "data/pause-edits-secret-hunt-004.json",
+      "manifestSha256": "71f191c3b206b4d28361589ce3bae43b09e47915c5e9d34618d2ee1592d6ddac",
+      "repository": "JWKNT/baba-is-you-media-2",
+      "verifiedCommit": "127bf7671a6d15cfa570bbbe7fd0e84a21af2751"
     }
   ]
 }

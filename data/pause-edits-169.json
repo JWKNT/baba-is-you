@@ -1,0 +1,421 @@
+{
+  "source": "169.mov",
+  "sha256": "3f318d201ca1b9ebe515091d4a6a8668ec936c907c2aa307f28424c81dd91b36",
+  "sourceSeconds": 2238.121667,
+  "keptIntervals": [
+    [
+      0,
+      7.204738140106201
+    ],
+    [
+      40.37039613723755,
+      64.57801108950807
+    ],
+    [
+      177.24427700042725,
+      194.64664363861084
+    ],
+    [
+      429.2376127243042,
+      445.96157374972535
+    ],
+    [
+      464.717396736145,
+      467.70603576297
+    ],
+    [
+      482.1214838027954,
+      485.1144267618103
+    ],
+    [
+      547.4809260368347,
+      562.4053378641053
+    ],
+    [
+      573.5123558044434,
+      582.098334
+    ],
+    [
+      591.1162786483765,
+      598.415783092865
+    ],
+    [
+      616.5410003662109,
+      623.742094039917
+    ],
+    [
+      638.0384349822998,
+      642.8419008255005
+    ],
+    [
+      672.055027961731,
+      674.4431476593018
+    ],
+    [
+      698.4181156158447,
+      704.4694528579712
+    ],
+    [
+      717.0673160552979,
+      728.3854800914612
+    ],
+    [
+      743.413631439209,
+      752.5149528240051
+    ],
+    [
+      765.2400741577148,
+      774.3911533355713
+    ],
+    [
+      793.7139840126038,
+      809.7880392074585
+    ],
+    [
+      828.7564496994019,
+      843.7458562850952
+    ],
+    [
+      873.8384981155396,
+      887.6806087493896
+    ],
+    [
+      904.1177673339844,
+      920.7686853408813
+    ],
+    [
+      938.5455913543701,
+      954.7243900299072
+    ],
+    [
+      967.5427513122559,
+      985.9231548309326
+    ],
+    [
+      1000.0264220237732,
+      1011.7124419425812
+    ],
+    [
+      1037.2528142929077,
+      1040.245378992447
+    ],
+    [
+      1054.737530708313,
+      1057.729424974808
+    ],
+    [
+      1344.7664989684906,
+      1353.381667
+    ],
+    [
+      1354.39573097229,
+      1361.2855409204408
+    ],
+    [
+      1468.0511989593506,
+      1474.948862892334
+    ],
+    [
+      1481.5729899406433,
+      1488.8683150827333
+    ],
+    [
+      1497.514931064789,
+      1534.6944947242737
+    ],
+    [
+      1558.1614441871643,
+      1572.9966216087341
+    ],
+    [
+      1586.0192489624023,
+      1605.078378200531
+    ],
+    [
+      1624.893789768219,
+      1636.3275508880615
+    ],
+    [
+      1647.4704766273499,
+      1650.4620508729859
+    ],
+    [
+      1720.8174920082092,
+      1735.264343738556
+    ],
+    [
+      1747.5627579689026,
+      1764.288694858551
+    ],
+    [
+      1832.0835337638855,
+      1870.675883769989
+    ],
+    [
+      1885.431309223175,
+      1923.0379195213318
+    ],
+    [
+      1941.709026813507,
+      1958.5844840585632
+    ],
+    [
+      1983.508821964264,
+      2022.1139521598816
+    ],
+    [
+      2042.1199369430542,
+      2067.406177043915
+    ],
+    [
+      2080.1724066734314,
+      2110.564902025406
+    ],
+    [
+      2133.7879395484924,
+      2136.7760719835205
+    ],
+    [
+      2155.6274428367615,
+      2167.698521095459
+    ],
+    [
+      2205.5295157432556,
+      2238.121667
+    ]
+  ],
+  "playbackSpeed": 2,
+  "sourceRetainedSeconds": 647.510516272538,
+  "expectedOutputSeconds": 323.755258136269,
+  "outputSeconds": 323.7,
+  "inputCount": 1100,
+  "policy": "Preserve every chronological captured input, blocked move, attempt and observed victory. Remove only idle gaps between padded action spans0.75seconds before and1.5seconds after; retain the winning-input-to-final-pause capture suffix in full. Encode2x, silent, no replay/gap replacements or invented motion.",
+  "crop": "1680:960:14:56",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 23
+  },
+  "category": "completed-level",
+  "sequence": 169,
+  "countsAsCompletedLevel": true,
+  "recordedInputCount": 1100,
+  "loggedInputCount": 1100,
+  "uncapturedInputs": [],
+  "outputSha256": "2751fa1d3dbbc5741f68674ef5e1d619c80ce85a067a9a9c31db36389a779b8f",
+  "sourceParts": [
+    {
+      "source": "stardrop-part1.mov",
+      "sha256": "833aa3ab5e5f9a0bac0c785c4626c9d6015f0c1ff84522ebc4dfb082bb7b222d",
+      "sourceSeconds": 58.206667,
+      "joinedStart": 0,
+      "inputCount": 4,
+      "recordedInputCount": 4
+    },
+    {
+      "source": "stardrop-part2.mov",
+      "sha256": "341201af09df304fc49c17cfe065588f6763fb6846da9bf66d40cda260285ed5",
+      "sourceSeconds": 522.391667,
+      "joinedStart": 58.206667,
+      "inputCount": 83,
+      "recordedInputCount": 83
+    },
+    {
+      "source": "stardrop-part3.mov",
+      "sha256": "a88b30344b1dd425301ab73e264bc86df52b8120b606fd7b23d3a2579dafc7b8",
+      "sourceSeconds": 771.283333,
+      "joinedStart": 580.598334,
+      "inputCount": 305,
+      "recordedInputCount": 305
+    },
+    {
+      "source": "stardrop-part4.mov",
+      "sha256": "38f46fac7e01dfb8fcff7c217a98c43668ca35a15049658300b29b202b04723c",
+      "sourceSeconds": 886.246667,
+      "joinedStart": 1351.881667,
+      "inputCount": 708,
+      "recordedInputCount": 708
+    }
+  ],
+  "sourceAssignment": "Completion 169 Stardrop exclusively owns all four chronological stardrop-part1 through part4 original families, including navigation, both failed approaches, five undos, one restart, the simultaneous ghost/falling-flag construction and the final 169 / ten-flower pause. All 20 original/sidecar files remain retained. No other level or hunt source is reassigned.",
+  "scope": "The falling-belt and sequential two-hop conversions failed because movement displaced the goal IS and broke FLAG IS WIN. The successful revisit first converts only the original star to a flag. A gap in GHOST lets one DOWN complete BELT IS GHOST and FLAG IS FALL together. A new ghost supports the flag at (151, 328), preserving FLAG IS WIN for the final approach. Actual final pause confirms 169 completions and ten flowers; the settled ABC map shows 4 / 4. The internal order of simultaneous transformations was not independently isolated. All five undos, one restart and navigation remain; no explicit wait or death was observed.",
+  "rawCapturedSeconds": 2238.128334,
+  "rawOriginalBytes": 322369550,
+  "originalCaptureCount": 4,
+  "sourceInventoryFiles": [
+    "source-inventory.json"
+  ],
+  "criticalSeeks": [
+    {
+      "state": "first-title-pause",
+      "part": 1,
+      "partSourceSeconds": 58.073333,
+      "sourceSeconds": 58.073333,
+      "outputSeconds": 12.465390499999998,
+      "frame": "export-first-title-pause-full.png",
+      "nominalOutputSeconds": 12.453837501434325
+    },
+    {
+      "state": "falling-belt-first-turn",
+      "part": 2,
+      "partSourceSeconds": 386.25490674972536,
+      "sourceSeconds": 444.46157374972535,
+      "outputSeconds": 32.03773137486269,
+      "frame": "export-falling-belt-first-turn-full.png",
+      "nominalOutputSeconds": 32.01934037799073
+    },
+    {
+      "state": "falling-belt-second-turn",
+      "part": 2,
+      "partSourceSeconds": 407.99936876297,
+      "sourceSeconds": 466.20603576297,
+      "outputSeconds": 33.520342381484966,
+      "frame": "export-falling-belt-second-turn-full.png",
+      "nominalOutputSeconds": 33.51365989140321
+    },
+    {
+      "state": "falling-belt-WIN-loss",
+      "part": 2,
+      "partSourceSeconds": 425.4077597618103,
+      "sourceSeconds": 483.6144267618103,
+      "outputSeconds": 35.01654938090519,
+      "frame": "export-falling-belt-WIN-loss-full.png",
+      "nominalOutputSeconds": 35.010131370910656
+    },
+    {
+      "state": "falling-belt-restored",
+      "part": 2,
+      "partSourceSeconds": 491.1480797767639,
+      "sourceSeconds": 549.3547467767639,
+      "outputSeconds": 36.71871088838196,
+      "frame": "export-falling-belt-restored-full.png",
+      "nominalOutputSeconds": 36.697041740875264
+    },
+    {
+      "state": "two-hop-ready",
+      "part": 3,
+      "partSourceSeconds": 429.6141079425812,
+      "sourceSeconds": 1010.2124419425812,
+      "outputSeconds": 129.31049647129066,
+      "frame": "export-two-hop-ready-full.png",
+      "nominalOutputSeconds": 129.32322539943704
+    },
+    {
+      "state": "two-hop-first-conversion",
+      "part": 3,
+      "partSourceSeconds": 458.1470449924469,
+      "sourceSeconds": 1038.745378992447,
+      "outputSeconds": 130.80321099622347,
+      "frame": "export-two-hop-first-conversion-full.png",
+      "nominalOutputSeconds": 130.8195077492067
+    },
+    {
+      "state": "two-hop-WIN-loss",
+      "part": 3,
+      "partSourceSeconds": 475.63109097480776,
+      "sourceSeconds": 1056.229424974808,
+      "outputSeconds": 132.2930689874039,
+      "frame": "export-two-hop-WIN-loss-full.png",
+      "nominalOutputSeconds": 132.31545488245416
+    },
+    {
+      "state": "undo-two-hop-attempt",
+      "part": 4,
+      "partSourceSeconds": 4.806048965454101,
+      "sourceSeconds": 1356.6877159654541,
+      "outputSeconds": 138.50461898272704,
+      "frame": "export-undo-two-hop-attempt-full.png",
+      "nominalOutputSeconds": 138.51903139479094
+    },
+    {
+      "state": "restart-prompt",
+      "part": 4,
+      "partSourceSeconds": 117.66719589233398,
+      "sourceSeconds": 1469.548862892334,
+      "outputSeconds": 141.55386594616698,
+      "frame": "export-restart-prompt-full.png",
+      "nominalOutputSeconds": 141.56677583877598
+    },
+    {
+      "state": "fresh-board",
+      "part": 4,
+      "partSourceSeconds": 146.38326406478882,
+      "sourceSeconds": 1498.264931064789,
+      "outputSeconds": 148.28089453239443,
+      "frame": "export-fresh-board-full.png",
+      "nominalOutputSeconds": 148.289438409821
+    },
+    {
+      "state": "original-star-to-flag-only",
+      "part": 4,
+      "partSourceSeconds": 297.08038387298586,
+      "sourceSeconds": 1648.9620508729859,
+      "outputSeconds": 189.88206943649288,
+      "frame": "export-original-star-to-flag-only-full.png",
+      "nominalOutputSeconds": 189.9140412521519
+    },
+    {
+      "state": "FLAG-rule-staging",
+      "part": 4,
+      "partSourceSeconds": 605.2028170585633,
+      "sourceSeconds": 1957.0844840585632,
+      "outputSeconds": 251.98285102928173,
+      "frame": "export-FLAG-rule-staging-full.png",
+      "nominalOutputSeconds": 252.03764433680766
+    },
+    {
+      "state": "simultaneous-constructor-ready",
+      "part": 4,
+      "partSourceSeconds": 757.1832350254059,
+      "sourceSeconds": 2109.064902025406,
+      "outputSeconds": 299.1310010127031,
+      "frame": "export-simultaneous-constructor-ready-full.png",
+      "nominalOutputSeconds": 299.17957716103405
+    },
+    {
+      "state": "ghost-support-and-falling-flag",
+      "part": 4,
+      "partSourceSeconds": 783.3944049835205,
+      "sourceSeconds": 2135.2760719835205,
+      "outputSeconds": 300.62120899176034,
+      "frame": "export-ghost-support-and-falling-flag-full.png",
+      "nominalOutputSeconds": 300.6736433785481
+    },
+    {
+      "state": "settled-contact-stance",
+      "part": 4,
+      "partSourceSeconds": 814.316854095459,
+      "sourceSeconds": 2166.198521095459,
+      "outputSeconds": 306.6628170477295,
+      "frame": "export-settled-contact-stance-full.png",
+      "nominalOutputSeconds": 306.70918250789686
+    },
+    {
+      "state": "victory-transition",
+      "part": 4,
+      "partSourceSeconds": 855.1379099845886,
+      "sourceSeconds": 2207.0195769845886,
+      "outputSeconds": 308.1554354922944,
+      "frame": "export-victory-transition-full.png",
+      "nominalOutputSeconds": 308.20421312856337
+    },
+    {
+      "state": "settled-169-ten",
+      "part": 4,
+      "partSourceSeconds": 886.115,
+      "sourceSeconds": 2237.9966670000003,
+      "outputSeconds": 323.6439805000002,
+      "frame": "export-settled-169-ten-full.png",
+      "nominalOutputSeconds": 323.66666666666663
+    }
+  ],
+  "representativePosterSeconds": 148.28089453239443,
+  "timingPrecision": {
+    "method": "Actual trim/concat frame-timing trace before export verification",
+    "evidence": "actual-filter-timing.json",
+    "actualTimingSha256": "47d5288cb27902847c82a2c312e65f3120d8a269a96e6a8f6c9e7a75cac9c67d",
+    "videoBytesUnchanged": true,
+    "showinfoPrintedPrecisionMaxSeconds": 1.0000004522225936e-06,
+    "CFR30FrameSelectionQualification": "A seek resolves to a neighboring encoded30fps frame."
+  }
+}

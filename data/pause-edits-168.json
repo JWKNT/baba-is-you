@@ -1,0 +1,211 @@
+{
+  "source": "168.mov",
+  "sha256": "1a67111c40b34f36e76a2ab0e8e250736554bbaa90f6c3d59af1ec5b7308e61f",
+  "sourceSeconds": 713.406667,
+  "keptIntervals": [
+    [
+      0,
+      12.952924251556396
+    ],
+    [
+      347.80038299560545,
+      358.2021571159363
+    ],
+    [
+      376.0250873565674,
+      381.6220541000366
+    ],
+    [
+      393.9715790748596,
+      403.3889552116394
+    ],
+    [
+      461.9949531555176,
+      472.792234992981
+    ],
+    [
+      492.95712423324585,
+      503.1754532814026
+    ],
+    [
+      525.1479530334473,
+      535.7912569999695
+    ],
+    [
+      559.8900709152222,
+      566.9518762588501
+    ],
+    [
+      582.9523820877075,
+      588.7988210678101
+    ],
+    [
+      635.0392303466797,
+      641.6148692131043
+    ],
+    [
+      662.1572961807251,
+      665.1495340824127
+    ],
+    [
+      685.3748569488525,
+      713.406667
+    ]
+  ],
+  "playbackSpeed": 2,
+  "sourceRetainedSeconds": 120.53588724726887,
+  "expectedOutputSeconds": 60.26794362363444,
+  "outputSeconds": 60.233333,
+  "inputCount": 139,
+  "policy": "Preserve every chronological captured input, blocked move, attempt and observed victory. Remove only idle gaps between padded action spans0.75seconds before and1.5seconds after; retain the winning-input-to-final-pause capture suffix in full. Encode2x, silent, no replay/gap replacements or invented motion.",
+  "crop": "1680:960:14:56",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 23
+  },
+  "category": "completed-level",
+  "sequence": 168,
+  "countsAsCompletedLevel": true,
+  "recordedInputCount": 139,
+  "loggedInputCount": 139,
+  "uncapturedInputs": [],
+  "outputSha256": "300d1d8163c9b58daf1be6c09b058de351ebc66641885e74884ce86b07f36c6a",
+  "sourceParts": [
+    {
+      "source": "tag-team-part1.mov",
+      "sha256": "d0ccce3631fcc765a56323b935b6d1c161f02bf910f9317c14867fd72dda20ee",
+      "sourceSeconds": 713.406667,
+      "joinedStart": 0,
+      "inputCount": 139,
+      "recordedInputCount": 139
+    }
+  ],
+  "sourceAssignment": "Completion 168 Tag Team exclusively owns the complete tag-team-part1 original family: three navigation/entry inputs, all word staging, the eight-input wrong approach, ten-input detour, self-negation switch, flag finish and final168/nine pause. All five original/sidecar files remain retained. No other level or hunt source is reassigned.",
+  "scope": "Baba and the rock are controlled before the last switch. A shared NOT keeps the physical skull non-STOP long enough for the three-word push to form BABA IS NOT BABA using the anchored terminal BABA. Both physical Babas disappear, leaving the MELT rock controlled and alive two cells below the former HOT Baba. The recorded wrong direct approach moved other controllers while the main Baba stayed in its pocket; the detour reached the actual pushing stance. Two UPs take the rock to the flag and win. Settled source pause confirms168/nine. No undo,restart,explicit wait or rock MELT occurred; precise internal rule-processing order was not independently isolated.",
+  "rawCapturedSeconds": 713.406667,
+  "rawOriginalBytes": 67026296,
+  "originalCaptureCount": 1,
+  "sourceInventoryFiles": [
+    "source-inventory.json"
+  ],
+  "criticalSeeks": [
+    {
+      "state": "fresh-board",
+      "part": 1,
+      "partSourceSeconds": 348.55038299560545,
+      "sourceSeconds": 348.55038299560545,
+      "outputSeconds": 6.843857997802729,
+      "frame": "export-fresh-board-full.png",
+      "nominalOutputSeconds": 6.851462125778198
+    },
+    {
+      "state": "loose-BABA-left",
+      "part": 1,
+      "partSourceSeconds": 356.7021571159363,
+      "sourceSeconds": 356.7021571159363,
+      "outputSeconds": 10.919745057968157,
+      "frame": "export-loose-BABA-left-full.png",
+      "nominalOutputSeconds": 10.927349185943626
+    },
+    {
+      "state": "upper-IS-exported",
+      "part": 1,
+      "partSourceSeconds": 401.8889552116394,
+      "sourceSeconds": 401.8889552116394,
+      "outputSeconds": 18.42884310581971,
+      "frame": "export-upper-IS-exported-full.png",
+      "nominalOutputSeconds": 18.43452062606815
+    },
+    {
+      "state": "SKULL-word-upper",
+      "part": 1,
+      "partSourceSeconds": 471.292234992981,
+      "sourceSeconds": 471.292234992981,
+      "outputSeconds": 23.83673499649049,
+      "frame": "export-SKULL-word-upper-full.png",
+      "nominalOutputSeconds": 23.83316154479985
+    },
+    {
+      "state": "shared-column-IS-staged",
+      "part": 1,
+      "partSourceSeconds": 501.6754532814026,
+      "sourceSeconds": 501.6754532814026,
+      "outputSeconds": 28.942043640701286,
+      "frame": "export-shared-column-IS-staged-full.png",
+      "nominalOutputSeconds": 28.94232606887823
+    },
+    {
+      "state": "shared-NOT-staged",
+      "part": 1,
+      "partSourceSeconds": 534.2912569999695,
+      "sourceSeconds": 534.2912569999695,
+      "outputSeconds": 34.26877249998478,
+      "frame": "export-shared-NOT-staged-full.png",
+      "nominalOutputSeconds": 34.26397805213935
+    },
+    {
+      "state": "ROCK-IS-YOU-active",
+      "part": 1,
+      "partSourceSeconds": 565.4518762588501,
+      "sourceSeconds": 565.4518762588501,
+      "outputSeconds": 37.79700112942504,
+      "frame": "export-ROCK-IS-YOU-active-full.png",
+      "nominalOutputSeconds": 37.79488072395333
+    },
+    {
+      "state": "wrong-approach-Baba-still-in-pocket",
+      "part": 1,
+      "partSourceSeconds": 587.2988210678101,
+      "sourceSeconds": 587.2988210678101,
+      "outputSeconds": 40.717508533905004,
+      "frame": "export-wrong-approach-Baba-still-in-pocket-full.png",
+      "nominalOutputSeconds": 40.71810021400461
+    },
+    {
+      "state": "actual-switch-ready",
+      "part": 1,
+      "partSourceSeconds": 640.1148692131043,
+      "sourceSeconds": 640.1148692131043,
+      "outputSeconds": 43.99511610655219,
+      "frame": "export-actual-switch-ready-full.png",
+      "nominalOutputSeconds": 44.0059196472169
+    },
+    {
+      "state": "BABA-self-negation-removes-both",
+      "part": 1,
+      "partSourceSeconds": 663.6495340824127,
+      "sourceSeconds": 663.6495340824127,
+      "outputSeconds": 45.483678541206416,
+      "frame": "export-BABA-self-negation-removes-both-full.png",
+      "nominalOutputSeconds": 45.50203859806072
+    },
+    {
+      "state": "rock-flag-win",
+      "part": 1,
+      "partSourceSeconds": 686.8586811542511,
+      "sourceSeconds": 686.8586811542511,
+      "outputSeconds": 46.973606577125565,
+      "frame": "export-rock-flag-win-full.png",
+      "nominalOutputSeconds": 46.993950700760024
+    },
+    {
+      "state": "settled-168-nine",
+      "part": 1,
+      "partSourceSeconds": 713.273333,
+      "sourceSeconds": 713.273333,
+      "outputSeconds": 60.18093249999998,
+      "frame": "export-settled-168-nine-full.png",
+      "nominalOutputSeconds": 60.19999966666667
+    }
+  ],
+  "representativePosterSeconds": 6.843857997802729,
+  "timingPrecision": {
+    "method": "Actual trim/concat frame-timing trace before export verification",
+    "evidence": "actual-filter-timing.json",
+    "actualTimingSha256": "284df08b65b4e9822a2b75ad4db3c851595d8b3774e7f380a9f4c2fec9a6d495",
+    "videoBytesUnchanged": true,
+    "showinfoPrintedPrecisionMaxSeconds": 1.0000001111620804e-06,
+    "CFR30FrameSelectionQualification": "A seek resolves to a neighboring encoded30fps frame."
+  }
+}

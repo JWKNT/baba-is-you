@@ -2803,5 +2803,90 @@
       "mechanics": "The key buffer keeps the controlled IS off the former WIN tile, where it lost LONELY TEXT control. Two final DOWNs move a key onto and then beyond the flag, allowing IS and the flag to overlap and win. The internal control and win order was not isolated.",
       "attempts": "All 159 inputs across seven originals are retained at 2\u00d7 speed, including seven undos, two earlier whole-board destructions and the later control failure. The final 63-input opening and 22-input return were executed. No restart or explicit wait was used."
     }
+  },
+  {
+    "id": "level-166",
+    "number": 166,
+    "title": "VIP Area",
+    "world": "???",
+    "code": "08",
+    "name": "VIP Area",
+    "file": "/baba-is-you-media-2/media/166-vip-area.mp4",
+    "poster": "assets/level-166.jpg",
+    "seconds": 134.166667,
+    "recorded": "2026-09-10",
+    "notes": {
+      "approach": "Use the rocks and flag under NOT BABA IS YOU. Sacrifice one rock to recover KEKE while preserving the flag, turn the seven guards into Baba, then push FLAG into FLAG IS WIN.",
+      "mechanics": "The sacrificial rock delivers KEKE before DEFEAT removes it; the other rock keeps control. Moving the spare IS left before lowering it preserves the flag during KEKE IS BABA. The living controlled flag wins when FLAG IS WIN is formed.",
+      "attempts": "All 253 inputs across five originals are retained at 2\u00d7 speed, including the earlier flag loss, 34 undos, one intentional rock sacrifice, seven accidental UP inputs and two corrective undos. No restart or explicit wait was used."
+    }
+  },
+  {
+    "id": "level-167",
+    "number": 167,
+    "title": "Tense Atmosphere",
+    "world": "???",
+    "code": "09",
+    "name": "Tense Atmosphere",
+    "file": "/baba-is-you-media-2/media/167-tense-atmosphere.mp4",
+    "poster": "assets/level-167.jpg",
+    "seconds": 54.666667,
+    "recorded": "2026-09-11",
+    "notes": {
+      "approach": "Form WALL IS NOT WALL to remove the enclosure. Make the rock PUSH and SINK, push it into the skull below the flag, then walk through the opening.",
+      "mechanics": "The first rock push was blocked while the wall had STOP and SINK. WALL IS NOT WALL removed the physical walls. The later sinking rock consumed itself and one skull, leaving Baba alive with a path to the flag.",
+      "attempts": "All 118 inputs in the original capture are retained at 2\u00d7 speed, including the blocked RIGHT, both rule constructors and the rock/skull sacrifice. No undo, restart, explicit wait or Baba death was observed."
+    }
+  },
+  {
+    "id": "level-168",
+    "number": 168,
+    "title": "Tag Team",
+    "world": "???",
+    "code": "10",
+    "name": "Tag Team",
+    "file": "/baba-is-you-media-2/media/168-tag-team.mp4",
+    "poster": "assets/level-168.jpg",
+    "seconds": 60.233333,
+    "recorded": "2026-09-11",
+    "notes": {
+      "approach": "Activate ROCK IS YOU and arrange a shared NOT to form BABA IS NOT BABA. Remove both HOT Babas while keeping the rock safely below the corridor blocker, then move the rock to the flag.",
+      "mechanics": "SKULL IS NOT STOP permits the final word push through the physical skull. That push completes BABA IS NOT BABA and removes both Babas; the surviving rock remains controlled and wins on the flag under ROCK ON FLAG IS WIN. The internal rule-processing order was not isolated.",
+      "attempts": "All 139 inputs are retained at 2\u00d7 speed, including the eight-input wrong approach, ten-input detour and two intentional Baba removals. No undo, restart, explicit wait or rock MELT occurred."
+    }
+  },
+  {
+    "id": "level-169",
+    "number": 169,
+    "title": "Stardrop",
+    "world": "ABC",
+    "code": "05",
+    "name": "Stardrop",
+    "file": "/baba-is-you-media-2/media/169-stardrop.mp4",
+    "poster": "assets/level-169.jpg",
+    "seconds": 323.7,
+    "recorded": "2026-09-11",
+    "notes": {
+      "approach": "Convert the original star to a flag while keeping the belts, then complete BELT IS GHOST and FLAG IS FALL together so a new ghost catches the falling flag.",
+      "mechanics": "A gap in the GHOST letters lets one DOWN push share IS between the two rules. The flag rests at (151, 328), and FLAG IS WIN stays aligned for contact.",
+      "attempts": "All 1,100 inputs across four chronological recordings are retained at 2\u00d7 speed, including the failed falling-belt and two-hop conversion attempts, five undos, one restart and the successful construction. No explicit wait or death was observed."
+    }
+  },
+  {
+    "id": "level-170",
+    "number": 170,
+    "title": "Security Check",
+    "world": "???",
+    "code": "11",
+    "name": "Security Check",
+    "file": "/baba-is-you-media-2/media/170-security-check.mp4",
+    "poster": "assets/level-170.jpg",
+    "seconds": 127.866667,
+    "recorded": "2026-09-11",
+    "notes": {
+      "approach": "Use the controlled rocks to reposition the lower KEKE word, restore Baba control, and build a crossing NOT BABA IS NOT KEKE rule. With the guards removed, lift FLAG into the fixed win rule and return to the surviving flag.",
+      "mechanics": "Two rocks lift BABA and YOU around a spare IS, then Baba shifts the complete control sentence right. The two-NOT clause removes all seven guards while its shared BABA keeps control; Baba, the rocks and flag remain.",
+      "attempts": "All 252 inputs across two chronological recordings are retained at 2\u00d7 speed, including the wrong-level entry and return, the abandoned lower-word setup, the early IS-delivery attempt and all 25 undos. No restart, explicit wait or Baba death was observed; seven guard removals are intentional self-negation."
+    }
   }
 ]

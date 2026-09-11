@@ -1,0 +1,512 @@
+{
+  "source": "166.mov",
+  "sha256": "7bed840093a739d145ef8cae671e87531511a4653a42a2720d6b53a0128b0101",
+  "sourceSeconds": 1800.39,
+  "keptIntervals": [
+    [
+      0,
+      7.790841102600098
+    ],
+    [
+      20.094151973724365,
+      26.98674201965332
+    ],
+    [
+      40.952953815460205,
+      54.72414603823852
+    ],
+    [
+      57.0714750289917,
+      64.8353681564331
+    ],
+    [
+      71.84521389007568,
+      79.08079209918213
+    ],
+    [
+      84.7125244140625,
+      88.11429205531311
+    ],
+    [
+      97.45847192401123,
+      106.11085988272094
+    ],
+    [
+      111.43361377716064,
+      118.98258007276917
+    ],
+    [
+      122.1993248462677,
+      129.598334
+    ],
+    [
+      216.41629719734192,
+      225.121667
+    ],
+    [
+      620.6457197666168,
+      631.410001
+    ],
+    [
+      634.7170803546906,
+      637.763334
+    ],
+    [
+      657.7751891613007,
+      660.8550009999999
+    ],
+    [
+      664.1453506946564,
+      669.5583340000001
+    ],
+    [
+      776.0285494327545,
+      785.2787544727325
+    ],
+    [
+      789.2011120319366,
+      792.251667
+    ],
+    [
+      890.0591804981232,
+      894.4784138202667
+    ],
+    [
+      898.4958717823029,
+      901.560001
+    ],
+    [
+      977.3369619846344,
+      980.406667
+    ],
+    [
+      1150.748660326004,
+      1167.110001
+    ],
+    [
+      1187.9651509593812,
+      1201.6626461183473
+    ],
+    [
+      1218.761459827423,
+      1222.3819842338562
+    ],
+    [
+      1226.294683933258,
+      1231.8881649971008
+    ],
+    [
+      1251.7633080482483,
+      1266.6652910386965
+    ],
+    [
+      1291.0392661094666,
+      1302.5391361390994
+    ],
+    [
+      1305.8888101577759,
+      1312.1476890718386
+    ],
+    [
+      1348.9355821609497,
+      1351.9813561117098
+    ],
+    [
+      1625.1636214256287,
+      1628.2054772054598
+    ],
+    [
+      1636.8146538734436,
+      1642.4120402013705
+    ],
+    [
+      1665.1308450698853,
+      1668.1714450990603
+    ],
+    [
+      1680.099467754364,
+      1683.1377360498354
+    ],
+    [
+      1695.3622813224792,
+      1702.0331451570437
+    ],
+    [
+      1712.990963459015,
+      1720.6393673097537
+    ],
+    [
+      1734.2653350830078,
+      1737.3079230462954
+    ],
+    [
+      1747.2985491752625,
+      1753.1766802942202
+    ],
+    [
+      1769.3560403024599,
+      1800.39
+    ]
+  ],
+  "playbackSpeed": 2,
+  "sourceRetainedSeconds": 268.2901572314329,
+  "expectedOutputSeconds": 134.14507861571644,
+  "outputSeconds": 134.166667,
+  "inputCount": 253,
+  "policy": "Preserve every chronological captured input, blocked move, attempt and observed victory. Remove only idle gaps between padded action spans0.75seconds before and1.5seconds after; retain the winning-input-to-final-pause capture suffix in full. Encode2x, silent, no replay/gap replacements or invented motion.",
+  "crop": "1680:960:14:56",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 23
+  },
+  "category": "completed-level",
+  "sequence": 166,
+  "countsAsCompletedLevel": true,
+  "recordedInputCount": 253,
+  "loggedInputCount": 253,
+  "uncapturedInputs": [],
+  "outputSha256": "472525b4b75a896086a6aa48e37fa8ee022595f541fb1068e6220c08c78e3210",
+  "sourceParts": [
+    {
+      "source": "vip-area-part1.mov",
+      "sha256": "5243b29aaf4f9b88da261bb889a44cdb8c9f901a38f09616f5437d37410e4fe1",
+      "sourceSeconds": 48.056667,
+      "joinedStart": 0,
+      "inputCount": 10,
+      "recordedInputCount": 10
+    },
+    {
+      "source": "vip-area-part2.mov",
+      "sha256": "9e7ff4ddd4e68b83871724db3a22bfa995935554348c6a3d75b18acb52dd1939",
+      "sourceSeconds": 50.631667,
+      "joinedStart": 48.056667,
+      "inputCount": 17,
+      "recordedInputCount": 17
+    },
+    {
+      "source": "vip-area-part3.mov",
+      "sha256": "8399387ad23d3812fc06e4f7b64f48e220a4eeb0509241649d66e13be64172a6",
+      "sourceSeconds": 13.995,
+      "joinedStart": 98.688334,
+      "inputCount": 3,
+      "recordedInputCount": 3
+    },
+    {
+      "source": "vip-area-part4.mov",
+      "sha256": "cba36596d1d08ef599e410dcf74eb59fb17144811e43b5c6a8372932f26bcf60",
+      "sourceSeconds": 1082.283333,
+      "joinedStart": 112.683334,
+      "inputCount": 117,
+      "recordedInputCount": 117
+    },
+    {
+      "source": "vip-area-part5.mov",
+      "sha256": "2069776bdcabc73239c736cf56689d5115c2981cdc1798997b0951e4b9360229",
+      "sourceSeconds": 605.426667,
+      "joinedStart": 1194.9666670000001,
+      "inputCount": 106,
+      "recordedInputCount": 106
+    }
+  ],
+  "sourceAssignment": "Completion 166 VIP Area exclusively owns vip-area-part1 through part5, five full chronological original families. The separate Ultimate Maze part7 contains the earlier VIP menu exit and retains that separate allocation. All25 VIP original/sidecar files remain; no intermission or hunt footage is reassigned.",
+  "scope": "Initial NOT BABA IS YOU moves rocks and the physical flag. The first guard-word extraction loses the flag, converts all seven guards, tests a control handoff and uses34 undos to restore the STOP-separated predecessor. The later revisit rebuilds it and deliberately sacrifices one rock to DEFEAT after delivering KEKE; the surviving rock recovers the noun while the flag lives. Seven accidental UP inputs include two blocked attempts and are corrected with two undos. Moving spare IS left before lowering it permits KEKE IS BABA with the flag intact. The former guards stay Baba when the sentence is broken. A final noun push lifts FLAG into FLAG IS WIN while the controlled physical flag survives, triggering victory. Settled pause confirms166/nine.",
+  "rawCapturedSeconds": 1800.393334,
+  "rawOriginalBytes": 163855108,
+  "originalCaptureCount": 5,
+  "sourceInventoryFiles": [
+    "source-inventory.json"
+  ],
+  "criticalSeeks": [
+    {
+      "state": "first-visit-title",
+      "part": 1,
+      "partSourceSeconds": 24.98674201965332,
+      "sourceSeconds": 24.98674201965332,
+      "outputSeconds": 6.3412400098266595,
+      "frame": "export-first-visit-title-full.png",
+      "nominalOutputSeconds": 6.341715574264526
+    },
+    {
+      "state": "initial-before-isolated-R",
+      "part": 2,
+      "partSourceSeconds": 29.52412509918213,
+      "sourceSeconds": 77.58079209918213,
+      "outputSeconds": 20.978492549591067,
+      "frame": "export-initial-before-isolated-R-full.png",
+      "nominalOutputSeconds": 20.977047353927613
+    },
+    {
+      "state": "initial-after-isolated-R",
+      "part": 2,
+      "partSourceSeconds": 38.55762505531311,
+      "sourceSeconds": 86.61429205531311,
+      "outputSeconds": 22.674855527656547,
+      "frame": "export-initial-after-isolated-R-full.png",
+      "nominalOutputSeconds": 22.67793117455292
+    },
+    {
+      "state": "prior-fresh-entry",
+      "part": 4,
+      "partSourceSeconds": 15.415,
+      "sourceSeconds": 128.098334,
+      "outputSeconds": 34.44876049999999,
+      "frame": "export-prior-fresh-entry-full.png",
+      "nominalOutputSeconds": 34.47811287857819
+    },
+    {
+      "state": "prior-NOT-BABA-control",
+      "part": 4,
+      "partSourceSeconds": 110.938333,
+      "sourceSeconds": 223.621667,
+      "outputSeconds": 38.800760999999994,
+      "frame": "export-prior-NOT-BABA-control-full.png",
+      "nominalOutputSeconds": 38.83079777990723
+    },
+    {
+      "state": "prior-two-rock-prestage",
+      "part": 4,
+      "partSourceSeconds": 517.226667,
+      "sourceSeconds": 629.910001,
+      "outputSeconds": 44.189569000000006,
+      "frame": "export-prior-two-rock-prestage-full.png",
+      "nominalOutputSeconds": 44.2129383965988
+    },
+    {
+      "state": "prior-STOP-overlap",
+      "part": 4,
+      "partSourceSeconds": 523.58,
+      "sourceSeconds": 636.263334,
+      "outputSeconds": 45.72000399999996,
+      "frame": "export-prior-STOP-overlap-full.png",
+      "nominalOutputSeconds": 45.73606521925352
+    },
+    {
+      "state": "prior-STOP-separated",
+      "part": 4,
+      "partSourceSeconds": 546.671667,
+      "sourceSeconds": 659.3550009999999,
+      "outputSeconds": 47.26783199999994,
+      "frame": "export-prior-STOP-separated-full.png",
+      "nominalOutputSeconds": 47.27597113860314
+    },
+    {
+      "state": "prior-before-flag-loss",
+      "part": 4,
+      "partSourceSeconds": 553.663333,
+      "sourceSeconds": 666.346667,
+      "outputSeconds": 49.11816500000003,
+      "frame": "export-prior-before-flag-loss-full.png",
+      "nominalOutputSeconds": 49.126629291274966
+    },
+    {
+      "state": "prior-flag-lost",
+      "part": 4,
+      "partSourceSeconds": 554.04,
+      "sourceSeconds": 666.723334,
+      "outputSeconds": 49.30649850000003,
+      "frame": "export-prior-flag-lost-full.png",
+      "nominalOutputSeconds": 49.314962791274965
+    },
+    {
+      "state": "prior-KEKE-extracted",
+      "part": 4,
+      "partSourceSeconds": 555.375,
+      "sourceSeconds": 668.0583340000001,
+      "outputSeconds": 49.97399850000005,
+      "frame": "export-prior-KEKE-extracted-full.png",
+      "nominalOutputSeconds": 49.98246279127498
+    },
+    {
+      "state": "prior-all-seven-guards-BABA",
+      "part": 4,
+      "partSourceSeconds": 678.068333,
+      "sourceSeconds": 790.751667,
+      "outputSeconds": 56.14062849999999,
+      "frame": "export-prior-all-seven-guards-BABA-full.png",
+      "nominalOutputSeconds": 56.13284279529567
+    },
+    {
+      "state": "prior-NOT-KEKE-control",
+      "part": 4,
+      "partSourceSeconds": 787.376667,
+      "sourceSeconds": 900.060001,
+      "outputSeconds": 59.898878000000025,
+      "frame": "export-prior-NOT-KEKE-control-full.png",
+      "nominalOutputSeconds": 59.87452406521605
+    },
+    {
+      "state": "prior-all-bodies-UP",
+      "part": 4,
+      "partSourceSeconds": 866.223333,
+      "sourceSeconds": 978.906667,
+      "outputSeconds": 61.42917349999999,
+      "frame": "export-prior-all-bodies-UP-full.png",
+      "nominalOutputSeconds": 61.409376572898836
+    },
+    {
+      "state": "prior-restored-source48",
+      "part": 4,
+      "partSourceSeconds": 1052.926667,
+      "sourceSeconds": 1165.610001,
+      "outputSeconds": 69.62287299999991,
+      "frame": "export-prior-restored-source48-full.png",
+      "nominalOutputSeconds": 69.59004690989683
+    },
+    {
+      "state": "prior-inside-paused",
+      "part": 4,
+      "partSourceSeconds": 1076.84,
+      "sourceSeconds": 1189.523334,
+      "outputSeconds": 71.15243950000001,
+      "frame": "export-prior-inside-paused-full.png",
+      "nominalOutputSeconds": 71.11913843020623
+    },
+    {
+      "state": "fresh-final-visit",
+      "part": 5,
+      "partSourceSeconds": 63.71079411506653,
+      "sourceSeconds": 1258.6774611150668,
+      "outputSeconds": 85.28653005753335,
+      "frame": "export-fresh-final-visit-full.png",
+      "nominalOutputSeconds": 84.24254587039194
+    },
+    {
+      "state": "final-NOT-BABA-control",
+      "part": 5,
+      "partSourceSeconds": 70.1986240386963,
+      "sourceSeconds": 1265.1652910386965,
+      "outputSeconds": 88.53044501934824,
+      "frame": "export-final-NOT-BABA-control-full.png",
+      "nominalOutputSeconds": 88.49678871974196
+    },
+    {
+      "state": "rebuilt-STOP-separated",
+      "part": 5,
+      "partSourceSeconds": 106.07246913909913,
+      "sourceSeconds": 1301.0391361390994,
+      "outputSeconds": 94.27023456954976,
+      "frame": "export-rebuilt-STOP-separated-full.png",
+      "nominalOutputSeconds": 94.24672373455836
+    },
+    {
+      "state": "before-sacrificial-LEFT",
+      "part": 5,
+      "partSourceSeconds": 115.68102207183838,
+      "sourceSeconds": 1310.6476890718386,
+      "outputSeconds": 97.39236353591934,
+      "frame": "export-before-sacrificial-LEFT-full.png",
+      "nominalOutputSeconds": 97.37616319158973
+    },
+    {
+      "state": "rock-sacrifice-delivers-KEKE",
+      "part": 5,
+      "partSourceSeconds": 155.5146891117096,
+      "sourceSeconds": 1350.4813561117098,
+      "outputSeconds": 98.91205205585493,
+      "frame": "export-rock-sacrifice-delivers-KEKE-full.png",
+      "nominalOutputSeconds": 98.89905016696979
+    },
+    {
+      "state": "KEKE-recovered-flag-alive",
+      "part": 5,
+      "partSourceSeconds": 431.7388102054596,
+      "sourceSeconds": 1626.7054772054598,
+      "outputSeconds": 100.42358260273,
+      "frame": "export-KEKE-recovered-flag-alive-full.png",
+      "nominalOutputSeconds": 100.41997805688537
+    },
+    {
+      "state": "extra-UP-error",
+      "part": 5,
+      "partSourceSeconds": 445.9453732013702,
+      "sourceSeconds": 1640.9120402013705,
+      "outputSeconds": 103.22639060068525,
+      "frame": "export-extra-UP-error-full.png",
+      "nominalOutputSeconds": 103.2186712208488
+    },
+    {
+      "state": "first-correcting-undo",
+      "part": 5,
+      "partSourceSeconds": 471.70477809906004,
+      "sourceSeconds": 1666.6714450990603,
+      "outputSeconds": 104.73891804953018,
+      "frame": "export-first-correcting-undo-full.png",
+      "nominalOutputSeconds": 104.73897123543632
+    },
+    {
+      "state": "conversion-predecessor-restored",
+      "part": 5,
+      "partSourceSeconds": 486.6710690498352,
+      "sourceSeconds": 1681.6377360498354,
+      "outputSeconds": 106.24906202491763,
+      "frame": "export-conversion-predecessor-restored-full.png",
+      "nominalOutputSeconds": 106.25810538317204
+    },
+    {
+      "state": "spare-IS-lowered-flag-alive",
+      "part": 5,
+      "partSourceSeconds": 505.56647815704343,
+      "sourceSeconds": 1700.5331451570437,
+      "outputSeconds": 109.58710707852185,
+      "frame": "export-spare-IS-lowered-flag-alive-full.png",
+      "nominalOutputSeconds": 109.59353730045426
+    },
+    {
+      "state": "before-guard-conversion",
+      "part": 5,
+      "partSourceSeconds": 524.1727003097534,
+      "sourceSeconds": 1719.1393673097537,
+      "outputSeconds": 113.41143615487681,
+      "frame": "export-before-guard-conversion-full.png",
+      "nominalOutputSeconds": 113.41773922582364
+    },
+    {
+      "state": "seven-guards-converted-flag-alive",
+      "part": 5,
+      "partSourceSeconds": 540.8412560462951,
+      "sourceSeconds": 1735.8079230462954,
+      "outputSeconds": 114.9461290231477,
+      "frame": "export-seven-guards-converted-flag-alive-full.png",
+      "nominalOutputSeconds": 114.93903320746743
+    },
+    {
+      "state": "FLAG-WIN-ready",
+      "part": 5,
+      "partSourceSeconds": 556.71001329422,
+      "sourceSeconds": 1751.6766802942202,
+      "outputSeconds": 117.88920614711003,
+      "frame": "export-FLAG-WIN-ready-full.png",
+      "nominalOutputSeconds": 117.87809876694631
+    },
+    {
+      "state": "winning-transition",
+      "part": 5,
+      "partSourceSeconds": 575.484776210785,
+      "sourceSeconds": 1770.451443210785,
+      "outputSeconds": 119.18866360539255,
+      "frame": "export-winning-transition-full.png",
+      "nominalOutputSeconds": 119.17580022110893
+    },
+    {
+      "state": "settled-166-nine",
+      "part": 5,
+      "partSourceSeconds": 605.291667,
+      "sourceSeconds": 1800.258334,
+      "outputSeconds": 134.09210900000005,
+      "frame": "export-settled-166-nine-full.png",
+      "nominalOutputSeconds": 134.07924561571642
+    }
+  ],
+  "representativePosterSeconds": 85.28653005753335,
+  "timingPrecision": {
+    "method": "Actual trim/concat frame-timing trace before export verification",
+    "evidence": "actual-filter-timing.json",
+    "actualTimingSha256": "b8a46809fde8d74623d0c88ce43c9d99a11e2f590c8592d3b95f96136d126f3c",
+    "idealDurationRetainedAsExpectedOutputSeconds": true,
+    "criticalSeeksAndInputMappingCorrected": true,
+    "videoBytesUnchanged": true,
+    "showinfoPrintedPrecisionMaxSeconds": 1.0000001964272087e-06,
+    "CFR30FrameSelectionQualification": "A seek resolves to a neighboring encoded30fps frame."
+  }
+}

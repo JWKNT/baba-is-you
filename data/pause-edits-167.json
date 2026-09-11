@@ -1,0 +1,227 @@
+{
+  "source": "167.mov",
+  "sha256": "072ae98d4e5c9500c60662978165148561144986d12e7b5d5bc9f30ba481fa0a",
+  "sourceSeconds": 747.831667,
+  "keptIntervals": [
+    [
+      0,
+      6.285670042037964
+    ],
+    [
+      13.418191194534302,
+      20.31209707260132
+    ],
+    [
+      104.1042419910431,
+      107.78992414474487
+    ],
+    [
+      128.69760274887085,
+      133.68690190315246
+    ],
+    [
+      176.6671233177185,
+      182.84825310707092
+    ],
+    [
+      194.38803339004517,
+      197.3815170288086
+    ],
+    [
+      356.05092191696167,
+      362.8713402748108
+    ],
+    [
+      374.65313482284546,
+      379.45984983444214
+    ],
+    [
+      391.00219678878784,
+      399.4281810283661
+    ],
+    [
+      413.0875401496887,
+      416.07911405563357
+    ],
+    [
+      603.0584511756897,
+      613.8190951347351
+    ],
+    [
+      652.617214679718,
+      663.2671400070191
+    ],
+    [
+      675.1665930747986,
+      678.1593841075897
+    ],
+    [
+      693.3369822502136,
+      701.549814081192
+    ],
+    [
+      711.8597331047058,
+      714.8550909519196
+    ],
+    [
+      728.210572719574,
+      747.831667
+    ]
+  ],
+  "playbackSpeed": 2,
+  "sourceRetainedSeconds": 109.30650644892899,
+  "expectedOutputSeconds": 54.65325322446449,
+  "outputSeconds": 54.666667,
+  "inputCount": 118,
+  "policy": "Preserve every chronological captured input, blocked move, attempt and observed victory. Remove only idle gaps between padded action spans0.75seconds before and1.5seconds after; retain the winning-input-to-final-pause capture suffix in full. Encode2x, silent, no replay/gap replacements or invented motion.",
+  "crop": "1680:960:14:56",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 23
+  },
+  "category": "completed-level",
+  "sequence": 167,
+  "countsAsCompletedLevel": true,
+  "recordedInputCount": 118,
+  "loggedInputCount": 118,
+  "uncapturedInputs": [],
+  "outputSha256": "335f5ba610be9395448711aa14b2f66f854734122dba0daffebeb874441b7ea4",
+  "sourceParts": [
+    {
+      "source": "tense-atmosphere-part1.mov",
+      "sha256": "da479de64fb812c051c8143a85e56a6126468192e26190bc77dc95e488bc2405",
+      "sourceSeconds": 747.831667,
+      "joinedStart": 0,
+      "inputCount": 118,
+      "recordedInputCount": 118
+    }
+  ],
+  "sourceAssignment": "Completion 167 Tense Atmosphere exclusively owns the full original tense-atmosphere-part1 family, including its three navigation/entry inputs, initial blocked RIGHT, every constructor and the captured167/nine final pause. All five original/sidecar files remain. No other level or hunt source is reassigned.",
+  "scope": "The initial pushable rock is blocked by a wall while WALL IS STOP and SINK coexist. WALL IS NOT WALL then removes all visible physical walls. ROCK IS PUSH AND SINK lets Baba deliver the rock into the bottom skull of the flag cage; rock and skull disappear, Baba survives, and two more UPs reach the flag. Settled final original pause verifies167/nine. No undo,restart,explicit wait or Baba death was observed.",
+  "rawCapturedSeconds": 747.831667,
+  "rawOriginalBytes": 48734274,
+  "originalCaptureCount": 1,
+  "sourceInventoryFiles": [
+    "source-inventory.json"
+  ],
+  "criticalSeeks": [
+    {
+      "state": "fresh-board",
+      "part": 1,
+      "partSourceSeconds": 104.8542419910431,
+      "sourceSeconds": 104.8542419910431,
+      "outputSeconds": 6.956961995521546,
+      "frame": "export-fresh-board-full.png",
+      "nominalOutputSeconds": 6.96478796005249
+    },
+    {
+      "state": "ROCK-IS-PUSH",
+      "part": 1,
+      "partSourceSeconds": 132.18690190315246,
+      "sourceSeconds": 132.18690190315246,
+      "outputSeconds": 10.165269951576235,
+      "frame": "export-ROCK-IS-PUSH-full.png",
+      "nominalOutputSeconds": 10.177278614044184
+    },
+    {
+      "state": "before-blocked-RIGHT",
+      "part": 1,
+      "partSourceSeconds": 181.34825310707092,
+      "sourceSeconds": 181.34825310707092,
+      "outputSeconds": 13.262954553535451,
+      "frame": "export-before-blocked-RIGHT-full.png",
+      "nominalOutputSeconds": 13.26784350872039
+    },
+    {
+      "state": "blocked-rock-wall-RIGHT",
+      "part": 1,
+      "partSourceSeconds": 195.8815170288086,
+      "sourceSeconds": 195.8815170288086,
+      "outputSeconds": 14.759998014404289,
+      "frame": "export-blocked-rock-wall-RIGHT-full.png",
+      "nominalOutputSeconds": 14.7645853281021
+    },
+    {
+      "state": "self-negation-ready",
+      "part": 1,
+      "partSourceSeconds": 397.9281810283661,
+      "sourceSeconds": 397.9281810283661,
+      "outputSeconds": 24.797780014183047,
+      "frame": "export-self-negation-ready-full.png",
+      "nominalOutputSeconds": 24.791144132614136
+    },
+    {
+      "state": "all-physical-walls-removed",
+      "part": 1,
+      "partSourceSeconds": 414.57911405563357,
+      "sourceSeconds": 414.57911405563357,
+      "outputSeconds": 26.296173527816762,
+      "frame": "export-all-physical-walls-removed-full.png",
+      "nominalOutputSeconds": 26.28693108558656
+    },
+    {
+      "state": "PUSH-AND-SINK-ready",
+      "part": 1,
+      "partSourceSeconds": 661.7671400070191,
+      "sourceSeconds": 661.7671400070191,
+      "outputSeconds": 37.01841850350951,
+      "frame": "export-PUSH-AND-SINK-ready-full.png",
+      "nominalOutputSeconds": 36.99221572875979
+    },
+    {
+      "state": "ROCK-PUSH-AND-SINK-active",
+      "part": 1,
+      "partSourceSeconds": 676.6593841075897,
+      "sourceSeconds": 676.6593841075897,
+      "outputSeconds": 38.53159455379489,
+      "frame": "export-ROCK-PUSH-AND-SINK-active-full.png",
+      "nominalOutputSeconds": 38.48861124515537
+    },
+    {
+      "state": "bottom-skull-contact-ready",
+      "part": 1,
+      "partSourceSeconds": 700.049814081192,
+      "sourceSeconds": 700.049814081192,
+      "outputSeconds": 42.623821040596,
+      "frame": "export-bottom-skull-contact-ready-full.png",
+      "nominalOutputSeconds": 42.59502716064458
+    },
+    {
+      "state": "rock-and-skull-consumed",
+      "part": 1,
+      "partSourceSeconds": 713.3550909519196,
+      "sourceSeconds": 713.3550909519196,
+      "outputSeconds": 44.13022497595978,
+      "frame": "export-rock-and-skull-consumed-full.png",
+      "nominalOutputSeconds": 44.09270608425146
+    },
+    {
+      "state": "winning-transition",
+      "part": 1,
+      "partSourceSeconds": 729.7042359828949,
+      "sourceSeconds": 729.7042359828949,
+      "outputSeconds": 45.61511399144746,
+      "frame": "export-winning-transition-full.png",
+      "nominalOutputSeconds": 45.589537715911945
+    },
+    {
+      "state": "settled-167-nine",
+      "part": 1,
+      "partSourceSeconds": 747.6983329999999,
+      "sourceSeconds": 747.6983329999999,
+      "outputSeconds": 54.612162499999954,
+      "frame": "export-settled-167-nine-full.png",
+      "nominalOutputSeconds": 54.58658622446444
+    }
+  ],
+  "representativePosterSeconds": 6.956961995521546,
+  "timingPrecision": {
+    "method": "Actual trim/concat frame-timing trace before export verification",
+    "evidence": "actual-filter-timing.json",
+    "actualTimingSha256": "cfb7f39f3efeb0e6ec1aeb7c9a41010384aaa915a6ff52bc94140cc092bc0b03",
+    "videoBytesUnchanged": true,
+    "showinfoPrintedPrecisionMaxSeconds": 1.0000001111620804e-06,
+    "CFR30FrameSelectionQualification": "A seek resolves to a neighboring encoded30fps frame."
+  }
+}

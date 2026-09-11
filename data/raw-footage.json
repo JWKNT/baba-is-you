@@ -5214,6 +5214,155 @@
         }
       ],
       "originalBytes": 256934594
+    },
+    {
+      "id": "level-166",
+      "capturedSeconds": 1800.393334,
+      "originalCaptureCount": 5,
+      "knownMissingInputs": 0,
+      "allocations": [
+        {
+          "sourceSha256": "5243b29aaf4f9b88da261bb889a44cdb8c9f901a38f09616f5437d37410e4fe1",
+          "sourceSecondsWindow": [
+            0,
+            48.056667
+          ],
+          "originalBytes": 5051149
+        },
+        {
+          "sourceSha256": "9e7ff4ddd4e68b83871724db3a22bfa995935554348c6a3d75b18acb52dd1939",
+          "sourceSecondsWindow": [
+            0,
+            50.631667
+          ],
+          "originalBytes": 4566831
+        },
+        {
+          "sourceSha256": "8399387ad23d3812fc06e4f7b64f48e220a4eeb0509241649d66e13be64172a6",
+          "sourceSecondsWindow": [
+            0,
+            13.995
+          ],
+          "originalBytes": 1869918
+        },
+        {
+          "sourceSha256": "cba36596d1d08ef599e410dcf74eb59fb17144811e43b5c6a8372932f26bcf60",
+          "sourceSecondsWindow": [
+            0,
+            1082.283333
+          ],
+          "originalBytes": 90657613
+        },
+        {
+          "sourceSha256": "2069776bdcabc73239c736cf56689d5115c2981cdc1798997b0951e4b9360229",
+          "sourceSecondsWindow": [
+            0,
+            605.426667
+          ],
+          "originalBytes": 61709597
+        }
+      ],
+      "originalBytes": 163855108
+    },
+    {
+      "id": "level-167",
+      "capturedSeconds": 747.831667,
+      "originalCaptureCount": 1,
+      "knownMissingInputs": 0,
+      "allocations": [
+        {
+          "sourceSha256": "da479de64fb812c051c8143a85e56a6126468192e26190bc77dc95e488bc2405",
+          "sourceSecondsWindow": [
+            0,
+            747.831667
+          ],
+          "originalBytes": 48734274
+        }
+      ],
+      "originalBytes": 48734274
+    },
+    {
+      "id": "level-168",
+      "capturedSeconds": 713.406667,
+      "originalCaptureCount": 1,
+      "knownMissingInputs": 0,
+      "allocations": [
+        {
+          "sourceSha256": "d0ccce3631fcc765a56323b935b6d1c161f02bf910f9317c14867fd72dda20ee",
+          "sourceSecondsWindow": [
+            0,
+            713.406667
+          ],
+          "originalBytes": 67026296
+        }
+      ],
+      "originalBytes": 67026296
+    },
+    {
+      "id": "level-169",
+      "capturedSeconds": 2238.128334,
+      "originalCaptureCount": 4,
+      "knownMissingInputs": 0,
+      "allocations": [
+        {
+          "sourceSha256": "833aa3ab5e5f9a0bac0c785c4626c9d6015f0c1ff84522ebc4dfb082bb7b222d",
+          "sourceSecondsWindow": [
+            0,
+            58.206667
+          ],
+          "originalBytes": 7091626
+        },
+        {
+          "sourceSha256": "341201af09df304fc49c17cfe065588f6763fb6846da9bf66d40cda260285ed5",
+          "sourceSecondsWindow": [
+            0,
+            522.391667
+          ],
+          "originalBytes": 67212221
+        },
+        {
+          "sourceSha256": "a88b30344b1dd425301ab73e264bc86df52b8120b606fd7b23d3a2579dafc7b8",
+          "sourceSecondsWindow": [
+            0,
+            771.283333
+          ],
+          "originalBytes": 132235071
+        },
+        {
+          "sourceSha256": "38f46fac7e01dfb8fcff7c217a98c43668ca35a15049658300b29b202b04723c",
+          "sourceSecondsWindow": [
+            0,
+            886.246667
+          ],
+          "originalBytes": 115830632
+        }
+      ],
+      "originalBytes": 322369550
+    },
+    {
+      "id": "level-170",
+      "capturedSeconds": 1603.12,
+      "originalCaptureCount": 2,
+      "knownMissingInputs": 0,
+      "allocations": [
+        {
+          "sourceSha256": "165d85558d05dbae81921e74d9478cb430f92a20b05ab25f35ce725290bbd391",
+          "sourceSecondsWindow": [
+            0,
+            505.055
+          ],
+          "originalBytes": 44355973
+        },
+        {
+          "sourceSha256": "060d202521d3e60be2547c35a3b4ef56f70cb205c4cc1b3dc6dde6b62cb2da26",
+          "sourceSecondsWindow": [
+            0,
+            1098.065
+          ],
+          "originalBytes": 124903439
+        }
+      ],
+      "originalBytes": 169259412
     }
   ]
 }

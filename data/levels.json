@@ -2922,5 +2922,22 @@
       "mechanics": "An inert pillar keeps Baba\u2019s dust from becoming lonely lava. The lower support allows the goal-rule visit and return, while the second protects the north entrance. TREE IS SINK consumes the delivered pillar and one tree, opening the final approach.",
       "attempts": "All 705 inputs across four chronological originals are retained at 2\u00d7, including the failed edge placement, 82 undos, the mixed-push separation experiment and the successful 181-direction revisit. No restart, explicit wait or Baba death was observed. The final area completion grants the eleventh flower."
     }
+  },
+  {
+    "id": "level-173",
+    "number": 173,
+    "title": "Meteor Strike",
+    "world": "ABC",
+    "code": "Extra 1",
+    "name": "Meteor Strike",
+    "file": "/baba-is-you-media-2/media/173-meteor-strike.mp4",
+    "poster": "assets/level-173.jpg",
+    "seconds": 258.166667,
+    "recorded": "2026-09-11",
+    "notes": {
+      "approach": "Convert STAR to FLAG while keeping BELT recoverable, then position A, R and FLAG on the extra belt. Complete BELT IS GHOST with one UP so that belt simultaneously assembles FLAG IS FALL. Walk to the flag caught by the left ghost.",
+      "mechanics": "The existing belt shifts its cargo before becoming GHOST. That one input forms FLAG IS FALL while creating the ghost that catches the falling flag. The right-side FLAG IS WIN remains intact for contact.",
+      "attempts": "All 905 inputs across four chronological originals are retained at 2\u00d7, including the standalone GHOST test, the abandoned edgeboxed BELT setup, two undos, one restart, one wait and the successful 600-direction fresh constructor. No Baba death was observed. The final pause confirms 173 completions and eleven flowers."
+    }
   }
 ]

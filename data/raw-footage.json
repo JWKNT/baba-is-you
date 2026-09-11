@@ -5631,6 +5631,47 @@
         }
       ],
       "originalBytes": 25572424
+    },
+    {
+      "id": "level-173",
+      "capturedSeconds": 2108.613334,
+      "originalCaptureCount": 4,
+      "knownMissingInputs": 0,
+      "allocations": [
+        {
+          "sourceSha256": "0649c8cf72904bbbbe74f582c7d4294a1ba1ea765f048b825f9b8b20b2c6cdee",
+          "sourceSecondsWindow": [
+            0,
+            686.71
+          ],
+          "originalBytes": 97526611
+        },
+        {
+          "sourceSha256": "8c2ccc828ac3aacae6b3c1a65fbe072abe474dda6a0a8aec2ef904ce18cc8988",
+          "sourceSecondsWindow": [
+            0,
+            15.121667
+          ],
+          "originalBytes": 1018384
+        },
+        {
+          "sourceSha256": "c46ee4e542b2adaf54829db74fdaa3d1b30a80f1ea1d521154911be40ff80ed9",
+          "sourceSecondsWindow": [
+            0,
+            417.98
+          ],
+          "originalBytes": 56564989
+        },
+        {
+          "sourceSha256": "5b490b9579dfe2084a6bfc82802976e4cbe590b2eed29a425d5a72638381b968",
+          "sourceSecondsWindow": [
+            0,
+            988.801667
+          ],
+          "originalBytes": 139755871
+        }
+      ],
+      "originalBytes": 294865855
     }
   ]
 }

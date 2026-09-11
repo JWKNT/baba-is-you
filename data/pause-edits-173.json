@@ -1,0 +1,377 @@
+{
+  "source": "173.mov",
+  "sha256": "1024719af793d4f4fea7e9e9f5dbc0a2307f08e38bb996e127601a7d2bb3d42d",
+  "sourceSeconds": 2108.593333,
+  "keptIntervals": [
+    [
+      0,
+      6.294739007949829
+    ],
+    [
+      14.308584213256836,
+      16.699965000152588
+    ],
+    [
+      30.723544120788574,
+      37.616374015808105
+    ],
+    [
+      679.678505897522,
+      682.0714387893677
+    ],
+    [
+      684.71,
+      693.4020380592347
+    ],
+    [
+      699.831667,
+      703.331667
+    ],
+    [
+      723.4842369556427,
+      733.7983000814362
+    ],
+    [
+      745.0916230678558,
+      749.782655954361
+    ],
+    [
+      759.9937608242035,
+      766.8803961812897
+    ],
+    [
+      782.3837749958038,
+      797.0437681674957
+    ],
+    [
+      822.7750437259674,
+      847.7696530818939
+    ],
+    [
+      987.8411371707916,
+      1002.6401827335358
+    ],
+    [
+      1077.6011459827423,
+      1080.5960310995026
+    ],
+    [
+      1096.1580307483673,
+      1099.147763162796
+    ],
+    [
+      1107.193204164505,
+      1109.5837581157684
+    ],
+    [
+      1117.811667,
+      1121.311667
+    ],
+    [
+      1122.1358969556732,
+      1129.0269880639953
+    ],
+    [
+      1137.008141040802,
+      1140.0003200876158
+    ],
+    [
+      1191.1251330375671,
+      1216.5820379257202
+    ],
+    [
+      1234.8619499206543,
+      1266.3974548684996
+    ],
+    [
+      1483.42866897583,
+      1490.3238540040893
+    ],
+    [
+      1512.0460758209229,
+      1519.3422069894714
+    ],
+    [
+      1570.794331073761,
+      1616.4042478906554
+    ],
+    [
+      1645.345443725586,
+      1696.7824729787749
+    ],
+    [
+      1715.9609937667847,
+      1750.2103859292906
+    ],
+    [
+      1767.3078427314758,
+      1845.6087910043639
+    ],
+    [
+      1871.1898708343506,
+      1873.576835155487
+    ],
+    [
+      1893.0463938713074,
+      1895.4351439476013
+    ],
+    [
+      1903.9058871269226,
+      1906.8970159398955
+    ],
+    [
+      1923.213900089264,
+      1941.955642830078
+    ],
+    [
+      1968.1161279678345,
+      1984.4296809541624
+    ],
+    [
+      2005.4550738334656,
+      2020.6071039544981
+    ],
+    [
+      2043.7428660392761,
+      2046.7360218870085
+    ],
+    [
+      2062.303328037262,
+      2108.593333
+    ]
+  ],
+  "playbackSpeed": 2,
+  "sourceRetainedSeconds": 516.3060841456129,
+  "expectedOutputSeconds": 258.15304207280644,
+  "outputSeconds": 258.166667,
+  "inputCount": 905,
+  "policy": "Preserve every chronological captured input, blocked move, attempt and observed victory. Remove only idle gaps between padded action spans0.75seconds before and1.5seconds after; retain the winning-input-to-final-pause capture suffix in full. Encode2x, silent, no replay/gap replacements or invented motion.",
+  "crop": "1680:960:14:56",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 23
+  },
+  "category": "completed-level",
+  "sequence": 173,
+  "countsAsCompletedLevel": true,
+  "recordedInputCount": 905,
+  "loggedInputCount": 905,
+  "uncapturedInputs": [],
+  "outputSha256": "04f3be57bc1998e07f6e5ee250ac4b5f4bb544b4db97fe91c764d987586d863d",
+  "sourceParts": [
+    {
+      "source": "meteor-strike-part1.mov",
+      "sha256": "0649c8cf72904bbbbe74f582c7d4294a1ba1ea765f048b825f9b8b20b2c6cdee",
+      "sourceSeconds": 686.71,
+      "joinedStart": 0,
+      "inputCount": 5,
+      "recordedInputCount": 5
+    },
+    {
+      "source": "meteor-strike-part2.mov",
+      "sha256": "8c2ccc828ac3aacae6b3c1a65fbe072abe474dda6a0a8aec2ef904ce18cc8988",
+      "sourceSeconds": 15.121667,
+      "joinedStart": 686.71,
+      "inputCount": 2,
+      "recordedInputCount": 2
+    },
+    {
+      "source": "meteor-strike-part3.mov",
+      "sha256": "c46ee4e542b2adaf54829db74fdaa3d1b30a80f1ea1d521154911be40ff80ed9",
+      "sourceSeconds": 417.98,
+      "joinedStart": 701.831667,
+      "inputCount": 142,
+      "recordedInputCount": 142
+    },
+    {
+      "source": "meteor-strike-part4.mov",
+      "sha256": "5b490b9579dfe2084a6bfc82802976e4cbe590b2eed29a425d5a72638381b968",
+      "sourceSeconds": 988.801667,
+      "joinedStart": 1119.811667,
+      "inputCount": 756,
+      "recordedInputCount": 756
+    }
+  ],
+  "sourceAssignment": "Completion 173 exclusively owns meteor-strike-part1 through part4 in chronological order. All 20 original-family files remain retained. Earlier entry-only visits, the standalone GHOST test, the abandoned edgeboxed BELT branch, the confirmed restart and successful final construction remain; no other level or hunt source is reassigned.",
+  "scope": "The final UP completed BELT IS GHOST while an existing belt shifted A/R/FLAG to form FLAG IS FALL. The new left ghost caught the physical flag at (151, 328), with FLAG IS WIN intact; the 19-direction approach won. Settled ABC pause confirms 173 / eleven flowers. All earlier attempts and transitions remain chronological.",
+  "rawCapturedSeconds": 2108.613334,
+  "rawOriginalBytes": 294865855,
+  "originalCaptureCount": 4,
+  "sourceInventoryFiles": [
+    "source-inventory.json"
+  ],
+  "criticalSeeks": [
+    {
+      "state": "standalone-ghost",
+      "part": 3,
+      "partSourceSeconds": 377.2643640995026,
+      "sourceSeconds": 1079.0960310995026,
+      "outputSeconds": 54.020121549751366,
+      "frame": "export-standalone-ghost-full.png",
+      "nominalOutputSeconds": 54.00209260872657
+    },
+    {
+      "state": "one-wait-goal-intact",
+      "part": 3,
+      "partSourceSeconds": 395.81609616279604,
+      "sourceSeconds": 1097.647763162796,
+      "outputSeconds": 55.51795158139805,
+      "frame": "export-one-wait-goal-intact-full.png",
+      "nominalOutputSeconds": 55.49695881594096
+    },
+    {
+      "state": "belts-restored",
+      "part": 4,
+      "partSourceSeconds": 18.688653087615968,
+      "sourceSeconds": 1138.5003200876158,
+      "outputSeconds": 63.40139304380784,
+      "frame": "export-belts-restored-full.png",
+      "nominalOutputSeconds": 63.38387086914065
+    },
+    {
+      "state": "first-STAR-conversion-boxed-BELT",
+      "part": 4,
+      "partSourceSeconds": 145.08578786849975,
+      "sourceSeconds": 1264.8974548684996,
+      "outputSeconds": 91.88573393424986,
+      "frame": "export-first-STAR-conversion-boxed-BELT-full.png",
+      "nominalOutputSeconds": 91.88007578713984
+    },
+    {
+      "state": "necessary-restart-prompt",
+      "part": 4,
+      "partSourceSeconds": 365.1121870040894,
+      "sourceSeconds": 1484.9238540040892,
+      "outputSeconds": 93.39433700204461,
+      "frame": "export-necessary-restart-prompt-full.png",
+      "nominalOutputSeconds": 93.37766830126941
+    },
+    {
+      "state": "fresh-restart",
+      "part": 4,
+      "partSourceSeconds": 394.13053998947146,
+      "sourceSeconds": 1513.9422069894713,
+      "outputSeconds": 97.0438474947357,
+      "frame": "export-fresh-restart-full.png",
+      "nominalOutputSeconds": 97.02573388554367
+    },
+    {
+      "state": "recoverable-BELT",
+      "part": 4,
+      "partSourceSeconds": 495.09258089065554,
+      "sourceSeconds": 1614.9042478906554,
+      "outputSeconds": 121.8069379453276,
+      "frame": "export-recoverable-BELT-full.png",
+      "nominalOutputSeconds": 121.78069229399091
+    },
+    {
+      "state": "second-STAR-conversion",
+      "part": 4,
+      "partSourceSeconds": 575.470805978775,
+      "sourceSeconds": 1695.2824729787749,
+      "outputSeconds": 147.51482598938742,
+      "frame": "export-second-STAR-conversion-full.png",
+      "nominalOutputSeconds": 147.49920692058538
+    },
+    {
+      "state": "backed-IS",
+      "part": 4,
+      "partSourceSeconds": 628.8987189292908,
+      "sourceSeconds": 1748.7103859292906,
+      "outputSeconds": 164.63588996464534,
+      "frame": "export-backed-IS-full.png",
+      "nominalOutputSeconds": 164.62390300183836
+    },
+    {
+      "state": "upper-driver-row",
+      "part": 4,
+      "partSourceSeconds": 724.297124004364,
+      "sourceSeconds": 1844.1087910043639,
+      "outputSeconds": 203.780522002182,
+      "frame": "export-upper-driver-row-full.png",
+      "nominalOutputSeconds": 203.77437713828238
+    },
+    {
+      "state": "T-driver-staged",
+      "part": 4,
+      "partSourceSeconds": 785.5853489398957,
+      "sourceSeconds": 1905.3970159398955,
+      "outputSeconds": 207.6649359699477,
+      "frame": "export-T-driver-staged-full.png",
+      "nominalOutputSeconds": 207.65779874348402
+    },
+    {
+      "state": "FLAG-cargo-loaded",
+      "part": 4,
+      "partSourceSeconds": 820.6439758300781,
+      "sourceSeconds": 1940.455642830078,
+      "outputSeconds": 217.02960391503905,
+      "frame": "export-FLAG-cargo-loaded-full.png",
+      "nominalOutputSeconds": 217.02867011389105
+    },
+    {
+      "state": "R-cargo-loaded",
+      "part": 4,
+      "partSourceSeconds": 863.1180139541626,
+      "sourceSeconds": 1982.9296809541624,
+      "outputSeconds": 225.17787997708115,
+      "frame": "export-R-cargo-loaded-full.png",
+      "nominalOutputSeconds": 225.18544660705504
+    },
+    {
+      "state": "final-UP-ready",
+      "part": 4,
+      "partSourceSeconds": 899.2954369544983,
+      "sourceSeconds": 2019.1071039544981,
+      "outputSeconds": 232.760394977249,
+      "frame": "export-final-UP-ready-full.png",
+      "nominalOutputSeconds": 232.76146166757133
+    },
+    {
+      "state": "simultaneous-GHOST-SHIFT-FALL",
+      "part": 4,
+      "partSourceSeconds": 925.4243548870087,
+      "sourceSeconds": 2045.2360218870085,
+      "outputSeconds": 234.2577619435042,
+      "frame": "export-simultaneous-GHOST-SHIFT-FALL-full.png",
+      "nominalOutputSeconds": 234.25803959143752
+    },
+    {
+      "state": "flag-contact-stance",
+      "part": 4,
+      "partSourceSeconds": 950.3992583751678,
+      "sourceSeconds": 2070.210925375168,
+      "outputSeconds": 238.96471568758398,
+      "frame": "export-flag-contact-stance-full.png",
+      "nominalOutputSeconds": 238.96183826039044
+    },
+    {
+      "state": "victory-transition",
+      "part": 4,
+      "partSourceSeconds": 951.2740839481354,
+      "sourceSeconds": 2071.0857509481352,
+      "outputSeconds": 239.4021284740677,
+      "frame": "export-victory-transition-full.png",
+      "nominalOutputSeconds": 239.39925104687416
+    },
+    {
+      "state": "settled-173-eleven",
+      "part": 4,
+      "partSourceSeconds": 988.668333,
+      "sourceSeconds": 2108.48,
+      "outputSeconds": 258.0992530000001,
+      "frame": "export-settled-173-eleven-full.png",
+      "nominalOutputSeconds": 258.09637557280655
+    }
+  ],
+  "representativePosterSeconds": 234.2577619435042,
+  "timingPrecision": {
+    "method": "Actual trim/concat frame-timing trace before export verification",
+    "evidence": "actual-filter-timing.json",
+    "actualTimingSha256": "936e92a1486c06c07e113f0273d44d74b761642018365762b332d2687749f00f",
+    "videoBytesUnchanged": true,
+    "showinfoPrintedPrecisionMaxSeconds": 1.0000001964272087e-06,
+    "CFR30FrameSelectionQualification": "A seek resolves to a neighboring encoded30fps frame."
+  }
+}

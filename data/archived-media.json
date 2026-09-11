@@ -2004,6 +2004,17 @@
       "manifestSha256": "8f7c7b0a9123bfd1017edb0ce6db25dbb329f99f2c8c859e12d98e6b33a06a92",
       "repository": "JWKNT/baba-is-you-media-2",
       "verifiedCommit": "cf6a034d1c88dee8defa5edb50958c9916446b79"
+    },
+    {
+      "id": "level-173",
+      "file": "/baba-is-you-media-2/media/173-meteor-strike.mp4",
+      "bytes": 23833702,
+      "sha256": "04f3be57bc1998e07f6e5ee250ac4b5f4bb544b4db97fe91c764d987586d863d",
+      "seconds": 258.166667,
+      "manifest": "data/pause-edits-173.json",
+      "manifestSha256": "47525479fa5bf12f2f8618224e677ba241755a6f82ab5dbd16c341f28aa25f5e",
+      "repository": "JWKNT/baba-is-you-media-2",
+      "verifiedCommit": "56703f050d2cff33990d07f211b40d751dad812a"
     }
   ]
 }

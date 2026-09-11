@@ -1,0 +1,259 @@
+{
+  "source": "158.mov",
+  "sha256": "a8b9618a70273fb775b6bc03b3641f3266e608b4442b8757524c35031db887aa",
+  "sourceSeconds": 1211.578333,
+  "keptIntervals": [
+    [
+      0,
+      12
+    ],
+    [
+      48.98939514160156,
+      51.38601589202881
+    ],
+    [
+      148.48909187316895,
+      158.62908601760864
+    ],
+    [
+      191.58978939056396,
+      206.14555025100708
+    ],
+    [
+      235.14856624603271,
+      257.0915412902832
+    ],
+    [
+      291.2244610786438,
+      317.2395820617676
+    ],
+    [
+      358.20723819732666,
+      365.10045528411865
+    ],
+    [
+      459.64339208602905,
+      464.5331461429596
+    ],
+    [
+      474.15359115600586,
+      537.6639642715454
+    ],
+    [
+      777.6062970161438,
+      813.1174082756042
+    ],
+    [
+      857.6670713424683,
+      872.7106821537018
+    ],
+    [
+      911.5338382720947,
+      916.4271392822266
+    ],
+    [
+      963.1821050643921,
+      983.2200651168823
+    ],
+    [
+      1068.3183784484863,
+      1079.3282001018524
+    ],
+    [
+      1090.4437322616577,
+      1108.7018842697144
+    ],
+    [
+      1143.711422920227,
+      1156.2979362010956
+    ],
+    [
+      1166.0849890708923,
+      1211.578333
+    ]
+  ],
+  "playbackSpeed": 2,
+  "sourceRetainedSeconds": 325.1776300466613,
+  "expectedOutputSeconds": 162.58881502333065,
+  "outputSeconds": 162.6,
+  "inputCount": 541,
+  "policy": "Preserve every chronological captured input, blocked move, attempt and observed victory. Remove only idle gaps between padded action spans0.75seconds before and1.5seconds after; retain the winning-input-to-final-pause capture suffix in full. Encode2x, silent, no replay/gap replacements or invented motion.",
+  "crop": "1680:960:14:56",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 23
+  },
+  "category": "completed-level",
+  "sequence": 158,
+  "countsAsCompletedLevel": true,
+  "recordedInputCount": 541,
+  "loggedInputCount": 541,
+  "uncapturedInputs": [],
+  "outputSha256": "4cf39c7dba469d8a805585e56c8d70bb62f6b673c58a095600c3eef2342514f6",
+  "sourceParts": [
+    {
+      "source": "wall-part1.mov",
+      "sha256": "697ab24a2c45a29e3992b455158c7e98a2f395b34d77f630128ec72f51691f77",
+      "sourceSeconds": 1211.578333,
+      "joinedStart": 0,
+      "inputCount": 541,
+      "recordedInputCount": 541
+    }
+  ],
+  "sourceAssignment": "Completion 158 Wall exclusively uses the original wall-part1 family. Its full source window preserves level entry, the failed WALL/ALL IS KEY transformation and control loss, 140 undos, mistaken then corrected PUSH construction, roof-word retrieval, OPEN door removal, hedge displacement, PUSH removal and complete victory/pause. All five original/sidecar files remain retained. No unfinished AB footage or unplayed model suffix is included.",
+  "scope": "Spelling W A L L also admitted the ALL suffix. The failed KEY transformation removed controlled Baba while identity-protected doors remained. After 140 undos, the corrected PUSH rules enabled roof access and OPEN retrieval. ALL IS OPEN removed SHUT doors; restoring PUSH enabled hedge movement, then removing PUSH allowed flag contact. The settled pause verifies 158 completed and nine flowers; the early map animation is not used as a settled local-count proof.",
+  "rawCapturedSeconds": 1211.578333,
+  "rawOriginalBytes": 122063278,
+  "originalCaptureCount": 1,
+  "sourceInventoryFiles": [
+    "source-inventory.json"
+  ],
+  "criticalSeeks": [
+    {
+      "state": "initial-board",
+      "part": 1,
+      "partSourceSeconds": 6,
+      "sourceSeconds": 6,
+      "outputSeconds": 3.0,
+      "frame": "export-initial-board-full.png"
+    },
+    {
+      "state": "opened-left-door",
+      "part": 1,
+      "partSourceSeconds": 155.32908601760863,
+      "sourceSeconds": 155.32908601760863,
+      "outputSeconds": 10.618307447433466,
+      "frame": "export-opened-left-door-full.png"
+    },
+    {
+      "state": "key-rule-prerequisite",
+      "part": 1,
+      "partSourceSeconds": 316.43958206176757,
+      "sourceSeconds": 316.43958206176757,
+      "outputSeconds": 43.12523589134216,
+      "frame": "export-key-rule-prerequisite-full.png"
+    },
+    {
+      "state": "before-KEY-activation",
+      "part": 1,
+      "partSourceSeconds": 358.8072381973267,
+      "sourceSeconds": 358.8072381973267,
+      "outputSeconds": 43.825235891342174,
+      "frame": "export-before-KEY-activation-full.png"
+    },
+    {
+      "state": "KEY-transformation-control-loss",
+      "part": 1,
+      "partSourceSeconds": 359.80045528411864,
+      "sourceSeconds": 359.80045528411864,
+      "outputSeconds": 44.32184443473815,
+      "frame": "export-KEY-transformation-control-loss-full.png"
+    },
+    {
+      "state": "explicit-ALL-IS-KEY-rules",
+      "part": 1,
+      "partSourceSeconds": 461.2331461429596,
+      "sourceSeconds": 461.2331461429596,
+      "outputSeconds": 47.766721463203424,
+      "frame": "export-explicit-ALL-IS-KEY-rules-full.png"
+    },
+    {
+      "state": "after-140-undos",
+      "part": 1,
+      "partSourceSeconds": 533.3639642715455,
+      "sourceSeconds": 533.3639642715455,
+      "outputSeconds": 79.02190802097323,
+      "frame": "export-after-140-undos-full.png"
+    },
+    {
+      "state": "lower-letters-staged",
+      "part": 1,
+      "partSourceSeconds": 812.3174082756043,
+      "sourceSeconds": 812.3174082756043,
+      "outputSeconds": 98.52746365070345,
+      "frame": "export-lower-letters-staged-full.png"
+    },
+    {
+      "state": "mistaken-PUSH-layout",
+      "part": 1,
+      "partSourceSeconds": 869.4106821537018,
+      "sourceSeconds": 869.4106821537018,
+      "outputSeconds": 104.79926905632021,
+      "frame": "export-mistaken-PUSH-layout-full.png"
+    },
+    {
+      "state": "missing-PUSH-rule-check",
+      "part": 1,
+      "partSourceSeconds": 913.1271392822266,
+      "sourceSeconds": 913.1271392822266,
+      "outputSeconds": 107.24591956138613,
+      "frame": "export-missing-PUSH-rule-check-full.png"
+    },
+    {
+      "state": "corrected-PUSH-active",
+      "part": 1,
+      "partSourceSeconds": 978.9200651168824,
+      "sourceSeconds": 978.9200651168824,
+      "outputSeconds": 116.76489958763125,
+      "frame": "export-corrected-PUSH-active-full.png"
+    },
+    {
+      "state": "OPEN-retrieved",
+      "part": 1,
+      "partSourceSeconds": 1076.0282001018525,
+      "sourceSeconds": 1076.0282001018525,
+      "outputSeconds": 122.76981041431429,
+      "frame": "export-OPEN-retrieved-full.png"
+    },
+    {
+      "state": "SHUT-doors-removed",
+      "part": 1,
+      "partSourceSeconds": 1103.4018842697144,
+      "sourceSeconds": 1103.4018842697144,
+      "outputSeconds": 130.8988864183426,
+      "frame": "export-SHUT-doors-removed-full.png"
+    },
+    {
+      "state": "flag-side-hedge-lifted",
+      "part": 1,
+      "partSourceSeconds": 1152.9979362010956,
+      "sourceSeconds": 1152.9979362010956,
+      "outputSeconds": 138.19214305877688,
+      "frame": "export-flag-side-hedge-lifted-full.png"
+    },
+    {
+      "state": "before-winning-contact",
+      "part": 1,
+      "partSourceSeconds": 1178.8571811676024,
+      "sourceSeconds": 1178.8571811676024,
+      "outputSeconds": 146.2282391071319,
+      "frame": "export-before-winning-contact-full.png"
+    },
+    {
+      "state": "flag-victory",
+      "part": 1,
+      "partSourceSeconds": 1179.302432203293,
+      "sourceSeconds": 1179.302432203293,
+      "outputSeconds": 146.45086462497716,
+      "frame": "export-flag-victory-full.png"
+    },
+    {
+      "state": "map-return-not-local-count-proof",
+      "part": 1,
+      "partSourceSeconds": 1187.1524322032928,
+      "sourceSeconds": 1187.1524322032928,
+      "outputSeconds": 150.3758646249771,
+      "frame": "export-map-return-not-local-count-proof-full.png"
+    },
+    {
+      "state": "final-pause-158",
+      "part": 1,
+      "partSourceSeconds": 1211.4450000000002,
+      "sourceSeconds": 1211.4450000000002,
+      "outputSeconds": 162.52214852333077,
+      "frame": "export-final-pause-158-full.png"
+    }
+  ],
+  "representativePosterSeconds": 3.0
+}

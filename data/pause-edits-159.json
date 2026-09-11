@@ -1,0 +1,259 @@
+{
+  "source": "159.mov",
+  "sha256": "538a95cdd51de580e76e6aa691bee87f386d95cd9536ae6f04311623e673e353",
+  "sourceSeconds": 1085.503333,
+  "keptIntervals": [
+    [
+      0,
+      6.753479957580566
+    ],
+    [
+      28.67194128036499,
+      32.732502937316895
+    ],
+    [
+      47.647371768951416,
+      60.53972411155701
+    ],
+    [
+      126.05275201797485,
+      128.44465589523315
+    ],
+    [
+      449.7550559043884,
+      452.56862783432007
+    ],
+    [
+      558.6051340103149,
+      567.5467209815979
+    ],
+    [
+      662.4568529129028,
+      673.124589920044
+    ],
+    [
+      690.0030479431152,
+      696.4331517219543
+    ],
+    [
+      733.1954069137573,
+      743.6718440055847
+    ],
+    [
+      770.1861863136292,
+      782.640860080719
+    ],
+    [
+      795.2997698783875,
+      804.0869181156158
+    ],
+    [
+      865.2558159828186,
+      883.8632848262787
+    ],
+    [
+      900.9061398506165,
+      915.1037220954895
+    ],
+    [
+      929.8778166770935,
+      936.9736239910126
+    ],
+    [
+      959.0701248645782,
+      963.9663419723511
+    ],
+    [
+      1035.8723130226135,
+      1042.5765979290009
+    ],
+    [
+      1059.01562833786,
+      1085.503333
+    ]
+  ],
+  "playbackSpeed": 2,
+  "sourceRetainedSeconds": 164.65862169628917,
+  "expectedOutputSeconds": 82.32931084814459,
+  "outputSeconds": 82.333333,
+  "inputCount": 195,
+  "policy": "Preserve every chronological captured input, blocked move, attempt and observed victory. Remove only idle gaps between padded action spans0.75seconds before and1.5seconds after; retain the winning-input-to-final-pause capture suffix in full. Encode2x, silent, no replay/gap replacements or invented motion.",
+  "crop": "1680:960:14:56",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 23
+  },
+  "category": "completed-level",
+  "sequence": 159,
+  "countsAsCompletedLevel": true,
+  "recordedInputCount": 195,
+  "loggedInputCount": 195,
+  "uncapturedInputs": [],
+  "outputSha256": "71098b0aed47fdb0944a14c41b6e52b4ad3574d2bf8654bd318751562f25ff0c",
+  "sourceParts": [
+    {
+      "source": "across-part1.mov",
+      "sha256": "49948501549f6cbf21a9b1ff2fee15972f5e9e250340d63a93e91545b4e7d47b",
+      "sourceSeconds": 1085.505,
+      "joinedStart": 0,
+      "inputCount": 195,
+      "recordedInputCount": 195
+    }
+  ],
+  "sourceAssignment": "Completion 159 Across exclusively owns the full across-part1 original family: navigation/entry, initial rule and actor staging, the failed eight-input BABA IS MOVE launch, 34 undos, the mistimed KEKE IS YOU attempt with both Kekes disappearing, one undo, two waits, the successful simultaneous belt rotation and complete flag finish. All five original/sidecar files remain retained. Unfinished Stardrop and later map-survey sources are separate; no other record shares this source.",
+  "scope": "The first launch broke control and made Baba move left on a nominal Up. The next mistimed rotation formed KEKE IS YOU under fixed KEKE IS DEFEAT and both Kekes disappeared. One undo and two timing waits enabled a single RIGHT to send BABA and YOU onto opposite belts together, restoring horizontal BABA IS YOU. The intact row then moved into the goal alcove, sharing IS with FLAG IS WIN while Baba reached the flag. The settled pause confirms 159 completed and nine flowers; no Baba death is claimed.",
+  "rawCapturedSeconds": 1085.505,
+  "rawOriginalBytes": 165150957,
+  "originalCaptureCount": 1,
+  "sourceInventoryFiles": [
+    "source-inventory.json"
+  ],
+  "criticalSeeks": [
+    {
+      "state": "initial-board",
+      "part": 1,
+      "partSourceSeconds": 55,
+      "sourceSeconds": 55,
+      "outputSeconds": 9.083334922790527,
+      "frame": "export-initial-board-full.png"
+    },
+    {
+      "state": "first-Keke-movement",
+      "part": 1,
+      "partSourceSeconds": 451.76862807273864,
+      "sourceSeconds": 451.76862807273864,
+      "outputSeconds": 14.055935001373285,
+      "frame": "export-first-Keke-movement-full.png"
+    },
+    {
+      "state": "column-control-shift",
+      "part": 1,
+      "partSourceSeconds": 564.246720981598,
+      "sourceSeconds": 564.246720981598,
+      "outputSeconds": 17.276728367805504,
+      "frame": "export-column-control-shift-full.png"
+    },
+    {
+      "state": "Keke-PUSH-staging",
+      "part": 1,
+      "partSourceSeconds": 672.324589920044,
+      "sourceSeconds": 672.324589920044,
+      "outputSeconds": 23.86059687137606,
+      "frame": "export-Keke-PUSH-staging-full.png"
+    },
+    {
+      "state": "launch-staged",
+      "part": 1,
+      "partSourceSeconds": 742.8718440055848,
+      "sourceSeconds": 742.8718440055848,
+      "outputSeconds": 32.31386730670931,
+      "frame": "export-launch-staged-full.png"
+    },
+    {
+      "state": "first-launch-predecessor",
+      "part": 1,
+      "partSourceSeconds": 795.933333,
+      "sourceSeconds": 795.933333,
+      "outputSeconds": 39.25798575106046,
+      "frame": "export-first-launch-predecessor-full.png"
+    },
+    {
+      "state": "failed-rotation-BABA-MOVE",
+      "part": 1,
+      "partSourceSeconds": 798.898333,
+      "sourceSeconds": 798.898333,
+      "outputSeconds": 40.740485751060476,
+      "frame": "export-failed-rotation-BABA-MOVE-full.png"
+    },
+    {
+      "state": "nominal-UP-autonomous-LEFT",
+      "part": 1,
+      "partSourceSeconds": 799.816667,
+      "sourceSeconds": 799.816667,
+      "outputSeconds": 41.19965275106051,
+      "frame": "export-nominal-UP-autonomous-LEFT-full.png"
+    },
+    {
+      "state": "adjusted-launch-after-34-undos",
+      "part": 1,
+      "partSourceSeconds": 880.5632848262787,
+      "sourceSeconds": 880.5632848262787,
+      "outputSeconds": 50.98851273059847,
+      "frame": "export-adjusted-launch-after-34-undos-full.png"
+    },
+    {
+      "state": "belt-launch-staged",
+      "part": 1,
+      "partSourceSeconds": 914.303721857071,
+      "sourceSeconds": 914.303721857071,
+      "outputSeconds": 59.337303733825706,
+      "frame": "export-belt-launch-staged-full.png"
+    },
+    {
+      "state": "wrong-KEKE-IS-YOU-disappearance",
+      "part": 1,
+      "partSourceSeconds": 932.6736239910126,
+      "sourceSeconds": 932.6736239910126,
+      "outputSeconds": 61.13520750999453,
+      "frame": "export-wrong-KEKE-IS-YOU-disappearance-full.png"
+    },
+    {
+      "state": "undo-restored-pretrigger",
+      "part": 1,
+      "partSourceSeconds": 960.6663419723511,
+      "sourceSeconds": 960.6663419723511,
+      "outputSeconds": 64.08331606388094,
+      "frame": "export-undo-restored-pretrigger-full.png"
+    },
+    {
+      "state": "before-successful-rotation-after-two-waits",
+      "part": 1,
+      "partSourceSeconds": 1037.423333,
+      "sourceSeconds": 1037.423333,
+      "outputSeconds": 66.50882605257414,
+      "frame": "export-before-successful-rotation-after-two-waits-full.png"
+    },
+    {
+      "state": "horizontal-BABA-IS-YOU-restored",
+      "part": 1,
+      "partSourceSeconds": 1038.276597929001,
+      "sourceSeconds": 1038.276597929001,
+      "outputSeconds": 66.93545851707461,
+      "frame": "export-horizontal-BABA-IS-YOU-restored-full.png"
+    },
+    {
+      "state": "before-winning-contact",
+      "part": 1,
+      "partSourceSeconds": 1064.571667,
+      "sourceSeconds": 1064.571667,
+      "outputSeconds": 71.8634778481445,
+      "frame": "export-before-winning-contact-full.png"
+    },
+    {
+      "state": "flag-victory",
+      "part": 1,
+      "partSourceSeconds": 1064.8915039539338,
+      "sourceSeconds": 1064.8915039539338,
+      "outputSeconds": 72.02339632511143,
+      "frame": "export-flag-victory-full.png"
+    },
+    {
+      "state": "returned-map",
+      "part": 1,
+      "partSourceSeconds": 1072.7415039539337,
+      "sourceSeconds": 1072.7415039539337,
+      "outputSeconds": 75.94839632511139,
+      "frame": "export-returned-map-full.png"
+    },
+    {
+      "state": "final-pause-159",
+      "part": 1,
+      "partSourceSeconds": 1085.3700000000001,
+      "sourceSeconds": 1085.3700000000001,
+      "outputSeconds": 82.26264434814459,
+      "frame": "export-final-pause-159-full.png"
+    }
+  ],
+  "representativePosterSeconds": 9.083334922790527
+}

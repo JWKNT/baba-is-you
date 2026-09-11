@@ -1,0 +1,203 @@
+{
+  "source": "160.mov",
+  "sha256": "ed88517d51f98b77ad75fee4f3a4a9946884867008cc48b163c63ed80b77ba3c",
+  "sourceSeconds": 575.141667,
+  "keptIntervals": [
+    [
+      0,
+      10
+    ],
+    [
+      144.11223983764648,
+      161.86023998260498
+    ],
+    [
+      172.3250708580017,
+      177.61212301254272
+    ],
+    [
+      310.14821910858154,
+      327.845938205719
+    ],
+    [
+      485.01308012008667,
+      502.2601420879364
+    ],
+    [
+      511.4421100616455,
+      531.1729531288147
+    ],
+    [
+      544.4280219078064,
+      575.141667
+    ]
+  ],
+  "playbackSpeed": 2,
+  "sourceRetainedSeconds": 118.42432152384947,
+  "expectedOutputSeconds": 59.212160761924736,
+  "outputSeconds": 59.2,
+  "inputCount": 138,
+  "policy": "Preserve every chronological captured input, blocked move, attempt and observed victory. Remove only idle gaps between padded action spans0.75seconds before and1.5seconds after; retain the winning-input-to-final-pause capture suffix in full. Encode2x, silent, no replay/gap replacements or invented motion.",
+  "crop": "1680:960:14:56",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 23
+  },
+  "category": "completed-level",
+  "sequence": 160,
+  "countsAsCompletedLevel": true,
+  "recordedInputCount": 138,
+  "loggedInputCount": 138,
+  "uncapturedInputs": [],
+  "outputSha256": "7179c07a7741000fa872832e6514effe43a6bda9376e2c89f43f14c0f2e8255f",
+  "sourceParts": [
+    {
+      "source": "castle-disaster-part1.mov",
+      "sha256": "64e380ead47b7846b98e6ceed4df6e52db0e21faa831a25c071ab07bc33ad278",
+      "sourceSeconds": 575.141667,
+      "joinedStart": 0,
+      "inputCount": 138,
+      "recordedInputCount": 138
+    }
+  ],
+  "sourceAssignment": "Completion160 Castle Disaster exclusively owns the entire castle-disaster-part1 original family: entry, first WALL-control experiment and two-right probe, eight-undo rollback, blocked approach and accidental BABA-control loss with fourteen ineffective inputs, restoring undo, lower-room WIN delivery, rebuilt WALL control and complete victory/pause. All five original and sidecar files remain retained. Hunt007 map-survey sources are separate and not counted again.",
+  "scope": "Stage WIN through the two divider gaps while Baba is controlled, then substitute WALL for BABA. Two RIGHT inputs let different controlled wall cells place BABA above the shared IS and overlap the inert physical Baba, forming BABA IS WIN while WALL IS YOU remains active. The tree blocks one wall in the preliminary movement probe; the castle is not assumed rigid. The settled pause verifies160/nine flowers. The control-loss detour is not an observed death.",
+  "rawCapturedSeconds": 575.141667,
+  "rawOriginalBytes": 65910346,
+  "originalCaptureCount": 1,
+  "sourceInventoryFiles": [
+    "source-inventory.json"
+  ],
+  "criticalSeeks": [
+    {
+      "state": "initial-board",
+      "part": 1,
+      "partSourceSeconds": 6.0,
+      "sourceSeconds": 6.0,
+      "outputSeconds": 3.0,
+      "frame": "export-initial-board-full.png"
+    },
+    {
+      "state": "first-WALL-control",
+      "part": 1,
+      "partSourceSeconds": 158.56023998260497,
+      "sourceSeconds": 158.56023998260497,
+      "outputSeconds": 12.224000072479242,
+      "frame": "export-first-WALL-control-full.png"
+    },
+    {
+      "state": "first-wall-R",
+      "part": 1,
+      "partSourceSeconds": 173.36554613113404,
+      "sourceSeconds": 173.36554613113404,
+      "outputSeconds": 14.394237709045413,
+      "frame": "export-first-wall-R-full.png"
+    },
+    {
+      "state": "initial-two-R-probe",
+      "part": 1,
+      "partSourceSeconds": 174.3121230125427,
+      "sourceSeconds": 174.3121230125427,
+      "outputSeconds": 14.86752614974975,
+      "frame": "export-initial-two-R-probe-full.png"
+    },
+    {
+      "state": "eight-undo-predecessor",
+      "part": 1,
+      "partSourceSeconds": 313.94135389328005,
+      "sourceSeconds": 313.94135389328005,
+      "outputSeconds": 18.41409354209901,
+      "frame": "export-eight-undo-predecessor-full.png"
+    },
+    {
+      "state": "loose-WALL-shifted-right",
+      "part": 1,
+      "partSourceSeconds": 315.1449299812317,
+      "sourceSeconds": 315.1449299812317,
+      "outputSeconds": 19.01588158607484,
+      "frame": "export-loose-WALL-shifted-right-full.png"
+    },
+    {
+      "state": "blocked-left-approach",
+      "part": 1,
+      "partSourceSeconds": 317.17246686935425,
+      "sourceSeconds": 317.17246686935425,
+      "outputSeconds": 20.02965003013611,
+      "frame": "export-blocked-left-approach-full.png"
+    },
+    {
+      "state": "accidental-control-loss",
+      "part": 1,
+      "partSourceSeconds": 317.99593820571897,
+      "sourceSeconds": 317.99593820571897,
+      "outputSeconds": 20.44138569831847,
+      "frame": "export-accidental-control-loss-full.png"
+    },
+    {
+      "state": "ineffective-inputs-end",
+      "part": 1,
+      "partSourceSeconds": 324.18541021347045,
+      "sourceSeconds": 324.18541021347045,
+      "outputSeconds": 23.536121702194208,
+      "frame": "export-ineffective-inputs-end-full.png"
+    },
+    {
+      "state": "undo-restores-BABA-control",
+      "part": 1,
+      "partSourceSeconds": 486.0562099456787,
+      "sourceSeconds": 486.0562099456787,
+      "outputSeconds": 25.88795061111449,
+      "frame": "export-undo-restores-BABA-control-full.png"
+    },
+    {
+      "state": "WIN-through-lower-gaps",
+      "part": 1,
+      "partSourceSeconds": 498.9601420879364,
+      "sourceSeconds": 498.9601420879364,
+      "outputSeconds": 32.33991668224334,
+      "frame": "export-WIN-through-lower-gaps-full.png"
+    },
+    {
+      "state": "WIN-staged-WALL-control-restored",
+      "part": 1,
+      "partSourceSeconds": 527.8729531288147,
+      "sourceSeconds": 527.8729531288147,
+      "outputSeconds": 42.205338215827965,
+      "frame": "export-WIN-staged-WALL-control-restored-full.png"
+    },
+    {
+      "state": "before-winning-second-R",
+      "part": 1,
+      "partSourceSeconds": 545.4689640045166,
+      "sourceSeconds": 545.4689640045166,
+      "outputSeconds": 44.37580926418303,
+      "frame": "export-before-winning-second-R-full.png"
+    },
+    {
+      "state": "winning-BABA-IS-WIN",
+      "part": 1,
+      "partSourceSeconds": 545.876282119751,
+      "sourceSeconds": 545.876282119751,
+      "outputSeconds": 44.57946832180022,
+      "frame": "export-winning-BABA-IS-WIN-full.png"
+    },
+    {
+      "state": "settled-160-pause",
+      "part": 1,
+      "partSourceSeconds": 552.818108034134,
+      "sourceSeconds": 552.818108034134,
+      "outputSeconds": 48.05038127899172,
+      "frame": "export-settled-160-pause-full.png"
+    },
+    {
+      "state": "final-retained-pause",
+      "part": 1,
+      "partSourceSeconds": 575.008333,
+      "sourceSeconds": 575.008333,
+      "outputSeconds": 59.14549376192474,
+      "frame": "export-final-retained-pause-full.png"
+    }
+  ],
+  "representativePosterSeconds": 3.0
+}

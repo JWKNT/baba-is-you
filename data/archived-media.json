@@ -1773,6 +1773,72 @@
       "manifestSha256": "846e9e5b599e4aa9b79c1a6c5688f1203f57b538847dd89012905b89a2b3703a",
       "repository": "JWKNT/baba-is-you-media-2",
       "verifiedCommit": "c49355bf27186fb0035df1f18fe5aafd8d60e386"
+    },
+    {
+      "id": "level-156",
+      "file": "/baba-is-you-media-2/media/156-lunar-gallery.mp4",
+      "bytes": 9542791,
+      "sha256": "d5f697518bcc89579cf3873a939c8a89edc230008d94c70329ad43d6c8c6f1bc",
+      "seconds": 189.4,
+      "manifest": "data/pause-edits-156.json",
+      "manifestSha256": "84a5f7e861e8873c09e770ecbee14466b8b25d98a2f976e0f092ddb296550cac",
+      "repository": "JWKNT/baba-is-you-media-2",
+      "verifiedCommit": "bcb137b1cf01ba68e7e71c8c7a0828f20aedcdf3"
+    },
+    {
+      "id": "level-157",
+      "file": "/baba-is-you-media-2/media/157-ba.mp4",
+      "bytes": 5211501,
+      "sha256": "9143d58248060fc563ad28f5b0e00afb0a272f27b85cf4d246b1cd5acf8b6a8a",
+      "seconds": 112.9,
+      "manifest": "data/pause-edits-157.json",
+      "manifestSha256": "aaa300955be01eb72fb1418ef613ad72ea2b933495d3e7102e4d1b6f39562354",
+      "repository": "JWKNT/baba-is-you-media-2",
+      "verifiedCommit": "bcb137b1cf01ba68e7e71c8c7a0828f20aedcdf3"
+    },
+    {
+      "id": "level-158",
+      "file": "/baba-is-you-media-2/media/158-wall.mp4",
+      "bytes": 12733099,
+      "sha256": "4cf39c7dba469d8a805585e56c8d70bb62f6b673c58a095600c3eef2342514f6",
+      "seconds": 162.6,
+      "manifest": "data/pause-edits-158.json",
+      "manifestSha256": "a86173e1994222ce852d889539ac0c46342387eb28c100f4bcc66e9cd8babb70",
+      "repository": "JWKNT/baba-is-you-media-2",
+      "verifiedCommit": "bcb137b1cf01ba68e7e71c8c7a0828f20aedcdf3"
+    },
+    {
+      "id": "level-159",
+      "file": "/baba-is-you-media-2/media/159-across.mp4",
+      "bytes": 13812180,
+      "sha256": "71098b0aed47fdb0944a14c41b6e52b4ad3574d2bf8654bd318751562f25ff0c",
+      "seconds": 82.333333,
+      "manifest": "data/pause-edits-159.json",
+      "manifestSha256": "f86cf1dffa9f18f004c979e083578fbee9f5f36193e7b4455e8579cf9238f273",
+      "repository": "JWKNT/baba-is-you-media-2",
+      "verifiedCommit": "bcb137b1cf01ba68e7e71c8c7a0828f20aedcdf3"
+    },
+    {
+      "id": "level-160",
+      "file": "/baba-is-you-media-2/media/160-castle-disaster.mp4",
+      "bytes": 5793547,
+      "sha256": "7179c07a7741000fa872832e6514effe43a6bda9376e2c89f43f14c0f2e8255f",
+      "seconds": 59.2,
+      "manifest": "data/pause-edits-160.json",
+      "manifestSha256": "f8ee2e76cec28db61bf078cbf16d1446a58c1c408bba3c3f13f487c566bf8e95",
+      "repository": "JWKNT/baba-is-you-media-2",
+      "verifiedCommit": "bcb137b1cf01ba68e7e71c8c7a0828f20aedcdf3"
+    },
+    {
+      "id": "secret-hunt-007",
+      "file": "/baba-is-you-media-2/media/secret-hunt-007-map-survey.mp4",
+      "bytes": 1441723,
+      "sha256": "662bab1f16f914f60bbd1438fa5aeca524a28297c591a4e5f703ba316aa56900",
+      "seconds": 13.633333,
+      "manifest": "data/pause-edits-secret-hunt-007.json",
+      "manifestSha256": "8a630b82cbf7ba73b04bc0b95f166104efcdbc1dbba5f2cb4d003cc688ea544d",
+      "repository": "JWKNT/baba-is-you-media-2",
+      "verifiedCommit": "bcb137b1cf01ba68e7e71c8c7a0828f20aedcdf3"
     }
   ]
 }

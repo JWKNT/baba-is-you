@@ -2633,5 +2633,90 @@
       "mechanics": "LEVEL IS SINK destroyed the playable board and undo restored it. FLAG IS ROCK created a reserve rock that remained unused. The original SHUT rock removed an OPEN wall. Moving AND and SHUT cleared the transport row; WIN displaced SINK sideways, then an upward push completed LEVEL IS WIN and immediately triggered victory.",
       "attempts": "All 224 inputs across eleven chronological originals are retained at 2\u00d7 speed, including one full-board destruction, one undo, the extra-rock preparation, every shared-rule construction input, the wall sacrifice and the settled 155/nine-flower pause. No restart or explicit wait occurred. The prepared outside/control route was abandoned before any outer-wall strike; its actual preparation remains in the replay."
     }
+  },
+  {
+    "id": "level-156",
+    "number": 156,
+    "title": "Lunar Gallery",
+    "world": "ABC",
+    "code": "01",
+    "name": "Lunar Gallery",
+    "file": "/baba-is-you-media-2/media/156-lunar-gallery.mp4",
+    "poster": "assets/level-156.jpg",
+    "seconds": 189.4,
+    "recorded": "2026-09-10",
+    "notes": {
+      "approach": "Converted the divider moon into Baba with a letter-built MOON IS BABA rule, then formed NOT BABA IS PUSH to move the enclosing walls and open an exit.",
+      "mechanics": "Individual letters formed working rule words. After pushing the east wall outward twice, moving PUSH down broke the rule before the exit to the outside flag. The HOT detour melted a DEFEAT/MELT skull and left a visible surviving Baba; the number of overlapping survivors could not be confirmed.",
+      "attempts": "All 321 inputs across ten chronological originals are retained at 2\u00d7 speed, including ABC discovery and entry, the HOT detour, every constructor move, wall and rule repositioning, and the settled 156/nine-flower pause. No undo, restart, explicit wait or death was observed; stacked Baba survival count after skull contact remains uncertain."
+    }
+  },
+  {
+    "id": "level-157",
+    "number": 157,
+    "title": "BA",
+    "world": "ABC",
+    "code": "02",
+    "name": "BA",
+    "file": "/baba-is-you-media-2/media/157-ba.mp4",
+    "poster": "assets/level-157.jpg",
+    "seconds": 112.9,
+    "recorded": "2026-09-10",
+    "notes": {
+      "approach": "Shifted the control row and shared four BA fragments between crossing BABA rules. Turned the outside rock into a HOT, FLOAT Baba, melted the box, then broke FLOAT and HOT before returning to the flag.",
+      "mechanics": "Pairs of BA fragments spell BABA horizontally and vertically. BOX HAS FLAG creates a flag when the floating box melts. Contact while Baba is FLOAT did not win; after the inside Baba broke that rule, the outside Baba made winning contact.",
+      "attempts": "All 247 inputs across three chronological originals are retained at 2\u00d7 speed, including entry, the 87-input constructor, 20-input control transfer, 109-input final setup and complete winning continuation. No undo, restart, explicit wait or death was observed."
+    }
+  },
+  {
+    "id": "level-158",
+    "number": 158,
+    "title": "Wall",
+    "world": "ABC",
+    "code": "04",
+    "name": "Wall",
+    "file": "/baba-is-you-media-2/media/158-wall.mp4",
+    "poster": "assets/level-158.jpg",
+    "seconds": 162.6,
+    "recorded": "2026-09-10",
+    "notes": {
+      "approach": "Used the ALL suffix in WALL to make walls movable, retrieve OPEN through the roof and remove the SHUT doors. Restored PUSH, lifted the hedge beside the flag, then broke PUSH for winning contact.",
+      "mechanics": "W A L L also parses ALL beginning at its A tile. WALL IS KEY therefore also formed ALL IS KEY and transformed Baba, losing control while identity-protected doors remained. ALL IS PUSH later moved walls and hedges; ALL IS OPEN removed the SHUT doors.",
+      "attempts": "All 541 logged inputs are retained at 2\u00d7 speed, including the failed KEY transformation, 140 undos to the opened-door checkpoint, the corrected PUSH setup, roof-word retrieval and complete flag finish. No restart, explicit wait or death was observed."
+    }
+  },
+  {
+    "id": "level-159",
+    "number": 159,
+    "title": "Across",
+    "world": "???",
+    "code": "Extra 1",
+    "name": "Across",
+    "file": "/baba-is-you-media-2/media/159-across.mp4",
+    "poster": "assets/level-159.jpg",
+    "seconds": 82.333333,
+    "recorded": "2026-09-10",
+    "notes": {
+      "approach": "Timed a Keke\u2019s push with Baba\u2019s push so the opposing belts rotated the shared control rule into horizontal BABA IS YOU. Pushed that intact row into the goal alcove, sharing IS with FLAG IS WIN while Baba reached the flag.",
+      "mechanics": "MOVE and SHIFT can restore control within one input. A mistimed launch formed BABA IS MOVE; another formed KEKE IS YOU, making both Kekes disappear under fixed KEKE IS DEFEAT. Correct timing moved BABA and YOU onto the two belts together.",
+      "attempts": "All 195 inputs are retained at 2\u00d7 speed, including both failed control arrangements, 35 undos, two timing waits and the successful eight-push finish. No restart or Baba death was observed."
+    }
+  },
+  {
+    "id": "level-160",
+    "number": 160,
+    "title": "Castle Disaster",
+    "world": "???",
+    "code": "Extra 2",
+    "name": "Castle Disaster",
+    "file": "/baba-is-you-media-2/media/160-castle-disaster.mp4",
+    "poster": "assets/level-160.jpg",
+    "seconds": 59.2,
+    "recorded": "2026-09-11",
+    "notes": {
+      "approach": "Carried WIN through the castle\u2019s two divider gaps before replacing BABA with WALL in the control rule. Two RIGHT inputs then let the walls position BABA above the shared IS and touch the inert Baba as BABA IS WIN formed.",
+      "mechanics": "Different controlled wall cells pushed words and contacted Baba. WALL IS YOU shared IS with vertical BABA IS WIN. A tree blocked one moving wall, so the castle did not remain a rigid shape.",
+      "attempts": "All 138 inputs are retained at 2\u00d7 speed, including the first wall-control probe, nine undos, a blocked approach, accidental control loss and fourteen ineffective inputs before recovery. No restart, explicit wait or death was observed."
+    }
   }
 ]

@@ -1,0 +1,391 @@
+{
+  "source": "156.mov",
+  "sha256": "de8048e218add00b9c0e3788a279a35dc87dd2342589ef8a2b93ea7d7f7e229b",
+  "sourceSeconds": 682.095,
+  "keptIntervals": [
+    [
+      0,
+      8.357789993286133
+    ],
+    [
+      14.910262823104858,
+      34.72857189178467
+    ],
+    [
+      47.059733867645264,
+      64.84697580337524
+    ],
+    [
+      74.48812294006348,
+      80.72825288772583
+    ],
+    [
+      93.23387384414673,
+      100.19573974609375
+    ],
+    [
+      117.68021392822266,
+      127.88154172897339
+    ],
+    [
+      132.28557872772217,
+      140.2386798286438
+    ],
+    [
+      149.43417501449585,
+      154.57350707054138
+    ],
+    [
+      201.1944420337677,
+      210.40531914711
+    ],
+    [
+      213.2547504901886,
+      232.51590013504028
+    ],
+    [
+      243.17200088500977,
+      257.81456184387207
+    ],
+    [
+      262.1573529243469,
+      274.9214448928833
+    ],
+    [
+      279.1887516975403,
+      302.5089258920593
+    ],
+    [
+      304.42187213897705,
+      319.5981922149658
+    ],
+    [
+      344.5319700241089,
+      349.4274600124359
+    ],
+    [
+      363.2082371711731,
+      380.5220227241516
+    ],
+    [
+      396.0834617614746,
+      407.6388578414917
+    ],
+    [
+      413.1719379425049,
+      425.58384895324707
+    ],
+    [
+      429.92245864868164,
+      441.4836640357971
+    ],
+    [
+      452.16929817199707,
+      467.902090549469
+    ],
+    [
+      473.08966064453125,
+      484.8979597091675
+    ],
+    [
+      493.9301586151123,
+      508.8843970298767
+    ],
+    [
+      513.1190509796143,
+      528.208270992096
+    ],
+    [
+      529.9017848968506,
+      539.1948161125183
+    ],
+    [
+      549.7682299268799,
+      554.6628932607728
+    ],
+    [
+      556.532309020813,
+      561.4260871065217
+    ],
+    [
+      592.9741291999817,
+      605.635792016983
+    ],
+    [
+      610.0652878284454,
+      615.9574868942414
+    ],
+    [
+      625.3627398014069,
+      639.4709007740021
+    ],
+    [
+      647.2034318447113,
+      682.095
+    ]
+  ],
+  "playbackSpeed": 2,
+  "sourceRetainedSeconds": 378.79167329560863,
+  "expectedOutputSeconds": 189.39583664780432,
+  "outputSeconds": 189.4,
+  "inputCount": 321,
+  "policy": "Preserve every chronological captured input, blocked move, attempt and observed victory. Remove only idle gaps between padded action spans0.75seconds before and1.5seconds after; retain the winning-input-to-final-pause capture suffix in full. Encode2x, silent, no replay/gap replacements or invented motion.",
+  "crop": "1680:960:14:56",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 23
+  },
+  "category": "completed-level",
+  "sequence": 156,
+  "countsAsCompletedLevel": true,
+  "recordedInputCount": 321,
+  "loggedInputCount": 321,
+  "uncapturedInputs": [],
+  "outputSha256": "d5f697518bcc89579cf3873a939c8a89edc230008d94c70329ad43d6c8c6f1bc",
+  "sourceParts": [
+    {
+      "source": "abc-part1.mov",
+      "sha256": "2920bc2a2d62b182c14b1be5a6fc27e72a888e8086a4acf8025e175d04f4f455",
+      "sourceSeconds": 30.946667,
+      "joinedStart": 0,
+      "inputCount": 11,
+      "recordedInputCount": 11
+    },
+    {
+      "source": "lunar-gallery-part1.mov",
+      "sha256": "fb19ac13fcf00b7213e00276bdd252142c1eb02bd7115fa0831a2efd591f4b1a",
+      "sourceSeconds": 31.743333,
+      "joinedStart": 30.946667,
+      "inputCount": 5,
+      "recordedInputCount": 5
+    },
+    {
+      "source": "lunar-gallery-part2.mov",
+      "sha256": "7b5fc807e5c710afa932406b8dc609ffad4c0f0d308a322c3ef48f57d3744260",
+      "sourceSeconds": 87.99,
+      "joinedStart": 62.69,
+      "inputCount": 31,
+      "recordedInputCount": 31
+    },
+    {
+      "source": "lunar-gallery-part3.mov",
+      "sha256": "096ccf82366b1cb0d4d9bc41b6181554ab69c962d626c11988e01655f035824a",
+      "sourceSeconds": 63.821667,
+      "joinedStart": 150.68,
+      "inputCount": 12,
+      "recordedInputCount": 12
+    },
+    {
+      "source": "lunar-gallery-part4.mov",
+      "sha256": "48dc315d7f0f40112aa1a8a8704d25079be2935a6ccc7683dcd73bb85e5e6792",
+      "sourceSeconds": 91.183333,
+      "joinedStart": 214.501667,
+      "inputCount": 78,
+      "recordedInputCount": 78
+    },
+    {
+      "source": "lunar-gallery-part5.mov",
+      "sha256": "00c30c050bc78126c0674b08fc7dd9b0224d52e42fa96b5fc25c4eff15b31fe7",
+      "sourceSeconds": 58.776667,
+      "joinedStart": 305.685,
+      "inputCount": 18,
+      "recordedInputCount": 18
+    },
+    {
+      "source": "lunar-gallery-part6.mov",
+      "sha256": "e901e4f0c8e9e17eac178d14b88a962c49bf6fbfea0f0ce70c33c87b63120510",
+      "sourceSeconds": 88.953333,
+      "joinedStart": 364.46166700000003,
+      "inputCount": 60,
+      "recordedInputCount": 60
+    },
+    {
+      "source": "lunar-gallery-part7.mov",
+      "sha256": "a38c96c3483f070c1a1add77ffa3022da16c8ebbcfec200acc658ea7b7914c6f",
+      "sourceSeconds": 41.773333,
+      "joinedStart": 453.415,
+      "inputCount": 31,
+      "recordedInputCount": 31
+    },
+    {
+      "source": "lunar-gallery-part8.mov",
+      "sha256": "f6a4283d16f0aac173210a80b2e3cef85663791bac53584d0b3df9375670c4dd",
+      "sourceSeconds": 99.038333,
+      "joinedStart": 495.188333,
+      "inputCount": 43,
+      "recordedInputCount": 43
+    },
+    {
+      "source": "lunar-gallery-part9.mov",
+      "sha256": "49ff0dc2adfbeb39e38233fb15fa23eb234d3d1486f930309bf3e7bf1514175c",
+      "sourceSeconds": 87.871667,
+      "joinedStart": 594.226666,
+      "inputCount": 32,
+      "recordedInputCount": 32
+    }
+  ],
+  "sourceAssignment": "Completion 156 Lunar Gallery exclusively uses ten original families in order: abc-part1, then lunar-gallery-part1 through part9. Full disjoint source windows include ABC discovery/navigation, level entry, every constructor move, the HOT detour and skull melt, wall pushes, rule-breaking exit and complete victory-to-pause tail. These navigation families are not allocated to a separate hunt. All originals and sidecars remain retained.",
+  "scope": "The letter-built MOON IS BABA rule converted the divider moon into a second controlled Baba. The bodies later overlapped; the HOT detour melted a DEFEAT/MELT skull and left a visible surviving Baba, with stacked survivor count uncertain. NOT BABA IS PUSH made walls movable. The east wall was pushed outward twice, PUSH was then moved down to break that rule, and Baba exited to the outside flag. The settled map/pause verifies ABC 1/4, completion 156 and nine flowers.",
+  "rawCapturedSeconds": 682.098333,
+  "rawOriginalBytes": 47383601,
+  "originalCaptureCount": 10,
+  "sourceInventoryFiles": [
+    "source-inventory.json"
+  ],
+  "criticalSeeks": [
+    {
+      "state": "ABC-map",
+      "part": 1,
+      "partSourceSeconds": 30.813333,
+      "sourceSeconds": 30.813333,
+      "outputSeconds": 12.130430085090637,
+      "frame": "export-ABC-map-full.png"
+    },
+    {
+      "state": "initial-board",
+      "part": 3,
+      "partSourceSeconds": 1.4569757461547852,
+      "sourceSeconds": 64.14697574615478,
+      "outputSeconds": 22.63167047023773,
+      "frame": "export-initial-board-full.png"
+    },
+    {
+      "state": "before-MOON-IS-BABA",
+      "part": 3,
+      "partSourceSeconds": 73.15987396240234,
+      "sourceSeconds": 135.84987396240234,
+      "outputSeconds": 36.4654799413681,
+      "frame": "export-before-MOON-IS-BABA-full.png"
+    },
+    {
+      "state": "MOON-IS-BABA",
+      "part": 3,
+      "partSourceSeconds": 74.0486798286438,
+      "sourceSeconds": 136.7386798286438,
+      "outputSeconds": 36.90988287448883,
+      "frame": "export-MOON-IS-BABA-full.png"
+    },
+    {
+      "state": "stacked-Babas",
+      "part": 4,
+      "partSourceSeconds": 57.225319147109985,
+      "sourceSeconds": 207.90531914711,
+      "outputSeconds": 44.58498745918274,
+      "frame": "export-stacked-Babas-full.png"
+    },
+    {
+      "state": "BABA-IS-HOT",
+      "part": 5,
+      "partSourceSeconds": 84.50725889205933,
+      "sourceSeconds": 299.0089258920593,
+      "outputSeconds": 79.07897584256744,
+      "frame": "export-BABA-IS-HOT-full.png"
+    },
+    {
+      "state": "before-skull-contact",
+      "part": 6,
+      "partSourceSeconds": 39.346970081329346,
+      "sourceSeconds": 345.03197008132935,
+      "outputSeconds": 88.66713590917206,
+      "frame": "export-before-skull-contact-full.png"
+    },
+    {
+      "state": "skull-melt-survivor",
+      "part": 6,
+      "partSourceSeconds": 40.24246001243591,
+      "sourceSeconds": 345.9274600124359,
+      "outputSeconds": 89.11488087472534,
+      "frame": "export-skull-melt-survivor-full.png"
+    },
+    {
+      "state": "NOT-constructor-staged",
+      "part": 8,
+      "partSourceSeconds": 30.482959747314453,
+      "sourceSeconds": 483.8979597473145,
+      "outputSeconds": 130.55657563027955,
+      "frame": "export-NOT-constructor-staged-full.png"
+    },
+    {
+      "state": "NOT-BABA-IS-PUSH",
+      "part": 9,
+      "partSourceSeconds": 29.519937992095947,
+      "sourceSeconds": 524.708270992096,
+      "outputSeconds": 144.32830482482913,
+      "frame": "export-NOT-BABA-IS-PUSH-full.png"
+    },
+    {
+      "state": "before-first-wall-push",
+      "part": 9,
+      "partSourceSeconds": 55.07989692687988,
+      "sourceSeconds": 550.2682299268799,
+      "outputSeconds": 150.974820432663,
+      "frame": "export-before-first-wall-push-full.png"
+    },
+    {
+      "state": "first-east-wall-push",
+      "part": 9,
+      "partSourceSeconds": 55.974560260772705,
+      "sourceSeconds": 551.1628932607728,
+      "outputSeconds": 151.4221520996094,
+      "frame": "export-first-east-wall-push-full.png"
+    },
+    {
+      "state": "second-east-wall-push",
+      "part": 9,
+      "partSourceSeconds": 62.737754106521606,
+      "sourceSeconds": 557.9260871065217,
+      "outputSeconds": 153.86904114246371,
+      "frame": "export-second-east-wall-push-full.png"
+    },
+    {
+      "state": "before-PUSH-break",
+      "part": 10,
+      "partSourceSeconds": 16.338621854782104,
+      "sourceSeconds": 610.5652878547821,
+      "outputSeconds": 162.19987256413273,
+      "frame": "export-before-PUSH-break-full.png"
+    },
+    {
+      "state": "PUSH-break-and-row-shift",
+      "part": 10,
+      "partSourceSeconds": 17.230820894241333,
+      "sourceSeconds": 611.4574868942414,
+      "outputSeconds": 162.64597208386235,
+      "frame": "export-PUSH-break-and-row-shift-full.png"
+    },
+    {
+      "state": "outside-flag-approach",
+      "part": 10,
+      "partSourceSeconds": 44.244235038757324,
+      "sourceSeconds": 638.4709010387573,
+      "outputSeconds": 171.4500527025376,
+      "frame": "export-outside-flag-approach-full.png"
+    },
+    {
+      "state": "flag-contact-victory",
+      "part": 10,
+      "partSourceSeconds": 54.02292504310608,
+      "sourceSeconds": 648.2495910431061,
+      "outputSeconds": 172.47313216935734,
+      "frame": "export-flag-contact-victory-full.png"
+    },
+    {
+      "state": "ABC-completed-map",
+      "part": 10,
+      "partSourceSeconds": 61.87292504310608,
+      "sourceSeconds": 656.0995910431061,
+      "outputSeconds": 176.39813216935735,
+      "frame": "export-ABC-completed-map-full.png"
+    },
+    {
+      "state": "final-pause-156",
+      "part": 10,
+      "partSourceSeconds": 87.73833300000001,
+      "sourceSeconds": 681.964999,
+      "outputSeconds": 189.33083614780432,
+      "frame": "export-final-pause-156-full.png"
+    }
+  ],
+  "representativePosterSeconds": 22.63167047023773
+}

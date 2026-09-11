@@ -2888,5 +2888,22 @@
       "mechanics": "Two rocks lift BABA and YOU around a spare IS, then Baba shifts the complete control sentence right. The two-NOT clause removes all seven guards while its shared BABA keeps control; Baba, the rocks and flag remain.",
       "attempts": "All 252 inputs across two chronological recordings are retained at 2\u00d7 speed, including the wrong-level entry and return, the abandoned lower-word setup, the early IS-delivery attempt and all 25 undos. No restart, explicit wait or Baba death was observed; seven guard removals are intentional self-negation."
     }
+  },
+  {
+    "id": "level-171",
+    "number": 171,
+    "title": "Insulation",
+    "world": "Deep Forest",
+    "code": "E",
+    "name": "Insulation",
+    "file": "/baba-is-you-media-2/media/171-insulation.mp4",
+    "poster": "assets/level-171.jpg",
+    "seconds": 373.266667,
+    "recorded": "2026-09-10",
+    "notes": {
+      "approach": "Overlap Baba with an inert Keke above the single-row bottom wall, then convert it into a moving skull. Two wall-swapping steps open the passage; follow through after the outer skull removes SWAP, then walk to the flag.",
+      "mechanics": "The conversion input leaves Baba and skull together. The first move deposits WALL onto Baba; the second reaches outside. On the third move the outer skull breaks SWAP, so the fourth-turn rebound can overlap Baba harmlessly outside.",
+      "attempts": "All 23 recordings and 586 logged inputs remain chronological, including three undos, one restart and 14 waits. Part 1 lost video for 37 inputs; labelled logs and original stills preserve the evidence without replacement motion. The east-wall failure and successful bottom-wall route are both retained. Timed gameplay is at 2\u00d7; disclosures and stills use separate display times."
+    }
   }
 ]

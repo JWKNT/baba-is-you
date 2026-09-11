@@ -1960,6 +1960,28 @@
       "manifestSha256": "c0da7abc4a679e97db26ec39f38677f5495663e37fd9e013acff96e2b9d931bf",
       "repository": "JWKNT/baba-is-you-media-2",
       "verifiedCommit": "81eec350add63d2d19fd699444265a301ed49431"
+    },
+    {
+      "id": "level-171",
+      "file": "/baba-is-you-media-2/media/171-insulation.mp4",
+      "bytes": 36293350,
+      "sha256": "e11ba1aceb45b305fbf8162369305a95ebe71d07ffc2fe7e640b7d8e8fefddc6",
+      "seconds": 373.266667,
+      "manifest": "data/pause-edits-171.json",
+      "manifestSha256": "a696418da4bb217cd325558e1ce97b42e45dcbf4b8644f2a69c0fc71a081095a",
+      "repository": "JWKNT/baba-is-you-media-2",
+      "verifiedCommit": "7dec32598397bb0ee5a24186c607ca23c383e62f"
+    },
+    {
+      "id": "secret-hunt-009",
+      "file": "/baba-is-you-media-2/media/secret-hunt-009-security-node-survey.mp4",
+      "bytes": 517319,
+      "sha256": "1faaed5270dc99266c8421e0526583bd118d5f957b52a4db38cfaa1b6bfa6340",
+      "seconds": 5.266667,
+      "manifest": "data/pause-edits-secret-hunt-009.json",
+      "manifestSha256": "dd10b304b2081f69d79e5f60a1f6a7ca9018de224fc28982e98f718dae7e19c1",
+      "repository": "JWKNT/baba-is-you-media-2",
+      "verifiedCommit": "7dec32598397bb0ee5a24186c607ca23c383e62f"
     }
   ]
 }

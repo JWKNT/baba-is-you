@@ -1,0 +1,455 @@
+{
+  "source": "165.mov",
+  "sha256": "667602b61997905f01f8b23db9b4f581a25790ef1cadc64d75f9ceaa9848cc96",
+  "sourceSeconds": 1282.913333,
+  "keptIntervals": [
+    [
+      0,
+      2
+    ],
+    [
+      9.253940105438232,
+      90.03329014778137
+    ],
+    [
+      106.54980707168579,
+      115.84283113479614
+    ],
+    [
+      123.37956619262695,
+      126.77162310009766
+    ],
+    [
+      141.33683725720215,
+      152.52984380722046
+    ],
+    [
+      175.73390674591064,
+      179.1305390357971
+    ],
+    [
+      214.29060792922974,
+      218.68708381652831
+    ],
+    [
+      245.23660898208618,
+      257.80349016189575
+    ],
+    [
+      270.49996519088745,
+      273.8947110711975
+    ],
+    [
+      296.21123361587524,
+      299.6044769822998
+    ],
+    [
+      375.6152820587158,
+      382.9291572570801
+    ],
+    [
+      401.20202016830444,
+      409.22234925860596
+    ],
+    [
+      496.55913734436035,
+      499.95897206896973
+    ],
+    [
+      518.6977872848511,
+      534.1085851097107
+    ],
+    [
+      543.4729978942871,
+      555.657185792923
+    ],
+    [
+      559.6078717708588,
+      567.9977029514313
+    ],
+    [
+      596.632150888443,
+      608.273020029068
+    ],
+    [
+      612.231910943985,
+      624.3242738246918
+    ],
+    [
+      889.5694868564606,
+      893.3127710819244
+    ],
+    [
+      909.3699929714203,
+      911.7636439800262
+    ],
+    [
+      923.0623428821564,
+      929.3871579837798
+    ],
+    [
+      949.4430758953094,
+      952.5381990146636
+    ],
+    [
+      1093.803808927536,
+      1096.5900847911835
+    ],
+    [
+      1108.6395909786224,
+      1111.150145998001
+    ],
+    [
+      1121.9317228794098,
+      1125.4229820442201
+    ],
+    [
+      1170.906212091446,
+      1175.5951100063326
+    ],
+    [
+      1206.1054346561432,
+      1217.6489799690248
+    ],
+    [
+      1235.4990847110748,
+      1238.5906611156465
+    ],
+    [
+      1259.422879934311,
+      1282.913333
+    ]
+  ],
+  "playbackSpeed": 2,
+  "sourceRetainedSeconds": 279.4169403062596,
+  "expectedOutputSeconds": 139.7084701531298,
+  "outputSeconds": 139.666667,
+  "inputCount": 159,
+  "policy": "Preserve every chronological captured input, blocked move, attempt and observed victory. Remove only idle gaps between padded action spans0.75seconds before and1.5seconds after; retain the winning-input-to-final-pause capture suffix in full. Encode2x, silent, no replay/gap replacements or invented motion.",
+  "crop": "1680:960:14:56",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 23
+  },
+  "category": "completed-level",
+  "sequence": 165,
+  "countsAsCompletedLevel": true,
+  "recordedInputCount": 159,
+  "loggedInputCount": 159,
+  "uncapturedInputs": [],
+  "outputSha256": "2c0c1c9626442e64189fdb84973bbcb66aa85d2eab6c5ba80a0ea78a7ef5b65c",
+  "sourceParts": [
+    {
+      "source": "ultimate-maze-part1.mov",
+      "sha256": "b47db58753f98ea438c4d8c8ff293f16b3dfb426d1a20bfd83f2bcabdc12605e",
+      "sourceSeconds": 113.688333,
+      "joinedStart": 0,
+      "inputCount": 6,
+      "recordedInputCount": 6
+    },
+    {
+      "source": "ultimate-maze-part2.mov",
+      "sha256": "8b9ac3dd1c08ae3482ecac80964173753fb68c674d667b4bed8810dd843f1952",
+      "sourceSeconds": 28.911667,
+      "joinedStart": 113.688333,
+      "inputCount": 3,
+      "recordedInputCount": 3
+    },
+    {
+      "source": "ultimate-maze-part3.mov",
+      "sha256": "771c368b81aca2cdc11d20c23e475fe89d3a5e474f40d708cb80b4a51dc449e1",
+      "sourceSeconds": 111.356667,
+      "joinedStart": 142.6,
+      "inputCount": 16,
+      "recordedInputCount": 16
+    },
+    {
+      "source": "ultimate-maze-part4.mov",
+      "sha256": "5436b7a9dc67a8edc46f3523a0af312be531bfe18af91235a928b7e8deacbb49",
+      "sourceSeconds": 122.915,
+      "joinedStart": 253.95666699999998,
+      "inputCount": 6,
+      "recordedInputCount": 6
+    },
+    {
+      "source": "ultimate-maze-part5.mov",
+      "sha256": "52f1c4826b82cc2d33ca1d7505d43eda3c8fa072116d628bdbf34926143739cb",
+      "sourceSeconds": 149.743333,
+      "joinedStart": 376.871667,
+      "inputCount": 16,
+      "recordedInputCount": 16
+    },
+    {
+      "source": "ultimate-maze-part6.mov",
+      "sha256": "f6e83a38f46a5cdac126a3f65ccef23bfbd1e5951aa270f30c7a5743e0cc6e5c",
+      "sourceSeconds": 18.13,
+      "joinedStart": 526.615,
+      "inputCount": 3,
+      "recordedInputCount": 3
+    },
+    {
+      "source": "ultimate-maze-part7.mov",
+      "sha256": "d44cc6dafa6efaa04ab08813a8c4242f6216b3704c8dfef3b7f433567d807a27",
+      "sourceSeconds": 738.19,
+      "joinedStart": 544.745,
+      "inputCount": 109,
+      "recordedInputCount": 109
+    }
+  ],
+  "sourceAssignment": "Completion 165 Ultimate Maze exclusively owns ultimate-maze-part1 through part7, seven full chronological original families. The final part7 starts with the VIP menu exit and Maze navigation, allocated only here; no VIP part5 exists. All35 original/sidecar files and earlier failed transformations, two whole-board destructions, seven undos and final win remain. No unrelated level or hunt footage is reassigned.",
+  "scope": "Literal IS is controlled by LONELY TEXT IS YOU. Earlier hedge transformations destroy the board and are undone. The final visit transports an original OPEN key through one SHUT wall, reuses the other key to transport WIN, then converts the remaining29 walls to keys while keeping the hedges intact. Moving IS onto the former WIN tile loses control; the recorded correction preserves a key buffer and forms FLAG IS WIN. The22-direction return matches its checkpoints. Two final DOWNs put a key onto and then beyond the flag; IS/flag overlap triggers victory. Settled map pause confirms165/nine; precise internal control/win processing order was not independently isolated.",
+  "rawCapturedSeconds": 1282.935,
+  "rawOriginalBytes": 256934594,
+  "originalCaptureCount": 7,
+  "sourceInventoryFiles": [
+    "source-inventory.json"
+  ],
+  "criticalSeeks": [
+    {
+      "state": "first-visit-fresh-board",
+      "part": 1,
+      "partSourceSeconds": 88.53329014778137,
+      "sourceSeconds": 88.53329014778137,
+      "outputSeconds": 40.62783757389069,
+      "frame": "export-first-visit-fresh-board-full.png",
+      "nominalOutputSeconds": 40.63967502117157
+    },
+    {
+      "state": "first-right",
+      "part": 2,
+      "partSourceSeconds": 11.583290100097656,
+      "sourceSeconds": 125.27162310009766,
+      "outputSeconds": 46.96352805004882,
+      "frame": "export-first-right-full.png",
+      "nominalOutputSeconds": 46.9822155064621
+    },
+    {
+      "state": "hedge-wall-activation",
+      "part": 3,
+      "partSourceSeconds": 35.03053903579712,
+      "sourceSeconds": 177.6305390357971,
+      "outputSeconds": 54.25541551789854,
+      "frame": "export-hedge-wall-activation-full.png",
+      "nominalOutputSeconds": 54.27703492641449
+    },
+    {
+      "state": "first-board-destruction",
+      "part": 3,
+      "partSourceSeconds": 74.58708381652832,
+      "sourceSeconds": 217.18708381652831,
+      "outputSeconds": 56.45649090826417,
+      "frame": "export-first-board-destruction-full.png",
+      "nominalOutputSeconds": 56.475272870063776
+    },
+    {
+      "state": "first-restored",
+      "part": 3,
+      "partSourceSeconds": 104.60923199653625,
+      "sourceSeconds": 247.20923199653623,
+      "outputSeconds": 58.19128249826812,
+      "frame": "export-first-restored-full.png",
+      "nominalOutputSeconds": 58.2115843772888
+    },
+    {
+      "state": "wall-key-activation",
+      "part": 4,
+      "partSourceSeconds": 18.43804407119751,
+      "sourceSeconds": 272.3947110711975,
+      "outputSeconds": 64.43771753559875,
+      "frame": "export-wall-key-activation-full.png",
+      "nominalOutputSeconds": 64.45608640012358
+    },
+    {
+      "state": "wall-key-survives-next-turn",
+      "part": 4,
+      "partSourceSeconds": 44.147809982299805,
+      "sourceSeconds": 298.1044769822998,
+      "outputSeconds": 66.13214599114988,
+      "frame": "export-wall-key-survives-next-turn-full.png",
+      "nominalOutputSeconds": 66.15270808333585
+    },
+    {
+      "state": "before-roof-trap",
+      "part": 5,
+      "partSourceSeconds": 26.942650032043456,
+      "sourceSeconds": 403.81431703204345,
+      "outputSeconds": 71.83777101602169,
+      "frame": "export-before-roof-trap-full.png",
+      "nominalOutputSeconds": 71.86579411438748
+    },
+    {
+      "state": "hedge-key-activation",
+      "part": 5,
+      "partSourceSeconds": 27.67768802642822,
+      "sourceSeconds": 404.5493550264282,
+      "outputSeconds": 72.2052900132141,
+      "frame": "export-hedge-key-activation-full.png",
+      "nominalOutputSeconds": 72.23331311157986
+    },
+    {
+      "state": "second-destruction",
+      "part": 5,
+      "partSourceSeconds": 28.512592029571532,
+      "sourceSeconds": 405.3842590295715,
+      "outputSeconds": 72.62274201478573,
+      "frame": "export-second-destruction-full.png",
+      "nominalOutputSeconds": 72.65076511315152
+    },
+    {
+      "state": "extra-down-after-death-1",
+      "part": 5,
+      "partSourceSeconds": 29.283319187164306,
+      "sourceSeconds": 406.1549861871643,
+      "outputSeconds": 73.00810559358212,
+      "frame": "export-extra-down-after-death-1-full.png",
+      "nominalOutputSeconds": 73.03612869194791
+    },
+    {
+      "state": "extra-down-after-death-2",
+      "part": 5,
+      "partSourceSeconds": 30.850682258605957,
+      "sourceSeconds": 407.72234925860596,
+      "outputSeconds": 73.79178712930297,
+      "frame": "export-extra-down-after-death-2-full.png",
+      "nominalOutputSeconds": 73.81981022766874
+    },
+    {
+      "state": "first-undo-all-key-state",
+      "part": 5,
+      "partSourceSeconds": 121.58730506896973,
+      "sourceSeconds": 498.45897206896973,
+      "outputSeconds": 75.48636453448486,
+      "frame": "export-first-undo-all-key-state-full.png",
+      "nominalOutputSeconds": 75.51972758997343
+    },
+    {
+      "state": "second-undo-restored-hedges",
+      "part": 5,
+      "partSourceSeconds": 142.92262811660765,
+      "sourceSeconds": 519.7942951166076,
+      "outputSeconds": 76.78021255830379,
+      "frame": "export-second-undo-restored-hedges-full.png",
+      "nominalOutputSeconds": 76.81798150585169
+    },
+    {
+      "state": "prior-map-exit-155",
+      "part": 6,
+      "partSourceSeconds": 17.994999999999997,
+      "sourceSeconds": 544.61,
+      "outputSeconds": 84.4987605,
+      "frame": "export-prior-map-exit-155-full.png",
+      "nominalOutputSeconds": 84.54362755525969
+    },
+    {
+      "state": "fresh-original-wall-maze",
+      "part": 7,
+      "partSourceSeconds": 21.752702951431274,
+      "sourceSeconds": 566.4977029514313,
+      "outputSeconds": 93.45878597571567,
+      "frame": "export-fresh-original-wall-maze-full.png",
+      "nominalOutputSeconds": 93.51213604200743
+    },
+    {
+      "state": "original-key-first-passage",
+      "part": 7,
+      "partSourceSeconds": 69.67937504768372,
+      "sourceSeconds": 614.4243750476837,
+      "outputSeconds": 101.11712402384188,
+      "frame": "export-original-key-first-passage-full.png",
+      "nominalOutputSeconds": 101.1788026641693
+    },
+    {
+      "state": "key-buffer-ready",
+      "part": 7,
+      "partSourceSeconds": 383.1421579837799,
+      "sourceSeconds": 927.8871579837798,
+      "outputSeconds": 111.56222549188993,
+      "frame": "export-key-buffer-ready-full.png",
+      "nominalOutputSeconds": 111.60962722051997
+    },
+    {
+      "state": "first-FLAG-IS-WIN",
+      "part": 7,
+      "partSourceSeconds": 406.2931990146637,
+      "sourceSeconds": 951.0381990146636,
+      "outputSeconds": 113.10898700733179,
+      "frame": "export-first-FLAG-IS-WIN-full.png",
+      "nominalOutputSeconds": 113.15718878019706
+    },
+    {
+      "state": "29-walls-converted",
+      "part": 7,
+      "partSourceSeconds": 564.9051459980011,
+      "sourceSeconds": 1109.650145998001,
+      "outputSeconds": 115.74405099900048,
+      "frame": "export-29-walls-converted-full.png",
+      "nominalOutputSeconds": 115.80560422171013
+    },
+    {
+      "state": "IS-control-lost",
+      "part": 7,
+      "partSourceSeconds": 579.17798204422,
+      "sourceSeconds": 1123.9229820442201,
+      "outputSeconds": 117.4950015221101,
+      "frame": "export-IS-control-lost-full.png",
+      "nominalOutputSeconds": 117.5512338041153
+    },
+    {
+      "state": "restored-key-buffer",
+      "part": 7,
+      "partSourceSeconds": 629.3501100063324,
+      "sourceSeconds": 1174.0951100063326,
+      "outputSeconds": 119.85478250316623,
+      "frame": "export-restored-key-buffer-full.png",
+      "nominalOutputSeconds": 119.89568276155862
+    },
+    {
+      "state": "above-key-on-final-approach",
+      "part": 7,
+      "partSourceSeconds": 671.4039799690247,
+      "sourceSeconds": 1216.1489799690248,
+      "outputSeconds": 125.61120648451231,
+      "frame": "export-above-key-on-final-approach-full.png",
+      "nominalOutputSeconds": 125.66745541799943
+    },
+    {
+      "state": "key-on-flag",
+      "part": 7,
+      "partSourceSeconds": 692.3456611156464,
+      "sourceSeconds": 1237.0906611156465,
+      "outputSeconds": 127.14751205782329,
+      "frame": "export-key-on-flag-full.png",
+      "nominalOutputSeconds": 127.21324362028528
+    },
+    {
+      "state": "winning-transition",
+      "part": 7,
+      "partSourceSeconds": 715.7231780529022,
+      "sourceSeconds": 1260.4681780529022,
+      "outputSeconds": 128.4240855264511,
+      "frame": "export-winning-transition-full.png",
+      "nominalOutputSeconds": 128.48589267958093
+    },
+    {
+      "state": "final-pause-165",
+      "part": 7,
+      "partSourceSeconds": 738.056667,
+      "sourceSeconds": 1282.801667,
+      "outputSeconds": 139.59082999999998,
+      "frame": "export-final-pause-165-full.png",
+      "nominalOutputSeconds": 139.63333366666666
+    }
+  ],
+  "representativePosterSeconds": 93.45878597571567,
+  "timingPrecision": {
+    "method": "Actual trim/concat frame-timing trace",
+    "evidence": "actual-filter-timing.json",
+    "actualTimingSha256": "175d08413e9c24bdcefcbce9e28bb0b182d0e572bee1f0a8ef3a0e6873db8df4",
+    "idealDurationRetainedAsExpectedOutputSeconds": true,
+    "criticalSeeksAndInputMappingCorrected": true,
+    "videoBytesUnchanged": true,
+    "showinfoPrintedPrecisionMaxSeconds": 1.0000001964272087e-06,
+    "CFR30FrameSelectionQualification": "A seek resolves to a neighboring encoded30fps frame; near a source boundary use an earlier stable source observation if needed."
+  }
+}

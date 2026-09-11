@@ -40,7 +40,7 @@ ${renderRawTotals(levels,secretHunts,raw)}
  <div class="player-heading"><span id="playing-number" class="level-label">Level ${levelNumber(first.number)}</span><h2 id="playing-title">${escape(first.title)}</h2></div>
  <video id="video" controls playsinline controlslist="nodownload" preload="metadata" poster="${first.poster}" width="1680" height="960" aria-labelledby="playing-title"><source src="${first.file}" type="video/mp4">Your browser cannot play this video. Choose a recording to open it directly.</video>
  <div class="playback-tools"><div class="playback-speed ui-segmented" role="group" aria-label="Playback speed" data-playback-speed="video" hidden>${speeds}</div><span id="playing-duration">${duration(first.seconds)}</span></div>
- <p class="collection-note">Gameplay plays at twice normal speed. Speed buttons adjust this further.</p>
+ <p class="collection-note">Timed gameplay plays at twice normal speed. Recovery footage and still-image exceptions are labelled in the recording. Speed buttons adjust playback further.</p>
  <p class="speed-status" data-playback-speed-status="video" role="status" aria-live="polite"></p>
  <p id="player-status" role="status" aria-live="polite"></p>
 </section>

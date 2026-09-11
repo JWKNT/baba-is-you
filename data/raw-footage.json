@@ -5006,6 +5006,214 @@
           ]
         }
       ]
+    },
+    {
+      "id": "level-161",
+      "capturedSeconds": 1573.42,
+      "originalCaptureCount": 2,
+      "knownMissingInputs": 0,
+      "allocations": [
+        {
+          "sourceSha256": "9b9aa11dcb1cfc2ea73f1fe285a8d0f80861c9f99d9f9f869ceb0c4f09aaf437",
+          "sourceSecondsWindow": [
+            0,
+            1263.326667
+          ]
+        },
+        {
+          "sourceSha256": "f59c3204c2aecc3cd8dafbf48b0577f80cc2e01fad1b4c2a7dfaff0dc59d71c1",
+          "sourceSecondsWindow": [
+            0,
+            310.093333
+          ]
+        }
+      ]
+    },
+    {
+      "id": "level-162",
+      "capturedSeconds": 1271.751667,
+      "originalCaptureCount": 3,
+      "originalBytes": 165673119,
+      "knownMissingInputs": 2,
+      "allocations": [
+        {
+          "sourceSha256": "f354d384d1790544c8e993aa26c54b06eda56f8298ec1b7ebbdb58355672b878",
+          "sourceSecondsWindow": [
+            0,
+            826.705
+          ],
+          "originalBytes": 93516126
+        },
+        {
+          "sourceSha256": "6382588ee398f79c0a4d8bfc7c9b16f384b705d1e4fe40249d1683d9f2b98480",
+          "sourceSecondsWindow": [
+            0,
+            445.046667
+          ],
+          "originalBytes": 55270277
+        }
+      ],
+      "unknownDurationAllocations": [
+        {
+          "sourceSha256": "1a8b9a1149e58386562072f58fb5e78f762d1e9a1d79cf08b4014752d9d7661d",
+          "sourceSecondsWindow": null,
+          "originalBytes": 16886716,
+          "sourceName": "moving-floor-part2.mov",
+          "provenance": "Original historical game-only Moving Floor attempt; Disk Full finalization failure. No replay replacement.",
+          "durationUnknownReason": "No moov/sample table, and original timestamps were not recovered. Frame count divided by nominal fps is not original captured duration.",
+          "recoveredFrameCount": 4544,
+          "recoveredFrameIndexWindowInclusive": [
+            0,
+            4543
+          ],
+          "originalTimestampsAvailable": false,
+          "knownMissingInputNumbers": [
+            46,
+            47
+          ],
+          "missingInputCountIsExhaustive": false,
+          "evidence": {
+            "path": "handoff/qa-moving-floor-historical/part2-audit.json",
+            "sha256": "c0ccaeac553c08e2f61d3d9a11025520420b0e37ddeb4d52cea2d34082e832f8"
+          }
+        }
+      ]
+    },
+    {
+      "id": "level-163",
+      "capturedSeconds": 624.578333,
+      "originalCaptureCount": 1,
+      "knownMissingInputs": 0,
+      "allocations": [
+        {
+          "sourceSha256": "3e7df57900fae324d7f57103adb2d1eb4b174c538e5bf37ed07344bbfb79a903",
+          "sourceSecondsWindow": [
+            0,
+            624.578333
+          ]
+        }
+      ]
+    },
+    {
+      "id": "secret-hunt-008",
+      "capturedSeconds": 170.756667,
+      "originalCaptureCount": 1,
+      "knownMissingInputs": 0,
+      "allocations": [
+        {
+          "sourceSha256": "88f09b74ed59682d779c335bb333706ef646b56d07c953e5eae6bb5a513acdef",
+          "sourceSecondsWindow": [
+            0,
+            170.756667
+          ]
+        }
+      ]
+    },
+    {
+      "id": "level-164",
+      "capturedSeconds": 2143.901666,
+      "originalCaptureCount": 4,
+      "knownMissingInputs": 0,
+      "allocations": [
+        {
+          "sourceSha256": "c1a2c3beb4dfafd2166b40c481d38a35712c6d087ab546add519b7017f7f0a7e",
+          "sourceSecondsWindow": [
+            0,
+            916.155
+          ],
+          "originalBytes": 190193141
+        },
+        {
+          "sourceSha256": "e9a156cd6d8b9556326606e3d08fdabf5e9a2455f75c10435fa0ca615927bebd",
+          "sourceSecondsWindow": [
+            0,
+            555.218333
+          ],
+          "originalBytes": 121853594
+        },
+        {
+          "sourceSha256": "b131efc91ac12806c81221ad70d2080851ef04b4b8c8d499d3ed84dad9eaaeeb",
+          "sourceSecondsWindow": [
+            0,
+            165.598333
+          ],
+          "originalBytes": 37999292
+        },
+        {
+          "sourceSha256": "6e1b802fe14d9c4e7362108f3ba8e192b316578073f4f45f7bb51b10e4026ef4",
+          "sourceSecondsWindow": [
+            0,
+            506.93
+          ],
+          "originalBytes": 120236685
+        }
+      ],
+      "originalBytes": 470282712
+    },
+    {
+      "id": "level-165",
+      "capturedSeconds": 1282.935,
+      "originalCaptureCount": 7,
+      "knownMissingInputs": 0,
+      "allocations": [
+        {
+          "sourceSha256": "b47db58753f98ea438c4d8c8ff293f16b3dfb426d1a20bfd83f2bcabdc12605e",
+          "sourceSecondsWindow": [
+            0,
+            113.688333
+          ],
+          "originalBytes": 17031401
+        },
+        {
+          "sourceSha256": "8b9ac3dd1c08ae3482ecac80964173753fb68c674d667b4bed8810dd843f1952",
+          "sourceSecondsWindow": [
+            0,
+            28.911667
+          ],
+          "originalBytes": 6575987
+        },
+        {
+          "sourceSha256": "771c368b81aca2cdc11d20c23e475fe89d3a5e474f40d708cb80b4a51dc449e1",
+          "sourceSecondsWindow": [
+            0,
+            111.356667
+          ],
+          "originalBytes": 17428078
+        },
+        {
+          "sourceSha256": "5436b7a9dc67a8edc46f3523a0af312be531bfe18af91235a928b7e8deacbb49",
+          "sourceSecondsWindow": [
+            0,
+            122.915
+          ],
+          "originalBytes": 30116947
+        },
+        {
+          "sourceSha256": "52f1c4826b82cc2d33ca1d7505d43eda3c8fa072116d628bdbf34926143739cb",
+          "sourceSecondsWindow": [
+            0,
+            149.743333
+          ],
+          "originalBytes": 15291012
+        },
+        {
+          "sourceSha256": "f6e83a38f46a5cdac126a3f65ccef23bfbd1e5951aa270f30c7a5743e0cc6e5c",
+          "sourceSecondsWindow": [
+            0,
+            18.13
+          ],
+          "originalBytes": 2592009
+        },
+        {
+          "sourceSha256": "d44cc6dafa6efaa04ab08813a8c4242f6216b3704c8dfef3b7f433567d807a27",
+          "sourceSecondsWindow": [
+            0,
+            738.19
+          ],
+          "originalBytes": 167899160
+        }
+      ],
+      "originalBytes": 256934594
     }
   ]
 }

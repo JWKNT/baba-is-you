@@ -1,0 +1,215 @@
+{
+  "source": "163.mov",
+  "sha256": "91e3c8fe58a48838395dcf592132d7f9b9f4bf5ddc6d27dce853fbd5fb30fc77",
+  "sourceSeconds": 624.578333,
+  "keptIntervals": [
+    [
+      0,
+      2.791566848754883
+    ],
+    [
+      29.5,
+      38.5
+    ],
+    [
+      170.9712119102478,
+      182.21369886398315
+    ],
+    [
+      185.72784614562988,
+      195.98859786987305
+    ],
+    [
+      209.22496128082275,
+      216.72569608688354
+    ],
+    [
+      466.13137006759644,
+      490.0142250061035
+    ],
+    [
+      503.2584710121155,
+      509.9727382659912
+    ],
+    [
+      523.2079172134399,
+      526.0996470451355
+    ],
+    [
+      538.4804782867432,
+      541.771094083786
+    ],
+    [
+      552.889771938324,
+      555.7749171257019
+    ],
+    [
+      571.7312941551208,
+      583.597601890564
+    ],
+    [
+      594.747673034668,
+      624.578333
+    ]
+  ],
+  "playbackSpeed": 2,
+  "sourceRetainedSeconds": 122.15712104206852,
+  "expectedOutputSeconds": 61.07856052103426,
+  "outputSeconds": 61.066667,
+  "inputCount": 145,
+  "policy": "Preserve every chronological captured input, blocked move, attempt and observed victory. Remove only idle gaps between padded action spans0.75seconds before and1.5seconds after; retain the winning-input-to-final-pause capture suffix in full. Encode2x, silent, no replay/gap replacements or invented motion.",
+  "crop": "1680:960:14:56",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 23
+  },
+  "category": "completed-level",
+  "sequence": 163,
+  "countsAsCompletedLevel": true,
+  "recordedInputCount": 145,
+  "loggedInputCount": 145,
+  "uncapturedInputs": [],
+  "outputSha256": "24ebc981fc08ece6611232804dbca4addb3655afe6d70cea6f3342f5108e71c2",
+  "sourceParts": [
+    {
+      "source": "crumbling-floor-part1.mov",
+      "sha256": "3e7df57900fae324d7f57103adb2d1eb4b174c538e5bf37ed07344bbfb79a903",
+      "sourceSeconds": 624.578333,
+      "joinedStart": 0,
+      "inputCount": 145,
+      "recordedInputCount": 145
+    }
+  ],
+  "sourceAssignment": "Completion163 Crumbling Floor exclusively owns the full crumbling-floor-part1 original and four sidecars. All145 chronological inputs retain map navigation and entry, initial pause/resume, two-flag lower passage and WIN shift, main-room return, three-text staging, upper-to-middle IS transfer, both belt holds, final WIN transport and winning contact through settled163/nine pause. Moving Floor162 and Hunt008 sources are separate. All originals and sidecars are retained.",
+  "scope": "Two physical flags temporarily hold the lower passage so WIN can be moved right and Keke can return with all three text words free. The shorter upper belt and clear487160 stance allow IS to be pushed down from the upper text stop and shifted into the middle stop. Both backstops hold Keke long enough to step off the belts; the lower-room WIN route forms BABA IS WIN, then Keke contacts Baba. The settled map confirms163/nine, with no new visible node.",
+  "rawCapturedSeconds": 624.578333,
+  "rawOriginalBytes": 67425273,
+  "originalCaptureCount": 1,
+  "sourceInventoryFiles": [
+    "source-inventory.json"
+  ],
+  "criticalSeeks": [
+    {
+      "state": "initial-fresh-board",
+      "part": 1,
+      "partSourceSeconds": 36.2,
+      "sourceSeconds": 36.2,
+      "outputSeconds": 4.745783424377443,
+      "frame": "export-initial-fresh-board-full.png"
+    },
+    {
+      "state": "lower-two-flag-train",
+      "part": 1,
+      "partSourceSeconds": 180.91369886398314,
+      "sourceSeconds": 180.91369886398314,
+      "outputSeconds": 10.867026901245112,
+      "frame": "export-lower-two-flag-train-full.png"
+    },
+    {
+      "state": "WIN-shifted-right",
+      "part": 1,
+      "partSourceSeconds": 194.68859786987304,
+      "sourceSeconds": 194.68859786987304,
+      "outputSeconds": 15.997402763366694,
+      "frame": "export-WIN-shifted-right-full.png"
+    },
+    {
+      "state": "returned-main-room",
+      "part": 1,
+      "partSourceSeconds": 215.92569608688353,
+      "sourceSeconds": 215.92569608688353,
+      "outputSeconds": 19.99777016639709,
+      "frame": "export-returned-main-room-full.png"
+    },
+    {
+      "state": "three-text-row-staged",
+      "part": 1,
+      "partSourceSeconds": 488.7142250061035,
+      "sourceSeconds": 488.7142250061035,
+      "outputSeconds": 31.68919763565063,
+      "frame": "export-three-text-row-staged-full.png"
+    },
+    {
+      "state": "packed-upper-words",
+      "part": 1,
+      "partSourceSeconds": 505.19248189926145,
+      "sourceSeconds": 505.19248189926145,
+      "outputSeconds": 33.30620307922362,
+      "frame": "export-packed-upper-words-full.png"
+    },
+    {
+      "state": "clear-top-stance",
+      "part": 1,
+      "partSourceSeconds": 509.1727380275726,
+      "sourceSeconds": 509.1727380275726,
+      "outputSeconds": 35.296331143379206,
+      "frame": "export-clear-top-stance-full.png"
+    },
+    {
+      "state": "upper-IS-extraction-held",
+      "part": 1,
+      "partSourceSeconds": 524.7996470451355,
+      "sourceSeconds": 524.7996470451355,
+      "outputSeconds": 36.4921961784363,
+      "frame": "export-upper-IS-extraction-held-full.png"
+    },
+    {
+      "state": "IS-middle-stop-delivered",
+      "part": 1,
+      "partSourceSeconds": 540.471094083786,
+      "sourceSeconds": 540.471094083786,
+      "outputSeconds": 38.137504076957725,
+      "frame": "export-IS-middle-stop-delivered-full.png"
+    },
+    {
+      "state": "middle-belt-held",
+      "part": 1,
+      "partSourceSeconds": 554.474917125702,
+      "sourceSeconds": 554.474917125702,
+      "outputSeconds": 39.58007667064669,
+      "frame": "export-middle-belt-held-full.png"
+    },
+    {
+      "state": "WIN-upper-stance",
+      "part": 1,
+      "partSourceSeconds": 573.4211819648742,
+      "sourceSeconds": 573.4211819648742,
+      "outputSeconds": 41.075020575523354,
+      "frame": "export-WIN-upper-stance-full.png"
+    },
+    {
+      "state": "BABA-IS-WIN",
+      "part": 1,
+      "partSourceSeconds": 582.297601890564,
+      "sourceSeconds": 582.297601890564,
+      "outputSeconds": 45.51323053836825,
+      "frame": "export-BABA-IS-WIN-full.png"
+    },
+    {
+      "state": "winning-Baba-contact",
+      "part": 1,
+      "partSourceSeconds": 595.7833410739898,
+      "sourceSeconds": 595.7833410739898,
+      "outputSeconds": 46.68106455802916,
+      "frame": "export-winning-Baba-contact-full.png"
+    },
+    {
+      "state": "settled-163-pause",
+      "part": 1,
+      "partSourceSeconds": 619.2235509872437,
+      "sourceSeconds": 619.2235509872437,
+      "outputSeconds": 58.40116951465609,
+      "frame": "export-settled-163-pause-full.png"
+    },
+    {
+      "state": "final-retained-pause",
+      "part": 1,
+      "partSourceSeconds": 624.4449999999999,
+      "sourceSeconds": 624.4449999999999,
+      "outputSeconds": 61.01189402103421,
+      "frame": "export-final-retained-pause-full.png"
+    }
+  ],
+  "representativePosterSeconds": 4.745783424377443
+}

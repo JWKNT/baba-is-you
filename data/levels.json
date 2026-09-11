@@ -2718,5 +2718,90 @@
       "mechanics": "Different controlled wall cells pushed words and contacted Baba. WALL IS YOU shared IS with vertical BABA IS WIN. A tree blocked one moving wall, so the castle did not remain a rigid shape.",
       "attempts": "All 138 inputs are retained at 2\u00d7 speed, including the first wall-control probe, nine undos, a blocked approach, accidental control loss and fourteen ineffective inputs before recovery. No restart, explicit wait or death was observed."
     }
+  },
+  {
+    "id": "level-161",
+    "number": 161,
+    "title": "Hazel Den",
+    "world": "???",
+    "code": "Extra 3",
+    "name": "Hazel Den",
+    "file": "/baba-is-you-media-2/media/161-hazel-den.mp4",
+    "poster": "assets/level-161.jpg",
+    "seconds": 122.3,
+    "recorded": "2026-09-11",
+    "notes": {
+      "approach": "Teleported ROCK and SKULL words onto the same flag, disabled TELE, then pushed the stacked nouns into a shared IS PUSH sentence. Cleared the middle water lane, formed FLAG IS WIN and returned to a flag.",
+      "mechanics": "Both overlapping noun words formed PUSH rules. Pushing the middle skull and rock into water removed the two water cells while preserving the physical flags for the finish.",
+      "attempts": "All 320 inputs across two originals are retained at 2\u00d7 speed, including the failed cargo-on-STOP route, 30 undos, four waits and the successful revisit. No restart or Baba death was observed."
+    }
+  },
+  {
+    "id": "level-162",
+    "number": 162,
+    "title": "Moving Floor",
+    "world": "Deep Forest",
+    "code": "09",
+    "name": "Moving Floor",
+    "file": "/baba-is-you-media-2/media/162-moving-floor.mp4",
+    "poster": "assets/level-162.jpg",
+    "seconds": 275.166667,
+    "recorded": "2026-09-11",
+    "notes": {
+      "approach": "Used two flags to hold the lower belt until WIN was moved and Keke returned. Released FLAG PUSH, sent separate word pairs to hold the upper and middle belts, then formed BABA IS WIN and touched Baba.",
+      "mechanics": "A PUSH object backed by hedge stops SHIFT from carrying Keke off a belt. The lower stop was needed only for the first crossing and return, freeing all four text words for independent upper and middle stops.",
+      "attempts": "Three visits account for 255 logged inputs, including the first setup correction. Timed footage is at 2\u00d7. Part 2 failed with Disk Full: 4,544 recovered frames are shown in order at 30 frames/s with original timing unavailable; final RIGHT and pause survive only as labelled screenshots. Earlier part 2 input timing is uncertified. No undo, restart, explicit wait or observed death."
+    }
+  },
+  {
+    "id": "level-163",
+    "number": 163,
+    "title": "Crumbling Floor",
+    "world": "Deep Forest",
+    "code": "Extra 1",
+    "name": "Crumbling Floor",
+    "file": "/baba-is-you-media-2/media/163-crumbling-floor.mp4",
+    "poster": "assets/level-163.jpg",
+    "seconds": 61.066667,
+    "recorded": "2026-09-11",
+    "notes": {
+      "approach": "Used two flags to cross the lower belt, move WIN right and return. Packed the three words into the upper belt, pushed IS down to make the middle backstop, then carried WIN around the lower room to form BABA IS WIN and touch Baba.",
+      "mechanics": "A text word backed by a hedge stopped each belt from shifting Keke. The shorter upper belt and clear stance above it allowed the middle IS to be extracted downward and delivered to the next belt.",
+      "attempts": "All 145 inputs from one original are retained at 2\u00d7 speed, including navigation, the initial pause, both backstop checks and the complete finish. No failed move, undo, restart, explicit wait or death was observed."
+    }
+  },
+  {
+    "id": "level-164",
+    "number": 164,
+    "title": "Baba Has Keke",
+    "world": "???",
+    "code": "Extra 4",
+    "name": "Baba Has Keke",
+    "file": "/baba-is-you-media-2/media/164-baba-has-keke.mp4",
+    "poster": "assets/level-164.jpg",
+    "seconds": 300.3,
+    "recorded": "2026-09-11",
+    "notes": {
+      "approach": "After testing two four-belt loops, built a six-belt circuit around stationary HAS. Used PUSH as a fourth text token, then timed the lava and door contacts to the alternating BABA HAS KEKE and KEKE HAS BABA rules.",
+      "mechanics": "The two Baba MELTs create controllable Kekes. OPEN Keke removes the door and produces Baba on the approach tile, so the next phase uses two UPs and six waits before the upper lava. The final Keke reaches the flag.",
+      "attempts": "All 563 inputs across four originals are retained at 2\u00d7 speed, including both calibration traces, four undos, 32 waits and one restart. Two Baba MELTs and one Keke OPEN consumption are intentional HAS replacements."
+    }
+  },
+  {
+    "id": "level-165",
+    "number": 165,
+    "title": "Ultimate Maze",
+    "world": "???",
+    "code": "12",
+    "name": "Ultimate Maze",
+    "file": "/baba-is-you-media-2/media/165-ultimate-maze.mp4",
+    "poster": "assets/level-165.jpg",
+    "seconds": 139.666667,
+    "recorded": "2026-09-11",
+    "notes": {
+      "approach": "Use an original key to open one wall and reach the goal words. Turn the remaining walls into keys, form FLAG IS WIN with a key buffer, then return to the physical flag.",
+      "mechanics": "The key buffer keeps the controlled IS off the former WIN tile, where it lost LONELY TEXT control. Two final DOWNs move a key onto and then beyond the flag, allowing IS and the flag to overlap and win. The internal control and win order was not isolated.",
+      "attempts": "All 159 inputs across seven originals are retained at 2\u00d7 speed, including seven undos, two earlier whole-board destructions and the later control failure. The final 63-input opening and 22-input return were executed. No restart or explicit wait was used."
+    }
   }
 ]

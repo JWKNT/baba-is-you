@@ -1839,6 +1839,72 @@
       "manifestSha256": "8a630b82cbf7ba73b04bc0b95f166104efcdbc1dbba5f2cb4d003cc688ea544d",
       "repository": "JWKNT/baba-is-you-media-2",
       "verifiedCommit": "bcb137b1cf01ba68e7e71c8c7a0828f20aedcdf3"
+    },
+    {
+      "id": "level-161",
+      "file": "/baba-is-you-media-2/media/161-hazel-den.mp4",
+      "bytes": 11349760,
+      "sha256": "3b1e13103d1039669f4ca56da315a983c18cc50a5dd59ef9500c7a641be192ed",
+      "seconds": 122.3,
+      "manifest": "data/pause-edits-161.json",
+      "manifestSha256": "895d318308a457943d8a1fd61623be40bcceb03c865933477c181cbebf5c4d65",
+      "repository": "JWKNT/baba-is-you-media-2",
+      "verifiedCommit": "573ef784899399a675f9fddbe3a641279be065ea"
+    },
+    {
+      "id": "level-162",
+      "file": "/baba-is-you-media-2/media/162-moving-floor.mp4",
+      "bytes": 26838546,
+      "sha256": "3b68ae450ae6fe9a0b63bedee22e1cd430d77825e0a9f9686ffce94864c427a9",
+      "seconds": 275.166667,
+      "manifest": "data/pause-edits-162.json",
+      "manifestSha256": "5b36df2e7779fb4e13a3b5b9dd713bf03b50d0c53065983cd952d9e157981d2a",
+      "repository": "JWKNT/baba-is-you-media-2",
+      "verifiedCommit": "573ef784899399a675f9fddbe3a641279be065ea"
+    },
+    {
+      "id": "level-163",
+      "file": "/baba-is-you-media-2/media/163-crumbling-floor.mp4",
+      "bytes": 5169676,
+      "sha256": "24ebc981fc08ece6611232804dbca4addb3655afe6d70cea6f3342f5108e71c2",
+      "seconds": 61.066667,
+      "manifest": "data/pause-edits-163.json",
+      "manifestSha256": "2661140f0e90a06803331141cc0badf4899d98164f451d967ce456de8d5250fe",
+      "repository": "JWKNT/baba-is-you-media-2",
+      "verifiedCommit": "573ef784899399a675f9fddbe3a641279be065ea"
+    },
+    {
+      "id": "level-164",
+      "file": "/baba-is-you-media-2/media/164-baba-has-keke.mp4",
+      "bytes": 42249572,
+      "sha256": "be918f2b529d9e259a552f8ee3e1e66a9a0caf47835c3a9071c96974ddc51f40",
+      "seconds": 300.3,
+      "manifest": "data/pause-edits-164.json",
+      "manifestSha256": "d05b45190d35952ee660b207b8cfa39756c78e3b00f984b9d67d678075b3c849",
+      "repository": "JWKNT/baba-is-you-media-2",
+      "verifiedCommit": "573ef784899399a675f9fddbe3a641279be065ea"
+    },
+    {
+      "id": "level-165",
+      "file": "/baba-is-you-media-2/media/165-ultimate-maze.mp4",
+      "bytes": 18161310,
+      "sha256": "2c0c1c9626442e64189fdb84973bbcb66aa85d2eab6c5ba80a0ea78a7ef5b65c",
+      "seconds": 139.666667,
+      "manifest": "data/pause-edits-165.json",
+      "manifestSha256": "feb2c7a4bd736ea1287a58975187d9a39a0bb7fe67f933ab33584c0d314cbb96",
+      "repository": "JWKNT/baba-is-you-media-2",
+      "verifiedCommit": "573ef784899399a675f9fddbe3a641279be065ea"
+    },
+    {
+      "id": "secret-hunt-008",
+      "file": "/baba-is-you-media-2/media/secret-hunt-008-access-survey.mp4",
+      "bytes": 3048813,
+      "sha256": "e2f182fbbb9abcfab68349c1e1549c3c469faa4d5df45e752ff8bf2f321667d0",
+      "seconds": 23.266667,
+      "manifest": "data/pause-edits-secret-hunt-008.json",
+      "manifestSha256": "e89435e4a510e0427fc7c2938cb0631c74c92b2807cb6cf8e99bf4c13628dda3",
+      "repository": "JWKNT/baba-is-you-media-2",
+      "verifiedCommit": "573ef784899399a675f9fddbe3a641279be065ea"
     }
   ]
 }

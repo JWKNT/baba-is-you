@@ -1,0 +1,475 @@
+{
+  "source": "164.mov",
+  "sha256": "dacf3d377fa4e578e71da9b7102a97732bdd417c0eedf67d3cd9ea51d5e5ad23",
+  "sourceSeconds": 2143.9,
+  "keptIntervals": [
+    [
+      0,
+      2
+    ],
+    [
+      18.80137872695923,
+      216.60700464248657
+    ],
+    [
+      250.97509717941284,
+      257.0298056602478
+    ],
+    [
+      486.7653737068176,
+      499.68279190063475
+    ],
+    [
+      865.4979119300842,
+      916.155
+    ],
+    [
+      921.1294040966034,
+      928.4278719711303
+    ],
+    [
+      941.9168798923492,
+      946.7312190532684
+    ],
+    [
+      956.1697080135345,
+      963.0612860012054
+    ],
+    [
+      996.1083571910858,
+      1004.1447188854218
+    ],
+    [
+      1112.0428779125214,
+      1121.6537039279938
+    ],
+    [
+      1137.1007549762726,
+      1146.7367169857025
+    ],
+    [
+      1156.815729856491,
+      1171.7189939022064
+    ],
+    [
+      1213.2185280323029,
+      1221.228523015976
+    ],
+    [
+      1243.8371942043304,
+      1261.7
+    ],
+    [
+      1308.5801107883453,
+      1313.9404051303864
+    ],
+    [
+      1321.323412179947,
+      1324.385
+    ],
+    [
+      1338.1896522045135,
+      1340.584724187851
+    ],
+    [
+      1356.357773065567,
+      1358.7500579357147
+    ],
+    [
+      1378.9209940433502,
+      1381.985
+    ],
+    [
+      1461.2018010616302,
+      1464.2666669999999
+    ],
+    [
+      1478.1036141145782,
+      1482.736666
+    ],
+    [
+      1501.2963423728943,
+      1519.62
+    ],
+    [
+      1531.958918094635,
+      1537.016666
+    ],
+    [
+      1548.267066001892,
+      1550.660737991333
+    ],
+    [
+      1554.6672654151917,
+      1557.0621848106384
+    ],
+    [
+      1561.0127902030945,
+      1564.073333
+    ],
+    [
+      1579.068422794342,
+      1581.4637880325317
+    ],
+    [
+      1585.4433860778809,
+      1587.8370990753174
+    ],
+    [
+      1591.8271622657776,
+      1594.2178196907043
+    ],
+    [
+      1598.1587891578674,
+      1600.555715084076
+    ],
+    [
+      1616.7869791984558,
+      1619.861666
+    ],
+    [
+      1623.129575252533,
+      1625.5186610221863
+    ],
+    [
+      1629.465431690216,
+      1632.528333
+    ],
+    [
+      1635.7820329666138,
+      1643.6748241401824
+    ],
+    [
+      1656.2951661564025,
+      1671.036324262619
+    ],
+    [
+      1720.3514430522919,
+      1737.3495380878448
+    ],
+    [
+      1751.5163342952728,
+      1774.6224301792297
+    ],
+    [
+      1896.4165942668915,
+      1921.32439827919
+    ],
+    [
+      1942.7042782306671,
+      1970.6538642383728
+    ],
+    [
+      1996.5869381427765,
+      2004.9245289302978
+    ],
+    [
+      2008.3316843509674,
+      2017.8356269336853
+    ],
+    [
+      2031.0653870105743,
+      2034.1561091877136
+    ],
+    [
+      2055.817511320114,
+      2061.758931014648
+    ],
+    [
+      2064.9824211597443,
+      2068.0763441063077
+    ],
+    [
+      2094.198147058487,
+      2100.103760097137
+    ],
+    [
+      2103.3664882183075,
+      2106.4617601371915
+    ],
+    [
+      2127.6160213947296,
+      2143.9
+    ]
+  ],
+  "playbackSpeed": 2,
+  "sourceRetainedSeconds": 600.6514701761155,
+  "expectedOutputSeconds": 300.32573508805774,
+  "outputSeconds": 300.3,
+  "inputCount": 563,
+  "policy": "Preserve every chronological captured input, blocked move, attempt and observed victory. Remove only idle gaps between padded action spans0.75seconds before and1.5seconds after; retain the winning-input-to-final-pause capture suffix in full. Encode2x, silent, no replay/gap replacements or invented motion.",
+  "crop": "1680:960:14:56",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 23
+  },
+  "category": "completed-level",
+  "sequence": 164,
+  "countsAsCompletedLevel": true,
+  "recordedInputCount": 563,
+  "loggedInputCount": 563,
+  "uncapturedInputs": [],
+  "outputSha256": "be918f2b529d9e259a552f8ee3e1e66a9a0caf47835c3a9071c96974ddc51f40",
+  "sourceParts": [
+    {
+      "source": "baba-has-keke-part1.mov",
+      "sha256": "c1a2c3beb4dfafd2166b40c481d38a35712c6d087ab546add519b7017f7f0a7e",
+      "sourceSeconds": 916.155,
+      "joinedStart": 0,
+      "inputCount": 58,
+      "recordedInputCount": 58
+    },
+    {
+      "source": "baba-has-keke-part2.mov",
+      "sha256": "e9a156cd6d8b9556326606e3d08fdabf5e9a2455f75c10435fa0ca615927bebd",
+      "sourceSeconds": 555.218333,
+      "joinedStart": 916.155,
+      "inputCount": 161,
+      "recordedInputCount": 161
+    },
+    {
+      "source": "baba-has-keke-part3.mov",
+      "sha256": "b131efc91ac12806c81221ad70d2080851ef04b4b8c8d499d3ed84dad9eaaeeb",
+      "sourceSeconds": 165.598333,
+      "joinedStart": 1471.373333,
+      "inputCount": 61,
+      "recordedInputCount": 61
+    },
+    {
+      "source": "baba-has-keke-part4.mov",
+      "sha256": "6e1b802fe14d9c4e7362108f3ba8e192b316578073f4f45f7bb51b10e4026ef4",
+      "sourceSeconds": 506.93,
+      "joinedStart": 1636.971666,
+      "inputCount": 283,
+      "recordedInputCount": 283
+    }
+  ],
+  "sourceAssignment": "Completion 164 Baba Has Keke exclusively owns the full chronological baba-has-keke-part1 through part4 original families. Earlier belt staging, three-word and four-word calibrations, all four undos, 32 waits, one restart and the complete successful traversal remain. Intervening unrelated level/hunt recordings retain their separate allocations. All twenty original/sidecar files stay retained.",
+  "scope": "Earlier visits establish belt staging and finite clock traces. The final restart constructs a six-belt circuit around stationary HAS, using PUSH as a fourth text token. Timed BABA HAS KEKE produces Keke when Baba melts in the lower lava; KEKE HAS BABA then produces Baba on the approach tile (511, 256) when OPEN Keke removes the SHUT door. The actual correction uses two UPs plus six waits to reach dry (511, 208) with the forward HAS rule; upper lava produces Keke, which reaches the flag. Two Baba MELTs and one Keke OPEN consumption are intentional HAS replacements. Settled map pause confirms 164 completed / nine flowers.",
+  "rawCapturedSeconds": 2143.901666,
+  "rawOriginalBytes": 470282712,
+  "originalCaptureCount": 4,
+  "sourceInventoryFiles": [
+    "source-inventory.json"
+  ],
+  "criticalSeeks": [
+    {
+      "state": "first-visit-fresh-board",
+      "part": 1,
+      "partSourceSeconds": 38,
+      "sourceSeconds": 38,
+      "outputSeconds": 10.599310636520386,
+      "frame": "export-first-visit-fresh-board-full.png"
+    },
+    {
+      "state": "first-visit-staged-belts",
+      "part": 1,
+      "partSourceSeconds": 498.18279190063475,
+      "sourceSeconds": 498.18279190063475,
+      "outputSeconds": 108.63887629508972,
+      "frame": "export-first-visit-staged-belts-full.png"
+    },
+    {
+      "state": "first-visit-map-pause",
+      "part": 1,
+      "partSourceSeconds": 916.021667,
+      "sourceSeconds": 916.021667,
+      "outputSeconds": 134.6507538300476,
+      "frame": "export-first-visit-map-pause-full.png"
+    },
+    {
+      "state": "three-word-loaded",
+      "part": 2,
+      "partSourceSeconds": 344.045,
+      "sourceSeconds": 1260.2,
+      "outputSeconds": 177.49922011375426,
+      "frame": "export-three-word-loaded-full.png"
+    },
+    {
+      "state": "three-word-activation-no-motion",
+      "part": 2,
+      "partSourceSeconds": 406.73,
+      "sourceSeconds": 1322.885,
+      "outputSeconds": 181.71016119480132,
+      "frame": "export-three-word-activation-no-motion-full.png"
+    },
+    {
+      "state": "three-word-third-update",
+      "part": 2,
+      "partSourceSeconds": 464.33,
+      "sourceSeconds": 1380.485,
+      "outputSeconds": 185.6358425998687,
+      "frame": "export-three-word-third-update-full.png"
+    },
+    {
+      "state": "three-word-pause",
+      "part": 2,
+      "partSourceSeconds": 546.611667,
+      "sourceSeconds": 1462.7666669999999,
+      "outputSeconds": 187.16827556905352,
+      "frame": "export-three-word-pause-full.png"
+    },
+    {
+      "state": "four-undos-restored",
+      "part": 3,
+      "partSourceSeconds": 9.863333,
+      "sourceSeconds": 1481.236666,
+      "outputSeconds": 189.4848015117644,
+      "frame": "export-four-undos-restored-full.png"
+    },
+    {
+      "state": "dummy-loaded",
+      "part": 3,
+      "partSourceSeconds": 46.746667,
+      "sourceSeconds": 1518.12,
+      "outputSeconds": 198.6466303253172,
+      "frame": "export-dummy-loaded-full.png"
+    },
+    {
+      "state": "dummy-state0",
+      "part": 3,
+      "partSourceSeconds": 64.143333,
+      "sourceSeconds": 1535.516666,
+      "outputSeconds": 201.1755042779997,
+      "frame": "export-dummy-state0-full.png"
+    },
+    {
+      "state": "dummy-KHB-state3",
+      "part": 3,
+      "partSourceSeconds": 91.2,
+      "sourceSeconds": 1562.573333,
+      "outputSeconds": 205.10007136889632,
+      "frame": "export-dummy-KHB-state3-full.png"
+    },
+    {
+      "state": "dummy-state8-not-BHK",
+      "part": 3,
+      "partSourceSeconds": 146.988333,
+      "sourceSeconds": 1618.361666,
+      "outputSeconds": 211.42574556304916,
+      "frame": "export-dummy-state8-not-BHK-full.png"
+    },
+    {
+      "state": "dummy-state10-repeats2",
+      "part": 3,
+      "partSourceSeconds": 159.655,
+      "sourceSeconds": 1631.028333,
+      "outputSeconds": 214.15173910276778,
+      "frame": "export-dummy-state10-repeats2-full.png"
+    },
+    {
+      "state": "dummy-pause",
+      "part": 3,
+      "partSourceSeconds": 165.565,
+      "sourceSeconds": 1636.938333,
+      "outputSeconds": 215.47988911946092,
+      "frame": "export-dummy-pause-full.png"
+    },
+    {
+      "state": "restart-fresh-board",
+      "part": 4,
+      "partSourceSeconds": 26.617554187774658,
+      "sourceSeconds": 1663.5892201877746,
+      "outputSeconds": 222.49516170523813,
+      "frame": "export-restart-fresh-board-full.png"
+    },
+    {
+      "state": "six-belts-built",
+      "part": 4,
+      "partSourceSeconds": 136.15076417922972,
+      "sourceSeconds": 1773.1224301792297,
+      "outputSeconds": 245.52080920241528,
+      "frame": "export-six-belts-built-full.png"
+    },
+    {
+      "state": "stationary-HAS-words-loaded",
+      "part": 4,
+      "partSourceSeconds": 332.1821982383728,
+      "sourceSeconds": 1969.1538642383728,
+      "outputSeconds": 271.9495042124174,
+      "frame": "export-stationary-HAS-words-loaded-full.png"
+    },
+    {
+      "state": "six-belt-SHIFT-activation",
+      "part": 4,
+      "partSourceSeconds": 366.45286293029784,
+      "sourceSeconds": 2003.4245289302978,
+      "outputSeconds": 276.1182996061781,
+      "frame": "export-six-belt-SHIFT-activation-full.png"
+    },
+    {
+      "state": "clock16-forward-HAS-lower-approach",
+      "part": 4,
+      "partSourceSeconds": 379.3639609336853,
+      "sourceSeconds": 2016.3356269336853,
+      "outputSeconds": 280.870270897537,
+      "frame": "export-clock16-forward-HAS-lower-approach-full.png"
+    },
+    {
+      "state": "lower-MELT-Keke",
+      "part": 4,
+      "partSourceSeconds": 395.6844431877136,
+      "sourceSeconds": 2032.6561091877136,
+      "outputSeconds": 282.41563198610663,
+      "frame": "export-lower-MELT-Keke-full.png"
+    },
+    {
+      "state": "clock25-reverse-HAS-door-approach",
+      "part": 4,
+      "partSourceSeconds": 423.2872650146484,
+      "sourceSeconds": 2060.258931014648,
+      "outputSeconds": 285.38634183337365,
+      "frame": "export-clock25-reverse-HAS-door-approach-full.png"
+    },
+    {
+      "state": "OPEN-door-spawns-Baba-on-approach-tile",
+      "part": 4,
+      "partSourceSeconds": 429.604678106308,
+      "sourceSeconds": 2066.5763441063077,
+      "outputSeconds": 286.9333033066554,
+      "frame": "export-OPEN-door-spawns-Baba-on-approach-tile-full.png"
+    },
+    {
+      "state": "clock34-forward-HAS-upper-approach",
+      "part": 4,
+      "partSourceSeconds": 461.63209409713744,
+      "sourceSeconds": 2098.603760097137,
+      "outputSeconds": 289.8861098259805,
+      "frame": "export-clock34-forward-HAS-upper-approach-full.png"
+    },
+    {
+      "state": "upper-MELT-Keke",
+      "part": 4,
+      "partSourceSeconds": 467.99009413719176,
+      "sourceSeconds": 2104.9617601371915,
+      "outputSeconds": 291.4337457854225,
+      "frame": "export-upper-MELT-Keke-full.png"
+    },
+    {
+      "state": "winning-flag-contact",
+      "part": 4,
+      "partSourceSeconds": 494.5116142272949,
+      "sourceSeconds": 2131.483280227295,
+      "outputSeconds": 294.11737520170516,
+      "frame": "export-winning-flag-contact-full.png"
+    },
+    {
+      "state": "return-map-during-count-animation-163",
+      "part": 4,
+      "partSourceSeconds": 500.16161422729493,
+      "sourceSeconds": 2137.133280227295,
+      "outputSeconds": 296.9423752017052,
+      "frame": "export-return-map-during-count-animation-163-full.png"
+    },
+    {
+      "state": "final-pause-164",
+      "part": 4,
+      "partSourceSeconds": 506.79666699999996,
+      "sourceSeconds": 2143.768333,
+      "outputSeconds": 300.2599015880577,
+      "frame": "export-final-pause-164-full.png"
+    }
+  ],
+  "representativePosterSeconds": 222.49516170523813
+}

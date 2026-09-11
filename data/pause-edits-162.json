@@ -1,0 +1,582 @@
+{
+  "source": "Chronological mixed timeline: timed originals 1 and 3, untimed recovered part 2 frames and independent disclosures/stills. No single fabricated source-time axis.",
+  "playbackSpeed": 2,
+  "playbackSpeedScope": "Only original-timed-gameplay segments. Recovered frames use an explicit 30 frames/s presentation rate unrelated to unavailable original speed; still/card durations are independent output seconds.",
+  "sourceParts": [
+    {
+      "part": 1,
+      "source": "recordings/moving-floor-part1.mov",
+      "sha256": "f354d384d1790544c8e993aa26c54b06eda56f8298ec1b7ebbdb58355672b878",
+      "sourceSeconds": 826.705,
+      "inputCount": 44
+    },
+    {
+      "part": 2,
+      "source": "recordings/moving-floor-part2.mov",
+      "sha256": "1a8b9a1149e58386562072f58fb5e78f762d1e9a1d79cf08b4014752d9d7661d",
+      "sourceSeconds": null,
+      "inputCount": 47
+    },
+    {
+      "part": 3,
+      "source": "recordings/moving-floor-part3.mov",
+      "sha256": "6382588ee398f79c0a4d8bfc7c9b16f384b705d1e4fe40249d1683d9f2b98480",
+      "sourceSeconds": 445.046667,
+      "inputCount": 164
+    }
+  ],
+  "timelineSegments": [
+    {
+      "file": "handoff/qa-162/segments/part1-timed-2x.mp4",
+      "outputSeconds": 34.866667,
+      "frameCount": 1046,
+      "bytes": 2895054,
+      "sha256": "cd2fc9781e17b9420c1aac866eca9beb8f7a4db9187cbb201bc0b27e3b3c8f84",
+      "kind": "original-timed-gameplay",
+      "part": 1,
+      "source": "recordings/moving-floor-part1.mov",
+      "sourceSha256": "f354d384d1790544c8e993aa26c54b06eda56f8298ec1b7ebbdb58355672b878",
+      "sourceSeconds": 826.705,
+      "keptIntervals": [
+        [
+          0,
+          2.310703754425049
+        ],
+        [
+          9.510109901428223,
+          15.405309677124023
+        ],
+        [
+          154.79710388183594,
+          157.19197487831116
+        ],
+        [
+          323.4823899269104,
+          327.4218068122864
+        ],
+        [
+          555.5805218219757,
+          559.8237497806549
+        ],
+        [
+          570.0305588245392,
+          573.3502397537231
+        ],
+        [
+          582.739189863205,
+          585.1330509185791
+        ],
+        [
+          596.6045269966125,
+          601.7478098869324
+        ],
+        [
+          606.6931128501892,
+          610.0059299468994
+        ],
+        [
+          614.7743997573853,
+          617.1665098667145
+        ],
+        [
+          786.2815446853638,
+          789.2921838760376
+        ],
+        [
+          795.3794288635254,
+          826.705
+        ]
+      ],
+      "playbackSpeed": 2,
+      "retainedSourceSeconds": 69.68138177871708,
+      "expectedOutputSeconds": 34.84069088935854,
+      "outputStart": 0,
+      "firstOutputFrameIndex": 0
+    },
+    {
+      "file": "handoff/qa-162/segments/part2-recovery-disclosure.mp4",
+      "outputSeconds": 6.0,
+      "frameCount": 180,
+      "bytes": 44259,
+      "sha256": "2900c33a801ba9ebe8c2167d96cc92cca3a6b083cbe0144bc4cbcfe16b7bedcb",
+      "kind": "independently-timed-disclosure",
+      "text": "Visit 2 — damaged capture; original timing unavailable\nDisk Full stopped the recording.\nThe 4,544 saved frames follow in their original order, shown at 30 frames/s.\nThis presentation rate is not recovered gameplay timing.\nThe final RIGHT and pause are missing; original screenshots follow.",
+      "independentOutputSeconds": 6,
+      "outputStart": 34.86666666666667,
+      "firstOutputFrameIndex": 1046
+    },
+    {
+      "file": "handoff/qa-162/segments/part2-recovered-ordered-30fps-duration-fixed.mp4",
+      "outputSeconds": 151.466667,
+      "frameCount": 4544,
+      "bytes": 16695373,
+      "sha256": "c7b8a6608ef3250d179debde48018b95ae11bb0f3a87ebfead1323e9b3cabb9f",
+      "kind": "untimed-recovered-frame-sequence",
+      "part": 2,
+      "source": "recordings/moving-floor-part2.mov",
+      "sourceSha256": "1a8b9a1149e58386562072f58fb5e78f762d1e9a1d79cf08b4014752d9d7661d",
+      "recoveredH264": "handoff/recovery-moving-floor-part2-2026-09-10/recovered-complete-nals-reference-params.h264",
+      "recoveredH264Sha256": "e90b10939783c8917d1aaaddb6ad8ade5e04e079ffc4c323154002dc056450f6",
+      "originalSourceSeconds": null,
+      "originalSampleTimestampsAvailable": false,
+      "sourceFrameIndexWindowInclusive": [
+        0,
+        4543
+      ],
+      "sourceFrameCount": 4544,
+      "presentationFramesPerSecond": 30,
+      "presentationRateIsOriginalSpeed": false,
+      "allRecoveredFramesPreserved": true,
+      "imagePresentation": "Game crop scaled to1512x864 and padded to1680x960, with separate caption area.",
+      "outputStart": 40.86666666666667,
+      "firstOutputFrameIndex": 1226
+    },
+    {
+      "file": "handoff/qa-162/segments/part2-missing-right.mp4",
+      "outputSeconds": 5.0,
+      "frameCount": 150,
+      "bytes": 67559,
+      "sha256": "d56dd6ce1536a1ddd7dbf426b21ebe5f7467e9f9dbe747deef5ed0734e7de51c",
+      "kind": "independently-timed-original-screenshot",
+      "part": 2,
+      "partEvent": 46,
+      "sourceImage": "notes/moving-floor-part2-text-stop-passed.png",
+      "sourceImageSha256": "e5a2846d45969fcaa07d28e11e710778c57d2e6ef8b37b996a0107388f7d1ca8",
+      "caption": "MISSING VIDEO — original screenshot after event 46: RIGHT\nKeke reached the belt. The movement itself was not captured; no replay is substituted.",
+      "independentOutputSeconds": 5,
+      "originalMovementAvailable": false,
+      "outputStart": 192.33333333333334,
+      "firstOutputFrameIndex": 5770
+    },
+    {
+      "file": "handoff/qa-162/segments/part2-missing-pause.mp4",
+      "outputSeconds": 5.0,
+      "frameCount": 150,
+      "bytes": 65737,
+      "sha256": "0547c84a704fb41c832d8b1acef2d36715d0b651cb4b5163504840348297575d",
+      "kind": "independently-timed-original-screenshot",
+      "part": 2,
+      "partEvent": 47,
+      "sourceImage": "notes/moving-floor-part2-text-stop-paused.png",
+      "sourceImageSha256": "2941711120c06fc3dc40562e808484eacab0ff48a52348d4260b1c3d9d5c31a7",
+      "caption": "MISSING VIDEO — original screenshot after event 47: pause\nThis is still-image evidence from the second visit, not captured gameplay motion.",
+      "independentOutputSeconds": 5,
+      "originalMovementAvailable": false,
+      "outputStart": 197.33333333333334,
+      "firstOutputFrameIndex": 5920
+    },
+    {
+      "file": "handoff/qa-162/segments/part3-recorded-resumes.mp4",
+      "outputSeconds": 3.0,
+      "frameCount": 90,
+      "bytes": 28409,
+      "sha256": "bdcca652941d85f9c4c8c64419389cec32d3bcd6753547671754318bbea16414",
+      "kind": "independently-timed-disclosure",
+      "text": "Visit 3 — recorded gameplay resumes\nThe later successful visit follows in its original chronology.\nRecorded gameplay is encoded at 2×; the damaged second visit remains disclosed.",
+      "independentOutputSeconds": 3,
+      "outputStart": 202.33333333333334,
+      "firstOutputFrameIndex": 6070
+    },
+    {
+      "file": "handoff/qa-162/segments/part3-timed-2x.mp4",
+      "outputSeconds": 69.833333,
+      "frameCount": 2095,
+      "bytes": 7053902,
+      "sha256": "658fb661b464f66e79e273914b3ef1d6f3a9b0daa24fe3ff65b76abdb8a7f1f9",
+      "kind": "original-timed-gameplay",
+      "part": 3,
+      "source": "recordings/moving-floor-part3.mov",
+      "sourceSha256": "6382588ee398f79c0a4d8bfc7c9b16f384b705d1e4fe40249d1683d9f2b98480",
+      "sourceSeconds": 445.046667,
+      "keptIntervals": [
+        [
+          0,
+          2.249293088912964
+        ],
+        [
+          6.38421106338501,
+          17.273999214172363
+        ],
+        [
+          36.00023698806763,
+          43.50038814544678
+        ],
+        [
+          43.97857093811035,
+          52.85046720504761
+        ],
+        [
+          75.30121207237244,
+          78.49255514144897
+        ],
+        [
+          82.39595699310303,
+          92.07752013206482
+        ],
+        [
+          156.49253797531128,
+          163.7093710899353
+        ],
+        [
+          257.8409032821655,
+          268.0416350364685
+        ],
+        [
+          290.94147205352783,
+          295.6396851539612
+        ],
+        [
+          299.52374505996704,
+          306.72004795074463
+        ],
+        [
+          325.3353021144867,
+          332.15690994262695
+        ],
+        [
+          336.0868191719055,
+          338.4797329902649
+        ],
+        [
+          356.84910917282104,
+          360.4408071041107
+        ],
+        [
+          364.22187900543213,
+          367.42959809303284
+        ],
+        [
+          389.11561727523804,
+          395.1571822166443
+        ],
+        [
+          399.1678020954132,
+          445.046667
+        ]
+      ],
+      "playbackSpeed": 2,
+      "retainedSourceSeconds": 139.63048424357606,
+      "expectedOutputSeconds": 69.81524212178803,
+      "outputStart": 205.33333333333334,
+      "firstOutputFrameIndex": 6160
+    }
+  ],
+  "inputCount": 255,
+  "loggedInputCount": 255,
+  "recordedInputCount": 208,
+  "timedVideoInputs": 208,
+  "untimedPrefixInputsWithUncertifiedAlignment": 45,
+  "knownMissingInputsAtLeast": 2,
+  "knownMissingInputEvents": [
+    {
+      "part": 2,
+      "event": 46,
+      "key": "R"
+    },
+    {
+      "part": 2,
+      "event": 47,
+      "key": "B"
+    }
+  ],
+  "knownMissingInputCountIsExhaustive": false,
+  "rawCapturedSecondsKnownSubtotal": 1271.751667,
+  "rawCapturedSecondsTotal": null,
+  "rawOriginalBytes": 165673119,
+  "originalCaptureCount": 3,
+  "unknownDurationOriginalCaptureCount": 1,
+  "outputSeconds": 275.166667,
+  "outputSha256": "3b68ae450ae6fe9a0b63bedee22e1cd430d77825e0a9f9686ffce94864c427a9",
+  "outputBytes": 26838546,
+  "outputFrameCount": 8255,
+  "crop": "1680:960:14:56",
+  "encoding": {
+    "codec": "libx264",
+    "crf": 23,
+    "preset": "fast",
+    "fps": 30
+  },
+  "countsAsCompletedLevel": true,
+  "sequence": 162,
+  "sourceAssignment": "Completion 162 exclusively owns all three Moving Floor original families, in visit order. Part 2 is damaged and untimed; all recovered frames and independent missing-input screenshots are preserved with explicit disclosures. The later historical menu-only exit already assigned to Secret Hunt 001 remains there and is not reassigned. All 13 original family files remain retained.",
+  "policy": "Preserve every chronological attempt and all255 log events. Trim idle gaps only in the timestamped parts1/3 and encode them2×. Show all4544 recovered part2 frames in order with a persistent timing-unknown label at an explicit30frames/s presentation rate. No invented original timestamps. Two missing final inputs receive independently timed original screenshots. The later successful revisit never repairs the earlier gap.",
+  "criticalSeeks": [
+    {
+      "state": "part1-unexpected-setup-endpoint",
+      "part": 1,
+      "kind": "original-timed-state",
+      "sourceSeconds": 326.63,
+      "outputSeconds": 6.874192299842832,
+      "sourceImage": "handoff/qa-moving-floor-historical/unexpected-setup-endpoint-1708x1016.png",
+      "sourceImageSha256": "67db41599ad7248919554bd6c8fd75c4f31a3493674c9043ba2e906c9f074a26",
+      "outputImage": "handoff/qa-162/export-part1-unexpected-setup-endpoint.png",
+      "actualOutputFramePTS": 6.9,
+      "outputImageSha256": "dd3f48b71d980403d1bc931c8056b995ca5f4dbb0999d78cb9cd4436f610adc5"
+    },
+    {
+      "state": "part1-lower-backstop-test",
+      "part": 1,
+      "kind": "original-timed-state",
+      "sourceSeconds": 616.375,
+      "outputSeconds": 17.276830792427063,
+      "sourceImage": "handoff/qa-moving-floor-historical/lower-backstop-test-1708x1016.png",
+      "sourceImageSha256": "aee834f090903234020e0b6baea47cb13cc738543e2a2dafdc61a9c2a6ec2426",
+      "outputImage": "handoff/qa-162/export-part1-lower-backstop-test.png",
+      "actualOutputFramePTS": 17.3,
+      "outputImageSha256": "25daf1b7e5af71f21fdeae0e0706e3da1b7d44bca8a8fbd3af51c506fea48933"
+    },
+    {
+      "state": "part1-WIN-export",
+      "part": 1,
+      "kind": "original-timed-state",
+      "sourceSeconds": 796.978333,
+      "outputSeconds": 19.97735738935853,
+      "sourceImage": "handoff/qa-moving-floor-historical/WIN-export-1708x1016.png",
+      "sourceImageSha256": "1279faf2be3b10cebaf5b87cb23d58dedabcd3e1d12124c48be813904562facf",
+      "outputImage": "handoff/qa-162/export-part1-WIN-export.png",
+      "actualOutputFramePTS": 20.0,
+      "outputImageSha256": "bc3cfdade481ce74090db51012d38dc7d1a552b2ae0244a520a15b0b703cf672"
+    },
+    {
+      "state": "part1-puzzle-pause",
+      "part": 1,
+      "kind": "original-timed-state",
+      "sourceSeconds": 809.581667,
+      "outputSeconds": 26.27902438935854,
+      "sourceImage": "handoff/qa-moving-floor-historical/puzzle-pause-1708x1016.png",
+      "sourceImageSha256": "a7e100a9e725103bf913a87778008edb4732c7a2082af5c65ed9da03c7650ebe",
+      "outputImage": "handoff/qa-162/export-part1-puzzle-pause.png",
+      "actualOutputFramePTS": 26.3,
+      "outputImageSha256": "b6b2d0f0d8954685788b389ae6b298eefb480750c9a91d3164c6837199742b4b"
+    },
+    {
+      "state": "part2-recovery-disclosure",
+      "kind": "independently-timed-disclosure",
+      "outputSeconds": 37.86666666666667,
+      "outputImage": "handoff/qa-162/export-part2-recovery-disclosure.png",
+      "actualOutputFramePTS": 37.866667,
+      "outputImageSha256": "913db5667cc0d94aadb419aa95944942715517fc3cd7b0e794e0eed89aa9dfb1"
+    },
+    {
+      "state": "part2-recovered-first",
+      "kind": "untimed-recovered-frame-sequence",
+      "recoveredFrameOrdinal": 0,
+      "sourceSeconds": null,
+      "outputSeconds": 40.86666666666667,
+      "sourceImage": "handoff/recovery-moving-floor-part2-2026-09-10/frame-001.jpg",
+      "sourceImageSha256": "8a0f077f6052b22e2b35c8a65100dbc20fba395fbb7e43c2d9b396185744e510",
+      "outputImage": "handoff/qa-162/export-part2-recovered-first.png",
+      "actualOutputFramePTS": 40.866667,
+      "outputImageSha256": "a02a23c558deaac3ddb167c0c963bd0f92834a63f955d847f215bfafbfe4dc69"
+    },
+    {
+      "state": "part2-recovered-middle",
+      "kind": "untimed-recovered-frame-sequence",
+      "recoveredFrameOrdinal": 2400,
+      "sourceSeconds": null,
+      "outputSeconds": 120.86665666666666,
+      "sourceImage": "handoff/recovery-moving-floor-part2-2026-09-10/frame-009.jpg",
+      "sourceImageSha256": "87d60e376e62210a54d740ea533401419be4d478e73e7888a956818a7bd1e941",
+      "outputImage": "handoff/qa-162/export-part2-recovered-middle.png",
+      "actualOutputFramePTS": 120.866667,
+      "outputImageSha256": "1e3b60f80f8801dfcc236ce34077bc36f9f0c128ee3e5d7d5f61400119be0402"
+    },
+    {
+      "state": "part2-recovered-last",
+      "kind": "untimed-recovered-frame-sequence",
+      "recoveredFrameOrdinal": 4543,
+      "sourceSeconds": null,
+      "outputSeconds": 192.29999,
+      "sourceImage": "handoff/recovery-moving-floor-part2-2026-09-10/frame-022.jpg",
+      "sourceImageSha256": "5c91280a27eeb5be64f8c78f0f122c6adfd69d330569fe6efadab5abd99c7b01",
+      "outputImage": "handoff/qa-162/export-part2-recovered-last.png",
+      "actualOutputFramePTS": 192.3,
+      "outputImageSha256": "bd2a8c193efc8fcf2c8d1efa687f44712220d4f7fc06711f5835f0e7e99676f3"
+    },
+    {
+      "state": "part2-missing-event-46",
+      "kind": "independently-timed-original-screenshot",
+      "outputSeconds": 194.83333333333334,
+      "sourceImage": "notes/moving-floor-part2-text-stop-passed.png",
+      "sourceImageSha256": "e5a2846d45969fcaa07d28e11e710778c57d2e6ef8b37b996a0107388f7d1ca8",
+      "outputImage": "handoff/qa-162/export-part2-missing-event-46.png",
+      "actualOutputFramePTS": 194.833333,
+      "outputImageSha256": "1cfab4d5cf52d9e5b2e91f73924c1835987ed57bdf39e327f60e2b434990f975"
+    },
+    {
+      "state": "part2-missing-event-47",
+      "kind": "independently-timed-original-screenshot",
+      "outputSeconds": 199.83333333333334,
+      "sourceImage": "notes/moving-floor-part2-text-stop-paused.png",
+      "sourceImageSha256": "2941711120c06fc3dc40562e808484eacab0ff48a52348d4260b1c3d9d5c31a7",
+      "outputImage": "handoff/qa-162/export-part2-missing-event-47.png",
+      "actualOutputFramePTS": 199.833333,
+      "outputImageSha256": "9f10e14adb4ad579f3778b5fce2870107988b14e73a393528cee4ab5ec27cdcd"
+    },
+    {
+      "state": "part3-recorded-resumes",
+      "kind": "independently-timed-disclosure",
+      "outputSeconds": 203.83333333333334,
+      "outputImage": "handoff/qa-162/export-part3-recorded-resumes.png",
+      "actualOutputFramePTS": 203.833333,
+      "outputImageSha256": "1b0bbdec0dec5d4242c7695c9429eff86b60c81fbb108b2c524ff1968be4f25c"
+    },
+    {
+      "state": "part3-fresh",
+      "part": 3,
+      "kind": "original-timed-state",
+      "sourceSeconds": 43.531667,
+      "outputSeconds": 215.65294953187308,
+      "sourceImage": "handoff/qa-162/source-part3-fresh-1708x1016.png",
+      "sourceImageSha256": "4c2c8a299496cd103b042b886808c26822e98429798466c0109bc4cc873a9580",
+      "outputImage": "handoff/qa-162/export-part3-fresh.png",
+      "actualOutputFramePTS": 215.666667,
+      "outputImageSha256": "99e957953aceee80b034ef7d27f202a3e3143c78e59065b6acd72ad17a2d7fbb"
+    },
+    {
+      "state": "part3-lower-WIN-moved",
+      "part": 3,
+      "kind": "original-timed-state",
+      "sourceSeconds": 91.286667,
+      "outputSeconds": 226.12992420332847,
+      "sourceImage": "handoff/qa-162/source-part3-lower-WIN-moved-1708x1016.png",
+      "sourceImageSha256": "62b874a05abe2f735cf8271b4a8791b35bd321cdfe2f5f55302c8bd05dcc41aa",
+      "outputImage": "handoff/qa-162/export-part3-lower-WIN-moved.png",
+      "actualOutputFramePTS": 226.133333,
+      "outputImageSha256": "4195732678b328d554533c53415c1c0948bee06664557cbe579ffbe5e0cca755"
+    },
+    {
+      "state": "part3-returned-left",
+      "part": 3,
+      "kind": "original-timed-state",
+      "sourceSeconds": 162.935,
+      "outputSeconds": 229.74658178170523,
+      "sourceImage": "handoff/qa-162/source-part3-returned-left-1708x1016.png",
+      "sourceImageSha256": "edd814c1b25348d1c1967ae9d18c9f7ac62c3dd764335871ad29ecf7d06bb5d4",
+      "outputImage": "handoff/qa-162/export-part3-returned-left.png",
+      "actualOutputFramePTS": 229.766667,
+      "outputImageSha256": "c06b6b8715d3c401672aa08500612f747cb3e03b99ad56ea40c7fb31fecbefa7"
+    },
+    {
+      "state": "part3-upper-pair-staged",
+      "part": 3,
+      "kind": "original-timed-state",
+      "sourceSeconds": 267.255,
+      "outputSeconds": 234.84081568559012,
+      "sourceImage": "handoff/qa-162/source-part3-upper-pair-staged-1708x1016.png",
+      "sourceImageSha256": "ff632d9bf99e18290358b878c8c2a22511df190d9dc2beda961bb173f0c9dbdc",
+      "outputImage": "handoff/qa-162/export-part3-upper-pair-staged.png",
+      "actualOutputFramePTS": 234.866667,
+      "outputImageSha256": "c6f7cd31cb06d4e3bb63065705c8c3f1df23430fa2973b9e6a20542126f98a90"
+    },
+    {
+      "state": "part3-upper-stop",
+      "part": 3,
+      "kind": "original-timed-state",
+      "sourceSeconds": 294.851667,
+      "outputSeconds": 237.18923067706046,
+      "sourceImage": "handoff/qa-162/source-part3-upper-stop-1708x1016.png",
+      "sourceImageSha256": "33f878d1b715e62d5e56bcbeec96031a7cbe3844a31329e06dbfca86ce245cbd",
+      "outputImage": "handoff/qa-162/export-part3-upper-stop.png",
+      "actualOutputFramePTS": 237.2,
+      "outputImageSha256": "74bc8c4dcbcdbabee206b2611d86c4a60f5709c39af8ccc7bde3ce9e406aec78"
+    },
+    {
+      "state": "part3-middle-launch",
+      "part": 3,
+      "kind": "original-timed-state",
+      "sourceSeconds": 305.938333,
+      "outputSeconds": 240.79053372405752,
+      "sourceImage": "handoff/qa-162/source-part3-middle-launch-1708x1016.png",
+      "sourceImageSha256": "a85fc0b8cb2134ce6837573707a23c871b59c4d6d7d6408d2e83bbb7b07885b5",
+      "outputImage": "handoff/qa-162/export-part3-middle-launch.png",
+      "actualOutputFramePTS": 240.8,
+      "outputImageSha256": "bdb685881873def06982f60a3fd8d2b77dcb2b9d7d60f8cc58b7965db5ed2776"
+    },
+    {
+      "state": "part3-both-stops",
+      "part": 3,
+      "kind": "original-timed-state",
+      "sourceSeconds": 331.373333,
+      "outputSeconds": 244.2004066421865,
+      "sourceImage": "handoff/qa-162/source-part3-both-stops-1708x1016.png",
+      "sourceImageSha256": "dcceac5a6741fea03efda5accdcc0d4d3107268bc7b3e178782e8d9f45bc58e8",
+      "outputImage": "handoff/qa-162/export-part3-both-stops.png",
+      "actualOutputFramePTS": 244.233333,
+      "outputImageSha256": "6973049507a3a4d46da726287e72ec0bd7fd9e4ae1c218b6ab87b1d5fda79514"
+    },
+    {
+      "state": "part3-upper-belt-held",
+      "part": 3,
+      "kind": "original-timed-state",
+      "sourceSeconds": 337.705,
+      "outputSeconds": 245.4012855275472,
+      "sourceImage": "handoff/qa-162/source-part3-upper-belt-held-1708x1016.png",
+      "sourceImageSha256": "9c2a56b26574be6570b1e6491a0f78fe54803514e10e48ab94ae19a2f9c9522c",
+      "outputImage": "handoff/qa-162/export-part3-upper-belt-held.png",
+      "actualOutputFramePTS": 245.433333,
+      "outputImageSha256": "fced6ba2e793b0e6193d67163fb96ba341817e7d5a7278e7595dabb18367f50e"
+    },
+    {
+      "state": "part3-middle-belt-held",
+      "part": 3,
+      "kind": "original-timed-state",
+      "sourceSeconds": 359.641667,
+      "outputSeconds": 247.18493093626913,
+      "sourceImage": "handoff/qa-162/source-part3-middle-belt-held-1708x1016.png",
+      "sourceImageSha256": "7a73302be1289feb01405a3f68556e8cd6d64410a09c69634402e04ffae00f8c",
+      "outputImage": "handoff/qa-162/export-part3-middle-belt-held.png",
+      "actualOutputFramePTS": 247.2,
+      "outputImageSha256": "791d2af2e45a0612006a7794d211ad702c08d70787652c14c49886bac057b83e"
+    },
+    {
+      "state": "part3-above-WIN",
+      "part": 3,
+      "kind": "original-timed-state",
+      "sourceSeconds": 366.648333,
+      "outputSeconds": 248.79772798560842,
+      "sourceImage": "handoff/qa-162/source-part3-above-WIN-1708x1016.png",
+      "sourceImageSha256": "7a8f202efeedf80abc7fc658130628b9dcb328fbbdbbf0c170c05f23d7b09f8f",
+      "outputImage": "handoff/qa-162/export-part3-above-WIN.png",
+      "actualOutputFramePTS": 248.8,
+      "outputImageSha256": "ab320c9dff3a3752199628d087bed5ee0874498db5e1ff3bca9dea52e39aebc4"
+    },
+    {
+      "state": "part3-BABA-IS-WIN",
+      "part": 3,
+      "kind": "original-timed-state",
+      "sourceSeconds": 405.408333,
+      "outputSeconds": 255.32940845512138,
+      "sourceImage": "handoff/qa-162/source-part3-BABA-IS-WIN-1708x1016.png",
+      "sourceImageSha256": "4edf25118f70dba810776534ad9f5f36a1750b534dd1889bfda139cf1eb19511",
+      "outputImage": "handoff/qa-162/export-part3-BABA-IS-WIN.png",
+      "actualOutputFramePTS": 255.333333,
+      "outputImageSha256": "7c1cd7fd6e672a6e1b2f8b17649c1600f4b6bc34a081e9c59eb98237a863cb65"
+    },
+    {
+      "state": "part3-victory",
+      "part": 3,
+      "kind": "original-timed-state",
+      "sourceSeconds": 437.59,
+      "outputSeconds": 271.42024195512136,
+      "sourceImage": "handoff/qa-162/source-part3-victory-1708x1016.png",
+      "sourceImageSha256": "630e53654e37e555492afc8e98721b2b6c4c0340881b4e156306539f3f7b4688",
+      "outputImage": "handoff/qa-162/export-part3-victory.png",
+      "actualOutputFramePTS": 271.433333,
+      "outputImageSha256": "ffb5ef6d12a8c27d523311e9e79daa89c36b53be42841305bd779afb5fc5247c"
+    },
+    {
+      "state": "part3-settled-162-pause",
+      "part": 3,
+      "kind": "original-timed-state",
+      "sourceSeconds": 439.641667,
+      "outputSeconds": 272.44607545512133,
+      "sourceImage": "handoff/qa-162/source-part3-settled-162-pause-1708x1016.png",
+      "sourceImageSha256": "4af4d12c36c2202f8214df3a4528c07cd1ba0ff2f141601b60dd71e26c170a04",
+      "outputImage": "handoff/qa-162/export-part3-settled-162-pause.png",
+      "actualOutputFramePTS": 272.466667,
+      "outputImageSha256": "b2cb7219e5950b09a4b3a9f6f2f462b7bdf5b056d385d4b05239c3687bd0119f"
+    }
+  ],
+  "representativePosterSeconds": 255.32940845512138
+}

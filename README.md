@@ -28,6 +28,36 @@ entry for every published recording. Missing data displays “unavailable”, ne
 invented duration. Source statistics and original evidence remain in the playthrough
 handoff; the public data retains the exact allocations needed to extend the totals.
 
+Version1 also accepts an optional `unknownDurationAllocations` array when an
+original capture's timestamps cannot be recovered. In that case `capturedSeconds`
+is only the sum of the ordinary timed `allocations` (zero is allowed if none are
+timed), and `originalCaptureCount` counts both arrays. The page calls this a
+**known-duration subtotal**, gives the number of originals with unknown duration,
+and excludes their time from both entry and collection subtotals. Never use an
+input-log span or a nominal-rate recovery video's duration as captured seconds.
+
+Every unknown-duration allocation is a whole, exclusively assigned original,
+with `sourceSha256`, explicit `sourceSecondsWindow: null`, positive exact
+`originalBytes`, `sourceName`, `provenance`, `durationUnknownReason`,
+`originalTimestampsAvailable: false`, positive `recoveredFrameCount`, and
+`recoveredFrameIndexWindowInclusive: [0, recoveredFrameCount - 1]`. It must also
+retain sorted unique `knownMissingInputNumbers`, a boolean
+`missingInputCountIsExhaustive`, and `evidence: {path, sha256}` identifying the
+preserved source/recovery audit. The build validates this evidence declaration;
+the audit files remain in the playthrough handoff and are verified during source
+QA. Unknown originals cannot also appear in another timed or untimed allocation,
+because no original-time partition establishes disjointness. Recovered frames
+and inspection/export derivatives never add original bytes or capture counts.
+
+Timed allocations may also carry exact full-file `originalBytes`. An optional
+record-level `originalBytes` requires a byte count for every original and must
+equal their sum; these are whole original file sizes, never proportional estimates
+for a time window. Shared timed originals must agree on file size and still have
+disjoint time windows. Unknown-duration entries with this total show their exact
+original byte count. Keep `knownMissingInputs` at least as large as the known
+missing event lists; when those lists are non-exhaustive, the visible gap count is
+labelled “At least” and the remaining input coverage stays explicitly uncertified.
+
 ### Archived published media
 
 Already verified MP4s may be absent from these sparse local checkouts.

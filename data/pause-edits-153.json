@@ -1,0 +1,323 @@
+{
+  "source": "153.mov",
+  "sha256": "a7ea2ecb0444b33cde50b6c708a415bf2520762c01208afe2a8ae813563bb8c4",
+  "sourceSeconds": 415.375,
+  "keptIntervals": [
+    [
+      0,
+      2.917297840118408
+    ],
+    [
+      12.542436122894287,
+      31.549242973327637
+    ],
+    [
+      45.969637870788574,
+      51.432498931884766
+    ],
+    [
+      63.65364694595337,
+      66.04840517044067
+    ],
+    [
+      78.64650964736938,
+      84.11250495910645
+    ],
+    [
+      98.29694509506226,
+      100.69131994247437
+    ],
+    [
+      105.16272115707397,
+      110.59803819656372
+    ],
+    [
+      126.91982316970825,
+      131.58757305145264
+    ],
+    [
+      136.08898973464966,
+      141.55320119857788
+    ],
+    [
+      156.37172508239746,
+      161.12358283996582
+    ],
+    [
+      172.82378673553467,
+      181.31697177886963
+    ],
+    [
+      203.22039985656738,
+      212.0635979974823
+    ],
+    [
+      214.09552192687988,
+      216.49039602279663
+    ],
+    [
+      231.31145000457764,
+      242.13107633590698
+    ],
+    [
+      259.0312271118164,
+      269.08715534210205
+    ],
+    [
+      291.35718536376953,
+      304.25807708740234
+    ],
+    [
+      307.1099901199341,
+      311.15561962127686
+    ],
+    [
+      323.02339267730713,
+      331.5833168029785
+    ],
+    [
+      346.31476879119873,
+      354.0841941833496
+    ],
+    [
+      366.5039258003235,
+      379.03915882473757
+    ],
+    [
+      385.66540479660034,
+      415.375
+    ]
+  ],
+  "playbackSpeed": 2,
+  "sourceRetainedSeconds": 174.08874109040835,
+  "expectedOutputSeconds": 87.04437054520417,
+  "outputSeconds": 87.0,
+  "inputCount": 116,
+  "policy": "Preserve every chronological captured input, blocked move, attempt and observed victory. Remove only idle gaps between padded action spans0.75seconds before and1.5seconds after; retain the winning-input-to-final-pause capture suffix in full. Encode2x, silent, no replay/gap replacements or invented motion.",
+  "crop": "1680:960:14:56",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 23
+  },
+  "category": "completed-level",
+  "sequence": 153,
+  "countsAsCompletedLevel": true,
+  "recordedInputCount": 116,
+  "loggedInputCount": 116,
+  "uncapturedInputs": [],
+  "outputSha256": "9ed38a842a35891eb56c229849f9808b04b8708ec1f0caeec78c232c27e5a0d6",
+  "sourceParts": [
+    {
+      "source": "scale-part1.mov",
+      "sha256": "494b2eb15e0cf9db1058d35f73983c9cd0f2a1d65e26f4930f0151b8bca990c2",
+      "sourceSeconds": 29.37,
+      "joinedStart": 0,
+      "inputCount": 3,
+      "recordedInputCount": 3
+    },
+    {
+      "source": "scale-part2.mov",
+      "sha256": "2c55effeb8defd051ebf7713279ba3cf17ddd5d786d3da86eff89f322aad1891",
+      "sourceSeconds": 6.775,
+      "joinedStart": 29.37,
+      "inputCount": 1,
+      "recordedInputCount": 1
+    },
+    {
+      "source": "scale-part3.mov",
+      "sha256": "4ce44aede58c9ea644816a42ecf93a4efad97b667c672c560236f95ef08edb32",
+      "sourceSeconds": 42.741667,
+      "joinedStart": 36.145,
+      "inputCount": 6,
+      "recordedInputCount": 6
+    },
+    {
+      "source": "scale-part4.mov",
+      "sha256": "866662f20e5fe27667599edc509189f9dacc2f27f5f47951a18966db35c0e5a7",
+      "sourceSeconds": 26.503333,
+      "joinedStart": 78.886667,
+      "inputCount": 6,
+      "recordedInputCount": 6
+    },
+    {
+      "source": "scale-part5.mov",
+      "sha256": "8dc4c397244fcd49d4c0bb3fda6b8eab4e601ddb45392be91901a03de49368f0",
+      "sourceSeconds": 30.918333,
+      "joinedStart": 105.39,
+      "inputCount": 9,
+      "recordedInputCount": 9
+    },
+    {
+      "source": "scale-part6.mov",
+      "sha256": "dabf6adada544d9b156f770f40d2adcbc82081c41a25a38e44ce5cb261bd19e0",
+      "sourceSeconds": 78.006667,
+      "joinedStart": 136.308333,
+      "inputCount": 24,
+      "recordedInputCount": 24
+    },
+    {
+      "source": "scale-part7.mov",
+      "sha256": "1b267b5fc299841560d0c2b3239a3a18a5c990430856fa1aaed5f2f7cf50dae6",
+      "sourceSeconds": 93.038333,
+      "joinedStart": 214.315,
+      "inputCount": 36,
+      "recordedInputCount": 36
+    },
+    {
+      "source": "scale-part8.mov",
+      "sha256": "3746bd1e4d8becfa2e83c1b38e2f7f20060f62741a3dc015f18e5df52c363500",
+      "sourceSeconds": 108.026667,
+      "joinedStart": 307.353333,
+      "inputCount": 31,
+      "recordedInputCount": 31
+    }
+  ],
+  "sourceAssignment": "Completion153 Scale exclusively uses eight original scale-part1..8 families in chronology. Full disjoint source windows are assigned once, including navigation, differential blocked movement, rule construction, Baba sacrifice and victory. All originals and sidecars remain retained.",
+  "scope": "BABA IS PUSH plus NOT ROCK IS NOT YOU left only Rock controlled and preserved the upper NOT LONELY FLAG IS WIN. Rock pushed Baba into WATER IS SINK, then reached the flag after the water disappeared. Settled map pause confirms153/nine flowers.",
+  "rawCapturedSeconds": 415.38,
+  "rawOriginalBytes": 72560828,
+  "originalCaptureCount": 8,
+  "sourceInventoryFiles": [
+    "source-inventory.json"
+  ],
+  "criticalSeeks": [
+    {
+      "state": "initial-board",
+      "part": 2,
+      "partSourceSeconds": 0.2,
+      "sourceSeconds": 29.57,
+      "outputSeconds": 9.97243085861206,
+      "frame": "export-initial-board-full.png"
+    },
+    {
+      "state": "differential-DOWN",
+      "part": 3,
+      "partSourceSeconds": 12.607319927215576,
+      "sourceSeconds": 48.75231992721558,
+      "outputSeconds": 12.353393373489382,
+      "frame": "export-differential-DOWN-full.png"
+    },
+    {
+      "state": "BABA-control-broken",
+      "part": 3,
+      "partSourceSeconds": 28.75340518951416,
+      "sourceSeconds": 64.89840518951416,
+      "outputSeconds": 14.315861997604372,
+      "frame": "export-BABA-control-broken-full.png"
+    },
+    {
+      "state": "ROCK-word-Baba-overlap",
+      "part": 6,
+      "partSourceSeconds": 23.66524991989136,
+      "sourceSeconds": 159.97358291989136,
+      "outputSeconds": 28.405615178970336,
+      "frame": "export-ROCK-word-Baba-overlap-full.png"
+    },
+    {
+      "state": "nouns-separated",
+      "part": 6,
+      "partSourceSeconds": 43.85863885879517,
+      "sourceSeconds": 180.16697185879516,
+      "outputSeconds": 32.65220770063782,
+      "frame": "export-nouns-separated-full.png"
+    },
+    {
+      "state": "BABA-IS-PUSH",
+      "part": 6,
+      "partSourceSeconds": 72.1052649974823,
+      "sourceSeconds": 208.4135979974823,
+      "outputSeconds": 35.82380673113251,
+      "frame": "export-BABA-IS-PUSH-full.png"
+    },
+    {
+      "state": "Rock-leaves-Baba",
+      "part": 7,
+      "partSourceSeconds": 1.025395965576172,
+      "sourceSeconds": 215.34039596557616,
+      "outputSeconds": 38.27124375048065,
+      "frame": "export-Rock-leaves-Baba-full.png"
+    },
+    {
+      "state": "only-Rock-rules",
+      "part": 7,
+      "partSourceSeconds": 86.29307708740234,
+      "sourceSeconds": 300.6080770874023,
+      "outputSeconds": 53.90946692171477,
+      "frame": "export-only-Rock-rules-full.png"
+    },
+    {
+      "state": "only-Rock-pause",
+      "part": 7,
+      "partSourceSeconds": 92.905,
+      "sourceSeconds": 307.22,
+      "outputSeconds": 55.78947186174776,
+      "frame": "export-only-Rock-pause-full.png"
+    },
+    {
+      "state": "skull-frozen",
+      "part": 8,
+      "partSourceSeconds": 2.6522868633270265,
+      "sourceSeconds": 310.00561986332707,
+      "outputSeconds": 57.18228179341128,
+      "frame": "export-skull-frozen-full.png"
+    },
+    {
+      "state": "Baba-at-opening",
+      "part": 8,
+      "partSourceSeconds": 23.07998380661011,
+      "sourceSeconds": 330.43331680661015,
+      "outputSeconds": 61.46224373703768,
+      "frame": "export-Baba-at-opening-full.png"
+    },
+    {
+      "state": "Baba-beside-water",
+      "part": 8,
+      "partSourceSeconds": 45.58086094856262,
+      "sourceSeconds": 352.93419394856267,
+      "outputSeconds": 65.34695631390383,
+      "frame": "export-Baba-beside-water-full.png"
+    },
+    {
+      "state": "before-Baba-sacrifice",
+      "part": 8,
+      "partSourceSeconds": 61.29370403289795,
+      "sourceSeconds": 368.64703703289797,
+      "outputSeconds": 66.99351204758455,
+      "frame": "export-before-Baba-sacrifice-full.png"
+    },
+    {
+      "state": "Baba-water-sink",
+      "part": 8,
+      "partSourceSeconds": 62.03582582473755,
+      "sourceSeconds": 369.3891588247376,
+      "outputSeconds": 67.36457294350436,
+      "frame": "export-Baba-water-sink-full.png"
+    },
+    {
+      "state": "flag-contact-win",
+      "part": 8,
+      "partSourceSeconds": 84.00116596221923,
+      "sourceSeconds": 391.3544989622193,
+      "outputSeconds": 75.03412002631381,
+      "frame": "export-flag-contact-win-full.png"
+    },
+    {
+      "state": "returned-map",
+      "part": 8,
+      "partSourceSeconds": 91.90116596221924,
+      "sourceSeconds": 399.25449896221926,
+      "outputSeconds": 78.9841200263138,
+      "frame": "export-returned-map-full.png"
+    },
+    {
+      "state": "final-pause-153",
+      "part": 8,
+      "partSourceSeconds": 107.89333300000001,
+      "sourceSeconds": 415.246666,
+      "outputSeconds": 86.96666666666667,
+      "frame": "export-final-pause-153-full.png"
+    }
+  ],
+  "representativePosterSeconds": 53.90946692171477
+}

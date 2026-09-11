@@ -4568,6 +4568,277 @@
           ]
         }
       ]
+    },
+    {
+      "id": "level-151",
+      "capturedSeconds": 1110.616666,
+      "originalCaptureCount": 7,
+      "knownMissingInputs": 0,
+      "allocations": [
+        {
+          "sourceSha256": "03eeae8a80c7734f9df34915e18024327f29a122b90f03be4957644f6d738deb",
+          "sourceSecondsWindow": [
+            0,
+            47.163333
+          ]
+        },
+        {
+          "sourceSha256": "059cc0e261118ec7c64029a7e1714eef5a814ed81846065b565edb3db9e94c23",
+          "sourceSecondsWindow": [
+            0,
+            73.028333
+          ]
+        },
+        {
+          "sourceSha256": "5be5705555f3e7a94030c344611a46d10e5d2d9d9ac9d11aba1ed81c850dd2ca",
+          "sourceSecondsWindow": [
+            0,
+            240.66
+          ]
+        },
+        {
+          "sourceSha256": "e572d98d35aeff854b5a4845cb61ada428a62f3e296d1394a2fccf9de9c572e7",
+          "sourceSecondsWindow": [
+            0,
+            436.506667
+          ]
+        },
+        {
+          "sourceSha256": "6544965cce20fe297a9e743fbfca0beb3f27abba4234e06075ea7b3e7c66a4c4",
+          "sourceSecondsWindow": [
+            0,
+            150.988333
+          ]
+        },
+        {
+          "sourceSha256": "835cb3078403dba0e80f285d0dcb2010509518bc49cdc8615c6c9431e97e7468",
+          "sourceSecondsWindow": [
+            0,
+            92.841667
+          ]
+        },
+        {
+          "sourceSha256": "1f732a14019f7e73fd04f3a1659c0222cd4d5e92910748252db14115c60dafee",
+          "sourceSecondsWindow": [
+            0,
+            69.428333
+          ]
+        }
+      ]
+    },
+    {
+      "id": "level-152",
+      "capturedSeconds": 221.465,
+      "originalCaptureCount": 3,
+      "knownMissingInputs": 0,
+      "allocations": [
+        {
+          "sourceSha256": "efabb05281f4f4fb033ba01ab3ecb089a74bfaf3172f1a1af84feef5d1cc818a",
+          "sourceSecondsWindow": [
+            0,
+            22.965
+          ]
+        },
+        {
+          "sourceSha256": "8800e0fb29da9c99e3304f97557de328361cb74b569cb12bbd554892b301bae7",
+          "sourceSecondsWindow": [
+            0,
+            83.68
+          ]
+        },
+        {
+          "sourceSha256": "4f7975fcb1abbc2d2cd439f809b9cfe78d1fe761a137bd6c57d4c0cd76878b9c",
+          "sourceSecondsWindow": [
+            0,
+            114.82
+          ]
+        }
+      ]
+    },
+    {
+      "id": "level-153",
+      "capturedSeconds": 415.38,
+      "originalCaptureCount": 8,
+      "knownMissingInputs": 0,
+      "allocations": [
+        {
+          "sourceSha256": "494b2eb15e0cf9db1058d35f73983c9cd0f2a1d65e26f4930f0151b8bca990c2",
+          "sourceSecondsWindow": [
+            0,
+            29.37
+          ]
+        },
+        {
+          "sourceSha256": "2c55effeb8defd051ebf7713279ba3cf17ddd5d786d3da86eff89f322aad1891",
+          "sourceSecondsWindow": [
+            0,
+            6.775
+          ]
+        },
+        {
+          "sourceSha256": "4ce44aede58c9ea644816a42ecf93a4efad97b667c672c560236f95ef08edb32",
+          "sourceSecondsWindow": [
+            0,
+            42.741667
+          ]
+        },
+        {
+          "sourceSha256": "866662f20e5fe27667599edc509189f9dacc2f27f5f47951a18966db35c0e5a7",
+          "sourceSecondsWindow": [
+            0,
+            26.503333
+          ]
+        },
+        {
+          "sourceSha256": "8dc4c397244fcd49d4c0bb3fda6b8eab4e601ddb45392be91901a03de49368f0",
+          "sourceSecondsWindow": [
+            0,
+            30.918333
+          ]
+        },
+        {
+          "sourceSha256": "dabf6adada544d9b156f770f40d2adcbc82081c41a25a38e44ce5cb261bd19e0",
+          "sourceSecondsWindow": [
+            0,
+            78.006667
+          ]
+        },
+        {
+          "sourceSha256": "1b267b5fc299841560d0c2b3239a3a18a5c990430856fa1aaed5f2f7cf50dae6",
+          "sourceSecondsWindow": [
+            0,
+            93.038333
+          ]
+        },
+        {
+          "sourceSha256": "3746bd1e4d8becfa2e83c1b38e2f7f20060f62741a3dc015f18e5df52c363500",
+          "sourceSecondsWindow": [
+            0,
+            108.026667
+          ]
+        }
+      ]
+    },
+    {
+      "id": "level-154",
+      "capturedSeconds": 331.723333,
+      "originalCaptureCount": 4,
+      "knownMissingInputs": 0,
+      "allocations": [
+        {
+          "sourceSha256": "5a2f160ce4056d3e12197a949232bab3187a08f221c252ea6c7a8fca397ebfa1",
+          "sourceSecondsWindow": [
+            0,
+            27.985
+          ]
+        },
+        {
+          "sourceSha256": "e3b327b0968647c479e9b832f019d2ed481df18262c0498481099daa9d4adb1b",
+          "sourceSecondsWindow": [
+            0,
+            6.948333
+          ]
+        },
+        {
+          "sourceSha256": "32a85a7f84e4041b4842706320f299f8f76133c1d24234445e5e3ae259a30085",
+          "sourceSecondsWindow": [
+            0,
+            123.136667
+          ]
+        },
+        {
+          "sourceSha256": "afe51df63a484c018607fe25cd03dadd18eac7f188c6055427d15207346fd691",
+          "sourceSecondsWindow": [
+            0,
+            173.653333
+          ]
+        }
+      ]
+    },
+    {
+      "id": "level-155",
+      "capturedSeconds": 571.975001,
+      "originalCaptureCount": 11,
+      "knownMissingInputs": 0,
+      "allocations": [
+        {
+          "sourceSha256": "5e392b61b4c68a3e7f9bdfaed42fe46a2e705c1864d6bb7a8726d94b592468a1",
+          "sourceSecondsWindow": [
+            0,
+            29.131667
+          ]
+        },
+        {
+          "sourceSha256": "beda665e6b3ae23d277fd868c514768de66656f9120681cf0039cf7120844cad",
+          "sourceSecondsWindow": [
+            0,
+            6.875
+          ]
+        },
+        {
+          "sourceSha256": "5b502e4b0d22202ed0c4252b7d6c11ee188c6f27e8a8da00dfec0a29423323ec",
+          "sourceSecondsWindow": [
+            0,
+            65.806667
+          ]
+        },
+        {
+          "sourceSha256": "4f9bfa2a56aa9ee3fb526c8206eb6adf5f3f18b07dbe20e13298868a46629b88",
+          "sourceSecondsWindow": [
+            0,
+            40.071667
+          ]
+        },
+        {
+          "sourceSha256": "c7d0506ead64330d0a8a880325f3d35f6529f3ae4ee0dd62e83ccc7c8f9a7c40",
+          "sourceSecondsWindow": [
+            0,
+            50.946667
+          ]
+        },
+        {
+          "sourceSha256": "80eff30dbb9ef0c0ff38e4bee415405e7070db0d23c5b1a1a0097174c042e353",
+          "sourceSecondsWindow": [
+            0,
+            53.531667
+          ]
+        },
+        {
+          "sourceSha256": "b2b424842474c1a1d971c917a3029ab99b6b7947454ff6f9f55be84b6d2f5c3d",
+          "sourceSecondsWindow": [
+            0,
+            56.821667
+          ]
+        },
+        {
+          "sourceSha256": "0e20e3cb2a3c4330155911f7b24097210b57a367778cc0006fb71d49302b6789",
+          "sourceSecondsWindow": [
+            0,
+            66.19
+          ]
+        },
+        {
+          "sourceSha256": "1629a3dcc93eb99e7394ae6e3a6019a23bd99a4fd8569377048f2a5aa8204f05",
+          "sourceSecondsWindow": [
+            0,
+            19.763333
+          ]
+        },
+        {
+          "sourceSha256": "9c1932dd0772196aa3535176a05315274444fec9ba2acfbdec35d9e0fb828912",
+          "sourceSecondsWindow": [
+            0,
+            82.768333
+          ]
+        },
+        {
+          "sourceSha256": "49e929b04d448c8bd14809d2700f9a27fd309c951a494239980450b7c0d776b0",
+          "sourceSecondsWindow": [
+            0,
+            100.068333
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,247 @@
+{
+  "source": "154.mov",
+  "sha256": "a35cef9b9455abfb951c3e5da70b74102a2d985ecae05608fee9e1cbc0eea4f1",
+  "sourceSeconds": 331.696667,
+  "keptIntervals": [
+    [
+      0,
+      3.650472640991211
+    ],
+    [
+      20.897998809814453,
+      30.162086725234985
+    ],
+    [
+      34.72141695022583,
+      45.47152614593506
+    ],
+    [
+      58.06295585632324,
+      60.46315002441406
+    ],
+    [
+      82.51433897018433,
+      86.4180908203125
+    ],
+    [
+      101.97549708729554,
+      106.87747295742798
+    ],
+    [
+      156.81606578826904,
+      166.64193493843078
+    ],
+    [
+      177.08571314811707,
+      183.3235809803009
+    ],
+    [
+      196.36068320274353,
+      206.83405566215515
+    ],
+    [
+      220.8804862499237,
+      229.43357825279236
+    ],
+    [
+      242.65660452842712,
+      245.90071272850037
+    ],
+    [
+      267.9557902812958,
+      275.7396161556244
+    ],
+    [
+      287.58424496650696,
+      292.4839268398285
+    ],
+    [
+      305.01041293144226,
+      331.696667
+    ]
+  ],
+  "playbackSpeed": 2,
+  "sourceRetainedSeconds": 112.57466310137937,
+  "expectedOutputSeconds": 56.287331550689686,
+  "outputSeconds": 56.333333,
+  "inputCount": 70,
+  "policy": "Preserve every chronological captured input, blocked move, attempt and observed victory. Remove only idle gaps between padded action spans0.75seconds before and1.5seconds after; retain the winning-input-to-final-pause capture suffix in full. Encode2x, silent, no replay/gap replacements or invented motion.",
+  "crop": "1680:960:14:56",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 23
+  },
+  "category": "completed-level",
+  "sequence": 154,
+  "countsAsCompletedLevel": true,
+  "recordedInputCount": 70,
+  "loggedInputCount": 70,
+  "uncapturedInputs": [],
+  "outputSha256": "89eeedf23043e76b64b4fc82a25b23c641becae61ee86db807e709c6ffe53903",
+  "sourceParts": [
+    {
+      "source": "fireplace-part1.mov",
+      "sha256": "5a2f160ce4056d3e12197a949232bab3187a08f221c252ea6c7a8fca397ebfa1",
+      "sourceSeconds": 27.985,
+      "joinedStart": 0,
+      "inputCount": 4,
+      "recordedInputCount": 4
+    },
+    {
+      "source": "fireplace-part2.mov",
+      "sha256": "e3b327b0968647c479e9b832f019d2ed481df18262c0498481099daa9d4adb1b",
+      "sourceSeconds": 6.948333,
+      "joinedStart": 27.985,
+      "inputCount": 1,
+      "recordedInputCount": 1
+    },
+    {
+      "source": "fireplace-part3.mov",
+      "sha256": "32a85a7f84e4041b4842706320f299f8f76133c1d24234445e5e3ae259a30085",
+      "sourceSeconds": 123.136667,
+      "joinedStart": 34.933333,
+      "inputCount": 18,
+      "recordedInputCount": 18
+    },
+    {
+      "source": "fireplace-part4.mov",
+      "sha256": "afe51df63a484c018607fe25cd03dadd18eac7f188c6055427d15207346fd691",
+      "sourceSeconds": 173.653333,
+      "joinedStart": 158.07,
+      "inputCount": 47,
+      "recordedInputCount": 47
+    }
+  ],
+  "sourceAssignment": "Completion154 Fireplace exclusively uses original fireplace-part1..4 in chronological order, including map navigation/entry, the failed first converter, all four waits and five undos, the successful ten held DOWN turns, victory and final pause. Each full captured source window is allocated once; all originals and sidecars remain retained.",
+  "scope": "The first free-running skull conversion disturbed the rock row and let the ghost push WIN left, so the intended lift failed. After five undos and word rearrangement, direct Baba/SWAP contact held the inner skull in place for ten DOWN inputs while the outer skull descended. Its tenth move swapped WIN upward to complete FLAG IS WIN. Actual flag contact won; the settled pause confirms154/nine flowers.",
+  "rawCapturedSeconds": 331.723333,
+  "rawOriginalBytes": 47730784,
+  "originalCaptureCount": 4,
+  "sourceInventoryFiles": [
+    "source-inventory.json"
+  ],
+  "criticalSeeks": [
+    {
+      "state": "entry-settled",
+      "part": 1,
+      "partSourceSeconds": 27.851667,
+      "sourceSeconds": 27.851667,
+      "outputSeconds": 5.302070415588378,
+      "frame": "export-entry-settled-full.png"
+    },
+    {
+      "state": "fresh-rules",
+      "part": 2,
+      "partSourceSeconds": 6.813333,
+      "sourceSeconds": 34.798333,
+      "outputSeconds": 6.495738303092956,
+      "frame": "export-fresh-rules-full.png"
+    },
+    {
+      "state": "first-conversion",
+      "part": 3,
+      "partSourceSeconds": 24.3798171043396,
+      "sourceSeconds": 59.3131501043396,
+      "outputSeconds": 12.457432000068664,
+      "frame": "export-first-conversion-full.png"
+    },
+    {
+      "state": "first-three-waits",
+      "part": 3,
+      "partSourceSeconds": 50.33475813865662,
+      "sourceSeconds": 85.26809113865662,
+      "outputSeconds": 14.40930804434204,
+      "frame": "export-first-three-waits-full.png"
+    },
+    {
+      "state": "failed-fourth-wait",
+      "part": 3,
+      "partSourceSeconds": 68.29413995742797,
+      "sourceSeconds": 103.22747295742798,
+      "outputSeconds": 15.610295820236203,
+      "frame": "export-failed-fourth-wait-full.png"
+    },
+    {
+      "state": "five-undos-restored",
+      "part": 4,
+      "partSourceSeconds": 4.921934938430786,
+      "sourceSeconds": 162.99193493843077,
+      "outputSeconds": 20.52323039531707,
+      "frame": "export-five-undos-restored-full.png"
+    },
+    {
+      "state": "before-hold-conversion",
+      "part": 4,
+      "partSourceSeconds": 85.0866048336029,
+      "sourceSeconds": 243.1566048336029,
+      "outputSeconds": 35.23039669513702,
+      "frame": "export-before-hold-conversion-full.png"
+    },
+    {
+      "state": "hold-conversion",
+      "part": 4,
+      "partSourceSeconds": 85.58010087013244,
+      "sourceSeconds": 243.65010087013243,
+      "outputSeconds": 35.477144713401785,
+      "frame": "export-hold-conversion-full.png"
+    },
+    {
+      "state": "first-held-DOWN",
+      "part": 4,
+      "partSourceSeconds": 86.68071303367614,
+      "sourceSeconds": 244.75071303367613,
+      "outputSeconds": 36.027450795173635,
+      "frame": "export-first-held-DOWN-full.png"
+    },
+    {
+      "state": "ninth-held-DOWN",
+      "part": 4,
+      "partSourceSeconds": 116.519615983963,
+      "sourceSeconds": 274.589615983963,
+      "outputSeconds": 39.91936349391935,
+      "frame": "export-ninth-held-DOWN-full.png"
+    },
+    {
+      "state": "tenth-held-DOWN-WIN-lifted",
+      "part": 4,
+      "partSourceSeconds": 130.76392683982849,
+      "sourceSeconds": 288.83392683982845,
+      "outputSeconds": 41.119204516410804,
+      "frame": "export-tenth-held-DOWN-WIN-lifted-full.png"
+    },
+    {
+      "state": "before-flag-contact",
+      "part": 4,
+      "partSourceSeconds": 149.1639449596405,
+      "sourceSeconds": 307.2339449596405,
+      "outputSeconds": 44.05597053050994,
+      "frame": "export-before-flag-contact-full.png"
+    },
+    {
+      "state": "winning-contact",
+      "part": 4,
+      "partSourceSeconds": 149.70983996391297,
+      "sourceSeconds": 307.779839963913,
+      "outputSeconds": 44.328918032646186,
+      "frame": "export-winning-contact-full.png"
+    },
+    {
+      "state": "returned-map",
+      "part": 4,
+      "partSourceSeconds": 159.55983996391296,
+      "sourceSeconds": 317.62983996391296,
+      "outputSeconds": 49.25391803264617,
+      "frame": "export-returned-map-full.png"
+    },
+    {
+      "state": "final-pause-154",
+      "part": 4,
+      "partSourceSeconds": 173.518333,
+      "sourceSeconds": 331.58833300000003,
+      "outputSeconds": 56.23316455068971,
+      "frame": "export-final-pause-154-full.png"
+    }
+  ],
+  "representativePosterSeconds": 41.119204516410804
+}

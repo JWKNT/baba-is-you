@@ -2548,5 +2548,90 @@
       "mechanics": "Moved the intact BABA IS YOU row aside and arranged L, O, V and E vertically above IS YOU. The rule list and a shared movement test confirmed LOVE IS YOU. The heart then reused the BABA and IS words to make BABA IS FLAG with the trapped FLAG word. FLAG IS WIN remained active, so the controlled heart could reach the converted Baba.",
       "attempts": "All 278 inputs across 21 chronological originals are retained at 2\u00d7 speed, including both failed lower-wall probes, blocked D/L map routes, reentry-time ignored LUU, the successful letter constructor, control timing checks, victory and final pause. No undo, restart, explicit wait or death was observed. The settled ??? map pause confirms 150 completed levels and nine flowers."
     }
+  },
+  {
+    "id": "level-151",
+    "number": 151,
+    "title": "Whoops",
+    "world": "???",
+    "code": "03",
+    "name": "Whoops",
+    "file": "/baba-is-you-media-2/media/151-whoops.mp4",
+    "poster": "assets/level-151.jpg",
+    "seconds": 145.433333,
+    "recorded": "2026-09-10",
+    "notes": {
+      "approach": "Used autonomous Keke to break ICE IS YOU, then rearranged the available words into crossing KEKE IS WIN and KEKE IS YOU rules.",
+      "mechanics": "Directed Keke left before activating MOVE; its bounce carried it back to push ICE out of the control rule. An IS word destroyed the weak flag. Raising the intact FLAG IS WIN column let its WIN also complete KEKE IS WIN. Adding KEKE IS YOU then won immediately at Keke, without another object touching it.",
+      "attempts": "All 186 inputs across seven chronological originals are retained at 2\u00d7 speed, including 20 explicit waits, two Baba deaths, two undos and one actual restart. Activating BABA IS DEFEAT and directly contacting the weak flag both failed. The first MOVE setup went down and was restarted. The successful crossing rules, word destroying the flag, victory and settled 151/nine-flower pause remain included."
+    }
+  },
+  {
+    "id": "level-152",
+    "number": 152,
+    "title": "Mean Fence",
+    "world": "???",
+    "code": "04",
+    "name": "Mean Fence",
+    "file": "/baba-is-you-media-2/media/152-mean-fence.mp4",
+    "poster": "assets/level-152.jpg",
+    "seconds": 47.8,
+    "recorded": "2026-09-10",
+    "notes": {
+      "approach": "Crossed the fence sideways and through its gap, then carried WIN around the isolated wall to complete FLAG IS WIN.",
+      "mechanics": "Baba survived entering a wall while facing the empty cell beyond it under BABA FACING WALL IS EMPTY. WALL itself had no STOP rule. Careful side approaches let Baba push WIN through the gap, shift it left, and lift it into the flag sentence before reaching the flag.",
+      "attempts": "All 48 inputs across three chronological originals are retained at 2\u00d7 speed, including the initial crossing test, word transport, victory and final pause. No undo, restart, explicit wait, failed move or death was observed. The settled map confirms 152 completed levels and nine flowers."
+    }
+  },
+  {
+    "id": "level-153",
+    "number": 153,
+    "title": "Scale",
+    "world": "???",
+    "code": "05",
+    "name": "Scale",
+    "file": "/baba-is-you-media-2/media/153-scale.mp4",
+    "poster": "assets/level-153.jpg",
+    "seconds": 87.0,
+    "recorded": "2026-09-10",
+    "notes": {
+      "approach": "Rearranged the central words into BABA IS PUSH and NOT ROCK IS NOT YOU, then used the remaining controlled rock to clear the water and reach the flag.",
+      "mechanics": "The hedge held Rock still while Baba moved, allowing Rock to break BABA IS YOU. Words passed through inert Baba, and Rock could step out of their overlap after BABA IS PUSH activated. NOT ROCK IS NOT YOU suppressed Skull control while fixed ROCK IS YOU remained effective, preserving NOT LONELY FLAG IS WIN. Pushing Baba into WATER IS SINK removed both; Rock then shared the flag tile and won.",
+      "attempts": "All 116 inputs across eight chronological originals are retained at 2\u00d7 speed, including entry, the second DOWN blocked for Rock while Baba moved, every rule change, one deliberate Baba sacrifice and the settled 153/nine-flower pause. There were no undos, restarts or explicit waits. The constructor was checked against the live board at each critical stage."
+    }
+  },
+  {
+    "id": "level-154",
+    "number": 154,
+    "title": "Fireplace",
+    "world": "???",
+    "code": "06",
+    "name": "Fireplace",
+    "file": "/baba-is-you-media-2/media/154-fireplace.mp4",
+    "poster": "assets/level-154.jpg",
+    "seconds": 56.333333,
+    "recorded": "2026-09-10",
+    "notes": {
+      "approach": "Held the inner moving skull in place with repeated swaps while the outer skull descended to lift WIN into FLAG IS WIN.",
+      "mechanics": "Each DOWN swapped Baba with the inner skull, whose automatic movement swapped them back. This preserved the fire and rock barrier while the outer skull advanced. On the tenth held turn, the outer skull swapped WIN upward; Baba then reached the winning flag.",
+      "attempts": "All 70 inputs across four chronological originals are retained at 2\u00d7 speed, including the failed first conversion, four explicit waits, five undos and all ten successful hold turns. The unheld inner skull let the ghost push WIN away; the revised timing kept it aligned. No restart or death occurred. Victory and the settled 154/nine-flower pause remain included."
+    }
+  },
+  {
+    "id": "level-155",
+    "number": 155,
+    "title": "Turn the Corner",
+    "world": "???",
+    "code": "07",
+    "name": "Turn the Corner",
+    "file": "/baba-is-you-media-2/media/155-turn-the-corner.mp4",
+    "poster": "assets/level-155.jpg",
+    "seconds": 132.2,
+    "recorded": "2026-09-10",
+    "notes": {
+      "approach": "Used crossing WALL IS OPEN and ROCK IS PUSH AND SHUT rules to open the wall beside SINK, then pushed WIN through the opening to form LEVEL IS WIN.",
+      "mechanics": "LEVEL IS SINK destroyed the playable board and undo restored it. FLAG IS ROCK created a reserve rock that remained unused. The original SHUT rock removed an OPEN wall. Moving AND and SHUT cleared the transport row; WIN displaced SINK sideways, then an upward push completed LEVEL IS WIN and immediately triggered victory.",
+      "attempts": "All 224 inputs across eleven chronological originals are retained at 2\u00d7 speed, including one full-board destruction, one undo, the extra-rock preparation, every shared-rule construction input, the wall sacrifice and the settled 155/nine-flower pause. No restart or explicit wait occurred. The prepared outside/control route was abandoned before any outer-wall strike; its actual preparation remains in the replay."
+    }
   }
 ]

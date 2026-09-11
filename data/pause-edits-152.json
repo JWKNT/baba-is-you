@@ -1,0 +1,199 @@
+{
+  "source": "152.mov",
+  "sha256": "7ba3c7232002eee5323ecd55c620e03ef86501d10513684e482e5d8b06713289",
+  "sourceSeconds": 221.461667,
+  "keptIntervals": [
+    [
+      0,
+      3.353519916534424
+    ],
+    [
+      11.208961963653564,
+      28.21449041366577
+    ],
+    [
+      43.70567083358765,
+      46.098190784454346
+    ],
+    [
+      92.96176767349243,
+      101.87417840957642
+    ],
+    [
+      106.54595994949341,
+      112.91184902191162
+    ],
+    [
+      132.8225507736206,
+      140.0169620513916
+    ],
+    [
+      155.4098219871521,
+      162.41414880752563
+    ],
+    [
+      178.090350151062,
+      221.461667
+    ]
+  ],
+  "playbackSpeed": 2,
+  "sourceRetainedSeconds": 95.59992307299805,
+  "expectedOutputSeconds": 47.799961536499026,
+  "outputSeconds": 47.8,
+  "inputCount": 48,
+  "policy": "Preserve every chronological captured input, blocked move, attempt and observed victory. Remove only idle gaps between padded action spans0.75seconds before and1.5seconds after; retain the winning-input-to-final-pause capture suffix in full. Encode2x, silent, no replay/gap replacements or invented motion.",
+  "crop": "1680:960:14:56",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 23
+  },
+  "category": "completed-level",
+  "sequence": 152,
+  "countsAsCompletedLevel": true,
+  "recordedInputCount": 48,
+  "loggedInputCount": 48,
+  "uncapturedInputs": [],
+  "outputSha256": "3ddbfa41b4684a05884705a97f024a211b192119ce9f256ed8600c96ec8eac84",
+  "sourceParts": [
+    {
+      "source": "mean-fence-part1.mov",
+      "sha256": "efabb05281f4f4fb033ba01ab3ecb089a74bfaf3172f1a1af84feef5d1cc818a",
+      "sourceSeconds": 22.965,
+      "joinedStart": 0,
+      "inputCount": 3,
+      "recordedInputCount": 3
+    },
+    {
+      "source": "mean-fence-part2.mov",
+      "sha256": "8800e0fb29da9c99e3304f97557de328361cb74b569cb12bbd554892b301bae7",
+      "sourceSeconds": 83.68,
+      "joinedStart": 22.965,
+      "inputCount": 15,
+      "recordedInputCount": 15
+    },
+    {
+      "source": "mean-fence-part3.mov",
+      "sha256": "4f7975fcb1abbc2d2cd439f809b9cfe78d1fe761a137bd6c57d4c0cd76878b9c",
+      "sourceSeconds": 114.82,
+      "joinedStart": 106.64500000000001,
+      "inputCount": 30,
+      "recordedInputCount": 30
+    }
+  ],
+  "sourceAssignment": "Completion152 Mean Fence exclusively uses original mean-fence-part1..3 in chronological order, including map navigation, entry, all wall-crossing experiments, victory and final pause. Each full captured source window is allocated once; all originals and sidecars remain retained.",
+  "scope": "Crossing into a wall while facing the empty cell beyond it preserved Baba under BABA FACING WALL IS EMPTY. WALL had no STOP rule. WIN passed through the gap, moved sideways below the isolated wall, and reached FLAG IS to form FLAG IS WIN. Actual flag contact won; settled map and pause confirm152/nine flowers.",
+  "rawCapturedSeconds": 221.465,
+  "rawOriginalBytes": 18581644,
+  "originalCaptureCount": 3,
+  "sourceInventoryFiles": [
+    "source-inventory.json"
+  ],
+  "criticalSeeks": [
+    {
+      "state": "entry-settled",
+      "part": 1,
+      "partSourceSeconds": 22.831667,
+      "sourceSeconds": 22.831667,
+      "outputSeconds": 7.488112476440429,
+      "frame": "export-entry-settled-full.png"
+    },
+    {
+      "state": "before-wall-crossing",
+      "part": 2,
+      "partSourceSeconds": 4.099490737915039,
+      "sourceSeconds": 27.064490737915037,
+      "outputSeconds": 9.604524345397948,
+      "frame": "export-before-wall-crossing-full.png"
+    },
+    {
+      "state": "inside-first-wall",
+      "part": 2,
+      "partSourceSeconds": 21.983190870285036,
+      "sourceSeconds": 44.94819087028503,
+      "outputSeconds": 10.800784201622008,
+      "frame": "export-inside-first-wall-full.png"
+    },
+    {
+      "state": "WIN-below-gap",
+      "part": 2,
+      "partSourceSeconds": 77.75917873382568,
+      "sourceSeconds": 100.72417873382568,
+      "outputSeconds": 15.25698968887329,
+      "frame": "export-WIN-below-gap-full.png"
+    },
+    {
+      "state": "WIN-above-gap",
+      "part": 3,
+      "partSourceSeconds": 5.116849040985107,
+      "sourceSeconds": 111.76184904098511,
+      "outputSeconds": 18.43993407249451,
+      "frame": "export-WIN-above-gap-full.png"
+    },
+    {
+      "state": "inside-right-wall",
+      "part": 3,
+      "partSourceSeconds": 28.95368013381958,
+      "sourceSeconds": 135.59868013381958,
+      "outputSeconds": 20.402998743057253,
+      "frame": "export-inside-right-wall-full.png"
+    },
+    {
+      "state": "WIN-aligned",
+      "part": 3,
+      "partSourceSeconds": 32.22196207046509,
+      "sourceSeconds": 138.8669620704651,
+      "outputSeconds": 22.037139711380007,
+      "frame": "export-WIN-aligned-full.png"
+    },
+    {
+      "state": "inside-left-wall",
+      "part": 3,
+      "partSourceSeconds": 52.332187032699586,
+      "sourceSeconds": 158.9771870326996,
+      "outputSeconds": 24.395822224617007,
+      "frame": "export-inside-left-wall-full.png"
+    },
+    {
+      "state": "FLAG-IS-WIN",
+      "part": 3,
+      "partSourceSeconds": 54.61914882659912,
+      "sourceSeconds": 161.26414882659913,
+      "outputSeconds": 25.539303121566775,
+      "frame": "export-FLAG-IS-WIN-full.png"
+    },
+    {
+      "state": "before-flag-contact",
+      "part": 3,
+      "partSourceSeconds": 78.06717109680176,
+      "sourceSeconds": 184.71217109680177,
+      "outputSeconds": 29.425213584899907,
+      "frame": "export-before-flag-contact-full.png"
+    },
+    {
+      "state": "winning-contact",
+      "part": 3,
+      "partSourceSeconds": 78.61601009368897,
+      "sourceSeconds": 185.26101009368898,
+      "outputSeconds": 29.699633083343514,
+      "frame": "export-winning-contact-full.png"
+    },
+    {
+      "state": "returned-map",
+      "part": 3,
+      "partSourceSeconds": 87.46601009368896,
+      "sourceSeconds": 194.11101009368898,
+      "outputSeconds": 34.12463308334351,
+      "frame": "export-returned-map-full.png"
+    },
+    {
+      "state": "final-pause-152",
+      "part": 3,
+      "partSourceSeconds": 114.685,
+      "sourceSeconds": 221.33,
+      "outputSeconds": 47.73412803649903,
+      "frame": "export-final-pause-152-full.png"
+    }
+  ],
+  "representativePosterSeconds": 25.539303121566775
+}

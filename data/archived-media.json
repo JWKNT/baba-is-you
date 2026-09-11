@@ -1718,6 +1718,61 @@
       "manifestSha256": "72f63e5561062ef62d988749b982c3044e794c7840c2ec6d2d5e08e0a310705e",
       "repository": "JWKNT/baba-is-you-media-2",
       "verifiedCommit": "2232d2d5c853790fb6a636d149f477fdbf5b2dab"
+    },
+    {
+      "id": "level-151",
+      "file": "/baba-is-you-media-2/media/151-whoops.mp4",
+      "bytes": 10569396,
+      "sha256": "645d5063895d4663ab93a60996b3469664dc8186bbba07b94678eb13b73d3a2f",
+      "seconds": 145.433333,
+      "manifest": "data/pause-edits-151.json",
+      "manifestSha256": "c0c650dbfa7eb63486c6625f2e322e735c76af435ec1be994a8c54e9a90ded6c",
+      "repository": "JWKNT/baba-is-you-media-2",
+      "verifiedCommit": "c49355bf27186fb0035df1f18fe5aafd8d60e386"
+    },
+    {
+      "id": "level-152",
+      "file": "/baba-is-you-media-2/media/152-mean-fence.mp4",
+      "bytes": 3481621,
+      "sha256": "3ddbfa41b4684a05884705a97f024a211b192119ce9f256ed8600c96ec8eac84",
+      "seconds": 47.8,
+      "manifest": "data/pause-edits-152.json",
+      "manifestSha256": "f66cc4d9a15d9277818526d82c841c9af8a91c551e78b6f820fb726693552b5c",
+      "repository": "JWKNT/baba-is-you-media-2",
+      "verifiedCommit": "c49355bf27186fb0035df1f18fe5aafd8d60e386"
+    },
+    {
+      "id": "level-153",
+      "file": "/baba-is-you-media-2/media/153-scale.mp4",
+      "bytes": 11895235,
+      "sha256": "9ed38a842a35891eb56c229849f9808b04b8708ec1f0caeec78c232c27e5a0d6",
+      "seconds": 87.0,
+      "manifest": "data/pause-edits-153.json",
+      "manifestSha256": "ebf3135efc8e8edd04bea434040cfb739b6d2751d14ca6ffbc7b984836b7328f",
+      "repository": "JWKNT/baba-is-you-media-2",
+      "verifiedCommit": "c49355bf27186fb0035df1f18fe5aafd8d60e386"
+    },
+    {
+      "id": "level-154",
+      "file": "/baba-is-you-media-2/media/154-fireplace.mp4",
+      "bytes": 6504881,
+      "sha256": "89eeedf23043e76b64b4fc82a25b23c641becae61ee86db807e709c6ffe53903",
+      "seconds": 56.333333,
+      "manifest": "data/pause-edits-154.json",
+      "manifestSha256": "c4bec826617515777c74bbdeb59e1aacfed27b51d768ce1ea9912419cc43e231",
+      "repository": "JWKNT/baba-is-you-media-2",
+      "verifiedCommit": "c49355bf27186fb0035df1f18fe5aafd8d60e386"
+    },
+    {
+      "id": "level-155",
+      "file": "/baba-is-you-media-2/media/155-turn-the-corner.mp4",
+      "bytes": 19788526,
+      "sha256": "3d757fa73555cd8885989e06ae5312746ea4030b0c1cd9c62aa2f85372aeebfe",
+      "seconds": 132.2,
+      "manifest": "data/pause-edits-155.json",
+      "manifestSha256": "846e9e5b599e4aa9b79c1a6c5688f1203f57b538847dd89012905b89a2b3703a",
+      "repository": "JWKNT/baba-is-you-media-2",
+      "verifiedCommit": "c49355bf27186fb0035df1f18fe5aafd8d60e386"
     }
   ]
 }

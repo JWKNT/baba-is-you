@@ -1,0 +1,367 @@
+{
+  "source": "155.mov",
+  "sha256": "cf53257d0cf749931f7f7a2937cb562c2d395d08c7f6ce3957b11391f5d30c62",
+  "sourceSeconds": 571.971667,
+  "keptIntervals": [
+    [
+      0,
+      3.672591209411621
+    ],
+    [
+      22.048666954040527,
+      31.29443073272705
+    ],
+    [
+      35.75603485107422,
+      44.27355670928955
+    ],
+    [
+      58.975157737731934,
+      69.87163506144714
+    ],
+    [
+      93.92728505725097,
+      116.47415828704834
+    ],
+    [
+      132.43883800506592,
+      139.6744589923706
+    ],
+    [
+      141.74835968017578,
+      152.15059566497803
+    ],
+    [
+      192.58469009399414,
+      205.21521997451782
+    ],
+    [
+      227.66114902496338,
+      241.62812280654907
+    ],
+    [
+      246.13632082939148,
+      261.64326786994934
+    ],
+    [
+      279.83816361427307,
+      298.4418976306915
+    ],
+    [
+      302.9510841369629,
+      316.16339206695557
+    ],
+    [
+      329.65966033935547,
+      340.45953464508057
+    ],
+    [
+      356.18212890625,
+      364.6758270263672
+    ],
+    [
+      369.1467399597168,
+      385.9617861243744
+    ],
+    [
+      388.87812209129333,
+      399.23384165763855
+    ],
+    [
+      414.13485980033875,
+      421.1679513454437
+    ],
+    [
+      464.7208297252655,
+      469.6162469491577
+    ],
+    [
+      471.67459511756897,
+      484.6074149608612
+    ],
+    [
+      499.1614716053009,
+      509.37105107307434
+    ],
+    [
+      523.1090395450592,
+      529.3532955646515
+    ],
+    [
+      541.7285597324371,
+      571.971667
+    ]
+  ],
+  "playbackSpeed": 2,
+  "sourceRetainedSeconds": 264.46018654507446,
+  "expectedOutputSeconds": 132.23009327253723,
+  "outputSeconds": 132.2,
+  "inputCount": 224,
+  "policy": "Preserve every chronological captured input, blocked move, attempt and observed victory. Remove only idle gaps between padded action spans0.75seconds before and1.5seconds after; retain the winning-input-to-final-pause capture suffix in full. Encode2x, silent, no replay/gap replacements or invented motion.",
+  "crop": "1680:960:14:56",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 23
+  },
+  "category": "completed-level",
+  "sequence": 155,
+  "countsAsCompletedLevel": true,
+  "recordedInputCount": 224,
+  "loggedInputCount": 224,
+  "uncapturedInputs": [],
+  "outputSha256": "3d757fa73555cd8885989e06ae5312746ea4030b0c1cd9c62aa2f85372aeebfe",
+  "sourceParts": [
+    {
+      "source": "turn-the-corner-part1.mov",
+      "sha256": "5e392b61b4c68a3e7f9bdfaed42fe46a2e705c1864d6bb7a8726d94b592468a1",
+      "sourceSeconds": 29.131667,
+      "joinedStart": 0,
+      "inputCount": 4,
+      "recordedInputCount": 4
+    },
+    {
+      "source": "turn-the-corner-part2.mov",
+      "sha256": "beda665e6b3ae23d277fd868c514768de66656f9120681cf0039cf7120844cad",
+      "sourceSeconds": 6.875,
+      "joinedStart": 29.131667,
+      "inputCount": 1,
+      "recordedInputCount": 1
+    },
+    {
+      "source": "turn-the-corner-part3.mov",
+      "sha256": "5b502e4b0d22202ed0c4252b7d6c11ee188c6f27e8a8da00dfec0a29423323ec",
+      "sourceSeconds": 65.806667,
+      "joinedStart": 36.006667,
+      "inputCount": 12,
+      "recordedInputCount": 12
+    },
+    {
+      "source": "turn-the-corner-part4.mov",
+      "sha256": "4f9bfa2a56aa9ee3fb526c8206eb6adf5f3f18b07dbe20e13298868a46629b88",
+      "sourceSeconds": 40.071667,
+      "joinedStart": 101.813334,
+      "inputCount": 21,
+      "recordedInputCount": 21
+    },
+    {
+      "source": "turn-the-corner-part5.mov",
+      "sha256": "c7d0506ead64330d0a8a880325f3d35f6529f3ae4ee0dd62e83ccc7c8f9a7c40",
+      "sourceSeconds": 50.946667,
+      "joinedStart": 141.885001,
+      "inputCount": 11,
+      "recordedInputCount": 11
+    },
+    {
+      "source": "turn-the-corner-part6.mov",
+      "sha256": "80eff30dbb9ef0c0ff38e4bee415405e7070db0d23c5b1a1a0097174c042e353",
+      "sourceSeconds": 53.531667,
+      "joinedStart": 192.83166799999998,
+      "inputCount": 30,
+      "recordedInputCount": 30
+    },
+    {
+      "source": "turn-the-corner-part7.mov",
+      "sha256": "b2b424842474c1a1d971c917a3029ab99b6b7947454ff6f9f55be84b6d2f5c3d",
+      "sourceSeconds": 56.821667,
+      "joinedStart": 246.36333499999998,
+      "inputCount": 40,
+      "recordedInputCount": 40
+    },
+    {
+      "source": "turn-the-corner-part8.mov",
+      "sha256": "0e20e3cb2a3c4330155911f7b24097210b57a367778cc0006fb71d49302b6789",
+      "sourceSeconds": 66.19,
+      "joinedStart": 303.185002,
+      "inputCount": 36,
+      "recordedInputCount": 36
+    },
+    {
+      "source": "turn-the-corner-part9.mov",
+      "sha256": "1629a3dcc93eb99e7394ae6e3a6019a23bd99a4fd8569377048f2a5aa8204f05",
+      "sourceSeconds": 19.763333,
+      "joinedStart": 369.375002,
+      "inputCount": 17,
+      "recordedInputCount": 17
+    },
+    {
+      "source": "turn-the-corner-part10.mov",
+      "sha256": "9c1932dd0772196aa3535176a05315274444fec9ba2acfbdec35d9e0fb828912",
+      "sourceSeconds": 82.768333,
+      "joinedStart": 389.138335,
+      "inputCount": 19,
+      "recordedInputCount": 19
+    },
+    {
+      "source": "turn-the-corner-part11.mov",
+      "sha256": "49e929b04d448c8bd14809d2700f9a27fd309c951a494239980450b7c0d776b0",
+      "sourceSeconds": 100.068333,
+      "joinedStart": 471.90666799999997,
+      "inputCount": 33,
+      "recordedInputCount": 33
+    }
+  ],
+  "sourceAssignment": "Completion 155 Turn the Corner exclusively uses eleven original turn-the-corner-part1..11 families in chronology. Full disjoint original windows include entry, LEVEL IS SINK destruction and undo, the extra-rock preparation, shared-rule construction, one wall sacrifice and LEVEL IS WIN victory. All originals and sidecars remain retained.",
+  "scope": "LEVEL IS SINK destroyed the playable board and was undone. FLAG IS ROCK created an unused reserve rock. Shared WALL IS OPEN and ROCK IS PUSH AND SHUT let the original rock open wall (343, 256). WIN then passed through that hole, displaced SINK sideways and completed LEVEL IS WIN, triggering victory. Settled map pause confirms 155 / nine flowers.",
+  "rawCapturedSeconds": 571.975001,
+  "rawOriginalBytes": 97248273,
+  "originalCaptureCount": 11,
+  "sourceInventoryFiles": [
+    "source-inventory.json"
+  ],
+  "criticalSeeks": [
+    {
+      "state": "initial-board",
+      "part": 2,
+      "partSourceSeconds": 0.2,
+      "sourceSeconds": 29.331667,
+      "outputSeconds": 5.477795627685547,
+      "frame": "export-initial-board-full.png"
+    },
+    {
+      "state": "before-LEVEL-IS-SINK",
+      "part": 3,
+      "partSourceSeconds": 23.468491077423096,
+      "sourceSeconds": 59.475158077423096,
+      "outputSeconds": 10.96793859300232,
+      "frame": "export-before-LEVEL-IS-SINK-full.png"
+    },
+    {
+      "state": "LEVEL-IS-SINK-destruction",
+      "part": 3,
+      "partSourceSeconds": 24.214968061447145,
+      "sourceSeconds": 60.221635061447145,
+      "outputSeconds": 11.341177085014344,
+      "frame": "export-LEVEL-IS-SINK-destruction-full.png"
+    },
+    {
+      "state": "undo-restores-board",
+      "part": 3,
+      "partSourceSeconds": 59.16679701805115,
+      "sourceSeconds": 95.17346401805115,
+      "outputSeconds": 16.78926656541443,
+      "frame": "export-undo-restores-board-full.png"
+    },
+    {
+      "state": "undone-pause",
+      "part": 3,
+      "partSourceSeconds": 65.671667,
+      "sourceSeconds": 101.678334,
+      "outputSeconds": 20.04170155638886,
+      "frame": "export-undone-pause-full.png"
+    },
+    {
+      "state": "FLAG-IS-ROCK",
+      "part": 4,
+      "partSourceSeconds": 34.21112499237061,
+      "sourceSeconds": 136.0244589923706,
+      "outputSeconds": 29.232424193565365,
+      "frame": "export-FLAG-IS-ROCK-full.png"
+    },
+    {
+      "state": "shared-IS-staged",
+      "part": 6,
+      "partSourceSeconds": 37.62436876296997,
+      "sourceSeconds": 230.45603676296994,
+      "outputSeconds": 43.971250995231614,
+      "frame": "export-shared-IS-staged-full.png"
+    },
+    {
+      "state": "ROCK-subject-staged",
+      "part": 7,
+      "partSourceSeconds": 14.129932975769043,
+      "sourceSeconds": 260.493267975769,
+      "outputSeconds": 56.735767590209946,
+      "frame": "export-ROCK-subject-staged-full.png"
+    },
+    {
+      "state": "ROCK-PUSH-and-SHUT",
+      "part": 8,
+      "partSourceSeconds": 60.340824937820436,
+      "sourceSeconds": 363.52582693782045,
+      "outputSeconds": 82.29057467915345,
+      "frame": "export-ROCK-PUSH-and-SHUT-full.png"
+    },
+    {
+      "state": "WALL-IS-OPEN",
+      "part": 9,
+      "partSourceSeconds": 12.93678412437439,
+      "sourceSeconds": 382.3117861243744,
+      "outputSeconds": 89.44809780575562,
+      "frame": "export-WALL-IS-OPEN-full.png"
+    },
+    {
+      "state": "shared-rules-pause",
+      "part": 9,
+      "partSourceSeconds": 19.63,
+      "sourceSeconds": 389.005002,
+      "outputSeconds": 91.33653776010894,
+      "frame": "export-shared-rules-pause-full.png"
+    },
+    {
+      "state": "before-wall-strike",
+      "part": 10,
+      "partSourceSeconds": 76.08249497413635,
+      "sourceSeconds": 465.22082997413634,
+      "outputSeconds": 100.21750348591613,
+      "frame": "export-before-wall-strike-full.png"
+    },
+    {
+      "state": "rock-wall-sacrifice",
+      "part": 10,
+      "partSourceSeconds": 76.82791194915771,
+      "sourceSeconds": 465.9662469491577,
+      "outputSeconds": 100.59021197342682,
+      "frame": "export-rock-wall-sacrifice-full.png"
+    },
+    {
+      "state": "WIN-lane-clear",
+      "part": 11,
+      "partSourceSeconds": 4.093703126907348,
+      "sourceSeconds": 476.00037112690734,
+      "outputSeconds": 104.57809997809599,
+      "frame": "export-WIN-lane-clear-full.png"
+    },
+    {
+      "state": "WIN-under-LEVEL",
+      "part": 11,
+      "partSourceSeconds": 36.3143828868866,
+      "sourceSeconds": 508.2210508868866,
+      "outputSeconds": 113.41141153586577,
+      "frame": "export-WIN-under-LEVEL-full.png"
+    },
+    {
+      "state": "before-LEVEL-IS-WIN",
+      "part": 11,
+      "partSourceSeconds": 70.32189202308655,
+      "sourceSeconds": 542.2285600230865,
+      "outputSeconds": 117.35853978408048,
+      "frame": "export-before-LEVEL-IS-WIN-full.png"
+    },
+    {
+      "state": "LEVEL-IS-WIN-victory",
+      "part": 11,
+      "partSourceSeconds": 70.81689009666442,
+      "sourceSeconds": 542.7235580966644,
+      "outputSeconds": 117.60603882086943,
+      "frame": "export-LEVEL-IS-WIN-victory-full.png"
+    },
+    {
+      "state": "returned-map",
+      "part": 11,
+      "partSourceSeconds": 78.71689009666443,
+      "sourceSeconds": 550.6235580966644,
+      "outputSeconds": 121.55603882086942,
+      "frame": "export-returned-map-full.png"
+    },
+    {
+      "state": "final-pause-155",
+      "part": 11,
+      "partSourceSeconds": 99.935,
+      "sourceSeconds": 571.841668,
+      "outputSeconds": 132.16509377253723,
+      "frame": "export-final-pause-155-full.png"
+    }
+  ],
+  "representativePosterSeconds": 117.35853978408048
+}

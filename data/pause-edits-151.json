@@ -1,0 +1,439 @@
+{
+  "source": "151.mov",
+  "sha256": "4f6e013583dc1dadf3373a0191cdff8fceb6d34f33f7047a97208c75cb173bd9",
+  "sourceSeconds": 1110.615,
+  "keptIntervals": [
+    [
+      0,
+      2
+    ],
+    [
+      8.63099193572998,
+      11.028885841369629
+    ],
+    [
+      24.228961944580078,
+      27.390631198883057
+    ],
+    [
+      36.57915019989014,
+      49.32487177848816
+    ],
+    [
+      119.96377611160278,
+      129.25303983688354
+    ],
+    [
+      148.72544145584106,
+      159.6194070507202
+    ],
+    [
+      222.98688650131226,
+      234.59848356246948
+    ],
+    [
+      249.95653676986694,
+      257.71264696121216
+    ],
+    [
+      279.47886180877686,
+      281.8678545951843
+    ],
+    [
+      359.5869870185852,
+      363.7954442501068
+    ],
+    [
+      371.99180579185486,
+      383.6579370762024
+    ],
+    [
+      398.63158917427063,
+      408.6889989376068
+    ],
+    [
+      420.5675427913666,
+      429.85854983329773
+    ],
+    [
+      447.79353404045105,
+      455.7321059703827
+    ],
+    [
+      468.0074260234833,
+      475.98314213752747
+    ],
+    [
+      494.6100432872772,
+      497.0051600933075
+    ],
+    [
+      512.9619128704071,
+      519.1712558269501
+    ],
+    [
+      531.3754570484161,
+      533.7742908000946
+    ],
+    [
+      553.7471258640289,
+      559.978954076767
+    ],
+    [
+      572.0772969722748,
+      576.7822988033295
+    ],
+    [
+      588.6011850833893,
+      590.9932792186737
+    ],
+    [
+      609.5618712902069,
+      611.9551312923431
+    ],
+    [
+      624.7195508480072,
+      630.1816818714142
+    ],
+    [
+      643.927826166153,
+      648.6322910785675
+    ],
+    [
+      660.4718759059906,
+      671.3680532241974
+    ],
+    [
+      789.3026700283203,
+      806.3577618598938
+    ],
+    [
+      823.413092136383,
+      830.450544834137
+    ],
+    [
+      849.3892111778259,
+      855.6195430755615
+    ],
+    [
+      868.8995261192322,
+      875.1369180679321
+    ],
+    [
+      899.310170173645,
+      904.7604341506958
+    ],
+    [
+      916.6794251287537,
+      927.5739299142914
+    ],
+    [
+      941.2248420715332,
+      943.6223011016846
+    ],
+    [
+      948.119891166687,
+      954.3195080757141
+    ],
+    [
+      970.990348815918,
+      978.734016418457
+    ],
+    [
+      989.8437790870667,
+      996.0476703643799
+    ],
+    [
+      1009.5935564041138,
+      1015.0479917526245
+    ],
+    [
+      1031.5278940200806,
+      1036.4190464019775
+    ],
+    [
+      1040.9421799182892,
+      1045.618735074997
+    ],
+    [
+      1058.0591390132904,
+      1062.7668602466583
+    ],
+    [
+      1076.2016770494538,
+      1110.615
+    ]
+  ],
+  "playbackSpeed": 2,
+  "sourceRetainedSeconds": 290.763617440628,
+  "expectedOutputSeconds": 145.381808720314,
+  "outputSeconds": 145.433333,
+  "inputCount": 186,
+  "policy": "Preserve all 186 chronological captured inputs, both Baba deaths, both undos, one restart, all 20 explicit waits, failed and successful experiments, entry/restart transitions and observed victory. Remove only idle gaps between padded action spans (0.75 seconds before and 1.5 seconds after); preserve conservative 10-second source windows after death/undo/restart and word/flag contact, plus winning input through final pause. Encode at 2\u00d7, silent; no replay/gap replacements or invented motion.",
+  "crop": "1680:960:14:56",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 23
+  },
+  "category": "completed-level",
+  "sequence": 151,
+  "countsAsCompletedLevel": true,
+  "recordedInputCount": 186,
+  "loggedInputCount": 186,
+  "uncapturedInputs": [],
+  "outputSha256": "645d5063895d4663ab93a60996b3469664dc8186bbba07b94678eb13b73d3a2f",
+  "sourceParts": [
+    {
+      "source": "whoops-part1.mov",
+      "sha256": "03eeae8a80c7734f9df34915e18024327f29a122b90f03be4957644f6d738deb",
+      "sourceSeconds": 47.163333,
+      "joinedStart": 0,
+      "inputCount": 4,
+      "recordedInputCount": 4
+    },
+    {
+      "source": "whoops-part2.mov",
+      "sha256": "059cc0e261118ec7c64029a7e1714eef5a814ed81846065b565edb3db9e94c23",
+      "sourceSeconds": 73.028333,
+      "joinedStart": 47.163333,
+      "inputCount": 1,
+      "recordedInputCount": 1
+    },
+    {
+      "source": "whoops-part3.mov",
+      "sha256": "5be5705555f3e7a94030c344611a46d10e5d2d9d9ac9d11aba1ed81c850dd2ca",
+      "sourceSeconds": 240.66,
+      "joinedStart": 120.191666,
+      "inputCount": 34,
+      "recordedInputCount": 34
+    },
+    {
+      "source": "whoops-part4.mov",
+      "sha256": "e572d98d35aeff854b5a4845cb61ada428a62f3e296d1394a2fccf9de9c572e7",
+      "sourceSeconds": 436.506667,
+      "joinedStart": 360.851666,
+      "inputCount": 73,
+      "recordedInputCount": 73
+    },
+    {
+      "source": "whoops-part5.mov",
+      "sha256": "6544965cce20fe297a9e743fbfca0beb3f27abba4234e06075ea7b3e7c66a4c4",
+      "sourceSeconds": 150.988333,
+      "joinedStart": 797.358333,
+      "inputCount": 35,
+      "recordedInputCount": 35
+    },
+    {
+      "source": "whoops-part6.mov",
+      "sha256": "835cb3078403dba0e80f285d0dcb2010509518bc49cdc8615c6c9431e97e7468",
+      "sourceSeconds": 92.841667,
+      "joinedStart": 948.346666,
+      "inputCount": 29,
+      "recordedInputCount": 29
+    },
+    {
+      "source": "whoops-part7.mov",
+      "sha256": "1f732a14019f7e73fd04f3a1659c0222cd4d5e92910748252db14115c60dafee",
+      "sourceSeconds": 69.428333,
+      "joinedStart": 1041.188333,
+      "inputCount": 10,
+      "recordedInputCount": 10
+    }
+  ],
+  "sourceAssignment": "Completion151 Whoops exclusively uses seven original whoops-part1..7 families in chronology, including entry, both Baba deaths, both undos and the actual restart. Full disjoint source windows are assigned once; all originals and sidecars remain retained.",
+  "scope": "Autonomous Keke broke ICE IS YOU after a failed first MOVE setup. Direct WEAK Baba/flag contact failed. A word later destroyed that flag, and crossing KEKE IS WIN / KEKE IS YOU produced an immediate win at the separate Keke, without another object touching it. Settled ??? map and pause confirm151/nine flowers.",
+  "rawCapturedSeconds": 1110.616666,
+  "rawOriginalBytes": 132950487,
+  "originalCaptureCount": 7,
+  "sourceInventoryFiles": [
+    "source-inventory.json"
+  ],
+  "criticalSeeks": [
+    {
+      "state": "initial-board",
+      "part": 2,
+      "partSourceSeconds": 0.2,
+      "sourceSeconds": 47.363333000000004,
+      "outputSeconds": 9.171872980026247,
+      "frame": "export-initial-board-full.png"
+    },
+    {
+      "state": "first-Baba-death",
+      "part": 3,
+      "partSourceSeconds": 29.777741050720216,
+      "sourceSeconds": 149.9694070507202,
+      "outputSeconds": 15.419257029350277,
+      "frame": "export-first-Baba-death-full.png"
+    },
+    {
+      "state": "first-undo",
+      "part": 3,
+      "partSourceSeconds": 104.0423108100891,
+      "sourceSeconds": 224.2339768100891,
+      "outputSeconds": 20.867802183738704,
+      "frame": "export-first-undo-full.png"
+    },
+    {
+      "state": "wrong-MOVE-direction",
+      "part": 3,
+      "partSourceSeconds": 160.52618894577026,
+      "sourceSeconds": 280.7178549457702,
+      "outputSeconds": 30.547607224098186,
+      "frame": "export-wrong-MOVE-direction-full.png"
+    },
+    {
+      "state": "restart-confirmation",
+      "part": 4,
+      "partSourceSeconds": 1.7937780380249024,
+      "sourceSeconds": 362.64544403802495,
+      "outputSeconds": 32.65183555852511,
+      "frame": "export-restart-confirmation-full.png"
+    },
+    {
+      "state": "restart-settled",
+      "part": 4,
+      "partSourceSeconds": 21.806271076202393,
+      "sourceSeconds": 382.6579370762024,
+      "outputSeconds": 38.55990130673982,
+      "frame": "export-restart-settled-full.png"
+    },
+    {
+      "state": "Keke-bounce",
+      "part": 4,
+      "partSourceSeconds": 171.77262506484985,
+      "sourceSeconds": 532.6242910648499,
+      "outputSeconds": 61.6179006208649,
+      "frame": "export-Keke-bounce-full.png"
+    },
+    {
+      "state": "ICE-control-broken",
+      "part": 4,
+      "partSourceSeconds": 228.9916130065918,
+      "sourceSeconds": 589.8432790065918,
+      "outputSeconds": 68.2823624719849,
+      "frame": "export-ICE-control-broken-full.png"
+    },
+    {
+      "state": "WEAK-flag-contact-failure",
+      "part": 4,
+      "partSourceSeconds": 300.8663872241974,
+      "sourceSeconds": 661.7180532241974,
+      "outputSeconds": 75.76037920610813,
+      "frame": "export-WEAK-flag-contact-failure-full.png"
+    },
+    {
+      "state": "second-undo",
+      "part": 4,
+      "partSourceSeconds": 429.7056129932404,
+      "sourceSeconds": 790.5572789932404,
+      "outputSeconds": 81.21268368856815,
+      "frame": "export-second-undo-full.png"
+    },
+    {
+      "state": "Keke-MOVE-stopped",
+      "part": 5,
+      "partSourceSeconds": 31.942211961746217,
+      "sourceSeconds": 829.3005449617463,
+      "outputSeconds": 92.05665153457645,
+      "frame": "export-Keke-MOVE-stopped-full.png"
+    },
+    {
+      "state": "word-destroys-flag",
+      "part": 5,
+      "partSourceSeconds": 120.56559691429138,
+      "sourceSeconds": 917.9239299142914,
+      "outputSeconds": 102.21289777528384,
+      "frame": "export-word-destroys-flag-full.png"
+    },
+    {
+      "state": "KEKE-IS-WIN",
+      "part": 6,
+      "partSourceSeconds": 4.82284197807312,
+      "sourceSeconds": 953.1695079780732,
+      "outputSeconds": 110.76143569605259,
+      "frame": "export-KEKE-IS-WIN-full.png"
+    },
+    {
+      "state": "before-self-WIN",
+      "part": 7,
+      "partSourceSeconds": 35.513344049453735,
+      "sourceSeconds": 1076.7016770494538,
+      "outputSeconds": 128.4251472450409,
+      "frame": "export-before-self-WIN-full.png"
+    },
+    {
+      "state": "self-WIN",
+      "part": 7,
+      "partSourceSeconds": 36.00746521949768,
+      "sourceSeconds": 1077.1957982194976,
+      "outputSeconds": 128.67220783006283,
+      "frame": "export-self-WIN-full.png"
+    },
+    {
+      "state": "returned-map",
+      "part": 7,
+      "partSourceSeconds": 43.90746521949768,
+      "sourceSeconds": 1085.0957982194977,
+      "outputSeconds": 132.62220783006288,
+      "frame": "export-returned-map-full.png"
+    },
+    {
+      "state": "final-pause-151",
+      "part": 7,
+      "partSourceSeconds": 69.293333,
+      "sourceSeconds": 1110.4816660000001,
+      "outputSeconds": 145.31514172031407,
+      "frame": "export-final-pause-151-full.png"
+    }
+  ],
+  "representativePosterSeconds": 128.67220783006283,
+  "extraPreservedWindows": [
+    {
+      "part": 3,
+      "begin": 28.533775806427002,
+      "end": 39.427741050720215,
+      "reason": "Preserve full first Baba death and visible outcome, with a conservative10second source margin."
+    },
+    {
+      "part": 3,
+      "begin": 102.7952208518982,
+      "end": 113.69231081008911,
+      "reason": "Preserve full first undo outcome and visible outcome, with a conservative10second source margin."
+    },
+    {
+      "part": 4,
+      "begin": 11.911843061447144,
+      "end": 22.806271076202393,
+      "reason": "Preserve full actual restart transition and visible outcome, with a conservative10second source margin."
+    },
+    {
+      "part": 4,
+      "begin": 299.62020993232727,
+      "end": 310.5163872241974,
+      "reason": "Preserve full WEAK Baba/flag death outcome and visible outcome, with a conservative10second source margin."
+    },
+    {
+      "part": 4,
+      "begin": 428.4510040283203,
+      "end": 436.506667,
+      "reason": "Preserve full second undo and pause and visible outcome, with a conservative10second source margin."
+    },
+    {
+      "part": 5,
+      "begin": 119.32109212875366,
+      "end": 130.21559691429138,
+      "reason": "Preserve full word destroys weak flag and visible outcome, with a conservative10second source margin."
+    }
+  ],
+  "extraPreservedSourceTails": [
+    {
+      "part": 1,
+      "event": 4
+    },
+    {
+      "part": 7,
+      "event": 9
+    }
+  ]
+}

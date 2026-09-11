@@ -5573,6 +5573,64 @@
         }
       ],
       "originalBytes": 80067431
+    },
+    {
+      "id": "level-172",
+      "capturedSeconds": 2034.873333,
+      "originalCaptureCount": 4,
+      "knownMissingInputs": 0,
+      "allocations": [
+        {
+          "sourceSha256": "73f6575af376bd99ea3e91cd4e8243a0e2410ffd8ae0e273ef2fa4f418e5aef2",
+          "sourceSecondsWindow": [
+            0,
+            632.995
+          ],
+          "originalBytes": 120815907
+        },
+        {
+          "sourceSha256": "6f152b9a6cc1451dca93347033291361bdad4b89da7b2dbaf6082ee20b09d779",
+          "sourceSecondsWindow": [
+            0,
+            804.398333
+          ],
+          "originalBytes": 157404681
+        },
+        {
+          "sourceSha256": "03e3ef96cb78c50958fe3e3ccd628737c61b201599b6a0da6a6c15ddefd7984c",
+          "sourceSecondsWindow": [
+            0,
+            264.991667
+          ],
+          "originalBytes": 55693921
+        },
+        {
+          "sourceSha256": "dfe9c3f9669bb76eeb699d4663ea65aada04c8f11ef29888edc87e6c96c6d244",
+          "sourceSecondsWindow": [
+            0,
+            332.488333
+          ],
+          "originalBytes": 74789935
+        }
+      ],
+      "originalBytes": 408704444
+    },
+    {
+      "id": "secret-hunt-010",
+      "capturedSeconds": 130.368333,
+      "originalCaptureCount": 1,
+      "knownMissingInputs": 0,
+      "allocations": [
+        {
+          "sourceSha256": "d3901c39aeebfd40296479ee9701210503acaa4fe5d912d00eb39d88463da4aa",
+          "sourceSecondsWindow": [
+            0,
+            130.368333
+          ],
+          "originalBytes": 25572424
+        }
+      ],
+      "originalBytes": 25572424
     }
   ]
 }

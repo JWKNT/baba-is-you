@@ -1,0 +1,478 @@
+{
+  "source": "172.mov",
+  "sha256": "e75196a207523e33106a87cd8d9f90191d90c73a471631b9f065385293a4a02e",
+  "sourceSeconds": 2034.873333,
+  "keptIntervals": [
+    [
+      0,
+      2
+    ],
+    [
+      7.230297088623047,
+      9.620836734771729
+    ],
+    [
+      17.83689284324646,
+      24.7310848236084
+    ],
+    [
+      70.45907306671143,
+      73.4607367515564
+    ],
+    [
+      77.92218494415283,
+      80.31601095199585
+    ],
+    [
+      418.20353174209595,
+      426.12428760528564
+    ],
+    [
+      433.08069801330566,
+      438.25459575653076
+    ],
+    [
+      444.2644729614258,
+      449.740177154541
+    ],
+    [
+      453.9218559265137,
+      456.32306385040283
+    ],
+    [
+      467.37766695022583,
+      469.7759909629822
+    ],
+    [
+      549.5279006958008,
+      555.0021495819092
+    ],
+    [
+      561.9955010414124,
+      564.9879108428955
+    ],
+    [
+      577.9909138679504,
+      580.3883399963379
+    ],
+    [
+      582.4367370605469,
+      589.6425948143005
+    ],
+    [
+      630.995,
+      635.9740569591522
+    ],
+    [
+      645.2188451290131,
+      660.7197679233551
+    ],
+    [
+      663.573548078537,
+      671.0866578769684
+    ],
+    [
+      690.4136950969696,
+      699.15005194664
+    ],
+    [
+      706.8642690181732,
+      714.4874398708344
+    ],
+    [
+      729.6532638072968,
+      736.6553361415863
+    ],
+    [
+      748.6832597255707,
+      753.5524427890778
+    ],
+    [
+      759.7156088352203,
+      765.8044188022614
+    ],
+    [
+      776.7064626216888,
+      784.0326640605927
+    ],
+    [
+      804.2079617977142,
+      812.1163990497589
+    ],
+    [
+      830.1251518726349,
+      833.7562248706818
+    ],
+    [
+      1096.3674619197845,
+      1125.0350420188904
+    ],
+    [
+      1158.8765981197357,
+      1161.8866970539093
+    ],
+    [
+      1254.2121007442474,
+      1260.9127218723297
+    ],
+    [
+      1278.646518945694,
+      1283.4954578876495
+    ],
+    [
+      1289.7178008556366,
+      1295.8121149539948
+    ],
+    [
+      1308.6146771907806,
+      1315.9369761943817
+    ],
+    [
+      1329.7692201137543,
+      1336.1607658863068
+    ],
+    [
+      1341.1196296215057,
+      1345.974170923233
+    ],
+    [
+      1352.6704070568085,
+      1355.988270998001
+    ],
+    [
+      1369.4778411388397,
+      1374.0212948322296
+    ],
+    [
+      1379.3654730319977,
+      1381.7562639713287
+    ],
+    [
+      1390.9747450351715,
+      1394.3017027378082
+    ],
+    [
+      1401.2116191387177,
+      1403.605524778366
+    ],
+    [
+      1410.202791929245,
+      1414.1371858119965
+    ],
+    [
+      1433.8800060749054,
+      1441.271789073944
+    ],
+    [
+      1452.1682181358337,
+      1456.1135268211365
+    ],
+    [
+      1463.917588710785,
+      1470.8095939577179
+    ],
+    [
+      1489.422595024109,
+      1493.3569169044495
+    ],
+    [
+      1501.0909957885742,
+      1507.985120815094
+    ],
+    [
+      1515.7852249145508,
+      1523.1056818962097
+    ],
+    [
+      1533.3812260627747,
+      1539.771372795105
+    ],
+    [
+      1547.1109461784363,
+      1551.66073179245
+    ],
+    [
+      1564.104449748993,
+      1572.350263118744
+    ],
+    [
+      1583.5035438537598,
+      1587.7457928657532
+    ],
+    [
+      1601.6978998184204,
+      1605.9405980110168
+    ],
+    [
+      1614.6465849876404,
+      1618.2751560211182
+    ],
+    [
+      1626.1756310462952,
+      1633.076965850647
+    ],
+    [
+      1637.6364731788635,
+      1640.0313239097595
+    ],
+    [
+      1647.266035079956,
+      1654.156661075409
+    ],
+    [
+      1679.3145327568054,
+      1681.7123351097107
+    ],
+    [
+      1686.4770097732544,
+      1693.6737709463196
+    ],
+    [
+      1700.385,
+      1703.885
+    ],
+    [
+      1707.4284400939941,
+      1714.7374329662323
+    ],
+    [
+      1737.8764181137085,
+      1749.873914012909
+    ],
+    [
+      1760.8364477157593,
+      1769.973119983673
+    ],
+    [
+      1803.7134456634521,
+      1821.7542538642883
+    ],
+    [
+      1846.9469947814941,
+      1866.129029855728
+    ],
+    [
+      1901.7961959838867,
+      1923.5549011230469
+    ],
+    [
+      1940.9272270202637,
+      1952.3681839561461
+    ],
+    [
+      1968.851462841034,
+      1979.5520938491823
+    ],
+    [
+      1993.4602556228638,
+      2034.873333
+    ]
+  ],
+  "playbackSpeed": 2,
+  "sourceRetainedSeconds": 475.03376761708057,
+  "expectedOutputSeconds": 237.51688380854029,
+  "outputSeconds": 237.566667,
+  "inputCount": 705,
+  "policy": "Preserve every chronological captured input, blocked move, attempt and observed victory. Remove only idle gaps between padded action spans0.75seconds before and1.5seconds after; retain the winning-input-to-final-pause capture suffix in full. Encode2x, silent, no replay/gap replacements or invented motion.",
+  "crop": "1680:960:14:56",
+  "encoding": {
+    "codec": "libx264",
+    "preset": "fast",
+    "crf": 23
+  },
+  "category": "completed-level",
+  "sequence": 172,
+  "countsAsCompletedLevel": true,
+  "recordedInputCount": 705,
+  "loggedInputCount": 705,
+  "uncapturedInputs": [],
+  "outputSha256": "d034dfbb895de2e01fee1c88b5d4c0b4a259bf39d560545c287111163ee2629a",
+  "sourceParts": [
+    {
+      "source": "tectonic-movements-part1.mov",
+      "sha256": "73f6575af376bd99ea3e91cd4e8243a0e2410ffd8ae0e273ef2fa4f418e5aef2",
+      "sourceSeconds": 632.995,
+      "joinedStart": 0,
+      "inputCount": 63,
+      "recordedInputCount": 63
+    },
+    {
+      "source": "tectonic-movements-part2.mov",
+      "sha256": "6f152b9a6cc1451dca93347033291361bdad4b89da7b2dbaf6082ee20b09d779",
+      "sourceSeconds": 804.398333,
+      "joinedStart": 632.995,
+      "inputCount": 329,
+      "recordedInputCount": 329
+    },
+    {
+      "source": "tectonic-movements-part3.mov",
+      "sha256": "03e3ef96cb78c50958fe3e3ccd628737c61b201599b6a0da6a6c15ddefd7984c",
+      "sourceSeconds": 264.991667,
+      "joinedStart": 1437.393333,
+      "inputCount": 107,
+      "recordedInputCount": 107
+    },
+    {
+      "source": "tectonic-movements-part4.mov",
+      "sha256": "dfe9c3f9669bb76eeb699d4663ea65aada04c8f11ef29888edc87e6c96c6d244",
+      "sourceSeconds": 332.488333,
+      "joinedStart": 1702.385,
+      "inputCount": 206,
+      "recordedInputCount": 206
+    }
+  ],
+  "sourceAssignment": "Completion172 exclusively owns tectonic-movements-part1 throughpart4 in chronological order. All17 original-family files remain retained. The499 earlier inputs,including82undos,and206 new navigation/puzzle/pause inputs remain;no other level or hunt source is reassigned.",
+  "scope": "The outside second-pillar staging and181-direction route matched every observed waypoint. Lower FLAG IS WIN was formed with PUSH off;the north support preserved the return and restored PUSH. The second pillar consumed TREE(271,280);final flag contact won172. Settled Mountaintop6/6 and172/eleven flowers are observed. Earlier edge-placement and mixed-push separation attempts remain chronological.",
+  "rawCapturedSeconds": 2034.873333,
+  "rawOriginalBytes": 408704444,
+  "originalCaptureCount": 4,
+  "sourceInventoryFiles": [
+    "source-inventory.json"
+  ],
+  "criticalSeeks": [
+    {
+      "state": "first-visit-word-block",
+      "part": 1,
+      "partSourceSeconds": 563.4879108428955,
+      "sourceSeconds": 563.4879108428955,
+      "outputSeconds": 23.50165292144777,
+      "frame": "export-first-visit-word-block-full.png",
+      "nominalOutputSeconds": 23.50838487148286
+    },
+    {
+      "state": "before-82-undos",
+      "part": 2,
+      "partSourceSeconds": 464.5694634914398,
+      "sourceSeconds": 1097.5644634914397,
+      "outputSeconds": 70.26730324571986,
+      "frame": "export-before-82-undos-full.png",
+      "nominalOutputSeconds": 70.24772475242611
+    },
+    {
+      "state": "after-82-undos",
+      "part": 2,
+      "partSourceSeconds": 490.5400420188904,
+      "sourceSeconds": 1123.5350420188904,
+      "outputSeconds": 83.25259250944532,
+      "frame": "export-after-82-undos-full.png",
+      "nominalOutputSeconds": 83.23301401615146
+    },
+    {
+      "state": "mixed-push-off",
+      "part": 3,
+      "partSourceSeconds": 190.94384298324584,
+      "sourceSeconds": 1628.3371759832457,
+      "outputSeconds": 148.5161549916229,
+      "frame": "export-mixed-push-off-full.png",
+      "nominalOutputSeconds": 148.4672813613052
+    },
+    {
+      "state": "text-separated",
+      "part": 3,
+      "partSourceSeconds": 212.04015884399413,
+      "sourceSeconds": 1649.433491843994,
+      "outputSeconds": 153.16673642199703,
+      "frame": "export-text-separated-full.png",
+      "nominalOutputSeconds": 153.1183300424728
+    },
+    {
+      "state": "lower-pillar-support",
+      "part": 4,
+      "partSourceSeconds": 114.19320547580719,
+      "sourceSeconds": 1816.5782054758072,
+      "outputSeconds": 182.70247023790364,
+      "frame": "export-lower-pillar-support-full.png",
+      "nominalOutputSeconds": 182.68115684701917
+    },
+    {
+      "state": "north-pillar-support",
+      "part": 4,
+      "partSourceSeconds": 162.24402985572814,
+      "sourceSeconds": 1864.629029855728,
+      "outputSeconds": 194.14333892786408,
+      "frame": "export-north-pillar-support-full.png",
+      "nominalOutputSeconds": 194.1101985783767
+    },
+    {
+      "state": "top-PUSH-off",
+      "part": 4,
+      "partSourceSeconds": 208.07926547527313,
+      "sourceSeconds": 1910.4642654752731,
+      "outputSeconds": 199.23640123763664,
+      "frame": "export-top-PUSH-off-full.png",
+      "nominalOutputSeconds": 199.1942333240699
+    },
+    {
+      "state": "lower-FLAG-WIN",
+      "part": 4,
+      "partSourceSeconds": 240.76293325424194,
+      "sourceSeconds": 1943.147933254242,
+      "outputSeconds": 206.90032512712094,
+      "frame": "export-lower-FLAG-WIN-full.png",
+      "nominalOutputSeconds": 206.8499042649459
+    },
+    {
+      "state": "north-PUSH-restored",
+      "part": 4,
+      "partSourceSeconds": 248.48318395614623,
+      "sourceSeconds": 1950.8681839561461,
+      "outputSeconds": 210.76045047807304,
+      "frame": "export-north-PUSH-restored-full.png",
+      "nominalOutputSeconds": 210.710029615898
+    },
+    {
+      "state": "western-pillar-delivered",
+      "part": 4,
+      "partSourceSeconds": 275.66709384918215,
+      "sourceSeconds": 1978.0520938491823,
+      "outputSeconds": 216.11282242459106,
+      "frame": "export-western-pillar-delivered-full.png",
+      "nominalOutputSeconds": 216.06034511997217
+    },
+    {
+      "state": "tree-consumed",
+      "part": 4,
+      "partSourceSeconds": 293.7023754119873,
+      "sourceSeconds": 1996.0873754119873,
+      "outputSeconds": 218.17837820599368,
+      "frame": "export-tree-consumed-full.png",
+      "nominalOutputSeconds": 218.12390501453393
+    },
+    {
+      "state": "flag-contact-ready",
+      "part": 4,
+      "partSourceSeconds": 295.3397843837738,
+      "sourceSeconds": 1997.7247843837738,
+      "outputSeconds": 218.99708269188693,
+      "frame": "export-flag-contact-ready-full.png",
+      "nominalOutputSeconds": 218.94260950042718
+    },
+    {
+      "state": "victory-transition",
+      "part": 4,
+      "partSourceSeconds": 296.2079688072205,
+      "sourceSeconds": 1998.5929688072206,
+      "outputSeconds": 219.43117490361044,
+      "frame": "export-victory-transition-full.png",
+      "nominalOutputSeconds": 219.37670171215058
+    },
+    {
+      "state": "settled-172-eleven",
+      "part": 4,
+      "partSourceSeconds": 332.35499999999996,
+      "sourceSeconds": 2034.74,
+      "outputSeconds": 237.50469050000004,
+      "frame": "export-settled-172-eleven-full.png",
+      "nominalOutputSeconds": 237.4502173085403
+    }
+  ],
+  "representativePosterSeconds": 194.14333892786408,
+  "timingPrecision": {
+    "method": "Actual trim/concat frame-timing trace before export verification",
+    "evidence": "actual-filter-timing.json",
+    "actualTimingSha256": "f2785924f973d717bfb464941c24f26b8014525a4d74235af8327bfa59a911c6",
+    "videoBytesUnchanged": true,
+    "showinfoPrintedPrecisionMaxSeconds": 1.0000002248489182e-06,
+    "CFR30FrameSelectionQualification": "A seek resolves to a neighboring encoded30fps frame."
+  }
+}

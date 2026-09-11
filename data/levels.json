@@ -2905,5 +2905,22 @@
       "mechanics": "The conversion input leaves Baba and skull together. The first move deposits WALL onto Baba; the second reaches outside. On the third move the outer skull breaks SWAP, so the fourth-turn rebound can overlap Baba harmlessly outside.",
       "attempts": "All 23 recordings and 586 logged inputs remain chronological, including three undos, one restart and 14 waits. Part 1 lost video for 37 inputs; labelled logs and original stills preserve the evidence without replacement motion. The east-wall failure and successful bottom-wall route are both retained. Timed gameplay is at 2\u00d7; disclosures and stills use separate display times."
     }
+  },
+  {
+    "id": "level-172",
+    "number": 172,
+    "title": "Tectonic Movements",
+    "world": "Mountaintop",
+    "code": "08",
+    "name": "Tectonic Movements",
+    "file": "/baba-is-you-media-2/media/172-tectonic-movements.mp4",
+    "poster": "assets/level-172.jpg",
+    "seconds": 237.566667,
+    "recorded": "2026-09-09",
+    "notes": {
+      "approach": "Stage one pillar on the lower return path and bring the second around the outside roof to support the north entrance. Switch PUSH off to form FLAG IS WIN below, restore PUSH above, then send the second pillar through a tree and reach the flag.",
+      "mechanics": "An inert pillar keeps Baba\u2019s dust from becoming lonely lava. The lower support allows the goal-rule visit and return, while the second protects the north entrance. TREE IS SINK consumes the delivered pillar and one tree, opening the final approach.",
+      "attempts": "All 705 inputs across four chronological originals are retained at 2\u00d7, including the failed edge placement, 82 undos, the mixed-push separation experiment and the successful 181-direction revisit. No restart, explicit wait or Baba death was observed. The final area completion grants the eleventh flower."
+    }
   }
 ]

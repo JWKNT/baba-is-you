@@ -3007,5 +3007,56 @@
       "mechanics": "BABA ON BABA IS LOVE selectively transforms the overlapping pair while two single Babas remain. BABA ON LOVE IS ROCK, ROCK ON LOVE IS WEAK and ROCK HAS ICE leave ice at the contact cell with one Baba still controlled. Simultaneous BABA IS FLAG and FLAG IS YOU transfer control to the flag; FLAG ON ICE IS WIN finishes the level. The visible love sprite does not resolve whether multiple love objects overlap.",
       "attempts": "Four chronological visits and251 recorded inputs: discovery,46-input setup followed by the clone pulse and boundary hold,77-input selective-love construction, and107-input ICE/FLAG continuation. All isolated mechanics and final controlled-flag contact passed. No undo,restart,wait,uncontrolled loss of control or missing input was observed. Earlier rejected construction drafts were not played. Final pause confirms177 completions and eleven flowers; Chasm shows15/9."
     }
+  },
+  {
+    "id": "level-178",
+    "number": 178,
+    "title": "AB",
+    "world": "ABC",
+    "code": "03",
+    "name": "AB",
+    "file": "/baba-is-you-media/media/178-ab.mp4",
+    "poster": "assets/level-178.jpg",
+    "seconds": 506.6,
+    "recorded": "2026-09-12",
+    "notes": {
+      "approach": "Recover all five belts, exchange the two physical opposed drivers, and use their delayed shifts to form whole-tile B / AB / A control. Build a shared BABA IS YOU / BABA IS HOT cross, melt the skull and reach the flag.",
+      "mechanics": "The exchanged drivers produce a different second-UP outcome. Three subsequent waits and controlled LEFT establish actual whole-tile control; this does not rehabilitate the earlier internal-AB substring failure or prove an internal ordering contract. The single HOT Baba survives contact with the DEFEAT/MELT skull, then wins on the next UP.",
+      "attempts": "All eight visits and 1,490 inputs are retained chronologically at 2\u00d7, including the failed letter, facing and return-driver tests, one undo, eight explicit waits, 18 arrows during an entry transition and 13 blocked RIGHT inputs. No restart or observed Baba death is identified. Part7\u2019s incidental CONGRATULATIONS animation adds no completion. Four brief frame-spacing gaps intersect no input. The final settled ABC map shows 6/4 and the pause confirms 178 completions with eleven flowers."
+    }
+  },
+  {
+    "id": "level-179",
+    "number": 179,
+    "title": "Overgrowth",
+    "world": "Flower Garden",
+    "code": "09",
+    "name": "Overgrowth",
+    "file": "/baba-is-you-media/media/179-overgrowth.mp4",
+    "poster": "assets/level-179.jpg",
+    "seconds": 475.5,
+    "recorded": "2026-09-12",
+    "notes": {
+      "approach": "Create a second controlled fruit from Baba, build KEY ON FRUIT IS PUSH, and move both fruits through the GRASS-to-HEDGE gate. Use one fruit to provide the local condition and the other to push the sole original key to the door.",
+      "mechanics": "Creating FRUIT from BABA succeeds without overriding the earlier FRUIT-to-KEY identity veto. KEY ON FRUIT IS PUSH permits transport while both fruits remain controlled. The unlocking UP consumes key and door while two separate fruits survive at (499,160) and (499,184); two further UPs win. This corrects the model\u2019s predicted overlap and extra final UP without establishing a universal update order.",
+      "attempts": "All 14 chronological visits and 982 inputs are preserved at 2\u00d7, including 35 undos, one confirmed restart, failed conditional control tests, and two inactive Baba-to-KEY losses on SHUT grass. No controlled-body death is observed. Legacy parts 1\u20138 lack health sidecars; parts 9 and 14 each report one invalid sample. Ten brief frame intervals intersect no input. Two MAP recompletions during navigation add no count. The settled Garden map reads 9/4; the final pause confirms 179 completions and eleven flowers."
+    }
+  },
+  {
+    "id": "level-180",
+    "number": 180,
+    "title": "Out at Sea",
+    "world": "Flower Garden",
+    "code": "Extra2",
+    "name": "Out at Sea",
+    "file": "/baba-is-you-media-2/media/180-out-at-sea.mp4",
+    "poster": "assets/level-180.jpg",
+    "seconds": 117.833333,
+    "recorded": "2026-09-12",
+    "notes": {
+      "approach": "Turn the original ice into an ICE word stacked with LAVA, then convert ON into replacement physical ice while LAVA IS LAVA protects the original lava. Use the spare ICE noun to separate the cargo, then the shared noun pile to make both objects pushable. Send ice, lava and Baba across the belt in that order.",
+      "mechanics": "The ICE/LAVA noun pile supplies both PUSH rules. Actual pauses verify the incidental LAVA IS ICE sentence and the fixed identity rule that protects lava. Each isolated belt crossing matches; ice opens the door while Baba and lava survive. Lava melts the box to release its flag, then Baba contacts it. These observations verify this construction without establishing a universal processing order.",
+      "attempts": "Both chronological visits and all 323 inputs are preserved at 2\u00d7. The successful 312-direction route uses no undo, restart, wait, death or loss of control. One malformed guard command was rejected before dispatch and generated no input. Part1 retains four invalid samples, three gaps outside inputs and its supplied fresh PNG\u2019s failed exact-pixel comparison despite matching geometry. Part2 has two invalid samples and a 101.667ms startup interval before inputs. All323 input brackets and full decodes pass. Rejected desk variants remain distinguished from gameplay. Final pause confirms 180 completions and eleven flowers; settled Garden reads 10/4."
+    }
   }
 ]

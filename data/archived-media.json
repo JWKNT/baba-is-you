@@ -2070,6 +2070,61 @@
       "manifestSha256": "8da2b2f0cd10f18ab30aa672667dd3a43d3c108ccc2e9c2e35f6b0f7a4202371",
       "repository": "JWKNT/baba-is-you-media-2",
       "verifiedCommit": "ac59c29d55782f92598487c42c99d15bdda18286"
+    },
+    {
+      "id": "level-178",
+      "file": "/baba-is-you-media/media/178-ab.mp4",
+      "bytes": 37130172,
+      "sha256": "08055282c3c9c4e10e746727f30860d0c0a28541697839e6d9cd287a0619d23f",
+      "seconds": 506.6,
+      "manifest": "data/pause-edits-178.json",
+      "manifestSha256": "cbde1b5dd18c2b2436727e0f5e867df2c597d8847f84f2c1dccd5645cb6344ea",
+      "repository": "JWKNT/baba-is-you-media",
+      "verifiedCommit": "6093ad63c54a4affc30e4463bcb391ddb9a88b02"
+    },
+    {
+      "id": "level-179",
+      "file": "/baba-is-you-media/media/179-overgrowth.mp4",
+      "bytes": 67878250,
+      "sha256": "e078f6363fb955e3fd2f04ca9c84a187996bfe0b66c9316896d4ef551acfeaed",
+      "seconds": 475.5,
+      "manifest": "data/pause-edits-179.json",
+      "manifestSha256": "55a4d606cee240e2b24d7fc9570138f8940268c42b307cd27560d193852725c5",
+      "repository": "JWKNT/baba-is-you-media",
+      "verifiedCommit": "6093ad63c54a4affc30e4463bcb391ddb9a88b02"
+    },
+    {
+      "id": "secret-hunt-012",
+      "file": "/baba-is-you-media-2/media/secret-hunt-012-ordinary-parent-level-control-test.mp4",
+      "bytes": 14847314,
+      "sha256": "51aca21148bee77a988589c676e834c2f119c00cf924c5c3115e0e50655c8dd1",
+      "seconds": 101.4,
+      "manifest": "data/pause-edits-secret-hunt-012.json",
+      "manifestSha256": "f6fbd744dcb99002a145e966bc21287e83d7325c4987baa0a70121ecdd42237d",
+      "repository": "JWKNT/baba-is-you-media-2",
+      "verifiedCommit": "9d4f1603d302ebb75e8e08bdd7455396f6763c46"
+    },
+    {
+      "id": "level-180",
+      "file": "/baba-is-you-media-2/media/180-out-at-sea.mp4",
+      "bytes": 16135278,
+      "sha256": "8e93ef0011a9ec159bfa81b6c1b27ca0928d35224cffe89e5ddeebe5fc05e913",
+      "seconds": 117.833333,
+      "manifest": "data/pause-edits-180.json",
+      "manifestSha256": "c2ddaccc3834f445f0e12d2c53de4ab78061112b891d928dc0ce6575d4120036",
+      "repository": "JWKNT/baba-is-you-media-2",
+      "verifiedCommit": "9d4f1603d302ebb75e8e08bdd7455396f6763c46"
+    },
+    {
+      "id": "secret-hunt-013",
+      "file": "/baba-is-you-media-2/media/secret-hunt-013-ordinary-parent-baba-transformation.mp4",
+      "bytes": 4328946,
+      "sha256": "57263f90b6dade1de17caca9492e99f416d5748fc9e4b637bbc222ca0d3895e3",
+      "seconds": 94.233333,
+      "manifest": "data/pause-edits-secret-hunt-013.json",
+      "manifestSha256": "3da22b1fa4e0774ebd265c2e6f42a3a8e9f5eddd587044000a9ecafce1172a4e",
+      "repository": "JWKNT/baba-is-you-media-2",
+      "verifiedCommit": "9d4f1603d302ebb75e8e08bdd7455396f6763c46"
     }
   ]
 }

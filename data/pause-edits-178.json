@@ -1,0 +1,2866 @@
+{
+  "source": "Chronological eight-original virtual timeline; no joined raw derivative.",
+  "playbackSpeed": 2,
+  "playbackSpeedScope": "All exported original gameplay; no independently timed inserts.",
+  "sourceParts": [
+    {
+      "part": 1,
+      "source": "recordings/ab-part1.mov",
+      "sha256": "51c6a2e553323ea08f4c59c454ca20df4c95d81ce91aec47dd1ee026eab8fe18",
+      "sourceSeconds": 928.77,
+      "inputCount": 65
+    },
+    {
+      "part": 2,
+      "source": "recordings/ab-part2.mov",
+      "sha256": "743f6669368e8859f0609285c2b5a795c1aed94a84ccd56f9f7271e094de986a",
+      "sourceSeconds": 124.698333,
+      "inputCount": 65
+    },
+    {
+      "part": 3,
+      "source": "recordings/ab-part3.mov",
+      "sha256": "0ac32d8ba1d0fc69200a75e725b0066ce8cabf3f9b8cbcc29bc410a46bc7fb7b",
+      "sourceSeconds": 556.486667,
+      "inputCount": 46
+    },
+    {
+      "part": 4,
+      "source": "recordings/ab-part4.mov",
+      "sha256": "18bf1e55690053172da9da0193622723bfe154560e1635c64c25191a675c95de",
+      "sourceSeconds": 755.165,
+      "inputCount": 74
+    },
+    {
+      "part": 5,
+      "source": "recordings/ab-part5.mov",
+      "sha256": "1b432943b50be5549e4116d72ef10dca884041a6d4426dac453eee7bc86b5d8d",
+      "sourceSeconds": 896.956667,
+      "inputCount": 217
+    },
+    {
+      "part": 6,
+      "source": "recordings/ab-part6.mov",
+      "sha256": "3422c7bc6ad44232ba6da1372a7593e3c5e086ca9222624814d4c06b5a91d6fc",
+      "sourceSeconds": 669.405,
+      "inputCount": 240
+    },
+    {
+      "part": 7,
+      "source": "recordings/ab-part7.mov",
+      "sha256": "00422e63c42d42179cfdc73e88f26e74a85b805aceae4887921ddbd31a97e297",
+      "sourceSeconds": 491.465,
+      "inputCount": 334
+    },
+    {
+      "part": 8,
+      "source": "recordings/ab-part8.mov",
+      "sha256": "0e8336ac7509b67ea8ddfbbc4c11c71e3de142819c8eb47cdc319fa6c465c190",
+      "sourceSeconds": 655.928333,
+      "inputCount": 449
+    }
+  ],
+  "timelineSegments": [
+    {
+      "file": "handoff/qa-178/segments/part1-timed-2x.mp4",
+      "outputSeconds": 27.266667,
+      "frameCount": 818,
+      "bytes": 1690849,
+      "sha256": "32dc5ff893f3aebd462700ec8d7ef9dae062f25f99a8587e1680100c536ef7a2",
+      "kind": "original-timed-gameplay",
+      "part": 1,
+      "source": "recordings/ab-part1.mov",
+      "sourceSha256": "51c6a2e553323ea08f4c59c454ca20df4c95d81ce91aec47dd1ee026eab8fe18",
+      "sourceSeconds": 928.77,
+      "keptIntervals": [
+        [
+          0,
+          15.495774984359741
+        ],
+        [
+          217.17911291122437,
+          221.74894905090332
+        ],
+        [
+          225.7123579978943,
+          231.33232998847961
+        ],
+        [
+          463.57938289642334,
+          467.74563789367676
+        ],
+        [
+          502.56294202804565,
+          512.169237947464
+        ],
+        [
+          576.3151578903198,
+          579.3037470340729
+        ],
+        [
+          621.751944065094,
+          632.6297831535339
+        ],
+        [
+          927.5626080036163,
+          928.77
+        ]
+      ],
+      "playbackSpeed": 2,
+      "retainedSourceSeconds": 54.531954259872464,
+      "expectedOutputSeconds": 27.265977129936232,
+      "capturedInputCount": 65,
+      "actualTiming": {
+        "method": "showinfo integer PTS and declared time base traced during the exact encoding graph, before trim resets and after concat. No additional source QA decode.",
+        "intervals": [
+          {
+            "interval": 0,
+            "requestedSourceWindow": [
+              0,
+              15.495774984359741
+            ],
+            "firstSelectedOriginalPTS": 0.0,
+            "lastSelectedOriginalPTS": 15.483333333333334,
+            "selectedFrameCount": 456,
+            "actualConcatenatedStartPTS": 0.0,
+            "actualConcatenatedLastPTS": 15.483333,
+            "maximumTraceDifferenceSeconds": 3.3333333604446125e-07
+          },
+          {
+            "interval": 1,
+            "requestedSourceWindow": [
+              217.17911291122437,
+              221.74894905090332
+            ],
+            "firstSelectedOriginalPTS": 217.19333333333336,
+            "lastSelectedOriginalPTS": 221.71833333333333,
+            "selectedFrameCount": 134,
+            "actualConcatenatedStartPTS": 15.517361999999999,
+            "actualConcatenatedLastPTS": 20.042362,
+            "maximumTraceDifferenceSeconds": 3.333333573607433e-07
+          },
+          {
+            "interval": 2,
+            "requestedSourceWindow": [
+              225.7123579978943,
+              231.33232998847961
+            ],
+            "firstSelectedOriginalPTS": 225.7266666666667,
+            "lastSelectedOriginalPTS": 231.3,
+            "selectedFrameCount": 165,
+            "actualConcatenatedStartPTS": 20.076385,
+            "actualConcatenatedLastPTS": 25.649718,
+            "maximumTraceDifferenceSeconds": 3.3333335380802964e-07
+          },
+          {
+            "interval": 3,
+            "requestedSourceWindow": [
+              463.57938289642334,
+              467.74563789367676
+            ],
+            "firstSelectedOriginalPTS": 463.59333333333336,
+            "lastSelectedOriginalPTS": 467.72333333333336,
+            "selectedFrameCount": 122,
+            "actualConcatenatedStartPTS": 25.683702,
+            "actualConcatenatedLastPTS": 29.813702,
+            "maximumTraceDifferenceSeconds": 3.33333360913457e-07
+          },
+          {
+            "interval": 4,
+            "requestedSourceWindow": [
+              502.56294202804565,
+              512.169237947464
+            ],
+            "firstSelectedOriginalPTS": 502.59333333333336,
+            "lastSelectedOriginalPTS": 512.1466666666666,
+            "selectedFrameCount": 282,
+            "actualConcatenatedStartPTS": 29.847834,
+            "actualConcatenatedLastPTS": 39.401167,
+            "maximumTraceDifferenceSeconds": 3.33333360913457e-07
+          },
+          {
+            "interval": 5,
+            "requestedSourceWindow": [
+              576.3151578903198,
+              579.3037470340729
+            ],
+            "firstSelectedOriginalPTS": 576.33,
+            "lastSelectedOriginalPTS": 579.3000000000001,
+            "selectedFrameCount": 88,
+            "actualConcatenatedStartPTS": 39.435165,
+            "actualConcatenatedLastPTS": 42.405165,
+            "maximumTraceDifferenceSeconds": 3.333333964405938e-07
+          },
+          {
+            "interval": 6,
+            "requestedSourceWindow": [
+              621.751944065094,
+              632.6297831535339
+            ],
+            "firstSelectedOriginalPTS": 621.7683333333333,
+            "lastSelectedOriginalPTS": 632.6283333333333,
+            "selectedFrameCount": 320,
+            "actualConcatenatedStartPTS": 42.439302999999995,
+            "actualConcatenatedLastPTS": 53.299302999999995,
+            "maximumTraceDifferenceSeconds": 3.3333343907315793e-07
+          },
+          {
+            "interval": 7,
+            "requestedSourceWindow": [
+              927.5626080036163,
+              928.77
+            ],
+            "firstSelectedOriginalPTS": 927.58,
+            "lastSelectedOriginalPTS": 928.735,
+            "selectedFrameCount": 35,
+            "actualConcatenatedStartPTS": 53.333346999999996,
+            "actualConcatenatedLastPTS": 54.488347,
+            "maximumTraceDifferenceSeconds": 3.3333340354602115e-07
+          }
+        ],
+        "frameSequenceMatched": true
+      },
+      "outputStart": 0.0,
+      "firstOutputFrameIndex": 0
+    },
+    {
+      "file": "handoff/qa-178/segments/part2-timed-2x.mp4",
+      "outputSeconds": 19.633333,
+      "frameCount": 589,
+      "bytes": 1303258,
+      "sha256": "9e57a4f3f4553e00d0dedcf61b3f34a63fa92312dfb067d343818deffbf13df7",
+      "kind": "original-timed-gameplay",
+      "part": 2,
+      "source": "recordings/ab-part2.mov",
+      "sourceSha256": "743f6669368e8859f0609285c2b5a795c1aed94a84ccd56f9f7271e094de986a",
+      "sourceSeconds": 124.698333,
+      "keptIntervals": [
+        [
+          0,
+          14.08406686782837
+        ],
+        [
+          39.51079988479614,
+          53.24692916870117
+        ],
+        [
+          72.47557101249694,
+          75.61990890502929
+        ],
+        [
+          116.38565683364868,
+          124.698333
+        ]
+      ],
+      "playbackSpeed": 2,
+      "retainedSourceSeconds": 39.27721021061707,
+      "expectedOutputSeconds": 19.638605105308535,
+      "capturedInputCount": 65,
+      "actualTiming": {
+        "method": "showinfo integer PTS and declared time base traced during the exact encoding graph, before trim resets and after concat. No additional source QA decode.",
+        "intervals": [
+          {
+            "interval": 0,
+            "requestedSourceWindow": [
+              0,
+              14.08406686782837
+            ],
+            "firstSelectedOriginalPTS": 0.0,
+            "lastSelectedOriginalPTS": 14.053333333333335,
+            "selectedFrameCount": 414,
+            "actualConcatenatedStartPTS": 0.0,
+            "actualConcatenatedLastPTS": 14.053332999999999,
+            "maximumTraceDifferenceSeconds": 3.3333333604446125e-07
+          },
+          {
+            "interval": 1,
+            "requestedSourceWindow": [
+              39.51079988479614,
+              53.24692916870117
+            ],
+            "firstSelectedOriginalPTS": 39.53,
+            "lastSelectedOriginalPTS": 53.24,
+            "selectedFrameCount": 404,
+            "actualConcatenatedStartPTS": 14.087359999999999,
+            "actualConcatenatedLastPTS": 27.797359999999998,
+            "maximumTraceDifferenceSeconds": 3.333333378208181e-07
+          },
+          {
+            "interval": 2,
+            "requestedSourceWindow": [
+              72.47557101249694,
+              75.61990890502929
+            ],
+            "firstSelectedOriginalPTS": 72.50833333333334,
+            "lastSelectedOriginalPTS": 75.61833333333334,
+            "selectedFrameCount": 92,
+            "actualConcatenatedStartPTS": 27.83138,
+            "actualConcatenatedLastPTS": 30.94138,
+            "maximumTraceDifferenceSeconds": 3.3333333959717493e-07
+          },
+          {
+            "interval": 3,
+            "requestedSourceWindow": [
+              116.38565683364868,
+              124.698333
+            ],
+            "firstSelectedOriginalPTS": 116.39,
+            "lastSelectedOriginalPTS": 124.66333333333334,
+            "selectedFrameCount": 244,
+            "actualConcatenatedStartPTS": 30.975555999999997,
+            "actualConcatenatedLastPTS": 39.248889,
+            "maximumTraceDifferenceSeconds": 3.333333467026023e-07
+          }
+        ],
+        "frameSequenceMatched": true
+      },
+      "outputStart": 27.266666666666666,
+      "firstOutputFrameIndex": 818
+    },
+    {
+      "file": "handoff/qa-178/segments/part3-timed-2x.mp4",
+      "outputSeconds": 39.7,
+      "frameCount": 1191,
+      "bytes": 3334519,
+      "sha256": "6d1f378baee8277fe0fa8986a277cccc6cf7265c38c2438def8b4ad9b9fe85f2",
+      "kind": "original-timed-gameplay",
+      "part": 3,
+      "source": "recordings/ab-part3.mov",
+      "sourceSha256": "0ac32d8ba1d0fc69200a75e725b0066ce8cabf3f9b8cbcc29bc410a46bc7fb7b",
+      "sourceSeconds": 556.486667,
+      "keptIntervals": [
+        [
+          0,
+          2
+        ],
+        [
+          10.638334274291992,
+          19.926645278930664
+        ],
+        [
+          26.390851974487305,
+          29.97911310195923
+        ],
+        [
+          42.26301717758179,
+          55.560033082962036
+        ],
+        [
+          68.47847700119019,
+          78.55721998214722
+        ],
+        [
+          98.44473695755005,
+          103.50124111175538
+        ],
+        [
+          279.311646938324,
+          286.34884610176084
+        ],
+        [
+          301.66656494140625,
+          304.7141369819641
+        ],
+        [
+          382.4145381450653,
+          385.460996055603
+        ],
+        [
+          426.3035080432892,
+          429.34466924667356
+        ],
+        [
+          533.7876291275024,
+          553.6844749450684
+        ]
+      ],
+      "playbackSpeed": 2,
+      "retainedSourceSeconds": 79.3780713081359,
+      "expectedOutputSeconds": 39.68903565406795,
+      "capturedInputCount": 46,
+      "actualTiming": {
+        "method": "showinfo integer PTS and declared time base traced during the exact encoding graph, before trim resets and after concat. No additional source QA decode.",
+        "intervals": [
+          {
+            "interval": 0,
+            "requestedSourceWindow": [
+              0,
+              2
+            ],
+            "firstSelectedOriginalPTS": 0.0,
+            "lastSelectedOriginalPTS": 1.975,
+            "selectedFrameCount": 59,
+            "actualConcatenatedStartPTS": 0.0,
+            "actualConcatenatedLastPTS": 1.9749999999999999,
+            "maximumTraceDifferenceSeconds": 3.333333336019706e-07
+          },
+          {
+            "interval": 1,
+            "requestedSourceWindow": [
+              10.638334274291992,
+              19.926645278930664
+            ],
+            "firstSelectedOriginalPTS": 10.658333333333333,
+            "lastSelectedOriginalPTS": 19.918333333333333,
+            "selectedFrameCount": 273,
+            "actualConcatenatedStartPTS": 2.009052,
+            "actualConcatenatedLastPTS": 11.269052,
+            "maximumTraceDifferenceSeconds": 3.333333378208181e-07
+          },
+          {
+            "interval": 2,
+            "requestedSourceWindow": [
+              26.390851974487305,
+              29.97911310195923
+            ],
+            "firstSelectedOriginalPTS": 26.41,
+            "lastSelectedOriginalPTS": 29.955000000000002,
+            "selectedFrameCount": 105,
+            "actualConcatenatedStartPTS": 11.303096,
+            "actualConcatenatedLastPTS": 14.848096,
+            "maximumTraceDifferenceSeconds": 3.333333378208181e-07
+          },
+          {
+            "interval": 3,
+            "requestedSourceWindow": [
+              42.26301717758179,
+              55.560033082962036
+            ],
+            "firstSelectedOriginalPTS": 42.295,
+            "lastSelectedOriginalPTS": 55.53,
+            "selectedFrameCount": 389,
+            "actualConcatenatedStartPTS": 14.882183,
+            "actualConcatenatedLastPTS": 28.117182999999997,
+            "maximumTraceDifferenceSeconds": 3.333333378208181e-07
+          },
+          {
+            "interval": 4,
+            "requestedSourceWindow": [
+              68.47847700119019,
+              78.55721998214722
+            ],
+            "firstSelectedOriginalPTS": 68.48333333333333,
+            "lastSelectedOriginalPTS": 78.55166666666668,
+            "selectedFrameCount": 297,
+            "actualConcatenatedStartPTS": 28.151294,
+            "actualConcatenatedLastPTS": 38.219626999999996,
+            "maximumTraceDifferenceSeconds": 3.333333467026023e-07
+          },
+          {
+            "interval": 5,
+            "requestedSourceWindow": [
+              98.44473695755005,
+              103.50124111175538
+            ],
+            "firstSelectedOriginalPTS": 98.45,
+            "lastSelectedOriginalPTS": 103.49666666666667,
+            "selectedFrameCount": 149,
+            "actualConcatenatedStartPTS": 38.253642,
+            "actualConcatenatedLastPTS": 43.300309,
+            "maximumTraceDifferenceSeconds": 3.333333467026023e-07
+          },
+          {
+            "interval": 6,
+            "requestedSourceWindow": [
+              279.311646938324,
+              286.34884610176084
+            ],
+            "firstSelectedOriginalPTS": 279.31666666666666,
+            "lastSelectedOriginalPTS": 286.315,
+            "selectedFrameCount": 206,
+            "actualConcatenatedStartPTS": 43.334407999999996,
+            "actualConcatenatedLastPTS": 50.332741,
+            "maximumTraceDifferenceSeconds": 3.3333338222973907e-07
+          },
+          {
+            "interval": 7,
+            "requestedSourceWindow": [
+              301.66656494140625,
+              304.7141369819641
+            ],
+            "firstSelectedOriginalPTS": 301.70000000000005,
+            "lastSelectedOriginalPTS": 304.7033333333334,
+            "selectedFrameCount": 89,
+            "actualConcatenatedStartPTS": 50.366879,
+            "actualConcatenatedLastPTS": 53.370211999999995,
+            "maximumTraceDifferenceSeconds": 3.3333338222973907e-07
+          },
+          {
+            "interval": 8,
+            "requestedSourceWindow": [
+              382.4145381450653,
+              385.460996055603
+            ],
+            "firstSelectedOriginalPTS": 382.43666666666667,
+            "lastSelectedOriginalPTS": 385.4533333333334,
+            "selectedFrameCount": 90,
+            "actualConcatenatedStartPTS": 53.404340999999995,
+            "actualConcatenatedLastPTS": 56.421008,
+            "maximumTraceDifferenceSeconds": 3.3333338222973907e-07
+          },
+          {
+            "interval": 9,
+            "requestedSourceWindow": [
+              426.3035080432892,
+              429.34466924667356
+            ],
+            "firstSelectedOriginalPTS": 426.3366666666667,
+            "lastSelectedOriginalPTS": 429.33000000000004,
+            "selectedFrameCount": 89,
+            "actualConcatenatedStartPTS": 56.454902999999995,
+            "actualConcatenatedLastPTS": 59.448235999999994,
+            "maximumTraceDifferenceSeconds": 3.333333751243117e-07
+          },
+          {
+            "interval": 10,
+            "requestedSourceWindow": [
+              533.7876291275024,
+              553.6844749450684
+            ],
+            "firstSelectedOriginalPTS": 533.7950000000001,
+            "lastSelectedOriginalPTS": 553.6700000000001,
+            "selectedFrameCount": 586,
+            "actualConcatenatedStartPTS": 59.482251,
+            "actualConcatenatedLastPTS": 79.35725099999999,
+            "maximumTraceDifferenceSeconds": 3.333334248623032e-07
+          }
+        ],
+        "frameSequenceMatched": true
+      },
+      "outputStart": 46.9,
+      "firstOutputFrameIndex": 1407
+    },
+    {
+      "file": "handoff/qa-178/segments/part4-timed-2x.mp4",
+      "outputSeconds": 27.066667,
+      "frameCount": 812,
+      "bytes": 1422322,
+      "sha256": "0c8a4fce25d2c88a8ad18cda3a431e37625e4abbb137e09eb93f288c7d9dffbe",
+      "kind": "original-timed-gameplay",
+      "part": 4,
+      "source": "recordings/ab-part4.mov",
+      "sourceSha256": "18bf1e55690053172da9da0193622723bfe154560e1635c64c25191a675c95de",
+      "sourceSeconds": 755.165,
+      "keptIntervals": [
+        [
+          0,
+          2
+        ],
+        [
+          6.555553197860718,
+          21.5
+        ],
+        [
+          31.479319095611572,
+          35.880237102508545
+        ],
+        [
+          60.5069522857666,
+          80.26144019126892
+        ],
+        [
+          488.9177711009979,
+          491.30683422088623
+        ],
+        [
+          738.7922811508179,
+          748.2116780281067
+        ],
+        [
+          753.973717212677,
+          755.165
+        ]
+      ],
+      "playbackSpeed": 2,
+      "retainedSourceSeconds": 54.09959549903866,
+      "expectedOutputSeconds": 27.04979774951933,
+      "capturedInputCount": 74,
+      "actualTiming": {
+        "method": "showinfo integer PTS and declared time base traced during the exact encoding graph, before trim resets and after concat. No additional source QA decode.",
+        "intervals": [
+          {
+            "interval": 0,
+            "requestedSourceWindow": [
+              0,
+              2
+            ],
+            "firstSelectedOriginalPTS": 0.0,
+            "lastSelectedOriginalPTS": 1.971666666666667,
+            "selectedFrameCount": 59,
+            "actualConcatenatedStartPTS": 0.0,
+            "actualConcatenatedLastPTS": 1.9716669999999998,
+            "maximumTraceDifferenceSeconds": 3.333333336019706e-07
+          },
+          {
+            "interval": 1,
+            "requestedSourceWindow": [
+              6.555553197860718,
+              21.5
+            ],
+            "firstSelectedOriginalPTS": 6.5566666666666675,
+            "lastSelectedOriginalPTS": 21.470000000000002,
+            "selectedFrameCount": 438,
+            "actualConcatenatedStartPTS": 2.005661,
+            "actualConcatenatedLastPTS": 16.918993999999998,
+            "maximumTraceDifferenceSeconds": 3.3333333604446125e-07
+          },
+          {
+            "interval": 2,
+            "requestedSourceWindow": [
+              31.479319095611572,
+              35.880237102508545
+            ],
+            "firstSelectedOriginalPTS": 31.513333333333335,
+            "lastSelectedOriginalPTS": 35.85333333333334,
+            "selectedFrameCount": 128,
+            "actualConcatenatedStartPTS": 16.953121,
+            "actualConcatenatedLastPTS": 21.293121,
+            "maximumTraceDifferenceSeconds": 3.3333333604446125e-07
+          },
+          {
+            "interval": 3,
+            "requestedSourceWindow": [
+              60.5069522857666,
+              80.26144019126892
+            ],
+            "firstSelectedOriginalPTS": 60.50833333333334,
+            "lastSelectedOriginalPTS": 80.235,
+            "selectedFrameCount": 579,
+            "actualConcatenatedStartPTS": 21.327294,
+            "actualConcatenatedLastPTS": 41.053961,
+            "maximumTraceDifferenceSeconds": 3.333333431498886e-07
+          },
+          {
+            "interval": 4,
+            "requestedSourceWindow": [
+              488.9177711009979,
+              491.30683422088623
+            ],
+            "firstSelectedOriginalPTS": 488.925,
+            "lastSelectedOriginalPTS": 491.3016666666667,
+            "selectedFrameCount": 71,
+            "actualConcatenatedStartPTS": 41.08809,
+            "actualConcatenatedLastPTS": 43.464757,
+            "maximumTraceDifferenceSeconds": 3.3333338222973907e-07
+          },
+          {
+            "interval": 5,
+            "requestedSourceWindow": [
+              738.7922811508179,
+              748.2116780281067
+            ],
+            "firstSelectedOriginalPTS": 738.8166666666667,
+            "lastSelectedOriginalPTS": 748.1983333333334,
+            "selectedFrameCount": 276,
+            "actualConcatenatedStartPTS": 43.498709,
+            "actualConcatenatedLastPTS": 52.880376,
+            "maximumTraceDifferenceSeconds": 3.333333964405938e-07
+          },
+          {
+            "interval": 6,
+            "requestedSourceWindow": [
+              753.973717212677,
+              755.165
+            ],
+            "firstSelectedOriginalPTS": 753.9733333333334,
+            "lastSelectedOriginalPTS": 755.1316666666667,
+            "selectedFrameCount": 35,
+            "actualConcatenatedStartPTS": 52.914491,
+            "actualConcatenatedLastPTS": 54.072824,
+            "maximumTraceDifferenceSeconds": 3.333334106514485e-07
+          }
+        ],
+        "frameSequenceMatched": true
+      },
+      "outputStart": 86.6,
+      "firstOutputFrameIndex": 2598
+    },
+    {
+      "file": "handoff/qa-178/segments/part5-timed-2x.mp4",
+      "outputSeconds": 61.533333,
+      "frameCount": 1846,
+      "bytes": 3943009,
+      "sha256": "714395b6343c994369e5eac859584f929ec6289ce93c71f5e3459b72645fdae3",
+      "kind": "original-timed-gameplay",
+      "part": 5,
+      "source": "recordings/ab-part5.mov",
+      "sourceSha256": "1b432943b50be5549e4116d72ef10dca884041a6d4426dac453eee7bc86b5d8d",
+      "sourceSeconds": 896.956667,
+      "keptIntervals": [
+        [
+          0,
+          2.9909310340881348
+        ],
+        [
+          25.326759815216064,
+          35.71860074996948
+        ],
+        [
+          61.05666494369507,
+          76.71041297912598
+        ],
+        [
+          86.32720589637756,
+          95.98224878311157
+        ],
+        [
+          109.52812004089355,
+          138.98605785369872
+        ],
+        [
+          665.8814730644226,
+          689.2238099575043
+        ],
+        [
+          699.5731508731842,
+          718.0268488883972
+        ],
+        [
+          740.7792229652405,
+          743.767998790741
+        ],
+        [
+          762.5908789634705,
+          765.5833450317383
+        ],
+        [
+          889.8518099784851,
+          896.956667
+        ]
+      ],
+      "playbackSpeed": 2,
+      "retainedSourceSeconds": 123.03163452738963,
+      "expectedOutputSeconds": 61.515817263694814,
+      "capturedInputCount": 217,
+      "actualTiming": {
+        "method": "showinfo integer PTS and declared time base traced during the exact encoding graph, before trim resets and after concat. No additional source QA decode.",
+        "intervals": [
+          {
+            "interval": 0,
+            "requestedSourceWindow": [
+              0,
+              2.9909310340881348
+            ],
+            "firstSelectedOriginalPTS": 0.0,
+            "lastSelectedOriginalPTS": 2.97,
+            "selectedFrameCount": 88,
+            "actualConcatenatedStartPTS": 0.0,
+            "actualConcatenatedLastPTS": 2.9699999999999998,
+            "maximumTraceDifferenceSeconds": 3.333333338240152e-07
+          },
+          {
+            "interval": 1,
+            "requestedSourceWindow": [
+              25.326759815216064,
+              35.71860074996948
+            ],
+            "firstSelectedOriginalPTS": 25.338333333333335,
+            "lastSelectedOriginalPTS": 35.708333333333336,
+            "selectedFrameCount": 306,
+            "actualConcatenatedStartPTS": 3.0041379999999998,
+            "actualConcatenatedLastPTS": 13.374137999999999,
+            "maximumTraceDifferenceSeconds": 3.333333378208181e-07
+          },
+          {
+            "interval": 2,
+            "requestedSourceWindow": [
+              61.05666494369507,
+              76.71041297912598
+            ],
+            "firstSelectedOriginalPTS": 61.06166666666667,
+            "lastSelectedOriginalPTS": 76.69833333333334,
+            "selectedFrameCount": 457,
+            "actualConcatenatedStartPTS": 13.408138,
+            "actualConcatenatedLastPTS": 29.044805,
+            "maximumTraceDifferenceSeconds": 3.3333334492624545e-07
+          },
+          {
+            "interval": 3,
+            "requestedSourceWindow": [
+              86.32720589637756,
+              95.98224878311157
+            ],
+            "firstSelectedOriginalPTS": 86.34166666666667,
+            "lastSelectedOriginalPTS": 95.97500000000001,
+            "selectedFrameCount": 283,
+            "actualConcatenatedStartPTS": 29.079096,
+            "actualConcatenatedLastPTS": 38.712429,
+            "maximumTraceDifferenceSeconds": 3.333333467026023e-07
+          },
+          {
+            "interval": 4,
+            "requestedSourceWindow": [
+              109.52812004089355,
+              138.98605785369872
+            ],
+            "firstSelectedOriginalPTS": 109.56,
+            "lastSelectedOriginalPTS": 138.97,
+            "selectedFrameCount": 862,
+            "actualConcatenatedStartPTS": 38.74659,
+            "actualConcatenatedLastPTS": 68.15659,
+            "maximumTraceDifferenceSeconds": 3.3333335380802964e-07
+          },
+          {
+            "interval": 5,
+            "requestedSourceWindow": [
+              665.8814730644226,
+              689.2238099575043
+            ],
+            "firstSelectedOriginalPTS": 665.9066666666668,
+            "lastSelectedOriginalPTS": 689.2,
+            "selectedFrameCount": 682,
+            "actualConcatenatedStartPTS": 68.190748,
+            "actualConcatenatedLastPTS": 91.48408099999999,
+            "maximumTraceDifferenceSeconds": 3.333334319677306e-07
+          },
+          {
+            "interval": 6,
+            "requestedSourceWindow": [
+              699.5731508731842,
+              718.0268488883972
+            ],
+            "firstSelectedOriginalPTS": 699.6033333333334,
+            "lastSelectedOriginalPTS": 718.0133333333334,
+            "selectedFrameCount": 538,
+            "actualConcatenatedStartPTS": 91.51828599999999,
+            "actualConcatenatedLastPTS": 109.928286,
+            "maximumTraceDifferenceSeconds": 3.3333340354602115e-07
+          },
+          {
+            "interval": 7,
+            "requestedSourceWindow": [
+              740.7792229652405,
+              743.767998790741
+            ],
+            "firstSelectedOriginalPTS": 740.7933333333334,
+            "lastSelectedOriginalPTS": 743.7516666666667,
+            "selectedFrameCount": 88,
+            "actualConcatenatedStartPTS": 109.962569,
+            "actualConcatenatedLastPTS": 112.920902,
+            "maximumTraceDifferenceSeconds": 3.3333340354602115e-07
+          },
+          {
+            "interval": 8,
+            "requestedSourceWindow": [
+              762.5908789634705,
+              765.5833450317383
+            ],
+            "firstSelectedOriginalPTS": 762.6016666666667,
+            "lastSelectedOriginalPTS": 765.5550000000001,
+            "selectedFrameCount": 88,
+            "actualConcatenatedStartPTS": 112.954906,
+            "actualConcatenatedLastPTS": 115.908239,
+            "maximumTraceDifferenceSeconds": 3.3333341775687586e-07
+          },
+          {
+            "interval": 9,
+            "requestedSourceWindow": [
+              889.8518099784851,
+              896.956667
+            ],
+            "firstSelectedOriginalPTS": 889.8533333333334,
+            "lastSelectedOriginalPTS": 896.9233333333334,
+            "selectedFrameCount": 209,
+            "actualConcatenatedStartPTS": 115.942185,
+            "actualConcatenatedLastPTS": 123.01218499999999,
+            "maximumTraceDifferenceSeconds": 3.333334319677306e-07
+          }
+        ],
+        "frameSequenceMatched": true
+      },
+      "outputStart": 113.66666666666667,
+      "firstOutputFrameIndex": 3410
+    },
+    {
+      "file": "handoff/qa-178/segments/part6-timed-2x.mp4",
+      "outputSeconds": 89.4,
+      "frameCount": 2682,
+      "bytes": 7000840,
+      "sha256": "139805d6c5506bd471504b7d4b2e5e37988d486be1e06d274165bdb1009b8b52",
+      "kind": "original-timed-gameplay",
+      "part": 6,
+      "source": "recordings/ab-part6.mov",
+      "sourceSha256": "3422c7bc6ad44232ba6da1372a7593e3c5e086ca9222624814d4c06b5a91d6fc",
+      "sourceSeconds": 669.405,
+      "keptIntervals": [
+        [
+          0,
+          2
+        ],
+        [
+          105.05940198898315,
+          114.3316810131073
+        ],
+        [
+          118.87052702903748,
+          128.55833411216736
+        ],
+        [
+          129.9052050113678,
+          133.48349118232727
+        ],
+        [
+          143.37119007110596,
+          149.7335569858551
+        ],
+        [
+          159.95481705665588,
+          168.8497920036316
+        ],
+        [
+          174.44094705581665,
+          177.79320311546326
+        ],
+        [
+          193.01580691337585,
+          201.90725588798523
+        ],
+        [
+          211.13774299621582,
+          226.72687888145447
+        ],
+        [
+          237.98073196411133,
+          247.77970504760742
+        ],
+        [
+          267.47084307670593,
+          296.3623290538788
+        ],
+        [
+          335.27409291267395,
+          340.05207085609436
+        ],
+        [
+          355.34160685539246,
+          371.36212706565857
+        ],
+        [
+          390.0258061885834,
+          399.69231605529785
+        ],
+        [
+          413.798663854599,
+          420.64500999450684
+        ],
+        [
+          436.36449003219604,
+          444.9991000175476
+        ],
+        [
+          454.78390288352966,
+          457.16756296157837
+        ],
+        [
+          465.25,
+          467.5
+        ],
+        [
+          477.82224798202515,
+          481.01035504341127
+        ],
+        [
+          616.0121219158173,
+          618.4025599956512
+        ],
+        [
+          623.25,
+          625.5
+        ],
+        [
+          631.8139288425446,
+          634.9990621089935
+        ],
+        [
+          643.3489038944244,
+          654.2412710189819
+        ]
+      ],
+      "playbackSpeed": 2,
+      "retainedSourceSeconds": 178.8046838760376,
+      "expectedOutputSeconds": 89.4023419380188,
+      "capturedInputCount": 240,
+      "actualTiming": {
+        "method": "showinfo integer PTS and declared time base traced during the exact encoding graph, before trim resets and after concat. No additional source QA decode.",
+        "intervals": [
+          {
+            "interval": 0,
+            "requestedSourceWindow": [
+              0,
+              2
+            ],
+            "firstSelectedOriginalPTS": 0.0,
+            "lastSelectedOriginalPTS": 1.9700000000000002,
+            "selectedFrameCount": 59,
+            "actualConcatenatedStartPTS": 0.0,
+            "actualConcatenatedLastPTS": 1.97,
+            "maximumTraceDifferenceSeconds": 3.333333336019706e-07
+          },
+          {
+            "interval": 1,
+            "requestedSourceWindow": [
+              105.05940198898315,
+              114.3316810131073
+            ],
+            "firstSelectedOriginalPTS": 105.09,
+            "lastSelectedOriginalPTS": 114.30666666666667,
+            "selectedFrameCount": 272,
+            "actualConcatenatedStartPTS": 2.0039659999999997,
+            "actualConcatenatedLastPTS": 11.220633,
+            "maximumTraceDifferenceSeconds": 3.3333334492624545e-07
+          },
+          {
+            "interval": 2,
+            "requestedSourceWindow": [
+              118.87052702903748,
+              128.55833411216736
+            ],
+            "firstSelectedOriginalPTS": 118.89833333333334,
+            "lastSelectedOriginalPTS": 128.55333333333334,
+            "selectedFrameCount": 285,
+            "actualConcatenatedStartPTS": 11.254643,
+            "actualConcatenatedLastPTS": 20.909643,
+            "maximumTraceDifferenceSeconds": 3.333333484789591e-07
+          },
+          {
+            "interval": 3,
+            "requestedSourceWindow": [
+              129.9052050113678,
+              133.48349118232727
+            ],
+            "firstSelectedOriginalPTS": 129.91833333333335,
+            "lastSelectedOriginalPTS": 133.455,
+            "selectedFrameCount": 105,
+            "actualConcatenatedStartPTS": 20.943638999999997,
+            "actualConcatenatedLastPTS": 24.480306,
+            "maximumTraceDifferenceSeconds": 3.333333573607433e-07
+          },
+          {
+            "interval": 4,
+            "requestedSourceWindow": [
+              143.37119007110596,
+              149.7335569858551
+            ],
+            "firstSelectedOriginalPTS": 143.375,
+            "lastSelectedOriginalPTS": 149.72,
+            "selectedFrameCount": 187,
+            "actualConcatenatedStartPTS": 24.514312,
+            "actualConcatenatedLastPTS": 30.859312,
+            "maximumTraceDifferenceSeconds": 3.333333573607433e-07
+          },
+          {
+            "interval": 5,
+            "requestedSourceWindow": [
+              159.95481705665588,
+              168.8497920036316
+            ],
+            "firstSelectedOriginalPTS": 159.98000000000002,
+            "lastSelectedOriginalPTS": 168.84833333333336,
+            "selectedFrameCount": 262,
+            "actualConcatenatedStartPTS": 30.893424999999997,
+            "actualConcatenatedLastPTS": 39.761758,
+            "maximumTraceDifferenceSeconds": 3.333333573607433e-07
+          },
+          {
+            "interval": 6,
+            "requestedSourceWindow": [
+              174.44094705581665,
+              177.79320311546326
+            ],
+            "firstSelectedOriginalPTS": 174.46166666666667,
+            "lastSelectedOriginalPTS": 177.77166666666668,
+            "selectedFrameCount": 98,
+            "actualConcatenatedStartPTS": 39.795736,
+            "actualConcatenatedLastPTS": 43.105736,
+            "maximumTraceDifferenceSeconds": 3.3333335380802964e-07
+          },
+          {
+            "interval": 7,
+            "requestedSourceWindow": [
+              193.01580691337585,
+              201.90725588798523
+            ],
+            "firstSelectedOriginalPTS": 193.04166666666669,
+            "lastSelectedOriginalPTS": 201.88333333333335,
+            "selectedFrameCount": 261,
+            "actualConcatenatedStartPTS": 43.13986,
+            "actualConcatenatedLastPTS": 51.981527,
+            "maximumTraceDifferenceSeconds": 3.3333335380802964e-07
+          },
+          {
+            "interval": 8,
+            "requestedSourceWindow": [
+              211.13774299621582,
+              226.72687888145447
+            ],
+            "firstSelectedOriginalPTS": 211.16500000000002,
+            "lastSelectedOriginalPTS": 226.7216666666667,
+            "selectedFrameCount": 457,
+            "actualConcatenatedStartPTS": 52.015533,
+            "actualConcatenatedLastPTS": 67.5722,
+            "maximumTraceDifferenceSeconds": 3.3333335380802964e-07
+          },
+          {
+            "interval": 9,
+            "requestedSourceWindow": [
+              237.98073196411133,
+              247.77970504760742
+            ],
+            "firstSelectedOriginalPTS": 238.01166666666668,
+            "lastSelectedOriginalPTS": 247.76666666666668,
+            "selectedFrameCount": 287,
+            "actualConcatenatedStartPTS": 67.606315,
+            "actualConcatenatedLastPTS": 77.36131499999999,
+            "maximumTraceDifferenceSeconds": 3.333333467026023e-07
+          },
+          {
+            "interval": 10,
+            "requestedSourceWindow": [
+              267.47084307670593,
+              296.3623290538788
+            ],
+            "firstSelectedOriginalPTS": 267.4816666666667,
+            "lastSelectedOriginalPTS": 296.35333333333335,
+            "selectedFrameCount": 847,
+            "actualConcatenatedStartPTS": 77.395423,
+            "actualConcatenatedLastPTS": 106.26709,
+            "maximumTraceDifferenceSeconds": 3.33333360913457e-07
+          },
+          {
+            "interval": 11,
+            "requestedSourceWindow": [
+              335.27409291267395,
+              340.05207085609436
+            ],
+            "firstSelectedOriginalPTS": 335.3,
+            "lastSelectedOriginalPTS": 340.0183333333334,
+            "selectedFrameCount": 139,
+            "actualConcatenatedStartPTS": 106.301217,
+            "actualConcatenatedLastPTS": 111.01955,
+            "maximumTraceDifferenceSeconds": 3.333333751243117e-07
+          },
+          {
+            "interval": 12,
+            "requestedSourceWindow": [
+              355.34160685539246,
+              371.36212706565857
+            ],
+            "firstSelectedOriginalPTS": 355.365,
+            "lastSelectedOriginalPTS": 371.34000000000003,
+            "selectedFrameCount": 469,
+            "actualConcatenatedStartPTS": 111.05374099999999,
+            "actualConcatenatedLastPTS": 127.028741,
+            "maximumTraceDifferenceSeconds": 3.333333751243117e-07
+          },
+          {
+            "interval": 13,
+            "requestedSourceWindow": [
+              390.0258061885834,
+              399.69231605529785
+            ],
+            "firstSelectedOriginalPTS": 390.0366666666667,
+            "lastSelectedOriginalPTS": 399.67833333333334,
+            "selectedFrameCount": 284,
+            "actualConcatenatedStartPTS": 127.06287599999999,
+            "actualConcatenatedLastPTS": 136.704543,
+            "maximumTraceDifferenceSeconds": 3.33333360913457e-07
+          },
+          {
+            "interval": 14,
+            "requestedSourceWindow": [
+              413.798663854599,
+              420.64500999450684
+            ],
+            "firstSelectedOriginalPTS": 413.805,
+            "lastSelectedOriginalPTS": 420.6333333333334,
+            "selectedFrameCount": 201,
+            "actualConcatenatedStartPTS": 136.738612,
+            "actualConcatenatedLastPTS": 143.566945,
+            "maximumTraceDifferenceSeconds": 3.3333338933516643e-07
+          },
+          {
+            "interval": 15,
+            "requestedSourceWindow": [
+              436.36449003219604,
+              444.9991000175476
+            ],
+            "firstSelectedOriginalPTS": 436.37333333333333,
+            "lastSelectedOriginalPTS": 444.96500000000003,
+            "selectedFrameCount": 253,
+            "actualConcatenatedStartPTS": 143.601087,
+            "actualConcatenatedLastPTS": 152.19275399999998,
+            "maximumTraceDifferenceSeconds": 3.3333338933516643e-07
+          },
+          {
+            "interval": 16,
+            "requestedSourceWindow": [
+              454.78390288352966,
+              457.16756296157837
+            ],
+            "firstSelectedOriginalPTS": 454.79,
+            "lastSelectedOriginalPTS": 457.1383333333334,
+            "selectedFrameCount": 70,
+            "actualConcatenatedStartPTS": 152.226848,
+            "actualConcatenatedLastPTS": 154.575181,
+            "maximumTraceDifferenceSeconds": 3.33333360913457e-07
+          },
+          {
+            "interval": 17,
+            "requestedSourceWindow": [
+              465.25,
+              467.5
+            ],
+            "firstSelectedOriginalPTS": 465.2666666666667,
+            "lastSelectedOriginalPTS": 467.48,
+            "selectedFrameCount": 66,
+            "actualConcatenatedStartPTS": 154.609215,
+            "actualConcatenatedLastPTS": 156.82254799999998,
+            "maximumTraceDifferenceSeconds": 3.33333360913457e-07
+          },
+          {
+            "interval": 18,
+            "requestedSourceWindow": [
+              477.82224798202515,
+              481.01035504341127
+            ],
+            "firstSelectedOriginalPTS": 477.85333333333335,
+            "lastSelectedOriginalPTS": 480.98333333333335,
+            "selectedFrameCount": 93,
+            "actualConcatenatedStartPTS": 156.856599,
+            "actualConcatenatedLastPTS": 159.98659899999998,
+            "maximumTraceDifferenceSeconds": 3.33333360913457e-07
+          },
+          {
+            "interval": 19,
+            "requestedSourceWindow": [
+              616.0121219158173,
+              618.4025599956512
+            ],
+            "firstSelectedOriginalPTS": 616.0166666666667,
+            "lastSelectedOriginalPTS": 618.3916666666667,
+            "selectedFrameCount": 71,
+            "actualConcatenatedStartPTS": 160.020621,
+            "actualConcatenatedLastPTS": 162.395621,
+            "maximumTraceDifferenceSeconds": 3.333334461785853e-07
+          },
+          {
+            "interval": 20,
+            "requestedSourceWindow": [
+              623.25,
+              625.5
+            ],
+            "firstSelectedOriginalPTS": 623.25,
+            "lastSelectedOriginalPTS": 625.4966666666667,
+            "selectedFrameCount": 67,
+            "actualConcatenatedStartPTS": 162.42955,
+            "actualConcatenatedLastPTS": 164.67621699999998,
+            "maximumTraceDifferenceSeconds": 3.3333341775687586e-07
+          },
+          {
+            "interval": 21,
+            "requestedSourceWindow": [
+              631.8139288425446,
+              634.9990621089935
+            ],
+            "firstSelectedOriginalPTS": 631.82,
+            "lastSelectedOriginalPTS": 634.9833333333333,
+            "selectedFrameCount": 94,
+            "actualConcatenatedStartPTS": 164.71025699999998,
+            "actualConcatenatedLastPTS": 167.87358999999998,
+            "maximumTraceDifferenceSeconds": 3.3333341775687586e-07
+          },
+          {
+            "interval": 22,
+            "requestedSourceWindow": [
+              643.3489038944244,
+              654.2412710189819
+            ],
+            "firstSelectedOriginalPTS": 643.3683333333333,
+            "lastSelectedOriginalPTS": 654.2133333333334,
+            "selectedFrameCount": 320,
+            "actualConcatenatedStartPTS": 167.907604,
+            "actualConcatenatedLastPTS": 178.752604,
+            "maximumTraceDifferenceSeconds": 3.3333341775687586e-07
+          }
+        ],
+        "frameSequenceMatched": true
+      },
+      "outputStart": 175.2,
+      "firstOutputFrameIndex": 5256
+    },
+    {
+      "file": "handoff/qa-178/segments/part7-timed-2x.mp4",
+      "outputSeconds": 108.066667,
+      "frameCount": 3242,
+      "bytes": 9640001,
+      "sha256": "463ce10a89047db165fc141f0dac73bd00c6a11017cc498907fb094e8102b1be",
+      "kind": "original-timed-gameplay",
+      "part": 7,
+      "source": "recordings/ab-part7.mov",
+      "sourceSha256": "00422e63c42d42179cfdc73e88f26e74a85b805aceae4887921ddbd31a97e297",
+      "sourceSeconds": 491.465,
+      "keptIntervals": [
+        [
+          0,
+          2
+        ],
+        [
+          11.147428035736084,
+          20.44381093978882
+        ],
+        [
+          21.539520025253296,
+          36.378257036209106
+        ],
+        [
+          62.126230239868164,
+          71.79043817520142
+        ],
+        [
+          115.60296511650085,
+          118.39184308052063
+        ],
+        [
+          128.41928100585938,
+          131.762531042099
+        ],
+        [
+          143.3312611579895,
+          156.61570692062378
+        ],
+        [
+          160.25543308258057,
+          170.33881211280823
+        ],
+        [
+          180.15993690490723,
+          205.75342512130737
+        ],
+        [
+          243.71361207962036,
+          268.7872290611267
+        ],
+        [
+          288.5563380718231,
+          308.1418640613556
+        ],
+        [
+          318.8332271575928,
+          341.4573380947113
+        ],
+        [
+          361.8369331359863,
+          379.98284912109375
+        ],
+        [
+          391.4419479370117,
+          409.41960315704347
+        ],
+        [
+          430.3208110332489,
+          432.7148060798645
+        ],
+        [
+          438.25,
+          440.5
+        ],
+        [
+          442.0073809623718,
+          445.19773416519166
+        ],
+        [
+          454.2146050930023,
+          457.4033420562744
+        ],
+        [
+          466.1325001716614,
+          477.0233221054077
+        ]
+      ],
+      "playbackSpeed": 2,
+      "retainedSourceSeconds": 216.21350111961368,
+      "expectedOutputSeconds": 108.10675055980684,
+      "capturedInputCount": 334,
+      "actualTiming": {
+        "method": "showinfo integer PTS and declared time base traced during the exact encoding graph, before trim resets and after concat. No additional source QA decode.",
+        "intervals": [
+          {
+            "interval": 0,
+            "requestedSourceWindow": [
+              0,
+              2
+            ],
+            "firstSelectedOriginalPTS": 0.0,
+            "lastSelectedOriginalPTS": 1.9683333333333335,
+            "selectedFrameCount": 59,
+            "actualConcatenatedStartPTS": 0.0,
+            "actualConcatenatedLastPTS": 1.9683329999999999,
+            "maximumTraceDifferenceSeconds": 3.333333336019706e-07
+          },
+          {
+            "interval": 1,
+            "requestedSourceWindow": [
+              11.147428035736084,
+              20.44381093978882
+            ],
+            "firstSelectedOriginalPTS": 11.17,
+            "lastSelectedOriginalPTS": 20.41,
+            "selectedFrameCount": 273,
+            "actualConcatenatedStartPTS": 2.0022699999999998,
+            "actualConcatenatedLastPTS": 11.24227,
+            "maximumTraceDifferenceSeconds": 3.3333333604446125e-07
+          },
+          {
+            "interval": 2,
+            "requestedSourceWindow": [
+              21.539520025253296,
+              36.378257036209106
+            ],
+            "firstSelectedOriginalPTS": 21.565,
+            "lastSelectedOriginalPTS": 36.36666666666667,
+            "selectedFrameCount": 435,
+            "actualConcatenatedStartPTS": 11.276240999999999,
+            "actualConcatenatedLastPTS": 26.077907999999997,
+            "maximumTraceDifferenceSeconds": 3.3333333959717493e-07
+          },
+          {
+            "interval": 3,
+            "requestedSourceWindow": [
+              62.126230239868164,
+              71.79043817520142
+            ],
+            "firstSelectedOriginalPTS": 62.155,
+            "lastSelectedOriginalPTS": 71.75666666666667,
+            "selectedFrameCount": 283,
+            "actualConcatenatedStartPTS": 26.112012999999997,
+            "actualConcatenatedLastPTS": 35.71368,
+            "maximumTraceDifferenceSeconds": 3.333333431498886e-07
+          },
+          {
+            "interval": 4,
+            "requestedSourceWindow": [
+              115.60296511650085,
+              118.39184308052063
+            ],
+            "firstSelectedOriginalPTS": 115.63666666666667,
+            "lastSelectedOriginalPTS": 118.35833333333333,
+            "selectedFrameCount": 81,
+            "actualConcatenatedStartPTS": 35.747727999999995,
+            "actualConcatenatedLastPTS": 38.469395,
+            "maximumTraceDifferenceSeconds": 3.3333333959717493e-07
+          },
+          {
+            "interval": 5,
+            "requestedSourceWindow": [
+              128.41928100585938,
+              131.762531042099
+            ],
+            "firstSelectedOriginalPTS": 128.43666666666667,
+            "lastSelectedOriginalPTS": 131.73833333333334,
+            "selectedFrameCount": 98,
+            "actualConcatenatedStartPTS": 38.503416,
+            "actualConcatenatedLastPTS": 41.805082999999996,
+            "maximumTraceDifferenceSeconds": 3.33333360913457e-07
+          },
+          {
+            "interval": 6,
+            "requestedSourceWindow": [
+              143.3312611579895,
+              156.61570692062378
+            ],
+            "firstSelectedOriginalPTS": 143.36166666666668,
+            "lastSelectedOriginalPTS": 156.59166666666667,
+            "selectedFrameCount": 390,
+            "actualConcatenatedStartPTS": 41.839121,
+            "actualConcatenatedLastPTS": 55.069120999999996,
+            "maximumTraceDifferenceSeconds": 3.333333467026023e-07
+          },
+          {
+            "interval": 7,
+            "requestedSourceWindow": [
+              160.25543308258057,
+              170.33881211280823
+            ],
+            "firstSelectedOriginalPTS": 160.26333333333335,
+            "lastSelectedOriginalPTS": 170.32000000000002,
+            "selectedFrameCount": 297,
+            "actualConcatenatedStartPTS": 55.103131,
+            "actualConcatenatedLastPTS": 65.159798,
+            "maximumTraceDifferenceSeconds": 3.3333335380802964e-07
+          },
+          {
+            "interval": 8,
+            "requestedSourceWindow": [
+              180.15993690490723,
+              205.75342512130737
+            ],
+            "firstSelectedOriginalPTS": 180.16000000000003,
+            "lastSelectedOriginalPTS": 205.75,
+            "selectedFrameCount": 749,
+            "actualConcatenatedStartPTS": 65.193773,
+            "actualConcatenatedLastPTS": 90.783773,
+            "maximumTraceDifferenceSeconds": 3.33333360913457e-07
+          },
+          {
+            "interval": 9,
+            "requestedSourceWindow": [
+              243.71361207962036,
+              268.7872290611267
+            ],
+            "firstSelectedOriginalPTS": 243.74333333333334,
+            "lastSelectedOriginalPTS": 268.76500000000004,
+            "selectedFrameCount": 734,
+            "actualConcatenatedStartPTS": 90.817984,
+            "actualConcatenatedLastPTS": 115.83965099999999,
+            "maximumTraceDifferenceSeconds": 3.333333751243117e-07
+          },
+          {
+            "interval": 10,
+            "requestedSourceWindow": [
+              288.5563380718231,
+              308.1418640613556
+            ],
+            "firstSelectedOriginalPTS": 288.57500000000005,
+            "lastSelectedOriginalPTS": 308.11333333333334,
+            "selectedFrameCount": 573,
+            "actualConcatenatedStartPTS": 115.873787,
+            "actualConcatenatedLastPTS": 135.41212,
+            "maximumTraceDifferenceSeconds": 3.3333338933516643e-07
+          },
+          {
+            "interval": 11,
+            "requestedSourceWindow": [
+              318.8332271575928,
+              341.4573380947113
+            ],
+            "firstSelectedOriginalPTS": 318.85,
+            "lastSelectedOriginalPTS": 341.43833333333333,
+            "selectedFrameCount": 661,
+            "actualConcatenatedStartPTS": 135.446278,
+            "actualConcatenatedLastPTS": 158.03461099999998,
+            "maximumTraceDifferenceSeconds": 3.33333360913457e-07
+          },
+          {
+            "interval": 12,
+            "requestedSourceWindow": [
+              361.8369331359863,
+              379.98284912109375
+            ],
+            "firstSelectedOriginalPTS": 361.84000000000003,
+            "lastSelectedOriginalPTS": 379.9666666666667,
+            "selectedFrameCount": 531,
+            "actualConcatenatedStartPTS": 158.068836,
+            "actualConcatenatedLastPTS": 176.195503,
+            "maximumTraceDifferenceSeconds": 3.33333360913457e-07
+          },
+          {
+            "interval": 13,
+            "requestedSourceWindow": [
+              391.4419479370117,
+              409.41960315704347
+            ],
+            "firstSelectedOriginalPTS": 391.45000000000005,
+            "lastSelectedOriginalPTS": 409.41333333333336,
+            "selectedFrameCount": 527,
+            "actualConcatenatedStartPTS": 176.229704,
+            "actualConcatenatedLastPTS": 194.193037,
+            "maximumTraceDifferenceSeconds": 3.33333360913457e-07
+          },
+          {
+            "interval": 14,
+            "requestedSourceWindow": [
+              430.3208110332489,
+              432.7148060798645
+            ],
+            "firstSelectedOriginalPTS": 430.3216666666667,
+            "lastSelectedOriginalPTS": 432.7033333333334,
+            "selectedFrameCount": 71,
+            "actualConcatenatedStartPTS": 194.22718799999998,
+            "actualConcatenatedLastPTS": 196.60885499999998,
+            "maximumTraceDifferenceSeconds": 3.3333338933516643e-07
+          },
+          {
+            "interval": 15,
+            "requestedSourceWindow": [
+              438.25,
+              440.5
+            ],
+            "firstSelectedOriginalPTS": 438.28000000000003,
+            "lastSelectedOriginalPTS": 440.485,
+            "selectedFrameCount": 66,
+            "actualConcatenatedStartPTS": 196.642879,
+            "actualConcatenatedLastPTS": 198.84787899999998,
+            "maximumTraceDifferenceSeconds": 3.33333360913457e-07
+          },
+          {
+            "interval": 16,
+            "requestedSourceWindow": [
+              442.0073809623718,
+              445.19773416519166
+            ],
+            "firstSelectedOriginalPTS": 442.03833333333336,
+            "lastSelectedOriginalPTS": 445.16833333333335,
+            "selectedFrameCount": 93,
+            "actualConcatenatedStartPTS": 198.881802,
+            "actualConcatenatedLastPTS": 202.011802,
+            "maximumTraceDifferenceSeconds": 3.33333360913457e-07
+          },
+          {
+            "interval": 17,
+            "requestedSourceWindow": [
+              454.2146050930023,
+              457.4033420562744
+            ],
+            "firstSelectedOriginalPTS": 454.2216666666667,
+            "lastSelectedOriginalPTS": 457.3783333333334,
+            "selectedFrameCount": 94,
+            "actualConcatenatedStartPTS": 202.04582399999998,
+            "actualConcatenatedLastPTS": 205.20249099999998,
+            "maximumTraceDifferenceSeconds": 3.33333360913457e-07
+          },
+          {
+            "interval": 18,
+            "requestedSourceWindow": [
+              466.1325001716614,
+              477.0233221054077
+            ],
+            "firstSelectedOriginalPTS": 466.165,
+            "lastSelectedOriginalPTS": 477.0133333333334,
+            "selectedFrameCount": 320,
+            "actualConcatenatedStartPTS": 205.236434,
+            "actualConcatenatedLastPTS": 216.084767,
+            "maximumTraceDifferenceSeconds": 3.3333338933516643e-07
+          }
+        ],
+        "frameSequenceMatched": true
+      },
+      "outputStart": 264.6,
+      "firstOutputFrameIndex": 7938
+    },
+    {
+      "file": "handoff/qa-178/segments/part8-timed-2x.mp4",
+      "outputSeconds": 133.933333,
+      "frameCount": 4018,
+      "bytes": 8798180,
+      "sha256": "c6e50e0dc03c62bdddc567c858f51217941bb768ee04e33c62d9e41256a1de09",
+      "kind": "original-timed-gameplay",
+      "part": 8,
+      "source": "recordings/ab-part8.mov",
+      "sourceSha256": "0e8336ac7509b67ea8ddfbbc4c11c71e3de142819c8eb47cdc319fa6c465c190",
+      "sourceSeconds": 655.928333,
+      "keptIntervals": [
+        [
+          0,
+          2
+        ],
+        [
+          11.703972101211548,
+          23.344317197799683
+        ],
+        [
+          28.34204602241516,
+          38.41703915596008
+        ],
+        [
+          63.67617807388305,
+          89.36152815818787
+        ],
+        [
+          108.45136499404907,
+          133.7851809978485
+        ],
+        [
+          157.1059010028839,
+          176.189520072937
+        ],
+        [
+          186.56871509552002,
+          198.79221410751342
+        ],
+        [
+          211.32006907463074,
+          238.17772006988525
+        ],
+        [
+          256.37419605255127,
+          269.5418700695038
+        ],
+        [
+          285.82341599464417,
+          289.4186059951782
+        ],
+        [
+          302.95556712150574,
+          306.54690809249877
+        ],
+        [
+          313.8330399990082,
+          317.4243790626526
+        ],
+        [
+          327.7721800804138,
+          331.36076588630675
+        ],
+        [
+          338.62361788749695,
+          342.2147280693054
+        ],
+        [
+          351.48020005226135,
+          355.0730981349945
+        ],
+        [
+          367.1414511203766,
+          370.73259110450743
+        ],
+        [
+          403.3199551105499,
+          406.9138521671295
+        ],
+        [
+          437.4423110485077,
+          466.24854922294617
+        ],
+        [
+          490.51230001449585,
+          517.1563808917999
+        ],
+        [
+          533.6016900539398,
+          543.1967739582062
+        ],
+        [
+          563.9370360374451,
+          573.6204940795899
+        ],
+        [
+          581.2044200897217,
+          584.797097158432
+        ],
+        [
+          593.5439159870148,
+          597.1327991008759
+        ],
+        [
+          621.3585200309753,
+          632.5009350776672
+        ]
+      ],
+      "playbackSpeed": 2,
+      "retainedSourceSeconds": 267.8552847862244,
+      "expectedOutputSeconds": 133.9276423931122,
+      "capturedInputCount": 449,
+      "actualTiming": {
+        "method": "showinfo integer PTS and declared time base traced during the exact encoding graph, before trim resets and after concat. No additional source QA decode.",
+        "intervals": [
+          {
+            "interval": 0,
+            "requestedSourceWindow": [
+              0,
+              2
+            ],
+            "firstSelectedOriginalPTS": 0.0,
+            "lastSelectedOriginalPTS": 1.9983333333333335,
+            "selectedFrameCount": 60,
+            "actualConcatenatedStartPTS": 0.0,
+            "actualConcatenatedLastPTS": 1.998333,
+            "maximumTraceDifferenceSeconds": 3.333333336019706e-07
+          },
+          {
+            "interval": 1,
+            "requestedSourceWindow": [
+              11.703972101211548,
+              23.344317197799683
+            ],
+            "firstSelectedOriginalPTS": 11.718333333333334,
+            "lastSelectedOriginalPTS": 23.313333333333336,
+            "selectedFrameCount": 342,
+            "actualConcatenatedStartPTS": 2.032203,
+            "actualConcatenatedLastPTS": 13.627203,
+            "maximumTraceDifferenceSeconds": 3.3333333693263967e-07
+          },
+          {
+            "interval": 2,
+            "requestedSourceWindow": [
+              28.34204602241516,
+              38.41703915596008
+            ],
+            "firstSelectedOriginalPTS": 28.368333333333336,
+            "lastSelectedOriginalPTS": 38.38333333333333,
+            "selectedFrameCount": 296,
+            "actualConcatenatedStartPTS": 13.661206,
+            "actualConcatenatedLastPTS": 23.676206,
+            "maximumTraceDifferenceSeconds": 3.3333333604446125e-07
+          },
+          {
+            "interval": 3,
+            "requestedSourceWindow": [
+              63.67617807388305,
+              89.36152815818787
+            ],
+            "firstSelectedOriginalPTS": 63.705000000000005,
+            "lastSelectedOriginalPTS": 89.33000000000001,
+            "selectedFrameCount": 750,
+            "actualConcatenatedStartPTS": 23.710155,
+            "actualConcatenatedLastPTS": 49.335155,
+            "maximumTraceDifferenceSeconds": 3.3333333959717493e-07
+          },
+          {
+            "interval": 4,
+            "requestedSourceWindow": [
+              108.45136499404907,
+              133.7851809978485
+            ],
+            "firstSelectedOriginalPTS": 108.45666666666668,
+            "lastSelectedOriginalPTS": 133.77333333333334,
+            "selectedFrameCount": 741,
+            "actualConcatenatedStartPTS": 49.369367,
+            "actualConcatenatedLastPTS": 74.68603399999999,
+            "maximumTraceDifferenceSeconds": 3.333333467026023e-07
+          },
+          {
+            "interval": 5,
+            "requestedSourceWindow": [
+              157.1059010028839,
+              176.189520072937
+            ],
+            "firstSelectedOriginalPTS": 157.12333333333333,
+            "lastSelectedOriginalPTS": 176.15666666666667,
+            "selectedFrameCount": 558,
+            "actualConcatenatedStartPTS": 74.720246,
+            "actualConcatenatedLastPTS": 93.753579,
+            "maximumTraceDifferenceSeconds": 3.33333360913457e-07
+          },
+          {
+            "interval": 6,
+            "requestedSourceWindow": [
+              186.56871509552002,
+              198.79221410751342
+            ],
+            "firstSelectedOriginalPTS": 186.59,
+            "lastSelectedOriginalPTS": 198.77333333333334,
+            "selectedFrameCount": 358,
+            "actualConcatenatedStartPTS": 93.78775,
+            "actualConcatenatedLastPTS": 105.971083,
+            "maximumTraceDifferenceSeconds": 3.33333360913457e-07
+          },
+          {
+            "interval": 7,
+            "requestedSourceWindow": [
+              211.32006907463074,
+              238.17772006988525
+            ],
+            "firstSelectedOriginalPTS": 211.34500000000003,
+            "lastSelectedOriginalPTS": 238.145,
+            "selectedFrameCount": 785,
+            "actualConcatenatedStartPTS": 106.00520999999999,
+            "actualConcatenatedLastPTS": 132.80521,
+            "maximumTraceDifferenceSeconds": 3.333333751243117e-07
+          },
+          {
+            "interval": 8,
+            "requestedSourceWindow": [
+              256.37419605255127,
+              269.5418700695038
+            ],
+            "firstSelectedOriginalPTS": 256.38,
+            "lastSelectedOriginalPTS": 269.52500000000003,
+            "selectedFrameCount": 386,
+            "actualConcatenatedStartPTS": 132.839394,
+            "actualConcatenatedLastPTS": 145.98439399999998,
+            "maximumTraceDifferenceSeconds": 3.3333338933516643e-07
+          },
+          {
+            "interval": 9,
+            "requestedSourceWindow": [
+              285.82341599464417,
+              289.4186059951782
+            ],
+            "firstSelectedOriginalPTS": 285.84000000000003,
+            "lastSelectedOriginalPTS": 289.41,
+            "selectedFrameCount": 106,
+            "actualConcatenatedStartPTS": 146.01853699999998,
+            "actualConcatenatedLastPTS": 149.588537,
+            "maximumTraceDifferenceSeconds": 3.3333338933516643e-07
+          },
+          {
+            "interval": 10,
+            "requestedSourceWindow": [
+              302.95556712150574,
+              306.54690809249877
+            ],
+            "firstSelectedOriginalPTS": 302.97333333333336,
+            "lastSelectedOriginalPTS": 306.54333333333335,
+            "selectedFrameCount": 106,
+            "actualConcatenatedStartPTS": 149.622537,
+            "actualConcatenatedLastPTS": 153.192537,
+            "maximumTraceDifferenceSeconds": 3.33333360913457e-07
+          },
+          {
+            "interval": 11,
+            "requestedSourceWindow": [
+              313.8330399990082,
+              317.4243790626526
+            ],
+            "firstSelectedOriginalPTS": 313.8466666666667,
+            "lastSelectedOriginalPTS": 317.41333333333336,
+            "selectedFrameCount": 106,
+            "actualConcatenatedStartPTS": 153.22653699999998,
+            "actualConcatenatedLastPTS": 156.793204,
+            "maximumTraceDifferenceSeconds": 3.3333338933516643e-07
+          },
+          {
+            "interval": 12,
+            "requestedSourceWindow": [
+              327.7721800804138,
+              331.36076588630675
+            ],
+            "firstSelectedOriginalPTS": 327.7816666666667,
+            "lastSelectedOriginalPTS": 331.355,
+            "selectedFrameCount": 106,
+            "actualConcatenatedStartPTS": 156.827172,
+            "actualConcatenatedLastPTS": 160.40050499999998,
+            "maximumTraceDifferenceSeconds": 3.33333360913457e-07
+          },
+          {
+            "interval": 13,
+            "requestedSourceWindow": [
+              338.62361788749695,
+              342.2147280693054
+            ],
+            "firstSelectedOriginalPTS": 338.63166666666666,
+            "lastSelectedOriginalPTS": 342.2066666666667,
+            "selectedFrameCount": 106,
+            "actualConcatenatedStartPTS": 160.434537,
+            "actualConcatenatedLastPTS": 164.009537,
+            "maximumTraceDifferenceSeconds": 3.3333338933516643e-07
+          },
+          {
+            "interval": 14,
+            "requestedSourceWindow": [
+              351.48020005226135,
+              355.0730981349945
+            ],
+            "firstSelectedOriginalPTS": 351.485,
+            "lastSelectedOriginalPTS": 355.0566666666667,
+            "selectedFrameCount": 106,
+            "actualConcatenatedStartPTS": 164.04358499999998,
+            "actualConcatenatedLastPTS": 167.615252,
+            "maximumTraceDifferenceSeconds": 3.33333360913457e-07
+          },
+          {
+            "interval": 15,
+            "requestedSourceWindow": [
+              367.1414511203766,
+              370.73259110450743
+            ],
+            "firstSelectedOriginalPTS": 367.17,
+            "lastSelectedOriginalPTS": 370.7166666666667,
+            "selectedFrameCount": 105,
+            "actualConcatenatedStartPTS": 167.649268,
+            "actualConcatenatedLastPTS": 171.195935,
+            "maximumTraceDifferenceSeconds": 3.3333338933516643e-07
+          },
+          {
+            "interval": 16,
+            "requestedSourceWindow": [
+              403.3199551105499,
+              406.9138521671295
+            ],
+            "firstSelectedOriginalPTS": 403.33833333333337,
+            "lastSelectedOriginalPTS": 406.90000000000003,
+            "selectedFrameCount": 106,
+            "actualConcatenatedStartPTS": 171.23003799999998,
+            "actualConcatenatedLastPTS": 174.79170499999998,
+            "maximumTraceDifferenceSeconds": 3.3333338933516643e-07
+          },
+          {
+            "interval": 17,
+            "requestedSourceWindow": [
+              437.4423110485077,
+              466.24854922294617
+            ],
+            "firstSelectedOriginalPTS": 437.47333333333336,
+            "lastSelectedOriginalPTS": 466.23833333333334,
+            "selectedFrameCount": 841,
+            "actualConcatenatedStartPTS": 174.825626,
+            "actualConcatenatedLastPTS": 203.590626,
+            "maximumTraceDifferenceSeconds": 3.3333338933516643e-07
+          },
+          {
+            "interval": 18,
+            "requestedSourceWindow": [
+              490.51230001449585,
+              517.1563808917999
+            ],
+            "firstSelectedOriginalPTS": 490.545,
+            "lastSelectedOriginalPTS": 517.135,
+            "selectedFrameCount": 779,
+            "actualConcatenatedStartPTS": 203.62487,
+            "actualConcatenatedLastPTS": 230.21487,
+            "maximumTraceDifferenceSeconds": 3.3333338933516643e-07
+          },
+          {
+            "interval": 19,
+            "requestedSourceWindow": [
+              533.6016900539398,
+              543.1967739582062
+            ],
+            "firstSelectedOriginalPTS": 533.62,
+            "lastSelectedOriginalPTS": 543.1750000000001,
+            "selectedFrameCount": 281,
+            "actualConcatenatedStartPTS": 230.249047,
+            "actualConcatenatedLastPTS": 239.804047,
+            "maximumTraceDifferenceSeconds": 3.3333341775687586e-07
+          },
+          {
+            "interval": 20,
+            "requestedSourceWindow": [
+              563.9370360374451,
+              573.6204940795899
+            ],
+            "firstSelectedOriginalPTS": 563.9533333333334,
+            "lastSelectedOriginalPTS": 573.595,
+            "selectedFrameCount": 283,
+            "actualConcatenatedStartPTS": 239.838172,
+            "actualConcatenatedLastPTS": 249.479839,
+            "maximumTraceDifferenceSeconds": 3.3333338933516643e-07
+          },
+          {
+            "interval": 21,
+            "requestedSourceWindow": [
+              581.2044200897217,
+              584.797097158432
+            ],
+            "firstSelectedOriginalPTS": 581.21,
+            "lastSelectedOriginalPTS": 584.7866666666667,
+            "selectedFrameCount": 106,
+            "actualConcatenatedStartPTS": 249.514029,
+            "actualConcatenatedLastPTS": 253.09069599999998,
+            "maximumTraceDifferenceSeconds": 3.3333338933516643e-07
+          },
+          {
+            "interval": 22,
+            "requestedSourceWindow": [
+              593.5439159870148,
+              597.1327991008759
+            ],
+            "firstSelectedOriginalPTS": 593.5483333333334,
+            "lastSelectedOriginalPTS": 597.1166666666667,
+            "selectedFrameCount": 106,
+            "actualConcatenatedStartPTS": 253.12475899999998,
+            "actualConcatenatedLastPTS": 256.693092,
+            "maximumTraceDifferenceSeconds": 3.333334461785853e-07
+          },
+          {
+            "interval": 23,
+            "requestedSourceWindow": [
+              621.3585200309753,
+              632.5009350776672
+            ],
+            "firstSelectedOriginalPTS": 621.375,
+            "lastSelectedOriginalPTS": 632.495,
+            "selectedFrameCount": 328,
+            "actualConcatenatedStartPTS": 256.727076,
+            "actualConcatenatedLastPTS": 267.847076,
+            "maximumTraceDifferenceSeconds": 3.333334461785853e-07
+          }
+        ],
+        "frameSequenceMatched": true
+      },
+      "outputStart": 372.6666666666667,
+      "firstOutputFrameIndex": 11180
+    }
+  ],
+  "inputCount": 1490,
+  "loggedInputCount": 1490,
+  "recordedInputCount": 1490,
+  "timedVideoInputs": 1490,
+  "knownMissingInputs": 0,
+  "knownMissingInputEvents": [],
+  "uncapturedInputs": [],
+  "rawCapturedSeconds": 5078.875,
+  "rawOriginalBytes": 508201559,
+  "originalCaptureCount": 8,
+  "unknownDurationOriginalCaptureCount": 0,
+  "outputSeconds": 506.6,
+  "outputSha256": "08055282c3c9c4e10e746727f30860d0c0a28541697839e6d9cd287a0619d23f",
+  "outputBytes": 37130172,
+  "outputFrameCount": 15198,
+  "crop": "1680:960:14:56",
+  "encoding": {
+    "codec": "libx264",
+    "crf": 23,
+    "preset": "fast",
+    "fps": 30
+  },
+  "countsAsCompletedLevel": true,
+  "sequence": 178,
+  "sourceAssignment": "Completion178 exclusively owns all eight chronological AB original source families, including failed tests, navigation, ignored and blocked inputs, undo, waits and the successful exchanged-driver continuation. Forty original family files remain protected. No source overlaps Hunt012 or another completed recording.",
+  "policy": "Retain all 1490 chronological captured inputs across eight actual AB visits, including old substring/control/facing failures, ignored transition arrows, blocked moves, one undo, eight explicit waits, navigation and the successful physical exchange, whole-tile control, HOT cross, skull survival and flag win. Remove only idle thinking between padded action spans; keep complete entry transitions, all critical originals, settled map and final pause. Encode original gameplay at 2\u00d7 with no independently timed inserts, clean replay, invented motion or missing-input replacement. No restart or observed Baba death identified; prior failed effects remain failed.",
+  "criticalSeeks": [
+    {
+      "state": "part1-initial",
+      "part": 1,
+      "partSourceSeconds": 0.1,
+      "outputSeconds": 0.05,
+      "frame": "export-part1-initial-full.png",
+      "sourceSeconds": 0.1,
+      "sourceFrame": "source-part1-initial-1708x1016.png",
+      "outputFrame": "export-part1-initial-full.png",
+      "sourceSha256": "51c6a2e553323ea08f4c59c454ca20df4c95d81ce91aec47dd1ee026eab8fe18"
+    },
+    {
+      "state": "part1-before-AB-substring-test",
+      "part": 1,
+      "partSourceSeconds": 509.7790969371796,
+      "outputSeconds": 18.51679880192313,
+      "frame": "export-part1-before-AB-substring-test-full.png",
+      "sourceSeconds": 509.7790969371796,
+      "sourceFrame": "source-part1-before-AB-substring-test-1708x1016.png",
+      "outputFrame": "export-part1-before-AB-substring-test-full.png",
+      "sourceSha256": "51c6a2e553323ea08f4c59c454ca20df4c95d81ce91aec47dd1ee026eab8fe18"
+    },
+    {
+      "state": "part1-AB-substring-control-loss",
+      "part": 1,
+      "partSourceSeconds": 510.669237947464,
+      "outputSeconds": 18.961869307065342,
+      "frame": "export-part1-AB-substring-control-loss-full.png",
+      "sourceSeconds": 510.669237947464,
+      "sourceFrame": "source-part1-AB-substring-control-loss-1708x1016.png",
+      "outputFrame": "export-part1-AB-substring-control-loss-full.png",
+      "sourceSha256": "51c6a2e553323ea08f4c59c454ca20df4c95d81ce91aec47dd1ee026eab8fe18"
+    },
+    {
+      "state": "part1-undo-restored-control",
+      "part": 1,
+      "partSourceSeconds": 577.8037470340729,
+      "outputSeconds": 20.45445601703642,
+      "frame": "export-part1-undo-restored-control-full.png",
+      "sourceSeconds": 577.8037470340729,
+      "sourceFrame": "source-part1-undo-restored-control-1708x1016.png",
+      "outputFrame": "export-part1-undo-restored-control-full.png",
+      "sourceSha256": "51c6a2e553323ea08f4c59c454ca20df4c95d81ce91aec47dd1ee026eab8fe18"
+    },
+    {
+      "state": "part2-initial",
+      "part": 2,
+      "partSourceSeconds": 0.09691452980041504,
+      "outputSeconds": 27.315123931566873,
+      "frame": "export-part2-initial-full.png",
+      "sourceSeconds": 0.09691452980041504,
+      "sourceFrame": "source-part2-initial-1708x1016.png",
+      "outputFrame": "export-part2-initial-full.png",
+      "sourceSha256": "743f6669368e8859f0609285c2b5a795c1aed94a84ccd56f9f7271e094de986a"
+    },
+    {
+      "state": "part2-before-SHIFT-repair",
+      "part": 2,
+      "partSourceSeconds": 73.22557101249694,
+      "outputSeconds": 41.540975506248465,
+      "frame": "export-part2-before-SHIFT-repair-full.png",
+      "sourceSeconds": 73.22557101249694,
+      "sourceFrame": "source-part2-before-SHIFT-repair-1708x1016.png",
+      "outputFrame": "export-part2-before-SHIFT-repair-full.png",
+      "sourceSha256": "743f6669368e8859f0609285c2b5a795c1aed94a84ccd56f9f7271e094de986a"
+    },
+    {
+      "state": "part2-settled-SHIFT-repair",
+      "part": 2,
+      "partSourceSeconds": 74.11990890502929,
+      "outputSeconds": 41.98814445251464,
+      "frame": "export-part2-settled-SHIFT-repair-full.png",
+      "sourceSeconds": 74.11990890502929,
+      "sourceFrame": "source-part2-settled-SHIFT-repair-1708x1016.png",
+      "outputFrame": "export-part2-settled-SHIFT-repair-full.png",
+      "sourceSha256": "743f6669368e8859f0609285c2b5a795c1aed94a84ccd56f9f7271e094de986a"
+    },
+    {
+      "state": "part3-initial",
+      "part": 3,
+      "partSourceSeconds": 0.1,
+      "outputSeconds": 46.949999999999996,
+      "frame": "export-part3-initial-full.png",
+      "sourceSeconds": 0.1,
+      "sourceFrame": "source-part3-initial-1708x1016.png",
+      "outputFrame": "export-part3-initial-full.png",
+      "sourceSha256": "0ac32d8ba1d0fc69200a75e725b0066ce8cabf3f9b8cbcc29bc410a46bc7fb7b"
+    },
+    {
+      "state": "part3-entry-title-corrected",
+      "part": 3,
+      "partSourceSeconds": 71.20721998214722,
+      "outputSeconds": 62.337590324406946,
+      "frame": "export-part3-entry-title-corrected-full.png",
+      "sourceSeconds": 71.20721998214722,
+      "sourceFrame": "source-part3-entry-title-corrected-1708x1016.png",
+      "outputFrame": "export-part3-entry-title-corrected-full.png",
+      "sourceSha256": "0ac32d8ba1d0fc69200a75e725b0066ce8cabf3f9b8cbcc29bc410a46bc7fb7b"
+    },
+    {
+      "state": "part3-settled-fresh",
+      "part": 3,
+      "partSourceSeconds": 75.55721998214722,
+      "outputSeconds": 64.51259032440694,
+      "frame": "export-part3-settled-fresh-full.png",
+      "sourceSeconds": 75.55721998214722,
+      "sourceFrame": "source-part3-settled-fresh-1708x1016.png",
+      "outputFrame": "export-part3-settled-fresh-full.png",
+      "sourceSha256": "0ac32d8ba1d0fc69200a75e725b0066ce8cabf3f9b8cbcc29bc410a46bc7fb7b"
+    },
+    {
+      "state": "part3-PUSH-active",
+      "part": 3,
+      "partSourceSeconds": 102.00124111175538,
+      "outputSeconds": 67.80244155587768,
+      "frame": "export-part3-PUSH-active-full.png",
+      "sourceSeconds": 102.00124111175538,
+      "sourceFrame": "source-part3-PUSH-active-1708x1016.png",
+      "outputFrame": "export-part3-PUSH-active-full.png",
+      "sourceSha256": "0ac32d8ba1d0fc69200a75e725b0066ce8cabf3f9b8cbcc29bc410a46bc7fb7b"
+    },
+    {
+      "state": "part3-four-UP-bay",
+      "part": 3,
+      "partSourceSeconds": 284.84884610176084,
+      "outputSeconds": 71.3332937175471,
+      "frame": "export-part3-four-UP-bay-full.png",
+      "sourceSeconds": 284.84884610176084,
+      "sourceFrame": "source-part3-four-UP-bay-1708x1016.png",
+      "outputFrame": "export-part3-four-UP-bay-full.png",
+      "sourceSha256": "0ac32d8ba1d0fc69200a75e725b0066ce8cabf3f9b8cbcc29bc410a46bc7fb7b"
+    },
+    {
+      "state": "part3-train-moved-left",
+      "part": 3,
+      "partSourceSeconds": 303.2141369819641,
+      "outputSeconds": 72.84050799098202,
+      "frame": "export-part3-train-moved-left-full.png",
+      "sourceSeconds": 303.2141369819641,
+      "sourceFrame": "source-part3-train-moved-left-1708x1016.png",
+      "outputFrame": "export-part3-train-moved-left-full.png",
+      "sourceSha256": "0ac32d8ba1d0fc69200a75e725b0066ce8cabf3f9b8cbcc29bc410a46bc7fb7b"
+    },
+    {
+      "state": "part3-upper-approach",
+      "part": 3,
+      "partSourceSeconds": 383.960996055603,
+      "outputSeconds": 74.36433519446817,
+      "frame": "export-part3-upper-approach-full.png",
+      "sourceSeconds": 383.960996055603,
+      "sourceFrame": "source-part3-upper-approach-1708x1016.png",
+      "outputFrame": "export-part3-upper-approach-full.png",
+      "sourceSha256": "0ac32d8ba1d0fc69200a75e725b0066ce8cabf3f9b8cbcc29bc410a46bc7fb7b"
+    },
+    {
+      "state": "part3-blocked-RIGHT",
+      "part": 3,
+      "partSourceSeconds": 427.84466924667356,
+      "outputSeconds": 75.88145279000344,
+      "frame": "export-part3-blocked-RIGHT-full.png",
+      "sourceSeconds": 427.84466924667356,
+      "sourceFrame": "source-part3-blocked-RIGHT-1708x1016.png",
+      "outputFrame": "export-part3-blocked-RIGHT-full.png",
+      "sourceSha256": "0ac32d8ba1d0fc69200a75e725b0066ce8cabf3f9b8cbcc29bc410a46bc7fb7b"
+    },
+    {
+      "state": "part3-final-pause",
+      "part": 3,
+      "partSourceSeconds": 544.3344749450683,
+      "outputSeconds": 81.91086297253415,
+      "frame": "export-part3-final-pause-full.png",
+      "sourceSeconds": 544.3344749450683,
+      "sourceFrame": "source-part3-final-pause-1708x1016.png",
+      "outputFrame": "export-part3-final-pause-full.png",
+      "sourceSha256": "0ac32d8ba1d0fc69200a75e725b0066ce8cabf3f9b8cbcc29bc410a46bc7fb7b"
+    },
+    {
+      "state": "part4-initial",
+      "part": 4,
+      "partSourceSeconds": 0.1,
+      "outputSeconds": 86.64999999999999,
+      "frame": "export-part4-initial-full.png",
+      "sourceSeconds": 0.1,
+      "sourceFrame": "source-part4-initial-1708x1016.png",
+      "outputFrame": "export-part4-initial-full.png",
+      "sourceSha256": "18bf1e55690053172da9da0193622723bfe154560e1635c64c25191a675c95de"
+    },
+    {
+      "state": "part4-event-20",
+      "part": 4,
+      "partSourceSeconds": 15.260082159042359,
+      "outputSeconds": 91.95453824618784,
+      "frame": "export-part4-event-20-full.png",
+      "sourceSeconds": 15.260082159042359,
+      "sourceFrame": "source-part4-event-20-1708x1016.png",
+      "outputFrame": "export-part4-event-20-full.png",
+      "sourceSha256": "18bf1e55690053172da9da0193622723bfe154560e1635c64c25191a675c95de"
+    },
+    {
+      "state": "part4-fresh-after-opening",
+      "part": 4,
+      "partSourceSeconds": 20.0,
+      "outputSeconds": 94.32449716666666,
+      "frame": "export-part4-fresh-after-opening-full.png",
+      "sourceSeconds": 20.0,
+      "sourceFrame": "source-part4-fresh-after-opening-1708x1016.png",
+      "outputFrame": "export-part4-fresh-after-opening-full.png",
+      "sourceSha256": "18bf1e55690053172da9da0193622723bfe154560e1635c64c25191a675c95de"
+    },
+    {
+      "state": "part4-event-54",
+      "part": 4,
+      "partSourceSeconds": 72.34897104263305,
+      "outputSeconds": 103.18396585464984,
+      "frame": "export-part4-event-54-full.png",
+      "sourceSeconds": 72.34897104263305,
+      "sourceFrame": "source-part4-event-54-1708x1016.png",
+      "outputFrame": "export-part4-event-54-full.png",
+      "sourceSha256": "18bf1e55690053172da9da0193622723bfe154560e1635c64c25191a675c95de"
+    },
+    {
+      "state": "part4-event-57",
+      "part": 4,
+      "partSourceSeconds": 73.55995718002319,
+      "outputSeconds": 103.78945892334491,
+      "frame": "export-part4-event-57-full.png",
+      "sourceSeconds": 73.55995718002319,
+      "sourceFrame": "source-part4-event-57-1708x1016.png",
+      "outputFrame": "export-part4-event-57-full.png",
+      "sourceSha256": "18bf1e55690053172da9da0193622723bfe154560e1635c64c25191a675c95de"
+    },
+    {
+      "state": "part4-event-58",
+      "part": 4,
+      "partSourceSeconds": 73.96801010131836,
+      "outputSeconds": 103.99348538399249,
+      "frame": "export-part4-event-58-full.png",
+      "sourceSeconds": 73.96801010131836,
+      "sourceFrame": "source-part4-event-58-1708x1016.png",
+      "outputFrame": "export-part4-event-58-full.png",
+      "sourceSha256": "18bf1e55690053172da9da0193622723bfe154560e1635c64c25191a675c95de"
+    },
+    {
+      "state": "part4-event-70",
+      "part": 4,
+      "partSourceSeconds": 78.76144019126892,
+      "outputSeconds": 106.39020042896777,
+      "frame": "export-part4-event-70-full.png",
+      "sourceSeconds": 78.76144019126892,
+      "sourceFrame": "source-part4-event-70-1708x1016.png",
+      "outputFrame": "export-part4-event-70-full.png",
+      "sourceSha256": "18bf1e55690053172da9da0193622723bfe154560e1635c64c25191a675c95de"
+    },
+    {
+      "state": "part4-event-74",
+      "part": 4,
+      "partSourceSeconds": 755.0261091327667,
+      "outputSeconds": 113.58363339971666,
+      "frame": "export-part4-event-74-full.png",
+      "sourceSeconds": 755.0261091327667,
+      "sourceFrame": "source-part4-event-74-1708x1016.png",
+      "outputFrame": "export-part4-event-74-full.png",
+      "sourceSha256": "18bf1e55690053172da9da0193622723bfe154560e1635c64c25191a675c95de"
+    },
+    {
+      "state": "part5-initial",
+      "part": 5,
+      "partSourceSeconds": 0.07133448123931885,
+      "outputSeconds": 113.70233390728633,
+      "frame": "export-part5-initial-full.png",
+      "sourceSeconds": 0.07133448123931885,
+      "sourceFrame": "source-part5-initial-1708x1016.png",
+      "outputFrame": "export-part5-initial-full.png",
+      "sourceSha256": "1b432943b50be5549e4116d72ef10dca884041a6d4426dac453eee7bc86b5d8d"
+    },
+    {
+      "state": "part5-fresh-board",
+      "part": 5,
+      "partSourceSeconds": 34.21860074996948,
+      "outputSeconds": 119.60886937498475,
+      "frame": "export-part5-fresh-board-full.png",
+      "sourceSeconds": 34.21860074996948,
+      "sourceFrame": "source-part5-fresh-board-1708x1016.png",
+      "outputFrame": "export-part5-fresh-board-full.png",
+      "sourceSha256": "1b432943b50be5549e4116d72ef10dca884041a6d4426dac453eee7bc86b5d8d"
+    },
+    {
+      "state": "part5-five-belts-extracted",
+      "part": 5,
+      "partSourceSeconds": 137.48605785369872,
+      "outputSeconds": 147.00299059351602,
+      "frame": "export-part5-five-belts-extracted-full.png",
+      "sourceSeconds": 137.48605785369872,
+      "sourceFrame": "source-part5-five-belts-extracted-1708x1016.png",
+      "outputFrame": "export-part5-five-belts-extracted-full.png",
+      "sourceSha256": "1b432943b50be5549e4116d72ef10dca884041a6d4426dac453eee7bc86b5d8d"
+    },
+    {
+      "state": "part5-facing-ready",
+      "part": 5,
+      "partSourceSeconds": 716.5268488883972,
+      "outputSeconds": 167.88756744419862,
+      "frame": "export-part5-facing-ready-full.png",
+      "sourceSeconds": 716.5268488883972,
+      "sourceFrame": "source-part5-facing-ready-1708x1016.png",
+      "outputFrame": "export-part5-facing-ready-full.png",
+      "sourceSha256": "1b432943b50be5549e4116d72ef10dca884041a6d4426dac453eee7bc86b5d8d"
+    },
+    {
+      "state": "part5-clock-activated",
+      "part": 5,
+      "partSourceSeconds": 742.267998790741,
+      "outputSeconds": 169.3852838953705,
+      "frame": "export-part5-clock-activated-full.png",
+      "sourceSeconds": 742.267998790741,
+      "sourceFrame": "source-part5-clock-activated-1708x1016.png",
+      "outputFrame": "export-part5-clock-activated-full.png",
+      "sourceSha256": "1b432943b50be5549e4116d72ef10dca884041a6d4426dac453eee7bc86b5d8d"
+    },
+    {
+      "state": "part5-automatic-facing-result",
+      "part": 5,
+      "partSourceSeconds": 764.0833450317383,
+      "outputSeconds": 170.88495884920252,
+      "frame": "export-part5-automatic-facing-result-full.png",
+      "sourceSeconds": 764.0833450317383,
+      "sourceFrame": "source-part5-automatic-facing-result-1708x1016.png",
+      "outputFrame": "export-part5-automatic-facing-result-full.png",
+      "sourceSha256": "1b432943b50be5549e4116d72ef10dca884041a6d4426dac453eee7bc86b5d8d"
+    },
+    {
+      "state": "part6-initial",
+      "part": 6,
+      "partSourceSeconds": 0.1,
+      "outputSeconds": 175.25,
+      "frame": "export-part6-initial-full.png",
+      "sourceSeconds": 0.1,
+      "sourceFrame": "source-part6-initial-1708x1016.png",
+      "outputFrame": "export-part6-initial-full.png",
+      "sourceSha256": "3422c7bc6ad44232ba6da1372a7593e3c5e086ca9222624814d4c06b5a91d6fc"
+    },
+    {
+      "state": "part6-fresh",
+      "part": 6,
+      "partSourceSeconds": 199.90725588798523,
+      "outputSeconds": 200.20272461065926,
+      "frame": "export-part6-fresh-full.png",
+      "sourceSeconds": 199.90725588798523,
+      "sourceFrame": "source-part6-fresh-1708x1016.png",
+      "outputFrame": "export-part6-fresh-full.png",
+      "sourceSha256": "3422c7bc6ad44232ba6da1372a7593e3c5e086ca9222624814d4c06b5a91d6fc"
+    },
+    {
+      "state": "part6-recovery118",
+      "part": 6,
+      "partSourceSeconds": 294.8623290538788,
+      "outputSeconds": 227.58804269360604,
+      "frame": "export-part6-recovery118-full.png",
+      "sourceSeconds": 294.8623290538788,
+      "sourceFrame": "source-part6-recovery118-1708x1016.png",
+      "outputFrame": "export-part6-recovery118-full.png",
+      "sourceSha256": "3422c7bc6ad44232ba6da1372a7593e3c5e086ca9222624814d4c06b5a91d6fc"
+    },
+    {
+      "state": "part6-opposed-ready",
+      "part": 6,
+      "partSourceSeconds": 443.4991000175476,
+      "outputSeconds": 250.5634268421071,
+      "frame": "export-part6-opposed-ready-full.png",
+      "sourceSeconds": 443.4991000175476,
+      "sourceFrame": "source-part6-opposed-ready-1708x1016.png",
+      "outputFrame": "export-part6-opposed-ready-full.png",
+      "sourceSha256": "3422c7bc6ad44232ba6da1372a7593e3c5e086ca9222624814d4c06b5a91d6fc"
+    },
+    {
+      "state": "part6-opposed-after-up",
+      "part": 6,
+      "partSourceSeconds": 466.0,
+      "outputSeconds": 252.8712741666666,
+      "frame": "export-part6-opposed-after-up-full.png",
+      "sourceSeconds": 466.0,
+      "sourceFrame": "source-part6-opposed-after-up-1708x1016.png",
+      "outputFrame": "export-part6-opposed-after-up-full.png",
+      "sourceSha256": "3422c7bc6ad44232ba6da1372a7593e3c5e086ca9222624814d4c06b5a91d6fc"
+    },
+    {
+      "state": "part6-opposed-after-wait",
+      "part": 6,
+      "partSourceSeconds": 479.51035504341127,
+      "outputSeconds": 254.45681035503895,
+      "frame": "export-part6-opposed-after-wait-full.png",
+      "sourceSeconds": 479.51035504341127,
+      "sourceFrame": "source-part6-opposed-after-wait-1708x1016.png",
+      "outputFrame": "export-part6-opposed-after-wait-full.png",
+      "sourceSha256": "3422c7bc6ad44232ba6da1372a7593e3c5e086ca9222624814d4c06b5a91d6fc"
+    },
+    {
+      "state": "part6-controlled-left",
+      "part": 6,
+      "partSourceSeconds": 624.0,
+      "outputSeconds": 256.789775,
+      "frame": "export-part6-controlled-left-full.png",
+      "sourceSeconds": 624.0,
+      "sourceFrame": "source-part6-controlled-left-1708x1016.png",
+      "outputFrame": "export-part6-controlled-left-full.png",
+      "sourceSha256": "3422c7bc6ad44232ba6da1372a7593e3c5e086ca9222624814d4c06b5a91d6fc"
+    },
+    {
+      "state": "part6-second-wait-restored",
+      "part": 6,
+      "partSourceSeconds": 633.4990621089935,
+      "outputSeconds": 258.3946595544967,
+      "frame": "export-part6-second-wait-restored-full.png",
+      "sourceSeconds": 633.4990621089935,
+      "sourceFrame": "source-part6-second-wait-restored-1708x1016.png",
+      "outputFrame": "export-part6-second-wait-restored-full.png",
+      "sourceSha256": "3422c7bc6ad44232ba6da1372a7593e3c5e086ca9222624814d4c06b5a91d6fc"
+    },
+    {
+      "state": "part6-final-paused",
+      "part": 6,
+      "partSourceSeconds": 645.0412710189819,
+      "outputSeconds": 259.99027084282426,
+      "frame": "export-part6-final-paused-full.png",
+      "sourceSeconds": 645.0412710189819,
+      "sourceFrame": "source-part6-final-paused-1708x1016.png",
+      "outputFrame": "export-part6-final-paused-full.png",
+      "sourceSha256": "3422c7bc6ad44232ba6da1372a7593e3c5e086ca9222624814d4c06b5a91d6fc"
+    },
+    {
+      "state": "part7-initial",
+      "part": 7,
+      "partSourceSeconds": 0.1,
+      "outputSeconds": 264.65000000000003,
+      "frame": "export-part7-initial-full.png",
+      "sourceSeconds": 0.1,
+      "sourceFrame": "source-part7-initial-1708x1016.png",
+      "outputFrame": "export-part7-initial-full.png",
+      "sourceSha256": "00422e63c42d42179cfdc73e88f26e74a85b805aceae4887921ddbd31a97e297"
+    },
+    {
+      "state": "part7-navigation-after9",
+      "part": 7,
+      "partSourceSeconds": 24.974565148353577,
+      "outputSeconds": 271.9429030741768,
+      "frame": "export-part7-navigation-after9-full.png",
+      "sourceSeconds": 24.974565148353577,
+      "sourceFrame": "source-part7-navigation-after9-1708x1016.png",
+      "outputFrame": "export-part7-navigation-after9-full.png",
+      "sourceSha256": "00422e63c42d42179cfdc73e88f26e74a85b805aceae4887921ddbd31a97e297"
+    },
+    {
+      "state": "part7-fresh",
+      "part": 7,
+      "partSourceSeconds": 168.33881211280823,
+      "outputSeconds": 296.18930488973746,
+      "frame": "export-part7-fresh-full.png",
+      "sourceSeconds": 168.33881211280823,
+      "sourceFrame": "source-part7-fresh-1708x1016.png",
+      "outputFrame": "export-part7-fresh-full.png",
+      "sourceSha256": "00422e63c42d42179cfdc73e88f26e74a85b805aceae4887921ddbd31a97e297"
+    },
+    {
+      "state": "part7-return-ready",
+      "part": 7,
+      "partSourceSeconds": 407.91960315704347,
+      "outputSeconds": 360.94965357852175,
+      "frame": "export-part7-return-ready-full.png",
+      "sourceSeconds": 407.91960315704347,
+      "sourceFrame": "source-part7-return-ready-1708x1016.png",
+      "outputFrame": "export-part7-return-ready-full.png",
+      "sourceSha256": "00422e63c42d42179cfdc73e88f26e74a85b805aceae4887921ddbd31a97e297"
+    },
+    {
+      "state": "part7-first-UP-gap",
+      "part": 7,
+      "partSourceSeconds": 439.0,
+      "outputSeconds": 363.28143950000003,
+      "frame": "export-part7-first-UP-gap-full.png",
+      "sourceSeconds": 439.0,
+      "sourceFrame": "source-part7-first-UP-gap-1708x1016.png",
+      "outputFrame": "export-part7-first-UP-gap-full.png",
+      "sourceSha256": "00422e63c42d42179cfdc73e88f26e74a85b805aceae4887921ddbd31a97e297"
+    },
+    {
+      "state": "part7-first-WAIT-restored",
+      "part": 7,
+      "partSourceSeconds": 443.69773416519166,
+      "outputSeconds": 364.8706014159292,
+      "frame": "export-part7-first-WAIT-restored-full.png",
+      "sourceSeconds": 443.69773416519166,
+      "sourceFrame": "source-part7-first-WAIT-restored-1708x1016.png",
+      "outputFrame": "export-part7-first-WAIT-restored-full.png",
+      "sourceSha256": "00422e63c42d42179cfdc73e88f26e74a85b805aceae4887921ddbd31a97e297"
+    },
+    {
+      "state": "part7-second-UP-mismatch",
+      "part": 7,
+      "partSourceSeconds": 455.9033420562744,
+      "outputSeconds": 366.4637496948039,
+      "frame": "export-part7-second-UP-mismatch-full.png",
+      "sourceSeconds": 455.9033420562744,
+      "sourceFrame": "source-part7-second-UP-mismatch-1708x1016.png",
+      "outputFrame": "export-part7-second-UP-mismatch-full.png",
+      "sourceSha256": "00422e63c42d42179cfdc73e88f26e74a85b805aceae4887921ddbd31a97e297"
+    },
+    {
+      "state": "part7-final-paused",
+      "part": 7,
+      "partSourceSeconds": 467.8233221054077,
+      "outputSeconds": 368.04737805270383,
+      "frame": "export-part7-final-paused-full.png",
+      "sourceSeconds": 467.8233221054077,
+      "sourceFrame": "source-part7-final-paused-1708x1016.png",
+      "outputFrame": "export-part7-final-paused-full.png",
+      "sourceSha256": "00422e63c42d42179cfdc73e88f26e74a85b805aceae4887921ddbd31a97e297"
+    },
+    {
+      "state": "part8-initial",
+      "part": 8,
+      "partSourceSeconds": 0.1,
+      "outputSeconds": 372.7166666666667,
+      "frame": "export-part8-initial-full.png",
+      "sourceSeconds": 0.1,
+      "sourceFrame": "source-part8-initial-1708x1016.png",
+      "outputFrame": "export-part8-initial-full.png",
+      "sourceSha256": "0e8336ac7509b67ea8ddfbbc4c11c71e3de142819c8eb47cdc319fa6c465c190"
+    },
+    {
+      "state": "part8-fresh",
+      "part": 8,
+      "partSourceSeconds": 64.42617807388305,
+      "outputSeconds": 384.8823332036082,
+      "frame": "export-part8-fresh-full.png",
+      "sourceSeconds": 64.42617807388305,
+      "sourceFrame": "source-part8-fresh-1708x1016.png",
+      "outputFrame": "export-part8-fresh-full.png",
+      "sourceSha256": "0e8336ac7509b67ea8ddfbbc4c11c71e3de142819c8eb47cdc319fa6c465c190"
+    },
+    {
+      "state": "part8-recovery118",
+      "part": 8,
+      "partSourceSeconds": 132.2851809978485,
+      "outputSeconds": 409.2656073322576,
+      "frame": "export-part8-recovery118-full.png",
+      "sourceSeconds": 132.2851809978485,
+      "sourceFrame": "source-part8-recovery118-1708x1016.png",
+      "outputFrame": "export-part8-recovery118-full.png",
+      "sourceSha256": "0e8336ac7509b67ea8ddfbbc4c11c71e3de142819c8eb47cdc319fa6c465c190"
+    },
+    {
+      "state": "part8-exchanged-lower39",
+      "part": 8,
+      "partSourceSeconds": 174.689520072937,
+      "outputSeconds": 418.80988303646853,
+      "frame": "export-part8-exchanged-lower39-full.png",
+      "sourceSeconds": 174.689520072937,
+      "sourceFrame": "source-part8-exchanged-lower39-1708x1016.png",
+      "outputFrame": "export-part8-exchanged-lower39-full.png",
+      "sourceSha256": "0e8336ac7509b67ea8ddfbbc4c11c71e3de142819c8eb47cdc319fa6c465c190"
+    },
+    {
+      "state": "part8-exchanged-upper61",
+      "part": 8,
+      "partSourceSeconds": 197.29221410751342,
+      "outputSeconds": 424.9116487204234,
+      "frame": "export-part8-exchanged-upper61-full.png",
+      "sourceSeconds": 197.29221410751342,
+      "sourceFrame": "source-part8-exchanged-upper61-1708x1016.png",
+      "outputFrame": "export-part8-exchanged-upper61-full.png",
+      "sourceSha256": "0e8336ac7509b67ea8ddfbbc4c11c71e3de142819c8eb47cdc319fa6c465c190"
+    },
+    {
+      "state": "part8-ready148",
+      "part": 8,
+      "partSourceSeconds": 268.0418700695038,
+      "outputSeconds": 444.9172987014186,
+      "frame": "export-part8-ready148-full.png",
+      "sourceSeconds": 268.0418700695038,
+      "sourceFrame": "source-part8-ready148-1708x1016.png",
+      "outputFrame": "export-part8-ready148-full.png",
+      "sourceSha256": "0e8336ac7509b67ea8ddfbbc4c11c71e3de142819c8eb47cdc319fa6c465c190"
+    },
+    {
+      "state": "part8-first-up",
+      "part": 8,
+      "partSourceSeconds": 287.9186059951782,
+      "outputSeconds": 446.71523816425577,
+      "frame": "export-part8-first-up-full.png",
+      "sourceSeconds": 287.9186059951782,
+      "sourceFrame": "source-part8-first-up-1708x1016.png",
+      "outputFrame": "export-part8-first-up-full.png",
+      "sourceSha256": "0e8336ac7509b67ea8ddfbbc4c11c71e3de142819c8eb47cdc319fa6c465c190"
+    },
+    {
+      "state": "part8-first-wait",
+      "part": 8,
+      "partSourceSeconds": 305.04690809249877,
+      "outputSeconds": 448.5147225462494,
+      "frame": "export-part8-first-wait-full.png",
+      "sourceSeconds": 305.04690809249877,
+      "sourceFrame": "source-part8-first-wait-1708x1016.png",
+      "outputFrame": "export-part8-first-wait-full.png",
+      "sourceSha256": "0e8336ac7509b67ea8ddfbbc4c11c71e3de142819c8eb47cdc319fa6c465c190"
+    },
+    {
+      "state": "part8-new-up-positive",
+      "part": 8,
+      "partSourceSeconds": 315.9243790626526,
+      "outputSeconds": 450.3187913646596,
+      "frame": "export-part8-new-up-positive-full.png",
+      "sourceSeconds": 315.9243790626526,
+      "sourceFrame": "source-part8-new-up-positive-1708x1016.png",
+      "outputFrame": "export-part8-new-up-positive-full.png",
+      "sourceSha256": "0e8336ac7509b67ea8ddfbbc4c11c71e3de142819c8eb47cdc319fa6c465c190"
+    },
+    {
+      "state": "part8-wait4",
+      "part": 8,
+      "partSourceSeconds": 329.86076588630675,
+      "outputSeconds": 452.11980227648667,
+      "frame": "export-part8-wait4-full.png",
+      "sourceSeconds": 329.86076588630675,
+      "sourceFrame": "source-part8-wait4-1708x1016.png",
+      "outputFrame": "export-part8-wait4-full.png",
+      "sourceSha256": "0e8336ac7509b67ea8ddfbbc4c11c71e3de142819c8eb47cdc319fa6c465c190"
+    },
+    {
+      "state": "part8-wait5",
+      "part": 8,
+      "partSourceSeconds": 340.7147280693054,
+      "outputSeconds": 453.9254658679861,
+      "frame": "export-part8-wait5-full.png",
+      "sourceSeconds": 340.7147280693054,
+      "sourceFrame": "source-part8-wait5-1708x1016.png",
+      "outputFrame": "export-part8-wait5-full.png",
+      "sourceSha256": "0e8336ac7509b67ea8ddfbbc4c11c71e3de142819c8eb47cdc319fa6c465c190"
+    },
+    {
+      "state": "part8-compressed-control",
+      "part": 8,
+      "partSourceSeconds": 353.5730981349945,
+      "outputSeconds": 455.7325082341639,
+      "frame": "export-part8-compressed-control-full.png",
+      "sourceSeconds": 353.5730981349945,
+      "sourceFrame": "source-part8-compressed-control-1708x1016.png",
+      "outputFrame": "export-part8-compressed-control-full.png",
+      "sourceSha256": "0e8336ac7509b67ea8ddfbbc4c11c71e3de142819c8eb47cdc319fa6c465c190"
+    },
+    {
+      "state": "part8-controlled-left",
+      "part": 8,
+      "partSourceSeconds": 369.23259110450743,
+      "outputSeconds": 457.5225962189204,
+      "frame": "export-part8-controlled-left-full.png",
+      "sourceSeconds": 369.23259110450743,
+      "sourceFrame": "source-part8-controlled-left-1708x1016.png",
+      "outputFrame": "export-part8-controlled-left-full.png",
+      "sourceSha256": "0e8336ac7509b67ea8ddfbbc4c11c71e3de142819c8eb47cdc319fa6c465c190"
+    },
+    {
+      "state": "part8-control-rules",
+      "part": 8,
+      "partSourceSeconds": 405.4138521671295,
+      "outputSeconds": 459.31944508356474,
+      "frame": "export-part8-control-rules-full.png",
+      "sourceSeconds": 405.4138521671295,
+      "sourceFrame": "source-part8-control-rules-1708x1016.png",
+      "outputFrame": "export-part8-control-rules-full.png",
+      "sourceSha256": "0e8336ac7509b67ea8ddfbbc4c11c71e3de142819c8eb47cdc319fa6c465c190"
+    },
+    {
+      "part": 8,
+      "state": "part8-cross-before-pause",
+      "partSourceSeconds": 540.23,
+      "outputSeconds": 491.0961901666667,
+      "frame": "export-part8-cross-before-pause-full.png",
+      "sourceSeconds": 540.23,
+      "sourceFrame": "source-part8-cross-before-pause-1708x1016.png",
+      "outputFrame": "export-part8-cross-before-pause-full.png",
+      "sourceSha256": "0e8336ac7509b67ea8ddfbbc4c11c71e3de142819c8eb47cdc319fa6c465c190"
+    },
+    {
+      "state": "part8-cross141-paused",
+      "part": 8,
+      "partSourceSeconds": 541.296834897995,
+      "outputSeconds": 491.6296076156642,
+      "frame": "export-part8-cross141-full.png",
+      "originalRootLabel": "cross141",
+      "clarification": "This root seek is after source429 pause, which began540.355029. Separate pre-pause cross frame is retained.",
+      "sourceSeconds": 541.296834897995,
+      "sourceFrame": "source-part8-cross141-paused-1708x1016.png",
+      "outputFrame": "export-part8-cross141-paused-full.png",
+      "sourceSha256": "0e8336ac7509b67ea8ddfbbc4c11c71e3de142819c8eb47cdc319fa6c465c190"
+    },
+    {
+      "state": "part8-hot-rules",
+      "part": 8,
+      "partSourceSeconds": 541.6967739582062,
+      "outputSeconds": 491.8295771457698,
+      "frame": "export-part8-hot-rules-full.png",
+      "sourceSeconds": 541.6967739582062,
+      "sourceFrame": "source-part8-hot-rules-1708x1016.png",
+      "outputFrame": "export-part8-hot-rules-full.png",
+      "sourceSha256": "0e8336ac7509b67ea8ddfbbc4c11c71e3de142819c8eb47cdc319fa6c465c190"
+    },
+    {
+      "state": "part8-below-skull",
+      "part": 8,
+      "partSourceSeconds": 572.1204940795899,
+      "outputSeconds": 496.66933303979494,
+      "frame": "export-part8-below-skull-full.png",
+      "sourceSeconds": 572.1204940795899,
+      "sourceFrame": "source-part8-below-skull-1708x1016.png",
+      "outputFrame": "export-part8-below-skull-full.png",
+      "sourceSha256": "0e8336ac7509b67ea8ddfbbc4c11c71e3de142819c8eb47cdc319fa6c465c190"
+    },
+    {
+      "state": "part8-skull-survived",
+      "part": 8,
+      "partSourceSeconds": 583.297097158432,
+      "outputSeconds": 498.46722974588266,
+      "frame": "export-part8-skull-survived-full.png",
+      "sourceSeconds": 583.297097158432,
+      "sourceFrame": "source-part8-skull-survived-1708x1016.png",
+      "outputFrame": "export-part8-skull-survived-full.png",
+      "sourceSha256": "0e8336ac7509b67ea8ddfbbc4c11c71e3de142819c8eb47cdc319fa6c465c190"
+    },
+    {
+      "state": "part8-winning-up",
+      "part": 8,
+      "partSourceSeconds": 595.6327991008759,
+      "outputSeconds": 500.27127905043795,
+      "frame": "export-part8-winning-up-full.png",
+      "sourceSeconds": 595.6327991008759,
+      "sourceFrame": "source-part8-winning-up-1708x1016.png",
+      "outputFrame": "export-part8-winning-up-full.png",
+      "sourceSha256": "0e8336ac7509b67ea8ddfbbc4c11c71e3de142819c8eb47cdc319fa6c465c190"
+    },
+    {
+      "state": "part8-settled-map6of4",
+      "part": 8,
+      "partSourceSeconds": 622.1085200309753,
+      "outputSeconds": 501.39696468215436,
+      "frame": "export-part8-settled-map6of4-full.png",
+      "sourceSeconds": 622.1085200309753,
+      "sourceFrame": "source-part8-settled-map6of4-1708x1016.png",
+      "outputFrame": "export-part8-settled-map6of4-full.png",
+      "sourceSha256": "0e8336ac7509b67ea8ddfbbc4c11c71e3de142819c8eb47cdc319fa6c465c190"
+    },
+    {
+      "state": "part8-final-pause",
+      "part": 8,
+      "partSourceSeconds": 623.7009350776673,
+      "outputSeconds": 502.19317220550033,
+      "frame": "export-part8-final-pause-full.png",
+      "sourceSeconds": 623.7009350776673,
+      "sourceFrame": "source-part8-final-pause-1708x1016.png",
+      "outputFrame": "export-part8-final-pause-full.png",
+      "sourceSha256": "0e8336ac7509b67ea8ddfbbc4c11c71e3de142819c8eb47cdc319fa6c465c190"
+    }
+  ],
+  "independentInsertSeeks": [],
+  "representativePosterSeconds": 498.46722974588266
+}

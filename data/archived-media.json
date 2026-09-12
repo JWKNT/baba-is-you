@@ -2180,6 +2180,17 @@
       "manifestSha256": "9572f80adec620aa7bcb48056dc0ccb56f384975ed4dd2df13a750247e9dbcd5",
       "repository": "JWKNT/baba-is-you-media-2",
       "verifiedCommit": "ea1d4b897f42fb023fda6147088176bc84a24fb0"
+    },
+    {
+      "id": "secret-hunt-018",
+      "file": "/baba-is-you-media/media/secret-hunt-018-first-parent-right.mp4",
+      "bytes": 1431674,
+      "sha256": "9c7b703361e5f56d27bdfd6a0aa277bc1dc04f435618d8491b46fa916c11f020",
+      "seconds": 36.833333,
+      "manifest": "data/pause-edits-secret-hunt-018.json",
+      "manifestSha256": "2c545d38b12c6ec005674cb68f31f1479c7a684712a159778d0bf1d411032bea",
+      "repository": "JWKNT/baba-is-you-media",
+      "verifiedCommit": "ee279f7cb541b3e72b945ff6abb636061095f528"
     }
   ]
 }

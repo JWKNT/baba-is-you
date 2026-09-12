@@ -2939,5 +2939,73 @@
       "mechanics": "The existing belt shifts its cargo before becoming GHOST. That one input forms FLAG IS FALL while creating the ghost that catches the falling flag. The right-side FLAG IS WIN remains intact for contact.",
       "attempts": "All 905 inputs across four chronological originals are retained at 2\u00d7, including the standalone GHOST test, the abandoned edgeboxed BELT setup, two undos, one restart, one wait and the successful 600-direction fresh constructor. No Baba death was observed. The final pause confirms 173 completions and eleven flowers."
     }
+  },
+  {
+    "id": "level-174",
+    "number": 174,
+    "title": "Floaty Platforms",
+    "world": "Mountaintop",
+    "code": "06",
+    "name": "Floaty Platforms",
+    "file": "/baba-is-you-media-2/media/174-floaty-platforms.mp4",
+    "poster": "assets/level-174.jpg",
+    "seconds": 233.533333,
+    "recorded": "2026-09-12",
+    "notes": {
+      "approach": "Build inert rock crossings to export both key and door with both Babas alive. Use ROCK and IS as a push chain to send the key into the door across the horizontal gap, then move the left Baba onto the flag released by DOOR HAS FLAG.",
+      "mechanics": "Temporarily disable ROCK IS PUSH so Babas and cargo can share the rocks without being lonely. The final route keeps two rule words accessible as pushers; the third word can be left beyond the platform. The key opens the door and creates a flag at391184. On the winning RIGHT, the left Baba touches it while the right Baba is lost off the platform.",
+      "attempts": "Six chronological visits and387 logged inputs, including earlier total-control and individual Baba losses, two undos, one confirmed restart, incidental level00 entry/exit, and the successful111-direction fresh route. All385 captured inputs remain at2\u00d7. Visit4 ends before its final two menu inputs; a labelled log and independent map still disclose that gap. Final pause confirms174 completions and eleven flowers."
+    }
+  },
+  {
+    "id": "level-175",
+    "number": 175,
+    "title": "The Floatiest Platforms",
+    "world": "Mountaintop",
+    "code": "Extra 1",
+    "name": "The Floatiest Platforms",
+    "file": "/baba-is-you-media-2/media/175-the-floatiest-platforms.mp4",
+    "poster": "assets/level-175.jpg",
+    "seconds": 71.333333,
+    "recorded": "2026-09-12",
+    "notes": {
+      "approach": "Build a crossing of three inert rocks and move the three rule words into a push chain against the right boundary. Hold the right Baba there while the left crosses the rocks to join it, then move the co-located Babas to the key and push it into the stationary door.",
+      "mechanics": "The boundary blocks the word train while ROCK IS PUSH stays off. The co-located Babas survive together on empty cells under LONELY BABA IS DEFEAT and push the key one cell per input. The key opens the fixed door and DOOR HAS FLAG creates the winning flag.",
+      "attempts": "Two chronological visits and 96 recorded inputs: entry and inspection, then the successful 89-direction fresh route. The merge, empty-cell survival, joint key push, door opening and victory were checked separately. No undo, restart, actor loss or missing input was observed. Final pause confirms 175 completions and eleven flowers; Mountaintop shows 8/6."
+    }
+  },
+  {
+    "id": "level-176",
+    "number": 176,
+    "title": "Floodgates",
+    "world": "Chasm",
+    "code": "H",
+    "name": "Floodgates",
+    "file": "/baba-is-you-media/media/176-floodgates.mp4",
+    "poster": "assets/level-176.jpg",
+    "seconds": 483.633333,
+    "recorded": "2026-09-12",
+    "notes": {
+      "approach": "Pulse STAR IS MORE while reusing three PUSH walls to steer the growing field away from every skull. Stop after the seventh growth advance, move the newly created LOVE word into the fixed IS WIN, then contact the surviving right heart.",
+      "mechanics": "Walls and words block incoming STAR copies; Baba does not. Turning MORE off adds no extra STAR layer in the recorded pulses. Repositioning the walls while growth is off lets the left heart melt into LOVE text with all skulls intact and no lava. Earlier right-pocket testing showed LOVE over lava and outgoing lava growth despite that text cover.",
+      "attempts": "Eleven chronological visits and 1,307 captured inputs, including two lava deaths, three undos, one confirmed restart and eighteen waits. Earlier blocked wall extraction, unsafe LOVE escapes, protected-heart tests and the failed right-pocket barrier remain. The final 49-direction rebuild plus171-direction dynamic route wins with no new death or undo. No missing input was identified; seven short source cadence gaps remain disclosed, including two at the earlier growth10/UP test. Final pause shows176 completions and eleven flowers."
+    }
+  },
+  {
+    "id": "level-177",
+    "number": 177,
+    "title": "Lonely Sight",
+    "world": "Chasm",
+    "code": "I",
+    "name": "Lonely Sight",
+    "file": "/baba-is-you-media-2/media/177-lonely-sight.mp4",
+    "poster": "assets/level-177.jpg",
+    "seconds": 93.333333,
+    "recorded": "2026-09-12",
+    "notes": {
+      "approach": "Pulse BABA IS MORE, turn it off, and use the bottom boundary to bring the middle pair together. Turn that pair into love, use one surviving Baba to create ice on it, then rebuild the control row so the final Baba becomes a controlled flag and walks onto the ice.",
+      "mechanics": "BABA ON BABA IS LOVE selectively transforms the overlapping pair while two single Babas remain. BABA ON LOVE IS ROCK, ROCK ON LOVE IS WEAK and ROCK HAS ICE leave ice at the contact cell with one Baba still controlled. Simultaneous BABA IS FLAG and FLAG IS YOU transfer control to the flag; FLAG ON ICE IS WIN finishes the level. The visible love sprite does not resolve whether multiple love objects overlap.",
+      "attempts": "Four chronological visits and251 recorded inputs: discovery,46-input setup followed by the clone pulse and boundary hold,77-input selective-love construction, and107-input ICE/FLAG continuation. All isolated mechanics and final controlled-flag contact passed. No undo,restart,wait,uncontrolled loss of control or missing input was observed. Earlier rejected construction drafts were not played. Final pause confirms177 completions and eleven flowers; Chasm shows15/9."
+    }
   }
 ]

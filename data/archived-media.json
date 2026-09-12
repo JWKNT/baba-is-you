@@ -2125,6 +2125,61 @@
       "manifestSha256": "3da22b1fa4e0774ebd265c2e6f42a3a8e9f5eddd587044000a9ecafce1172a4e",
       "repository": "JWKNT/baba-is-you-media-2",
       "verifiedCommit": "9d4f1603d302ebb75e8e08bdd7455396f6763c46"
+    },
+    {
+      "id": "level-181",
+      "file": "/baba-is-you-media/media/181-cleaning-service.mp4",
+      "bytes": 10671058,
+      "sha256": "271f87180ac9af704a119d654f2fd606c90845b5af71b1fa4106590e6eb2e9b0",
+      "seconds": 155.766667,
+      "manifest": "data/pause-edits-181.json",
+      "manifestSha256": "94a63cad3c524dec4fe0f6a045545ba1c3ef7fd7891a45bc5c8381b32b980301",
+      "repository": "JWKNT/baba-is-you-media",
+      "verifiedCommit": "90d12991ef0c5d051e3859146653fd343f69d571"
+    },
+    {
+      "id": "secret-hunt-014",
+      "file": "/baba-is-you-media-2/media/secret-hunt-014-entering-depths.mp4",
+      "bytes": 1874354,
+      "sha256": "dae4aeecb89bf66a59e7b2944bbc00669f21c5675bfbda2072706c0ec9593144",
+      "seconds": 35.3,
+      "manifest": "data/pause-edits-secret-hunt-014.json",
+      "manifestSha256": "2b92d95f5b7e8df0893aa2cac53aa2a6438738a16a651c812855c59ef01aff72",
+      "repository": "JWKNT/baba-is-you-media-2",
+      "verifiedCommit": "ea1d4b897f42fb023fda6147088176bc84a24fb0"
+    },
+    {
+      "id": "secret-hunt-015",
+      "file": "/baba-is-you-media-2/media/secret-hunt-015-depths-main-map-connection.mp4",
+      "bytes": 2089979,
+      "sha256": "28c1db6a8253aea83b0569180da2933edfb4713540014d712be9cdcd139928ef",
+      "seconds": 35.333333,
+      "manifest": "data/pause-edits-secret-hunt-015.json",
+      "manifestSha256": "c5123c0fb91c74edee7bc594852fa55fc2fead3d94f79046276fe974d9887cf4",
+      "repository": "JWKNT/baba-is-you-media-2",
+      "verifiedCommit": "ea1d4b897f42fb023fda6147088176bc84a24fb0"
+    },
+    {
+      "id": "secret-hunt-016",
+      "file": "/baba-is-you-media-2/media/secret-hunt-016-depths-entrance-round-trip.mp4",
+      "bytes": 1107477,
+      "sha256": "6df407e350287be41ffb2794b0d7003e443d14a89f0a011b8217617a585e3a31",
+      "seconds": 19.066667,
+      "manifest": "data/pause-edits-secret-hunt-016.json",
+      "manifestSha256": "ad85c3299d38ff14881064a8a8c7e9b52604d965c737963c3002694bcdc12022",
+      "repository": "JWKNT/baba-is-you-media-2",
+      "verifiedCommit": "ea1d4b897f42fb023fda6147088176bc84a24fb0"
+    },
+    {
+      "id": "secret-hunt-017",
+      "file": "/baba-is-you-media-2/media/secret-hunt-017-erased-cleaning-service-return.mp4",
+      "bytes": 1544778,
+      "sha256": "5a300be52109651e717baa3e564f39cafa729b51a723c2af9a882056b946ae74",
+      "seconds": 37.266667,
+      "manifest": "data/pause-edits-secret-hunt-017.json",
+      "manifestSha256": "9572f80adec620aa7bcb48056dc0ccb56f384975ed4dd2df13a750247e9dbcd5",
+      "repository": "JWKNT/baba-is-you-media-2",
+      "verifiedCommit": "ea1d4b897f42fb023fda6147088176bc84a24fb0"
     }
   ]
 }

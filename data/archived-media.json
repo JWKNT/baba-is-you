@@ -2246,6 +2246,39 @@
       "manifestSha256": "aa9e73733794467f80b96165945951dee82f2f6716fda1725648a6f49da04b5b",
       "repository": "JWKNT/baba-is-you-media",
       "verifiedCommit": "ce2f8d9932a8fc979096d37f8ed639527ff92e96"
+    },
+    {
+      "id": "secret-hunt-022",
+      "file": "/baba-is-you-media/media/secret-hunt-022-completed-objects-to-depths.mp4",
+      "bytes": 3112845,
+      "sha256": "280f0f5cba0272447193a592388548ab491920c922ed66fe876f5fa805384c2a",
+      "seconds": 63.7,
+      "manifest": "data/pause-edits-secret-hunt-022.json",
+      "manifestSha256": "4e51ef50231d770f1d886946107e2b0c676ca7d17fedce6eb2f4a21ef7508cfe",
+      "repository": "JWKNT/baba-is-you-media",
+      "verifiedCommit": "b81aa892a9fd5d33b10f415042a4d9afb9da0aa8"
+    },
+    {
+      "id": "secret-hunt-023",
+      "file": "/baba-is-you-media/media/secret-hunt-023-upper-map-boundary.mp4",
+      "bytes": 1304725,
+      "sha256": "6bc32f450051cc4b05bd14884f6b948cc08590ba7f06b8e10c58b319edfd1795",
+      "seconds": 27.733333,
+      "manifest": "data/pause-edits-secret-hunt-023.json",
+      "manifestSha256": "a476c9a0f72a0917b2881c9e60db09dd5fb5b7a85ad30aef4a1c005738883da9",
+      "repository": "JWKNT/baba-is-you-media",
+      "verifiedCommit": "b81aa892a9fd5d33b10f415042a4d9afb9da0aa8"
+    },
+    {
+      "id": "secret-hunt-024",
+      "file": "/baba-is-you-media/media/secret-hunt-024-temple-and-lake-at-eleven-flowers.mp4",
+      "bytes": 6003065,
+      "sha256": "4573294489962c1df2b5fb46397a684118a0eefadaa94f403f778b8642eb0e9e",
+      "seconds": 69.666667,
+      "manifest": "data/pause-edits-secret-hunt-024.json",
+      "manifestSha256": "021992f1df5cc5d85dbbf082f21371171fd73ae1ba95d0ba5bb205b6679df9ea",
+      "repository": "JWKNT/baba-is-you-media",
+      "verifiedCommit": "b81aa892a9fd5d33b10f415042a4d9afb9da0aa8"
     }
   ]
 }

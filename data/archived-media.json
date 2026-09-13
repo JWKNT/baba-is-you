@@ -2191,6 +2191,61 @@
       "manifestSha256": "2c545d38b12c6ec005674cb68f31f1479c7a684712a159778d0bf1d411032bea",
       "repository": "JWKNT/baba-is-you-media",
       "verifiedCommit": "ee279f7cb541b3e72b945ff6abb636061095f528"
+    },
+    {
+      "id": "secret-hunt-019",
+      "file": "/baba-is-you-media/media/secret-hunt-019-rock-is-level-huh-entry.mp4",
+      "bytes": 5926721,
+      "sha256": "330b0d9f8dab070d07de214184f91aee9bd22714e7a418989eae6a08af1e2771",
+      "seconds": 117.466667,
+      "manifest": "data/pause-edits-secret-hunt-019.json",
+      "manifestSha256": "8d54a2de3d92eaf789e020d973012117ca268a72d057ba7e8f3d37c0de851eef",
+      "repository": "JWKNT/baba-is-you-media",
+      "verifiedCommit": "ce2f8d9932a8fc979096d37f8ed639527ff92e96"
+    },
+    {
+      "id": "level-182",
+      "file": "/baba-is-you-media/media/182-huh.mp4",
+      "bytes": 2511609,
+      "sha256": "37f5f24adfb10bd189a5623b50b71cfe0d40eafcdab96720f84bf680ad99e0ca",
+      "seconds": 102.766667,
+      "manifest": "data/pause-edits-182.json",
+      "manifestSha256": "c81fc25e5871895a77b09e3257c80cf627d5ee84289bf6366e018302a7b912b1",
+      "repository": "JWKNT/baba-is-you-media",
+      "verifiedCommit": "ce2f8d9932a8fc979096d37f8ed639527ff92e96"
+    },
+    {
+      "id": "secret-hunt-020",
+      "file": "/baba-is-you-media/media/secret-hunt-020-water-is-level-getting-together.mp4",
+      "bytes": 3791691,
+      "sha256": "5f73d0875c8875c90fc30d6f5e4f3725f3fd4dd331ebbcf07294f1e12e018c68",
+      "seconds": 86.433333,
+      "manifest": "data/pause-edits-secret-hunt-020.json",
+      "manifestSha256": "9885ebf63990d68275daa95705df1be364b018068fe5f1a6b9b74710a69b518f",
+      "repository": "JWKNT/baba-is-you-media",
+      "verifiedCommit": "ce2f8d9932a8fc979096d37f8ed639527ff92e96"
+    },
+    {
+      "id": "level-183",
+      "file": "/baba-is-you-media/media/183-getting-together.mp4",
+      "bytes": 4733506,
+      "sha256": "cb477786fa79449c5c8dcb50869ac8634b3ea39f85a1dbce4c25eb610789beee",
+      "seconds": 247.933333,
+      "manifest": "data/pause-edits-183.json",
+      "manifestSha256": "7bdcf7d78f9eb85dccfd323364e293620130f91090bb0f536a5ac2742c6b3253",
+      "repository": "JWKNT/baba-is-you-media",
+      "verifiedCommit": "ce2f8d9932a8fc979096d37f8ed639527ff92e96"
+    },
+    {
+      "id": "secret-hunt-021",
+      "file": "/baba-is-you-media/media/secret-hunt-021-new-white-path-endpoint.mp4",
+      "bytes": 1709250,
+      "sha256": "1866c28875c80339be4fdc77a2d5b28bd8323123234e0f033482c161f3a0ab03",
+      "seconds": 39.333333,
+      "manifest": "data/pause-edits-secret-hunt-021.json",
+      "manifestSha256": "aa9e73733794467f80b96165945951dee82f2f6716fda1725648a6f49da04b5b",
+      "repository": "JWKNT/baba-is-you-media",
+      "verifiedCommit": "ce2f8d9932a8fc979096d37f8ed639527ff92e96"
     }
   ]
 }

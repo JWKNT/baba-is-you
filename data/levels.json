@@ -3075,5 +3075,39 @@
       "mechanics": "Each isolated weak-word push destroys the blocked word and advances Baba immediately, so two modeled normalization directions are omitted. The later pause explicitly lists both SKULL IS WEAK and SKULL IS DEFEAT. Contact removes the middle skull while Baba survives; the remaining four directions reach the flag. These are verified outcomes of these arrangements, without asserting a universal processing order.",
       "attempts": "Both chronological visits and all 394 inputs are retained at 2\u00d7. Part 1 first consumes TEXT and the door, then LEVEL IS WEAK erases the room; one Undo restores the predecessor. This is one whole-room/control-loss failure, with no separate individual Baba death assigned. Part 2 succeeds with 340 puzzle directions, matching the 342-direction reference except omitted 175 RIGHT and 201 LEFT. Its three intermediate pause/resume pairs and final map pause remain. No restart or explicit wait occurs. Hunt015 between the visits is separately allocated. The part 2 entry-title-card sample has a separate settled original; movement particles and the early blank-room sample remain qualified. Prior failed hypotheses, corrected floor geometry and the unplayed 25-direction alternative remain retained. Final Depths pause confirms181 completions and eleven flowers. Four source interframe intervals exceed 50 ms; one 51.667 ms interval overlaps part 2 LEFT event 248, whose complete input and visible push remain captured. Part 1 also reports one untimestamped invalid sample."
     }
+  },
+  {
+    "id": "level-182",
+    "number": 182,
+    "title": "Huh?",
+    "world": "???",
+    "code": "???-SECRET",
+    "name": "Huh?",
+    "file": "/baba-is-you-media/media/182-huh.mp4",
+    "poster": "assets/level-182.jpg",
+    "seconds": 102.766667,
+    "recorded": "2026-09-12",
+    "notes": {
+      "approach": "Use text as support while transporting WIN, FLAG and IS through the hedge platforms. Park WIN beside the final receiver, place FLAG above IS, then slide WIN into a vertical FLAG IS WIN sentence. Climb the preserved support route to the physical flag.",
+      "mechanics": "The first IS-left push initiates a fall through an intermediate inert hedge to the bottom; one Undo restores the predecessor. Later text-supported landings and moving support preserve Baba. The winning route parks WIN beside the IS lift until the final sideways activation. The pause verifies FLAG IS WIN together with BABA IS YOU and LONELY BABA IS FALL. After the flag contact, the specific winning return restores the ordinary parent word layout and ROCK PUSH, with ROCK LEVEL absent. This records this return without claiming a universal reset rule or explaining the older restoration transition.",
+      "attempts": "Both chronological visits and all 108 inputs are retained at 2\u00d7. Part1 preserves the failed IS-left fall, one Undo and the 26-direction supported prefix. Part2 uses the exact 68-direction suffix, with an intermediate rule pause/resume and final parent pause. No death, restart or explicit game wait occurs. Final ??? pause confirms 182 completions and eleven flowers. H019 discovery and entry sources are separately allocated. The two source decodes and all input brackets pass; part1 retains a 60 ms non-input interval, while part2 retains a 68.333 ms startup interval and one untimestamped invalid sample. Early victory and return-mask images remain distinct from the settled parent and final pause. Discarded construction gaps and the earlier failed fall remain preserved."
+    }
+  },
+  {
+    "id": "level-183",
+    "number": 183,
+    "title": "Getting Together",
+    "world": "???",
+    "code": "???-SECRET",
+    "name": "Getting Together",
+    "file": "/baba-is-you-media/media/183-getting-together.mp4",
+    "poster": "assets/level-183.jpg",
+    "seconds": 247.933333,
+    "recorded": "2026-09-12",
+    "notes": {
+      "approach": "Escort the flag to the corner with temporary BABA SHIFT. Use WALL ON ROCK IS BABA to create two additional controlled bodies while retaining both rocks. Place SHIFT on the inert lower rock, convert both rocks to walls, then form WALL ON BABA IS ROCK. Convert the spare wall on the held pair into the corner rock, break the inverse, and deliver the wall/text pile onto the pair, rock and flag.",
+      "mechanics": "The two created Babas remain a tracked pair after their boundary merge; one visible sprite alone does not establish multiplicity. ROCK IS WALL preserves the lower wall/text overlap. Pushing a spare wall onto the pair creates a rock while retaining the pair and flag; moving away exposes the rock. Breaking the inverse preserves WALL PUSH, and two mixed pushes move the wall and SHIFT together. The last RIGHT satisfies BABA ON WALL & TEXT & BABA & ROCK & FLAG IS WIN. The particular winning return restores the parent word layout and shows 183 completions and eleven flowers; it does not establish a universal parent reset or lethal-water rule.",
+      "attempts": "All five chronological visits and 561 inputs are retained at 2\u00d7. There are 539 puzzle directions and 22 pause/resume inputs, with no Undo, restart, game S wait, death or repair. Earlier rejected constructors, model corrections and construction gaps remain preserved in the playthrough notes. Source audits retain the part2 55 ms non-input interval and part4 205 ms initial non-input interval with five untimestamped startup invalid samples. Operational heartbeat waits are idle guard waits, not S inputs. Complete original time and all 25 family files remain allocated; H020 discovery/navigation is separate. Early returned-parent footage still shows 182 during the counter animation; the settled parent and final pause certify 183/11. The new white path is visible but untraversed within these sources."
+    }
   }
 ]

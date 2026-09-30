@@ -31,11 +31,10 @@ test('the visible level count excludes secret hunts and each hunt has native not
 });
 
 
-test('the page retains one native Home link before its content', async () => {
+test('the page retains native Home in its existing header settings', async () => {
   const html = readFileSync(new URL('index.html',root),'utf8');
-  assert.equal((html.match(/class="site-home-dock"/g) || []).length, 1);
-  assert.match(html, /<body[^>]*>\s*<nav class="site-home-dock" aria-label="Site">/);
-  assert.match(html, /class="site-home" href="https:\/\/jehlp\.net\/" aria-label="Home · jehlp.net"/);
-  assert.ok(html.includes('base.css?v=20260930-home2'));
-  assert.ok(html.includes('theme.js?v=20260930-home3'));
+  assert.equal((html.match(/class="site-home"/g) || []).length, 1);
+  assert.doesNotMatch(html, /site-home-dock/);
+  assert.match(html, /<header[^>]*>[\s\S]*?<span class="site-utility-pair"><a class="site-home"[^>]*aria-label="Home — jehlp.net"[\s\S]*?<\/a><button[^>]*data-theme-toggle/);
+  for (const asset of ['base.css', 'theme.js']) assert.ok(html.includes(`${asset}?v=20260930-header-home`));
 });

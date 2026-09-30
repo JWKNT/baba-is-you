@@ -25,11 +25,12 @@ writeFileSync(new URL('./index.html',import.meta.url),`<!doctype html>
 <meta name="author" content="jehlp.net"><meta name="theme-color" content="#fbfaf7">
 <link rel="canonical" href="https://jehlp.net/baba-is-you/">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-<script src="https://jehlp.net/site-theme/v2/theme.js"></script>
-<link rel="stylesheet" href="https://jehlp.net/site-theme/v2/base.css?v=20260930-dial">
+<script src="https://jehlp.net/site-theme/v2/theme.js?v=20260930-home"></script>
+<link rel="stylesheet" href="https://jehlp.net/site-theme/v2/base.css?v=20260930-home">
 <link rel="stylesheet" href="https://jehlp.net/site-theme/v2/components.css">
 <link rel="stylesheet" href="assets/styles.css?v=20260906-notes"><script src="assets/playback-speed.js?v=20260906-speed" defer></script><script src="assets/world-browser.js?v=20260906-tiles" defer></script><script src="assets/player.js?v=20260910-secret-hunts" defer></script>
 </head><body data-site-tone="ochre">
+    <nav class="site-home-dock" aria-label="Site"><a class="site-home" href="https://jehlp.net/" aria-label="Home · jehlp.net" title="Home · jehlp.net"><span aria-hidden="true">⌂</span></a></nav>
 <a href="#player" class="skip-link">Skip to video</a>
 <header class="site-header site-header--identity"><div class="site-brand"><img class="site-mark" src="https://jehlp.net/site-theme/v2/marks/baba-is-you.png" width="32" height="32" alt=""><h1 class="site-title">Baba Is You</h1></div><nav aria-label="Page links"><button class="theme-toggle" type="button" data-theme-toggle aria-label="Use dark theme" aria-pressed="false">◐</button></nav></header>
 <main class="page-shell">

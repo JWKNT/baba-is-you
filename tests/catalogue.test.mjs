@@ -29,3 +29,12 @@ test('the visible level count excludes secret hunts and each hunt has native not
  if(secretHunts.length)assert.ok(html.includes(`${secretHunts.length} secret ${secretHunts.length===1?'hunt':'hunts'}`));
  for(const hunt of secretHunts)assert.ok(html.includes(`<details data-notes-id="${hunt.id}">`));
 });
+
+
+test('the page retains one native Home link before its content', async () => {
+  const html = readFileSync(new URL('index.html',root),'utf8');
+  assert.equal((html.match(/class="site-home-dock"/g) || []).length, 1);
+  assert.match(html, /<body[^>]*>\s*<nav class="site-home-dock" aria-label="Site">/);
+  assert.match(html, /class="site-home" href="https:\/\/jehlp\.net\/" aria-label="Home · jehlp.net"/);
+  for (const asset of ['base.css', 'theme.js']) assert.ok(html.includes(`${asset}?v=20260930-home`));
+});

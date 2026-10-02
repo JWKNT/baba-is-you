@@ -47,7 +47,7 @@ footer { border-top:1px solid var(--line); margin-top:2.5rem; padding-block:1rem
 .rule-divider { display:grid; grid-template-columns:minmax(0,1fr) auto minmax(0,1fr); align-items:center; gap:1rem; margin:0 0 .4rem; color:var(--muted); }
 .rule-divider::before,.rule-divider::after { content:""; height:1px; background:var(--line-strong); }
 .rule-divider svg { display:block; width:4.5rem; height:1.5rem; background:transparent; }
-.rule-divider-center { stroke:var(--site-accent, #987449); }
+.rule-divider-center { stroke:currentColor; }
 @media print { .rule-divider { display:none; } }
 
 .recording-context { min-width: 0; }

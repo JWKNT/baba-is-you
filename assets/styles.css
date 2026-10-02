@@ -1,4 +1,4 @@
-:root { --page: 78rem; }
+:root { --page: 74rem; } /* shared header frame */
 .intro { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .25rem 1rem; margin: 1rem 0 1.25rem; color: var(--muted-strong); font: var(--text-ui)/1.6 var(--ui, var(--serif)); }
 .intro p { margin: 0; }
 .intro p:last-child { color: var(--muted); }

@@ -54,7 +54,7 @@ footer { border-top:1px solid var(--line); margin-top:2.5rem; padding-block:1rem
 .level-notes { margin: 0 0 1.8rem; }
 .level-notes h2 { margin: 0 0 1.1rem; font: 700 1.3rem/1.4 var(--serif); }
 .level-notes h3 { margin: 1rem 0 .25rem; color: var(--muted-strong); font: 700 var(--text-ui)/1.5 var(--ui, var(--serif)); }
-.level-notes p { margin: 0; font: 1rem/1.6 var(--serif); overflow-wrap: anywhere; }
+.level-notes p { margin: 0; font: 1rem/1.6 var(--reading, var(--serif)); overflow-wrap: anywhere; }
 .level-notes details { border: 0; padding: 0; }
 .level-notes summary { padding: .6rem 0; cursor: pointer; font: 1rem/1.5 var(--serif); }
 .level-notes[data-enhanced] summary { display: none; }
